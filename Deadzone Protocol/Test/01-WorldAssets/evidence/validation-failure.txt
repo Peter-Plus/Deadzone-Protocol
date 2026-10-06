@@ -1,0 +1,4 @@
+Error: Terrain relief 1.488098919391632 outside 2..4 m
+    at requireThat (file:///G:/Game/Fire/Deadzone%20Protocol/Test/01-WorldAssets/src/validate.mjs:5:43)
+    at validateScene (file:///G:/Game/Fire/Deadzone%20Protocol/Test/01-WorldAssets/src/validate.mjs:15:75)
+    at main (file:///G:/Game/Fire/Deadzone%20Protocol/Test/01-WorldAssets/src/validate.mjs:44:77)

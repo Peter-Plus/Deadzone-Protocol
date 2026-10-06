@@ -1,0 +1,262 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_FPS_Arms_001_Base",
+  "type": "fps_arms",
+  "rig": "fps-arms.v1",
+  "materials": {
+    "cloth": {
+      "color": "#56615A",
+      "roughness": 0.95
+    },
+    "clothDark": {
+      "color": "#39453F",
+      "roughness": 0.94
+    },
+    "glove": {
+      "color": "#1E272B",
+      "roughness": 0.84
+    }
+  },
+  "parts": [
+    {
+      "id": "SleeveUpper_L",
+      "parent": "UpperArm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.084,
+          0.082,
+          0.268
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.14
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "Elbow_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.043
+      },
+      "material": "clothDark"
+    },
+    {
+      "id": "SleeveLower_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.07,
+          0.072,
+          0.193
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.095
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "Cuff_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.074,
+          0.076,
+          0.025
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.192
+      ],
+      "material": "clothDark"
+    },
+    {
+      "id": "Glove_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.077,
+          0.066,
+          0.1
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.251
+      ],
+      "material": "glove"
+    },
+    {
+      "id": "SleeveUpper_R",
+      "parent": "UpperArm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.084,
+          0.082,
+          0.268
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.14
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "Elbow_R",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.043
+      },
+      "material": "clothDark"
+    },
+    {
+      "id": "SleeveLower_R",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.07,
+          0.072,
+          0.193
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.095
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "Cuff_R",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.074,
+          0.076,
+          0.025
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.192
+      ],
+      "material": "clothDark"
+    },
+    {
+      "id": "Glove_R",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.077,
+          0.066,
+          0.1
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.251
+      ],
+      "material": "glove"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "Weapon_L",
+      "parent": "Forearm_L",
+      "position": [
+        0,
+        0,
+        0.251
+      ],
+      "rotation": [
+        14.999999999999996,
+        15.999999999999996,
+        4.1359115510668424e-16
+      ]
+    },
+    {
+      "id": "Weapon_R",
+      "parent": "Forearm_R",
+      "position": [
+        -0.008269120674509977,
+        -0.018536613234462623,
+        0.27309107541670025
+      ],
+      "rotation": [
+        39.99999999999998,
+        -16.000000000000004,
+        -3.308729240853474e-15
+      ]
+    },
+    {
+      "id": "Camera_FPS",
+      "parent": "Root",
+      "position": [
+        0,
+        0.03,
+        -0.09
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ]
+    },
+    {
+      "id": "ShadowBlade_L",
+      "parent": "Forearm_L",
+      "position": [
+        0,
+        0,
+        0.251
+      ],
+      "rotation": [
+        40,
+        16,
+        -12
+      ]
+    },
+    {
+      "id": "ShadowBlade_R",
+      "parent": "Forearm_R",
+      "position": [
+        0,
+        0,
+        0.251
+      ],
+      "rotation": [
+        40,
+        -16,
+        12
+      ]
+    }
+  ],
+  "rigPose": {
+    "UpperArm_L": -15,
+    "Forearm_L": 40,
+    "UpperArm_R": 0,
+    "Forearm_R": 0
+  }
+}

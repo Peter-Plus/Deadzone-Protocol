@@ -1,0 +1,229 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_Consumable_006_VirusSerum",
+  "type": "static",
+  "materials": {
+    "white": {
+      "color": "#D9DACD",
+      "roughness": 0.92
+    },
+    "dark": {
+      "color": "#293638",
+      "roughness": 0.78
+    },
+    "metal": {
+      "color": "#929D9E",
+      "metalness": 0.7,
+      "roughness": 0.4
+    },
+    "red": {
+      "color": "#A8463D",
+      "roughness": 0.65
+    },
+    "orange": {
+      "color": "#D2A13D",
+      "roughness": 0.68
+    },
+    "blue": {
+      "color": "#397B98",
+      "roughness": 0.65
+    },
+    "green": {
+      "color": "#568A70",
+      "roughness": 0.65
+    },
+    "purple": {
+      "color": "#70688B",
+      "roughness": 0.65
+    },
+    "label": {
+      "color": "#DFD5B8",
+      "roughness": 0.95
+    },
+    "hole": {
+      "color": "#101B20",
+      "roughness": 1
+    }
+  },
+  "parts": [
+    {
+      "id": "VialBase",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.026,
+        "height": 0.012
+      },
+      "position": [
+        0,
+        0.006000000052154064,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "SerumVial",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.022,
+        "radiusBottom": 0.022,
+        "height": 0.08
+      },
+      "position": [
+        0,
+        0.05200000005215406,
+        0
+      ],
+      "material": "green"
+    },
+    {
+      "id": "Shoulder",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.013,
+        "radiusBottom": 0.022,
+        "height": 0.012
+      },
+      "position": [
+        0,
+        0.09600000005215406,
+        0
+      ],
+      "material": "green"
+    },
+    {
+      "id": "SealNeck",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.013,
+        "radiusBottom": 0.013,
+        "height": 0.012
+      },
+      "position": [
+        0,
+        0.10800000005215406,
+        0
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "TamperCap",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.02,
+        "height": 0.012
+      },
+      "position": [
+        0,
+        0.11900000005215405,
+        0
+      ],
+      "material": "purple"
+    },
+    {
+      "id": "ProtectiveRail_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.008,
+          0.086,
+          0.023
+        ]
+      },
+      "position": [
+        -0.025,
+        0.05200000005215406,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "ProtectiveRail_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.008,
+          0.086,
+          0.023
+        ]
+      },
+      "position": [
+        0.025,
+        0.05200000005215406,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "RailBand",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.026,
+        "height": 0.008
+      },
+      "position": [
+        0,
+        0.039000000052154066,
+        0
+      ],
+      "material": "purple"
+    },
+    {
+      "id": "SerumLabel",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.025,
+          0.024,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.07100000005215405,
+        0.022
+      ],
+      "material": "label"
+    },
+    {
+      "id": "ShieldMark",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.01,
+          0.012,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.07300000005215405,
+        0.024
+      ],
+      "material": "purple",
+      "rotation": [
+        0,
+        0,
+        45
+      ]
+    }
+  ],
+  "sockets": [
+    {
+      "id": "Grip_R",
+      "parent": "VialBase",
+      "position": [
+        0,
+        0.09599999999999999,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        180
+      ]
+    }
+  ]
+}

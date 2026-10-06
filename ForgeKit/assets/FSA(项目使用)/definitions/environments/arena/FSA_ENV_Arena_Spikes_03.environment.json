@@ -1,0 +1,498 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Arena_Spikes_03",
+  "label": "混沌场地尖刺 3",
+  "type": "solid",
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Arena_Spikes_03",
+    "type": "static",
+    "parts": [
+      {
+        "id": "Spike_0",
+        "shape": {
+          "type": "cone",
+          "radius": 0.6192,
+          "height": 3.0599999999999996,
+          "radialSegments": 5
+        },
+        "position": [
+          0,
+          1.4099999999999997,
+          0
+        ],
+        "rotation": [
+          0,
+          57,
+          0
+        ],
+        "material": {
+          "color": "#201b24",
+          "emissive": "#100206",
+          "roughness": 0.78,
+          "metalness": 0.15
+        }
+      },
+      {
+        "id": "Basalt_0",
+        "shape": {
+          "type": "rock",
+          "size": [
+            0.9889999999999999,
+            0.48,
+            0.86
+          ],
+          "seed": 300
+        },
+        "position": [
+          0,
+          0.08,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#352530",
+          "emissive": "#000000",
+          "roughness": 0.78,
+          "metalness": 0.15
+        }
+      },
+      {
+        "id": "Collision_0_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7073499999999999,
+            0.7649999999999999,
+            0.7073499999999999
+          ]
+        },
+        "position": [
+          0,
+          0.26249999999999996,
+          0
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Collision_0_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.50525,
+            0.7649999999999999,
+            0.50525
+          ]
+        },
+        "position": [
+          0,
+          1.0274999999999999,
+          0
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Collision_0_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.30315,
+            0.7649999999999999,
+            0.30315
+          ]
+        },
+        "position": [
+          0,
+          1.7924999999999995,
+          0
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Collision_0_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.10104999999999999,
+            0.7649999999999999,
+            0.10104999999999999
+          ]
+        },
+        "position": [
+          0,
+          2.5574999999999997,
+          0
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Spike_1",
+        "shape": {
+          "type": "cone",
+          "radius": 0.44639999999999996,
+          "height": 1.05,
+          "radialSegments": 5
+        },
+        "position": [
+          -0.10092242035414699,
+          0.405,
+          -0.8137657310736678
+        ],
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "material": {
+          "color": "#35212a",
+          "emissive": "#100206",
+          "roughness": 0.78,
+          "metalness": 0.15
+        }
+      },
+      {
+        "id": "Basalt_1",
+        "shape": {
+          "type": "rock",
+          "size": [
+            0.713,
+            0.48,
+            0.62
+          ],
+          "seed": 301
+        },
+        "position": [
+          -0.10092242035414699,
+          0.08,
+          -0.8137657310736678
+        ],
+        "rotation": [
+          0,
+          32,
+          0
+        ],
+        "material": {
+          "color": "#352530",
+          "emissive": "#000000",
+          "roughness": 0.78,
+          "metalness": 0.15
+        }
+      },
+      {
+        "id": "Collision_1_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5099499999999999,
+            0.2625,
+            0.5099499999999999
+          ]
+        },
+        "position": [
+          -0.10092242035414699,
+          0.01125000000000001,
+          -0.8137657310736678
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Collision_1_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.36424999999999996,
+            0.2625,
+            0.36424999999999996
+          ]
+        },
+        "position": [
+          -0.10092242035414699,
+          0.27375000000000005,
+          -0.8137657310736678
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Collision_1_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.21854999999999997,
+            0.2625,
+            0.21854999999999997
+          ]
+        },
+        "position": [
+          -0.10092242035414699,
+          0.53625,
+          -0.8137657310736678
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Collision_1_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07285,
+            0.2625,
+            0.07285
+          ]
+        },
+        "position": [
+          -0.10092242035414699,
+          0.7987500000000001,
+          -0.8137657310736678
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Spike_2",
+        "shape": {
+          "type": "cone",
+          "radius": 0.3312,
+          "height": 1.47,
+          "radialSegments": 5
+        },
+        "position": [
+          0.47227360688384895,
+          0.615,
+          0.4016934655193182
+        ],
+        "rotation": [
+          0,
+          123,
+          0
+        ],
+        "material": {
+          "color": "#201b24",
+          "emissive": "#100206",
+          "roughness": 0.78,
+          "metalness": 0.15
+        }
+      },
+      {
+        "id": "Basalt_2",
+        "shape": {
+          "type": "rock",
+          "size": [
+            0.529,
+            0.48,
+            0.46
+          ],
+          "seed": 302
+        },
+        "position": [
+          0.47227360688384895,
+          0.08,
+          0.4016934655193182
+        ],
+        "rotation": [
+          0,
+          64,
+          0
+        ],
+        "material": {
+          "color": "#352530",
+          "emissive": "#000000",
+          "roughness": 0.78,
+          "metalness": 0.15
+        }
+      },
+      {
+        "id": "Collision_2_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.37835,
+            0.3675,
+            0.37835
+          ]
+        },
+        "position": [
+          0.47227360688384895,
+          0.06375,
+          0.4016934655193182
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Collision_2_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27025,
+            0.3675,
+            0.27025
+          ]
+        },
+        "position": [
+          0.47227360688384895,
+          0.43125,
+          0.4016934655193182
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Collision_2_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16215000000000002,
+            0.3675,
+            0.16215000000000002
+          ]
+        },
+        "position": [
+          0.47227360688384895,
+          0.79875,
+          0.4016934655193182
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      },
+      {
+        "id": "Collision_2_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.05405,
+            0.3675,
+            0.05405
+          ]
+        },
+        "position": [
+          0.47227360688384895,
+          1.1662499999999998,
+          0.4016934655193182
+        ],
+        "material": {
+          "color": "#201b24",
+          "transparent": true,
+          "opacity": 0
+        }
+      }
+    ]
+  },
+  "placement": {
+    "min": [
+      -1.65,
+      -1.65
+    ],
+    "max": [
+      1.65,
+      1.65
+    ]
+  },
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "colliders": [
+    {
+      "node": "Collision_0_0",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_0_1",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_0_2",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_0_3",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_1_0",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_1_1",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_1_2",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_1_3",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_2_0",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_2_1",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_2_2",
+      "role": "solid"
+    },
+    {
+      "node": "Collision_2_3",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": []
+}

@@ -1,0 +1,339 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_chaos_hell_hand",
+  "name": "地狱之手 · 扇区黑洞吸引",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "dissipate": {
+      "duration": 0.45,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "shadow_stream",
+      "kind": "suction",
+      "texture": "mist",
+      "count": 180,
+      "angle": 75,
+      "radius": 9,
+      "height": 2.4,
+      "speed": 4.5,
+      "size": [
+        0.2,
+        0.45
+      ],
+      "seed": 12010,
+      "profiles": {
+        "active": {
+          "strength": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#130d20",
+        "opacity": 0.85,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "soul_stream",
+      "kind": "suction",
+      "texture": "mist",
+      "count": 180,
+      "angle": 75,
+      "radius": 9,
+      "height": 2.4,
+      "speed": 4.5,
+      "size": [
+        0.2,
+        0.45
+      ],
+      "seed": 12011,
+      "profiles": {
+        "active": {
+          "strength": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#632e93",
+        "opacity": 0.65,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "shards",
+      "kind": "suction",
+      "texture": "glow",
+      "count": 70,
+      "angle": 75,
+      "radius": 9,
+      "height": 2.4,
+      "speed": 4.5,
+      "size": [
+        0.04,
+        0.09
+      ],
+      "seed": 12012,
+      "profiles": {
+        "active": {
+          "strength": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#a15ed0",
+        "opacity": 0.5,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "violet_corona",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 48,
+      "seed": 12013,
+      "position": [
+        0,
+        0,
+        0.06
+      ],
+      "radii": [
+        0.55,
+        0.55,
+        0.15
+      ],
+      "size": [
+        0.3,
+        0.5
+      ],
+      "shell": 0.95,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 1.5,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#663296",
+        "opacity": 0.65,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "event_horizon",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 32,
+      "seed": 12014,
+      "position": [
+        0,
+        0,
+        0.05
+      ],
+      "radii": [
+        0.25,
+        0.25,
+        0.08
+      ],
+      "size": [
+        0.35,
+        0.5
+      ],
+      "shell": 0.2,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#030207",
+        "opacity": 0.98,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "ground_sector",
+      "kind": "warning",
+      "shape": "sector",
+      "angle": 75,
+      "radius": 9,
+      "ground": -2.5,
+      "profiles": {
+        "active": {
+          "strength": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#bd2038",
+        "opacity": 0.9,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

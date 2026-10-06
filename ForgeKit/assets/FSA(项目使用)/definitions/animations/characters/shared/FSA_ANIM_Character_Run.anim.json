@@ -1,0 +1,15 @@
+{
+  "schema": "animation.v1",
+  "id": "FSA_ANIM_Character_Run",
+  "rig": "humanoid.v1",
+  "mode": "generator",
+  "generator": "humanoid.run",
+  "duration": 0.72,
+  "loop": true,
+  "parameters": {
+    "armSwing": 35,
+    "legSwing": 38,
+    "bodyBob": 0.032,
+    "bodyLean": 10
+  }
+}

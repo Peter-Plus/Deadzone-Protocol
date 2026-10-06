@@ -1,0 +1,9 @@
+{
+  "runtime": {"node": "22.19.0", "minimumNode": "22"},
+  "readOnlyToolchain": "G:/Game/Fire/ForgeKit",
+  "packages": {"forgekit": "1.0.0", "three": "0.180.0", "ajv": "8.20.0", "esbuild": "0.28.2"},
+  "browserTest": "Chrome 154.0.8037.93 (headless, file://)",
+  "newInstallations": [],
+  "previewDependencies": "All scripts, GLB buffers and JSON are embedded in Preview.html. No runtime request to these toolchain paths.",
+  "sourceBuildDependencies": "Existing ForgeKit/node_modules read-only; scripts resolve relative to the game/ForgeKit sibling layout."
+}

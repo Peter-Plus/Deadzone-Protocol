@@ -1,0 +1,69 @@
+{
+  "protectedCount": 234,
+  "passed": false,
+  "changed": [
+    {
+      "path": "Assets\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C002_PlagueBeast.glb",
+      "before": "bac8b80e67deacab1e606d3d52c59a9bf6c2026b90f0d6ed88d8cd8b7dbdf1c8",
+      "after": "49100d743515b89cafa078b8ec80d4a1eec004dba09020f2c46d121c8fb39019"
+    },
+    {
+      "path": "Assets\\models\\characters\\enemies\\bosses\\FSA_ENEMY_D001_Chaos.glb",
+      "before": "42b9127f8b155d1a0c8e643602a97c5c77a2d5ab2aa5bb079d5b7498f44d6168",
+      "after": "a22f084a00d8f15bdb5af8ec21a34e429394ebbc7b8be4d85b29cd8c5e81db5f"
+    },
+    {
+      "path": "Assets\\模型资产使用说明.md",
+      "before": "1106b6cb23b215b093250d9ec042cd8ddfabe5a88f141c76912c085fd74c4b63",
+      "after": "364dce43526e15e33c1a294cb11b19c60f539c9e04d1a3a8ff12d872354f6f9c"
+    },
+    {
+      "path": "Assets\\资产配置表.md",
+      "before": "74889fe80ed8d8c720bc23fcc157006aac94d073163286649c37d8d1727f88c9",
+      "after": "7f0b89c4c7427c234ddf53a7414a541f08d01c8031b4c39bd74053e55697e303"
+    },
+    {
+      "path": "Design\\Character\\EnemyContent.md",
+      "before": "3cf456164563c36c87c429566074af980d4a69663397f599c520a62a81e69faa",
+      "after": "65ce021b3e47926915390c87057e650078b94ed2fd511b1f63210d2c256c86cc"
+    },
+    {
+      "path": "Implementation\\README.md",
+      "before": "e8a3d93a347f339ba0d300717301c37bf904d8dcf967070f420af07020c2f7c4",
+      "after": "3852934f64bab329bbfab4b37a411ef4e8471387b8af04309a255a455b181860"
+    },
+    {
+      "path": "Production\\Guide\\GettingStarted.md",
+      "before": "69dde0b92f3bb8a9dc0f980055dcbd06ffb7b80b5def93025a3e34d8cafaf739",
+      "after": "6ad0c29aa95236b9cfa229faeeee547dac91ad07de6ed250b6ab38540239211a"
+    },
+    {
+      "path": "Production\\Plan\\Art\\02-建议项\\05-瘴疫兽角色与动作.md",
+      "before": "91c88c1fb70e289226d84192b7919407c58d7d28b37bd123f75113c9c770cf4d",
+      "after": "a1970ba261be6dbd80a8a1380150ace38915bf279056681a9d45bf135cfe765a"
+    },
+    {
+      "path": "Production\\Plan\\Art\\02-建议项\\06-炎巫角色与动作.md",
+      "before": "6a126d308cd84455402463edc17716664b75f05c5d983d539fa6be448b8db404",
+      "after": "b8d0ae4925ffdc6113faed4ed8efae185efa9909b17ed2d727e4119a0450a44b"
+    },
+    {
+      "path": "Production\\Plan\\Art\\02-建议项\\07-混沌角色与动作.md",
+      "before": "1d7d0998448b2a2f385b60a8b05ca4771e9bc240e0ac20e8caa861e018a3b303",
+      "after": "6dc96ef42cf9bfda35b23e075b5556eddd401a1ee3012c7d23699daaaeb88b63"
+    },
+    {
+      "path": "Production\\Plan\\Art\\ArtAssetNeeds.md",
+      "before": "781b3bdb07ebf277bc418b43f0cacb266c6d71dcb486120147658aaaf998a3a6",
+      "after": "a39d158321e6432e7b160098774951cbe6980383ca43ada8ee238fa0fc98c290"
+    }
+  ],
+  "missing": [],
+  "newlyObserved": [
+    "Assets\\animations\\characters\\overrides\\bosses\\flame_witch\\FSA_ANIM_C003_FlameWitch_Attack.anim.glb",
+    "Assets\\animations\\characters\\overrides\\bosses\\flame_witch\\FSA_ANIM_C003_FlameWitch_Charge.anim.glb",
+    "Assets\\animations\\characters\\overrides\\bosses\\flame_witch\\FSA_ANIM_C003_FlameWitch_FlameRoar.anim.glb",
+    "Assets\\animations\\characters\\overrides\\bosses\\flame_witch\\FSA_ANIM_C003_FlameWitch_TeleportRecover.anim.glb"
+  ],
+  "note": "SHA256 compares game source/assets/documents and 01 deliverables; excludes dependencies/build caches/browser profiles. Changes by other sessions, if any, are observed, never reverted. All task writes scoped to Test/02-Navigation and the 02 report."
+}

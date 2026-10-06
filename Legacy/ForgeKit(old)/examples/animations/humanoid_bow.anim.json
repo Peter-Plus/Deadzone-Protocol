@@ -1,0 +1,22 @@
+{
+  "schema": "animation.v1",
+  "id": "animation.humanoid.bow",
+  "rig": "humanoid.v1",
+  "duration": 2,
+  "loop": false,
+  "mode": "timeline",
+  "timeline": [
+    {
+      "time": 0,
+      "pose": "pose.humanoid.stand"
+    },
+    {
+      "time": 1,
+      "pose": "pose.humanoid.bow"
+    },
+    {
+      "time": 2,
+      "pose": "pose.humanoid.stand"
+    }
+  ]
+}

@@ -1,0 +1,1015 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Tree_03_Windswept",
+  "label": "枯树／单侧风折树",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -1.07,
+      -1
+    ],
+    "max": [
+      2.67,
+      1.08
+    ]
+  },
+  "colliders": [
+    {
+      "node": "RootCore",
+      "role": "solid"
+    },
+    {
+      "node": "Root_0",
+      "role": "solid"
+    },
+    {
+      "node": "Root_1",
+      "role": "solid"
+    },
+    {
+      "node": "Root_2",
+      "role": "solid"
+    },
+    {
+      "node": "Root_3",
+      "role": "solid"
+    },
+    {
+      "node": "Root_4",
+      "role": "solid"
+    },
+    {
+      "node": "Main0",
+      "role": "solid"
+    },
+    {
+      "node": "Main1",
+      "role": "solid"
+    },
+    {
+      "node": "Main2",
+      "role": "solid"
+    },
+    {
+      "node": "Main3",
+      "role": "solid"
+    },
+    {
+      "node": "Main4",
+      "role": "solid"
+    },
+    {
+      "node": "Main5",
+      "role": "solid"
+    },
+    {
+      "node": "Main6",
+      "role": "solid"
+    },
+    {
+      "node": "Main7",
+      "role": "solid"
+    },
+    {
+      "node": "Main8",
+      "role": "solid"
+    },
+    {
+      "node": "Main9",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Tree_03_Windswept",
+    "type": "static",
+    "parts": [
+      {
+        "id": "RootCore",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.65,
+            0.32,
+            0.5850000000000001
+          ]
+        },
+        "position": [
+          0,
+          0.16,
+          0
+        ],
+        "rotation": [
+          0,
+          18,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Root_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.19,
+            0.15,
+            0.75
+          ]
+        },
+        "position": [
+          0,
+          0.075,
+          0.35100000000000003
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Root_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.19,
+            0.15,
+            0.75
+          ]
+        },
+        "position": [
+          0.3338208372195989,
+          0.075,
+          0.10846496502560657
+        ],
+        "rotation": [
+          0,
+          72,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Root_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.19,
+            0.15,
+            0.75
+          ]
+        },
+        "position": [
+          0.20631262355465815,
+          0.075,
+          -0.28396496502560653
+        ],
+        "rotation": [
+          0,
+          144,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Root_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.19,
+            0.15,
+            0.75
+          ]
+        },
+        "position": [
+          -0.20631262355465804,
+          0.075,
+          -0.2839649650256066
+        ],
+        "rotation": [
+          0,
+          216,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Root_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.19,
+            0.15,
+            0.75
+          ]
+        },
+        "position": [
+          -0.333820837219599,
+          0.075,
+          0.10846496502560649
+        ],
+        "rotation": [
+          0,
+          288,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Main0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.45,
+            0.43
+          ]
+        },
+        "position": [
+          0,
+          0.42500000000000004,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "MainScar0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.065,
+            0.29250000000000004,
+            0.015
+          ]
+        },
+        "position": [
+          0.07,
+          0.42500000000000004,
+          0.224
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Main1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.475,
+            0.45,
+            0.4085
+          ]
+        },
+        "position": [
+          0.033,
+          0.875,
+          0
+        ],
+        "rotation": [
+          0,
+          9,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Main2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.45,
+            0.45,
+            0.387
+          ]
+        },
+        "position": [
+          0.066,
+          1.3250000000000002,
+          0
+        ],
+        "rotation": [
+          0,
+          18,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "MainScar2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.065,
+            0.29250000000000004,
+            0.015
+          ]
+        },
+        "position": [
+          0.136,
+          1.3250000000000002,
+          0.2025
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Main3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.425,
+            0.45,
+            0.3655
+          ]
+        },
+        "position": [
+          0.099,
+          1.7750000000000001,
+          0
+        ],
+        "rotation": [
+          0,
+          27,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Main4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4,
+            0.45,
+            0.34400000000000003
+          ]
+        },
+        "position": [
+          0.132,
+          2.225,
+          0
+        ],
+        "rotation": [
+          0,
+          36,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "MainScar4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.065,
+            0.29250000000000004,
+            0.015
+          ]
+        },
+        "position": [
+          0.202,
+          2.225,
+          0.18100000000000002
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Main5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.375,
+            0.45,
+            0.3225
+          ]
+        },
+        "position": [
+          0.165,
+          2.6750000000000003,
+          0
+        ],
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Main6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.35,
+            0.45,
+            0.301
+          ]
+        },
+        "position": [
+          0.198,
+          3.1250000000000004,
+          0
+        ],
+        "rotation": [
+          0,
+          54,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "MainScar6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.065,
+            0.29250000000000004,
+            0.015
+          ]
+        },
+        "position": [
+          0.268,
+          3.1250000000000004,
+          0.1595
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Main7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32499999999999996,
+            0.45,
+            0.27949999999999997
+          ]
+        },
+        "position": [
+          0.231,
+          3.575,
+          0
+        ],
+        "rotation": [
+          0,
+          63,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Main8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.45,
+            0.258
+          ]
+        },
+        "position": [
+          0.264,
+          4.025,
+          0
+        ],
+        "rotation": [
+          0,
+          72,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "MainScar8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.065,
+            0.29250000000000004,
+            0.015
+          ]
+        },
+        "position": [
+          0.334,
+          4.025,
+          0.138
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Main9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.275,
+            0.15000000000000036,
+            0.23650000000000002
+          ]
+        },
+        "position": [
+          0.29700000000000004,
+          4.325,
+          0
+        ],
+        "rotation": [
+          0,
+          81,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Limb0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.072,
+          "radiusBottom": 0.12,
+          "height": 0.8622064717919948
+        },
+        "position": [
+          0.54,
+          2.475,
+          -0.075
+        ],
+        "rotation": [
+          -10.065293520423875,
+          5.477655409055072,
+          -57.02389404931519
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Tip0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.033,
+          "radiusBottom": 0.055,
+          "height": 0.7665507158694722
+        },
+        "position": [
+          1.25,
+          2.8200000000000003,
+          -0.25
+        ],
+        "rotation": [
+          -15.385555944622539,
+          10.454095902289271,
+          -68.21696162277709
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Fork0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.024,
+          "radiusBottom": 0.04,
+          "height": 0.6708949247087801
+        },
+        "position": [
+          1.05,
+          2.975,
+          -0.03
+        ],
+        "rotation": [
+          21.046238750421512,
+          -5.042933130309283,
+          -26.67323110698173
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Limb1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.066,
+          "radiusBottom": 0.11,
+          "height": 1.0317945531936097
+        },
+        "position": [
+          0.625,
+          2.88,
+          0.075
+        ],
+        "rotation": [
+          8.389352333116044,
+          -4.8453809621647,
+          -59.95912532002715
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Tip1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.033,
+          "radiusBottom": 0.055,
+          "height": 0.766550715869472
+        },
+        "position": [
+          1.42,
+          3.25,
+          0.04999999999999999
+        ],
+        "rotation": [
+          -15.385555944622551,
+          10.454095902289282,
+          -68.2169616227771
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Fork1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.024,
+          "radiusBottom": 0.04,
+          "height": 0.6708949247087805
+        },
+        "position": [
+          1.2200000000000002,
+          3.4050000000000002,
+          0.27
+        ],
+        "rotation": [
+          21.0462387504215,
+          -5.0429331303092795,
+          -26.67323110698173
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Limb2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.05999999999999999,
+          "radiusBottom": 0.09999999999999999,
+          "height": 1.2035779991342481
+        },
+        "position": [
+          0.71,
+          3.285,
+          -0.075
+        ],
+        "rotation": [
+          -7.1798069448333415,
+          4.32048084578574,
+          -62.03292451912866
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Tip2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.033,
+          "radiusBottom": 0.055,
+          "height": 0.766550715869472
+        },
+        "position": [
+          1.5899999999999999,
+          3.6799999999999997,
+          -0.25
+        ],
+        "rotation": [
+          -15.385555944622553,
+          10.454095902289284,
+          -68.21696162277715
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Fork2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.024,
+          "radiusBottom": 0.04,
+          "height": 0.6708949247087805
+        },
+        "position": [
+          1.3900000000000001,
+          3.835,
+          -0.03
+        ],
+        "rotation": [
+          21.0462387504215,
+          -5.0429331303092795,
+          -26.67323110698173
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Limb3",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.054,
+          "radiusBottom": 0.09,
+          "height": 1.376735268670052
+        },
+        "position": [
+          0.795,
+          3.6900000000000004,
+          0.075
+        ],
+        "rotation": [
+          6.269469647964148,
+          -3.887346888929853,
+          -63.56991904515474
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Tip3",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.033,
+          "radiusBottom": 0.055,
+          "height": 0.7665507158694723
+        },
+        "position": [
+          1.7600000000000002,
+          4.11,
+          0.04999999999999999
+        ],
+        "rotation": [
+          -15.385555944622539,
+          10.454095902289273,
+          -68.2169616227771
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Fork3",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.024,
+          "radiusBottom": 0.04,
+          "height": 0.6708949247087802
+        },
+        "position": [
+          1.56,
+          4.265000000000001,
+          0.27
+        ],
+        "rotation": [
+          21.046238750421505,
+          -5.042933130309283,
+          -26.673231106981742
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Limb4",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.047999999999999994,
+          "radiusBottom": 0.07999999999999999,
+          "height": 1.5508062419270823
+        },
+        "position": [
+          0.88,
+          4.095,
+          -0.075
+        ],
+        "rotation": [
+          -5.561117764660625,
+          3.5275809253770887,
+          -64.75198666576384
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Tip4",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.033,
+          "radiusBottom": 0.055,
+          "height": 0.7665507158694723
+        },
+        "position": [
+          1.9300000000000002,
+          4.54,
+          -0.25
+        ],
+        "rotation": [
+          -15.385555944622539,
+          10.454095902289273,
+          -68.2169616227771
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Fork4",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.024,
+          "radiusBottom": 0.04,
+          "height": 0.6708949247087802
+        },
+        "position": [
+          1.73,
+          4.695,
+          -0.03
+        ],
+        "rotation": [
+          21.046238750421505,
+          -5.042933130309283,
+          -26.673231106981742
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+..\Deadzone Protocol\Test\01-WorldAssets\generated\models\bent.glb
+..\Deadzone Protocol\Test\01-WorldAssets\generated\models\through.glb
+..\Deadzone Protocol\Test\01-WorldAssets\generated\models\warehouse.glb
+Built 3 assets.

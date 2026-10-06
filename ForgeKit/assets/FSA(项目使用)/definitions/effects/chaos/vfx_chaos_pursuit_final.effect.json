@@ -1,0 +1,651 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_chaos_pursuit_final",
+  "name": "恶魔追击 · 最终劈飞行斩击",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "dissipate": {
+      "duration": 0.45,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "dark_edge",
+      "kind": "arc",
+      "plane": "vertical",
+      "angle": 145,
+      "radius": 3.1500000000000004,
+      "width": 1.35,
+      "speed": 8,
+      "profiles": {
+        "active": {
+          "strength": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#16080e",
+        "opacity": 0.7,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "blood_edge",
+      "kind": "arc",
+      "plane": "vertical",
+      "angle": 145,
+      "radius": 3.1500000000000004,
+      "width": 0.6900000000000001,
+      "speed": 8,
+      "profiles": {
+        "active": {
+          "strength": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#8f1025",
+        "opacity": 0.8,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "sharp_edge",
+      "kind": "arc",
+      "plane": "vertical",
+      "angle": 145,
+      "radius": 3.1500000000000004,
+      "width": 0.21000000000000002,
+      "speed": 8,
+      "profiles": {
+        "active": {
+          "strength": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#c94049",
+        "opacity": 0.6,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "smoke_0",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 8,
+      "seed": 12035,
+      "position": [
+        0,
+        -3.0042083948569145,
+        -2.2027767315615394
+      ],
+      "radii": [
+        0.27,
+        0.27,
+        0.34500000000000003
+      ],
+      "size": [
+        0.33,
+        0.6000000000000001
+      ],
+      "shell": 0.65,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#100c18",
+        "opacity": 0.8,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "smoke_1",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 8,
+      "seed": 12036,
+      "position": [
+        0,
+        -2.3531289744091377,
+        -1.0558930233160957
+      ],
+      "radii": [
+        0.27,
+        0.27,
+        0.34500000000000003
+      ],
+      "size": [
+        0.33,
+        0.6000000000000001
+      ],
+      "shell": 0.65,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#100c18",
+        "opacity": 0.8,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "smoke_2",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 8,
+      "seed": 12037,
+      "position": [
+        0,
+        -1.2895857907571915,
+        -0.2760708971380056
+      ],
+      "radii": [
+        0.27,
+        0.27,
+        0.34500000000000003
+      ],
+      "size": [
+        0.33,
+        0.6000000000000001
+      ],
+      "shell": 0.65,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#100c18",
+        "opacity": 0.8,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "smoke_3",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 8,
+      "seed": 12038,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "radii": [
+        0.27,
+        0.27,
+        0.34500000000000003
+      ],
+      "size": [
+        0.33,
+        0.6000000000000001
+      ],
+      "shell": 0.65,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#100c18",
+        "opacity": 0.8,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "smoke_4",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 8,
+      "seed": 12039,
+      "position": [
+        0,
+        1.289585790757191,
+        -0.27607089713800526
+      ],
+      "radii": [
+        0.27,
+        0.27,
+        0.34500000000000003
+      ],
+      "size": [
+        0.33,
+        0.6000000000000001
+      ],
+      "shell": 0.65,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#100c18",
+        "opacity": 0.8,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "smoke_5",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 8,
+      "seed": 12040,
+      "position": [
+        0,
+        2.3531289744091377,
+        -1.0558930233160957
+      ],
+      "radii": [
+        0.27,
+        0.27,
+        0.34500000000000003
+      ],
+      "size": [
+        0.33,
+        0.6000000000000001
+      ],
+      "shell": 0.65,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#100c18",
+        "opacity": 0.8,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "smoke_6",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 8,
+      "seed": 12041,
+      "position": [
+        0,
+        3.0042083948569145,
+        -2.2027767315615394
+      ],
+      "radii": [
+        0.27,
+        0.27,
+        0.34500000000000003
+      ],
+      "size": [
+        0.33,
+        0.6000000000000001
+      ],
+      "shell": 0.65,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#100c18",
+        "opacity": 0.8,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

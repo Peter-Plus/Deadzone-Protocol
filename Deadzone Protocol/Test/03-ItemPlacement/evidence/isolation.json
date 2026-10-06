@@ -1,0 +1,20 @@
+{
+  "passed": false,
+  "protectedCount": 323,
+  "changed": [
+    "Assets/animations/characters/overrides/bosses/flame_witch/FSA_ANIM_C003_FlameWitch_Death.anim.glb",
+    "Assets/animations/characters/overrides/bosses/plague_beast/FSA_ANIM_C002_PlagueBeast_RottenCharge.anim.glb",
+    "Assets/animations/characters/overrides/bosses/plague_beast/FSA_ANIM_C002_PlagueBeast_ToxicShield.anim.glb",
+    "Assets/animations/characters/overrides/bosses/plague_beast/FSA_ANIM_C002_PlagueBeast_VileInferno.anim.glb",
+    "Assets/模型资产使用说明.md",
+    "Assets/资产配置表.md",
+    "Implementation/README.md",
+    "Production/Guide/GettingStarted.md",
+    "Production/Plan/Art/02-建议项/05-瘴疫兽角色与动作.md",
+    "Production/Plan/Art/02-建议项/06-炎巫角色与动作.md",
+    "Production/Plan/Art/ArtAssetNeeds.md"
+  ],
+  "added": [
+    "Production/Plan/Art/05-完成项/12-炎巫角色与动作.md"
+  ]
+}

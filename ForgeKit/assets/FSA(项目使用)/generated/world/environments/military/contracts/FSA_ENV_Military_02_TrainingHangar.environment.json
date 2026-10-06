@@ -1,0 +1,4884 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Military_02_TrainingHangar",
+  "label": "军事基地 02 · 钢构大厅与训练营",
+  "type": "building",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -22,
+      -17
+    ],
+    "max": [
+      22,
+      19
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Floor",
+      "role": "floor",
+      "position": [
+        0,
+        -0.09,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        40,
+        0.18,
+        30
+      ]
+    },
+    {
+      "node": "FrontPanel0",
+      "role": "wall",
+      "position": [
+        -16,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        8,
+        5.8,
+        0.4
+      ]
+    },
+    {
+      "node": "FrontRib1",
+      "role": "wall",
+      "position": [
+        -19.88,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib4",
+      "role": "wall",
+      "position": [
+        -17.38,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib7",
+      "role": "wall",
+      "position": [
+        -14.879999999999999,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib10",
+      "role": "wall",
+      "position": [
+        -12.379999999999999,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontPanel15",
+      "role": "wall",
+      "position": [
+        6,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        28,
+        5.8,
+        0.4
+      ]
+    },
+    {
+      "node": "FrontRib16",
+      "role": "wall",
+      "position": [
+        -7.88,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib19",
+      "role": "wall",
+      "position": [
+        -5.38,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib22",
+      "role": "wall",
+      "position": [
+        -2.88,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib25",
+      "role": "wall",
+      "position": [
+        -0.3799999999999999,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib28",
+      "role": "wall",
+      "position": [
+        2.12,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib31",
+      "role": "wall",
+      "position": [
+        4.62,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib34",
+      "role": "wall",
+      "position": [
+        7.12,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib37",
+      "role": "wall",
+      "position": [
+        9.620000000000001,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib40",
+      "role": "wall",
+      "position": [
+        12.120000000000001,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib43",
+      "role": "wall",
+      "position": [
+        14.620000000000001,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib46",
+      "role": "wall",
+      "position": [
+        17.12,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontRib49",
+      "role": "wall",
+      "position": [
+        19.62,
+        2.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "FrontPanel54",
+      "role": "wall",
+      "position": [
+        -10,
+        4.9,
+        15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        4,
+        1.7999999999999998,
+        0.4
+      ]
+    },
+    {
+      "node": "BackPanel57",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        40,
+        5.8,
+        0.4
+      ]
+    },
+    {
+      "node": "BackRib58",
+      "role": "wall",
+      "position": [
+        -19.88,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib61",
+      "role": "wall",
+      "position": [
+        -17.38,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib64",
+      "role": "wall",
+      "position": [
+        -14.879999999999999,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib67",
+      "role": "wall",
+      "position": [
+        -12.379999999999999,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib70",
+      "role": "wall",
+      "position": [
+        -9.879999999999999,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib73",
+      "role": "wall",
+      "position": [
+        -7.379999999999999,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib76",
+      "role": "wall",
+      "position": [
+        -4.879999999999999,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib79",
+      "role": "wall",
+      "position": [
+        -2.379999999999999,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib82",
+      "role": "wall",
+      "position": [
+        0.120000000000001,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib85",
+      "role": "wall",
+      "position": [
+        2.620000000000001,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib88",
+      "role": "wall",
+      "position": [
+        5.120000000000001,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib91",
+      "role": "wall",
+      "position": [
+        7.620000000000001,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib94",
+      "role": "wall",
+      "position": [
+        10.120000000000001,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib97",
+      "role": "wall",
+      "position": [
+        12.620000000000001,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib100",
+      "role": "wall",
+      "position": [
+        15.120000000000001,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "BackRib103",
+      "role": "wall",
+      "position": [
+        17.62,
+        2.9,
+        -15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "WestPanel108",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.4,
+        5.8,
+        30
+      ]
+    },
+    {
+      "node": "WestRib109",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        -14.88
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib112",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        -12.38
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib115",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        -9.88
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib118",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        -7.380000000000001
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib121",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        -4.880000000000001
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib124",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        -2.380000000000001
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib127",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        0.11999999999999922
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib130",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        2.619999999999999
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib133",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        5.119999999999999
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib136",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        7.619999999999999
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib139",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        10.12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "WestRib142",
+      "role": "wall",
+      "position": [
+        -20,
+        2.9,
+        12.62
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastPanel147",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.4,
+        5.8,
+        30
+      ]
+    },
+    {
+      "node": "EastRib148",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        -14.88
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib151",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        -12.38
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib154",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        -9.88
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib157",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        -7.380000000000001
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib160",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        -4.880000000000001
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib163",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        -2.380000000000001
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib166",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        0.11999999999999922
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib169",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        2.619999999999999
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib172",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        5.119999999999999
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib175",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        7.619999999999999
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib178",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        10.12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "EastRib181",
+      "role": "wall",
+      "position": [
+        20,
+        2.9,
+        12.62
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "ScreenPanel186",
+      "role": "wall",
+      "position": [
+        -10.5,
+        2.9,
+        9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        11,
+        5.8,
+        0.4
+      ]
+    },
+    {
+      "node": "ScreenRib187",
+      "role": "wall",
+      "position": [
+        -15.88,
+        2.9,
+        9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ScreenRib190",
+      "role": "wall",
+      "position": [
+        -13.38,
+        2.9,
+        9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ScreenRib193",
+      "role": "wall",
+      "position": [
+        -10.88,
+        2.9,
+        9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ScreenRib196",
+      "role": "wall",
+      "position": [
+        -8.38,
+        2.9,
+        9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ScreenRib199",
+      "role": "wall",
+      "position": [
+        -5.880000000000001,
+        2.9,
+        9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "HallTrainingDividePanel204",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        -10.85
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.4,
+        5.8,
+        8.3
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib205",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        -14.88
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib208",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        -12.38
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib211",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        -9.88
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib214",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        -7.380000000000001
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDividePanel219",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        5.85
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.4,
+        5.8,
+        18.3
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib220",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        -3.1799999999999997
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib223",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        -0.6799999999999997
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib226",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        1.8200000000000003
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib229",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        4.32
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib232",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        6.82
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib235",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        9.32
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib238",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        11.82
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDivideRib241",
+      "role": "wall",
+      "position": [
+        0,
+        2.9,
+        14.32
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        5.8,
+        0.12
+      ]
+    },
+    {
+      "node": "HallTrainingDividePanel246",
+      "role": "wall",
+      "position": [
+        0,
+        4.7,
+        -5
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.4,
+        2.1999999999999997,
+        3.4000000000000004
+      ]
+    },
+    {
+      "node": "ArmoryDividePanel249",
+      "role": "wall",
+      "position": [
+        4.15,
+        2.9,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        8.3,
+        5.8,
+        0.4
+      ]
+    },
+    {
+      "node": "ArmoryDivideRib250",
+      "role": "wall",
+      "position": [
+        0.12,
+        2.9,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ArmoryDivideRib253",
+      "role": "wall",
+      "position": [
+        2.62,
+        2.9,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ArmoryDivideRib256",
+      "role": "wall",
+      "position": [
+        5.12,
+        2.9,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ArmoryDivideRib259",
+      "role": "wall",
+      "position": [
+        7.62,
+        2.9,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ArmoryDividePanel264",
+      "role": "wall",
+      "position": [
+        15.85,
+        2.9,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        8.3,
+        5.8,
+        0.4
+      ]
+    },
+    {
+      "node": "ArmoryDivideRib265",
+      "role": "wall",
+      "position": [
+        11.819999999999999,
+        2.9,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ArmoryDivideRib268",
+      "role": "wall",
+      "position": [
+        14.319999999999999,
+        2.9,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ArmoryDivideRib271",
+      "role": "wall",
+      "position": [
+        16.82,
+        2.9,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ArmoryDivideRib274",
+      "role": "wall",
+      "position": [
+        19.32,
+        2.9,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.12,
+        5.8,
+        0.48
+      ]
+    },
+    {
+      "node": "ArmoryDividePanel279",
+      "role": "wall",
+      "position": [
+        10,
+        4.7,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.3999999999999986,
+        2.1999999999999997,
+        0.4
+      ]
+    },
+    {
+      "node": "RoofHall",
+      "role": "roof",
+      "position": [
+        -10.175,
+        6.9,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.20000000298023224,
+        30.5
+      ]
+    },
+    {
+      "node": "RoofHallSeam282",
+      "role": "roof",
+      "position": [
+        -20.2,
+        7.03,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        30.5
+      ]
+    },
+    {
+      "node": "RoofHallSeam283",
+      "role": "roof",
+      "position": [
+        -16.2,
+        7.03,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        30.5
+      ]
+    },
+    {
+      "node": "RoofHallSeam284",
+      "role": "roof",
+      "position": [
+        -12.2,
+        7.03,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        30.5
+      ]
+    },
+    {
+      "node": "RoofHallSeam285",
+      "role": "roof",
+      "position": [
+        -8.2,
+        7.03,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        30.5
+      ]
+    },
+    {
+      "node": "RoofHallSeam286",
+      "role": "roof",
+      "position": [
+        -4.199999999999999,
+        7.03,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        30.5
+      ]
+    },
+    {
+      "node": "RoofHallSeam287",
+      "role": "roof",
+      "position": [
+        -0.1999999999999993,
+        7.03,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        30.5
+      ]
+    },
+    {
+      "node": "RoofHallCross288",
+      "role": "roof",
+      "position": [
+        -10.175,
+        7.03,
+        -15.2
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofHallCross289",
+      "role": "roof",
+      "position": [
+        -10.175,
+        7.03,
+        -11.2
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofHallCross290",
+      "role": "roof",
+      "position": [
+        -10.175,
+        7.03,
+        -7.199999999999999
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofHallCross291",
+      "role": "roof",
+      "position": [
+        -10.175,
+        7.03,
+        -3.1999999999999993
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofHallCross292",
+      "role": "roof",
+      "position": [
+        -10.175,
+        7.03,
+        0.8000000000000007
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofHallCross293",
+      "role": "roof",
+      "position": [
+        -10.175,
+        7.03,
+        4.800000000000001
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofHallCross294",
+      "role": "roof",
+      "position": [
+        -10.175,
+        7.03,
+        8.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofHallCross295",
+      "role": "roof",
+      "position": [
+        -10.175,
+        7.03,
+        12.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofTraining",
+      "role": "roof",
+      "position": [
+        10.175,
+        5.95,
+        -4.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.20000000298023224,
+        22.200000762939453
+      ]
+    },
+    {
+      "node": "RoofTrainingSeam296",
+      "role": "roof",
+      "position": [
+        0.15000000000000002,
+        6.08,
+        -4.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        22.200000762939453
+      ]
+    },
+    {
+      "node": "RoofTrainingSeam297",
+      "role": "roof",
+      "position": [
+        4.15,
+        6.08,
+        -4.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        22.200000762939453
+      ]
+    },
+    {
+      "node": "RoofTrainingSeam298",
+      "role": "roof",
+      "position": [
+        8.15,
+        6.08,
+        -4.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        22.200000762939453
+      ]
+    },
+    {
+      "node": "RoofTrainingSeam299",
+      "role": "roof",
+      "position": [
+        12.15,
+        6.08,
+        -4.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        22.200000762939453
+      ]
+    },
+    {
+      "node": "RoofTrainingSeam300",
+      "role": "roof",
+      "position": [
+        16.15,
+        6.08,
+        -4.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        22.200000762939453
+      ]
+    },
+    {
+      "node": "RoofTrainingSeam301",
+      "role": "roof",
+      "position": [
+        20.15,
+        6.08,
+        -4.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        22.200000762939453
+      ]
+    },
+    {
+      "node": "RoofTrainingCross302",
+      "role": "roof",
+      "position": [
+        10.175,
+        6.08,
+        -15.2
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofTrainingCross303",
+      "role": "roof",
+      "position": [
+        10.175,
+        6.08,
+        -11.2
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofTrainingCross304",
+      "role": "roof",
+      "position": [
+        10.175,
+        6.08,
+        -7.199999999999999
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofTrainingCross305",
+      "role": "roof",
+      "position": [
+        10.175,
+        6.08,
+        -3.1999999999999993
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofTrainingCross306",
+      "role": "roof",
+      "position": [
+        10.175,
+        6.08,
+        0.8000000000000007
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofTrainingCross307",
+      "role": "roof",
+      "position": [
+        10.175,
+        6.08,
+        4.800000000000001
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofArmory",
+      "role": "roof",
+      "position": [
+        10.175,
+        6.25,
+        11.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.20000000298023224,
+        8.199999809265137
+      ]
+    },
+    {
+      "node": "RoofArmorySeam308",
+      "role": "roof",
+      "position": [
+        0.15000000000000002,
+        6.38,
+        11.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        8.199999809265137
+      ]
+    },
+    {
+      "node": "RoofArmorySeam309",
+      "role": "roof",
+      "position": [
+        4.15,
+        6.38,
+        11.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        8.199999809265137
+      ]
+    },
+    {
+      "node": "RoofArmorySeam310",
+      "role": "roof",
+      "position": [
+        8.15,
+        6.38,
+        11.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        8.199999809265137
+      ]
+    },
+    {
+      "node": "RoofArmorySeam311",
+      "role": "roof",
+      "position": [
+        12.15,
+        6.38,
+        11.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        8.199999809265137
+      ]
+    },
+    {
+      "node": "RoofArmorySeam312",
+      "role": "roof",
+      "position": [
+        16.15,
+        6.38,
+        11.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        8.199999809265137
+      ]
+    },
+    {
+      "node": "RoofArmorySeam313",
+      "role": "roof",
+      "position": [
+        20.15,
+        6.38,
+        11.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07000000029802322,
+        0.06499999761581421,
+        8.199999809265137
+      ]
+    },
+    {
+      "node": "RoofArmoryCross314",
+      "role": "roof",
+      "position": [
+        10.175,
+        6.38,
+        7.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofArmoryCross315",
+      "role": "roof",
+      "position": [
+        10.175,
+        6.38,
+        11.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofArmoryCross316",
+      "role": "roof",
+      "position": [
+        10.175,
+        6.38,
+        15.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.149999618530273,
+        0.06499999761581421,
+        0.07000000029802322
+      ]
+    },
+    {
+      "node": "RoofHallSide317",
+      "role": "roof",
+      "position": [
+        -20.05,
+        6.32,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3199999928474426,
+        1.100000023841858,
+        30
+      ]
+    },
+    {
+      "node": "RoofHallSide318",
+      "role": "roof",
+      "position": [
+        0,
+        6.32,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3199999928474426,
+        1.100000023841858,
+        30
+      ]
+    },
+    {
+      "node": "RoofHallEnd319",
+      "role": "roof",
+      "position": [
+        -10,
+        6.32,
+        -15.05
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.299999237060547,
+        1.100000023841858,
+        0.3199999928474426
+      ]
+    },
+    {
+      "node": "RoofHallEnd320",
+      "role": "roof",
+      "position": [
+        -10,
+        6.32,
+        15.05
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20.299999237060547,
+        1.100000023841858,
+        0.3199999928474426
+      ]
+    },
+    {
+      "node": "RoofBeam321",
+      "role": "roof",
+      "position": [
+        -10,
+        6.65,
+        -12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20,
+        0.3499999940395355,
+        0.2199999988079071
+      ]
+    },
+    {
+      "node": "RoofBeam322",
+      "role": "roof",
+      "position": [
+        -10,
+        6.65,
+        -6
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20,
+        0.3499999940395355,
+        0.2199999988079071
+      ]
+    },
+    {
+      "node": "RoofBeam323",
+      "role": "roof",
+      "position": [
+        -10,
+        6.65,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20,
+        0.3499999940395355,
+        0.2199999988079071
+      ]
+    },
+    {
+      "node": "RoofBeam324",
+      "role": "roof",
+      "position": [
+        -10,
+        6.65,
+        6
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20,
+        0.3499999940395355,
+        0.2199999988079071
+      ]
+    },
+    {
+      "node": "RoofBeam325",
+      "role": "roof",
+      "position": [
+        -10,
+        6.65,
+        12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20,
+        0.3499999940395355,
+        0.2199999988079071
+      ]
+    },
+    {
+      "node": "RoofArmoryFascia",
+      "role": "roof",
+      "position": [
+        10,
+        6,
+        7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        20,
+        0.5,
+        0.30000001192092896
+      ]
+    },
+    {
+      "node": "HallDesk",
+      "role": "solid",
+      "position": [
+        -16,
+        0.45,
+        12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.2,
+        0.9,
+        1.3
+      ]
+    },
+    {
+      "node": "HallDeskTop",
+      "role": "solid",
+      "position": [
+        -16,
+        0.96,
+        12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.3,
+        0.12,
+        1.4
+      ]
+    },
+    {
+      "node": "HallIslandA",
+      "role": "solid",
+      "position": [
+        -15,
+        0.625,
+        2
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2,
+        1.25,
+        1.5
+      ]
+    },
+    {
+      "node": "HallIslandB",
+      "role": "solid",
+      "position": [
+        -5,
+        0.625,
+        2
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2,
+        1.25,
+        1.5
+      ]
+    },
+    {
+      "node": "HallIslandC",
+      "role": "solid",
+      "position": [
+        -15,
+        0.625,
+        -8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2,
+        1.25,
+        1.5
+      ]
+    },
+    {
+      "node": "Target326Base",
+      "role": "solid",
+      "position": [
+        3,
+        0.1,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        0.2,
+        0.85
+      ]
+    },
+    {
+      "node": "Target326Post",
+      "role": "solid",
+      "position": [
+        3,
+        0.85,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.15,
+        1.5,
+        0.15
+      ]
+    },
+    {
+      "node": "Target326Plate",
+      "role": "solid",
+      "position": [
+        3,
+        1.9,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.75,
+        1,
+        0.13
+      ]
+    },
+    {
+      "node": "Target332Base",
+      "role": "solid",
+      "position": [
+        8,
+        0.1,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        0.2,
+        0.85
+      ]
+    },
+    {
+      "node": "Target332Post",
+      "role": "solid",
+      "position": [
+        8,
+        0.85,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.15,
+        1.5,
+        0.15
+      ]
+    },
+    {
+      "node": "Target332Plate",
+      "role": "solid",
+      "position": [
+        8,
+        1.9,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.75,
+        1,
+        0.13
+      ]
+    },
+    {
+      "node": "Target338Base",
+      "role": "solid",
+      "position": [
+        13,
+        0.1,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        0.2,
+        0.85
+      ]
+    },
+    {
+      "node": "Target338Post",
+      "role": "solid",
+      "position": [
+        13,
+        0.85,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.15,
+        1.5,
+        0.15
+      ]
+    },
+    {
+      "node": "Target338Plate",
+      "role": "solid",
+      "position": [
+        13,
+        1.9,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.75,
+        1,
+        0.13
+      ]
+    },
+    {
+      "node": "Target344Base",
+      "role": "solid",
+      "position": [
+        18,
+        0.1,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        0.2,
+        0.85
+      ]
+    },
+    {
+      "node": "Target344Post",
+      "role": "solid",
+      "position": [
+        18,
+        0.85,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.15,
+        1.5,
+        0.15
+      ]
+    },
+    {
+      "node": "Target344Plate",
+      "role": "solid",
+      "position": [
+        18,
+        1.9,
+        -13.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.75,
+        1,
+        0.13
+      ]
+    },
+    {
+      "node": "TrainingBarrier",
+      "role": "solid",
+      "position": [
+        4,
+        0.625,
+        1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2,
+        1.25,
+        1.5
+      ]
+    },
+    {
+      "node": "TrainingBarrierB",
+      "role": "solid",
+      "position": [
+        16,
+        0.625,
+        -3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2,
+        1.25,
+        1.5
+      ]
+    },
+    {
+      "node": "TrainingDesk",
+      "role": "solid",
+      "position": [
+        17,
+        0.45,
+        4.5
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.2,
+        0.9,
+        1.3
+      ]
+    },
+    {
+      "node": "TrainingDeskTop",
+      "role": "solid",
+      "position": [
+        17,
+        0.96,
+        4.5
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.3,
+        0.12,
+        1.4
+      ]
+    },
+    {
+      "node": "Weapons350",
+      "role": "solid",
+      "position": [
+        3,
+        1.2,
+        14
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.3,
+        2.4,
+        0.85
+      ]
+    },
+    {
+      "node": "Weapons351",
+      "role": "solid",
+      "position": [
+        7,
+        1.2,
+        14
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.3,
+        2.4,
+        0.85
+      ]
+    },
+    {
+      "node": "Weapons352",
+      "role": "solid",
+      "position": [
+        12,
+        1.2,
+        14
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.3,
+        2.4,
+        0.85
+      ]
+    },
+    {
+      "node": "Weapons353",
+      "role": "solid",
+      "position": [
+        17,
+        1.2,
+        14
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.3,
+        2.4,
+        0.85
+      ]
+    },
+    {
+      "node": "EquipmentBench",
+      "role": "solid",
+      "position": [
+        17,
+        0.45,
+        8.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.2,
+        0.9,
+        1.3
+      ]
+    },
+    {
+      "node": "EquipmentBenchTop",
+      "role": "solid",
+      "position": [
+        17,
+        0.96,
+        8.7
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.3,
+        0.12,
+        1.4
+      ]
+    },
+    {
+      "node": "Exterior_SideBelt_0",
+      "role": "wall",
+      "position": [
+        -20.29,
+        3.8,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.16,
+        0.38,
+        30
+      ]
+    },
+    {
+      "node": "Exterior_Buttress_1",
+      "role": "wall",
+      "position": [
+        -20.35,
+        2.85,
+        -12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.65,
+        5.7,
+        0.65
+      ]
+    },
+    {
+      "node": "Exterior_Cap_2",
+      "role": "wall",
+      "position": [
+        -20.35,
+        5.65,
+        -12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.82,
+        0.3,
+        0.82
+      ]
+    },
+    {
+      "node": "Exterior_Buttress_3",
+      "role": "wall",
+      "position": [
+        -20.35,
+        2.85,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.65,
+        5.7,
+        0.65
+      ]
+    },
+    {
+      "node": "Exterior_Cap_4",
+      "role": "wall",
+      "position": [
+        -20.35,
+        5.65,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.82,
+        0.3,
+        0.82
+      ]
+    },
+    {
+      "node": "Exterior_Buttress_5",
+      "role": "wall",
+      "position": [
+        -20.35,
+        2.85,
+        12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.65,
+        5.7,
+        0.65
+      ]
+    },
+    {
+      "node": "Exterior_Cap_6",
+      "role": "wall",
+      "position": [
+        -20.35,
+        5.65,
+        12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.82,
+        0.3,
+        0.82
+      ]
+    },
+    {
+      "node": "Exterior_SideVent_7",
+      "role": "wall",
+      "position": [
+        -20.37,
+        4.7,
+        -8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.18,
+        1.35,
+        3.3
+      ]
+    },
+    {
+      "node": "Exterior_SideVent_13",
+      "role": "wall",
+      "position": [
+        -20.37,
+        4.7,
+        8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.18,
+        1.35,
+        3.3
+      ]
+    },
+    {
+      "node": "Exterior_ServicePanel_19",
+      "role": "wall",
+      "position": [
+        -20.43,
+        1.4,
+        -3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.35,
+        1.6,
+        2
+      ]
+    },
+    {
+      "node": "Exterior_SideBelt_22",
+      "role": "wall",
+      "position": [
+        20.29,
+        3.8,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.16,
+        0.38,
+        30
+      ]
+    },
+    {
+      "node": "Exterior_Buttress_23",
+      "role": "wall",
+      "position": [
+        20.35,
+        2.85,
+        -12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.65,
+        5.7,
+        0.65
+      ]
+    },
+    {
+      "node": "Exterior_Cap_24",
+      "role": "wall",
+      "position": [
+        20.35,
+        5.65,
+        -12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.82,
+        0.3,
+        0.82
+      ]
+    },
+    {
+      "node": "Exterior_Buttress_25",
+      "role": "wall",
+      "position": [
+        20.35,
+        2.85,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.65,
+        5.7,
+        0.65
+      ]
+    },
+    {
+      "node": "Exterior_Cap_26",
+      "role": "wall",
+      "position": [
+        20.35,
+        5.65,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.82,
+        0.3,
+        0.82
+      ]
+    },
+    {
+      "node": "Exterior_Buttress_27",
+      "role": "wall",
+      "position": [
+        20.35,
+        2.85,
+        12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.65,
+        5.7,
+        0.65
+      ]
+    },
+    {
+      "node": "Exterior_Cap_28",
+      "role": "wall",
+      "position": [
+        20.35,
+        5.65,
+        12
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.82,
+        0.3,
+        0.82
+      ]
+    },
+    {
+      "node": "Exterior_SideVent_29",
+      "role": "wall",
+      "position": [
+        20.37,
+        4.7,
+        -8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.18,
+        1.35,
+        3.3
+      ]
+    },
+    {
+      "node": "Exterior_SideVent_35",
+      "role": "wall",
+      "position": [
+        20.37,
+        4.7,
+        8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.18,
+        1.35,
+        3.3
+      ]
+    },
+    {
+      "node": "Exterior_ServicePanel_41",
+      "role": "wall",
+      "position": [
+        20.43,
+        1.4,
+        -3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.35,
+        1.6,
+        2
+      ]
+    },
+    {
+      "node": "Exterior_HeaderBand_44",
+      "role": "wall",
+      "position": [
+        0,
+        5.4,
+        -15.3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        40,
+        0.3,
+        0.18
+      ]
+    },
+    {
+      "node": "Exterior_CornerArmor_45",
+      "role": "wall",
+      "position": [
+        -19.6,
+        2.8,
+        -15.34
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.85,
+        5.6,
+        0.2
+      ]
+    },
+    {
+      "node": "Exterior_CornerArmor_46",
+      "role": "wall",
+      "position": [
+        19.6,
+        2.8,
+        -15.34
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.85,
+        5.6,
+        0.2
+      ]
+    },
+    {
+      "node": "Exterior_HeaderBand_47",
+      "role": "wall",
+      "position": [
+        0,
+        5.4,
+        15.3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        40,
+        0.3,
+        0.18
+      ]
+    },
+    {
+      "node": "Exterior_CornerArmor_48",
+      "role": "wall",
+      "position": [
+        -19.6,
+        2.8,
+        15.34
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.85,
+        5.6,
+        0.2
+      ]
+    },
+    {
+      "node": "Exterior_CornerArmor_49",
+      "role": "wall",
+      "position": [
+        19.6,
+        2.8,
+        15.34
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.85,
+        5.6,
+        0.2
+      ]
+    },
+    {
+      "node": "Exterior_Canopy_50",
+      "role": "wall",
+      "position": [
+        -10,
+        4.25,
+        15.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.24,
+        1.65
+      ]
+    },
+    {
+      "node": "Exterior_CanopyTrim_51",
+      "role": "wall",
+      "position": [
+        -10,
+        4.25,
+        16.62
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.18,
+        0.13
+      ]
+    },
+    {
+      "node": "Exterior_EntranceSign_52",
+      "role": "wall",
+      "position": [
+        -10,
+        5.15,
+        15.43
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        5.6,
+        0.9,
+        0.16
+      ]
+    },
+    {
+      "node": "Exterior_LightHousing_59",
+      "role": "wall",
+      "position": [
+        -13.9,
+        3.9,
+        15.5
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.8,
+        0.3,
+        0.45
+      ]
+    },
+    {
+      "node": "Exterior_LightHousing_61",
+      "role": "wall",
+      "position": [
+        -6.1,
+        3.9,
+        15.5
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.8,
+        0.3,
+        0.45
+      ]
+    },
+    {
+      "node": "Exterior_FacadePanel_63",
+      "role": "wall",
+      "position": [
+        3,
+        2.7,
+        15.33
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        5,
+        2.2,
+        0.13
+      ]
+    },
+    {
+      "node": "Exterior_FacadePanel_67",
+      "role": "wall",
+      "position": [
+        13,
+        2.7,
+        15.33
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        5,
+        2.2,
+        0.13
+      ]
+    },
+    {
+      "node": "Exterior_Parapet_71",
+      "role": "roof",
+      "position": [
+        -10.149999999999999,
+        7.3,
+        -14.9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        19.5,
+        0.6499999761581421,
+        0.18000000715255737
+      ]
+    },
+    {
+      "node": "Exterior_Parapet_72",
+      "role": "roof",
+      "position": [
+        -10.149999999999999,
+        7.3,
+        14.9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        19.5,
+        0.6499999761581421,
+        0.18000000715255737
+      ]
+    },
+    {
+      "node": "Exterior_Parapet_73",
+      "role": "roof",
+      "position": [
+        -19.9,
+        7.3,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.18000000715255737,
+        0.6499999761581421,
+        29.799999237060547
+      ]
+    },
+    {
+      "node": "Exterior_Parapet_74",
+      "role": "roof",
+      "position": [
+        -0.4,
+        7.3,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.18000000715255737,
+        0.6499999761581421,
+        29.799999237060547
+      ]
+    },
+    {
+      "node": "Exterior_Parapet_75",
+      "role": "roof",
+      "position": [
+        10.149999999999999,
+        6.6,
+        -14.9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        19.5,
+        0.6499999761581421,
+        0.18000000715255737
+      ]
+    },
+    {
+      "node": "Exterior_Parapet_76",
+      "role": "roof",
+      "position": [
+        10.149999999999999,
+        6.6,
+        14.9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        19.5,
+        0.6499999761581421,
+        0.18000000715255737
+      ]
+    },
+    {
+      "node": "Exterior_Parapet_77",
+      "role": "roof",
+      "position": [
+        0.4,
+        6.6,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.18000000715255737,
+        0.6499999761581421,
+        29.799999237060547
+      ]
+    },
+    {
+      "node": "Exterior_Parapet_78",
+      "role": "roof",
+      "position": [
+        19.9,
+        6.6,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.18000000715255737,
+        0.6499999761581421,
+        29.799999237060547
+      ]
+    },
+    {
+      "node": "Exterior_RoofMonitor_79",
+      "role": "roof",
+      "position": [
+        -10,
+        8.305000012218951,
+        -1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7.699999809265137,
+        2.5499999767541883,
+        19.700000762939453
+      ]
+    },
+    {
+      "node": "Exterior_HVAC_101",
+      "role": "roof",
+      "position": [
+        14,
+        6.762499999329448,
+        -11
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.4000000953674316,
+        1.3849999986588957,
+        2.5
+      ]
+    },
+    {
+      "node": "Exterior_HVAC_117",
+      "role": "roof",
+      "position": [
+        14,
+        6.762499999329448,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.4000000953674316,
+        1.3849999986588957,
+        2.5
+      ]
+    },
+    {
+      "node": "Exterior_HVAC_133",
+      "role": "roof",
+      "position": [
+        14,
+        7.062499999329448,
+        10
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.4000000953674316,
+        1.3849999986588957,
+        2.5
+      ]
+    },
+    {
+      "node": "Exterior_ServiceDuct_149",
+      "role": "roof",
+      "position": [
+        8,
+        6.55,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.2000000476837158,
+        0.800000011920929,
+        23
+      ]
+    },
+    {
+      "node": "Exterior_BranchDuct_150",
+      "role": "roof",
+      "position": [
+        10.5,
+        6.55,
+        -10
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        5,
+        0.6499999761581421,
+        1
+      ]
+    },
+    {
+      "node": "Exterior_BranchDuct_151",
+      "role": "roof",
+      "position": [
+        10.5,
+        6.55,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        5,
+        0.6499999761581421,
+        1
+      ]
+    },
+    {
+      "node": "Exterior_BranchDuct_152",
+      "role": "roof",
+      "position": [
+        10.5,
+        6.55,
+        10
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        5,
+        0.6499999761581421,
+        1
+      ]
+    },
+    {
+      "node": "Exterior_Stack_153",
+      "role": "roof",
+      "position": [
+        3,
+        7.81999998986721,
+        -9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.299999952316284,
+        3.4400000274181357,
+        2.299999952316284
+      ]
+    },
+    {
+      "node": "Exterior_Stack_156",
+      "role": "roof",
+      "position": [
+        3,
+        7.81999998986721,
+        1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.299999952316284,
+        3.4400000274181357,
+        2.299999952316284
+      ]
+    }
+  ],
+  "walkables": [
+    "Floor"
+  ],
+  "entrances": [
+    {
+      "id": "Entrance",
+      "inner": [
+        -10,
+        0,
+        13
+      ],
+      "outer": [
+        -10,
+        0,
+        17
+      ],
+      "width": 4,
+      "height": 4,
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "ExploreAll",
+      "points": [
+        [
+          -10,
+          0,
+          17
+        ],
+        [
+          -10,
+          0,
+          13
+        ],
+        [
+          -2,
+          0,
+          13
+        ],
+        [
+          -2,
+          0,
+          4
+        ],
+        [
+          -10,
+          0,
+          4
+        ],
+        [
+          -10,
+          0,
+          -8
+        ],
+        [
+          -3,
+          0,
+          -8
+        ],
+        [
+          -3,
+          0,
+          -5
+        ],
+        [
+          7,
+          0,
+          -5
+        ],
+        [
+          7,
+          0,
+          -11
+        ],
+        [
+          16,
+          0,
+          -11
+        ],
+        [
+          7,
+          0,
+          -11
+        ],
+        [
+          7,
+          0,
+          3
+        ],
+        [
+          10,
+          0,
+          3
+        ],
+        [
+          10,
+          0,
+          11
+        ],
+        [
+          16,
+          0,
+          11
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [
+    {
+      "id": "HallA",
+      "min": [
+        -17,
+        5
+      ],
+      "max": [
+        -15,
+        7
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "HallB",
+      "min": [
+        -18,
+        -4
+      ],
+      "max": [
+        -16,
+        -2
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "HallRear",
+      "min": [
+        -7,
+        -13
+      ],
+      "max": [
+        -5,
+        -11
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "TrainingA",
+      "min": [
+        2.25,
+        -9
+      ],
+      "max": [
+        3.75,
+        -7
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "TrainingB",
+      "min": [
+        16.25,
+        0
+      ],
+      "max": [
+        17.75,
+        2
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "ArmoryA",
+      "min": [
+        3,
+        9
+      ],
+      "max": [
+        5,
+        11
+      ],
+      "surface": "Floor"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "M03Pocket",
+      "min": [
+        -0.9,
+        -3.3
+      ],
+      "max": [
+        -0.18,
+        0.35
+      ]
+    },
+    {
+      "id": "M04Pocket",
+      "min": [
+        11.7,
+        7.18
+      ],
+      "max": [
+        15.35,
+        7.9
+      ]
+    },
+    {
+      "id": "Path1",
+      "min": [
+        -10.9,
+        12.1
+      ],
+      "max": [
+        -9.1,
+        17.9
+      ]
+    },
+    {
+      "id": "Path2",
+      "min": [
+        -10.9,
+        12.1
+      ],
+      "max": [
+        -1.1,
+        13.9
+      ]
+    },
+    {
+      "id": "Path3",
+      "min": [
+        -2.9,
+        3.1
+      ],
+      "max": [
+        -1.1,
+        13.9
+      ]
+    },
+    {
+      "id": "Path4",
+      "min": [
+        -10.9,
+        3.1
+      ],
+      "max": [
+        -1.1,
+        4.9
+      ]
+    },
+    {
+      "id": "Path5",
+      "min": [
+        -10.9,
+        -8.9
+      ],
+      "max": [
+        -9.1,
+        4.9
+      ]
+    },
+    {
+      "id": "Path6",
+      "min": [
+        -10.9,
+        -8.9
+      ],
+      "max": [
+        -2.1,
+        -7.1
+      ]
+    },
+    {
+      "id": "Path7",
+      "min": [
+        -3.9,
+        -8.9
+      ],
+      "max": [
+        -2.1,
+        -4.1
+      ]
+    },
+    {
+      "id": "Path8",
+      "min": [
+        -3.9,
+        -5.9
+      ],
+      "max": [
+        7.9,
+        -4.1
+      ]
+    },
+    {
+      "id": "Path9",
+      "min": [
+        6.1,
+        -11.9
+      ],
+      "max": [
+        7.9,
+        -4.1
+      ]
+    },
+    {
+      "id": "Path10",
+      "min": [
+        6.1,
+        -11.9
+      ],
+      "max": [
+        16.9,
+        -10.1
+      ]
+    },
+    {
+      "id": "Path11",
+      "min": [
+        6.1,
+        -11.9
+      ],
+      "max": [
+        16.9,
+        -10.1
+      ]
+    },
+    {
+      "id": "Path12",
+      "min": [
+        6.1,
+        -11.9
+      ],
+      "max": [
+        7.9,
+        3.9
+      ]
+    },
+    {
+      "id": "Path13",
+      "min": [
+        6.1,
+        2.1
+      ],
+      "max": [
+        10.9,
+        3.9
+      ]
+    },
+    {
+      "id": "Path14",
+      "min": [
+        9.1,
+        2.1
+      ],
+      "max": [
+        10.9,
+        11.9
+      ]
+    },
+    {
+      "id": "Path15",
+      "min": [
+        9.1,
+        10.1
+      ],
+      "max": [
+        16.9,
+        11.9
+      ]
+    }
+  ],
+  "connectors": [],
+  "roofMode": "full",
+  "doors": [
+    {
+      "id": "M03",
+      "asset": "FSA_ENV_Door_MilitarySlide",
+      "position": [
+        -0.48,
+        0,
+        -5
+      ],
+      "yaw": -90,
+      "pocket": "M03Pocket"
+    },
+    {
+      "id": "M04",
+      "asset": "FSA_ENV_Door_MilitarySlide",
+      "position": [
+        10,
+        0,
+        7.48
+      ],
+      "yaw": 0,
+      "pocket": "M04Pocket"
+    }
+  ],
+  "modelAsset": "models/FSA_ENV_Military_02_TrainingHangar.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -20.759999996423723,
+      -0.18000000357627868,
+      -15.440000001490116
+    ],
+    "max": [
+      20.759999996423723,
+      9.580000000596046,
+      16.684999997615815
+    ]
+  },
+  "checks": [
+    {
+      "route": "ExploreAll",
+      "profile": "player",
+      "ok": true
+    },
+    {
+      "route": "ExploreAll",
+      "profile": "A1",
+      "ok": true
+    }
+  ],
+  "sourceHash": "31db8207a857465b6d2cf05b14fa9c583bca743f0a4d5470cf288bfa45674e6e",
+  "modelHash": "3bd268fba8fa55d479eb795c9be992401951b971c4316e5d8415463e20543859"
+}

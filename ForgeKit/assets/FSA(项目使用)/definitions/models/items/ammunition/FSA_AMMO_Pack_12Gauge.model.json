@@ -1,0 +1,498 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_AMMO_Pack_12Gauge",
+  "type": "static",
+  "materials": {
+    "body": {
+      "color": "#A44439",
+      "roughness": 0.95,
+      "metalness": 0
+    },
+    "edge": {
+      "color": "#293638",
+      "roughness": 0.82
+    },
+    "paper": {
+      "color": "#C4B590",
+      "roughness": 1
+    },
+    "label": {
+      "color": "#D9D2B9",
+      "roughness": 1
+    },
+    "ink": {
+      "color": "#29342F",
+      "roughness": 0.9
+    },
+    "metal": {
+      "color": "#8C9590",
+      "roughness": 0.5,
+      "metalness": 0.6
+    },
+    "accent": {
+      "color": "#C4B590",
+      "roughness": 0.85
+    }
+  },
+  "parts": [
+    {
+      "id": "Package",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.16,
+          0.12,
+          0.12
+        ]
+      },
+      "position": [
+        0,
+        0.06,
+        0
+      ],
+      "material": "body"
+    },
+    {
+      "id": "BaseSeam",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.162,
+          0.008,
+          0.122
+        ]
+      },
+      "position": [
+        0,
+        0.004,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LidSeam",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.162,
+          0.006,
+          0.122
+        ]
+      },
+      "position": [
+        0,
+        0.11299999999999999,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "ClosedLid",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.164,
+          0.01,
+          0.124
+        ]
+      },
+      "position": [
+        0,
+        0.121,
+        0
+      ],
+      "material": "body"
+    },
+    {
+      "id": "TopFold",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.13119999999999998,
+          0.003,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.127,
+        0
+      ],
+      "material": "paper"
+    },
+    {
+      "id": "Fold_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.09,
+          0.09839999999999999
+        ]
+      },
+      "position": [
+        -0.081,
+        0.0648,
+        0
+      ],
+      "material": "paper"
+    },
+    {
+      "id": "SealEnd_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.018,
+          0.1056
+        ]
+      },
+      "position": [
+        -0.083,
+        0.066,
+        0
+      ],
+      "material": "body"
+    },
+    {
+      "id": "Fold_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.09,
+          0.09839999999999999
+        ]
+      },
+      "position": [
+        0.081,
+        0.0648,
+        0
+      ],
+      "material": "paper"
+    },
+    {
+      "id": "SealEnd_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.018,
+          0.1056
+        ]
+      },
+      "position": [
+        0.083,
+        0.066,
+        0
+      ],
+      "material": "body"
+    },
+    {
+      "id": "PackingBand_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.012,
+          0.005,
+          0.128
+        ]
+      },
+      "position": [
+        -0.0512,
+        0.129,
+        0
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "PackingBand_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.012,
+          0.005,
+          0.128
+        ]
+      },
+      "position": [
+        0.0512,
+        0.129,
+        0
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "LabelPlate",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.10880000000000001,
+          0.0648,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.0576,
+        0.064
+      ],
+      "material": "label"
+    },
+    {
+      "id": "Caliber_0_b",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0046332,
+          0.02106,
+          0.002
+        ]
+      },
+      "position": [
+        -0.008615000000000001,
+        0.06813,
+        0.067
+      ],
+      "material": "ink"
+    },
+    {
+      "id": "Caliber_0_c",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0046332,
+          0.02106,
+          0.002
+        ]
+      },
+      "position": [
+        -0.008615000000000001,
+        0.04707,
+        0.067
+      ],
+      "material": "ink"
+    },
+    {
+      "id": "Caliber_1_a",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027378,
+          0.0046332,
+          0.002
+        ]
+      },
+      "position": [
+        0.022304,
+        0.07866,
+        0.067
+      ],
+      "material": "ink"
+    },
+    {
+      "id": "Caliber_1_b",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0046332,
+          0.02106,
+          0.002
+        ]
+      },
+      "position": [
+        0.035993,
+        0.06813,
+        0.067
+      ],
+      "material": "ink"
+    },
+    {
+      "id": "Caliber_1_d",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027378,
+          0.0046332,
+          0.002
+        ]
+      },
+      "position": [
+        0.022304,
+        0.03654,
+        0.067
+      ],
+      "material": "ink"
+    },
+    {
+      "id": "Caliber_1_e",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0046332,
+          0.02106,
+          0.002
+        ]
+      },
+      "position": [
+        0.008615000000000001,
+        0.04707,
+        0.067
+      ],
+      "material": "ink"
+    },
+    {
+      "id": "Caliber_1_g",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027378,
+          0.0046332,
+          0.002
+        ]
+      },
+      "position": [
+        0.022304,
+        0.0576,
+        0.067
+      ],
+      "material": "ink"
+    },
+    {
+      "id": "LotStripe_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0144,
+          0.004,
+          0.002
+        ]
+      },
+      "position": [
+        -0.0352,
+        0.018,
+        0.063
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "LotStripe_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0144,
+          0.004,
+          0.002
+        ]
+      },
+      "position": [
+        -0.012000000000000004,
+        0.018,
+        0.063
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "LotStripe_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0144,
+          0.004,
+          0.002
+        ]
+      },
+      "position": [
+        0.011199999999999995,
+        0.018,
+        0.063
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "LotStripe_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0144,
+          0.004,
+          0.002
+        ]
+      },
+      "position": [
+        0.03439999999999999,
+        0.018,
+        0.063
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "RearPanel",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0992,
+          0.05039999999999999,
+          0.004
+        ]
+      },
+      "position": [
+        0,
+        0.0588,
+        -0.063
+      ],
+      "material": "paper"
+    },
+    {
+      "id": "RearLine_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0608,
+          0.003,
+          0.002
+        ]
+      },
+      "position": [
+        0,
+        0.0456,
+        -0.066
+      ],
+      "material": "ink"
+    },
+    {
+      "id": "RearLine_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.054400000000000004,
+          0.003,
+          0.002
+        ]
+      },
+      "position": [
+        0,
+        0.05639999999999999,
+        -0.066
+      ],
+      "material": "ink"
+    },
+    {
+      "id": "RearLine_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.048,
+          0.003,
+          0.002
+        ]
+      },
+      "position": [
+        0,
+        0.06720000000000001,
+        -0.066
+      ],
+      "material": "ink"
+    }
+  ]
+}

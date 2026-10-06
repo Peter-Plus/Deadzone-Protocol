@@ -1,0 +1,47 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Protected_Corner",
+      "type": "barrier",
+      "sourceHash": "e7f35894714e12201c6617407a0a4588a4c966120e196f75b51e32581552a569",
+      "modelHash": "5f8e4015ed3426cda830afcb86547a388935155fb16968456f1b10273f49ee81",
+      "contract": "contracts/FSA_ENV_Protected_Corner.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Protected_End",
+      "type": "barrier",
+      "sourceHash": "0585fbc63d9bc1b91838d15d16d666e4542a247133adeb563f5cad9af1c6b12a",
+      "modelHash": "e69ce842ecba9d758d259afd8234f355ec2a09950126393d3000455ebb23ef4c",
+      "contract": "contracts/FSA_ENV_Protected_End.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Protected_Straight",
+      "type": "barrier",
+      "sourceHash": "b7cfee8d561ca3a59c3b3173aa5b165346562130920d96e2447289d60c97802e",
+      "modelHash": "8c090f2e003b6d738e8437252da40bacb0d018d6c9437e2263b2a5fa5282a568",
+      "contract": "contracts/FSA_ENV_Protected_Straight.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Quarantine_Corner",
+      "type": "barrier",
+      "sourceHash": "58328f79db9965522d8de65e4cd028f06e8cceebd64964f4b1d4263bed0ea5e4",
+      "modelHash": "b8d806f7fe7198864064a8d34054d04e9191e68ae32ff262c0adf804d37c50ee",
+      "contract": "contracts/FSA_ENV_Quarantine_Corner.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Quarantine_End",
+      "type": "barrier",
+      "sourceHash": "b80ea993ac9df67a4bf52ec8b8c43fcac89bb87130b21a1ccd498bfc86a05bab",
+      "modelHash": "ae8fe021cf63ae04c61eba2538edb573dcbd54163ba9df0c45e95ff82599bbce",
+      "contract": "contracts/FSA_ENV_Quarantine_End.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Quarantine_Straight",
+      "type": "barrier",
+      "sourceHash": "fac2727d622ecfc6aef73d1ce56841d175d14419269fbebc8956d6a8bdcf2e10",
+      "modelHash": "49583bdb263531f8dbd1ddecca151012c704dc43b1d8a90cf44dfd9aa5fbde06",
+      "contract": "contracts/FSA_ENV_Quarantine_Straight.environment.json"
+    }
+  ]
+}

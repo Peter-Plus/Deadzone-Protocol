@@ -1,0 +1,175 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_poison_arrow_trail",
+  "name": "毒箭 · 绿毒尾雾",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "dissipate": {
+      "duration": 0.45,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "projectile_mist.png"
+    }
+  },
+  "binding": {
+    "model": "FSA_PRJ_001_PoisonArrow",
+    "attachment": "VFX_Anchor"
+  },
+  "layers": [
+    {
+      "id": "venom_tail",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 18,
+      "seed": 1622,
+      "position": [
+        0,
+        0,
+        -0.4
+      ],
+      "radii": [
+        0.046,
+        0.046,
+        0.38
+      ],
+      "shell": 0.55,
+      "size": [
+        0.14,
+        0.22
+      ],
+      "aspect": 1,
+      "drift": [
+        0.016,
+        0.024,
+        0.016
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#477e21",
+        "opacity": 0.36,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "venom_glow",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 7,
+      "seed": 1622,
+      "position": [
+        0,
+        0,
+        -0.14
+      ],
+      "radii": [
+        0.04,
+        0.04,
+        0.18
+      ],
+      "shell": 0.55,
+      "size": [
+        0.09,
+        0.15
+      ],
+      "aspect": 1,
+      "drift": [
+        0.016,
+        0.024,
+        0.016
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#a9d73b",
+        "opacity": 0.18,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

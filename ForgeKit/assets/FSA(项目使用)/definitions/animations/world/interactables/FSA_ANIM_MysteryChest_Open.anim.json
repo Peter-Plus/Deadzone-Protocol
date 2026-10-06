@@ -1,0 +1,113 @@
+{
+  "schema": "animation.v1",
+  "id": "FSA_ANIM_MysteryChest_Open",
+  "rig": "nodes.v1",
+  "targetModel": "FSA_WORLD_MysteryChest",
+  "duration": 1.4,
+  "loop": false,
+  "mode": "timeline",
+  "tracks": {
+    "LidPivot": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.22,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.5,
+        "rotation": [
+          -16,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.93,
+        "rotation": [
+          -78,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.19,
+        "rotation": [
+          -104,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.4,
+        "rotation": [
+          -102,
+          0,
+          0
+        ]
+      }
+    ],
+    "Latch_L": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.22,
+        "rotation": [
+          -105,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.4,
+        "rotation": [
+          -105,
+          0,
+          0
+        ]
+      }
+    ],
+    "Latch_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.22,
+        "rotation": [
+          -105,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.4,
+        "rotation": [
+          -105,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

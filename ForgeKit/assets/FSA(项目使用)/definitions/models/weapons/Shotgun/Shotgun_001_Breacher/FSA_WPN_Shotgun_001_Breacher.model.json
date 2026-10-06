@@ -1,0 +1,683 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_WPN_Shotgun_001_Breacher",
+  "type": "static",
+  "materials": {
+    "metal": {
+      "color": "#343D45",
+      "metalness": 0.75,
+      "roughness": 0.38
+    },
+    "edge": {
+      "color": "#63717B",
+      "metalness": 0.8,
+      "roughness": 0.32
+    },
+    "black": {
+      "color": "#151C22",
+      "roughness": 0.76
+    },
+    "polymer": {
+      "color": "#495650",
+      "roughness": 0.86
+    },
+    "accent": {
+      "color": "#B68D50",
+      "metalness": 0.45,
+      "roughness": 0.5
+    },
+    "glass": {
+      "color": "#315D68",
+      "metalness": 0.5,
+      "roughness": 0.18
+    },
+    "hole": {
+      "color": "#070B0E",
+      "roughness": 1
+    },
+    "blade": {
+      "color": "#BAC7CE",
+      "metalness": 0.9,
+      "roughness": 0.23
+    }
+  },
+  "parts": [
+    {
+      "id": "GripCore",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.058,
+          0.15,
+          0.07
+        ]
+      },
+      "position": [
+        0,
+        0.003,
+        0
+      ],
+      "material": "black",
+      "rotation": [
+        12,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GuardFront",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.067,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.0245,
+        0.083
+      ],
+      "material": "black"
+    },
+    {
+      "id": "GuardBottom",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.012,
+          0.07
+        ]
+      },
+      "position": [
+        0,
+        -0.008,
+        0.054
+      ],
+      "material": "black"
+    },
+    {
+      "id": "Trigger",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.012,
+          0.032,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.038,
+        0.06
+      ],
+      "material": "black",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Receiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.097,
+          0.245
+        ]
+      },
+      "position": [
+        0,
+        0.123,
+        0.035
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "Port",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.031,
+          0.078
+        ]
+      },
+      "position": [
+        0.039,
+        0.133,
+        0.069
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "StockTube",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.032,
+          0.033,
+          0.18
+        ]
+      },
+      "position": [
+        0,
+        0.135,
+        -0.16249999999999998
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "StockBody",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.06,
+          0.093,
+          0.15
+        ]
+      },
+      "position": [
+        0,
+        0.116,
+        -0.22249999999999998
+      ],
+      "material": "polymer"
+    },
+    {
+      "id": "StockCheek",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.027,
+          0.12
+        ]
+      },
+      "position": [
+        0,
+        0.168,
+        -0.21549999999999997
+      ],
+      "material": "polymer"
+    },
+    {
+      "id": "ButtPad",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.071,
+          0.137,
+          0.028
+        ]
+      },
+      "position": [
+        0,
+        0.1,
+        -0.3025
+      ],
+      "material": "black"
+    },
+    {
+      "id": "StockInset",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.062,
+          0.025,
+          0.063
+        ]
+      },
+      "position": [
+        0,
+        0.108,
+        -0.21849999999999997
+      ],
+      "material": "black"
+    },
+    {
+      "id": "Barrel",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.024,
+        "radiusBottom": 0.024,
+        "height": 0.53
+      },
+      "position": [
+        0,
+        0.152,
+        0.397
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "MagazineTube",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.018,
+        "radiusBottom": 0.018,
+        "height": 0.405
+      },
+      "position": [
+        0,
+        0.096,
+        0.337
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "TubeCap",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.021,
+        "radiusBottom": 0.021,
+        "height": 0.024
+      },
+      "position": [
+        0,
+        0.096,
+        0.55
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "material": "black"
+    },
+    {
+      "id": "Pump",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.083,
+          0.068,
+          0.19
+        ]
+      },
+      "position": [
+        0,
+        0.097,
+        0.303
+      ],
+      "material": "polymer"
+    },
+    {
+      "id": "PumpRib_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.089,
+          0.074,
+          0.01
+        ]
+      },
+      "position": [
+        0,
+        0.097,
+        0.223
+      ],
+      "material": "black"
+    },
+    {
+      "id": "PumpRib_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.089,
+          0.074,
+          0.01
+        ]
+      },
+      "position": [
+        0,
+        0.097,
+        0.243
+      ],
+      "material": "black"
+    },
+    {
+      "id": "PumpRib_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.089,
+          0.074,
+          0.01
+        ]
+      },
+      "position": [
+        0,
+        0.097,
+        0.263
+      ],
+      "material": "black"
+    },
+    {
+      "id": "PumpRib_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.089,
+          0.074,
+          0.01
+        ]
+      },
+      "position": [
+        0,
+        0.097,
+        0.28300000000000003
+      ],
+      "material": "black"
+    },
+    {
+      "id": "PumpRib_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.089,
+          0.074,
+          0.01
+        ]
+      },
+      "position": [
+        0,
+        0.097,
+        0.303
+      ],
+      "material": "black"
+    },
+    {
+      "id": "PumpRib_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.089,
+          0.074,
+          0.01
+        ]
+      },
+      "position": [
+        0,
+        0.097,
+        0.323
+      ],
+      "material": "black"
+    },
+    {
+      "id": "PumpRib_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.089,
+          0.074,
+          0.01
+        ]
+      },
+      "position": [
+        0,
+        0.097,
+        0.34299999999999997
+      ],
+      "material": "black"
+    },
+    {
+      "id": "PumpRib_7",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.089,
+          0.074,
+          0.01
+        ]
+      },
+      "position": [
+        0,
+        0.097,
+        0.363
+      ],
+      "material": "black"
+    },
+    {
+      "id": "PumpRib_8",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.089,
+          0.074,
+          0.01
+        ]
+      },
+      "position": [
+        0,
+        0.097,
+        0.383
+      ],
+      "material": "black"
+    },
+    {
+      "id": "MuzzleCrown",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.028,
+        "radiusBottom": 0.028,
+        "height": 0.029
+      },
+      "position": [
+        0,
+        0.152,
+        0.672
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Bore",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.02,
+        "height": 0.002
+      },
+      "position": [
+        0,
+        0.152,
+        0.688
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "RailBase",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.034,
+          0.014,
+          0.18
+        ]
+      },
+      "position": [
+        0,
+        0.18,
+        0.047
+      ],
+      "material": "black"
+    },
+    {
+      "id": "RailTooth_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.191,
+        -0.028999999999999998
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.191,
+        -0.003999999999999997
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.191,
+        0.021000000000000005
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.191,
+        0.04600000000000001
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.191,
+        0.07100000000000001
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.191,
+        0.096
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.191,
+        0.12100000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "FrontSight",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.035,
+          0.014
+        ]
+      },
+      "position": [
+        0,
+        0.189,
+        0.626
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "RearSight",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.044,
+          0.024,
+          0.017
+        ]
+      },
+      "position": [
+        0,
+        0.207,
+        -0.014
+      ],
+      "material": "black"
+    }
+  ]
+}

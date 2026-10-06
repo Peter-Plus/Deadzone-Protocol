@@ -1,0 +1,7 @@
+{
+  "schema": "material.v1",
+  "id": "material.steel",
+  "color": "#566779",
+  "roughness": 0.35,
+  "metalness": 0.8
+}

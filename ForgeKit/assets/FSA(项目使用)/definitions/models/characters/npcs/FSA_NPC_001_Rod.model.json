@@ -1,0 +1,732 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_NPC_001_Rod",
+  "type": "humanoid",
+  "rig": "humanoid.v1",
+  "materials": {
+    "skin": {
+      "color": "#C79C78",
+      "roughness": 0.92
+    },
+    "cloth": {
+      "color": "#755340",
+      "roughness": 0.92
+    },
+    "dark": {
+      "color": "#303A39",
+      "roughness": 0.92
+    },
+    "pants": {
+      "color": "#42494B",
+      "roughness": 0.92
+    },
+    "boot": {
+      "color": "#282D2D",
+      "roughness": 0.92
+    },
+    "eye": {
+      "color": "#1D2727",
+      "roughness": 0.92
+    },
+    "accent": {
+      "color": "#C9A15D",
+      "roughness": 0.92
+    },
+    "wood": {
+      "color": "#765038",
+      "roughness": 0.92
+    },
+    "steel": {
+      "color": "#9DA8A6",
+      "roughness": 0.55,
+      "metalness": 0.5
+    },
+    "hair": {
+      "color": "#ABB0A2",
+      "roughness": 0.92
+    }
+  },
+  "parts": [
+    {
+      "id": "Hips",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.31,
+          0.17,
+          0.25
+        ]
+      },
+      "position": [
+        0,
+        0.065,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "Torso",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.32,
+          0.48,
+          0.27
+        ]
+      },
+      "position": [
+        0,
+        0.36,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "Shoulders",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.45,
+          0.13,
+          0.28
+        ]
+      },
+      "position": [
+        0,
+        0.555,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "Belt",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.326,
+          0.062,
+          0.268
+        ]
+      },
+      "position": [
+        0,
+        0.12,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "Buckle",
+      "parent": "Belt",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.058,
+          0.043,
+          0.025
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.144
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "Neck",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.14,
+          0.12,
+          0.14
+        ]
+      },
+      "position": [
+        0,
+        -0.025,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Face",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.24,
+          0.25,
+          0.225
+        ]
+      },
+      "position": [
+        0,
+        0.145,
+        0.025
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "EyeR",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.026,
+          0.013
+        ]
+      },
+      "position": [
+        -0.064,
+        0.026,
+        0.118
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "EyeL",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.026,
+          0.013
+        ]
+      },
+      "position": [
+        0.064,
+        0.026,
+        0.118
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "Brow",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.204,
+          0.027,
+          0.021
+        ]
+      },
+      "position": [
+        0,
+        0.057,
+        0.119
+      ],
+      "material": "hair"
+    },
+    {
+      "id": "Nose",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.041,
+          0.055,
+          0.031
+        ]
+      },
+      "position": [
+        0,
+        -0.007,
+        0.124
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Mouth",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.072,
+          0.015,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        -0.07,
+        0.116
+      ],
+      "material": "hair"
+    },
+    {
+      "id": "SleeveL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.36,
+          0.155,
+          0.165
+        ]
+      },
+      "position": [
+        0.17,
+        0.035,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "ForearmL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.19,
+          0.121,
+          0.13
+        ]
+      },
+      "position": [
+        0.405,
+        0.035,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "CuffL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.14,
+          0.148
+        ]
+      },
+      "position": [
+        0.47,
+        0.035,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "HandL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.105,
+          0.13,
+          0.14
+        ]
+      },
+      "position": [
+        0.535,
+        0.035,
+        0.004
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "TrousersL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.185,
+          0.66,
+          0.205
+        ]
+      },
+      "position": [
+        0,
+        -0.33,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "BootL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.197,
+          0.205,
+          0.29
+        ]
+      },
+      "position": [
+        0,
+        -0.725,
+        0.035
+      ],
+      "material": "boot"
+    },
+    {
+      "id": "SoleL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.201,
+          0.035,
+          0.298
+        ]
+      },
+      "position": [
+        0,
+        -0.81,
+        0.035
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "SleeveR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.36,
+          0.155,
+          0.165
+        ]
+      },
+      "position": [
+        -0.17,
+        0.035,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "ForearmR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.19,
+          0.121,
+          0.13
+        ]
+      },
+      "position": [
+        -0.405,
+        0.035,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "CuffR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.14,
+          0.148
+        ]
+      },
+      "position": [
+        -0.47,
+        0.035,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "HandR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.105,
+          0.13,
+          0.14
+        ]
+      },
+      "position": [
+        -0.535,
+        0.035,
+        0.004
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "TrousersR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.185,
+          0.66,
+          0.205
+        ]
+      },
+      "position": [
+        0,
+        -0.33,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "BootR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.197,
+          0.205,
+          0.29
+        ]
+      },
+      "position": [
+        0,
+        -0.725,
+        0.035
+      ],
+      "material": "boot"
+    },
+    {
+      "id": "SoleR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.201,
+          0.035,
+          0.298
+        ]
+      },
+      "position": [
+        0,
+        -0.81,
+        0.035
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "Shirt",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.18,
+          0.4,
+          0.025
+        ]
+      },
+      "position": [
+        0,
+        0.36,
+        0.145
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "Lapel-1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.35,
+          0.038
+        ]
+      },
+      "position": [
+        -0.12,
+        0.39,
+        0.15
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        -7
+      ]
+    },
+    {
+      "id": "Pocket-1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.09,
+          0.125,
+          0.041
+        ]
+      },
+      "position": [
+        -0.105,
+        0.24,
+        0.156
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "Lapel1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.35,
+          0.038
+        ]
+      },
+      "position": [
+        0.12,
+        0.39,
+        0.15
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "Pocket1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.09,
+          0.125,
+          0.041
+        ]
+      },
+      "position": [
+        0.105,
+        0.24,
+        0.156
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "Cap",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.271,
+          0.095,
+          0.252
+        ]
+      },
+      "position": [
+        0,
+        0.285,
+        0.02
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "CapPeak",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.29,
+          0.028,
+          0.115
+        ]
+      },
+      "position": [
+        0,
+        0.243,
+        0.173
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "Beard",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.215,
+          0.088,
+          0.048
+        ]
+      },
+      "position": [
+        0,
+        -0.087,
+        0.112
+      ],
+      "material": "hair"
+    },
+    {
+      "id": "BagStrap",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.052,
+          0.51,
+          0.033
+        ]
+      },
+      "position": [
+        -0.058,
+        0.37,
+        0.163
+      ],
+      "material": "wood",
+      "rotation": [
+        0,
+        0,
+        27
+      ]
+    },
+    {
+      "id": "Satchel",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.19,
+          0.24,
+          0.17
+        ]
+      },
+      "position": [
+        0.19,
+        0.14,
+        0.225
+      ],
+      "material": "wood"
+    },
+    {
+      "id": "BagFlap",
+      "parent": "Satchel",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.202,
+          0.084,
+          0.185
+        ]
+      },
+      "position": [
+        0,
+        0.086,
+        0.008
+      ],
+      "material": "cloth"
+    }
+  ]
+}

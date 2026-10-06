@@ -1,0 +1,967 @@
+{
+  "schema": "model.v1",
+  "id": "fsa.weapon.throwable_grenade",
+  "type": "static",
+  "materials": {
+    "steel": {
+      "color": "#81929d",
+      "metalness": 0.82,
+      "roughness": 0.33
+    },
+    "edge": {
+      "color": "#c3d0d5",
+      "metalness": 0.85,
+      "roughness": 0.24
+    },
+    "dark": {
+      "color": "#242f36",
+      "metalness": 0.6,
+      "roughness": 0.52
+    },
+    "grip": {
+      "color": "#343d3b",
+      "roughness": 0.95
+    },
+    "olive": {
+      "color": "#5e6b45",
+      "roughness": 0.8,
+      "metalness": 0.2
+    },
+    "groove": {
+      "color": "#34412d",
+      "roughness": 0.88
+    },
+    "mark": {
+      "color": "#bdb780",
+      "roughness": 0.78
+    }
+  },
+  "parts": [
+    {
+      "id": "grip",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.045,
+        "length": 0.035
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "olive"
+    },
+    {
+      "id": "body_band",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.044,
+        "radiusBottom": 0.044,
+        "height": 0.061
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "groove",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_0_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        -0.027,
+        0.038
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_0_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0.026870057685088804,
+        -0.027,
+        0.026870057685088808
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        45,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_0_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0.038,
+        -0.027,
+        2.326828918379971e-18
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_0_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0.026870057685088808,
+        -0.027,
+        -0.026870057685088804
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        135,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_0_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        4.653657836759942e-18,
+        -0.027,
+        -0.038
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        180,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_0_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        -0.026870057685088804,
+        -0.027,
+        -0.02687005768508881
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        225,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_0_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        -0.038,
+        -0.027,
+        -6.980486755139913e-18
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        270,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_0_7",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        -0.02687005768508881,
+        -0.027,
+        0.026870057685088797
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        315,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.043
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0.03040559159102154,
+        0,
+        0.030405591591021543
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        45,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0.043,
+        0,
+        2.6329906181668093e-18
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_1_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0.030405591591021543,
+        0,
+        -0.03040559159102154
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        135,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_1_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        5.265981236333619e-18,
+        0,
+        -0.043
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        180,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_1_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        -0.03040559159102154,
+        0,
+        -0.030405591591021547
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        225,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_1_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        -0.043,
+        0,
+        -7.898971854500428e-18
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        270,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_1_7",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        -0.030405591591021547,
+        0,
+        0.030405591591021533
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        315,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_2_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.027,
+        0.038
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_2_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0.026870057685088804,
+        0.027,
+        0.026870057685088808
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        45,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_2_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0.038,
+        0.027,
+        2.326828918379971e-18
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_2_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        0.026870057685088808,
+        0.027,
+        -0.026870057685088804
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        135,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_2_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        4.653657836759942e-18,
+        0.027,
+        -0.038
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        180,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_2_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        -0.026870057685088804,
+        0.027,
+        -0.02687005768508881
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        225,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_2_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        -0.038,
+        0.027,
+        -6.980486755139913e-18
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        270,
+        0
+      ]
+    },
+    {
+      "id": "shell_panel_2_7",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.022,
+          0.012
+        ]
+      },
+      "position": [
+        -0.02687005768508881,
+        0.027,
+        0.026870057685088797
+      ],
+      "material": "olive",
+      "rotation": [
+        0,
+        315,
+        0
+      ]
+    },
+    {
+      "id": "top_collar",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.023,
+        "radiusBottom": 0.03,
+        "height": 0.024
+      },
+      "position": [
+        0,
+        0.057,
+        0
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "top_cap",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.019,
+          0.035
+        ]
+      },
+      "position": [
+        0,
+        0.078,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "lever_top",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.021,
+          0.008,
+          0.067
+        ]
+      },
+      "position": [
+        0,
+        0.091,
+        0.017
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "lever_side",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.02,
+          0.094,
+          0.007
+        ]
+      },
+      "position": [
+        0,
+        0.047,
+        0.053
+      ],
+      "material": "steel",
+      "rotation": [
+        -9,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "paint_mark",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.032,
+          0.009,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.009,
+        0.051
+      ],
+      "material": "mark"
+    },
+    {
+      "id": "ring_link",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.002,
+        "radiusBottom": 0.002,
+        "height": 0.045
+      },
+      "position": [
+        0.029,
+        0.078,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "pull_ring_0",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.0843525906994923,
+        0.08291756185694789,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        14.999999999999998
+      ]
+    },
+    {
+      "id": "pull_ring_1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.07943502884254441,
+        0.0914350288425444,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        45
+      ]
+    },
+    {
+      "id": "pull_ring_2",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.07091756185694789,
+        0.0963525906994923,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        75.00000000000001
+      ]
+    },
+    {
+      "id": "pull_ring_3",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.061082438143052115,
+        0.0963525906994923,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        104.99999999999999
+      ]
+    },
+    {
+      "id": "pull_ring_4",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.0525649711574556,
+        0.0914350288425444,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        135
+      ]
+    },
+    {
+      "id": "pull_ring_5",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.047647409300507704,
+        0.0829175618569479,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        164.99999999999997
+      ]
+    },
+    {
+      "id": "pull_ring_6",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.047647409300507704,
+        0.07308243814305211,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        195.00000000000003
+      ]
+    },
+    {
+      "id": "pull_ring_7",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.05256497115745559,
+        0.0645649711574556,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        224.99999999999997
+      ]
+    },
+    {
+      "id": "pull_ring_8",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.061082438143052115,
+        0.0596474093005077,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        255
+      ]
+    },
+    {
+      "id": "pull_ring_9",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.07091756185694789,
+        0.0596474093005077,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        285
+      ]
+    },
+    {
+      "id": "pull_ring_10",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.0794350288425444,
+        0.06456497115745559,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        315
+      ]
+    },
+    {
+      "id": "pull_ring_11",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0018,
+        "radiusBottom": 0.0018,
+        "height": 0.0101
+      },
+      "position": [
+        0.0843525906994923,
+        0.0730824381430521,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        344.99999999999994
+      ]
+    }
+  ],
+  "sockets": [
+    {
+      "id": "grip_main",
+      "parent": "grip",
+      "position": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

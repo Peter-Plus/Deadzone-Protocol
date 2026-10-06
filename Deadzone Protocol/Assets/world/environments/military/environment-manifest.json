@@ -1,0 +1,27 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Military_01_CommandTraining",
+      "type": "building",
+      "sourceHash": "704432ef60eff5d6241693964d6545d28ed38c13937ef3c2f230fc1471674e6e",
+      "modelHash": "5f9e4b5e62e4f07c6fb51f6c22159db0eb2c546a4827eac5ea5cbe2cc952fbab",
+      "contract": "contracts/FSA_ENV_Military_01_CommandTraining.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Military_02_TrainingHangar",
+      "type": "building",
+      "sourceHash": "31db8207a857465b6d2cf05b14fa9c583bca743f0a4d5470cf288bfa45674e6e",
+      "modelHash": "3bd268fba8fa55d479eb795c9be992401951b971c4316e5d8415463e20543859",
+      "contract": "contracts/FSA_ENV_Military_02_TrainingHangar.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Door_MilitarySlide",
+      "type": "gate",
+      "sourceHash": "d37b8cb8e9bbb6ce9f04d58b91050644aec7325b6a987cc58075d80e4268445c",
+      "modelHash": "456852a6955a30cf4e02941805a2523730765cea483475bdcd3e71e02b403312",
+      "animationHash": "7d84f72f20e9dec5de62e1feec79782c6c2fc45116c96fd6158dbccc7f80848e",
+      "contract": "contracts/FSA_ENV_Door_MilitarySlide.environment.json"
+    }
+  ]
+}

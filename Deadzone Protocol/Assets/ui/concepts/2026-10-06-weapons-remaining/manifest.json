@@ -1,0 +1,58 @@
+[
+  [
+    "military_knife",
+    "军用匕首",
+    "f0a51f04-242c-46cd-b69c-528c32fdb694",
+    "Melee/Melee_001_Fang/FSA_WPN_Melee_001_Fang",
+    400,
+    "单刃刀身、浅色刃口与黑色环纹握柄"
+  ],
+  [
+    "de50_tactical",
+    "DE-50 战术",
+    "0bdb9e1c-dc33-4874-adde-a00ec3996cbb",
+    "Pistol/Pistol_001_Sidekick/FSA_WPN_Pistol_001_Sidekick",
+    360,
+    "厚重枪管与套筒、黑色握把"
+  ],
+  [
+    "m870_c",
+    "M870-C",
+    "e6af7b99-e94b-469e-980a-7d8c7fcb6acc",
+    "Shotgun/Shotgun_001_Breacher/FSA_WPN_Shotgun_001_Breacher",
+    450,
+    "泵动护木、管式弹仓与完整枪托"
+  ],
+  [
+    "mp5_tactical",
+    "MP5 战术",
+    "774e0231-b40c-4a26-ac6a-86f9ffdeed41",
+    "SMG/SMG_001_Swift/FSA_WPN_SMG_001_Swift",
+    420,
+    "紧凑机匣、窄弯弹匣及伸缩枪托"
+  ],
+  [
+    "m24_a3",
+    "M24-A3",
+    "e9cb6eb7-28e8-4335-846e-16f33e90ab90",
+    "SR/SR_001_Longwatch/FSA_WPN_SR_001_Longwatch",
+    450,
+    "长枪管、大瞄准镜与贴腮板"
+  ],
+  [
+    "m67_frag",
+    "M67 破片手榴弹",
+    "7030716a-0de7-468b-8e3e-013c58b07bdb",
+    "Throwable/Throwable_001_Thunder/FSA_WPN_Throwable_001_Thunder",
+    350,
+    "灰绿圆形弹体、保险柄和拉环"
+  ],
+  [
+    "shadow_blades",
+    "暗影双刃",
+    "f68fd880-491f-43cd-96b7-0f462ba6faa1",
+    "Melee/Melee_002_ShadowBlades/FSA_WPN_Melee_002_ShadowBlades_R",
+    430,
+    "v3 X形交叉双刃、紫色刃光与紫晶辉光"
+  ]
+]

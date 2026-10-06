@@ -1,0 +1,6420 @@
+{
+  "policy": {
+    "stepUp": 0.2,
+    "stepDown": 0.2,
+    "physicsStep": 0.22,
+    "minLanding": 0.25,
+    "snap": 0.24,
+    "skin": 0.008
+  },
+  "total": 267,
+  "passed": 257,
+  "failures": [
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.2000000000000004,
+      "minFeet": 0.0013298630714416726,
+      "maxFeet": 0.040056252479553245,
+      "end": [
+        -0.005687364377081394,
+        0.039512896537780784,
+        0.48428064584732056
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.1333333333333335,
+      "minFeet": 0.0004907488822937234,
+      "maxFeet": 0.17208280563354494,
+      "end": [
+        0.0019120088534778368,
+        0.17208280563354494,
+        0.23544170564634131
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.3000000000000007,
+      "minFeet": 0.0013325452804564542,
+      "maxFeet": 0.20959713459014884,
+      "end": [
+        0.0012808049796149135,
+        0.20715227127075186,
+        -2.014589548110962
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 0.6333333333333333,
+      "minFeet": 0.0011151075363158292,
+      "maxFeet": 0.041995668411254794,
+      "end": [
+        -6.918058395385742,
+        0.041995668411254794,
+        0.6482177376747131
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.700000000000002,
+      "minFeet": -0.006700491905212491,
+      "maxFeet": 0.20968070030212393,
+      "end": [
+        -0.003081275155436965,
+        0.20968070030212393,
+        0.032346188712414126
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.2333333333333338,
+      "minFeet": 0.0013611555099486417,
+      "maxFeet": 0.04083969593048087,
+      "end": [
+        -6.920146609880949,
+        0.04083969593048087,
+        0.650366943913018
+      ],
+      "pass": false
+    },
+    {
+      "name": "AI-around-wall",
+      "kind": "B2",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            -9,
+            0,
+            0
+          ],
+          [
+            -6,
+            0,
+            6.5
+          ],
+          [
+            -1.5,
+            0,
+            7
+          ],
+          [
+            0,
+            0,
+            5.5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 2.4249999999999545,
+        "expanded": 482,
+        "edges": 2252
+      },
+      "arrived": false,
+      "maxStuck": 2.749999999999995,
+      "minFeet": 0.004636311531066806,
+      "maxFeet": 0.20856215953826895,
+      "end": [
+        0.000013771732483291999,
+        0.20790984630584708,
+        2.3988442420959473
+      ],
+      "pass": false
+    },
+    {
+      "name": "AI-through-house",
+      "kind": "B2",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            -9
+          ]
+        ],
+        "ms": 0.018299999999953798,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": false,
+      "maxStuck": 3.483333333333326,
+      "minFeet": 0.004647278785705478,
+      "maxFeet": 0.20999982357025138,
+      "end": [
+        -0.0012561625335365534,
+        0.005215907096862704,
+        -6.03650426864624
+      ],
+      "pass": false
+    },
+    {
+      "name": "AI-around-wall",
+      "kind": "B2",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            -9,
+            0,
+            0
+          ],
+          [
+            -6,
+            0,
+            6.5
+          ],
+          [
+            -1.5,
+            0,
+            7
+          ],
+          [
+            0,
+            0,
+            5.5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 2.6684999999999945,
+        "expanded": 482,
+        "edges": 2252
+      },
+      "arrived": false,
+      "maxStuck": 2.5666666666666624,
+      "minFeet": 0.004635596275329501,
+      "maxFeet": 0.2087127208709716,
+      "end": [
+        0.0000022886817971912166,
+        0.2078579902648925,
+        2.438779284376432
+      ],
+      "pass": false
+    },
+    {
+      "name": "AI-through-house",
+      "kind": "B2",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            -9
+          ]
+        ],
+        "ms": 0.018000000000029104,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": false,
+      "maxStuck": 2.6166666666666623,
+      "minFeet": 0.004413866996765048,
+      "maxFeet": 0.20951106548309317,
+      "end": [
+        0.0012995113904246125,
+        0.007990026473998935,
+        -7.017682783055049
+      ],
+      "pass": false
+    }
+  ],
+  "results": [
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.001333034038543679,
+      "maxFeet": 0.05845544338226316,
+      "end": [
+        -0.0001405402726959437,
+        0.05784598588943479,
+        -3.9400815963745117
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0009164571762084739,
+      "maxFeet": 0.05856124162673948,
+      "end": [
+        -2.3094019889831543,
+        0.05409995317459104,
+        -4
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.00016627311706540748,
+      "maxFeet": 0.0645106792449951,
+      "end": [
+        -6.9282026290893555,
+        0.054171955585479714,
+        -4.000000476837158
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.00428506135940554,
+      "maxFeet": 0.0594074487686157,
+      "end": [
+        0.000025019559532379887,
+        0.057981467247009255,
+        -3.9361027455704556
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": -0.000032985210418723376,
+      "maxFeet": 0.06770954132080076,
+      "end": [
+        -2.309398766783252,
+        0.05162200927734373,
+        -4.000002140806259
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.001238441467285134,
+      "maxFeet": 0.06924418210983274,
+      "end": [
+        -6.928184144975844,
+        0.057977473735809304,
+        -4.00000006133322
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.003896689414978005,
+      "maxFeet": 0.06262109279632566,
+      "end": [
+        -0.00017570990894455463,
+        0.05798140764236448,
+        -3.9345364570617676
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004089212417602517,
+      "maxFeet": 0.0644656181335449,
+      "end": [
+        -2.3032994270324707,
+        0.05798009634017942,
+        -3.9893991947174072
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0007053971290588157,
+      "maxFeet": 0.06178692579269407,
+      "end": [
+        -6.898332118988037,
+        0.05595854520797727,
+        -3.9826881885528564
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": -0.0003957390785217507,
+      "maxFeet": 0.06326494216918943,
+      "end": [
+        0.00001220047137961977,
+        0.057953929901123025,
+        -3.937407149154435
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0035372734069823997,
+      "maxFeet": 0.06398401260375974,
+      "end": [
+        -2.297213023139292,
+        0.0579801559448242,
+        -3.9788251778713795
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0035214185714721458,
+      "maxFeet": 0.06477961540222166,
+      "end": [
+        -6.8941708721672015,
+        0.05800673961639402,
+        -3.9802616595015206
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0031678438186645286,
+      "maxFeet": 0.06117979288101194,
+      "end": [
+        0.00001794995660020504,
+        0.057998037338256814,
+        -3.9354758262634277
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.00424615144729612,
+      "maxFeet": 0.05968991518020628,
+      "end": [
+        -2.2797820568084717,
+        0.05808005332946775,
+        -3.9485292434692383
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0016801118850707786,
+      "maxFeet": 0.05996385812759397,
+      "end": [
+        -6.880183219909668,
+        0.05809066295623777,
+        -3.9721362590789795
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0005179405212402122,
+      "maxFeet": 0.060344493389129616,
+      "end": [
+        0.00001487236312969209,
+        0.05690977573394773,
+        -3.934871842222523
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.025,
+      "minFeet": 0.002850508689880349,
+      "maxFeet": 0.05924055576324461,
+      "end": [
+        -2.278300721458479,
+        0.05786672830581663,
+        -3.945918042431823
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0029610753059386985,
+      "maxFeet": 0.05970523357391355,
+      "end": [
+        -6.86380592438916,
+        0.05807749032974241,
+        -3.962668623596907
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.001333034038543679,
+      "maxFeet": 0.10945591926574705,
+      "end": [
+        0.000028194730475661345,
+        0.10808143615722654,
+        -3.926039218902588
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0009164571762084739,
+      "maxFeet": 0.10958204269409177,
+      "end": [
+        -2.3094005584716797,
+        0.10318229198455808,
+        -4
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.00016627311706540748,
+      "maxFeet": 0.11613414287567136,
+      "end": [
+        -6.909789085388184,
+        0.10799322128295896,
+        -3.988940954208374
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.00428506135940554,
+      "maxFeet": 0.11231181621551511,
+      "end": [
+        0.00006307983866049582,
+        0.1015144348144531,
+        -3.921528093677286
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.003720855712890603,
+      "maxFeet": 0.10985622406005857,
+      "end": [
+        -2.3095465835566187,
+        0.10808489322662351,
+        -3.9999267287873437
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.001238441467285134,
+      "maxFeet": 0.11362085342407224,
+      "end": [
+        -6.928204652693429,
+        0.10491297245025633,
+        -3.999999611092483
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.003896689414978005,
+      "maxFeet": 0.11619637012481687,
+      "end": [
+        0.0000028229942472535186,
+        0.10793492794036863,
+        -3.9808332920074463
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004089212417602517,
+      "maxFeet": 0.10874364376068113,
+      "end": [
+        -2.2858657836914062,
+        0.10605225563049314,
+        -3.958850383758545
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0007053971290588157,
+      "maxFeet": 0.11399481296539304,
+      "end": [
+        -6.887396335601807,
+        0.10766003131866453,
+        -3.9745357036590576
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": -0.0003957390785217507,
+      "maxFeet": 0.10957334041595457,
+      "end": [
+        0.0000021665303047146978,
+        0.10808143615722654,
+        -3.9824358908015434
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0035372734069823997,
+      "maxFeet": 0.11390838623046873,
+      "end": [
+        -2.2836781913076125,
+        0.10798010826110838,
+        -3.955061949968678
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0035214185714721458,
+      "maxFeet": 0.11237261295318601,
+      "end": [
+        -6.894503583438532,
+        0.10801277160644529,
+        -3.978326652408115
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0031678438186645286,
+      "maxFeet": 0.11100659370422361,
+      "end": [
+        -0.00011364543752279133,
+        0.1079919099807739,
+        -3.9375195503234863
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.00424615144729612,
+      "maxFeet": 0.10976395606994627,
+      "end": [
+        -2.282169818878174,
+        0.10789463520050047,
+        -3.952350378036499
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0016801118850707786,
+      "maxFeet": 0.11055026054382322,
+      "end": [
+        -6.88623571395874,
+        0.10662732124328611,
+        -3.9740984439849854
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0005179405212402122,
+      "maxFeet": 0.10989270210266111,
+      "end": [
+        0.0000034012769731806003,
+        0.10781297683715818,
+        -3.9303617702124702
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.025,
+      "minFeet": 0.002850508689880349,
+      "maxFeet": 0.10963473320007322,
+      "end": [
+        -2.2794914988519315,
+        0.10796699523925779,
+        -3.947597045156723
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0029610753059386985,
+      "maxFeet": 0.11005077362060545,
+      "end": [
+        -6.869736149874032,
+        0.10798690319061277,
+        -3.964342784431924
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.001333034038543679,
+      "maxFeet": 0.16267011165618894,
+      "end": [
+        -5.271825642694239e-8,
+        0.15782330036163328,
+        -4
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0009164571762084739,
+      "maxFeet": 0.17469010353088377,
+      "end": [
+        -2.3093655109405518,
+        0.1579801797866821,
+        -4.000009536743164
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0013332128524780051,
+      "maxFeet": 0.16324434280395506,
+      "end": [
+        -6.928203582763672,
+        0.15799388885498045,
+        -3.999999523162842
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.00428506135940554,
+      "maxFeet": 0.16753814220428465,
+      "end": [
+        0.00000172696585098997,
+        0.15183398723602293,
+        -3.9999994588897563
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.003720855712890603,
+      "maxFeet": 0.17270646095275877,
+      "end": [
+        -2.308714202246691,
+        0.1579801797866821,
+        -3.9987934538073997
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.001238441467285134,
+      "maxFeet": 0.17035565376281736,
+      "end": [
+        -6.928202635392374,
+        0.1538678169250488,
+        -3.99999976348216
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004666125774383523,
+      "maxFeet": 0.1657978057861328,
+      "end": [
+        -0.00003700789238791913,
+        0.15782330036163328,
+        -3.9612295627593994
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004089212417602517,
+      "maxFeet": 0.16298041343688963,
+      "end": [
+        -2.3019425868988037,
+        0.1580865144729614,
+        -3.986865520477295
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0007053971290588157,
+      "maxFeet": 0.16294918060302732,
+      "end": [
+        -6.877256393432617,
+        0.15799460411071775,
+        -3.956709384918213
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": -0.0003957390785217507,
+      "maxFeet": 0.16615221500396726,
+      "end": [
+        -0.00007019907305760853,
+        0.15798149108886717,
+        -3.929174088762424
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0035372734069823997,
+      "maxFeet": 0.16473422050476072,
+      "end": [
+        -2.298723263840013,
+        0.1557746887207031,
+        -3.9810783786037867
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0035214185714721458,
+      "maxFeet": 0.16248497962951658,
+      "end": [
+        -6.92220573931737,
+        0.15797743797302244,
+        -3.9950147136154044
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0031678438186645286,
+      "maxFeet": 0.16076085567474363,
+      "end": [
+        0.0000026773241188493557,
+        0.15798149108886717,
+        -3.9494025707244873
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.00424615144729612,
+      "maxFeet": 0.16127023696899412,
+      "end": [
+        -2.2739815711975098,
+        0.1578477382659912,
+        -3.937213897705078
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.001852607727050759,
+      "maxFeet": 0.15976903438568113,
+      "end": [
+        -6.880157947540283,
+        0.157977557182312,
+        -3.9603240489959717
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0005179405212402122,
+      "maxFeet": 0.15921268463134763,
+      "end": [
+        0.00002199292690829857,
+        0.15782330036163328,
+        -3.953740846165357
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.025,
+      "minFeet": 0.002850508689880349,
+      "maxFeet": 0.1593992471694946,
+      "end": [
+        -2.273700098321405,
+        0.15798006057739256,
+        -3.936467259403524
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0029610753059386985,
+      "maxFeet": 0.1611765384674072,
+      "end": [
+        -6.880108485551261,
+        0.15678474903106687,
+        -3.9592336461181192
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.001333034038543679,
+      "maxFeet": 0.22586498260498045,
+      "end": [
+        -0.0004268843331374228,
+        0.2079815626144409,
+        -3.9999008178710938
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0009164571762084739,
+      "maxFeet": 0.22670195102691648,
+      "end": [
+        -2.293841600418091,
+        0.20794878005981443,
+        -3.972320318222046
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0013332128524780051,
+      "maxFeet": 0.2212579011917114,
+      "end": [
+        -6.928186893463135,
+        0.20797750949859617,
+        -3.9999988079071045
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.00428506135940554,
+      "maxFeet": 0.22497532367706297,
+      "end": [
+        -0.00003128640112404213,
+        0.2078672409057617,
+        -4.0000067709433615
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.003720855712890603,
+      "maxFeet": 0.21193096637725828,
+      "end": [
+        -2.295962380155465,
+        0.2080801486968994,
+        -3.9761668078110946
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.001238441467285134,
+      "maxFeet": 0.22102019786834715,
+      "end": [
+        -6.9282035917365405,
+        0.20809159278869627,
+        -4.000000113907944
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004666125774383523,
+      "maxFeet": 0.21183989048004148,
+      "end": [
+        0.00002287644565512892,
+        0.2047481298446655,
+        -3.9626963138580322
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004089212417602517,
+      "maxFeet": 0.21610245704650877,
+      "end": [
+        -2.275935173034668,
+        0.2079801321029663,
+        -3.9400579929351807
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0007053971290588157,
+      "maxFeet": 0.21218082904815672,
+      "end": [
+        -6.922066688537598,
+        0.20807752609252927,
+        -3.993411064147949
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": -0.0003957390785217507,
+      "maxFeet": 0.2122256517410278,
+      "end": [
+        -0.000013330040556258638,
+        0.208081579208374,
+        -3.954212920010388
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0035372734069823997,
+      "maxFeet": 0.2151928901672363,
+      "end": [
+        -2.274252399894165,
+        0.20809206962585447,
+        -3.9368203109416844
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0035214185714721458,
+      "maxFeet": 0.2145975589752197,
+      "end": [
+        -6.907492551307711,
+        0.20807752609252927,
+        -3.975458567619144
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0031678438186645286,
+      "maxFeet": 0.21085593700408933,
+      "end": [
+        0.0000020865054466412403,
+        0.2077092885971069,
+        -3.9200849533081055
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.00424615144729612,
+      "maxFeet": 0.21042749881744383,
+      "end": [
+        -2.2727060317993164,
+        0.2078376770019531,
+        -3.933357000350952
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.001852607727050759,
+      "maxFeet": 0.20977864265441892,
+      "end": [
+        -6.879345417022705,
+        0.20807752609252927,
+        -3.946568012237549
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0005179405212402122,
+      "maxFeet": 0.2110965013504028,
+      "end": [
+        0.000009880471634415855,
+        0.2072108745574951,
+        -3.9507969691706126
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.025,
+      "minFeet": 0.002850508689880349,
+      "maxFeet": 0.20915434360504148,
+      "end": [
+        -2.270852161278194,
+        0.20799324512481687,
+        -3.9299802979761838
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "player",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0029610753059386985,
+      "maxFeet": 0.21148655414581297,
+      "end": [
+        -6.898117133587829,
+        0.20799419879913328,
+        -3.963712847700654
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0013298630714416726,
+      "maxFeet": 0.06200554370880129,
+      "end": [
+        6.129949952082825e-7,
+        0.057689452171325706,
+        -3.9999988079071045
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.06666666666666667,
+      "minFeet": 0.0013330221176147683,
+      "maxFeet": 0.060934686660766624,
+      "end": [
+        -2.292027711868286,
+        0.057672405242919944,
+        -3.969855785369873
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.06666666666666667,
+      "minFeet": 0.0007624864578247292,
+      "maxFeet": 0.05983068943023684,
+      "end": [
+        -6.92575216293335,
+        0.05783691406250002,
+        -3.9985837936401367
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0004907488822937234,
+      "maxFeet": 0.06431915760040285,
+      "end": [
+        -0.0000022446790179930787,
+        0.057689332962036155,
+        -3.993870453597089
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0009720563888550027,
+      "maxFeet": 0.06051149368286135,
+      "end": [
+        -2.2859620902859077,
+        0.05419590473175051,
+        -3.9593104577674456
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013286709785461648,
+      "maxFeet": 0.06141796112060549,
+      "end": [
+        -6.922986211983217,
+        0.05795850753784182,
+        -3.996981609737861
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0038237810134887917,
+      "maxFeet": 0.05960931777954104,
+      "end": [
+        0.00003807296525337733,
+        0.057936334609985374,
+        -3.9443507194519043
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.00277754068374636,
+      "maxFeet": 0.05917050838470461,
+      "end": [
+        -2.2865993976593018,
+        0.05800619125366213,
+        -3.960422992706299
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0019279360771179421,
+      "maxFeet": 0.05953290462493899,
+      "end": [
+        -6.883177280426025,
+        0.05681278705596926,
+        -3.9739482402801514
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": -0.00038001537322995826,
+      "maxFeet": 0.058467531204223655,
+      "end": [
+        -0.00006492947344005628,
+        0.057788515090942405,
+        -3.9385445586539074
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0038967967033386453,
+      "maxFeet": 0.059253478050231956,
+      "end": [
+        -2.2871802522586977,
+        0.05796041488647463,
+        -3.961404566451459
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004661524295806907,
+      "maxFeet": 0.05975320339202883,
+      "end": [
+        -6.878508143938852,
+        0.057953500747680686,
+        -3.9712338286657194
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0034023165702820046,
+      "maxFeet": 0.05835738182067873,
+      "end": [
+        -0.000040480896132066846,
+        0.057788634300231956,
+        -3.942573070526123
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.004458153247833274,
+      "maxFeet": 0.05871560573577883,
+      "end": [
+        -2.2759792804718018,
+        0.05777218341827395,
+        -3.9420504570007324
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0038594841957092507,
+      "maxFeet": 0.05959012508392336,
+      "end": [
+        -6.877084255218506,
+        0.05774071216583254,
+        -3.9704322814941406
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.00290569067001345,
+      "maxFeet": 0.0583521366119385,
+      "end": [
+        0.00002546990237672908,
+        0.057788634300231956,
+        -3.9422850793300652
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.004564607143402122,
+      "maxFeet": 0.05908622741699221,
+      "end": [
+        -2.2728331951510707,
+        0.05777218341827395,
+        -3.936650671195639
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.002193415164947532,
+      "maxFeet": 0.05941584110260012,
+      "end": [
+        -6.871692409310761,
+        0.05783977508544924,
+        -3.967342624414954
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0013298630714416726,
+      "maxFeet": 0.11458995342254641,
+      "end": [
+        -0.000008408837857132312,
+        0.10777916908264162,
+        -3.9791128635406494
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.06666666666666667,
+      "minFeet": 0.0013330221176147683,
+      "maxFeet": 0.11331489086151125,
+      "end": [
+        -2.276948928833008,
+        0.10790004730224612,
+        -3.943206787109375
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0007624864578247292,
+      "maxFeet": 0.11130120754241946,
+      "end": [
+        -6.926690578460693,
+        0.10761811733245852,
+        -3.9988765716552734
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0004907488822937234,
+      "maxFeet": 0.11327781677246096,
+      "end": [
+        -0.000022335548892860047,
+        0.10782494544982912,
+        -3.977344086754558
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0009720563888550027,
+      "maxFeet": 0.11131956577301028,
+      "end": [
+        -2.278994234107145,
+        0.10776426792144778,
+        -3.9471075405614693
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013286709785461648,
+      "maxFeet": 0.1113233804702759,
+      "end": [
+        -6.9282037471458215,
+        0.10783138275146487,
+        -3.9999999331003835
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0038237810134887917,
+      "maxFeet": 0.10990169048309328,
+      "end": [
+        -0.000037353293009800836,
+        0.1079204320907593,
+        -3.9204139709472656
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.00277754068374636,
+      "maxFeet": 0.11016943454742434,
+      "end": [
+        -2.2925822734832764,
+        0.10766448974609377,
+        -3.9706778526306152
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0019279360771179421,
+      "maxFeet": 0.11020770072937014,
+      "end": [
+        -6.8731818199157715,
+        0.10772492885589602,
+        -3.9588510990142822
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": -0.00038001537322995826,
+      "maxFeet": 0.10929849147796633,
+      "end": [
+        -0.00004277171116506828,
+        0.10782828330993655,
+        -3.967588011138644
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0038967967033386453,
+      "maxFeet": 0.10935833454132082,
+      "end": [
+        -2.275266178534574,
+        0.10776426792144778,
+        -3.940578692073813
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004661524295806907,
+      "maxFeet": 0.10927131175994875,
+      "end": [
+        -6.888485707106341,
+        0.10469450950622561,
+        -3.971671783824399
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0034023165702820046,
+      "maxFeet": 0.11058404445648196,
+      "end": [
+        -0.000013710596249438822,
+        0.10771276950836184,
+        -3.9403722286224365
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.004458153247833274,
+      "maxFeet": 0.10897340774536135,
+      "end": [
+        -2.276721715927124,
+        0.10766425132751467,
+        -3.9429707527160645
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0038594841957092507,
+      "maxFeet": 0.110338830947876,
+      "end": [
+        -6.866159439086914,
+        0.10763611793518069,
+        -3.9566283226013184
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.00290569067001345,
+      "maxFeet": 0.10855498313903811,
+      "end": [
+        -0.00004840341659528846,
+        0.10800292491912844,
+        -3.939543306671037
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.004564607143402122,
+      "maxFeet": 0.10928823947906496,
+      "end": [
+        -2.2736528542378998,
+        0.10776414871215823,
+        -3.9375573420630046
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.003987693786621116,
+      "maxFeet": 0.10879602432250979,
+      "end": [
+        -6.878689360338381,
+        0.1072725296020508,
+        -3.964653548637486
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.19999999999999998,
+      "minFeet": 0.0013298630714416726,
+      "maxFeet": 0.16358437538146975,
+      "end": [
+        -0.000024141487301676534,
+        0.15776839256286623,
+        -3.982071876525879
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.06666666666666667,
+      "minFeet": 0.0013330221176147683,
+      "maxFeet": 0.1625532150268555,
+      "end": [
+        -2.2809009552001953,
+        0.1577551603317261,
+        -3.929222345352173
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0007624864578247292,
+      "maxFeet": 0.16235353946685793,
+      "end": [
+        -6.901544094085693,
+        0.15763070583343508,
+        -3.947523593902588
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0004907488822937234,
+      "maxFeet": 0.16273357868194582,
+      "end": [
+        -0.000027759167850582855,
+        0.15786638259887698,
+        -3.948584917772499
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0009720563888550027,
+      "maxFeet": 0.16260268688201907,
+      "end": [
+        -2.302464684720911,
+        0.1577558755874634,
+        -3.9778403580794763
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013286709785461648,
+      "maxFeet": 0.16218509674072268,
+      "end": [
+        -6.908215146952673,
+        0.15798976421356203,
+        -3.9717041880536534
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0038237810134887917,
+      "maxFeet": 0.159860634803772,
+      "end": [
+        -0.00002689102075237315,
+        0.15786590576171877,
+        -3.922476053237915
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.00277754068374636,
+      "maxFeet": 0.1597087621688843,
+      "end": [
+        -2.2893004417419434,
+        0.15765550136566164,
+        -3.953902006149292
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.004380130767822288,
+      "maxFeet": 0.16028800010681155,
+      "end": [
+        -6.897280216217041,
+        0.15763094425201418,
+        -3.9544856548309326
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": -0.00038001537322995826,
+      "maxFeet": 0.15901961326599123,
+      "end": [
+        0.000005786892476988825,
+        0.15766754150390627,
+        -3.9211988175098247
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0046628355979919656,
+      "maxFeet": 0.15999736785888674,
+      "end": [
+        -2.2781797022063714,
+        0.1577551603317261,
+        -3.9278605220626135
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004661524295806907,
+      "maxFeet": 0.16039648056030276,
+      "end": [
+        -6.898061083102439,
+        0.15773108005523684,
+        -3.960709282352477
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.15,
+      "minFeet": 0.0034023165702820046,
+      "maxFeet": 0.15855815410614016,
+      "end": [
+        -0.000008923520908865612,
+        0.15766777992248537,
+        -3.9395267963409424
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004458153247833274,
+      "maxFeet": 0.15860011577606203,
+      "end": [
+        -2.2821033000946045,
+        0.1576553821563721,
+        -3.9382691383361816
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0038594841957092507,
+      "maxFeet": 0.15880444049835207,
+      "end": [
+        -6.885287761688232,
+        0.1578316926956177,
+        -3.9451487064361572
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.00290569067001345,
+      "maxFeet": 0.15864458084106448,
+      "end": [
+        0.000012256442816216406,
+        0.15776767730712893,
+        -3.934172380474582
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.004564607143402122,
+      "maxFeet": 0.15908720493316653,
+      "end": [
+        -2.2816943882227485,
+        0.15794076919555666,
+        -3.93707946402034
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.003987693786621116,
+      "maxFeet": 0.15927674770355227,
+      "end": [
+        -6.891542123425483,
+        0.15763094425201418,
+        -3.953295027400725
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.2000000000000004,
+      "minFeet": 0.0013298630714416726,
+      "maxFeet": 0.040056252479553245,
+      "end": [
+        -0.005687364377081394,
+        0.039512896537780784,
+        0.48428064584732056
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.7,
+      "minFeet": 0.0013330221176147683,
+      "maxFeet": 0.21283223628997805,
+      "end": [
+        -2.3092780113220215,
+        0.20272173881530764,
+        -3.933793067932129
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0007624864578247292,
+      "maxFeet": 0.21048548221588137,
+      "end": [
+        -6.927219390869141,
+        0.20792188644409182,
+        -3.9871742725372314
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.1333333333333335,
+      "minFeet": 0.0004907488822937234,
+      "maxFeet": 0.17208280563354494,
+      "end": [
+        0.0019120088534778368,
+        0.17208280563354494,
+        0.23544170564634131
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.7666666666666666,
+      "minFeet": 0.0009720563888550027,
+      "maxFeet": 0.2139845132827759,
+      "end": [
+        -2.3093832059640818,
+        0.207645320892334,
+        -3.9340726492847566
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013286709785461648,
+      "maxFeet": 0.21060707569122317,
+      "end": [
+        -6.925327391624996,
+        0.20762553215026858,
+        -3.9725408292674356
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.8000000000000008,
+      "minFeet": 0.0038237810134887917,
+      "maxFeet": 0.20950260162353518,
+      "end": [
+        -0.00007691459904890507,
+        0.20799984931945803,
+        -3.9210288524627686
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.00277754068374636,
+      "maxFeet": 0.2093523979187012,
+      "end": [
+        -2.307598829269409,
+        0.20792999267578127,
+        -3.9498350620269775
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0044394373893738015,
+      "maxFeet": 0.20925762653350832,
+      "end": [
+        -6.913873195648193,
+        0.20795550346374514,
+        -3.924067974090576
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.8000000000000008,
+      "minFeet": -0.00038001537322995826,
+      "maxFeet": 0.20992388725280764,
+      "end": [
+        -0.000019596098697061137,
+        0.20789947509765627,
+        -3.9667821253023776
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.4666666666666666,
+      "minFeet": 0.0046628355979919656,
+      "maxFeet": 0.20971586704254153,
+      "end": [
+        -2.308576421526255,
+        0.20774497985839846,
+        -3.9208949152305754
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004661524295806907,
+      "maxFeet": 0.21136715412139895,
+      "end": [
+        -6.921133672984834,
+        0.20802178382873537,
+        -3.9294914172189523
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.3833333333333337,
+      "minFeet": 0.0034023165702820046,
+      "maxFeet": 0.2086204528808594,
+      "end": [
+        -0.0001005356025416404,
+        0.20775618553161623,
+        -3.937891721725464
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.004458153247833274,
+      "maxFeet": 0.20878746509552004,
+      "end": [
+        -2.304748058319092,
+        0.20779910087585451,
+        -3.9303784370422363
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0038594841957092507,
+      "maxFeet": 0.2085150718688965,
+      "end": [
+        -6.903955459594727,
+        0.20772495269775393,
+        -3.9320943355560303
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.8416666666666661,
+      "minFeet": 0.00290569067001345,
+      "maxFeet": 0.20858695507049563,
+      "end": [
+        -0.00007299680121075625,
+        0.20772435665130617,
+        -3.9395242039445586
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.004564607143402122,
+      "maxFeet": 0.20840432643890383,
+      "end": [
+        -2.303519940854511,
+        0.2076450824737549,
+        -3.9234317414584057
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "A1",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.003987693786621116,
+      "maxFeet": 0.21074666976928713,
+      "end": [
+        -6.904816770626443,
+        0.20762505531311037,
+        -3.935817268253047
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013325452804564542,
+      "maxFeet": 0.059577131271362216,
+      "end": [
+        7.523101430706447e-7,
+        0.056717419624328524,
+        -3.9799771308898926
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013207435607909268,
+      "maxFeet": 0.05964841842651358,
+      "end": [
+        -2.305093288421631,
+        0.056821250915527255,
+        -3.9925248622894287
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0011151075363158292,
+      "maxFeet": 0.05883159637451163,
+      "end": [
+        -6.909924030303955,
+        0.05701889991760245,
+        -3.9894158840179443
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.006700491905212491,
+      "maxFeet": 0.059387826919555575,
+      "end": [
+        0.00028894994391315265,
+        0.056815171241760165,
+        -3.9515967764312347
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.0030731916427613193,
+      "maxFeet": 0.059476399421691806,
+      "end": [
+        -2.2760277438734695,
+        0.05671515464782706,
+        -3.941381040870837
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.13333333333333333,
+      "minFeet": 0.0007428169250487393,
+      "maxFeet": 0.0599259376525878,
+      "end": [
+        -6.908078868554173,
+        0.05690600872039786,
+        -3.988341955973824
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0044447422027587,
+      "maxFeet": 0.05840148925781241,
+      "end": [
+        0.000004809445727005368,
+        0.05737915039062491,
+        -3.9522147178649902
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0045955419540404385,
+      "maxFeet": 0.05770363807678214,
+      "end": [
+        -2.279721975326538,
+        0.057457351684570224,
+        -3.9483587741851807
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.000723385810851962,
+      "maxFeet": 0.059439682960510165,
+      "end": [
+        -6.86308479309082,
+        0.056424760818481356,
+        -3.962252378463745
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.0013235569000245029,
+      "maxFeet": 0.0577357053756713,
+      "end": [
+        -0.00001784711934305072,
+        0.056714677810668856,
+        -3.9446937273615794
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0017022132873534268,
+      "maxFeet": 0.05782332420349112,
+      "end": [
+        -2.2861573188354156,
+        0.05661585330963126,
+        -3.9596041740124455
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0029601097106932706,
+      "maxFeet": 0.05817689895629874,
+      "end": [
+        -6.877612500785954,
+        0.05652477741241446,
+        -3.9706898842536664
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.025,
+      "minFeet": 0.003819847106933505,
+      "maxFeet": 0.05768980979919425,
+      "end": [
+        0.000015178164176177233,
+        0.056712889671325595,
+        -3.922037124633789
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.003685259819030673,
+      "maxFeet": 0.057764434814453036,
+      "end": [
+        -2.270754814147949,
+        0.056714677810668856,
+        -3.9328863620758057
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.003697180747985751,
+      "maxFeet": 0.057788634300231845,
+      "end": [
+        -6.867913722991943,
+        0.05702199935913077,
+        -3.9650826454162598
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0033471822738646573,
+      "maxFeet": 0.05753579139709464,
+      "end": [
+        -0.000025961174288324784,
+        0.05671348571777335,
+        -3.92816995594132
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.025,
+      "minFeet": 0.0048053503036498135,
+      "maxFeet": 0.05794026851654044,
+      "end": [
+        -2.2779568108486985,
+        0.056615138053893954,
+        -3.9453883808091526
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.05",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0024615764617919034,
+      "maxFeet": 0.05815699100494376,
+      "end": [
+        -6.867703666353769,
+        0.056424522399902255,
+        -3.964948830796179
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013325452804564542,
+      "maxFeet": 0.10926403999328604,
+      "end": [
+        0.00000294009532808559,
+        0.10669507980346671,
+        -3.9641003608703613
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013207435607909268,
+      "maxFeet": 0.10942771434783927,
+      "end": [
+        -2.30112624168396,
+        0.10660150051116934,
+        -3.985658884048462
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0011151075363158292,
+      "maxFeet": 0.10878911018371573,
+      "end": [
+        -6.880927085876465,
+        0.10618474483489981,
+        -3.9711856842041016
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.006700491905212491,
+      "maxFeet": 0.10815634727478018,
+      "end": [
+        0.00035974144305317424,
+        0.1067936658859252,
+        -3.942965129983083
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.0030731916427613193,
+      "maxFeet": 0.10989668369293204,
+      "end": [
+        -2.298927614163766,
+        0.10660126209259024,
+        -3.981753583384704
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.13333333333333333,
+      "minFeet": 0.0013611555099486417,
+      "maxFeet": 0.10983242988586417,
+      "end": [
+        -6.907788494423917,
+        0.106954002380371,
+        -3.985774872524861
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0044447422027587,
+      "maxFeet": 0.10870614051818839,
+      "end": [
+        0.000011164940588059835,
+        0.10679330825805655,
+        -3.9413418769836426
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0045955419540404385,
+      "maxFeet": 0.10800030231475821,
+      "end": [
+        -2.271864652633667,
+        0.10669901371002188,
+        -3.9345672130584717
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.000723385810851962,
+      "maxFeet": 0.10844554901123038,
+      "end": [
+        -6.866892337799072,
+        0.10641720294952384,
+        -3.9613711833953857
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.0013235569000245029,
+      "maxFeet": 0.10859062671661368,
+      "end": [
+        -0.000004946845483910778,
+        0.10679283142089835,
+        -3.933151264357898
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0017022132873534268,
+      "maxFeet": 0.10767831802368155,
+      "end": [
+        -2.280708523908597,
+        0.10728540420532218,
+        -3.9499916730839217
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0029601097106932706,
+      "maxFeet": 0.10819854736328116,
+      "end": [
+        -6.87560329187756,
+        0.10651745796203604,
+        -3.967944771591945
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.025,
+      "minFeet": 0.003819847106933505,
+      "maxFeet": 0.10831656455993643,
+      "end": [
+        0.0000036230999285180587,
+        0.10669281482696524,
+        -3.9321229457855225
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.003685259819030673,
+      "maxFeet": 0.10771801471710196,
+      "end": [
+        -2.274129629135132,
+        0.10659899711608878,
+        -3.938542366027832
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.003697180747985751,
+      "maxFeet": 0.10795118808746329,
+      "end": [
+        -6.872286796569824,
+        0.10641744136810294,
+        -3.9657325744628906
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0033471822738646573,
+      "maxFeet": 0.10779371261596671,
+      "end": [
+        -0.0000010321137409174952,
+        0.10679235458374015,
+        -3.9298452715236163
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.025,
+      "minFeet": 0.0048053503036498135,
+      "maxFeet": 0.10836234092712393,
+      "end": [
+        -2.271481297181887,
+        0.10669913291931143,
+        -3.933888449906257
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.1",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.00523974895477286,
+      "maxFeet": 0.10805346965789786,
+      "end": [
+        -6.8654361254099845,
+        0.10651710033416739,
+        -3.960595702371295
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.19999999999999998,
+      "minFeet": 0.0013325452804564542,
+      "maxFeet": 0.15989973545074454,
+      "end": [
+        0.0000041810617403825745,
+        0.15677168369293204,
+        -3.9616706371307373
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013207435607909268,
+      "maxFeet": 0.1583690881729125,
+      "end": [
+        -2.303612232208252,
+        0.15716710090637198,
+        -3.985335350036621
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0011151075363158292,
+      "maxFeet": 0.15942587852478018,
+      "end": [
+        -6.899439811706543,
+        0.15640618801116934,
+        -3.93827486038208
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.3333333333333333,
+      "minFeet": -0.006700491905212491,
+      "maxFeet": 0.15921380519866934,
+      "end": [
+        0.00024090680268917808,
+        0.15666975975036612,
+        -3.9376136127346486
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.0030731916427613193,
+      "maxFeet": 0.15930118560791007,
+      "end": [
+        -2.295951821683542,
+        0.1567734718322753,
+        -3.961959575921184
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.13333333333333333,
+      "minFeet": 0.0013611555099486417,
+      "maxFeet": 0.16011884212493888,
+      "end": [
+        -6.92470542909338,
+        0.15650894641876212,
+        -3.9899726253338224
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0044447422027587,
+      "maxFeet": 0.15829601287841788,
+      "end": [
+        0.000002884010655179736,
+        0.15716137886047354,
+        -3.9469900131225586
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0045955419540404385,
+      "maxFeet": 0.15798606872558585,
+      "end": [
+        -2.2842183113098145,
+        0.1566821575164794,
+        -3.948509693145752
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.000723385810851962,
+      "maxFeet": 0.15814056396484366,
+      "end": [
+        -6.900790691375732,
+        0.15650668144226065,
+        -3.943488597869873
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": -0.0013235569000245029,
+      "maxFeet": 0.15836920738220206,
+      "end": [
+        2.4042180313266215e-7,
+        0.1572600841522216,
+        -3.9415582110277025
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0017022132873534268,
+      "maxFeet": 0.15833165645599356,
+      "end": [
+        -2.292503816793154,
+        0.15717520713806143,
+        -3.9563638748333645
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0029601097106932706,
+      "maxFeet": 0.15876975059509268,
+      "end": [
+        -6.893037728576954,
+        0.15691592693328849,
+        -3.941598118115457
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.025,
+      "minFeet": 0.003819847106933505,
+      "maxFeet": 0.1577645778656005,
+      "end": [
+        0.0000069686434471805114,
+        0.1575507164001464,
+        -3.923253297805786
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.003685259819030673,
+      "maxFeet": 0.15786077976226798,
+      "end": [
+        -2.2816734313964844,
+        0.1566819190979003,
+        -3.9425506591796875
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.003697180747985751,
+      "maxFeet": 0.15809681415557852,
+      "end": [
+        -6.881446361541748,
+        0.15650691986083975,
+        -3.938998222351074
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.0033471822738646573,
+      "maxFeet": 0.15800931453704825,
+      "end": [
+        -0.000007511641631596788,
+        0.15716483592987052,
+        -3.9356515823595233
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.025,
+      "minFeet": 0.0048053503036498135,
+      "maxFeet": 0.1582014799118041,
+      "end": [
+        -2.27749908130529,
+        0.15668156147003165,
+        -3.9364878132446623
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.15",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.00523974895477286,
+      "maxFeet": 0.15825250148773184,
+      "end": [
+        -6.8823740983287705,
+        0.15710582733154288,
+        -3.945619669696696
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.3000000000000007,
+      "minFeet": 0.0013325452804564542,
+      "maxFeet": 0.20959713459014884,
+      "end": [
+        0.0012808049796149135,
+        0.20715227127075186,
+        -2.014589548110962
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.5666666666666667,
+      "minFeet": 0.0013207435607909268,
+      "maxFeet": 0.2096965551376342,
+      "end": [
+        -2.309183359146118,
+        0.20666327476501456,
+        -3.9616596698760986
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 0.6333333333333333,
+      "minFeet": 0.0011151075363158292,
+      "maxFeet": 0.041995668411254794,
+      "end": [
+        -6.918058395385742,
+        0.041995668411254794,
+        0.6482177376747131
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.700000000000002,
+      "minFeet": -0.006700491905212491,
+      "maxFeet": 0.20968070030212393,
+      "end": [
+        -0.003081275155436965,
+        0.20968070030212393,
+        0.032346188712414126
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.06666666666666667,
+      "minFeet": -0.0030731916427613193,
+      "maxFeet": 0.2095008134841918,
+      "end": [
+        -2.3081995821242685,
+        0.20722737312316886,
+        -3.944335628058988
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 30,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.2333333333333338,
+      "minFeet": 0.0013611555099486417,
+      "maxFeet": 0.04083969593048087,
+      "end": [
+        -6.920146609880949,
+        0.04083969593048087,
+        0.650366943913018
+      ],
+      "pass": false
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 1.0666666666666678,
+      "minFeet": 0.0044447422027587,
+      "maxFeet": 0.20860948562622061,
+      "end": [
+        0.000007353771707130363,
+        0.20734241008758536,
+        -3.923339366912842
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.7666666666666674,
+      "minFeet": 0.0045955419540404385,
+      "maxFeet": 0.20870902538299552,
+      "end": [
+        -2.30894136428833,
+        0.20656182765960684,
+        -3.9433441162109375
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.2833333333333333,
+      "minFeet": 0.000723385810851962,
+      "maxFeet": 0.20874991416931143,
+      "end": [
+        -6.92738676071167,
+        0.20639612674713126,
+        -3.9402740001678467
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 1.183333333333334,
+      "minFeet": -0.0013235569000245029,
+      "maxFeet": 0.20905771255493155,
+      "end": [
+        -0.00003322265228988819,
+        0.20664336681365958,
+        -3.9225074981370134
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.55,
+      "minFeet": 0.0017022132873534268,
+      "maxFeet": 0.20841422080993643,
+      "end": [
+        -2.3084927475719197,
+        0.20755686759948722,
+        -3.9426682838448714
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 60,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.5666666666666668,
+      "minFeet": 0.0029601097106932706,
+      "maxFeet": 0.20832254886627188,
+      "end": [
+        -6.927595382680862,
+        0.2063964843749999,
+        -3.94520420622137
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 1.141666666666665,
+      "minFeet": 0.003819847106933505,
+      "maxFeet": 0.20775034427642813,
+      "end": [
+        -0.0000750234758015722,
+        0.2073422908782958,
+        -3.935300827026367
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.003685259819030673,
+      "maxFeet": 0.2076772689819335,
+      "end": [
+        -2.3022608757019043,
+        0.2073110580444335,
+        -3.936627149581909
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.003697180747985751,
+      "maxFeet": 0.2081425428390502,
+      "end": [
+        -6.913668632507324,
+        0.20679357051849356,
+        -3.929638385772705
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.7166666666666666,
+      "minFeet": 0.0033471822738646573,
+      "maxFeet": 0.20864500999450675,
+      "end": [
+        -0.000014569987083490332,
+        0.2067443370819091,
+        -3.938137528290579
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.18333333333333332,
+      "minFeet": 0.0048053503036498135,
+      "maxFeet": 0.2080962896347045,
+      "end": [
+        -2.3068230725726706,
+        0.2066614866256713,
+        -3.936315991502529
+      ],
+      "pass": true
+    },
+    {
+      "name": "step-0.2",
+      "kind": "B2",
+      "options": {
+        "hz": 120,
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.00523974895477286,
+      "maxFeet": 0.2086090087890624,
+      "end": [
+        -6.91774093758397,
+        0.20729103088378897,
+        -3.9307809665257785
+      ],
+      "pass": true
+    },
+    {
+      "name": "side-descent",
+      "kind": "player",
+      "options": {
+        "hz": 30
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.001361405849456765,
+      "maxFeet": 0.21738657951354978,
+      "end": [
+        17.99794578552246,
+        0.0030756950378417747,
+        -3.0000076293945312
+      ],
+      "pass": true
+    },
+    {
+      "name": "return-through-house",
+      "kind": "player",
+      "options": {
+        "hz": 30
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0.2,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "ms": 1.0137999999999465,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0010037779808044212,
+      "maxFeet": 0.2137099266052246,
+      "end": [
+        2.4204396709137654e-7,
+        0.0016758203506469505,
+        9
+      ],
+      "pass": true
+    },
+    {
+      "name": "side-descent",
+      "kind": "player",
+      "options": {
+        "hz": 60
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004666662216186501,
+      "maxFeet": 0.21288046836853025,
+      "end": [
+        17.9251766204834,
+        0.007839417457580544,
+        -3.000004529953003
+      ],
+      "pass": true
+    },
+    {
+      "name": "return-through-house",
+      "kind": "player",
+      "options": {
+        "hz": 60
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0.2,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "ms": 0.3103000000000975,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0046664237976074,
+      "maxFeet": 0.21176168918609617,
+      "end": [
+        -0.000005831939233758021,
+        0.006018853187561013,
+        8.945515632629395
+      ],
+      "pass": true
+    },
+    {
+      "name": "side-descent",
+      "kind": "player",
+      "options": {
+        "hz": 120
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0063329696655273215,
+      "maxFeet": 0.21067473888397215,
+      "end": [
+        17.94397735595703,
+        0.007009363174438454,
+        -2.9999938011169434
+      ],
+      "pass": true
+    },
+    {
+      "name": "return-through-house",
+      "kind": "player",
+      "options": {
+        "hz": 120
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0.2,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "ms": 0.5037999999999556,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.006333088874816872,
+      "maxFeet": 0.20967493057250974,
+      "end": [
+        -0.000014588763406209182,
+        0.007818377017974831,
+        8.940574645996094
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-around-wall",
+      "kind": "player",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            -9,
+            0,
+            0
+          ],
+          [
+            -5.5,
+            0,
+            5.5
+          ],
+          [
+            -1.5,
+            0,
+            5.5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 10.700199999999995,
+        "expanded": 422,
+        "edges": 1956
+      },
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004666364192962624,
+      "maxFeet": 0.21571013927459715,
+      "end": [
+        -0.002212043385952711,
+        0.20804224014282224,
+        0.007977023720741272
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-diagonal-entry",
+      "kind": "player",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            4,
+            0,
+            9
+          ],
+          [
+            1,
+            0,
+            5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 1.0902000000000953,
+        "expanded": 79,
+        "edges": 415
+      },
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0046664237976074,
+      "maxFeet": 0.20971057415008543,
+      "end": [
+        0.013750073499977589,
+        0.20792231559753416,
+        0.06825630366802216
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-through-house",
+      "kind": "player",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            -9
+          ]
+        ],
+        "ms": 0.0262000000000171,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0,
+      "minFeet": 0.0046664237976074,
+      "maxFeet": 0.2110645532608032,
+      "end": [
+        0.000003706395318658906,
+        0.00799969434738157,
+        -8.939081192016602
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-around-wall",
+      "kind": "player",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            -9,
+            0,
+            0
+          ],
+          [
+            -5.5,
+            0,
+            5.5
+          ],
+          [
+            -1.5,
+            0,
+            5.5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 2.416099999999915,
+        "expanded": 422,
+        "edges": 1956
+      },
+      "arrived": true,
+      "maxStuck": 0.05,
+      "minFeet": 0.0046664237976074,
+      "maxFeet": 0.2158030033111572,
+      "end": [
+        -0.0207149432469273,
+        0.2080975532531738,
+        0.07607072840429949
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-diagonal-entry",
+      "kind": "player",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            4,
+            0,
+            9
+          ],
+          [
+            1,
+            0,
+            5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 0.7053999999998268,
+        "expanded": 79,
+        "edges": 415
+      },
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": -0.0032999157905578835,
+      "maxFeet": 0.2147550344467163,
+      "end": [
+        0.008168852169890942,
+        0.2080195903778076,
+        0.04069326934235288
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-through-house",
+      "kind": "player",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            -9
+          ]
+        ],
+        "ms": 0.04049999999983811,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0036692380905151145,
+      "maxFeet": 0.21347603797912595,
+      "end": [
+        0.000005954419663112276,
+        0.00426141023635862,
+        -8.930860000229764
+      ],
+      "pass": true
+    },
+    {
+      "name": "low-ceiling",
+      "kind": "player",
+      "options": {},
+      "expected": false,
+      "ai": true,
+      "plan": {
+        "points": null,
+        "expanded": 3040,
+        "edges": 12649,
+        "ms": 18.920599999999922
+      },
+      "arrived": false,
+      "pass": true
+    },
+    {
+      "name": "narrow-door",
+      "kind": "player",
+      "options": {},
+      "expected": false,
+      "ai": true,
+      "plan": {
+        "points": null,
+        "expanded": 3040,
+        "edges": 12649,
+        "ms": 12.49720000000002
+      },
+      "arrived": false,
+      "pass": true
+    },
+    {
+      "name": "high-step-0.4",
+      "kind": "player",
+      "options": {},
+      "expected": false,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.5166666666666662,
+      "minFeet": 0.004612064361572243,
+      "maxFeet": 0.01136670112609861,
+      "end": [
+        -0.0011835541808977723,
+        0.008092856407165505,
+        0.3075358271598816
+      ],
+      "pass": true
+    },
+    {
+      "name": "three-steps",
+      "kind": "player",
+      "options": {},
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0.45,
+            -8
+          ]
+        ],
+        "ms": 0.012599999999792999,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.0036319851875304954,
+      "maxFeet": 0.4671799898147583,
+      "end": [
+        -0.000013135499102645554,
+        0.4579696416854858,
+        -7.958362579345703
+      ],
+      "pass": true
+    },
+    {
+      "name": "autostep-off-control",
+      "kind": "player",
+      "options": {
+        "autostep": false
+      },
+      "expected": false,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.9833333333333312,
+      "minFeet": 0.004666125774383523,
+      "maxFeet": 0.04569462537765501,
+      "end": [
+        -0.004131995607167482,
+        0.04569462537765501,
+        0.2702830135822296
+      ],
+      "pass": true
+    },
+    {
+      "name": "side-descent",
+      "kind": "A1",
+      "options": {
+        "hz": 30
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013267636299133523,
+      "maxFeet": 0.2169972896575928,
+      "end": [
+        17.997798919677734,
+        0.0031638383865356667,
+        -3.000000476837158
+      ],
+      "pass": true
+    },
+    {
+      "name": "return-through-house",
+      "kind": "A1",
+      "options": {
+        "hz": 30
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0.2,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "ms": 0.016400000000203363,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.001328849792480491,
+      "maxFeet": 0.21201076507568362,
+      "end": [
+        6.309266495918564e-7,
+        0.0058124899864197,
+        8.99999713897705
+      ],
+      "pass": true
+    },
+    {
+      "name": "side-descent",
+      "kind": "A1",
+      "options": {
+        "hz": 60
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004659974575042747,
+      "maxFeet": 0.2120996952056885,
+      "end": [
+        17.947219848632812,
+        0.004760050773620628,
+        -2.9999074935913086
+      ],
+      "pass": true
+    },
+    {
+      "name": "return-through-house",
+      "kind": "A1",
+      "options": {
+        "hz": 60
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0.2,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "ms": 0.01089999999999236,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004661881923675559,
+      "maxFeet": 0.20874502658843996,
+      "end": [
+        0.00015020680439192802,
+        0.007994854450225852,
+        8.926970481872559
+      ],
+      "pass": true
+    },
+    {
+      "name": "side-descent",
+      "kind": "A1",
+      "options": {
+        "hz": 120
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.006326520442962669,
+      "maxFeet": 0.20933141708374026,
+      "end": [
+        17.926851272583008,
+        0.008067393302917503,
+        -3.0000839233398438
+      ],
+      "pass": true
+    },
+    {
+      "name": "return-through-house",
+      "kind": "A1",
+      "options": {
+        "hz": 120
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0.2,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "ms": 0.015700000000151704,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.006328070163726829,
+      "maxFeet": 0.2082021474838257,
+      "end": [
+        -0.000022493461074191146,
+        0.006842935085296653,
+        8.936410903930664
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-around-wall",
+      "kind": "A1",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            -9,
+            0,
+            0
+          ],
+          [
+            -6,
+            0,
+            -5.5
+          ],
+          [
+            -5.5,
+            0,
+            -6
+          ],
+          [
+            -1,
+            0,
+            -6
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 2.182199999999966,
+        "expanded": 470,
+        "edges": 2191
+      },
+      "arrived": true,
+      "maxStuck": 3.016666666666661,
+      "minFeet": 0.004661881923675559,
+      "maxFeet": 0.20884826183319094,
+      "end": [
+        -0.000052848205086775124,
+        0.2080999851226807,
+        -0.045386794954538345
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-diagonal-entry",
+      "kind": "A1",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            4,
+            0,
+            9
+          ],
+          [
+            0.5,
+            0,
+            5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 0.6816999999998643,
+        "expanded": 64,
+        "edges": 355
+      },
+      "arrived": true,
+      "maxStuck": 4.433333333333323,
+      "minFeet": 0.004662179946899436,
+      "maxFeet": 0.20885136127471926,
+      "end": [
+        0.006602192763239145,
+        0.20803298950195315,
+        0.06660221517086029
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-through-house",
+      "kind": "A1",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            -9
+          ]
+        ],
+        "ms": 0.03550000000018372,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 3.4666666666666592,
+      "minFeet": 0.00466122627258303,
+      "maxFeet": 0.21032907962799074,
+      "end": [
+        0.00016394791600760072,
+        0.00799515247344973,
+        -8.96433162689209
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-around-wall",
+      "kind": "A1",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            -9,
+            0,
+            0
+          ],
+          [
+            -6,
+            0,
+            -5.5
+          ],
+          [
+            -5.5,
+            0,
+            -6
+          ],
+          [
+            -1,
+            0,
+            -6
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 2.883600000000115,
+        "expanded": 470,
+        "edges": 2191
+      },
+      "arrived": true,
+      "maxStuck": 2.3999999999999964,
+      "minFeet": 0.0046617627143860085,
+      "maxFeet": 0.20881774425506594,
+      "end": [
+        -0.00006237772030057501,
+        0.20799996852874758,
+        -0.04519521836669338
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-diagonal-entry",
+      "kind": "A1",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            4,
+            0,
+            9
+          ],
+          [
+            0.5,
+            0,
+            5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 0.4816000000000713,
+        "expanded": 64,
+        "edges": 355
+      },
+      "arrived": true,
+      "maxStuck": 1.8833333333333315,
+      "minFeet": 0.004662477970123313,
+      "maxFeet": 0.20916094779968264,
+      "end": [
+        0.006519744602661651,
+        0.20806696414947512,
+        0.06577768950984106
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-through-house",
+      "kind": "A1",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            -9
+          ]
+        ],
+        "ms": 0.021200000000135333,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 2.7833333333333283,
+      "minFeet": 0.003965580463409446,
+      "maxFeet": 0.2098472356796265,
+      "end": [
+        -0.000003462102761808694,
+        0.0065157055854797585,
+        -8.945089043587606
+      ],
+      "pass": true
+    },
+    {
+      "name": "low-ceiling",
+      "kind": "A1",
+      "options": {},
+      "expected": false,
+      "ai": true,
+      "plan": {
+        "points": null,
+        "expanded": 2730,
+        "edges": 11411,
+        "ms": 16.38670000000002
+      },
+      "arrived": false,
+      "pass": true
+    },
+    {
+      "name": "narrow-door",
+      "kind": "A1",
+      "options": {},
+      "expected": false,
+      "ai": true,
+      "plan": {
+        "points": null,
+        "expanded": 2720,
+        "edges": 11369,
+        "ms": 10.997699999999895
+      },
+      "arrived": false,
+      "pass": true
+    },
+    {
+      "name": "high-step-0.4",
+      "kind": "A1",
+      "options": {},
+      "expected": false,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 3.4666666666666592,
+      "minFeet": 0.0038237810134887917,
+      "maxFeet": 0.056433343887329124,
+      "end": [
+        -0.003736547427251935,
+        0.056433343887329124,
+        0.6556916832923889
+      ],
+      "pass": true
+    },
+    {
+      "name": "three-steps",
+      "kind": "A1",
+      "options": {},
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0.45,
+            -8
+          ]
+        ],
+        "ms": 0.01160000000004402,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004662954807281516,
+      "maxFeet": 0.4590425729751587,
+      "end": [
+        0.0000015827770312171197,
+        0.4579730272293091,
+        -7.963294506072998
+      ],
+      "pass": true
+    },
+    {
+      "name": "autostep-off-control",
+      "kind": "A1",
+      "options": {
+        "autostep": false
+      },
+      "expected": false,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.0333333333333345,
+      "minFeet": 0.0038237810134887917,
+      "maxFeet": 0.08202948570251467,
+      "end": [
+        -0.003940310329198837,
+        0.08202948570251467,
+        0.4268334209918976
+      ],
+      "pass": true
+    },
+    {
+      "name": "side-descent",
+      "kind": "B2",
+      "options": {
+        "hz": 30
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013221740722655362,
+      "maxFeet": 0.20913805961608878,
+      "end": [
+        17.970304489135742,
+        0.004286432266235263,
+        -3.0000033378601074
+      ],
+      "pass": true
+    },
+    {
+      "name": "return-through-house",
+      "kind": "B2",
+      "options": {
+        "hz": 30
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0.2,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "ms": 0.010599999999840293,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.0013300418853758877,
+      "maxFeet": 0.2096613883972167,
+      "end": [
+        0.0000013952266044725548,
+        0.005925321578979403,
+        8.981091499328613
+      ],
+      "pass": true
+    },
+    {
+      "name": "side-descent",
+      "kind": "B2",
+      "options": {
+        "hz": 60
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.03333333333333333,
+      "minFeet": 0.004636311531066806,
+      "maxFeet": 0.2091094493865966,
+      "end": [
+        17.939123153686523,
+        0.006922030448913485,
+        -3.000006675720215
+      ],
+      "pass": true
+    },
+    {
+      "name": "return-through-house",
+      "kind": "B2",
+      "options": {
+        "hz": 60
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0.2,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "ms": 0.015099999999847569,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.016666666666666666,
+      "minFeet": 0.004643344879150302,
+      "maxFeet": 0.2086237907409667,
+      "end": [
+        0.00004056981924804859,
+        0.004943394660949618,
+        8.945381164550781
+      ],
+      "pass": true
+    },
+    {
+      "name": "side-descent",
+      "kind": "B2",
+      "options": {
+        "hz": 120
+      },
+      "expected": true,
+      "ai": false,
+      "plan": null,
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.006296539306640536,
+      "maxFeet": 0.20865824222564688,
+      "end": [
+        17.923063278198242,
+        0.007116818428039462,
+        -2.999861717224121
+      ],
+      "pass": true
+    },
+    {
+      "name": "return-through-house",
+      "kind": "B2",
+      "options": {
+        "hz": 120
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0.2,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "ms": 0.00980000000004111,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 0.008333333333333333,
+      "minFeet": 0.006302022933959872,
+      "maxFeet": 0.2089793920516967,
+      "end": [
+        0.0001250072818947956,
+        0.006921076774597079,
+        8.928297996520996
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-around-wall",
+      "kind": "B2",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            -9,
+            0,
+            0
+          ],
+          [
+            -6,
+            0,
+            6.5
+          ],
+          [
+            -1.5,
+            0,
+            7
+          ],
+          [
+            0,
+            0,
+            5.5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 2.4249999999999545,
+        "expanded": 482,
+        "edges": 2252
+      },
+      "arrived": false,
+      "maxStuck": 2.749999999999995,
+      "minFeet": 0.004636311531066806,
+      "maxFeet": 0.20856215953826895,
+      "end": [
+        0.000013771732483291999,
+        0.20790984630584708,
+        2.3988442420959473
+      ],
+      "pass": false
+    },
+    {
+      "name": "AI-diagonal-entry",
+      "kind": "B2",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            4,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            5.5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 0.3111999999998716,
+        "expanded": 49,
+        "edges": 297
+      },
+      "arrived": true,
+      "maxStuck": 2.366666666666663,
+      "minFeet": 0.004635119438171298,
+      "maxFeet": 0.20906784534454337,
+      "end": [
+        0.000004483582415559795,
+        0.20809998512268058,
+        0.052528221160173416
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-through-house",
+      "kind": "B2",
+      "options": {
+        "yaw": 0
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            -9
+          ]
+        ],
+        "ms": 0.018299999999953798,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": false,
+      "maxStuck": 3.483333333333326,
+      "minFeet": 0.004647278785705478,
+      "maxFeet": 0.20999982357025138,
+      "end": [
+        -0.0012561625335365534,
+        0.005215907096862704,
+        -6.03650426864624
+      ],
+      "pass": false
+    },
+    {
+      "name": "AI-around-wall",
+      "kind": "B2",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            -9,
+            0,
+            0
+          ],
+          [
+            -6,
+            0,
+            6.5
+          ],
+          [
+            -1.5,
+            0,
+            7
+          ],
+          [
+            0,
+            0,
+            5.5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 2.6684999999999945,
+        "expanded": 482,
+        "edges": 2252
+      },
+      "arrived": false,
+      "maxStuck": 2.5666666666666624,
+      "minFeet": 0.004635596275329501,
+      "maxFeet": 0.2087127208709716,
+      "end": [
+        0.0000022886817971912166,
+        0.2078579902648925,
+        2.438779284376432
+      ],
+      "pass": false
+    },
+    {
+      "name": "AI-diagonal-entry",
+      "kind": "B2",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            4,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            5.5
+          ],
+          [
+            0,
+            0.2,
+            0
+          ]
+        ],
+        "ms": 0.3227999999999156,
+        "expanded": 49,
+        "edges": 297
+      },
+      "arrived": true,
+      "maxStuck": 3.099999999999994,
+      "minFeet": 0.0011210680007933682,
+      "maxFeet": 0.20888462066650382,
+      "end": [
+        -0.00003659117999127784,
+        0.20800008773803702,
+        0.05332405858281034
+      ],
+      "pass": true
+    },
+    {
+      "name": "AI-through-house",
+      "kind": "B2",
+      "options": {
+        "yaw": 0.71
+      },
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            -9
+          ]
+        ],
+        "ms": 0.018000000000029104,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": false,
+      "maxStuck": 2.6166666666666623,
+      "minFeet": 0.004413866996765048,
+      "maxFeet": 0.20951106548309317,
+      "end": [
+        0.0012995113904246125,
+        0.007990026473998935,
+        -7.017682783055049
+      ],
+      "pass": false
+    },
+    {
+      "name": "low-ceiling",
+      "kind": "B2",
+      "options": {},
+      "expected": false,
+      "ai": true,
+      "plan": {
+        "points": null,
+        "expanded": 2334,
+        "edges": 9835,
+        "ms": 9.396000000000186
+      },
+      "arrived": false,
+      "pass": true
+    },
+    {
+      "name": "narrow-door",
+      "kind": "B2",
+      "options": {},
+      "expected": false,
+      "ai": true,
+      "plan": {
+        "points": null,
+        "expanded": 2324,
+        "edges": 9793,
+        "ms": 9.815000000000055
+      },
+      "arrived": false,
+      "pass": true
+    },
+    {
+      "name": "high-step-0.4",
+      "kind": "B2",
+      "options": {},
+      "expected": false,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 2.833333333333328,
+      "minFeet": 0.0044447422027587,
+      "maxFeet": 0.06385650634765616,
+      "end": [
+        -0.001078723929822445,
+        0.06385650634765616,
+        0.897395133972168
+      ],
+      "pass": true
+    },
+    {
+      "name": "three-steps",
+      "kind": "B2",
+      "options": {},
+      "expected": true,
+      "ai": true,
+      "plan": {
+        "points": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0.45,
+            -8
+          ]
+        ],
+        "ms": 0.009400000000368891,
+        "expanded": 0,
+        "edges": 1
+      },
+      "arrived": true,
+      "maxStuck": 1.016666666666668,
+      "minFeet": -0.0003328084945679599,
+      "maxFeet": 0.45862998962402335,
+      "end": [
+        -0.000003586733100746642,
+        0.45771327018737784,
+        -7.944316387176514
+      ],
+      "pass": true
+    },
+    {
+      "name": "autostep-off-control",
+      "kind": "B2",
+      "options": {
+        "autostep": false
+      },
+      "expected": false,
+      "ai": false,
+      "plan": null,
+      "arrived": false,
+      "maxStuck": 1.8999999999999981,
+      "minFeet": 0.004636311531066806,
+      "maxFeet": 0.08511307239532462,
+      "end": [
+        -0.010606026276946068,
+        0.08498206138610831,
+        0.560858428478241
+      ],
+      "pass": true
+    }
+  ]
+}

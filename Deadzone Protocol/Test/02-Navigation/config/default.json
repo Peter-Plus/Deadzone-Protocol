@@ -1,0 +1,14 @@
+{
+  "version": "navigation.v1",
+  "seeds": [
+    "104729",
+    "20261005",
+    "8675309"
+  ],
+  "size": 160,
+  "count": 15,
+  "enemies": 30,
+  "stressEnemies": 50,
+  "cell": 0.5,
+  "fixedHz": 60
+}

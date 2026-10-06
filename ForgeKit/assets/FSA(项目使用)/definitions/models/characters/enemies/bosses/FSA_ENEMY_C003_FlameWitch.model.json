@@ -1,0 +1,2226 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ENEMY_C003_FlameWitch",
+  "type": "humanoid",
+  "rig": "humanoid.v2",
+  "parameters": {
+    "height": 2.16,
+    "armThickness": 0.082
+  },
+  "materials": {
+    "robe": {
+      "color": "#30232B",
+      "roughness": 0.97
+    },
+    "fold": {
+      "color": "#473039",
+      "roughness": 0.95
+    },
+    "wine": {
+      "color": "#652D34",
+      "roughness": 0.94
+    },
+    "lining": {
+      "color": "#171A21",
+      "roughness": 1
+    },
+    "gold": {
+      "color": "#A98046",
+      "roughness": 0.62,
+      "metalness": 0.55
+    },
+    "iron": {
+      "color": "#3C4147",
+      "roughness": 0.68,
+      "metalness": 0.65
+    },
+    "wood": {
+      "color": "#392C29",
+      "roughness": 0.97
+    },
+    "skin": {
+      "color": "#9D9988",
+      "roughness": 0.91
+    },
+    "shadow": {
+      "color": "#24242A",
+      "roughness": 1
+    },
+    "ember": {
+      "color": "#FF702C",
+      "emissive": "#A52D08",
+      "roughness": 0.5
+    },
+    "eye": {
+      "color": "#FFB353",
+      "emissive": "#FF660D",
+      "roughness": 0.4
+    }
+  },
+  "parts": [
+    {
+      "id": "Robe_Skirt",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.205,
+        "radiusBottom": 0.455,
+        "height": 1.12
+      },
+      "position": [
+        0,
+        -0.3336,
+        0
+      ],
+      "material": "robe",
+      "scale": [
+        1,
+        1,
+        0.82
+      ]
+    },
+    {
+      "id": "Robe_Hem",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.446,
+        "radiusBottom": 0.46,
+        "height": 0.095
+      },
+      "position": [
+        0,
+        -0.8461000000000001,
+        0
+      ],
+      "material": "lining",
+      "scale": [
+        1,
+        1,
+        0.82
+      ]
+    },
+    {
+      "id": "Robe_Fold_0",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.063038099035025
+      },
+      "position": [
+        0,
+        -0.31610000000000005,
+        0.26949999999999996
+      ],
+      "material": "wine",
+      "rotation": [
+        169.43000877917294,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Robe_Tatter_0",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        0,
+        -0.8336,
+        0.335
+      ],
+      "material": "wine",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_1",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.0652811835379425
+      },
+      "position": [
+        0.16324999999999998,
+        -0.31610000000000005,
+        0.23339384631990623
+      ],
+      "material": "fold",
+      "rotation": [
+        153.6462313753091,
+        -69.07709213550724,
+        -18.30788252878633
+      ]
+    },
+    {
+      "id": "Robe_Tatter_1",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        0.20249999999999999,
+        -0.8086,
+        0.290118510267787
+      ],
+      "material": "robe",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_2",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.0697532425751277
+      },
+      "position": [
+        0.2827572943356192,
+        -0.31610000000000005,
+        0.13475
+      ],
+      "material": "fold",
+      "rotation": [
+        8.092517552275723,
+        -49.650531219496884,
+        -162.6120027261344
+      ]
+    },
+    {
+      "id": "Robe_Tatter_2",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        0.3507402885326977,
+        -0.7836000000000001,
+        0.16750000000000004
+      ],
+      "material": "robe",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_3",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.0719822759728819
+      },
+      "position": [
+        0.3265,
+        -0.31610000000000005,
+        1.6502115618510585e-17
+      ],
+      "material": "wine",
+      "rotation": [
+        6.38190734997242e-16,
+        -5.652880647193591e-15,
+        -167.11755491670542
+      ]
+    },
+    {
+      "id": "Robe_Tatter_3",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        0.405,
+        -0.8336,
+        2.0512833885718167e-17
+      ],
+      "material": "wine",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_4",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.0697532425751277
+      },
+      "position": [
+        0.28275729433561925,
+        -0.31610000000000005,
+        -0.13474999999999993
+      ],
+      "material": "fold",
+      "rotation": [
+        -8.092517552275714,
+        49.65053121949686,
+        -162.6120027261344
+      ]
+    },
+    {
+      "id": "Robe_Tatter_4",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        0.3507402885326977,
+        -0.8086,
+        -0.16749999999999993
+      ],
+      "material": "robe",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_5",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.0652811835379425
+      },
+      "position": [
+        0.16324999999999998,
+        -0.31610000000000005,
+        -0.23339384631990623
+      ],
+      "material": "fold",
+      "rotation": [
+        -153.6462313753091,
+        69.07709213550724,
+        -18.30788252878633
+      ]
+    },
+    {
+      "id": "Robe_Tatter_5",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        0.20249999999999999,
+        -0.7836000000000001,
+        -0.290118510267787
+      ],
+      "material": "robe",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_6",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.063038099035025
+      },
+      "position": [
+        3.9984717992161086e-17,
+        -0.31610000000000005,
+        -0.26949999999999996
+      ],
+      "material": "wine",
+      "rotation": [
+        -169.43000877917294,
+        1.705400553548653e-14,
+        -1.5775479015024242e-15
+      ]
+    },
+    {
+      "id": "Robe_Tatter_6",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        4.9598195365467806e-17,
+        -0.8336,
+        -0.335
+      ],
+      "material": "wine",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_7",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.0652811835379425
+      },
+      "position": [
+        -0.16324999999999992,
+        -0.31610000000000005,
+        -0.23339384631990623
+      ],
+      "material": "fold",
+      "rotation": [
+        -153.64623137530916,
+        -69.07709213550729,
+        18.307882528786337
+      ]
+    },
+    {
+      "id": "Robe_Tatter_7",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        -0.2024999999999999,
+        -0.8086,
+        -0.290118510267787
+      ],
+      "material": "robe",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_8",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.0697532425751277
+      },
+      "position": [
+        -0.28275729433561914,
+        -0.31610000000000005,
+        -0.13475000000000012
+      ],
+      "material": "fold",
+      "rotation": [
+        -8.092517552275734,
+        -49.65053121949693,
+        162.6120027261344
+      ]
+    },
+    {
+      "id": "Robe_Tatter_8",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        -0.3507402885326976,
+        -0.7836000000000001,
+        -0.16750000000000015
+      ],
+      "material": "robe",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_9",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.0719822759728819
+      },
+      "position": [
+        -0.3265,
+        -0.31610000000000005,
+        -4.9506346855531745e-17
+      ],
+      "material": "wine",
+      "rotation": [
+        -1.9145722049917255e-15,
+        -1.6958641941580773e-14,
+        167.11755491670542
+      ]
+    },
+    {
+      "id": "Robe_Tatter_9",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        -0.405,
+        -0.8336,
+        -6.15385016571545e-17
+      ],
+      "material": "wine",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_10",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.0697532425751277
+      },
+      "position": [
+        -0.2827572943356192,
+        -0.31610000000000005,
+        0.13475
+      ],
+      "material": "fold",
+      "rotation": [
+        8.092517552275723,
+        49.650531219496884,
+        162.6120027261344
+      ]
+    },
+    {
+      "id": "Robe_Tatter_10",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        -0.3507402885326977,
+        -0.8086,
+        0.16750000000000004
+      ],
+      "material": "robe",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Fold_11",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.048,
+        "height": 1.0652811835379425
+      },
+      "position": [
+        -0.16325000000000014,
+        -0.31610000000000005,
+        0.23339384631990615
+      ],
+      "material": "fold",
+      "rotation": [
+        153.64623137530907,
+        69.07709213550736,
+        18.307882528786408
+      ]
+    },
+    {
+      "id": "Robe_Tatter_11",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.075,
+        "height": 0.18
+      },
+      "position": [
+        -0.20250000000000018,
+        -0.7836000000000001,
+        0.2901185102677869
+      ],
+      "material": "robe",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6
+      ]
+    },
+    {
+      "id": "Robe_Torso",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.425,
+        0.06
+      ],
+      "material": "robe",
+      "rotation": [
+        -12,
+        0,
+        0
+      ],
+      "scale": [
+        0.235,
+        0.4,
+        0.205
+      ]
+    },
+    {
+      "id": "Hunched_Back",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.71,
+        -0.075
+      ],
+      "material": "robe",
+      "rotation": [
+        18,
+        0,
+        0
+      ],
+      "scale": [
+        0.29,
+        0.345,
+        0.215
+      ]
+    },
+    {
+      "id": "Mantle_Back_Drape",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.48,
+        -0.095
+      ],
+      "material": "robe",
+      "rotation": [
+        12,
+        0,
+        0
+      ],
+      "scale": [
+        0.245,
+        0.29,
+        0.175
+      ]
+    },
+    {
+      "id": "Mantle_Shoulders",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.7,
+        0.005
+      ],
+      "material": "wine",
+      "rotation": [
+        12,
+        0,
+        0
+      ],
+      "scale": [
+        0.36,
+        0.175,
+        0.24
+      ]
+    },
+    {
+      "id": "Mantle_Edge_-1",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.025,
+        "height": 0.3729946380311653
+      },
+      "position": [
+        -0.245,
+        0.5675,
+        0.19
+      ],
+      "material": "gold",
+      "rotation": [
+        42.325694575614676,
+        -66.5366438730821,
+        -118.91388559042245
+      ]
+    },
+    {
+      "id": "Chest_Stole_-1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.115,
+          0.51,
+          0.037
+        ]
+      },
+      "position": [
+        -0.135,
+        0.39,
+        0.246
+      ],
+      "material": "wine",
+      "rotation": [
+        -12,
+        0,
+        -7
+      ]
+    },
+    {
+      "id": "Stole_Trim_-1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.017,
+          0.49,
+          0.02
+        ]
+      },
+      "position": [
+        -0.184,
+        0.39,
+        0.265
+      ],
+      "material": "gold",
+      "rotation": [
+        -12,
+        0,
+        -7
+      ]
+    },
+    {
+      "id": "Skirt_Stole_-1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.14,
+          0.81,
+          0.036
+        ]
+      },
+      "position": [
+        -0.13,
+        -0.4,
+        0.299
+      ],
+      "material": "wine",
+      "rotation": [
+        -10,
+        0,
+        -3
+      ]
+    },
+    {
+      "id": "Skirt_Trim_-1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.016,
+          0.79,
+          0.019
+        ]
+      },
+      "position": [
+        -0.194,
+        -0.4,
+        0.322
+      ],
+      "material": "gold",
+      "rotation": [
+        -10,
+        0,
+        -3
+      ]
+    },
+    {
+      "id": "Mantle_Edge_1",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.025,
+        "height": 0.3729946380311653
+      },
+      "position": [
+        0.245,
+        0.5675,
+        0.19
+      ],
+      "material": "gold",
+      "rotation": [
+        42.325694575614676,
+        66.5366438730821,
+        118.91388559042245
+      ]
+    },
+    {
+      "id": "Chest_Stole_1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.115,
+          0.51,
+          0.037
+        ]
+      },
+      "position": [
+        0.135,
+        0.39,
+        0.246
+      ],
+      "material": "wine",
+      "rotation": [
+        -12,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "Stole_Trim_1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.017,
+          0.49,
+          0.02
+        ]
+      },
+      "position": [
+        0.184,
+        0.39,
+        0.265
+      ],
+      "material": "gold",
+      "rotation": [
+        -12,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "Skirt_Stole_1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.14,
+          0.81,
+          0.036
+        ]
+      },
+      "position": [
+        0.13,
+        -0.4,
+        0.299
+      ],
+      "material": "wine",
+      "rotation": [
+        -10,
+        0,
+        3
+      ]
+    },
+    {
+      "id": "Skirt_Trim_1",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.016,
+          0.79,
+          0.019
+        ]
+      },
+      "position": [
+        0.194,
+        -0.4,
+        0.322
+      ],
+      "material": "gold",
+      "rotation": [
+        -10,
+        0,
+        3
+      ]
+    },
+    {
+      "id": "Waist_Cord",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.231,
+        "radiusBottom": 0.236,
+        "height": 0.052
+      },
+      "position": [
+        0,
+        0.23,
+        0.026
+      ],
+      "material": "gold",
+      "scale": [
+        1,
+        1,
+        0.93
+      ]
+    },
+    {
+      "id": "Clasp",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.6,
+        0.275
+      ],
+      "material": "gold",
+      "scale": [
+        0.055,
+        0.062,
+        0.023
+      ]
+    },
+    {
+      "id": "Clasp_Ember",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.6,
+        0.297
+      ],
+      "material": "ember",
+      "scale": [
+        0.026,
+        0.035,
+        0.012
+      ]
+    },
+    {
+      "id": "Hood_Back",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.128,
+        0.16
+      ],
+      "material": "robe",
+      "scale": [
+        0.218,
+        0.2176,
+        0.187
+      ]
+    },
+    {
+      "id": "Hood_Side_-1",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.157,
+        0.083,
+        0.299
+      ],
+      "material": "robe",
+      "rotation": [
+        0,
+        0,
+        10
+      ],
+      "scale": [
+        0.079,
+        0.185,
+        0.113
+      ]
+    },
+    {
+      "id": "Hood_Rim_-1",
+      "parent": "Head",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.014,
+        "radiusBottom": 0.02,
+        "height": 0.33433067463216715
+      },
+      "position": [
+        -0.1475,
+        0.10200000000000001,
+        0.356
+      ],
+      "material": "wine",
+      "rotation": [
+        176.89873545864668,
+        39.28445402994945,
+        1.1071226210618912
+      ]
+    },
+    {
+      "id": "Hood_Side_1",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.157,
+        0.083,
+        0.299
+      ],
+      "material": "robe",
+      "rotation": [
+        0,
+        0,
+        -10
+      ],
+      "scale": [
+        0.079,
+        0.185,
+        0.113
+      ]
+    },
+    {
+      "id": "Hood_Rim_1",
+      "parent": "Head",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.014,
+        "radiusBottom": 0.02,
+        "height": 0.33433067463216715
+      },
+      "position": [
+        0.1475,
+        0.10200000000000001,
+        0.356
+      ],
+      "material": "wine",
+      "rotation": [
+        176.89873545864668,
+        -39.28445402994945,
+        -1.1071226210618912
+      ]
+    },
+    {
+      "id": "Hood_Crown",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.267,
+        0.259
+      ],
+      "material": "wine",
+      "rotation": [
+        -8,
+        0,
+        0
+      ],
+      "scale": [
+        0.181,
+        0.0786,
+        0.173
+      ]
+    },
+    {
+      "id": "Face_Shadow",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.098,
+        0.335
+      ],
+      "material": "shadow",
+      "scale": [
+        0.13,
+        0.146,
+        0.049
+      ]
+    },
+    {
+      "id": "Face",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.062,
+        0.364
+      ],
+      "material": "skin",
+      "rotation": [
+        -12,
+        0,
+        0
+      ],
+      "scale": [
+        0.087,
+        0.113,
+        0.037
+      ]
+    },
+    {
+      "id": "Eye_Socket_-1",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.061,
+          0.036,
+          0.025
+        ]
+      },
+      "position": [
+        -0.05,
+        0.11,
+        0.397
+      ],
+      "material": "shadow",
+      "rotation": [
+        0,
+        0,
+        12
+      ]
+    },
+    {
+      "id": "Eye_Ember_-1",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.009,
+          0.013
+        ]
+      },
+      "position": [
+        -0.05,
+        0.111,
+        0.413
+      ],
+      "material": "eye",
+      "rotation": [
+        0,
+        0,
+        12
+      ]
+    },
+    {
+      "id": "Cheek_-1",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.066,
+        0.041,
+        0.394
+      ],
+      "material": "skin",
+      "scale": [
+        0.034,
+        0.042,
+        0.023
+      ]
+    },
+    {
+      "id": "Eye_Socket_1",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.061,
+          0.036,
+          0.025
+        ]
+      },
+      "position": [
+        0.05,
+        0.11,
+        0.397
+      ],
+      "material": "shadow",
+      "rotation": [
+        0,
+        0,
+        -12
+      ]
+    },
+    {
+      "id": "Eye_Ember_1",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.009,
+          0.013
+        ]
+      },
+      "position": [
+        0.05,
+        0.111,
+        0.413
+      ],
+      "material": "eye",
+      "rotation": [
+        0,
+        0,
+        -12
+      ]
+    },
+    {
+      "id": "Cheek_1",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.066,
+        0.041,
+        0.394
+      ],
+      "material": "skin",
+      "scale": [
+        0.034,
+        0.042,
+        0.023
+      ]
+    },
+    {
+      "id": "Nose",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.026,
+          0.069,
+          0.044
+        ]
+      },
+      "position": [
+        0,
+        0.054,
+        0.413
+      ],
+      "material": "skin",
+      "rotation": [
+        -14,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Mouth",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.061,
+          0.014,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        -0.006,
+        0.40199999999999997
+      ],
+      "material": "shadow"
+    },
+    {
+      "id": "Chin",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        -0.029,
+        0.384
+      ],
+      "material": "skin",
+      "scale": [
+        0.045,
+        0.034,
+        0.026
+      ]
+    },
+    {
+      "id": "Sleeve_Cap_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.035,
+        0,
+        0.045
+      ],
+      "material": "wine",
+      "scale": [
+        0.13,
+        0.12,
+        0.14
+      ]
+    },
+    {
+      "id": "Sleeve_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.065,
+        "radiusBottom": 0.1,
+        "height": 0.25874698065871227
+      },
+      "position": [
+        0.15750000000000003,
+        0.035,
+        0.0675
+      ],
+      "material": "robe",
+      "rotation": [
+        10.101618578884475,
+        -7.447108446423052,
+        -72.73182256464986
+      ]
+    },
+    {
+      "id": "Sleeve_Cuff_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.07,
+        "radiusBottom": 0.071,
+        "height": 0.03860051813123754
+      },
+      "position": [
+        0.27249999999999996,
+        0.069,
+        0.0895
+      ],
+      "material": "gold",
+      "rotation": [
+        16.898250433613885,
+        -11.36811574782345,
+        -67.64854354224244
+      ]
+    },
+    {
+      "id": "ForearmMesh_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.032,
+        "radiusBottom": 0.042,
+        "height": 0.31160872901765757
+      },
+      "position": [
+        0.145,
+        0.045,
+        0.035
+      ],
+      "material": "skin",
+      "rotation": [
+        13.159097100138688,
+        -9.335318508170277,
+        -70.5866759159344
+      ]
+    },
+    {
+      "id": "Forearm_Wrap_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.038,
+        "radiusBottom": 0.04,
+        "height": 0.05385164807134503
+      },
+      "position": [
+        0.175,
+        0.055,
+        0.046
+      ],
+      "material": "wine",
+      "rotation": [
+        13.04547588116823,
+        -9.178193384965223,
+        -70.13874782149905
+      ]
+    },
+    {
+      "id": "HandMesh_L",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.065,
+        0.02,
+        0.02
+      ],
+      "material": "skin",
+      "rotation": [
+        0,
+        0,
+        15
+      ],
+      "scale": [
+        0.085,
+        0.046,
+        0.055
+      ]
+    },
+    {
+      "id": "Finger_L_0",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.013,
+        "height": 0.07337744885181006
+      },
+      "position": [
+        0.13575,
+        0.022,
+        -0.015
+      ],
+      "material": "skin",
+      "rotation": [
+        3.127872956511556,
+        -2.499400495174098,
+        -77.2498339321342
+      ]
+    },
+    {
+      "id": "Finger_L_1",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.013,
+        "height": 0.09002360801478691
+      },
+      "position": [
+        0.14425,
+        0.022,
+        0.01
+      ],
+      "material": "skin",
+      "rotation": [
+        2.5484042641499856,
+        -2.1255264757954246,
+        -79.6575560180663
+      ]
+    },
+    {
+      "id": "Finger_L_2",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.013,
+        "height": 0.09002360801478691
+      },
+      "position": [
+        0.14425,
+        0.022,
+        0.035
+      ],
+      "material": "skin",
+      "rotation": [
+        2.5484042641499856,
+        -2.1255264757954246,
+        -79.6575560180663
+      ]
+    },
+    {
+      "id": "Finger_L_3",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.013,
+        "height": 0.07337744885181006
+      },
+      "position": [
+        0.13575,
+        0.022,
+        0.06
+      ],
+      "material": "skin",
+      "rotation": [
+        3.127872956511556,
+        -2.499400495174098,
+        -77.2498339321342
+      ]
+    },
+    {
+      "id": "Sleeve_Cap_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.035,
+        0,
+        0.045
+      ],
+      "material": "wine",
+      "scale": [
+        0.13,
+        0.12,
+        0.14
+      ]
+    },
+    {
+      "id": "Sleeve_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.065,
+        "radiusBottom": 0.1,
+        "height": 0.25874698065871227
+      },
+      "position": [
+        -0.15750000000000003,
+        0.035,
+        0.0675
+      ],
+      "material": "robe",
+      "rotation": [
+        10.101618578884475,
+        7.447108446423052,
+        72.73182256464986
+      ]
+    },
+    {
+      "id": "Sleeve_Cuff_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.07,
+        "radiusBottom": 0.071,
+        "height": 0.03860051813123754
+      },
+      "position": [
+        -0.27249999999999996,
+        0.069,
+        0.0895
+      ],
+      "material": "gold",
+      "rotation": [
+        16.898250433613885,
+        11.36811574782345,
+        67.64854354224244
+      ]
+    },
+    {
+      "id": "ForearmMesh_R",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.032,
+        "radiusBottom": 0.042,
+        "height": 0.31160872901765757
+      },
+      "position": [
+        -0.145,
+        0.045,
+        0.035
+      ],
+      "material": "skin",
+      "rotation": [
+        13.159097100138688,
+        9.335318508170277,
+        70.5866759159344
+      ]
+    },
+    {
+      "id": "Forearm_Wrap_R",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.038,
+        "radiusBottom": 0.04,
+        "height": 0.05385164807134503
+      },
+      "position": [
+        -0.175,
+        0.055,
+        0.046
+      ],
+      "material": "wine",
+      "rotation": [
+        13.04547588116823,
+        9.178193384965223,
+        70.13874782149905
+      ]
+    },
+    {
+      "id": "HandMesh_R",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.065,
+        0.02,
+        0.02
+      ],
+      "material": "skin",
+      "rotation": [
+        0,
+        0,
+        -15
+      ],
+      "scale": [
+        0.085,
+        0.046,
+        0.055
+      ]
+    },
+    {
+      "id": "Grip_Finger_R_0",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.024,
+          0.084,
+          0.028
+        ]
+      },
+      "position": [
+        -0.021,
+        0.025,
+        0.049
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Grip_Finger_R_1",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.024,
+          0.084,
+          0.028
+        ]
+      },
+      "position": [
+        -0.05,
+        0.025,
+        0.049
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Grip_Finger_R_2",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.024,
+          0.084,
+          0.028
+        ]
+      },
+      "position": [
+        -0.079,
+        0.025,
+        0.049
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Grip_Finger_R_3",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.024,
+          0.084,
+          0.028
+        ]
+      },
+      "position": [
+        -0.108,
+        0.025,
+        0.049
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Grip_Thumb_R",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.074,
+          0.027,
+          0.032
+        ]
+      },
+      "position": [
+        -0.07,
+        -0.011,
+        -0.003
+      ],
+      "material": "skin",
+      "rotation": [
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "id": "Staff_Shaft",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.027,
+        "radiusBottom": 0.035,
+        "height": 1.96
+      },
+      "position": [
+        0,
+        0.02,
+        0
+      ],
+      "material": "wood"
+    },
+    {
+      "id": "Staff_Ferrule",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.037,
+        "radiusBottom": 0.023,
+        "height": 0.16
+      },
+      "position": [
+        0,
+        -0.89,
+        0
+      ],
+      "material": "iron"
+    },
+    {
+      "id": "Staff_Band_0",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.041,
+        "radiusBottom": 0.041,
+        "height": 0.047
+      },
+      "position": [
+        0,
+        -0.78,
+        0
+      ],
+      "material": "gold"
+    },
+    {
+      "id": "Staff_Band_1",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.041,
+        "radiusBottom": 0.041,
+        "height": 0.047
+      },
+      "position": [
+        0,
+        -0.1,
+        0
+      ],
+      "material": "gold"
+    },
+    {
+      "id": "Staff_Band_2",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.041,
+        "radiusBottom": 0.041,
+        "height": 0.047
+      },
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "material": "gold"
+    },
+    {
+      "id": "Staff_Band_3",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.041,
+        "radiusBottom": 0.041,
+        "height": 0.047
+      },
+      "position": [
+        0,
+        0.79,
+        0
+      ],
+      "material": "gold"
+    },
+    {
+      "id": "Staff_Band_4",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.041,
+        "radiusBottom": 0.041,
+        "height": 0.047
+      },
+      "position": [
+        0,
+        0.94,
+        0
+      ],
+      "material": "gold"
+    },
+    {
+      "id": "Staff_Grip_Wrap",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.038,
+        "radiusBottom": 0.038,
+        "height": 0.19
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "lining"
+    },
+    {
+      "id": "Staff_Crown_Base",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        1.015,
+        0
+      ],
+      "material": "gold",
+      "scale": [
+        0.09,
+        0.1,
+        0.09
+      ]
+    },
+    {
+      "id": "Staff_Fire_Core",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        1.205,
+        0
+      ],
+      "material": "ember",
+      "scale": [
+        0.093,
+        0.14,
+        0.093
+      ]
+    },
+    {
+      "id": "Staff_Crown_Lower_0",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.03,
+        "radiusBottom": 0.045,
+        "height": 0.21378493866500506
+      },
+      "position": [
+        0.0664415670239044,
+        1.065,
+        0.06649449730171678
+      ],
+      "material": "iron",
+      "rotation": [
+        18.951818723139773,
+        -3.188905656331027,
+        -18.936158249048678
+      ]
+    },
+    {
+      "id": "Staff_Crown_Upper_0",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.03,
+        "height": 0.16469365500832156
+      },
+      "position": [
+        0.07704394474048488,
+        1.2349999999999999,
+        0.07710532133922476
+      ],
+      "material": "gold",
+      "rotation": [
+        -16.999479875832545,
+        -2.5567579428189258,
+        16.98553707987213
+      ]
+    },
+    {
+      "id": "Staff_Crown_Lower_1",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.03,
+        "radiusBottom": 0.045,
+        "height": 0.21378493866500506
+      },
+      "position": [
+        0.06649449730171678,
+        1.065,
+        -0.0664415670239044
+      ],
+      "material": "iron",
+      "rotation": [
+        -18.936158249048678,
+        3.188905656331027,
+        -18.951818723139773
+      ]
+    },
+    {
+      "id": "Staff_Crown_Upper_1",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.03,
+        "height": 0.16469365500832156
+      },
+      "position": [
+        0.07710532133922476,
+        1.2349999999999999,
+        -0.07704394474048488
+      ],
+      "material": "gold",
+      "rotation": [
+        16.98553707987213,
+        2.5567579428189258,
+        16.999479875832545
+      ]
+    },
+    {
+      "id": "Staff_Crown_Lower_2",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.03,
+        "radiusBottom": 0.045,
+        "height": 0.21378493866500506
+      },
+      "position": [
+        -0.0664415670239044,
+        1.065,
+        -0.06649449730171678
+      ],
+      "material": "iron",
+      "rotation": [
+        -18.951818723139773,
+        -3.188905656331027,
+        18.936158249048678
+      ]
+    },
+    {
+      "id": "Staff_Crown_Upper_2",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.03,
+        "height": 0.16469365500832156
+      },
+      "position": [
+        -0.07704394474048488,
+        1.2349999999999999,
+        -0.07710532133922476
+      ],
+      "material": "gold",
+      "rotation": [
+        16.999479875832545,
+        -2.5567579428189258,
+        -16.98553707987213
+      ]
+    },
+    {
+      "id": "Staff_Crown_Lower_3",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.03,
+        "radiusBottom": 0.045,
+        "height": 0.21378493866500506
+      },
+      "position": [
+        -0.06649449730171678,
+        1.065,
+        0.06644156702390439
+      ],
+      "material": "iron",
+      "rotation": [
+        18.936158249048678,
+        3.188905656331027,
+        18.951818723139773
+      ]
+    },
+    {
+      "id": "Staff_Crown_Upper_3",
+      "parent": "Staff_Grip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.03,
+        "height": 0.16469365500832156
+      },
+      "position": [
+        -0.07710532133922476,
+        1.2349999999999999,
+        0.07704394474048487
+      ],
+      "material": "gold",
+      "rotation": [
+        -16.98553707987213,
+        2.5567579428189258,
+        -16.999479875832545
+      ]
+    }
+  ],
+  "sockets": [
+    {
+      "id": "Staff_Grip_R",
+      "parent": "Hand_R",
+      "position": [
+        -0.065,
+        0.02,
+        0.02
+      ],
+      "rotation": [
+        0,
+        0,
+        -90
+      ]
+    },
+    {
+      "id": "Staff_Tip",
+      "parent": "Staff_Grip_R",
+      "position": [
+        0,
+        1.345,
+        0
+      ]
+    },
+    {
+      "id": "Fireball_Muzzle",
+      "parent": "Staff_Grip_R",
+      "position": [
+        0,
+        1.205,
+        0.13
+      ]
+    }
+  ],
+  "jointPositions": {
+    "Forearm_L": [
+      0.28,
+      0.07,
+      0.09
+    ],
+    "Hand_L": [
+      0.2899999999999999,
+      0.09,
+      0.07
+    ],
+    "Forearm_R": [
+      -0.28,
+      0.07,
+      0.09
+    ],
+    "Hand_R": [
+      -0.2899999999999999,
+      0.09,
+      0.07
+    ]
+  }
+}

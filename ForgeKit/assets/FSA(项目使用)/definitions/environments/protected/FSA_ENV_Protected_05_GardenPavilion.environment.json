@@ -1,0 +1,10666 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Protected_05_GardenPavilion",
+  "label": "贵族住宅05 · 十字花园宅",
+  "type": "building",
+  "roofMode": "full",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -12.5,
+      -12.5
+    ],
+    "max": [
+      12.5,
+      13.5
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Floor_0",
+      "role": "floor"
+    },
+    {
+      "node": "Wall_1",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_2",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_3",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_4",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_5",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_6",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_7",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_8",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_9",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_10",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_11",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_12",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_13",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_14",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_17",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_18",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_19",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_21",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_22",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_23",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_24",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_25",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_26",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_27",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_28",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_29",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_30",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_31",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_34",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_35",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_36",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_38",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_39",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_40",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_41",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_42",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_43",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_44",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_45",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_46",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_47",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_48",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_51",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_52",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_53",
+      "role": "wall"
+    },
+    {
+      "node": "PitchedRoof_55",
+      "role": "roof"
+    },
+    {
+      "node": "PitchedRoof_67",
+      "role": "roof"
+    },
+    {
+      "node": "Ridge_79",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_80",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_81",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_82",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_83",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_84",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_85",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_86",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_87",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_88",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_89",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_90",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_91",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_92",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_93",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_94",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_95",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_96",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_97",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_98",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_99",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_100",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_101",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_102",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_103",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_104",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_105",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_106",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_107",
+      "role": "roof"
+    },
+    {
+      "node": "Chimney_108",
+      "role": "roof"
+    },
+    {
+      "node": "BedFrame_110",
+      "role": "solid"
+    },
+    {
+      "node": "Mattress_111",
+      "role": "solid"
+    },
+    {
+      "node": "Pillow_112",
+      "role": "solid"
+    },
+    {
+      "node": "Headboard_113",
+      "role": "solid"
+    },
+    {
+      "node": "TableBase_114",
+      "role": "solid"
+    },
+    {
+      "node": "TableTop_115",
+      "role": "solid"
+    },
+    {
+      "node": "Floor_116",
+      "role": "floor"
+    },
+    {
+      "node": "Wall_117",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_118",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_119",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_120",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_121",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_122",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_123",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_124",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_125",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_126",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_127",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_130",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_131",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_132",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_134",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_135",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_136",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_137",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_138",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_139",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_140",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_141",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_142",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_143",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_144",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_145",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_146",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_147",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_150",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_151",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_152",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_154",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_155",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_156",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_157",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_158",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_159",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_160",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_161",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_162",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_163",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_164",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_167",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_168",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_169",
+      "role": "wall"
+    },
+    {
+      "node": "PitchedRoof_171",
+      "role": "roof"
+    },
+    {
+      "node": "PitchedRoof_183",
+      "role": "roof"
+    },
+    {
+      "node": "Ridge_195",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_196",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_197",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_198",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_199",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_200",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_201",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_202",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_203",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_204",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_205",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_206",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_207",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_208",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_209",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_210",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_211",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_212",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_213",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_214",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_215",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_216",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_217",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_218",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_219",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_220",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_221",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_222",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_223",
+      "role": "roof"
+    },
+    {
+      "node": "Cabinet_224",
+      "role": "solid"
+    },
+    {
+      "node": "TableBase_227",
+      "role": "solid"
+    },
+    {
+      "node": "TableTop_228",
+      "role": "solid"
+    },
+    {
+      "node": "Floor_229",
+      "role": "floor"
+    },
+    {
+      "node": "Wall_230",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_231",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_232",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_233",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_234",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_235",
+      "role": "wall"
+    },
+    {
+      "node": "PitchedRoof_236",
+      "role": "roof"
+    },
+    {
+      "node": "PitchedRoof_248",
+      "role": "roof"
+    },
+    {
+      "node": "Ridge_260",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_261",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_262",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_263",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_264",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_265",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_266",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_267",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_268",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_269",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_270",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_271",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_272",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_273",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_274",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_275",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_276",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_277",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_278",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_279",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_280",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_281",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_282",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_283",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_284",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_285",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_286",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_287",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_288",
+      "role": "roof"
+    },
+    {
+      "node": "BedFrame_289",
+      "role": "solid"
+    },
+    {
+      "node": "Mattress_290",
+      "role": "solid"
+    },
+    {
+      "node": "Pillow_291",
+      "role": "solid"
+    },
+    {
+      "node": "Headboard_292",
+      "role": "solid"
+    },
+    {
+      "node": "TableBase_293",
+      "role": "solid"
+    },
+    {
+      "node": "TableTop_294",
+      "role": "solid"
+    },
+    {
+      "node": "DisplayPlinth_295",
+      "role": "solid"
+    },
+    {
+      "node": "Floor_296",
+      "role": "floor"
+    },
+    {
+      "node": "Wall_297",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_298",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_299",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_300",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_301",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_302",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_303",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_304",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_305",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_306",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_307",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_310",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_311",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_312",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_314",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_315",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_316",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_317",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_318",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_319",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_320",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_321",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_322",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_323",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_324",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_327",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_328",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_329",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_331",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_332",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_333",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_334",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_335",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_336",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_337",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_338",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_339",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_340",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_341",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_344",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_345",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_346",
+      "role": "wall"
+    },
+    {
+      "node": "PitchedRoof_348",
+      "role": "roof"
+    },
+    {
+      "node": "PitchedRoof_360",
+      "role": "roof"
+    },
+    {
+      "node": "Ridge_372",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_373",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_374",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_375",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_376",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_377",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_378",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_379",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_380",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_381",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_382",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_383",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_384",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_385",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_386",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_387",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_388",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_389",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_390",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_391",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_392",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_393",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_394",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_395",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_396",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_397",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_398",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_399",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_400",
+      "role": "roof"
+    },
+    {
+      "node": "Cabinet_401",
+      "role": "solid"
+    },
+    {
+      "node": "TableBase_404",
+      "role": "solid"
+    },
+    {
+      "node": "TableTop_405",
+      "role": "solid"
+    },
+    {
+      "node": "Floor_406",
+      "role": "floor"
+    },
+    {
+      "node": "Wall_407",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_408",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_409",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_410",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_411",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_412",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_413",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_414",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_416",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_417",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_418",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_419",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_420",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_421",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_422",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_423",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_424",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_425",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_426",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_429",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_430",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_431",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_433",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_434",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_435",
+      "role": "wall"
+    },
+    {
+      "node": "Wall_436",
+      "role": "wall"
+    },
+    {
+      "node": "Cornice_437",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_438",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_439",
+      "role": "wall"
+    },
+    {
+      "node": "Pilaster_440",
+      "role": "wall"
+    },
+    {
+      "node": "Capital_441",
+      "role": "wall"
+    },
+    {
+      "node": "WindowFrame_442",
+      "role": "wall"
+    },
+    {
+      "node": "Glass_443",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_446",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_447",
+      "role": "wall"
+    },
+    {
+      "node": "Shutter_448",
+      "role": "wall"
+    },
+    {
+      "node": "PitchedRoof_450",
+      "role": "roof"
+    },
+    {
+      "node": "PitchedRoof_462",
+      "role": "roof"
+    },
+    {
+      "node": "Ridge_474",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_475",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_476",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_477",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_478",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_479",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_480",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_481",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_482",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_483",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_484",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_485",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_486",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_487",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_488",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_489",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_490",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_491",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_492",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_493",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_494",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_495",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_496",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_497",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_498",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_499",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_500",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_501",
+      "role": "roof"
+    },
+    {
+      "node": "Gable_502",
+      "role": "roof"
+    },
+    {
+      "node": "BedFrame_503",
+      "role": "solid"
+    },
+    {
+      "node": "Mattress_504",
+      "role": "solid"
+    },
+    {
+      "node": "Pillow_505",
+      "role": "solid"
+    },
+    {
+      "node": "Headboard_506",
+      "role": "solid"
+    },
+    {
+      "node": "TableBase_507",
+      "role": "solid"
+    },
+    {
+      "node": "TableTop_508",
+      "role": "solid"
+    },
+    {
+      "node": "PorchCanopy_509",
+      "role": "wall"
+    },
+    {
+      "node": "PorchColumn_510",
+      "role": "wall"
+    },
+    {
+      "node": "PorchColumn_511",
+      "role": "wall"
+    }
+  ],
+  "walkables": [
+    "Floor_0",
+    "Floor_116",
+    "Floor_229",
+    "Floor_296",
+    "Floor_406"
+  ],
+  "entrances": [
+    {
+      "id": "MainEntrance",
+      "outer": [
+        0,
+        0,
+        12.2
+      ],
+      "inner": [
+        0,
+        0,
+        8.8
+      ],
+      "width": 2.6,
+      "height": 3,
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "ExploreAllRooms",
+      "points": [
+        [
+          0,
+          0,
+          12.2
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -7
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          -7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [
+    {
+      "id": "RoomLoot0",
+      "min": [
+        1.4,
+        -5.6
+      ],
+      "max": [
+        2.6,
+        -4.4
+      ],
+      "surface": "Floor_0"
+    },
+    {
+      "id": "RoomLoot1",
+      "min": [
+        -5.6,
+        1.4
+      ],
+      "max": [
+        -4.4,
+        2.6
+      ],
+      "surface": "Floor_116"
+    },
+    {
+      "id": "RoomLoot2",
+      "min": [
+        1.4,
+        1.4
+      ],
+      "max": [
+        2.6,
+        2.6
+      ],
+      "surface": "Floor_229"
+    },
+    {
+      "id": "RoomLoot3",
+      "min": [
+        8.4,
+        1.4
+      ],
+      "max": [
+        9.6,
+        2.6
+      ],
+      "surface": "Floor_296"
+    },
+    {
+      "id": "RoomLoot4",
+      "min": [
+        1.4,
+        8.4
+      ],
+      "max": [
+        2.6,
+        9.6
+      ],
+      "surface": "Floor_406"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "Path1",
+      "min": [
+        -0.85,
+        6.15
+      ],
+      "max": [
+        0.85,
+        13.049999999999999
+      ]
+    },
+    {
+      "id": "Path2",
+      "min": [
+        -0.85,
+        -0.85
+      ],
+      "max": [
+        0.85,
+        7.85
+      ]
+    },
+    {
+      "id": "Path3",
+      "min": [
+        -0.85,
+        -0.85
+      ],
+      "max": [
+        7.85,
+        0.85
+      ]
+    },
+    {
+      "id": "Path4",
+      "min": [
+        -0.85,
+        -0.85
+      ],
+      "max": [
+        7.85,
+        0.85
+      ]
+    },
+    {
+      "id": "Path5",
+      "min": [
+        -0.85,
+        -7.85
+      ],
+      "max": [
+        0.85,
+        0.85
+      ]
+    },
+    {
+      "id": "Path6",
+      "min": [
+        -0.85,
+        -7.85
+      ],
+      "max": [
+        0.85,
+        0.85
+      ]
+    },
+    {
+      "id": "Path7",
+      "min": [
+        -7.85,
+        -0.85
+      ],
+      "max": [
+        0.85,
+        0.85
+      ]
+    },
+    {
+      "id": "Path8",
+      "min": [
+        -7.85,
+        -0.85
+      ],
+      "max": [
+        0.85,
+        0.85
+      ]
+    },
+    {
+      "id": "Path9",
+      "min": [
+        -0.85,
+        -0.85
+      ],
+      "max": [
+        0.85,
+        7.85
+      ]
+    }
+  ],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Protected_05_GardenPavilion",
+    "type": "static",
+    "materials": {
+      "wall": {
+        "color": "#c3cbb9",
+        "roughness": 0.85,
+        "metalness": 0.05
+      },
+      "trim": {
+        "color": "#ddd3bb",
+        "roughness": 0.75
+      },
+      "stone": {
+        "color": "#7d837b",
+        "roughness": 0.9
+      },
+      "roof": {
+        "color": "#617864",
+        "metalness": 0.4,
+        "roughness": 0.65
+      },
+      "dark": {
+        "color": "#374744",
+        "roughness": 0.8
+      },
+      "wood": {
+        "color": "#69523f",
+        "roughness": 0.8
+      },
+      "cloth": {
+        "color": "#827962",
+        "roughness": 1
+      },
+      "glass": {
+        "color": "#466771",
+        "metalness": 0.7,
+        "roughness": 0.25
+      },
+      "floor": {
+        "color": "#aba695",
+        "roughness": 0.85
+      },
+      "gold": {
+        "color": "#b5a16a",
+        "metalness": 0.45,
+        "roughness": 0.6
+      },
+      "red": {
+        "color": "#b35548",
+        "roughness": 0.7
+      },
+      "steel": {
+        "color": "#738783",
+        "metalness": 0.6,
+        "roughness": 0.6
+      }
+    },
+    "parts": [
+      {
+        "id": "Floor_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.18,
+            7
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -7
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "Wall_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          -2.4,
+          2.1,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          2.4,
+          2.1,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            1.2000000000000002,
+            0.32
+          ]
+        },
+        "position": [
+          0,
+          3.6,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          3.5,
+          2.1,
+          -9.225
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          3.5,
+          2.1,
+          -4.775
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.25,
+            1.9000000000000004
+          ]
+        },
+        "position": [
+          3.5,
+          0.625,
+          -7
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.4000000000000004,
+            1.9000000000000004
+          ]
+        },
+        "position": [
+          3.5,
+          3.5,
+          -7
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.52,
+            0.25,
+            7
+          ]
+        },
+        "position": [
+          3.5,
+          4.1,
+          -7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          3.5,
+          2.025,
+          -10.28
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          3.5,
+          3.7,
+          -10.28
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          3.5,
+          2.025,
+          -3.72
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          3.5,
+          3.7,
+          -3.72
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.14,
+            1.75,
+            2.14
+          ]
+        },
+        "position": [
+          3.73,
+          2.05,
+          -7
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            1.45,
+            1.84
+          ]
+        },
+        "position": [
+          3.82,
+          2.05,
+          -7
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            1.53,
+            0.075
+          ]
+        },
+        "position": [
+          3.88,
+          2.05,
+          -7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_16",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.075,
+            1.95
+          ]
+        },
+        "position": [
+          3.88,
+          2.1,
+          -7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_17",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.16,
+            2.4
+          ]
+        },
+        "position": [
+          3.5,
+          1.15,
+          -7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_18",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          3.75,
+          2.05,
+          -8.25
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_19",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          3.75,
+          2.05,
+          -5.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_20",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.42,
+            0.7
+          ]
+        },
+        "position": [
+          3.68,
+          0.65,
+          -9.6
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Wall_21",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.55,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          -2.225,
+          2.1,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_22",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.55,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          2.225,
+          2.1,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_23",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9,
+            1.25,
+            0.32
+          ]
+        },
+        "position": [
+          0,
+          0.625,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_24",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9,
+            1.4000000000000004,
+            0.32
+          ]
+        },
+        "position": [
+          0,
+          3.5,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_25",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.25,
+            0.52
+          ]
+        },
+        "position": [
+          0,
+          4.1,
+          -10.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_26",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          -3.28,
+          2.025,
+          -10.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_27",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          -3.28,
+          3.7,
+          -10.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_28",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          3.28,
+          2.025,
+          -10.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_29",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          3.28,
+          3.7,
+          -10.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_30",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.14,
+            1.75,
+            0.14
+          ]
+        },
+        "position": [
+          0,
+          2.05,
+          -10.73
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_31",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.84,
+            1.45,
+            0.07
+          ]
+        },
+        "position": [
+          0,
+          2.05,
+          -10.82
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_32",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            1.53,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          2.05,
+          -10.88
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_33",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.95,
+            0.075,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          2.1,
+          -10.88
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_34",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            0.16,
+            0.58
+          ]
+        },
+        "position": [
+          0,
+          1.15,
+          -10.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_35",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.65,
+            0.09
+          ]
+        },
+        "position": [
+          -1.25,
+          2.05,
+          -10.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_36",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.65,
+            0.09
+          ]
+        },
+        "position": [
+          1.25,
+          2.05,
+          -10.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_37",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7,
+            0.42,
+            0.025
+          ]
+        },
+        "position": [
+          -2.6,
+          0.65,
+          -10.68
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Wall_38",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          -3.5,
+          2.1,
+          -9.225
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_39",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          -3.5,
+          2.1,
+          -4.775
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_40",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.25,
+            1.9000000000000004
+          ]
+        },
+        "position": [
+          -3.5,
+          0.625,
+          -7
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_41",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.4000000000000004,
+            1.9000000000000004
+          ]
+        },
+        "position": [
+          -3.5,
+          3.5,
+          -7
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_42",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.52,
+            0.25,
+            7
+          ]
+        },
+        "position": [
+          -3.5,
+          4.1,
+          -7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_43",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          -3.5,
+          2.025,
+          -10.28
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_44",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          -3.5,
+          3.7,
+          -10.28
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_45",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          -3.5,
+          2.025,
+          -3.72
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_46",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          -3.5,
+          3.7,
+          -3.72
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_47",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.14,
+            1.75,
+            2.14
+          ]
+        },
+        "position": [
+          -3.73,
+          2.05,
+          -7
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_48",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            1.45,
+            1.84
+          ]
+        },
+        "position": [
+          -3.82,
+          2.05,
+          -7
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_49",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            1.53,
+            0.075
+          ]
+        },
+        "position": [
+          -3.88,
+          2.05,
+          -7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_50",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.075,
+            1.95
+          ]
+        },
+        "position": [
+          -3.88,
+          2.1,
+          -7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_51",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.16,
+            2.4
+          ]
+        },
+        "position": [
+          -3.5,
+          1.15,
+          -7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_52",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          -3.75,
+          2.05,
+          -8.25
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_53",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          -3.75,
+          2.05,
+          -5.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_54",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.42,
+            0.7
+          ]
+        },
+        "position": [
+          -3.68,
+          0.65,
+          -9.6
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "PitchedRoof_55",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.2,
+            7.4
+          ]
+        },
+        "position": [
+          -1.85,
+          4.795706005997577,
+          -7
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          15
+        ]
+      },
+      {
+        "id": "TileCourse_56",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.3
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "TileCourse_57",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.65
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "TileCourse_58",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "TileCourse_59",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.35
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "TileCourse_60",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.7000000000000001
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "TileCourse_61",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.050000000000000044
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "TileCourse_62",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          0.6
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "TileCourse_63",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "TileCourse_64",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.9
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "TileCourse_65",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.55
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "TileCourse_66",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.1999999999999997
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_55"
+      },
+      {
+        "id": "PitchedRoof_67",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.2,
+            7.4
+          ]
+        },
+        "position": [
+          1.85,
+          4.795706005997577,
+          -7
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          -15
+        ]
+      },
+      {
+        "id": "TileCourse_68",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.3
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "TileCourse_69",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.65
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "TileCourse_70",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "TileCourse_71",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.35
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "TileCourse_72",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.7000000000000001
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "TileCourse_73",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.050000000000000044
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "TileCourse_74",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          0.6
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "TileCourse_75",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "TileCourse_76",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.9
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "TileCourse_77",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.55
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "TileCourse_78",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.1999999999999997
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_67"
+      },
+      {
+        "id": "Ridge_79",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.18,
+            7.5
+          ]
+        },
+        "position": [
+          0,
+          5.391412011995153,
+          -7
+        ],
+        "material": "gold"
+      },
+      {
+        "id": "Gable_80",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          -3.25,
+          4.310288568297003,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_81",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          -2.75,
+          4.3772758664047835,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_82",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          -2.25,
+          4.444263164512564,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_83",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          -1.75,
+          4.511250462620345,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_84",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          -1.25,
+          4.5782377607281255,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_85",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          -0.75,
+          4.645225058835906,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_86",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          -0.25,
+          4.712212356943687,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_87",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          0.25,
+          4.712212356943687,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_88",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          0.75,
+          4.645225058835906,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_89",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          1.25,
+          4.5782377607281255,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_90",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          1.75,
+          4.511250462620345,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_91",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          2.25,
+          4.444263164512564,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_92",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          2.75,
+          4.3772758664047835,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_93",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          3.25,
+          4.310288568297003,
+          -10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_94",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          -3.25,
+          4.310288568297003,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_95",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          -2.75,
+          4.3772758664047835,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_96",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          -2.25,
+          4.444263164512564,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_97",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          -1.75,
+          4.511250462620345,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_98",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          -1.25,
+          4.5782377607281255,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_99",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          -0.75,
+          4.645225058835906,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_100",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          -0.25,
+          4.712212356943687,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_101",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          0.25,
+          4.712212356943687,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_102",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          0.75,
+          4.645225058835906,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_103",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          1.25,
+          4.5782377607281255,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_104",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          1.75,
+          4.511250462620345,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_105",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          2.25,
+          4.444263164512564,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_106",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          2.75,
+          4.3772758664047835,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_107",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          3.25,
+          4.310288568297003,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Chimney_108",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.85,
+            1.9,
+            0.95
+          ]
+        },
+        "position": [
+          1.75,
+          5.591412011995153,
+          -8.54
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "ChimneyCap_109",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.15,
+            0.17,
+            1.25
+          ]
+        },
+        "position": [
+          0,
+          1.04,
+          0
+        ],
+        "material": "trim",
+        "parent": "Chimney_108"
+      },
+      {
+        "id": "BedFrame_110",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            0.45,
+            1.3
+          ]
+        },
+        "position": [
+          2.1,
+          0.225,
+          -9.3
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "Mattress_111",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.25,
+            0.18,
+            1.2
+          ]
+        },
+        "position": [
+          2.1,
+          0.53,
+          -9.3
+        ],
+        "material": "cloth"
+      },
+      {
+        "id": "Pillow_112",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.13,
+            1
+          ]
+        },
+        "position": [
+          1.35,
+          0.68,
+          -9.3
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Headboard_113",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            1,
+            1.35
+          ]
+        },
+        "position": [
+          0.9200000000000002,
+          0.6,
+          -9.3
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "TableBase_114",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9,
+            0.85,
+            0.9
+          ]
+        },
+        "position": [
+          -2,
+          0.425,
+          -9.4
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "TableTop_115",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.15,
+            0.12,
+            1.05
+          ]
+        },
+        "position": [
+          -2,
+          0.91,
+          -9.4
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Floor_116",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.18,
+            7
+          ]
+        },
+        "position": [
+          -7,
+          -0.09,
+          0
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "Wall_117",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.55,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          -9.225,
+          2.1,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_118",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.55,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          -4.775,
+          2.1,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_119",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9000000000000004,
+            1.25,
+            0.32
+          ]
+        },
+        "position": [
+          -7,
+          0.625,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_120",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9000000000000004,
+            1.4000000000000004,
+            0.32
+          ]
+        },
+        "position": [
+          -7,
+          3.5,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_121",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.25,
+            0.52
+          ]
+        },
+        "position": [
+          -7,
+          4.1,
+          3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_122",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          -10.28,
+          2.025,
+          3.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_123",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          -10.28,
+          3.7,
+          3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_124",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          -3.72,
+          2.025,
+          3.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_125",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          -3.72,
+          3.7,
+          3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_126",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.14,
+            1.75,
+            0.14
+          ]
+        },
+        "position": [
+          -7,
+          2.05,
+          3.73
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_127",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.84,
+            1.45,
+            0.07
+          ]
+        },
+        "position": [
+          -7,
+          2.05,
+          3.82
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_128",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            1.53,
+            0.1
+          ]
+        },
+        "position": [
+          -7,
+          2.05,
+          3.88
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_129",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.95,
+            0.075,
+            0.1
+          ]
+        },
+        "position": [
+          -7,
+          2.1,
+          3.88
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_130",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            0.16,
+            0.58
+          ]
+        },
+        "position": [
+          -7,
+          1.15,
+          3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_131",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.65,
+            0.09
+          ]
+        },
+        "position": [
+          -8.25,
+          2.05,
+          3.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_132",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.65,
+            0.09
+          ]
+        },
+        "position": [
+          -5.75,
+          2.05,
+          3.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_133",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7,
+            0.42,
+            0.025
+          ]
+        },
+        "position": [
+          -9.6,
+          0.65,
+          3.68
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Wall_134",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.2
+          ]
+        },
+        "position": [
+          -3.5,
+          2.1,
+          -2.4
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_135",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.2
+          ]
+        },
+        "position": [
+          -3.5,
+          2.1,
+          2.4
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_136",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.2000000000000002,
+            2.6
+          ]
+        },
+        "position": [
+          -3.5,
+          3.6,
+          0
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_137",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.55,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          -9.225,
+          2.1,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_138",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.55,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          -4.775,
+          2.1,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_139",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9000000000000004,
+            1.25,
+            0.32
+          ]
+        },
+        "position": [
+          -7,
+          0.625,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_140",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9000000000000004,
+            1.4000000000000004,
+            0.32
+          ]
+        },
+        "position": [
+          -7,
+          3.5,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_141",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.25,
+            0.52
+          ]
+        },
+        "position": [
+          -7,
+          4.1,
+          -3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_142",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          -10.28,
+          2.025,
+          -3.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_143",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          -10.28,
+          3.7,
+          -3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_144",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          -3.72,
+          2.025,
+          -3.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_145",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          -3.72,
+          3.7,
+          -3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_146",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.14,
+            1.75,
+            0.14
+          ]
+        },
+        "position": [
+          -7,
+          2.05,
+          -3.73
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_147",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.84,
+            1.45,
+            0.07
+          ]
+        },
+        "position": [
+          -7,
+          2.05,
+          -3.82
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_148",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            1.53,
+            0.1
+          ]
+        },
+        "position": [
+          -7,
+          2.05,
+          -3.88
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_149",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.95,
+            0.075,
+            0.1
+          ]
+        },
+        "position": [
+          -7,
+          2.1,
+          -3.88
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_150",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            0.16,
+            0.58
+          ]
+        },
+        "position": [
+          -7,
+          1.15,
+          -3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_151",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.65,
+            0.09
+          ]
+        },
+        "position": [
+          -8.25,
+          2.05,
+          -3.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_152",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.65,
+            0.09
+          ]
+        },
+        "position": [
+          -5.75,
+          2.05,
+          -3.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_153",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7,
+            0.42,
+            0.025
+          ]
+        },
+        "position": [
+          -9.6,
+          0.65,
+          -3.68
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Wall_154",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          -10.5,
+          2.1,
+          -2.225
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_155",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          -10.5,
+          2.1,
+          2.225
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_156",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.25,
+            1.9
+          ]
+        },
+        "position": [
+          -10.5,
+          0.625,
+          0
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_157",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.4000000000000004,
+            1.9
+          ]
+        },
+        "position": [
+          -10.5,
+          3.5,
+          0
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_158",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.52,
+            0.25,
+            7
+          ]
+        },
+        "position": [
+          -10.5,
+          4.1,
+          0
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_159",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          -10.5,
+          2.025,
+          -3.28
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_160",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          -10.5,
+          3.7,
+          -3.28
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_161",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          -10.5,
+          2.025,
+          3.28
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_162",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          -10.5,
+          3.7,
+          3.28
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_163",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.14,
+            1.75,
+            2.14
+          ]
+        },
+        "position": [
+          -10.73,
+          2.05,
+          0
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_164",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            1.45,
+            1.84
+          ]
+        },
+        "position": [
+          -10.82,
+          2.05,
+          0
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_165",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            1.53,
+            0.075
+          ]
+        },
+        "position": [
+          -10.88,
+          2.05,
+          0
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_166",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.075,
+            1.95
+          ]
+        },
+        "position": [
+          -10.88,
+          2.1,
+          0
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_167",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.16,
+            2.4
+          ]
+        },
+        "position": [
+          -10.5,
+          1.15,
+          0
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_168",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          -10.75,
+          2.05,
+          -1.25
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_169",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          -10.75,
+          2.05,
+          1.25
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_170",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.42,
+            0.7
+          ]
+        },
+        "position": [
+          -10.68,
+          0.65,
+          -2.6
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "PitchedRoof_171",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.2,
+            7.4
+          ]
+        },
+        "position": [
+          -8.85,
+          4.795706005997577,
+          0
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          15
+        ]
+      },
+      {
+        "id": "TileCourse_172",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.3
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "TileCourse_173",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.65
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "TileCourse_174",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "TileCourse_175",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.35
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "TileCourse_176",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.7000000000000001
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "TileCourse_177",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.050000000000000044
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "TileCourse_178",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          0.6
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "TileCourse_179",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "TileCourse_180",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.9
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "TileCourse_181",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.55
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "TileCourse_182",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.1999999999999997
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_171"
+      },
+      {
+        "id": "PitchedRoof_183",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.2,
+            7.4
+          ]
+        },
+        "position": [
+          -5.15,
+          4.795706005997577,
+          0
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          -15
+        ]
+      },
+      {
+        "id": "TileCourse_184",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.3
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "TileCourse_185",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.65
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "TileCourse_186",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "TileCourse_187",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.35
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "TileCourse_188",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.7000000000000001
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "TileCourse_189",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.050000000000000044
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "TileCourse_190",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          0.6
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "TileCourse_191",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "TileCourse_192",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.9
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "TileCourse_193",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.55
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "TileCourse_194",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.1999999999999997
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_183"
+      },
+      {
+        "id": "Ridge_195",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.18,
+            7.5
+          ]
+        },
+        "position": [
+          -7,
+          5.391412011995153,
+          0
+        ],
+        "material": "gold"
+      },
+      {
+        "id": "Gable_196",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          -10.25,
+          4.310288568297003,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_197",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          -9.75,
+          4.3772758664047835,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_198",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          -9.25,
+          4.444263164512564,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_199",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          -8.75,
+          4.511250462620345,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_200",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          -8.25,
+          4.5782377607281255,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_201",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          -7.75,
+          4.645225058835906,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_202",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          -7.25,
+          4.712212356943687,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_203",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          -6.75,
+          4.712212356943687,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_204",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          -6.25,
+          4.645225058835906,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_205",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          -5.75,
+          4.5782377607281255,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_206",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          -5.25,
+          4.511250462620345,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_207",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          -4.75,
+          4.444263164512564,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_208",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          -4.25,
+          4.3772758664047835,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_209",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          -3.75,
+          4.310288568297003,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_210",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          -10.25,
+          4.310288568297003,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_211",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          -9.75,
+          4.3772758664047835,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_212",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          -9.25,
+          4.444263164512564,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_213",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          -8.75,
+          4.511250462620345,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_214",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          -8.25,
+          4.5782377607281255,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_215",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          -7.75,
+          4.645225058835906,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_216",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          -7.25,
+          4.712212356943687,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_217",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          -6.75,
+          4.712212356943687,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_218",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          -6.25,
+          4.645225058835906,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_219",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          -5.75,
+          4.5782377607281255,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_220",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          -5.25,
+          4.511250462620345,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_221",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          -4.75,
+          4.444263164512564,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_222",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          -4.25,
+          4.3772758664047835,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_223",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          -3.75,
+          4.310288568297003,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cabinet_224",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5,
+            2.3,
+            0.7
+          ]
+        },
+        "position": [
+          -4.7,
+          1.15,
+          -2.5
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "Handle_225",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          -5.05,
+          1.2,
+          -2.1
+        ],
+        "material": "gold"
+      },
+      {
+        "id": "Handle_226",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          -4.3500000000000005,
+          1.2,
+          -2.1
+        ],
+        "material": "gold"
+      },
+      {
+        "id": "TableBase_227",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9,
+            0.85,
+            0.9
+          ]
+        },
+        "position": [
+          -9,
+          0.425,
+          -2.4
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "TableTop_228",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.15,
+            0.12,
+            1.05
+          ]
+        },
+        "position": [
+          -9,
+          0.91,
+          -2.4
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Floor_229",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.18,
+            7
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          0
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "Wall_230",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          -2.4,
+          2.1,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_231",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          2.4,
+          2.1,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_232",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            1.2000000000000002,
+            0.32
+          ]
+        },
+        "position": [
+          0,
+          3.6,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_233",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.2
+          ]
+        },
+        "position": [
+          3.5,
+          2.1,
+          -2.4
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_234",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.2
+          ]
+        },
+        "position": [
+          3.5,
+          2.1,
+          2.4
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_235",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.2000000000000002,
+            2.6
+          ]
+        },
+        "position": [
+          3.5,
+          3.6,
+          0
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "PitchedRoof_236",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.2,
+            7.4
+          ]
+        },
+        "position": [
+          -1.85,
+          4.795706005997577,
+          0
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          15
+        ]
+      },
+      {
+        "id": "TileCourse_237",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.3
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "TileCourse_238",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.65
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "TileCourse_239",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "TileCourse_240",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.35
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "TileCourse_241",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.7000000000000001
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "TileCourse_242",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.050000000000000044
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "TileCourse_243",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          0.6
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "TileCourse_244",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "TileCourse_245",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.9
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "TileCourse_246",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.55
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "TileCourse_247",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.1999999999999997
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_236"
+      },
+      {
+        "id": "PitchedRoof_248",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.2,
+            7.4
+          ]
+        },
+        "position": [
+          1.85,
+          4.795706005997577,
+          0
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          -15
+        ]
+      },
+      {
+        "id": "TileCourse_249",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.3
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "TileCourse_250",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.65
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "TileCourse_251",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "TileCourse_252",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.35
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "TileCourse_253",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.7000000000000001
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "TileCourse_254",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.050000000000000044
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "TileCourse_255",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          0.6
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "TileCourse_256",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "TileCourse_257",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.9
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "TileCourse_258",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.55
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "TileCourse_259",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.1999999999999997
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_248"
+      },
+      {
+        "id": "Ridge_260",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.18,
+            7.5
+          ]
+        },
+        "position": [
+          0,
+          5.391412011995153,
+          0
+        ],
+        "material": "gold"
+      },
+      {
+        "id": "Gable_261",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          -3.25,
+          4.310288568297003,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_262",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          -2.75,
+          4.3772758664047835,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_263",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          -2.25,
+          4.444263164512564,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_264",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          -1.75,
+          4.511250462620345,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_265",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          -1.25,
+          4.5782377607281255,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_266",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          -0.75,
+          4.645225058835906,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_267",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          -0.25,
+          4.712212356943687,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_268",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          0.25,
+          4.712212356943687,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_269",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          0.75,
+          4.645225058835906,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_270",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          1.25,
+          4.5782377607281255,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_271",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          1.75,
+          4.511250462620345,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_272",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          2.25,
+          4.444263164512564,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_273",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          2.75,
+          4.3772758664047835,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_274",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          3.25,
+          4.310288568297003,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_275",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          -3.25,
+          4.310288568297003,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_276",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          -2.75,
+          4.3772758664047835,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_277",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          -2.25,
+          4.444263164512564,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_278",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          -1.75,
+          4.511250462620345,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_279",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          -1.25,
+          4.5782377607281255,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_280",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          -0.75,
+          4.645225058835906,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_281",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          -0.25,
+          4.712212356943687,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_282",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          0.25,
+          4.712212356943687,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_283",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          0.75,
+          4.645225058835906,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_284",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          1.25,
+          4.5782377607281255,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_285",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          1.75,
+          4.511250462620345,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_286",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          2.25,
+          4.444263164512564,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_287",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          2.75,
+          4.3772758664047835,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_288",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          3.25,
+          4.310288568297003,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "BedFrame_289",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            0.45,
+            1.3
+          ]
+        },
+        "position": [
+          2.1,
+          0.225,
+          -2.3
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "Mattress_290",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.25,
+            0.18,
+            1.2
+          ]
+        },
+        "position": [
+          2.1,
+          0.53,
+          -2.3
+        ],
+        "material": "cloth"
+      },
+      {
+        "id": "Pillow_291",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.13,
+            1
+          ]
+        },
+        "position": [
+          1.35,
+          0.68,
+          -2.3
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Headboard_292",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            1,
+            1.35
+          ]
+        },
+        "position": [
+          0.9200000000000002,
+          0.6,
+          -2.3
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "TableBase_293",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9,
+            0.85,
+            0.9
+          ]
+        },
+        "position": [
+          -2,
+          0.425,
+          -2.4
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "TableTop_294",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.15,
+            0.12,
+            1.05
+          ]
+        },
+        "position": [
+          -2,
+          0.91,
+          -2.4
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "DisplayPlinth_295",
+        "shape": {
+          "type": "box",
+          "size": [
+            1,
+            1,
+            1
+          ]
+        },
+        "position": [
+          -2.4,
+          0.5,
+          2.4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Floor_296",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.18,
+            7
+          ]
+        },
+        "position": [
+          7,
+          -0.09,
+          0
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "Wall_297",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.55,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          4.775,
+          2.1,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_298",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.55,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          9.225,
+          2.1,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_299",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9000000000000004,
+            1.25,
+            0.32
+          ]
+        },
+        "position": [
+          7,
+          0.625,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_300",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9000000000000004,
+            1.4000000000000004,
+            0.32
+          ]
+        },
+        "position": [
+          7,
+          3.5,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_301",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.25,
+            0.52
+          ]
+        },
+        "position": [
+          7,
+          4.1,
+          3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_302",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          3.72,
+          2.025,
+          3.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_303",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          3.72,
+          3.7,
+          3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_304",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          10.28,
+          2.025,
+          3.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_305",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          10.28,
+          3.7,
+          3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_306",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.14,
+            1.75,
+            0.14
+          ]
+        },
+        "position": [
+          7,
+          2.05,
+          3.73
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_307",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.84,
+            1.45,
+            0.07
+          ]
+        },
+        "position": [
+          7,
+          2.05,
+          3.82
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_308",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            1.53,
+            0.1
+          ]
+        },
+        "position": [
+          7,
+          2.05,
+          3.88
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_309",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.95,
+            0.075,
+            0.1
+          ]
+        },
+        "position": [
+          7,
+          2.1,
+          3.88
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_310",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            0.16,
+            0.58
+          ]
+        },
+        "position": [
+          7,
+          1.15,
+          3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_311",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.65,
+            0.09
+          ]
+        },
+        "position": [
+          5.75,
+          2.05,
+          3.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_312",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.65,
+            0.09
+          ]
+        },
+        "position": [
+          8.25,
+          2.05,
+          3.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_313",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7,
+            0.42,
+            0.025
+          ]
+        },
+        "position": [
+          4.4,
+          0.65,
+          3.68
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Wall_314",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          10.5,
+          2.1,
+          -2.225
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_315",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          10.5,
+          2.1,
+          2.225
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_316",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.25,
+            1.9
+          ]
+        },
+        "position": [
+          10.5,
+          0.625,
+          0
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_317",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.4000000000000004,
+            1.9
+          ]
+        },
+        "position": [
+          10.5,
+          3.5,
+          0
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_318",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.52,
+            0.25,
+            7
+          ]
+        },
+        "position": [
+          10.5,
+          4.1,
+          0
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_319",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          10.5,
+          2.025,
+          -3.28
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_320",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          10.5,
+          3.7,
+          -3.28
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_321",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          10.5,
+          2.025,
+          3.28
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_322",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          10.5,
+          3.7,
+          3.28
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_323",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.14,
+            1.75,
+            2.14
+          ]
+        },
+        "position": [
+          10.73,
+          2.05,
+          0
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_324",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            1.45,
+            1.84
+          ]
+        },
+        "position": [
+          10.82,
+          2.05,
+          0
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_325",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            1.53,
+            0.075
+          ]
+        },
+        "position": [
+          10.88,
+          2.05,
+          0
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_326",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.075,
+            1.95
+          ]
+        },
+        "position": [
+          10.88,
+          2.1,
+          0
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_327",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.16,
+            2.4
+          ]
+        },
+        "position": [
+          10.5,
+          1.15,
+          0
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_328",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          10.75,
+          2.05,
+          -1.25
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_329",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          10.75,
+          2.05,
+          1.25
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_330",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.42,
+            0.7
+          ]
+        },
+        "position": [
+          10.68,
+          0.65,
+          -2.6
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Wall_331",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.55,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          4.775,
+          2.1,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_332",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.55,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          9.225,
+          2.1,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_333",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9000000000000004,
+            1.25,
+            0.32
+          ]
+        },
+        "position": [
+          7,
+          0.625,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_334",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9000000000000004,
+            1.4000000000000004,
+            0.32
+          ]
+        },
+        "position": [
+          7,
+          3.5,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_335",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.25,
+            0.52
+          ]
+        },
+        "position": [
+          7,
+          4.1,
+          -3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_336",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          3.72,
+          2.025,
+          -3.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_337",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          3.72,
+          3.7,
+          -3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_338",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          10.28,
+          2.025,
+          -3.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_339",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          10.28,
+          3.7,
+          -3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_340",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.14,
+            1.75,
+            0.14
+          ]
+        },
+        "position": [
+          7,
+          2.05,
+          -3.73
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_341",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.84,
+            1.45,
+            0.07
+          ]
+        },
+        "position": [
+          7,
+          2.05,
+          -3.82
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_342",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            1.53,
+            0.1
+          ]
+        },
+        "position": [
+          7,
+          2.05,
+          -3.88
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_343",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.95,
+            0.075,
+            0.1
+          ]
+        },
+        "position": [
+          7,
+          2.1,
+          -3.88
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_344",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            0.16,
+            0.58
+          ]
+        },
+        "position": [
+          7,
+          1.15,
+          -3.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_345",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.65,
+            0.09
+          ]
+        },
+        "position": [
+          5.75,
+          2.05,
+          -3.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_346",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.65,
+            0.09
+          ]
+        },
+        "position": [
+          8.25,
+          2.05,
+          -3.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_347",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7,
+            0.42,
+            0.025
+          ]
+        },
+        "position": [
+          4.4,
+          0.65,
+          -3.68
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "PitchedRoof_348",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.2,
+            7.4
+          ]
+        },
+        "position": [
+          5.15,
+          4.795706005997577,
+          0
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          15
+        ]
+      },
+      {
+        "id": "TileCourse_349",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.3
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "TileCourse_350",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.65
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "TileCourse_351",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "TileCourse_352",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.35
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "TileCourse_353",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.7000000000000001
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "TileCourse_354",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.050000000000000044
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "TileCourse_355",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          0.6
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "TileCourse_356",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "TileCourse_357",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.9
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "TileCourse_358",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.55
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "TileCourse_359",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.1999999999999997
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_348"
+      },
+      {
+        "id": "PitchedRoof_360",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.2,
+            7.4
+          ]
+        },
+        "position": [
+          8.85,
+          4.795706005997577,
+          0
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          -15
+        ]
+      },
+      {
+        "id": "TileCourse_361",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.3
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "TileCourse_362",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.65
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "TileCourse_363",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "TileCourse_364",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.35
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "TileCourse_365",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.7000000000000001
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "TileCourse_366",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.050000000000000044
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "TileCourse_367",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          0.6
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "TileCourse_368",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "TileCourse_369",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.9
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "TileCourse_370",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.55
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "TileCourse_371",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.1999999999999997
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_360"
+      },
+      {
+        "id": "Ridge_372",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.18,
+            7.5
+          ]
+        },
+        "position": [
+          7,
+          5.391412011995153,
+          0
+        ],
+        "material": "gold"
+      },
+      {
+        "id": "Gable_373",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          3.75,
+          4.310288568297003,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_374",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          4.25,
+          4.3772758664047835,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_375",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          4.75,
+          4.444263164512564,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_376",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          5.25,
+          4.511250462620345,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_377",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          5.75,
+          4.5782377607281255,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_378",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          6.25,
+          4.645225058835906,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_379",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          6.75,
+          4.712212356943687,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_380",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          7.25,
+          4.712212356943687,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_381",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          7.75,
+          4.645225058835906,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_382",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          8.25,
+          4.5782377607281255,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_383",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          8.75,
+          4.511250462620345,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_384",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          9.25,
+          4.444263164512564,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_385",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          9.75,
+          4.3772758664047835,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_386",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          10.25,
+          4.310288568297003,
+          -3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_387",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          3.75,
+          4.310288568297003,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_388",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          4.25,
+          4.3772758664047835,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_389",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          4.75,
+          4.444263164512564,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_390",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          5.25,
+          4.511250462620345,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_391",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          5.75,
+          4.5782377607281255,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_392",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          6.25,
+          4.645225058835906,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_393",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          6.75,
+          4.712212356943687,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_394",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          7.25,
+          4.712212356943687,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_395",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          7.75,
+          4.645225058835906,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_396",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          8.25,
+          4.5782377607281255,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_397",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          8.75,
+          4.511250462620345,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_398",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          9.25,
+          4.444263164512564,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_399",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          9.75,
+          4.3772758664047835,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_400",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          10.25,
+          4.310288568297003,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cabinet_401",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5,
+            2.3,
+            0.7
+          ]
+        },
+        "position": [
+          9.3,
+          1.15,
+          -2.5
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "Handle_402",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          8.950000000000001,
+          1.2,
+          -2.1
+        ],
+        "material": "gold"
+      },
+      {
+        "id": "Handle_403",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          9.65,
+          1.2,
+          -2.1
+        ],
+        "material": "gold"
+      },
+      {
+        "id": "TableBase_404",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9,
+            0.85,
+            0.9
+          ]
+        },
+        "position": [
+          5,
+          0.425,
+          -2.4
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "TableTop_405",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.15,
+            0.12,
+            1.05
+          ]
+        },
+        "position": [
+          5,
+          0.91,
+          -2.4
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Floor_406",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.18,
+            7
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          7
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "Wall_407",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          -2.4,
+          2.1,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_408",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            4.2,
+            0.32
+          ]
+        },
+        "position": [
+          2.4,
+          2.1,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_409",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            1.2000000000000002,
+            0.32
+          ]
+        },
+        "position": [
+          0,
+          3.6,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_410",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.25,
+            0.52
+          ]
+        },
+        "position": [
+          0,
+          4.1,
+          10.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_411",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          -3.28,
+          2.025,
+          10.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_412",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          -3.28,
+          3.7,
+          10.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_413",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.05,
+            0.48
+          ]
+        },
+        "position": [
+          3.28,
+          2.025,
+          10.5
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_414",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.22,
+            0.58
+          ]
+        },
+        "position": [
+          3.28,
+          3.7,
+          10.5
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Repair_415",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7,
+            0.42,
+            0.025
+          ]
+        },
+        "position": [
+          -2.6,
+          0.65,
+          10.68
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Wall_416",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          3.5,
+          2.1,
+          4.775
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_417",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          3.5,
+          2.1,
+          9.225
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_418",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.25,
+            1.9000000000000004
+          ]
+        },
+        "position": [
+          3.5,
+          0.625,
+          7
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_419",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.4000000000000004,
+            1.9000000000000004
+          ]
+        },
+        "position": [
+          3.5,
+          3.5,
+          7
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_420",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.52,
+            0.25,
+            7
+          ]
+        },
+        "position": [
+          3.5,
+          4.1,
+          7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_421",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          3.5,
+          2.025,
+          3.72
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_422",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          3.5,
+          3.7,
+          3.72
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_423",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          3.5,
+          2.025,
+          10.28
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_424",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          3.5,
+          3.7,
+          10.28
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_425",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.14,
+            1.75,
+            2.14
+          ]
+        },
+        "position": [
+          3.73,
+          2.05,
+          7
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_426",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            1.45,
+            1.84
+          ]
+        },
+        "position": [
+          3.82,
+          2.05,
+          7
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_427",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            1.53,
+            0.075
+          ]
+        },
+        "position": [
+          3.88,
+          2.05,
+          7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_428",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.075,
+            1.95
+          ]
+        },
+        "position": [
+          3.88,
+          2.1,
+          7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_429",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.16,
+            2.4
+          ]
+        },
+        "position": [
+          3.5,
+          1.15,
+          7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_430",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          3.75,
+          2.05,
+          5.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_431",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          3.75,
+          2.05,
+          8.25
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_432",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.42,
+            0.7
+          ]
+        },
+        "position": [
+          3.68,
+          0.65,
+          4.4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Wall_433",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          -3.5,
+          2.1,
+          4.775
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_434",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            4.2,
+            2.55
+          ]
+        },
+        "position": [
+          -3.5,
+          2.1,
+          9.225
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_435",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.25,
+            1.9000000000000004
+          ]
+        },
+        "position": [
+          -3.5,
+          0.625,
+          7
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Wall_436",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.4000000000000004,
+            1.9000000000000004
+          ]
+        },
+        "position": [
+          -3.5,
+          3.5,
+          7
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Cornice_437",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.52,
+            0.25,
+            7
+          ]
+        },
+        "position": [
+          -3.5,
+          4.1,
+          7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_438",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          -3.5,
+          2.025,
+          3.72
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_439",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          -3.5,
+          3.7,
+          3.72
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Pilaster_440",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            4.05,
+            0.3
+          ]
+        },
+        "position": [
+          -3.5,
+          2.025,
+          10.28
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Capital_441",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.22,
+            0.54
+          ]
+        },
+        "position": [
+          -3.5,
+          3.7,
+          10.28
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowFrame_442",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.14,
+            1.75,
+            2.14
+          ]
+        },
+        "position": [
+          -3.73,
+          2.05,
+          7
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Glass_443",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            1.45,
+            1.84
+          ]
+        },
+        "position": [
+          -3.82,
+          2.05,
+          7
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "Mullion_444",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            1.53,
+            0.075
+          ]
+        },
+        "position": [
+          -3.88,
+          2.05,
+          7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "WindowRail_445",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.075,
+            1.95
+          ]
+        },
+        "position": [
+          -3.88,
+          2.1,
+          7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Sill_446",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.16,
+            2.4
+          ]
+        },
+        "position": [
+          -3.5,
+          1.15,
+          7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Shutter_447",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          -3.75,
+          2.05,
+          5.75
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Shutter_448",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            1.65,
+            0.3
+          ]
+        },
+        "position": [
+          -3.75,
+          2.05,
+          8.25
+        ],
+        "material": "roof"
+      },
+      {
+        "id": "Repair_449",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.42,
+            0.7
+          ]
+        },
+        "position": [
+          -3.68,
+          0.65,
+          4.4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "PitchedRoof_450",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.2,
+            7.4
+          ]
+        },
+        "position": [
+          -1.85,
+          4.795706005997577,
+          7
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          15
+        ]
+      },
+      {
+        "id": "TileCourse_451",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.3
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "TileCourse_452",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.65
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "TileCourse_453",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "TileCourse_454",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.35
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "TileCourse_455",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.7000000000000001
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "TileCourse_456",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.050000000000000044
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "TileCourse_457",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          0.6
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "TileCourse_458",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "TileCourse_459",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.9
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "TileCourse_460",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.55
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "TileCourse_461",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.1999999999999997
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_450"
+      },
+      {
+        "id": "PitchedRoof_462",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.2,
+            7.4
+          ]
+        },
+        "position": [
+          1.85,
+          4.795706005997577,
+          7
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          -15
+        ]
+      },
+      {
+        "id": "TileCourse_463",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.3
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "TileCourse_464",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.65
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "TileCourse_465",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "TileCourse_466",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.35
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "TileCourse_467",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.7000000000000001
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "TileCourse_468",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -0.050000000000000044
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "TileCourse_469",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          0.6
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "TileCourse_470",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "TileCourse_471",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.9
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "TileCourse_472",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.55
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "TileCourse_473",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.8305218675173074,
+            0.035,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.1999999999999997
+        ],
+        "material": "dark",
+        "parent": "PitchedRoof_462"
+      },
+      {
+        "id": "Ridge_474",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.18,
+            7.5
+          ]
+        },
+        "position": [
+          0,
+          5.391412011995153,
+          7
+        ],
+        "material": "gold"
+      },
+      {
+        "id": "Gable_475",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          -3.25,
+          4.310288568297003,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_476",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          -2.75,
+          4.3772758664047835,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_477",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          -2.25,
+          4.444263164512564,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_478",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          -1.75,
+          4.511250462620345,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_479",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          -1.25,
+          4.5782377607281255,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_480",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          -0.75,
+          4.645225058835906,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_481",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          -0.25,
+          4.712212356943687,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_482",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          0.25,
+          4.712212356943687,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_483",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          0.75,
+          4.645225058835906,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_484",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          1.25,
+          4.5782377607281255,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_485",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          1.75,
+          4.511250462620345,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_486",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          2.25,
+          4.444263164512564,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_487",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          2.75,
+          4.3772758664047835,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_488",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          3.25,
+          4.310288568297003,
+          3.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_489",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          -3.25,
+          4.310288568297003,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_490",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          -2.75,
+          4.3772758664047835,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_491",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          -2.25,
+          4.444263164512564,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_492",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          -1.75,
+          4.511250462620345,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_493",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          -1.25,
+          4.5782377607281255,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_494",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          -0.75,
+          4.645225058835906,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_495",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          -0.25,
+          4.712212356943687,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_496",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            1.0244247138873734,
+            0.3
+          ]
+        },
+        "position": [
+          0.25,
+          4.712212356943687,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_497",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.8904501176718119,
+            0.3
+          ]
+        },
+        "position": [
+          0.75,
+          4.645225058835906,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_498",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.7564755214562506,
+            0.3
+          ]
+        },
+        "position": [
+          1.25,
+          4.5782377607281255,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_499",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.6225009252406892,
+            0.3
+          ]
+        },
+        "position": [
+          1.75,
+          4.511250462620345,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_500",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.48852632902512794,
+            0.3
+          ]
+        },
+        "position": [
+          2.25,
+          4.444263164512564,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_501",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.35455173280956664,
+            0.3
+          ]
+        },
+        "position": [
+          2.75,
+          4.3772758664047835,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Gable_502",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22057713659400527,
+            0.3
+          ]
+        },
+        "position": [
+          3.25,
+          4.310288568297003,
+          10.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "BedFrame_503",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            0.45,
+            1.3
+          ]
+        },
+        "position": [
+          2.1,
+          0.225,
+          4.7
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "Mattress_504",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.25,
+            0.18,
+            1.2
+          ]
+        },
+        "position": [
+          2.1,
+          0.53,
+          4.7
+        ],
+        "material": "cloth"
+      },
+      {
+        "id": "Pillow_505",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.13,
+            1
+          ]
+        },
+        "position": [
+          1.35,
+          0.68,
+          4.7
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Headboard_506",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            1,
+            1.35
+          ]
+        },
+        "position": [
+          0.9200000000000002,
+          0.6,
+          4.7
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "TableBase_507",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9,
+            0.85,
+            0.9
+          ]
+        },
+        "position": [
+          -2,
+          0.425,
+          4.6
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "TableTop_508",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.15,
+            0.12,
+            1.05
+          ]
+        },
+        "position": [
+          -2,
+          0.91,
+          4.6
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "PorchCanopy_509",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.5,
+            0.22,
+            1.4
+          ]
+        },
+        "position": [
+          0,
+          3.4,
+          11.15
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "PorchColumn_510",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            3.3,
+            0.3
+          ]
+        },
+        "position": [
+          -1.9,
+          1.65,
+          11.6
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "PorchColumn_511",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            3.3,
+            0.3
+          ]
+        },
+        "position": [
+          1.9,
+          1.65,
+          11.6
+        ],
+        "material": "stone"
+      }
+    ],
+    "sockets": []
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "绷带",
+    "id": "ui_item_bandage",
+    "file": "ui_item_bandage.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-04834b55-2916-42c7-847f-b6c57298e071.png"
+  },
+  {
+    "name": "肾上腺素",
+    "id": "ui_item_adrenaline",
+    "file": "ui_item_adrenaline.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-6996cf4e-969a-4ca4-bab9-a83e7e033420.png"
+  },
+  {
+    "name": "病毒血清",
+    "id": "ui_item_virus_serum",
+    "file": "ui_item_virus_serum.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-32e4bf66-8b3e-4250-b1c4-94bcb3728440.png"
+  },
+  {
+    "name": "急救血瓶",
+    "id": "ui_item_blood_bottle",
+    "file": "ui_item_blood_bottle.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-30a6bc4c-b0d0-4f7e-8273-6e52d1b19f1e.png"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "schema": "environment.v1",
+  "id": "ENV_Terrain",
+  "label": "荒漠缓坡与建造平台",
+  "type": "terrain",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "B2": {
+      "radius": 1.34,
+      "height": 3.2,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -24,
+      -24
+    ],
+    "max": [
+      24,
+      24
+    ]
+  },
+  "colliders": [],
+  "walkables": [],
+  "entrances": [],
+  "routes": [
+    {
+      "id": "Across",
+      "points": [
+        [
+          -20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          20,
+          0,
+          0
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1",
+        "B2"
+      ]
+    }
+  ],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "terrain": {
+    "size": [
+      48,
+      48
+    ],
+    "cell": 1,
+    "seed": 731,
+    "amplitude": 1.1,
+    "wavelength": 12,
+    "maxSlopeDegrees": 15,
+    "platforms": [
+      {
+        "center": [
+          0,
+          0
+        ],
+        "size": [
+          20,
+          24
+        ],
+        "height": 0,
+        "blend": 8
+      }
+    ]
+  }
+}

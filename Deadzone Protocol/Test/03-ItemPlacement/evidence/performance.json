@@ -1,0 +1,1292 @@
+{
+  "env": {
+    "platform": "win32",
+    "release": "10.0.26200",
+    "cpu": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "logicalCpus": 32,
+    "memoryGiB": 31.70067596435547,
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/154.0.8037.93",
+      "revision": "@f89f3a4363808e117c592adedcf9947882ac3b79",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "jsVersion": "15.4.80.19"
+    }
+  },
+  "runs": [
+    {
+      "name": "02-Navigation",
+      "seconds": 30.027,
+      "samples": 4375,
+      "meanMs": 6.8629485714285945,
+      "p95Ms": 16.5,
+      "maxMs": 66.70000000000073,
+      "items": 0,
+      "placementMs": 0,
+      "viewport": {
+        "width": 1578,
+        "height": 942,
+        "dpr": 1,
+        "canvasWidth": 1282,
+        "canvasHeight": 868
+      },
+      "physics": {
+        "time": 32.13333333333279,
+        "actors": 31,
+        "colliders": 226,
+        "bodies": 31,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 3.016666666666661,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              0,
+              1.5057478904724122,
+              0
+            ],
+            "mode": "idle",
+            "arrived": false,
+            "distance": 0,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008404350280761808
+          },
+          {
+            "id": 0,
+            "kind": "A1",
+            "p": [
+              6.219966888427734,
+              1.8954757690429687,
+              2.097342014312744
+            ],
+            "mode": "holding",
+            "arrived": false,
+            "distance": 66.29943008020247,
+            "stuck": 0,
+            "maxStuck": 3.016666666666661,
+            "reason": "",
+            "supportError": 0.007995975577978154
+          },
+          {
+            "id": 1,
+            "kind": "A1",
+            "p": [
+              5.259462356567383,
+              1.8223346710205077,
+              0.8187991380691528
+            ],
+            "mode": "holding",
+            "arrived": false,
+            "distance": 64.7490759127869,
+            "stuck": 0,
+            "maxStuck": 3.016666666666661,
+            "reason": "",
+            "supportError": 0.009171266955229296
+          },
+          {
+            "id": 2,
+            "kind": "A1",
+            "p": [
+              4.810935974121094,
+              1.7518829345703124,
+              -0.7155595421791077
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 54.94943328879369,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009181520250409303
+          },
+          {
+            "id": 3,
+            "kind": "A1",
+            "p": [
+              3.057781934738159,
+              1.6801122665405273,
+              1.1112096309661865
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 36.799074979347054,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009756841616814338
+          },
+          {
+            "id": 4,
+            "kind": "A1",
+            "p": [
+              1.6050994396209717,
+              1.5582112312316894,
+              -2.771907091140747
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 52.8493404947282,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.0089778488475587
+          },
+          {
+            "id": 5,
+            "kind": "A1",
+            "p": [
+              -0.5711361169815063,
+              1.4628232955932616,
+              -1.4125102758407593
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 24.399738393422837,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009063819165768816
+          },
+          {
+            "id": 6,
+            "kind": "A1",
+            "p": [
+              -0.06391167640686035,
+              1.5345934867858886,
+              3.203616142272949
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 45.89046044234893,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009119538358157708
+          },
+          {
+            "id": 7,
+            "kind": "A1",
+            "p": [
+              -4.870919227600098,
+              1.3114515781402587,
+              4.310466766357422
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 75.84042523810255,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008844173055444937
+          },
+          {
+            "id": 8,
+            "kind": "A1",
+            "p": [
+              -1.1467684507369995,
+              1.4578656196594237,
+              1.0565170049667358
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 27.137561208430963,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009009278332138049
+          },
+          {
+            "id": 9,
+            "kind": "A1",
+            "p": [
+              -4.453142166137695,
+              1.3175939559936523,
+              1.960901141166687
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 59.79169708428591,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008715446264838445
+          },
+          {
+            "id": 10,
+            "kind": "A1",
+            "p": [
+              -3.0339109897613525,
+              1.3532289505004882,
+              -1.0501331090927124
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 33.79249721189591,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008524159298354927
+          },
+          {
+            "id": 11,
+            "kind": "A1",
+            "p": [
+              3.1281657218933105,
+              1.603491449356079,
+              -5.730334281921387
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 67.1388555857796,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009077101844206847
+          },
+          {
+            "id": 12,
+            "kind": "A1",
+            "p": [
+              -4.792222023010254,
+              1.2900091648101806,
+              -0.5696945786476135
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 64.55028690691832,
+            "stuck": 0,
+            "maxStuck": 0.7000000000000005,
+            "reason": "",
+            "supportError": 0.00862509045097104
+          },
+          {
+            "id": 13,
+            "kind": "A1",
+            "p": [
+              -0.9954020977020264,
+              1.4059306621551513,
+              -4.7969889640808105
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 55.71768975123373,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.00902941022277437
+          },
+          {
+            "id": 14,
+            "kind": "A1",
+            "p": [
+              -4.085397720336914,
+              1.3724674224853515,
+              -5.123978614807129
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 63.66712108457706,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008026825042884322
+          },
+          {
+            "id": 15,
+            "kind": "A1",
+            "p": [
+              -0.3649400472640991,
+              1.5488943099975585,
+              6.526111602783203
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 58.28803651500625,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009157432750336536
+          },
+          {
+            "id": 16,
+            "kind": "A1",
+            "p": [
+              1.3921564817428589,
+              1.5269121170043944,
+              -4.693525314331055
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 59.48302888012102,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009001209862697035
+          },
+          {
+            "id": 17,
+            "kind": "A1",
+            "p": [
+              5.007462501525879,
+              1.8281606674194335,
+              4.125670433044434
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 54.29943597979118,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009789912136875412
+          },
+          {
+            "id": 18,
+            "kind": "A1",
+            "p": [
+              1.028572678565979,
+              1.6032582759857177,
+              4.75653600692749
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 66.99926750178773,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008890684983506869
+          },
+          {
+            "id": 19,
+            "kind": "A1",
+            "p": [
+              2.812788486480713,
+              1.6863707542419433,
+              4.00979471206665
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 50.89943335783337,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009150450491881568
+          },
+          {
+            "id": 20,
+            "kind": "A1",
+            "p": [
+              -1.4092464447021484,
+              1.4772125720977782,
+              4.668423175811768
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 66.07965258086945,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009124266095704936
+          },
+          {
+            "id": 21,
+            "kind": "A1",
+            "p": [
+              -6.37163782119751,
+              1.237263822555542,
+              0.9268973469734192
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 84.8469665742226,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008907875873356286
+          },
+          {
+            "id": 22,
+            "kind": "A1",
+            "p": [
+              -3.525702476501465,
+              1.34425630569458,
+              -3.3800530433654785
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 50.06433879304646,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008195853700635691
+          },
+          {
+            "id": 23,
+            "kind": "A1",
+            "p": [
+              -3.042097330093384,
+              1.3891209602355956,
+              3.744436502456665
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 59.03834914294788,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008716736148522752
+          },
+          {
+            "id": 24,
+            "kind": "A1",
+            "p": [
+              1.322188138961792,
+              1.5641721725463866,
+              -0.9029097557067871
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 17.699791672100798,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009078402695018806
+          },
+          {
+            "id": 25,
+            "kind": "A1",
+            "p": [
+              0.5754873156547546,
+              1.4704710483551025,
+              -6.462869644165039
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 70.98981209355341,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.00869838284297364
+          },
+          {
+            "id": 26,
+            "kind": "A1",
+            "p": [
+              0.8971102237701416,
+              1.5634345054626464,
+              1.2084250450134277
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 26.56229420633897,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009027160938950285
+          },
+          {
+            "id": 27,
+            "kind": "A1",
+            "p": [
+              6.015591621398926,
+              1.7700501918792724,
+              -2.525386095046997
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 67.72890351329252,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008700897132223329
+          },
+          {
+            "id": 28,
+            "kind": "A1",
+            "p": [
+              -7.97763729095459,
+              1.213547134399414,
+              0.7596521377563477
+            ],
+            "mode": "moving",
+            "arrived": false,
+            "distance": 84.39872770226185,
+            "stuck": 0,
+            "maxStuck": 2.716666666666662,
+            "reason": "",
+            "supportError": 0.008563856605769526
+          },
+          {
+            "id": 29,
+            "kind": "B2",
+            "p": [
+              3.3859190940856934,
+              1.7416700363159179,
+              7.4587836265563965
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 65.26583654210896,
+            "stuck": 0,
+            "maxStuck": 0.6833333333333338,
+            "reason": "",
+            "supportError": 0.010055025237727389
+          }
+        ],
+        "logs": [
+          {
+            "time": 23.966666666666587,
+            "id": 1,
+            "reason": "拥堵等待",
+            "position": [
+              5.259462356567383,
+              1.8223346710205077,
+              0.8187991380691528
+            ]
+          },
+          {
+            "time": 24.566666666666553,
+            "id": 0,
+            "reason": "拥堵等待",
+            "position": [
+              6.219966888427734,
+              1.8954757690429687,
+              2.097342014312744
+            ]
+          },
+          {
+            "time": 24.96666666666653,
+            "id": 1,
+            "reason": "停靠点被占据；在可见玩家的合法位置等待，玩家移动后重规划",
+            "position": [
+              5.259462356567383,
+              1.8223346710205077,
+              0.8187991380691528
+            ]
+          },
+          {
+            "time": 25.566666666666496,
+            "id": 0,
+            "reason": "停靠点被占据；在可见玩家的合法位置等待，玩家移动后重规划",
+            "position": [
+              6.219966888427734,
+              1.8954757690429687,
+              2.097342014312744
+            ]
+          },
+          {
+            "time": 28.54999999999966,
+            "id": 28,
+            "reason": "拥堵等待",
+            "position": [
+              -2.8753652572631836,
+              1.4084719657897948,
+              5.331220626831055
+            ]
+          }
+        ]
+      },
+      "renderer": {
+        "memory": {
+          "geometries": 117,
+          "textures": 0
+        },
+        "render": {
+          "frame": 4579,
+          "calls": 705,
+          "triangles": 65516,
+          "points": 0,
+          "lines": 753
+        },
+        "programs": [
+          {
+            "getUniforms": {},
+            "getAttributes": {},
+            "isReady": {},
+            "destroy": {},
+            "type": "MeshStandardMaterial",
+            "name": "",
+            "id": 0,
+            "cacheKey": "physical,STANDARD,,highp,srgb,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,,false,0,,1,0,0,0,1,0,0,0,0,0,0,1,4,0,0,0,1,131075,srgb,onBeforeCompile(){}",
+            "usedTimes": 57,
+            "program": {},
+            "vertexShader": {},
+            "fragmentShader": {}
+          },
+          {
+            "getUniforms": {},
+            "getAttributes": {},
+            "isReady": {},
+            "destroy": {},
+            "type": "MeshStandardMaterial",
+            "name": "",
+            "id": 3,
+            "cacheKey": "physical,STANDARD,,highp,srgb,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,,false,0,,1,0,0,0,1,0,0,0,0,0,0,1,4,0,0,0,2049,131075,srgb,onBeforeCompile(){}",
+            "usedTimes": 1,
+            "program": {},
+            "vertexShader": {},
+            "fragmentShader": {}
+          },
+          {
+            "getUniforms": {},
+            "getAttributes": {},
+            "isReady": {},
+            "destroy": {},
+            "type": "LineBasicMaterial",
+            "name": "",
+            "id": 4,
+            "cacheKey": "basic,highp,srgb,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,,false,0,,1,0,0,0,1,0,0,0,0,0,0,1,4,0,0,0,1,131075,srgb,onBeforeCompile(){}",
+            "usedTimes": 59,
+            "program": {},
+            "vertexShader": {},
+            "fragmentShader": {}
+          }
+        ],
+        "autoReset": true,
+        "reset": {},
+        "update": {}
+      }
+    },
+    {
+      "name": "03-ItemPlacement",
+      "seconds": 30.023,
+      "samples": 5726,
+      "meanMs": 5.24221096751667,
+      "p95Ms": 8.400000000001455,
+      "maxMs": 50,
+      "items": 99,
+      "placementMs": 622.0999999046326,
+      "viewport": {
+        "width": 1578,
+        "height": 942,
+        "dpr": 1,
+        "canvasWidth": 1282,
+        "canvasHeight": 868
+      },
+      "physics": {
+        "time": 32.13333333333279,
+        "actors": 31,
+        "colliders": 226,
+        "bodies": 31,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 3.016666666666661,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              0,
+              1.5057478904724122,
+              0
+            ],
+            "mode": "idle",
+            "arrived": false,
+            "distance": 0,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008404350280761808
+          },
+          {
+            "id": 0,
+            "kind": "A1",
+            "p": [
+              6.219966888427734,
+              1.8954757690429687,
+              2.097342014312744
+            ],
+            "mode": "holding",
+            "arrived": false,
+            "distance": 66.29943008020247,
+            "stuck": 0,
+            "maxStuck": 3.016666666666661,
+            "reason": "",
+            "supportError": 0.007995975577978154
+          },
+          {
+            "id": 1,
+            "kind": "A1",
+            "p": [
+              5.259462356567383,
+              1.8223346710205077,
+              0.8187991380691528
+            ],
+            "mode": "holding",
+            "arrived": false,
+            "distance": 64.7490759127869,
+            "stuck": 0,
+            "maxStuck": 3.016666666666661,
+            "reason": "",
+            "supportError": 0.009171266955229296
+          },
+          {
+            "id": 2,
+            "kind": "A1",
+            "p": [
+              4.810935974121094,
+              1.7518829345703124,
+              -0.7155595421791077
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 54.94943328879369,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009181520250409303
+          },
+          {
+            "id": 3,
+            "kind": "A1",
+            "p": [
+              3.057781934738159,
+              1.6801122665405273,
+              1.1112096309661865
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 36.799074979347054,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009756841616814338
+          },
+          {
+            "id": 4,
+            "kind": "A1",
+            "p": [
+              1.6050994396209717,
+              1.5582112312316894,
+              -2.771907091140747
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 52.8493404947282,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.0089778488475587
+          },
+          {
+            "id": 5,
+            "kind": "A1",
+            "p": [
+              -0.5711361169815063,
+              1.4628232955932616,
+              -1.4125102758407593
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 24.399738393422837,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009063819165768816
+          },
+          {
+            "id": 6,
+            "kind": "A1",
+            "p": [
+              -0.06391167640686035,
+              1.5345934867858886,
+              3.203616142272949
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 45.89046044234893,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009119538358157708
+          },
+          {
+            "id": 7,
+            "kind": "A1",
+            "p": [
+              -4.870919227600098,
+              1.3114515781402587,
+              4.310466766357422
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 75.84042523810255,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008844173055444937
+          },
+          {
+            "id": 8,
+            "kind": "A1",
+            "p": [
+              -1.1467684507369995,
+              1.4578656196594237,
+              1.0565170049667358
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 27.137561208430963,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009009278332138049
+          },
+          {
+            "id": 9,
+            "kind": "A1",
+            "p": [
+              -4.453142166137695,
+              1.3175939559936523,
+              1.960901141166687
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 59.79169708428591,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008715446264838445
+          },
+          {
+            "id": 10,
+            "kind": "A1",
+            "p": [
+              -3.0339109897613525,
+              1.3532289505004882,
+              -1.0501331090927124
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 33.79249721189591,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008524159298354927
+          },
+          {
+            "id": 11,
+            "kind": "A1",
+            "p": [
+              3.1281657218933105,
+              1.603491449356079,
+              -5.730334281921387
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 67.1388555857796,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009077101844206847
+          },
+          {
+            "id": 12,
+            "kind": "A1",
+            "p": [
+              -4.792222023010254,
+              1.2900091648101806,
+              -0.5696945786476135
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 64.55028690691832,
+            "stuck": 0,
+            "maxStuck": 0.7000000000000005,
+            "reason": "",
+            "supportError": 0.00862509045097104
+          },
+          {
+            "id": 13,
+            "kind": "A1",
+            "p": [
+              -0.9954020977020264,
+              1.4059306621551513,
+              -4.7969889640808105
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 55.71768975123373,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.00902941022277437
+          },
+          {
+            "id": 14,
+            "kind": "A1",
+            "p": [
+              -4.085397720336914,
+              1.3724674224853515,
+              -5.123978614807129
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 63.66712108457706,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008026825042884322
+          },
+          {
+            "id": 15,
+            "kind": "A1",
+            "p": [
+              -0.3649400472640991,
+              1.5488943099975585,
+              6.526111602783203
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 58.28803651500625,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009157432750336536
+          },
+          {
+            "id": 16,
+            "kind": "A1",
+            "p": [
+              1.3921564817428589,
+              1.5269121170043944,
+              -4.693525314331055
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 59.48302888012102,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009001209862697035
+          },
+          {
+            "id": 17,
+            "kind": "A1",
+            "p": [
+              5.007462501525879,
+              1.8281606674194335,
+              4.125670433044434
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 54.29943597979118,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009789912136875412
+          },
+          {
+            "id": 18,
+            "kind": "A1",
+            "p": [
+              1.028572678565979,
+              1.6032582759857177,
+              4.75653600692749
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 66.99926750178773,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008890684983506869
+          },
+          {
+            "id": 19,
+            "kind": "A1",
+            "p": [
+              2.812788486480713,
+              1.6863707542419433,
+              4.00979471206665
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 50.89943335783337,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009150450491881568
+          },
+          {
+            "id": 20,
+            "kind": "A1",
+            "p": [
+              -1.4092464447021484,
+              1.4772125720977782,
+              4.668423175811768
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 66.07965258086945,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009124266095704936
+          },
+          {
+            "id": 21,
+            "kind": "A1",
+            "p": [
+              -6.37163782119751,
+              1.237263822555542,
+              0.9268973469734192
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 84.8469665742226,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008907875873356286
+          },
+          {
+            "id": 22,
+            "kind": "A1",
+            "p": [
+              -3.525702476501465,
+              1.34425630569458,
+              -3.3800530433654785
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 50.06433879304646,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008195853700635691
+          },
+          {
+            "id": 23,
+            "kind": "A1",
+            "p": [
+              -3.042097330093384,
+              1.3891209602355956,
+              3.744436502456665
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 59.03834914294788,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008716736148522752
+          },
+          {
+            "id": 24,
+            "kind": "A1",
+            "p": [
+              1.322188138961792,
+              1.5641721725463866,
+              -0.9029097557067871
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 17.699791672100798,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009078402695018806
+          },
+          {
+            "id": 25,
+            "kind": "A1",
+            "p": [
+              0.5754873156547546,
+              1.4704710483551025,
+              -6.462869644165039
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 70.98981209355341,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.00869838284297364
+          },
+          {
+            "id": 26,
+            "kind": "A1",
+            "p": [
+              0.8971102237701416,
+              1.5634345054626464,
+              1.2084250450134277
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 26.56229420633897,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.009027160938950285
+          },
+          {
+            "id": 27,
+            "kind": "A1",
+            "p": [
+              6.015591621398926,
+              1.7700501918792724,
+              -2.525386095046997
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 67.72890351329252,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008700897132223329
+          },
+          {
+            "id": 28,
+            "kind": "A1",
+            "p": [
+              -7.97763729095459,
+              1.213547134399414,
+              0.7596521377563477
+            ],
+            "mode": "moving",
+            "arrived": false,
+            "distance": 84.39872770226185,
+            "stuck": 0,
+            "maxStuck": 2.716666666666662,
+            "reason": "",
+            "supportError": 0.008563856605769526
+          },
+          {
+            "id": 29,
+            "kind": "B2",
+            "p": [
+              3.3859190940856934,
+              1.7416700363159179,
+              7.4587836265563965
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 65.26583654210896,
+            "stuck": 0,
+            "maxStuck": 0.6833333333333338,
+            "reason": "",
+            "supportError": 0.010055025237727389
+          }
+        ],
+        "logs": [
+          {
+            "time": 23.966666666666587,
+            "id": 1,
+            "reason": "拥堵等待",
+            "position": [
+              5.259462356567383,
+              1.8223346710205077,
+              0.8187991380691528
+            ]
+          },
+          {
+            "time": 24.566666666666553,
+            "id": 0,
+            "reason": "拥堵等待",
+            "position": [
+              6.219966888427734,
+              1.8954757690429687,
+              2.097342014312744
+            ]
+          },
+          {
+            "time": 24.96666666666653,
+            "id": 1,
+            "reason": "停靠点被占据；在可见玩家的合法位置等待，玩家移动后重规划",
+            "position": [
+              5.259462356567383,
+              1.8223346710205077,
+              0.8187991380691528
+            ]
+          },
+          {
+            "time": 25.566666666666496,
+            "id": 0,
+            "reason": "停靠点被占据；在可见玩家的合法位置等待，玩家移动后重规划",
+            "position": [
+              6.219966888427734,
+              1.8954757690429687,
+              2.097342014312744
+            ]
+          },
+          {
+            "time": 28.54999999999966,
+            "id": 28,
+            "reason": "拥堵等待",
+            "position": [
+              -2.8753652572631836,
+              1.4084719657897948,
+              5.331220626831055
+            ]
+          }
+        ]
+      },
+      "renderer": {
+        "memory": {
+          "geometries": 118,
+          "textures": 0
+        },
+        "render": {
+          "frame": 6023,
+          "calls": 804,
+          "triangles": 66704,
+          "points": 0,
+          "lines": 754
+        },
+        "programs": [
+          {
+            "getUniforms": {},
+            "getAttributes": {},
+            "isReady": {},
+            "destroy": {},
+            "type": "MeshStandardMaterial",
+            "name": "",
+            "id": 0,
+            "cacheKey": "physical,STANDARD,,highp,srgb,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,,false,0,,1,0,0,0,1,0,0,0,0,0,0,1,4,0,0,0,1,131075,srgb,onBeforeCompile(){}",
+            "usedTimes": 65,
+            "program": {},
+            "vertexShader": {},
+            "fragmentShader": {}
+          },
+          {
+            "getUniforms": {},
+            "getAttributes": {},
+            "isReady": {},
+            "destroy": {},
+            "type": "MeshStandardMaterial",
+            "name": "",
+            "id": 3,
+            "cacheKey": "physical,STANDARD,,highp,srgb,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,,false,0,,1,0,0,0,1,0,0,0,0,0,0,1,4,0,0,0,2049,131075,srgb,onBeforeCompile(){}",
+            "usedTimes": 1,
+            "program": {},
+            "vertexShader": {},
+            "fragmentShader": {}
+          },
+          {
+            "getUniforms": {},
+            "getAttributes": {},
+            "isReady": {},
+            "destroy": {},
+            "type": "LineBasicMaterial",
+            "name": "",
+            "id": 4,
+            "cacheKey": "basic,highp,srgb,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,,false,0,,1,0,0,0,1,0,0,0,0,0,0,1,4,0,0,0,1,131075,srgb,onBeforeCompile(){}",
+            "usedTimes": 59,
+            "program": {},
+            "vertexShader": {},
+            "fragmentShader": {}
+          }
+        ],
+        "autoReset": true,
+        "reset": {},
+        "update": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "rig": "fps-arms.v1",
+  "id": "FSA_ANIM_FPS_Consumable_Use",
+  "path": "animations/fps/consumable/shared/FSA_ANIM_FPS_Consumable_Use.anim.glb",
+  "duration": 2,
+  "loop": false,
+  "equipmentSocket": "Weapon_R",
+  "events": [
+    {
+      "time": 1,
+      "name": "consumable_commit",
+      "note": "Once per use; cancel before commit consumes nothing; after commit effects are not rolled back."
+    }
+  ],
+  "stowedAngles": [
+    55,
+    20,
+    55,
+    20
+  ],
+  "leftOffset": [
+    -0.065,
+    0,
+    0
+  ]
+}

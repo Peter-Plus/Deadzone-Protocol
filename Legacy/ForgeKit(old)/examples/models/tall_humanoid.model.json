@@ -1,0 +1,13 @@
+{
+  "schema": "model.v1",
+  "id": "humanoid.tall",
+  "type": "humanoid",
+  "rig": "humanoid.v1",
+  "body": {
+    "height": 2.2,
+    "armLengthScale": 1.15,
+    "legLengthScale": 1.1,
+    "headScale": 1.2
+  },
+  "material": "body.sage"
+}

@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "floating",
+      "passed": true,
+      "errors": [
+        "item-001 unsupported 999"
+      ]
+    },
+    {
+      "name": "buried",
+      "passed": true,
+      "errors": [
+        "item-001 actual volume intersects world 5e-324",
+        "item-001 unsupported 0.12",
+        "item-001 access line occluded"
+      ]
+    },
+    {
+      "name": "overlap",
+      "passed": true,
+      "errors": [
+        "item-002 access too far",
+        "item-001 spacing item-002",
+        "item-001 volume overlap item-002"
+      ]
+    },
+    {
+      "name": "unreachable-access",
+      "passed": true,
+      "errors": [
+        "item-001 no spawn-connected access",
+        "item-001 access too far",
+        "item-001 access capsule intersects geometry",
+        "item-001 access line occluded"
+      ]
+    },
+    {
+      "name": "wrong-color",
+      "passed": true,
+      "errors": [
+        "item-001 instance override"
+      ]
+    },
+    {
+      "name": "synthetic closed entrances",
+      "passed": true,
+      "instanceId": "A-1",
+      "stats": [
+        {
+          "key": "A-1/through-storage",
+          "ruleId": "sealed",
+          "requested": 2,
+          "success": 0,
+          "failed": 2,
+          "attempts": 4,
+          "rejections": {
+            "无可连通接近点": 4
+          }
+        }
+      ]
+    }
+  ]
+}

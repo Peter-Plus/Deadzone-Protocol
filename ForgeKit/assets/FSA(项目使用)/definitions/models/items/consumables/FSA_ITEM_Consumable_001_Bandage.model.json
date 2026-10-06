@@ -1,0 +1,838 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_Consumable_001_Bandage",
+  "type": "static",
+  "materials": {
+    "white": {
+      "color": "#D9DACD",
+      "roughness": 0.92
+    },
+    "dark": {
+      "color": "#293638",
+      "roughness": 0.78
+    },
+    "metal": {
+      "color": "#929D9E",
+      "metalness": 0.7,
+      "roughness": 0.4
+    },
+    "red": {
+      "color": "#A8463D",
+      "roughness": 0.65
+    },
+    "orange": {
+      "color": "#D2A13D",
+      "roughness": 0.68
+    },
+    "blue": {
+      "color": "#397B98",
+      "roughness": 0.65
+    },
+    "green": {
+      "color": "#568A70",
+      "roughness": 0.65
+    },
+    "purple": {
+      "color": "#70688B",
+      "roughness": 0.65
+    },
+    "label": {
+      "color": "#DFD5B8",
+      "roughness": 0.95
+    },
+    "hole": {
+      "color": "#101B20",
+      "roughness": 1
+    }
+  },
+  "parts": [
+    {
+      "id": "GauzeRoll_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.07702129345312296,
+        0.002940514209886818
+      ],
+      "material": "white",
+      "rotation": [
+        5.625,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.07587396172492332,
+        0.00870854031763387
+      ],
+      "material": "white",
+      "rotation": [
+        16.875,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.07362338958340771,
+        0.014141902104779929
+      ],
+      "material": "white",
+      "rotation": [
+        28.125,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.07035606525383917,
+        0.019031798524909365
+      ],
+      "material": "white",
+      "rotation": [
+        39.375,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.06619755017786642,
+        0.023190313600882105
+      ],
+      "material": "white",
+      "rotation": [
+        50.62499999999999,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.06130765375773699,
+        0.026457637930450646
+      ],
+      "material": "white",
+      "rotation": [
+        61.87499999999999,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.05587429197059092,
+        0.028708210071966268
+      ],
+      "material": "white",
+      "rotation": [
+        73.12500000000001,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_7",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.05010626586284388,
+        0.029855541800165905
+      ],
+      "material": "white",
+      "rotation": [
+        84.37499999999999,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_8",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.044225237443070234,
+        0.029855541800165905
+      ],
+      "material": "white",
+      "rotation": [
+        95.62500000000001,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_9",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.03845721133532319,
+        0.028708210071966268
+      ],
+      "material": "white",
+      "rotation": [
+        106.87499999999999,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_10",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.03302384954817712,
+        0.02645763793045065
+      ],
+      "material": "white",
+      "rotation": [
+        118.12500000000001,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_11",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.02813395312804769,
+        0.023190313600882112
+      ],
+      "material": "white",
+      "rotation": [
+        129.375,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_12",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.023975438052074943,
+        0.019031798524909365
+      ],
+      "material": "white",
+      "rotation": [
+        140.625,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_13",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.020708113722506406,
+        0.014141902104779936
+      ],
+      "material": "white",
+      "rotation": [
+        151.875,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_14",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.018457541580990788,
+        0.008708540317633871
+      ],
+      "material": "white",
+      "rotation": [
+        163.125,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_15",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.017310209852791147,
+        0.0029405142098868245
+      ],
+      "material": "white",
+      "rotation": [
+        174.375,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_16",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.017310209852791147,
+        -0.0029405142098868175
+      ],
+      "material": "white",
+      "rotation": [
+        185.62500000000003,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_17",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.018457541580990784,
+        -0.008708540317633863
+      ],
+      "material": "white",
+      "rotation": [
+        196.875,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_18",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.020708113722506402,
+        -0.014141902104779929
+      ],
+      "material": "white",
+      "rotation": [
+        208.125,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_19",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.02397543805207494,
+        -0.019031798524909358
+      ],
+      "material": "white",
+      "rotation": [
+        219.37499999999997,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_20",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.028133953128047673,
+        -0.023190313600882098
+      ],
+      "material": "white",
+      "rotation": [
+        230.62499999999997,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_21",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.03302384954817711,
+        -0.026457637930450646
+      ],
+      "material": "white",
+      "rotation": [
+        241.875,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_22",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.03845721133532318,
+        -0.028708210071966264
+      ],
+      "material": "white",
+      "rotation": [
+        253.12500000000003,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_23",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.044225237443070234,
+        -0.029855541800165905
+      ],
+      "material": "white",
+      "rotation": [
+        264.375,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_24",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.05010626586284385,
+        -0.029855541800165905
+      ],
+      "material": "white",
+      "rotation": [
+        275.62499999999994,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_25",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.05587429197059092,
+        -0.028708210071966268
+      ],
+      "material": "white",
+      "rotation": [
+        286.875,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_26",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.061307653757736974,
+        -0.02645763793045065
+      ],
+      "material": "white",
+      "rotation": [
+        298.125,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_27",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.06619755017786642,
+        -0.023190313600882105
+      ],
+      "material": "white",
+      "rotation": [
+        309.375,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_28",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.07035606525383915,
+        -0.01903179852490938
+      ],
+      "material": "white",
+      "rotation": [
+        320.625,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_29",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.0736233895834077,
+        -0.014141902104779938
+      ],
+      "material": "white",
+      "rotation": [
+        331.875,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_30",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.07587396172492332,
+        -0.008708540317633875
+      ],
+      "material": "white",
+      "rotation": [
+        343.12499999999994,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeRoll_31",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.07702129345312296,
+        -0.002940514209886815
+      ],
+      "material": "white",
+      "rotation": [
+        354.375,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GauzeTail",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.008,
+          0.055
+        ]
+      },
+      "position": [
+        0,
+        0.004165751652957052,
+        0.052
+      ],
+      "material": "white"
+    },
+    {
+      "id": "WrapBand",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.024,
+          0.055,
+          0.005
+        ]
+      },
+      "position": [
+        0,
+        0.052165751652957046,
+        0.047
+      ],
+      "material": "green"
+    },
+    {
+      "id": "MedicalVertical",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.00525,
+          0.021,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.051165751652957045,
+        0.051
+      ],
+      "material": "label"
+    },
+    {
+      "id": "MedicalHorizontal",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.021,
+          0.00525,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.051165751652957045,
+        0.0513
+      ],
+      "material": "label"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "Grip_R",
+      "parent": "GauzeTail",
+      "position": [
+        0,
+        0.044000000000000004,
+        -0.052
+      ],
+      "rotation": [
+        0,
+        0,
+        180
+      ]
+    }
+  ]
+}

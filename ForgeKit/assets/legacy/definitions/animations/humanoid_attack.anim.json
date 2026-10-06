@@ -1,0 +1,28 @@
+{
+  "schema": "animation.v1",
+  "id": "animation.humanoid.attack",
+  "rig": "humanoid.v1",
+  "duration": 0.8,
+  "loop": false,
+  "mode": "timeline",
+  "tracks": {
+    "Arm_R": [
+      {
+        "time": 0,
+        "pose": "pose.ready"
+      },
+      {
+        "time": 0.3,
+        "rotation": [
+          -70,
+          0,
+          90
+        ]
+      },
+      {
+        "time": 0.8,
+        "pose": "pose.ready"
+      }
+    ]
+  }
+}

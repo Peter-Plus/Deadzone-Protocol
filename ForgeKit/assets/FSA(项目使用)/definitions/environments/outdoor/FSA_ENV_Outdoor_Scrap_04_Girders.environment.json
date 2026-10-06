@@ -1,0 +1,555 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Scrap_04_Girders",
+  "label": "废料堆／断梁框架",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -2.2,
+      -1.73
+    ],
+    "max": [
+      1.96,
+      1.79
+    ]
+  },
+  "colliders": [
+    {
+      "node": "BeamWeb0",
+      "role": "solid"
+    },
+    {
+      "node": "BeamFoot0",
+      "role": "solid"
+    },
+    {
+      "node": "BeamCap0",
+      "role": "solid"
+    },
+    {
+      "node": "BeamWeb1",
+      "role": "solid"
+    },
+    {
+      "node": "BeamFoot1",
+      "role": "solid"
+    },
+    {
+      "node": "BeamCap1",
+      "role": "solid"
+    },
+    {
+      "node": "BeamWeb2",
+      "role": "solid"
+    },
+    {
+      "node": "BeamFoot2",
+      "role": "solid"
+    },
+    {
+      "node": "BeamCap2",
+      "role": "solid"
+    },
+    {
+      "node": "BeamWeb3",
+      "role": "solid"
+    },
+    {
+      "node": "BeamFoot3",
+      "role": "solid"
+    },
+    {
+      "node": "BeamCap3",
+      "role": "solid"
+    },
+    {
+      "node": "CrushedPanel",
+      "role": "solid"
+    },
+    {
+      "node": "Brace0",
+      "role": "solid"
+    },
+    {
+      "node": "Brace1",
+      "role": "solid"
+    },
+    {
+      "node": "Brace2",
+      "role": "solid"
+    },
+    {
+      "node": "Brace3",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Scrap_04_Girders",
+    "type": "static",
+    "parts": [
+      {
+        "id": "BeamWeb0",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          0.18,
+          -0.38
+        ],
+        "rotation": [
+          0,
+          -28,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamFoot0",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4,
+            0.08,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          0.06999999999999999,
+          -0.38
+        ],
+        "rotation": [
+          0,
+          -28,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamCap0",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4,
+            0.08,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          0.29,
+          -0.38
+        ],
+        "rotation": [
+          0,
+          -28,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamWeb1",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.17,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          0.46,
+          0.38
+        ],
+        "rotation": [
+          0,
+          -5,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamFoot1",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.17,
+            0.08,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          0.35000000000000003,
+          0.38
+        ],
+        "rotation": [
+          0,
+          -5,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamCap1",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.17,
+            0.08,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          0.5700000000000001,
+          0.38
+        ],
+        "rotation": [
+          0,
+          -5,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamWeb2",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.94,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          0.74,
+          -0.38
+        ],
+        "rotation": [
+          0,
+          18,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamFoot2",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.94,
+            0.08,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          0.63,
+          -0.38
+        ],
+        "rotation": [
+          0,
+          18,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamCap2",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.94,
+            0.08,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          0.85,
+          -0.38
+        ],
+        "rotation": [
+          0,
+          18,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamWeb3",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.71,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          1.02,
+          0.38
+        ],
+        "rotation": [
+          0,
+          41,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamFoot3",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.71,
+            0.08,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          0.91,
+          0.38
+        ],
+        "rotation": [
+          0,
+          41,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "BeamCap3",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.71,
+            0.08,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          1.1300000000000001,
+          0.38
+        ],
+        "rotation": [
+          0,
+          41,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CrushedPanel",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.2,
+            0.15,
+            1.25
+          ]
+        },
+        "position": [
+          -1.15,
+          0.075,
+          0.2
+        ],
+        "rotation": [
+          0,
+          -10,
+          0
+        ],
+        "material": {
+          "color": "#69715a",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Brace0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.14,
+            1.8
+          ]
+        },
+        "position": [
+          -0.65,
+          1.3,
+          0.1
+        ],
+        "rotation": [
+          0,
+          35,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Brace1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.14,
+            1.8
+          ]
+        },
+        "position": [
+          -0.25,
+          1.3,
+          0.1
+        ],
+        "rotation": [
+          0,
+          35,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Brace2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.14,
+            1.8
+          ]
+        },
+        "position": [
+          0.15000000000000002,
+          1.3,
+          0.1
+        ],
+        "rotation": [
+          0,
+          35,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Brace3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.14,
+            1.8
+          ]
+        },
+        "position": [
+          0.5500000000000002,
+          1.3,
+          0.1
+        ],
+        "rotation": [
+          0,
+          35,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      }
+    ]
+  }
+}

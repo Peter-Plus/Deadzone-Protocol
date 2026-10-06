@@ -1,0 +1,753 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Rock_03_Ridge",
+  "label": "石块／长条断脊",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3.44,
+      -1.52
+    ],
+    "max": [
+      3.24,
+      1.83
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Spine_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "Spine_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "Spine_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "Spine_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "Spine_Core_4",
+      "role": "solid"
+    },
+    {
+      "node": "WestShelf_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "WestShelf_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "WestShelf_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "WestShelf_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "WestShelf_Core_4",
+      "role": "solid"
+    },
+    {
+      "node": "EastBreak_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "EastBreak_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "EastBreak_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "EastBreak_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "EastBreak_Core_4",
+      "role": "solid"
+    },
+    {
+      "node": "Shard_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "Shard_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "Shard_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "Shard_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "Shard_Core_4",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Rock_03_Ridge",
+    "type": "static",
+    "parts": [
+      {
+        "id": "Spine",
+        "shape": {
+          "type": "rock",
+          "size": [
+            2.8,
+            2,
+            2.1
+          ],
+          "seed": 530
+        },
+        "position": [
+          -0.1,
+          1,
+          0
+        ],
+        "rotation": [
+          0,
+          -5,
+          0
+        ],
+        "material": {
+          "color": "#78796e",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Spine_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.158050537109375,
+            0.398,
+            0.8685379028320312
+          ]
+        },
+        "position": [
+          -0.32314761237255096,
+          0.19999999999999996,
+          -0.019522886375475428
+        ],
+        "rotation": [
+          0,
+          -5,
+          0
+        ],
+        "material": {
+          "color": "#78796e",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Spine_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5985839843749998,
+            0.398,
+            1.19893798828125
+          ]
+        },
+        "position": [
+          -0.1,
+          0.6000000000000001,
+          0
+        ],
+        "rotation": [
+          0,
+          -5,
+          0
+        ],
+        "material": {
+          "color": "#78796e",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Spine_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.48929443359375,
+            0.398,
+            1.1169708251953125
+          ]
+        },
+        "position": [
+          -0.1,
+          1,
+          0
+        ],
+        "rotation": [
+          0,
+          -5,
+          0
+        ],
+        "material": {
+          "color": "#78796e",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Spine_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8648272705078124,
+            0.398,
+            0.8977445714613971
+          ]
+        },
+        "position": [
+          -0.1,
+          1.4000000000000001,
+          0
+        ],
+        "rotation": [
+          0,
+          -5,
+          0
+        ],
+        "material": {
+          "color": "#78796e",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Spine_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.336456298828125,
+            0.24,
+            0.25234222412109375
+          ]
+        },
+        "position": [
+          -0.1,
+          1.76,
+          0
+        ],
+        "rotation": [
+          0,
+          -5,
+          0
+        ],
+        "material": {
+          "color": "#78796e",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestShelf",
+        "shape": {
+          "type": "rock",
+          "size": [
+            2.1,
+            1.1,
+            1.8
+          ],
+          "seed": 154
+        },
+        "position": [
+          -1.85,
+          0.55,
+          0.1
+        ],
+        "rotation": [
+          0,
+          -14,
+          0
+        ],
+        "material": {
+          "color": "#8e8b7b",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestShelf_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7382492065429688,
+            0.21890000000000004,
+            0.6327850341796876
+          ]
+        },
+        "position": [
+          -1.85,
+          0.10999999999999999,
+          0.1
+        ],
+        "rotation": [
+          0,
+          -14,
+          0
+        ],
+        "material": {
+          "color": "#8e8b7b",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestShelf_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.11793212890625,
+            0.21890000000000004,
+            0.9582275390625
+          ]
+        },
+        "position": [
+          -2.0130096820143675,
+          0.33000000000000007,
+          0.059357121539255826
+        ],
+        "rotation": [
+          0,
+          -14,
+          0
+        ],
+        "material": {
+          "color": "#8e8b7b",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestShelf_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.3450561523437499,
+            0.21890000000000004,
+            0.800628662109375
+          ]
+        },
+        "position": [
+          -1.85,
+          0.55,
+          0.1
+        ],
+        "rotation": [
+          0,
+          -14,
+          0
+        ],
+        "material": {
+          "color": "#8e8b7b",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestShelf_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8357574462890626,
+            0.21890000000000004,
+            0.716363525390625
+          ]
+        },
+        "position": [
+          -1.85,
+          0.7700000000000001,
+          0.1
+        ],
+        "rotation": [
+          0,
+          -14,
+          0
+        ],
+        "material": {
+          "color": "#8e8b7b",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestShelf_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7230445861816407,
+            0.132,
+            0.27544555664062503
+          ]
+        },
+        "position": [
+          -1.6869903179856327,
+          0.9680000000000001,
+          0.1406428784607442
+        ],
+        "rotation": [
+          0,
+          -14,
+          0
+        ],
+        "material": {
+          "color": "#8e8b7b",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastBreak",
+        "shape": {
+          "type": "rock",
+          "size": [
+            1.85,
+            1.25,
+            1.65
+          ],
+          "seed": 62
+        },
+        "position": [
+          1.7,
+          0.625,
+          0.08
+        ],
+        "rotation": [
+          0,
+          25,
+          0
+        ],
+        "material": {
+          "color": "#686e64",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastBreak_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6667576599121094,
+            0.24875,
+            0.8230806238511029
+          ]
+        },
+        "position": [
+          1.5658664475185757,
+          0.125,
+          0.1425475027376235
+        ],
+        "rotation": [
+          0,
+          25,
+          0
+        ],
+        "material": {
+          "color": "#686e64",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastBreak_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1576332092285158,
+            0.24875,
+            1.032483673095703
+          ]
+        },
+        "position": [
+          1.7,
+          0.375,
+          0.08
+        ],
+        "rotation": [
+          0,
+          25,
+          0
+        ],
+        "material": {
+          "color": "#686e64",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastBreak_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.0344429016113281,
+            0.24875,
+            0.9226112365722656
+          ]
+        },
+        "position": [
+          1.8899191630311964,
+          0.625,
+          0.1370851251512143
+        ],
+        "rotation": [
+          0,
+          25,
+          0
+        ],
+        "material": {
+          "color": "#686e64",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastBreak_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8701007080078126,
+            0.24875,
+            0.5389137268066406
+          ]
+        },
+        "position": [
+          1.8341335524814242,
+          0.875,
+          0.01745249726237648
+        ],
+        "rotation": [
+          0,
+          25,
+          0
+        ],
+        "material": {
+          "color": "#686e64",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastBreak_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.23125846862792968,
+            0.15,
+            0.2854775821461397
+          ]
+        },
+        "position": [
+          1.8341335524814242,
+          1.1,
+          0.01745249726237648
+        ],
+        "rotation": [
+          0,
+          25,
+          0
+        ],
+        "material": {
+          "color": "#686e64",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Shard",
+        "shape": {
+          "type": "rock",
+          "size": [
+            0.8,
+            0.52,
+            0.85
+          ],
+          "seed": 998
+        },
+        "position": [
+          0.75,
+          0.26,
+          1
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Shard_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.31466064453125003,
+            0.10348,
+            0.33432693481445314
+          ]
+        },
+        "position": [
+          0.75,
+          0.05199999999999999,
+          1
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Shard_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5274609375,
+            0.10348,
+            0.3891855875651042
+          ]
+        },
+        "position": [
+          0.7594637708652845,
+          0.15600000000000003,
+          1.0673382286744268
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Shard_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.40980224609375004,
+            0.10348,
+            0.43541488647460935
+          ]
+        },
+        "position": [
+          0.75,
+          0.26,
+          1
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Shard_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.30423583984375,
+            0.10348,
+            0.32325057983398436
+          ]
+        },
+        "position": [
+          0.8133771563994605,
+          0.36400000000000005,
+          0.9910929215385558
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Shard_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.2229052734375,
+            0.0624,
+            0.16447003682454425
+          ]
+        },
+        "position": [
+          0.822840927264745,
+          0.4576,
+          1.0584311502129826
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      }
+    ]
+  }
+}

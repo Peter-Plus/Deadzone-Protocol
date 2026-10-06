@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "protocol": "file://",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/154.0.8037.93",
+    "revision": "@f89f3a4363808e117c592adedcf9947882ac3b79",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+    "jsVersion": "15.4.80.19"
+  },
+  "checks": [
+    "file:// embedded GLB / Three / Rapier loaded",
+    "104729 15 inherited physical regressions passed with item meshes present",
+    "20261005 15 inherited physical regressions passed with item meshes present",
+    "8675309 15 inherited physical regressions passed with item meshes present"
+  ],
+  "screenshots": [
+    "01-random-world.png",
+    "world-104729.png",
+    "inside-red-104729.png",
+    "inside-blue-104729.png",
+    "inside-green-104729.png",
+    "inside-purple-104729.png",
+    "inside-white-104729.png",
+    "crowd-items-104729.png",
+    "subregions-104729.png",
+    "raised-entry-104729.png",
+    "world-20261005.png",
+    "inside-red-20261005.png",
+    "inside-blue-20261005.png",
+    "inside-green-20261005.png",
+    "inside-purple-20261005.png",
+    "inside-white-20261005.png",
+    "crowd-items-20261005.png",
+    "subregions-20261005.png",
+    "raised-entry-20261005.png",
+    "world-8675309.png",
+    "inside-red-8675309.png",
+    "inside-blue-8675309.png",
+    "inside-green-8675309.png",
+    "inside-purple-8675309.png",
+    "inside-white-8675309.png",
+    "crowd-items-8675309.png",
+    "subregions-8675309.png",
+    "raised-entry-8675309.png"
+  ],
+  "exceptions": [],
+  "external": []
+}

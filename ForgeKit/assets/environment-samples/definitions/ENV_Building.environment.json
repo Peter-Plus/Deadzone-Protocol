@@ -1,0 +1,562 @@
+{
+  "schema": "environment.v1",
+  "id": "ENV_Building",
+  "label": "单层双出口小屋",
+  "type": "building",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "B2": {
+      "radius": 1.34,
+      "height": 3.2,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -7,
+      -12
+    ],
+    "max": [
+      7,
+      12
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Floor",
+      "role": "floor"
+    },
+    {
+      "node": "WallWest",
+      "role": "wall"
+    },
+    {
+      "node": "WallEast",
+      "role": "wall"
+    },
+    {
+      "node": "WallFrontL",
+      "role": "wall"
+    },
+    {
+      "node": "WallFrontR",
+      "role": "wall"
+    },
+    {
+      "node": "LintelFront",
+      "role": "wall"
+    },
+    {
+      "node": "WallBackL",
+      "role": "wall"
+    },
+    {
+      "node": "WallBackR",
+      "role": "wall"
+    },
+    {
+      "node": "LintelBack",
+      "role": "wall"
+    },
+    {
+      "node": "Partition",
+      "role": "wall"
+    },
+    {
+      "node": "RoofLeft",
+      "role": "roof"
+    },
+    {
+      "node": "RoofRight",
+      "role": "roof"
+    },
+    {
+      "node": "Ridge",
+      "role": "roof"
+    }
+  ],
+  "walkables": [
+    "Floor"
+  ],
+  "entrances": [
+    {
+      "id": "Front",
+      "inner": [
+        0,
+        0.1,
+        4
+      ],
+      "outer": [
+        0,
+        0,
+        9.5
+      ],
+      "width": 3.6,
+      "height": 3.6,
+      "profiles": [
+        "player",
+        "A1",
+        "B2"
+      ]
+    },
+    {
+      "id": "Back",
+      "inner": [
+        0,
+        0.1,
+        -4
+      ],
+      "outer": [
+        0,
+        0,
+        -9.5
+      ],
+      "width": 3.6,
+      "height": 3.6,
+      "profiles": [
+        "player",
+        "A1",
+        "B2"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "ThroughHouse",
+      "points": [
+        [
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0.1,
+          5
+        ],
+        [
+          0,
+          0.1,
+          0
+        ],
+        [
+          0,
+          0.1,
+          -5
+        ],
+        [
+          0,
+          0,
+          -8
+        ],
+        [
+          0,
+          0,
+          -10
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1",
+        "B2"
+      ]
+    }
+  ],
+  "lootZones": [
+    {
+      "id": "WestBay",
+      "min": [
+        -4.3,
+        -4
+      ],
+      "max": [
+        -2.4,
+        -1
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "EastBay",
+      "min": [
+        2.4,
+        -3.8
+      ],
+      "max": [
+        4.3,
+        3.8
+      ],
+      "surface": "Floor"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "DoorFront",
+      "min": [
+        -1.8,
+        4
+      ],
+      "max": [
+        1.8,
+        10
+      ]
+    },
+    {
+      "id": "DoorBack",
+      "min": [
+        -1.8,
+        -10
+      ],
+      "max": [
+        1.8,
+        -4
+      ]
+    },
+    {
+      "id": "MainPassage",
+      "min": [
+        -1.5,
+        -4
+      ],
+      "max": [
+        1.5,
+        4
+      ]
+    }
+  ],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "ENV_Building",
+    "type": "static",
+    "parts": [
+      {
+        "id": "Floor",
+        "shape": {
+          "type": "box",
+          "size": [
+            10,
+            0.1,
+            10
+          ]
+        },
+        "position": [
+          0,
+          0.05,
+          0
+        ],
+        "material": {
+          "color": "#777367",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "WallWest",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.2,
+            10
+          ]
+        },
+        "position": [
+          -5,
+          2.2,
+          0
+        ],
+        "material": {
+          "color": "#b09b7e",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "WallEast",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            4.2,
+            10
+          ]
+        },
+        "position": [
+          5,
+          2.2,
+          0
+        ],
+        "material": {
+          "color": "#b09b7e",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "WallFrontL",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.2,
+            4.2,
+            0.3
+          ]
+        },
+        "position": [
+          -3.4,
+          2.2,
+          5
+        ],
+        "material": {
+          "color": "#b09b7e",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "WallFrontR",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.2,
+            4.2,
+            0.3
+          ]
+        },
+        "position": [
+          3.4,
+          2.2,
+          5
+        ],
+        "material": {
+          "color": "#b09b7e",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "LintelFront",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.6,
+            0.6,
+            0.3
+          ]
+        },
+        "position": [
+          0,
+          4,
+          5
+        ],
+        "material": {
+          "color": "#786b58",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "WallBackL",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.2,
+            4.2,
+            0.3
+          ]
+        },
+        "position": [
+          -3.4,
+          2.2,
+          -5
+        ],
+        "material": {
+          "color": "#b09b7e",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "WallBackR",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.2,
+            4.2,
+            0.3
+          ]
+        },
+        "position": [
+          3.4,
+          2.2,
+          -5
+        ],
+        "material": {
+          "color": "#b09b7e",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "LintelBack",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.6,
+            0.6,
+            0.3
+          ]
+        },
+        "position": [
+          0,
+          4,
+          -5
+        ],
+        "material": {
+          "color": "#786b58",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "Partition",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.1,
+            3,
+            0.22
+          ]
+        },
+        "position": [
+          -3.35,
+          1.5999999999999999,
+          0
+        ],
+        "material": {
+          "color": "#96876f",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "RoofLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.6,
+            0.22,
+            10.8
+          ]
+        },
+        "position": [
+          -2.7,
+          4.78,
+          0
+        ],
+        "material": {
+          "color": "#514e49",
+          "roughness": 0.85
+        },
+        "rotation": [
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "id": "RoofRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.6,
+            0.22,
+            10.8
+          ]
+        },
+        "position": [
+          2.7,
+          4.78,
+          0
+        ],
+        "material": {
+          "color": "#514e49",
+          "roughness": 0.85
+        },
+        "rotation": [
+          0,
+          0,
+          -10
+        ]
+      },
+      {
+        "id": "Ridge",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.2,
+            0.18,
+            10.9
+          ]
+        },
+        "position": [
+          0,
+          5.3,
+          0
+        ],
+        "material": {
+          "color": "#3d4242",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "TrimL",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.16,
+            9.8
+          ]
+        },
+        "position": [
+          -4.8,
+          1,
+          0
+        ],
+        "material": {
+          "color": "#6d776e",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "TrimR",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.16,
+            9.8
+          ]
+        },
+        "position": [
+          4.8,
+          1,
+          0
+        ],
+        "material": {
+          "color": "#6d776e",
+          "roughness": 0.85
+        }
+      }
+    ],
+    "sockets": []
+  }
+}

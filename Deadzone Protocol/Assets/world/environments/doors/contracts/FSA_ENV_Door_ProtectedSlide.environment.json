@@ -1,0 +1,376 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Door_ProtectedSlide",
+  "label": "保护区大铁门 · 内侧滑开／外墙门禁",
+  "type": "gate",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3.4,
+      -3
+    ],
+    "max": [
+      10,
+      3
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Leaf",
+      "role": "moving",
+      "position": [
+        0,
+        2,
+        -0.6
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        6.2,
+        4,
+        0.24
+      ]
+    },
+    {
+      "node": "FrameLeft",
+      "role": "barrier",
+      "position": [
+        -2.975,
+        2.15,
+        -0.05
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.35,
+        4.3,
+        0.7
+      ]
+    },
+    {
+      "node": "FrameRight",
+      "role": "barrier",
+      "position": [
+        2.975,
+        2.15,
+        -0.05
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.35,
+        4.3,
+        0.7
+      ]
+    },
+    {
+      "node": "Header",
+      "role": "barrier",
+      "position": [
+        0,
+        4.075,
+        -0.05
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        6.3,
+        0.45,
+        0.7
+      ]
+    },
+    {
+      "node": "Track",
+      "role": "barrier",
+      "position": [
+        3.25,
+        4.4,
+        -0.6
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        12.9,
+        0.2,
+        0.42
+      ]
+    },
+    {
+      "node": "Bracket5",
+      "role": "barrier",
+      "position": [
+        -2.95,
+        4.18,
+        -0.3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.16,
+        0.35,
+        0.85
+      ]
+    },
+    {
+      "node": "Bracket6",
+      "role": "barrier",
+      "position": [
+        3.5,
+        4.18,
+        -0.3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.16,
+        0.35,
+        0.85
+      ]
+    },
+    {
+      "node": "Bracket7",
+      "role": "barrier",
+      "position": [
+        6.5,
+        4.18,
+        -0.3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.16,
+        0.35,
+        0.85
+      ]
+    },
+    {
+      "node": "Bracket8",
+      "role": "barrier",
+      "position": [
+        9.35,
+        4.18,
+        -0.3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.16,
+        0.35,
+        0.85
+      ]
+    },
+    {
+      "node": "EndStop",
+      "role": "barrier",
+      "position": [
+        9.7,
+        2.2,
+        -0.6
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.2,
+        4.4,
+        0.38
+      ]
+    },
+    {
+      "node": "SwitchFront",
+      "role": "solid",
+      "position": [
+        3.65,
+        1.35,
+        0.235
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.46,
+        0.7,
+        0.21
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [
+    {
+      "id": "ThroughDoor",
+      "points": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          -2
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [],
+  "exclusions": [
+    {
+      "id": "Pocket",
+      "min": [
+        3.15,
+        -1.05
+      ],
+      "max": [
+        9.85,
+        -0.35
+      ]
+    },
+    {
+      "id": "SwitchLanding",
+      "min": [
+        2.65,
+        0.45
+      ],
+      "max": [
+        4.65,
+        2.45
+      ]
+    }
+  ],
+  "connectors": [
+    {
+      "id": "Left",
+      "position": [
+        -3,
+        0,
+        0
+      ],
+      "outward": [
+        -1,
+        0,
+        0
+      ],
+      "height": 4,
+      "thickness": 0.25
+    },
+    {
+      "id": "Right",
+      "position": [
+        3,
+        0,
+        0
+      ],
+      "outward": [
+        1,
+        0,
+        0
+      ],
+      "height": 4,
+      "thickness": 0.25
+    }
+  ],
+  "gate": {
+    "leaf": "Leaf",
+    "switchNode": "Interact_Front",
+    "duration": 3,
+    "travel": [
+      6.4,
+      0,
+      0
+    ],
+    "passage": {
+      "width": 5.6,
+      "height": 3.85
+    },
+    "onlyOpen": true
+  },
+  "modelAsset": "models/FSA_ENV_Door_ProtectedSlide.glb",
+  "animationAsset": "animations/FSA_ENV_Door_ProtectedSlide_Open.anim.glb",
+  "bounds": {
+    "min": [
+      -3.1999998092651367,
+      -9.536743172944284e-8,
+      -0.809999993443489
+    ],
+    "max": [
+      9.800000001490115,
+      4.5000000014901165,
+      0.37999999955296515
+    ]
+  },
+  "checks": [
+    {
+      "route": "ThroughDoor",
+      "profile": "player",
+      "ok": true
+    },
+    {
+      "route": "ThroughDoor",
+      "profile": "A1",
+      "ok": true
+    }
+  ],
+  "sourceHash": "b3d01b3b47898f90b0e34cff591a81e649c0c0fe0f806fc84f394d4e0e59e166",
+  "modelHash": "5ad76b8e555c7811299bf5e2b2eddff567488691b31dc6fbcdf93291c712bb2b",
+  "animationHash": "653a3d8dc289f0c26e15d438f87fa103414b21641180c5e4de5227e81baa3df6"
+}

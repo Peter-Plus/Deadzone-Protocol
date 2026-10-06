@@ -1,0 +1,1369 @@
+{
+  "schema": "model.v1",
+  "id": "fsa.character.andel",
+  "type": "humanoid",
+  "rig": "humanoid.v1",
+  "parameters": {
+    "height": 1.8
+  },
+  "materials": {
+    "jacket": {
+      "color": "#6b7d89",
+      "roughness": 0.92
+    },
+    "seam": {
+      "color": "#334754",
+      "roughness": 0.95
+    },
+    "vest": {
+      "color": "#3c4953",
+      "roughness": 0.89
+    },
+    "webbing": {
+      "color": "#89959a",
+      "roughness": 0.96
+    },
+    "pants": {
+      "color": "#354654",
+      "roughness": 0.94
+    },
+    "skin": {
+      "color": "#d8ab8b",
+      "roughness": 0.85
+    },
+    "hair": {
+      "color": "#754631",
+      "roughness": 1
+    },
+    "glove": {
+      "color": "#343e46",
+      "roughness": 0.94
+    },
+    "boot": {
+      "color": "#242b30",
+      "roughness": 0.92
+    },
+    "metal": {
+      "color": "#85939a",
+      "metalness": 0.65,
+      "roughness": 0.4
+    },
+    "eye": {
+      "color": "#202a30",
+      "roughness": 0.72
+    },
+    "white": {
+      "color": "#e0d9c9",
+      "roughness": 0.9
+    },
+    "orange": {
+      "color": "#c37e64",
+      "roughness": 0.88
+    }
+  },
+  "parts": [
+    {
+      "id": "jacket_body",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.399,
+          0.62,
+          0.232
+        ]
+      },
+      "position": [
+        0,
+        0.321,
+        0
+      ],
+      "material": "jacket"
+    },
+    {
+      "id": "belt",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.446,
+          0.067,
+          0.261
+        ]
+      },
+      "position": [
+        0,
+        0.044,
+        0
+      ],
+      "material": "vest"
+    },
+    {
+      "id": "belt_buckle",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.049,
+          0.021
+        ]
+      },
+      "position": [
+        0,
+        0.045,
+        0.143
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "vest_front",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.329,
+          0.34,
+          0.043
+        ]
+      },
+      "position": [
+        0,
+        0.385,
+        0.137
+      ],
+      "material": "vest"
+    },
+    {
+      "id": "vest_back",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.329,
+          0.34,
+          0.032
+        ]
+      },
+      "position": [
+        0,
+        0.39,
+        -0.132
+      ],
+      "material": "vest"
+    },
+    {
+      "id": "shoulder_strap_R",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.061,
+          0.52,
+          0.029
+        ]
+      },
+      "position": [
+        -0.142,
+        0.392,
+        0.139
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "chest_pouch_R",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.12,
+          0.127,
+          0.053
+        ]
+      },
+      "position": [
+        -0.086,
+        0.321,
+        0.191
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "pouch_flap_R",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.128,
+          0.031,
+          0.059
+        ]
+      },
+      "position": [
+        -0.086,
+        0.38,
+        0.194
+      ],
+      "material": "seam"
+    },
+    {
+      "id": "hip_pouch_R",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.133,
+          0.078
+        ]
+      },
+      "position": [
+        -0.202,
+        0.072,
+        0.115
+      ],
+      "material": "vest"
+    },
+    {
+      "id": "shoulder_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.101
+      },
+      "position": [
+        -0.03,
+        0,
+        0
+      ],
+      "material": "jacket"
+    },
+    {
+      "id": "sleeve_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.37,
+          0.151,
+          0.164
+        ]
+      },
+      "position": [
+        -0.212,
+        0,
+        0
+      ],
+      "material": "jacket"
+    },
+    {
+      "id": "cuff_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.046,
+          0.158,
+          0.17
+        ]
+      },
+      "position": [
+        -0.402,
+        0,
+        0
+      ],
+      "material": "seam"
+    },
+    {
+      "id": "wrist_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.053,
+          0.115,
+          0.12
+        ]
+      },
+      "position": [
+        -0.446,
+        0,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "glove_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.102,
+          0.129,
+          0.14
+        ]
+      },
+      "position": [
+        -0.519,
+        0,
+        0
+      ],
+      "material": "glove"
+    },
+    {
+      "id": "knuckle_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.019,
+          0.108
+        ]
+      },
+      "position": [
+        -0.522,
+        0.074,
+        0
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "trousers_R",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.184,
+          0.674,
+          0.203
+        ]
+      },
+      "position": [
+        0,
+        -0.342,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "knee_patch_R",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.157,
+          0.174,
+          0.028
+        ]
+      },
+      "position": [
+        0,
+        -0.453,
+        0.112
+      ],
+      "material": "vest"
+    },
+    {
+      "id": "cargo_pocket_R",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.166,
+          0.148
+        ]
+      },
+      "position": [
+        -0.105,
+        -0.22,
+        0
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "boot_R",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.195,
+          0.189,
+          0.278
+        ]
+      },
+      "position": [
+        0,
+        -0.726,
+        0.04
+      ],
+      "material": "boot"
+    },
+    {
+      "id": "boot_sole_R",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.205,
+          0.028,
+          0.291
+        ]
+      },
+      "position": [
+        0,
+        -0.814,
+        0.044
+      ],
+      "material": "vest"
+    },
+    {
+      "id": "boot_lace_R_0",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.121,
+          0.012,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        -0.675,
+        0.184
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "boot_lace_R_1",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.121,
+          0.012,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        -0.7030000000000001,
+        0.184
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "boot_lace_R_2",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.121,
+          0.012,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        -0.7310000000000001,
+        0.184
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "shoulder_strap_L",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.061,
+          0.52,
+          0.029
+        ]
+      },
+      "position": [
+        0.142,
+        0.392,
+        0.139
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "chest_pouch_L",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.12,
+          0.127,
+          0.053
+        ]
+      },
+      "position": [
+        0.086,
+        0.321,
+        0.191
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "pouch_flap_L",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.128,
+          0.031,
+          0.059
+        ]
+      },
+      "position": [
+        0.086,
+        0.38,
+        0.194
+      ],
+      "material": "seam"
+    },
+    {
+      "id": "hip_pouch_L",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.133,
+          0.078
+        ]
+      },
+      "position": [
+        0.202,
+        0.072,
+        0.115
+      ],
+      "material": "vest"
+    },
+    {
+      "id": "shoulder_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.101
+      },
+      "position": [
+        0.03,
+        0,
+        0
+      ],
+      "material": "jacket"
+    },
+    {
+      "id": "sleeve_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.37,
+          0.151,
+          0.164
+        ]
+      },
+      "position": [
+        0.212,
+        0,
+        0
+      ],
+      "material": "jacket"
+    },
+    {
+      "id": "cuff_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.046,
+          0.158,
+          0.17
+        ]
+      },
+      "position": [
+        0.402,
+        0,
+        0
+      ],
+      "material": "seam"
+    },
+    {
+      "id": "wrist_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.053,
+          0.115,
+          0.12
+        ]
+      },
+      "position": [
+        0.446,
+        0,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "glove_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.102,
+          0.129,
+          0.14
+        ]
+      },
+      "position": [
+        0.519,
+        0,
+        0
+      ],
+      "material": "glove"
+    },
+    {
+      "id": "knuckle_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.019,
+          0.108
+        ]
+      },
+      "position": [
+        0.522,
+        0.074,
+        0
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "arm_patch",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.09,
+          0.012,
+          0.1
+        ]
+      },
+      "position": [
+        0.14,
+        0.083,
+        0.02
+      ],
+      "material": "orange"
+    },
+    {
+      "id": "trousers_L",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.184,
+          0.674,
+          0.203
+        ]
+      },
+      "position": [
+        0,
+        -0.342,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "knee_patch_L",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.157,
+          0.174,
+          0.028
+        ]
+      },
+      "position": [
+        0,
+        -0.453,
+        0.112
+      ],
+      "material": "vest"
+    },
+    {
+      "id": "cargo_pocket_L",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.166,
+          0.148
+        ]
+      },
+      "position": [
+        0.105,
+        -0.22,
+        0
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "boot_L",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.195,
+          0.189,
+          0.278
+        ]
+      },
+      "position": [
+        0,
+        -0.726,
+        0.04
+      ],
+      "material": "boot"
+    },
+    {
+      "id": "boot_sole_L",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.205,
+          0.028,
+          0.291
+        ]
+      },
+      "position": [
+        0,
+        -0.814,
+        0.044
+      ],
+      "material": "vest"
+    },
+    {
+      "id": "boot_lace_L_0",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.121,
+          0.012,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        -0.675,
+        0.184
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "boot_lace_L_1",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.121,
+          0.012,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        -0.7030000000000001,
+        0.184
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "boot_lace_L_2",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.121,
+          0.012,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        -0.7310000000000001,
+        0.184
+      ],
+      "material": "webbing"
+    },
+    {
+      "id": "collar",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2,
+          0.076,
+          0.2
+        ]
+      },
+      "position": [
+        0,
+        0.66,
+        0
+      ],
+      "material": "seam"
+    },
+    {
+      "id": "neck",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.137,
+          0.08,
+          0.137
+        ]
+      },
+      "position": [
+        0,
+        0.018,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "face",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.236,
+          0.25,
+          0.231
+        ]
+      },
+      "position": [
+        0,
+        0.137,
+        0.006
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "nose",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.033,
+          0.045,
+          0.029
+        ]
+      },
+      "position": [
+        0,
+        0.124,
+        0.133
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "mouth",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.054,
+          0.01,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.066,
+        0.128
+      ],
+      "material": "orange"
+    },
+    {
+      "id": "ear_R",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.067,
+          0.051
+        ]
+      },
+      "position": [
+        -0.124,
+        0.135,
+        0.012
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "eye_white_R",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.026,
+          0.01
+        ]
+      },
+      "position": [
+        -0.063,
+        0.157,
+        0.125
+      ],
+      "material": "white"
+    },
+    {
+      "id": "pupil_R",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.025,
+          0.022,
+          0.011
+        ]
+      },
+      "position": [
+        -0.057,
+        0.157,
+        0.132
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "brow_R",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.011,
+          0.013
+        ]
+      },
+      "position": [
+        -0.065,
+        0.179,
+        0.128
+      ],
+      "material": "hair",
+      "rotation": [
+        0,
+        0,
+        -6
+      ]
+    },
+    {
+      "id": "ear_L",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.067,
+          0.051
+        ]
+      },
+      "position": [
+        0.124,
+        0.135,
+        0.012
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "eye_white_L",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.026,
+          0.01
+        ]
+      },
+      "position": [
+        0.063,
+        0.157,
+        0.125
+      ],
+      "material": "white"
+    },
+    {
+      "id": "pupil_L",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.025,
+          0.022,
+          0.011
+        ]
+      },
+      "position": [
+        0.057,
+        0.157,
+        0.132
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "brow_L",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.011,
+          0.013
+        ]
+      },
+      "position": [
+        0.065,
+        0.179,
+        0.128
+      ],
+      "material": "hair",
+      "rotation": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "name_patch",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.099,
+          0.043,
+          0.007
+        ]
+      },
+      "position": [
+        0.07,
+        0.5,
+        0.175
+      ],
+      "material": "orange"
+    },
+    {
+      "id": "hair_crown",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.254,
+          0.074,
+          0.25
+        ]
+      },
+      "position": [
+        0,
+        0.256,
+        -0.006
+      ],
+      "material": "hair",
+      "parent": "Head"
+    },
+    {
+      "id": "hair_nape",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.254,
+          0.225,
+          0.043
+        ]
+      },
+      "position": [
+        0,
+        0.153,
+        -0.124
+      ],
+      "material": "hair",
+      "parent": "Head"
+    },
+    {
+      "id": "fringe_left",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.133,
+          0.052,
+          0.039
+        ]
+      },
+      "position": [
+        0.062,
+        0.215,
+        0.118
+      ],
+      "material": "hair",
+      "parent": "Head",
+      "rotation": [
+        0,
+        0,
+        9
+      ]
+    },
+    {
+      "id": "fringe_right",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.091,
+          0.078,
+          0.039
+        ]
+      },
+      "position": [
+        -0.071,
+        0.204,
+        0.118
+      ],
+      "material": "hair",
+      "parent": "Head",
+      "rotation": [
+        0,
+        0,
+        -13
+      ]
+    },
+    {
+      "id": "temple_hair_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.033,
+          0.143,
+          0.071
+        ]
+      },
+      "position": [
+        0.123,
+        0.174,
+        0.064
+      ],
+      "material": "hair",
+      "parent": "Head"
+    },
+    {
+      "id": "temple_hair_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.033,
+          0.143,
+          0.071
+        ]
+      },
+      "position": [
+        -0.123,
+        0.174,
+        0.064
+      ],
+      "material": "hair",
+      "parent": "Head"
+    },
+    {
+      "id": "hair_tie",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.083,
+          0.045,
+          0.052
+        ]
+      },
+      "position": [
+        0,
+        0.206,
+        -0.156
+      ],
+      "material": "vest",
+      "parent": "Head"
+    },
+    {
+      "id": "ponytail_upper",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.099,
+          0.143,
+          0.078
+        ]
+      },
+      "position": [
+        0,
+        0.144,
+        -0.188
+      ],
+      "material": "hair",
+      "parent": "Head",
+      "rotation": [
+        -12,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ponytail_tip",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.078,
+          0.125,
+          0.069
+        ]
+      },
+      "position": [
+        0,
+        0.026,
+        -0.207
+      ],
+      "material": "hair",
+      "parent": "Head",
+      "rotation": [
+        -8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "scarf_front",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.226,
+          0.081,
+          0.032
+        ]
+      },
+      "position": [
+        0,
+        0.655,
+        0.102
+      ],
+      "material": "orange",
+      "parent": "Body"
+    },
+    {
+      "id": "scarf_tail",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.057,
+          0.165,
+          0.026
+        ]
+      },
+      "position": [
+        0.095,
+        0.567,
+        0.165
+      ],
+      "material": "orange",
+      "parent": "Body",
+      "rotation": [
+        0,
+        0,
+        -8
+      ]
+    },
+    {
+      "id": "utility_satchel",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.112,
+          0.181,
+          0.12
+        ]
+      },
+      "position": [
+        -0.231,
+        0.126,
+        -0.01
+      ],
+      "material": "vest",
+      "parent": "Body"
+    },
+    {
+      "id": "satchel_flap",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.119,
+          0.054,
+          0.131
+        ]
+      },
+      "position": [
+        -0.231,
+        0.196,
+        -0.01
+      ],
+      "material": "webbing",
+      "parent": "Body"
+    },
+    {
+      "id": "small_pack",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.233,
+          0.253,
+          0.091
+        ]
+      },
+      "position": [
+        0,
+        0.387,
+        -0.198
+      ],
+      "material": "seam",
+      "parent": "Body"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "weapon_mount",
+      "parent": "Arm_L",
+      "position": [
+        0.545,
+        0,
+        0
+      ],
+      "rotation": [
+        -85.12552,
+        56.590575,
+        119.24209
+      ]
+    }
+  ]
+}

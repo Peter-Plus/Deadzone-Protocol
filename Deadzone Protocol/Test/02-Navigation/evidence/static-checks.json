@@ -1,0 +1,4806 @@
+{
+  "passed": true,
+  "seedCount": 20,
+  "records": [
+    {
+      "seed": "104729",
+      "hash": "7af65dfe663e461c20bdac8c4a956aee570f7cd570364a9fc9dbef8a8f77d3fc",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 86.2319,
+        "A1": 41.10160000000002,
+        "B2": 45.65499999999997
+      }
+    },
+    {
+      "seed": "20261005",
+      "hash": "d1a70156a86f772b0b5c59127203649c3316e695c20a683ac7a4226b97f5761c",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 148.8494999999998,
+        "A1": 88.11290000000008,
+        "B2": 98.69290000000046
+      }
+    },
+    {
+      "seed": "8675309",
+      "hash": "59efec1991fffa33dd2edf8aac0189cf927ea8a433cee39ac6071a7660f2a73e",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 94.27700000000004,
+        "A1": 93.1960999999992,
+        "B2": 93.14180000000124
+      }
+    },
+    {
+      "seed": "nav-0",
+      "hash": "cb312ec4c6665e847f4818d651b58e801361ff8d440aca3dabf9da219305f137",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 81.64220000000023,
+        "A1": 71.10059999999976,
+        "B2": 70.29479999999967
+      }
+    },
+    {
+      "seed": "nav-1",
+      "hash": "955fe75ac082e0c272a034bcae8c3d137010ef118a05ada7daf3fe9f7d6fd393",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 104.23790000000008,
+        "A1": 71.45790000000125,
+        "B2": 72.85289999999986
+      }
+    },
+    {
+      "seed": "nav-2",
+      "hash": "8e0510af0d9d0cc0c09200588c243113186a587a6382860506ca97ac15b87d63",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 108.61709999999948,
+        "A1": 72.70569999999861,
+        "B2": 74.34820000000036
+      }
+    },
+    {
+      "seed": "nav-3",
+      "hash": "e0f45a152b774ec47a07f7d60d4c6a300797650ea6ad4516fdd48de392c4adca",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 79.5063999999984,
+        "A1": 79.62870000000112,
+        "B2": 73.48170000000027
+      }
+    },
+    {
+      "seed": "nav-4",
+      "hash": "32244fb5fa8e124a4f5ad928b06875e5907090b795f3e4dea222cc9e9e78c352",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 77.92060000000129,
+        "A1": 76.23380000000179,
+        "B2": 82.0632000000005
+      }
+    },
+    {
+      "seed": "nav-5",
+      "hash": "f348f036d3435236349a1e0543a5b5d101b8bda2760cff1d41631b7c2869ce66",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 106.31200000000172,
+        "A1": 87.54140000000189,
+        "B2": 83.89919999999984
+      }
+    },
+    {
+      "seed": "nav-6",
+      "hash": "f024106b584e036ac0d9377e0d4b30003e38c55ae5ac25ede8ebe481f791620e",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 100.35349999999744,
+        "A1": 92.95960000000196,
+        "B2": 88.9197000000022
+      }
+    },
+    {
+      "seed": "nav-7",
+      "hash": "b6cfa59c3cf2c9ea2e12b25010a718db1fc5e2fce1a28bf3fd72871a511e0bae",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 92.29430000000139,
+        "A1": 87.11249999999927,
+        "B2": 90.72720000000118
+      }
+    },
+    {
+      "seed": "nav-8",
+      "hash": "8ef333e03b68c72d89a0d19adffa578180763d7bd3420bd23a95931062fc1bc3",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 89.70060000000012,
+        "A1": 84.10620000000199,
+        "B2": 84.92919999999867
+      }
+    },
+    {
+      "seed": "nav-9",
+      "hash": "5ebe2a67a7345f00c7833182b5d6dfb3822b32f89e57e676069a39806d1923f5",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 92.95720000000438,
+        "A1": 88.18559999999707,
+        "B2": 84.4227000000028
+      }
+    },
+    {
+      "seed": "nav-10",
+      "hash": "b2273d050150f2e6cb1450639761dba8a6819b4b89aeb6e52febc63075b74e02",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 94.60410000000411,
+        "A1": 96.07749999999942,
+        "B2": 92.71399999999994
+      }
+    },
+    {
+      "seed": "nav-11",
+      "hash": "09e9acf5d8a1bacdd13079244143c16d9d1aa85113b5830e2136595c80f68c4a",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 86.53620000000228,
+        "A1": 71.02610000000277,
+        "B2": 72.66280000000552
+      }
+    },
+    {
+      "seed": "nav-12",
+      "hash": "cbe9b372722ba851471eefe3a12d57eb66b495a42244873298a6f58543328208",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 80.69249999999738,
+        "A1": 72.19600000000355,
+        "B2": 74.8827999999994
+      }
+    },
+    {
+      "seed": "nav-13",
+      "hash": "7fba169e99b7a7134e74d99ac6e5c6ee54c86c636b9d57bfbe9aec808343b804",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 77.13350000000355,
+        "A1": 70.89480000000185,
+        "B2": 70.42099999999482
+      }
+    },
+    {
+      "seed": "nav-14",
+      "hash": "e780989bc81af9521eb97135c30341d73970c4353e7362b6c5f6f25402869cc1",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 83.99750000000495,
+        "A1": 77.63670000000275,
+        "B2": 77.153999999995
+      }
+    },
+    {
+      "seed": "nav-15",
+      "hash": "34cacf46cbaf5855c355983a585779852c8a8c650bad39134a956ce9dd7bab43",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 76.8724000000002,
+        "A1": 71.21010000000388,
+        "B2": 70.11379999999917
+      }
+    },
+    {
+      "seed": "nav-16",
+      "hash": "202b2e96f098240c564017035e93d49b1d12246e2a4c170cfa41892a44c3f913",
+      "buildings": 15,
+      "spawns": 50,
+      "indoor": 15,
+      "links": [
+        {
+          "building": "A-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "A-6",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-4",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "B-5",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-1",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-2",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-3",
+          "kind": "B2",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "player",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "A1",
+          "connected": true
+        },
+        {
+          "building": "C-4",
+          "kind": "B2",
+          "connected": true
+        }
+      ],
+      "passed": true,
+      "buildMs": {
+        "player": 96.87639999999374,
+        "A1": 93.0280999999959,
+        "B2": 86.3605000000025
+      }
+    }
+  ]
+}

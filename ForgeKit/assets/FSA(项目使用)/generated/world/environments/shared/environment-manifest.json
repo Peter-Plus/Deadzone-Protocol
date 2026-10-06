@@ -1,0 +1,33 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Shared_Retained_01_Partitioned",
+      "type": "building",
+      "sourceHash": "a085d8dd1ca81e659a34f6b5908548a66460e91cc49067ede204dba830cdf2c6",
+      "modelHash": "79c50cf1884d89f0eb5cad492ebba504700b14b9075cd58137607bbcb7fcfc24",
+      "contract": "contracts/FSA_ENV_Shared_Retained_01_Partitioned.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Shared_Retained_02_HallWing",
+      "type": "building",
+      "sourceHash": "206e799efb9d2544f9a57b03f58263063f0475d135f6941e7453c6eecbfa9a0d",
+      "modelHash": "1ca10346e9d6fd649675aa180ccae8c8837405b15e03f2cd36efadc912a277b3",
+      "contract": "contracts/FSA_ENV_Shared_Retained_02_HallWing.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Shared_Warehouse_01_Compact",
+      "type": "building",
+      "sourceHash": "9090bb0ff4c361063fc0616b6f7353e32221ec9604d98a9ce1a621f4fa3e2e45",
+      "modelHash": "46374009bc772bf28653852ea262cc7636832e99f6d39aed246f7ae6a760a6d1",
+      "contract": "contracts/FSA_ENV_Shared_Warehouse_01_Compact.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Shared_Warehouse_02_Partitioned",
+      "type": "building",
+      "sourceHash": "338ae4c930db1535a672f9c58c8c66ecd55fe33e54e588256bec8f48d88f4302",
+      "modelHash": "eb1ba23d1ae6c062226d7f721c1fec14f64750e6b05ffa348e5408be04b9eef2",
+      "contract": "contracts/FSA_ENV_Shared_Warehouse_02_Partitioned.environment.json"
+    }
+  ]
+}

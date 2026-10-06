@@ -1,0 +1,138 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Outdoor_Rock_01_Low",
+      "type": "solid",
+      "sourceHash": "29579a919d90d05a383e3399e4d5903fbfda057bf35a61fb8744c140d89531fb",
+      "modelHash": "163b6418540ef8c7899d1eedd21ca1a8d8fde49a72a7de7b8f39e867f859bdba",
+      "contract": "contracts/FSA_ENV_Outdoor_Rock_01_Low.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Rock_02_Split",
+      "type": "solid",
+      "sourceHash": "6cd4b36353df486a12f53c33b3f6f81571ef4f7ff362fb9a222839740300d252",
+      "modelHash": "8a33d23fc1cd41bfcdbfff661721331efce3bed436e779a01ac2af60449b2724",
+      "contract": "contracts/FSA_ENV_Outdoor_Rock_02_Split.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Rock_03_Ridge",
+      "type": "solid",
+      "sourceHash": "a252012be0aae0509afe6aa39cff00141b89848f1ec4f340690515f6d0150824",
+      "modelHash": "1ecf826e19f6d090b2a9bdab285cbecc73f76dfd84c5e48d829711f5820a4a56",
+      "contract": "contracts/FSA_ENV_Outdoor_Rock_03_Ridge.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Rock_04_Massif",
+      "type": "solid",
+      "sourceHash": "7e8c33eb4f0a3854a80187a4e06e7fa68d5bbba12532678d896bd5e179035b0d",
+      "modelHash": "d60c4e4087d9bdf780047a8fa8692c834d9866881dad942d7f3bb5a02966b58b",
+      "contract": "contracts/FSA_ENV_Outdoor_Rock_04_Massif.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Rock_05_Tower",
+      "type": "solid",
+      "sourceHash": "d7e3df7b23c56fbd0106ffbe4857e137be4516e6b5c745ceba090e688d33c98e",
+      "modelHash": "04c96a2adee16df2eb10987353415aba549dceaf4924d860fd367fe382bf2280",
+      "contract": "contracts/FSA_ENV_Outdoor_Rock_05_Tower.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Rock_06_Escarpment",
+      "type": "solid",
+      "sourceHash": "ecf3dd821c60cb98f5c2a8061a40796e33ff4869f4a6be8be00cbd9fb89d4b63",
+      "modelHash": "8375361b42762db96652b3e97cca51c251898f63209f9d4dd74fe4a99f9f4409",
+      "contract": "contracts/FSA_ENV_Outdoor_Rock_06_Escarpment.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Scrap_01_SheetMetal",
+      "type": "solid",
+      "sourceHash": "755bd6db3c609a9154ea61368e0b6560f01abe2a2bb17b700825647e3cacee5b",
+      "modelHash": "71f91248b50c9185816c7833dbd63b47b6e53364f913a153e939879cbdf7f0bd",
+      "contract": "contracts/FSA_ENV_Outdoor_Scrap_01_SheetMetal.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Scrap_02_Machinery",
+      "type": "solid",
+      "sourceHash": "baaadf8b60d7d833f7f899b8fa971d4d7f12a43cb2ce0c7cf32fae5604972d30",
+      "modelHash": "c1a790d32a0c0ce44fc512dbb83e13dcc4cd107a73769a2e8789075fc8d96b8c",
+      "contract": "contracts/FSA_ENV_Outdoor_Scrap_02_Machinery.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Scrap_03_Pipes",
+      "type": "solid",
+      "sourceHash": "4e641660309f8e2ed9a30771e34b9d126d02f976b96e606b90c41d1a7c2f86d9",
+      "modelHash": "adadaa317e6e250fb2f0a961ad30c6a171a09a393726360547b82a52a0ddf9d9",
+      "contract": "contracts/FSA_ENV_Outdoor_Scrap_03_Pipes.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Scrap_04_Girders",
+      "type": "solid",
+      "sourceHash": "0d9510fec4f322a1d1ebe100fbdf17d030ade07c3f3381f8442d535e3502744c",
+      "modelHash": "f7acf863b7930b7fa5e64fb76534764abccc43f5ae271b8102d0268964294e3e",
+      "contract": "contracts/FSA_ENV_Outdoor_Scrap_04_Girders.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Scrap_05_Drums",
+      "type": "solid",
+      "sourceHash": "87b397511709cd7941f2ffcf3d1d5a2246e75fced84b795e430ef384bebdaba5",
+      "modelHash": "4411326a2b609b22483adfeac537ac793762f22897e85bcd695f972051707bf7",
+      "contract": "contracts/FSA_ENV_Outdoor_Scrap_05_Drums.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Station_01_Sealed",
+      "type": "solid",
+      "sourceHash": "6553fdac87faa75628a60d62c85ee7978480f9fe073803edcf2df258e5e56538",
+      "modelHash": "88f5489fb24e74914f451ec8862b2b027b921e51592cf3353a568d3945fa386d",
+      "contract": "contracts/FSA_ENV_Outdoor_Station_01_Sealed.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Tree_01_Forked",
+      "type": "solid",
+      "sourceHash": "d1e71d4515be15fb711dbe58edb57d0c6348582111844eb37d8be96210022d83",
+      "modelHash": "b6781e25673a99833fa2b218385a2e45229abe7d251b749243d58e13a04ca2ae",
+      "contract": "contracts/FSA_ENV_Outdoor_Tree_01_Forked.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Tree_02_Broken",
+      "type": "solid",
+      "sourceHash": "5cd22ae40e418c2ad19e0c47b608550551d748f7c9355c874edb81422615ce34",
+      "modelHash": "6b546abbec58346952141aa5228e5b112f3d54fc877caebe1638d0d41e1172fb",
+      "contract": "contracts/FSA_ENV_Outdoor_Tree_02_Broken.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Tree_03_Windswept",
+      "type": "solid",
+      "sourceHash": "5ffaf435034ba8d9697f5cfb492c8a69e6fd2157b10e115df601f30e1c328f6c",
+      "modelHash": "3c5fd2cc7ae46780b3e17e95f2d50d625c9a4fbb56c4c0287aee93d8878ac06b",
+      "contract": "contracts/FSA_ENV_Outdoor_Tree_03_Windswept.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Tree_04_Twin",
+      "type": "solid",
+      "sourceHash": "0a2794aa402d7477802580785c21b4805f60a8ebb2f2138a3b967b56e27d832e",
+      "modelHash": "a66b5531c0c99ebd0045cce423e6a20610c0d4ca151685986a36e0e77cfebc1a",
+      "contract": "contracts/FSA_ENV_Outdoor_Tree_04_Twin.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Tree_05_Lightning",
+      "type": "solid",
+      "sourceHash": "dbe94ee6f58520ee45183328506f7b69ff412765881465582ff9bcab83648b69",
+      "modelHash": "fe863600c00a1eab8376885be42877632a4903bea659d1b14e045c10960ce773",
+      "contract": "contracts/FSA_ENV_Outdoor_Tree_05_Lightning.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Truck_01_Cargo",
+      "type": "solid",
+      "sourceHash": "7054bd31f2a065f25f44521293c8d9adc29d1d7ff0ade14076e409d51feac4b3",
+      "modelHash": "8c825aecc1d0a97a212022034f84d505d3265d0484b0bfe6c18deb431e2652a3",
+      "contract": "contracts/FSA_ENV_Outdoor_Truck_01_Cargo.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Outdoor_Truck_02_Tanker",
+      "type": "solid",
+      "sourceHash": "9756e3f60b24119a115fa5b07190714e979cc521c5c218564d5cab273149a432",
+      "modelHash": "e93735396aa8728834049606561baea86d62f48fdd7f080f425cb3cad2cd56f9",
+      "contract": "contracts/FSA_ENV_Outdoor_Truck_02_Tanker.environment.json"
+    }
+  ]
+}

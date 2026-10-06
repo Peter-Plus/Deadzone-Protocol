@@ -1,0 +1,499 @@
+{
+  "schemaVersion": "world-assets.v1",
+  "templateId": "warehouse",
+  "label": "开敞入口仓库",
+  "visualAsset": "generated/models/warehouse.glb",
+  "size": [
+    12,
+    10
+  ],
+  "floorElevation": 0.2,
+  "clearHeight": 3.8,
+  "doorWidth": 5,
+  "doorHeight": 3.6,
+  "foundation": {
+    "min": [
+      -6,
+      0,
+      -5
+    ],
+    "max": [
+      6,
+      0.2,
+      5
+    ]
+  },
+  "reservation": {
+    "min": [
+      -7,
+      -10
+    ],
+    "max": [
+      7,
+      10
+    ]
+  },
+  "colliders": [
+    {
+      "id": "floor",
+      "role": "floor",
+      "shape": "box",
+      "size": [
+        12,
+        0.2,
+        10
+      ],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_left",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        0.3,
+        3.8,
+        10
+      ],
+      "position": [
+        -5.85,
+        2.1,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_right",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        0.3,
+        3.8,
+        10
+      ],
+      "position": [
+        5.85,
+        2.1,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_back_L",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.5,
+        3.8,
+        0.3
+      ],
+      "position": [
+        -4.25,
+        2.1,
+        -4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_back_R",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.5,
+        3.8,
+        0.3
+      ],
+      "position": [
+        4.25,
+        2.1,
+        -4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lintel_back",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        5,
+        0.19999999999999973,
+        0.3
+      ],
+      "position": [
+        0,
+        3.9000000000000004,
+        -4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ramp_back",
+      "role": "ramp",
+      "shape": "box",
+      "size": [
+        5,
+        0.12,
+        3.006659275674582
+      ],
+      "position": [
+        0,
+        0.04013289052860347,
+        -6.496008859368573
+      ],
+      "rotation": [
+        -0.06656816377582381,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_front_L",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.5,
+        3.8,
+        0.3
+      ],
+      "position": [
+        -4.25,
+        2.1,
+        4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_front_R",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.5,
+        3.8,
+        0.3
+      ],
+      "position": [
+        4.25,
+        2.1,
+        4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lintel_front",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        5,
+        0.19999999999999973,
+        0.3
+      ],
+      "position": [
+        0,
+        3.9000000000000004,
+        4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ramp_front",
+      "role": "ramp",
+      "shape": "box",
+      "size": [
+        5,
+        0.12,
+        3.006659275674582
+      ],
+      "position": [
+        0,
+        0.04013289052860347,
+        6.496008859368573
+      ],
+      "rotation": [
+        0.06656816377582381,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "roof",
+      "role": "roof",
+      "shape": "box",
+      "size": [
+        12.3,
+        0.3,
+        10.3
+      ],
+      "position": [
+        0,
+        4.15,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "walkableSurfaces": [
+    {
+      "surfaceId": "interior-floor",
+      "kind": "floor",
+      "polygon": [
+        [
+          -6,
+          0.2,
+          -5
+        ],
+        [
+          6,
+          0.2,
+          -5
+        ],
+        [
+          6,
+          0.2,
+          5
+        ],
+        [
+          -6,
+          0.2,
+          5
+        ]
+      ],
+      "colliderId": "floor",
+      "subtractBlockers": "wall colliders; complete floor polygon includes doorway thresholds"
+    },
+    {
+      "surfaceId": "ramp_back",
+      "kind": "ramp",
+      "polygon": [
+        [
+          -2.5,
+          0.2,
+          -5
+        ],
+        [
+          2.5,
+          0.2,
+          -5
+        ],
+        [
+          2.5,
+          0,
+          -8
+        ],
+        [
+          -2.5,
+          0,
+          -8
+        ]
+      ],
+      "colliderId": "ramp_back"
+    },
+    {
+      "surfaceId": "ramp_front",
+      "kind": "ramp",
+      "polygon": [
+        [
+          -2.5,
+          0.2,
+          5
+        ],
+        [
+          2.5,
+          0.2,
+          5
+        ],
+        [
+          2.5,
+          0,
+          8
+        ],
+        [
+          -2.5,
+          0,
+          8
+        ]
+      ],
+      "colliderId": "ramp_front"
+    }
+  ],
+  "entrances": [
+    {
+      "entranceId": "warehouse--1",
+      "width": 5,
+      "clearHeight": 3.6,
+      "top": [
+        0,
+        0.2,
+        -5
+      ],
+      "bottom": [
+        0,
+        0,
+        -8
+      ],
+      "rampLength": 3,
+      "slopeDegrees": 3.8140748342903548,
+      "landing": {
+        "min": [
+          -2.5,
+          -10
+        ],
+        "max": [
+          2.5,
+          -8
+        ]
+      },
+      "surfaceId": "ramp_back"
+    },
+    {
+      "entranceId": "warehouse-1",
+      "width": 5,
+      "clearHeight": 3.6,
+      "top": [
+        0,
+        0.2,
+        5
+      ],
+      "bottom": [
+        0,
+        0,
+        8
+      ],
+      "rampLength": 3,
+      "slopeDegrees": 3.8140748342903548,
+      "landing": {
+        "min": [
+          -2.5,
+          8
+        ],
+        "max": [
+          2.5,
+          10
+        ]
+      },
+      "surfaceId": "ramp_front"
+    }
+  ],
+  "interiorRegions": [
+    {
+      "regionId": "warehouse-storage",
+      "tags": [
+        "indoor",
+        "loot-candidate"
+      ],
+      "min": [
+        -5.2,
+        -1.8
+      ],
+      "max": [
+        -3.1,
+        1.8
+      ],
+      "heightSource": "interior-floor",
+      "floorY": 0.2
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "entry--1",
+      "reason": "entrance-ramp-turning",
+      "min": [
+        -2.8,
+        -10
+      ],
+      "max": [
+        2.8,
+        -3
+      ]
+    },
+    {
+      "id": "entry-1",
+      "reason": "entrance-ramp-turning",
+      "min": [
+        -2.8,
+        3
+      ],
+      "max": [
+        2.8,
+        10
+      ]
+    },
+    {
+      "id": "main-route",
+      "reason": "main-circulation",
+      "polyline": [
+        [
+          0,
+          0.2,
+          -5
+        ],
+        [
+          0,
+          0.2,
+          5
+        ]
+      ],
+      "radius": 1.65
+    }
+  ],
+  "connections": {
+    "polyline": [
+      [
+        0,
+        0.2,
+        -5
+      ],
+      [
+        0,
+        0.2,
+        5
+      ]
+    ],
+    "clearWidth": 3.3,
+    "from": "warehouse--1",
+    "to": "warehouse-1"
+  }
+}

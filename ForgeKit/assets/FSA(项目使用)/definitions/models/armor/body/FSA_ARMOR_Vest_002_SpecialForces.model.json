@@ -1,0 +1,928 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ARMOR_Vest_002_SpecialForces",
+  "type": "static",
+  "materials": {
+    "olive": {
+      "color": "#58604A",
+      "roughness": 0.9
+    },
+    "edge": {
+      "color": "#303A30",
+      "roughness": 0.88
+    },
+    "black": {
+      "color": "#20282A",
+      "roughness": 0.87
+    },
+    "cloth": {
+      "color": "#606555",
+      "roughness": 1
+    },
+    "plate": {
+      "color": "#404C50",
+      "roughness": 0.72,
+      "metalness": 0.15
+    },
+    "metal": {
+      "color": "#778080",
+      "roughness": 0.45,
+      "metalness": 0.65
+    },
+    "tan": {
+      "color": "#AC9970",
+      "roughness": 0.92
+    },
+    "inside": {
+      "color": "#111819",
+      "roughness": 1
+    },
+    "rubber": {
+      "color": "#24282A",
+      "roughness": 1
+    }
+  },
+  "parts": [
+    {
+      "id": "Torso_-0_092",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.37,
+          0.34,
+          0.044
+        ]
+      },
+      "position": [
+        0,
+        0.17000000178813934,
+        -0.092
+      ],
+      "material": "black"
+    },
+    {
+      "id": "Upper_-0_092_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.126,
+          0.092,
+          0.042
+        ]
+      },
+      "position": [
+        -0.08,
+        0.36700000178813935,
+        -0.092
+      ],
+      "material": "black",
+      "rotation": [
+        0,
+        0,
+        12
+      ]
+    },
+    {
+      "id": "Upper_-0_092_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.126,
+          0.092,
+          0.042
+        ]
+      },
+      "position": [
+        0.08,
+        0.36700000178813935,
+        -0.092
+      ],
+      "material": "black",
+      "rotation": [
+        0,
+        0,
+        -12
+      ]
+    },
+    {
+      "id": "Torso_0_112",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.37,
+          0.34,
+          0.044
+        ]
+      },
+      "position": [
+        0,
+        0.17000000178813934,
+        0.112
+      ],
+      "material": "black"
+    },
+    {
+      "id": "Upper_0_112_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.126,
+          0.092,
+          0.042
+        ]
+      },
+      "position": [
+        -0.08,
+        0.36700000178813935,
+        0.112
+      ],
+      "material": "black",
+      "rotation": [
+        0,
+        0,
+        12
+      ]
+    },
+    {
+      "id": "Upper_0_112_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.126,
+          0.092,
+          0.042
+        ]
+      },
+      "position": [
+        0.08,
+        0.36700000178813935,
+        0.112
+      ],
+      "material": "black",
+      "rotation": [
+        0,
+        0,
+        -12
+      ]
+    },
+    {
+      "id": "Shoulder_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.24
+        ]
+      },
+      "position": [
+        -0.119,
+        0.42300000178813935,
+        0.01
+      ],
+      "material": "plate"
+    },
+    {
+      "id": "SideBand_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.033,
+          0.151,
+          0.213
+        ]
+      },
+      "position": [
+        -0.173,
+        0.14900000178813932,
+        0.009
+      ],
+      "material": "black"
+    },
+    {
+      "id": "StrapBuckle_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.041,
+          0.039,
+          0.016
+        ]
+      },
+      "position": [
+        -0.115,
+        0.3800000017881393,
+        0.14
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "ShoulderGuard_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.098,
+          0.127,
+          0.176
+        ]
+      },
+      "position": [
+        -0.219,
+        0.3750000017881393,
+        0.005
+      ],
+      "material": "plate",
+      "rotation": [
+        0,
+        0,
+        -22
+      ]
+    },
+    {
+      "id": "SidePlate_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.155,
+          0.154
+        ]
+      },
+      "position": [
+        -0.19,
+        0.19800000178813934,
+        0.025
+      ],
+      "material": "plate"
+    },
+    {
+      "id": "Shoulder_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.034,
+          0.24
+        ]
+      },
+      "position": [
+        0.119,
+        0.42300000178813935,
+        0.01
+      ],
+      "material": "plate"
+    },
+    {
+      "id": "SideBand_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.033,
+          0.151,
+          0.213
+        ]
+      },
+      "position": [
+        0.173,
+        0.14900000178813932,
+        0.009
+      ],
+      "material": "black"
+    },
+    {
+      "id": "StrapBuckle_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.041,
+          0.039,
+          0.016
+        ]
+      },
+      "position": [
+        0.115,
+        0.3800000017881393,
+        0.14
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "ShoulderGuard_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.098,
+          0.127,
+          0.176
+        ]
+      },
+      "position": [
+        0.219,
+        0.3750000017881393,
+        0.005
+      ],
+      "material": "plate",
+      "rotation": [
+        0,
+        0,
+        22
+      ]
+    },
+    {
+      "id": "SidePlate_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.155,
+          0.154
+        ]
+      },
+      "position": [
+        0.19,
+        0.19800000178813934,
+        0.025
+      ],
+      "material": "plate"
+    },
+    {
+      "id": "ChestPlate",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.273,
+          0.225,
+          0.036
+        ]
+      },
+      "position": [
+        0,
+        0.2650000017881393,
+        0.147
+      ],
+      "material": "plate"
+    },
+    {
+      "id": "ChestBevelL",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.208,
+          0.032
+        ]
+      },
+      "position": [
+        -0.146,
+        0.2600000017881393,
+        0.147
+      ],
+      "material": "plate",
+      "rotation": [
+        0,
+        0,
+        -9
+      ]
+    },
+    {
+      "id": "ChestBevelR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.208,
+          0.032
+        ]
+      },
+      "position": [
+        0.146,
+        0.2600000017881393,
+        0.147
+      ],
+      "material": "plate",
+      "rotation": [
+        0,
+        0,
+        9
+      ]
+    },
+    {
+      "id": "Abdomen",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.295,
+          0.089,
+          0.032
+        ]
+      },
+      "position": [
+        0,
+        0.08300000178813934,
+        0.155
+      ],
+      "material": "plate"
+    },
+    {
+      "id": "CollarL",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.08,
+          0.04,
+          0.045
+        ]
+      },
+      "position": [
+        -0.053,
+        0.3950000017881393,
+        0.118
+      ],
+      "material": "plate",
+      "rotation": [
+        0,
+        0,
+        16
+      ]
+    },
+    {
+      "id": "CollarR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.08,
+          0.04,
+          0.045
+        ]
+      },
+      "position": [
+        0.053,
+        0.3950000017881393,
+        0.118
+      ],
+      "material": "plate",
+      "rotation": [
+        0,
+        0,
+        -16
+      ]
+    },
+    {
+      "id": "Molle_0_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        -0.098,
+        0.21600000178813933,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_0_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        -0.049,
+        0.21600000178813933,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_0_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.21600000178813933,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_0_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        0.049,
+        0.21600000178813933,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_0_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        0.098,
+        0.21600000178813933,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        -0.098,
+        0.2590000017881393,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        -0.049,
+        0.2590000017881393,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.2590000017881393,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_1_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        0.049,
+        0.2590000017881393,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_1_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        0.098,
+        0.2590000017881393,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_2_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        -0.098,
+        0.3020000017881393,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_2_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        -0.049,
+        0.3020000017881393,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_2_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.3020000017881393,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_2_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        0.049,
+        0.3020000017881393,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Molle_2_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.04,
+          0.011,
+          0.009
+        ]
+      },
+      "position": [
+        0.098,
+        0.3020000017881393,
+        0.17
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Pouch_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.105,
+          0.115,
+          0.05
+        ]
+      },
+      "position": [
+        -0.087,
+        0.09500000178813933,
+        0.198
+      ],
+      "material": "black"
+    },
+    {
+      "id": "PouchFlap_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.113,
+          0.025,
+          0.055
+        ]
+      },
+      "position": [
+        -0.087,
+        0.14300000178813932,
+        0.203
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Snap_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.013,
+          0.013,
+          0.005
+        ]
+      },
+      "position": [
+        -0.087,
+        0.13700000178813934,
+        0.234
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "Pouch_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.105,
+          0.115,
+          0.05
+        ]
+      },
+      "position": [
+        0.087,
+        0.09500000178813933,
+        0.198
+      ],
+      "material": "black"
+    },
+    {
+      "id": "PouchFlap_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.113,
+          0.025,
+          0.055
+        ]
+      },
+      "position": [
+        0.087,
+        0.14300000178813932,
+        0.203
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Snap_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.013,
+          0.013,
+          0.005
+        ]
+      },
+      "position": [
+        0.087,
+        0.13700000178813934,
+        0.234
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "IDPatch",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.104,
+          0.03,
+          0.007
+        ]
+      },
+      "position": [
+        0,
+        0.3310000017881393,
+        0.169
+      ],
+      "material": "tan"
+    },
+    {
+      "id": "BackPanel",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.276,
+          0.247,
+          0.02
+        ]
+      },
+      "position": [
+        0,
+        0.23400000178813934,
+        -0.121
+      ],
+      "material": "plate"
+    },
+    {
+      "id": "CarryHandleL",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.04182104733265295,
+          0.018
+        ]
+      },
+      "position": [
+        -0.055,
+        0.38800000178813937,
+        -0.1315
+      ],
+      "material": "black",
+      "rotation": [
+        -9.637547932670179,
+        1.1721711516511775,
+        -13.837210015061505
+      ]
+    },
+    {
+      "id": "CarryHandleTop",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.1,
+          0.018
+        ]
+      },
+      "position": [
+        0,
+        0.40800000178813933,
+        -0.135
+      ],
+      "material": "black",
+      "rotation": [
+        0,
+        0,
+        -89.99999999999999
+      ]
+    },
+    {
+      "id": "CarryHandleR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.04182104733265295,
+          0.018
+        ]
+      },
+      "position": [
+        0.055,
+        0.38800000178813937,
+        -0.1315
+      ],
+      "material": "black",
+      "rotation": [
+        25.14417811409096,
+        -66.80075009419241,
+        -142.62735540239632
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "animation.v1",
+  "id": "animation.humanoid.idle",
+  "rig": "humanoid.v1",
+  "duration": 3,
+  "loop": true,
+  "mode": "generator",
+  "generator": "humanoid.idle",
+  "parameters": {
+    "breath": 1.8
+  }
+}

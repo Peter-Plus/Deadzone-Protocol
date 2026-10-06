@@ -1,0 +1,101 @@
+{
+  "schema": "forge-vfx.v1",
+  "effect": {
+    "schema": "effect.v1",
+    "id": "vfx_arena_boundary",
+    "name": "通用首领结界 · 赤紫能量幕",
+    "initialState": "appear",
+    "states": {
+      "appear": {
+        "duration": 1.4,
+        "loop": false,
+        "next": "active"
+      },
+      "active": {
+        "duration": 4,
+        "loop": true
+      },
+      "dissolve": {
+        "duration": 1.3,
+        "loop": false,
+        "next": "finished"
+      },
+      "finished": {
+        "duration": 1,
+        "loop": true
+      }
+    },
+    "variants": {},
+    "textures": {},
+    "layers": [
+      {
+        "id": "BoundaryCurtain",
+        "kind": "surface",
+        "shape": "barrier",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "accent": "#e776a8",
+        "detailScale": 1.1,
+        "speed": 0.7,
+        "rimWidth": 0.05,
+        "profiles": {
+          "appear": {
+            "strength": {
+              "keys": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0.25,
+                  0.45
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "interpolation": "smooth"
+            },
+            "expansion": 1
+          },
+          "active": {
+            "strength": 1,
+            "expansion": 1
+          },
+          "dissolve": {
+            "strength": {
+              "keys": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "interpolation": "smooth"
+            },
+            "expansion": 1
+          }
+        },
+        "render": {
+          "color": "#602544",
+          "opacity": 0.68,
+          "blend": "normal",
+          "depthTest": true,
+          "depthWrite": false
+        }
+      }
+    ]
+  }
+}

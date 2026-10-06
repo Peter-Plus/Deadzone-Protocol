@@ -1,0 +1,129 @@
+{
+  "schema": "animation.v1",
+  "id": "fsa.animation.base.land",
+  "rig": "humanoid.v1",
+  "duration": 0.32,
+  "loop": false,
+  "mode": "timeline",
+  "tracks": {
+    "Body": [
+      {
+        "time": 0,
+        "rotation": [
+          -4,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          9,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          -0.07,
+          0
+        ]
+      },
+      {
+        "time": 0.32,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Head": [
+      {
+        "time": 0,
+        "rotation": [
+          1.2,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          -2.6999999999999997,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.32,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Leg_L": [
+      {
+        "time": 0,
+        "rotation": [
+          -13,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          6,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.32,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Leg_R": [
+      {
+        "time": 0,
+        "rotation": [
+          18,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          -6,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.32,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

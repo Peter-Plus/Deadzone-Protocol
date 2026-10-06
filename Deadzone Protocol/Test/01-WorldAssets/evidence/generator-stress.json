@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "countCases": 60,
+  "configuration": "size=160, cell=1, counts=[12,15,16,17,18], seeds=stress-0..11",
+  "browserScene": {
+    "seed": "new-seed-042",
+    "buildings": 15,
+    "templateCounts": {
+      "through": 5,
+      "bent": 5,
+      "warehouse": 5
+    },
+    "settlements": [
+      {
+        "id": "A",
+        "name": "密集聚落 A",
+        "count": 6,
+        "nominalSpacing": 25
+      },
+      {
+        "id": "B",
+        "name": "疏散聚落 B",
+        "count": 5,
+        "nominalSpacing": 30
+      },
+      {
+        "id": "C",
+        "name": "线形聚落 C",
+        "count": 4,
+        "nominalSpacing": 31
+      }
+    ],
+    "heightMin": 0,
+    "heightMax": 2.200000047683716,
+    "relief": 2.200000047683716,
+    "maxSlopeDegrees": 11.607507976274904,
+    "maxEntranceSeamMeters": 4.372933881668928e-8,
+    "raisedBuildings": 15
+  },
+  "errors": []
+}

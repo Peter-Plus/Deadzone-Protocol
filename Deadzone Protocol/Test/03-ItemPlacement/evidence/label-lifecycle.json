@@ -1,0 +1,62 @@
+[
+  {
+    "meshes": 101,
+    "labels": 120,
+    "materials": 8,
+    "memory": {
+      "geometries": 157,
+      "textures": 21
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 120,
+    "materials": 8,
+    "memory": {
+      "geometries": 157,
+      "textures": 21
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 120,
+    "materials": 8,
+    "memory": {
+      "geometries": 157,
+      "textures": 21
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 120,
+    "materials": 8,
+    "memory": {
+      "geometries": 157,
+      "textures": 21
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 120,
+    "materials": 8,
+    "memory": {
+      "geometries": 157,
+      "textures": 21
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 120,
+    "materials": 8,
+    "memory": {
+      "geometries": 157,
+      "textures": 21
+    },
+    "bodies": 31
+  }
+]

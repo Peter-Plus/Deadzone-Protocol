@@ -1,0 +1,9 @@
+{
+  "schema": "model.v1",
+  "id": "example.humanoid",
+  "type": "humanoid",
+  "rig": "humanoid.v1",
+  "parameters": {
+    "height": 1.8
+  }
+}

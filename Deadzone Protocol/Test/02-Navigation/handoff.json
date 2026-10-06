@@ -1,0 +1,372 @@
+{
+  "schemaVersion": "navigation.v1",
+  "version": "1.0.0",
+  "status": "passed-with-documented-limitations",
+  "preview": "Play.html",
+  "readme": "README.md",
+  "report": "../../Production/Plan/工作项/报告/02-寻路验证报告.md",
+  "prerequisite": {
+    "schemaVersion": "world-assets.v1",
+    "generatorVersion": "1.0.0",
+    "generator": "src/world.mjs",
+    "unchangedCopy": true,
+    "sources": "evidence/sources.json"
+  },
+  "coordinates": {
+    "units": "meters",
+    "up": "+Y",
+    "forward": "+Z",
+    "rotation": "Euler XYZ radians",
+    "position": "[x,y,z]; actor position is capsule foot, building root foundation bottom",
+    "scale": 1
+  },
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "speed": 4.5
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "speed": 3
+    },
+    "B2": {
+      "radius": 1.34,
+      "height": 3.2,
+      "speed": 2.2
+    }
+  },
+  "randomStreams": {
+    "layout": "settlement-orientation.v1 + buildings.v1:<layoutAttempt>",
+    "terrain": "terrain.v1:<terrainAttempt>",
+    "enemySpawn": "enemies.v1",
+    "patrol": "patrol.v1 + patrol.v1:<actorId>:<simulationSecond>",
+    "lootReserved": "loot.v1; independent and tested"
+  },
+  "seeds": [
+    {
+      "seed": "104729",
+      "scene": "scenes/104729.json",
+      "spawns": "scenes/104729.spawns.json"
+    },
+    {
+      "seed": "20261005",
+      "scene": "scenes/20261005.json",
+      "spawns": "scenes/20261005.spawns.json"
+    },
+    {
+      "seed": "8675309",
+      "scene": "scenes/8675309.json",
+      "spawns": "scenes/8675309.spawns.json"
+    }
+  ],
+  "templates": [
+    "templates/through.json",
+    "templates/bent.json",
+    "templates/warehouse.json"
+  ],
+  "configuration": "config/default.json",
+  "commands": {
+    "build": "node src/build.mjs",
+    "check": "node src/verify.mjs",
+    "browser": "node src/browser-check.mjs",
+    "newSeed": "node src/generate.mjs --seed ANY_SEED --size 160 --count 15 --enemies 30",
+    "finalize": "node src/finalize.mjs"
+  },
+  "dependencies": {
+    "runtime": "Fully embedded in Play.html; no fetch/CDN/server",
+    "development": "Read-only parent ../../node_modules: Three.js, Rapier compat, esbuild; Node 22+",
+    "versions": {
+      "three": "0.180.0",
+      "@dimforge/rapier3d-compat": "0.21.0",
+      "esbuild": "0.28.2"
+    }
+  },
+  "api": {
+    "module": "src/navigation.mjs",
+    "construction": "new Navigation(scene, PROFILES[kind], 0.5); navs is {player,A1,B2}",
+    "facade": "spatialAPI(scene, navs) synchronous",
+    "buildings": "scene.buildings: instanceId/templateId/position/rotation/scale; templates() in src/world.mjs",
+    "interior": "templates[].interiorRegions; local min/max [x,z], floorY; transform to world; subtract walls + exclusions",
+    "outdoor": "scene.outdoorRegions",
+    "exclusions": "templates[].exclusions local rectangles or polylines with radius; transform for each instance; placement volume expansion remains required",
+    "support": "api.support(x,z) -> {height,normal,surfaceId} | null, synchronous; geometric support only, does not move an actor",
+    "transform": "src/world.mjs transform([x,y,z],instance), inverse(point,instance); synchronous",
+    "legal": "api.isLegal([x,y,z],kind) -> horizontal footprint / height clearance / slope boolean; query support separately for y",
+    "reachable": "api.reachable(from,to,kind) -> array of [x,y,z] | null; synchronous A*, target y must match support within 0.3m; static reachability, excludes dynamic crowd",
+    "physics": "src/simulation.mjs initialize() async WASM; new Simulation(scene,navs), add(kind,feet,id), route(actor,goal), tick(1/60), stats(), dispose(); only body translations from Rapier computeColliderMovement",
+    "browser": "window.navLab.spatial() exposes same read/query facade"
+  },
+  "notProvided": [
+    "production integration",
+    "combat/damage/loot/game loop",
+    "dynamic doors/destruction",
+    "multi-floor or jumping routes",
+    "hard real-time frame budget",
+    "continuous animated mesh swept-volume guarantee"
+  ],
+  "evidence": {
+    "static": "evidence/static-checks.json",
+    "physics": "evidence/physics-checks.json",
+    "browserPhysics": "evidence/browser-physics.json",
+    "browser": "evidence/browser-report.json",
+    "performance": "evidence/performance.json",
+    "assets": "evidence/asset-checks.json",
+    "extras": "evidence/extra-checks.json",
+    "isolation": "evidence/isolation.json"
+  },
+  "sourceAssets": [
+    {
+      "source": "Test/01-WorldAssets/src/world.mjs",
+      "path": "src/world.mjs",
+      "sha256": "1fddfda5402d9e9e427dca4f21c80122d4f6930db7cf986632e41fb8961c5477"
+    },
+    {
+      "source": "Test/01-WorldAssets/templates/through.json",
+      "path": "templates/through.json",
+      "sha256": "bca42bebf176e0589c67a79740be53ce25e417c08926465304cd34dd5db71f0e"
+    },
+    {
+      "source": "Test/01-WorldAssets/templates/bent.json",
+      "path": "templates/bent.json",
+      "sha256": "12887758086dde34358a4afdc6f67ea46c813829b42a7792f79fcac2a943ac60"
+    },
+    {
+      "source": "Test/01-WorldAssets/templates/warehouse.json",
+      "path": "templates/warehouse.json",
+      "sha256": "43718354061591fb7ece8ac7612b654f6c4be7c8c85358c63c51965574483068"
+    },
+    {
+      "source": "Test/01-WorldAssets/scenes/104729.json",
+      "path": "scenes/104729.json",
+      "sha256": "db84713f243d7c691bad5bc3fc4f70d743daeed4d96cbc7b24dd9362c752e0f8"
+    },
+    {
+      "source": "Test/01-WorldAssets/scenes/20261005.json",
+      "path": "scenes/20261005.json",
+      "sha256": "cc1cbb9dbfb6c237128f1f44894c50016b04d30a3e5609b8fc8896bb2b7df7ec"
+    },
+    {
+      "source": "Test/01-WorldAssets/scenes/8675309.json",
+      "path": "scenes/8675309.json",
+      "sha256": "f641012c188ad8b9a5632da9323b563aa907957bf4fb994572fcf018d48955ba"
+    },
+    {
+      "source": "Test/01-WorldAssets/generated/models/through.glb",
+      "path": "generated/models/through.glb",
+      "sha256": "aa8fe6b3635cfdca83edd053719b532c4cbd0e97af2f753872a47607dd934820"
+    },
+    {
+      "source": "Test/01-WorldAssets/generated/models/bent.glb",
+      "path": "generated/models/bent.glb",
+      "sha256": "fa1eeb103f7a5b0bd97feedb78465190a6bcb27baf8b3ef63659103fcee3a48f"
+    },
+    {
+      "source": "Test/01-WorldAssets/generated/models/warehouse.glb",
+      "path": "generated/models/warehouse.glb",
+      "sha256": "fbe1e56202b2720d2b64948140059cc05304d8cf4b849e01db4b08e66717727f"
+    },
+    {
+      "source": "Assets/models/characters/enemies/common/FSA_ENEMY_A001_ZombieA.glb",
+      "path": "assets/A1.glb",
+      "sha256": "1a3a50f89e6efd8c9774cadcda7b03942fbc4010a1225c58bd77a23de856318c"
+    },
+    {
+      "source": "Assets/models/characters/enemies/elite/FSA_ENEMY_B002_BurstAxeman.glb",
+      "path": "assets/B2.glb",
+      "sha256": "5e2baee1d60b2bf0b588665020eae7ae0bfb21920d6eab10b773dd893a68a635"
+    },
+    {
+      "source": "Assets/models/fps_arms/FSA_FPS_Arms_001_Base.glb",
+      "path": "assets/arms.glb",
+      "sha256": "678f56d9cfd23a475c6503e625176866668e9fcf2afde3ae98ebb5dd6a435247"
+    },
+    {
+      "source": "Assets/animations/characters/shared/FSA_ANIM_Character_Idle.anim.glb",
+      "path": "assets/enemyIdle.glb",
+      "sha256": "6fe773715b20052e4cbe824fc72757a8a0affda80cb6960dfa87583fe5ed3bb2"
+    },
+    {
+      "source": "Assets/animations/fps/unarmed/FSA_ANIM_FPS_Unarmed_Idle.anim.glb",
+      "path": "assets/fpsIdle.glb",
+      "sha256": "c0510f4ab19e99cf53107481be2536b7a9c331f6bb1ad151ac9d6f10dba3f64e"
+    },
+    {
+      "source": "Assets/animations/characters/shared/FSA_ANIM_Character_Walk.anim.glb",
+      "path": "assets/enemyWalk.glb",
+      "sha256": "f15f777c9377625059249e03382adf172ed9538863c506095ce89a623542368f"
+    },
+    {
+      "source": "Assets/animations/fps/unarmed/FSA_ANIM_FPS_Unarmed_Walk.anim.glb",
+      "path": "assets/fpsWalk.glb",
+      "sha256": "89cd4be16c11ccf2b86d50e7c8fef54376f4d8a9acffb5ae8cf3d4e327ee85fd"
+    },
+    {
+      "source": "Assets/animations/characters/shared/FSA_ANIM_Character_Run.anim.glb",
+      "path": "assets/enemyRun.glb",
+      "sha256": "f8d2ec350262b275da74c76f454092c268e55fbea77f25e66ed0dffa0fadddaf"
+    },
+    {
+      "source": "Assets/animations/fps/unarmed/FSA_ANIM_FPS_Unarmed_Run.anim.glb",
+      "path": "assets/fpsRun.glb",
+      "sha256": "0cbef44d3560cb88f18e73fb6cb6b611d991af3fb36bcb06b7962b84be60ca7c"
+    }
+  ],
+  "fileInventory": [
+    "assets/A1.glb",
+    "assets/arms.glb",
+    "assets/B2.glb",
+    "assets/embedded.json",
+    "assets/enemyIdle.glb",
+    "assets/enemyRun.glb",
+    "assets/enemyWalk.glb",
+    "assets/fpsIdle.glb",
+    "assets/fpsRun.glb",
+    "assets/fpsWalk.glb",
+    "config/default.json",
+    "evidence/01-random-world.png",
+    "evidence/02-b2-ramp.png",
+    "evidence/03-first-person.png",
+    "evidence/04-window-input.png",
+    "evidence/05-debug-layers.png",
+    "evidence/asset-checks.json",
+    "evidence/browser-failure.json",
+    "evidence/browser-interaction.json",
+    "evidence/browser-lifecycle-first-failure.json",
+    "evidence/browser-physics.json",
+    "evidence/browser-report.json",
+    "evidence/browser-stderr.txt",
+    "evidence/crowd-104729.png",
+    "evidence/crowd-20261005.png",
+    "evidence/crowd-8675309.png",
+    "evidence/extra-checks.json",
+    "evidence/final-check.json",
+    "evidence/isolation.json",
+    "evidence/live-inspection.json",
+    "evidence/performance-30.png",
+    "evidence/performance-50.png",
+    "evidence/performance-before-holding.json",
+    "evidence/performance.json",
+    "evidence/physics-checks.json",
+    "evidence/physics-first-failures.json",
+    "evidence/protected-before.json",
+    "evidence/README.md",
+    "evidence/realtime-104729.json",
+    "evidence/realtime-20261005.json",
+    "evidence/realtime-8675309.json",
+    "evidence/reset-lifecycle.json",
+    "evidence/sources.json",
+    "evidence/static-checks.json",
+    "generated/models/bent.glb",
+    "generated/models/through.glb",
+    "generated/models/warehouse.glb",
+    "package.json",
+    "Play.html",
+    "README.md",
+    "scenes/104729.json",
+    "scenes/104729.spawns.json",
+    "scenes/20261005.json",
+    "scenes/20261005.spawns.json",
+    "scenes/8675309.json",
+    "scenes/8675309.spawns.json",
+    "src/app.mjs",
+    "src/asset-check.mjs",
+    "src/browser-check.mjs",
+    "src/build.mjs",
+    "src/cases.mjs",
+    "src/check.mjs",
+    "src/extra-check.mjs",
+    "src/finalize.mjs",
+    "src/generate.mjs",
+    "src/inspect-browser.mjs",
+    "src/navigation.mjs",
+    "src/page.html",
+    "src/setup.mjs",
+    "src/simulation.mjs",
+    "src/verify.mjs",
+    "src/world.mjs",
+    "templates/bent.json",
+    "templates/through.json",
+    "templates/warehouse.json"
+  ],
+  "checksumAlgorithm": "SHA256",
+  "checksumScope": "Every delivered file except handoff itself; transient browser profiles and regenerable build/check.mjs excluded",
+  "checksums": {
+    "assets/A1.glb": "1a3a50f89e6efd8c9774cadcda7b03942fbc4010a1225c58bd77a23de856318c",
+    "assets/arms.glb": "678f56d9cfd23a475c6503e625176866668e9fcf2afde3ae98ebb5dd6a435247",
+    "assets/B2.glb": "5e2baee1d60b2bf0b588665020eae7ae0bfb21920d6eab10b773dd893a68a635",
+    "assets/embedded.json": "0976a51024f315dced42b14e6a05b21376659d23e1453f2f230fcc7fc6ec4f3e",
+    "assets/enemyIdle.glb": "6fe773715b20052e4cbe824fc72757a8a0affda80cb6960dfa87583fe5ed3bb2",
+    "assets/enemyRun.glb": "f8d2ec350262b275da74c76f454092c268e55fbea77f25e66ed0dffa0fadddaf",
+    "assets/enemyWalk.glb": "f15f777c9377625059249e03382adf172ed9538863c506095ce89a623542368f",
+    "assets/fpsIdle.glb": "c0510f4ab19e99cf53107481be2536b7a9c331f6bb1ad151ac9d6f10dba3f64e",
+    "assets/fpsRun.glb": "0cbef44d3560cb88f18e73fb6cb6b611d991af3fb36bcb06b7962b84be60ca7c",
+    "assets/fpsWalk.glb": "89cd4be16c11ccf2b86d50e7c8fef54376f4d8a9acffb5ae8cf3d4e327ee85fd",
+    "config/default.json": "ccc8a96e841c8206d57e979873b773a2c5fa2cfbd925683f659057375263d4f7",
+    "evidence/01-random-world.png": "22b4c64e4a41b64d9edd5c831f3068251f64f8621b88f637d94efc3379ba3733",
+    "evidence/02-b2-ramp.png": "5b7a758f40afd59fe9818416d615f22b48f633fc3e7734056aecf71d0b3e51d4",
+    "evidence/03-first-person.png": "80fb39c9b71ed5a46838192d81ecd41efa89d06a1ce7c9b0cb1ab1d813237588",
+    "evidence/04-window-input.png": "219b5af58b3cc56c2500ba5ab42b7c6484959f65036fcc0e07fd759e2cda3711",
+    "evidence/05-debug-layers.png": "ad7d857d7d88b5b763bb3304a276f106919aa2519a68ceff6de3df86d979cad6",
+    "evidence/asset-checks.json": "afb91612f442a34b92f4c43b4068f7ba1290a4df069990fa8d768e3857501e81",
+    "evidence/browser-failure.json": "821fc90102cf9bed20c369c4d9cb0d4663cf6124db3163ec742a3d6a2913ad4c",
+    "evidence/browser-interaction.json": "62c9cc2d9eb4d1c54031f488675e07fb8e04c7b05d92eb8701cba2f3f6c0ae84",
+    "evidence/browser-lifecycle-first-failure.json": "821fc90102cf9bed20c369c4d9cb0d4663cf6124db3163ec742a3d6a2913ad4c",
+    "evidence/browser-physics.json": "fe8435b4c166cd2723665fb89e305228d736fe172e9959b4b51b538c2b334b5a",
+    "evidence/browser-report.json": "d7ea546c90c57576fc935889407ea321cc03f2e2e2ca90eacf4fcaf1e3557a71",
+    "evidence/browser-stderr.txt": "d6361362e9be3de4ca4031ed69c3893d03f772559d6fc359bba25cea297310a4",
+    "evidence/crowd-104729.png": "5ad9ec8d1520cbddd54e7a32384d93edc79f7ca76863475ce3ff5007842bc545",
+    "evidence/crowd-20261005.png": "5b52784cbeb48ab1c6cd6f2c454ab0197b178076d582c9100c4a05498dcac6dd",
+    "evidence/crowd-8675309.png": "823c77fbd7acb862b2455dc6aaa88533a8db27fdc933e27af852680131523d31",
+    "evidence/extra-checks.json": "77c78791bd6d013a8684e225ddd96766057456ee9e0a61344823e57af3dba40c",
+    "evidence/final-check.json": "1de530a5cd5804f563177c7010bb514e72aa334fab1fe3232208d4a8250fdace",
+    "evidence/isolation.json": "49d687d189f8e58b92d520314b6bca7aa9a3a541736527d4687463b75b965198",
+    "evidence/live-inspection.json": "3a33dbd24dc0060e27c1f38f101b628d1aaf143770a157a254e721b59fb9da8a",
+    "evidence/performance-30.png": "0ac021c9a00caea114feb21ee9da9bf375b038567d9bcaa3c2b9b15d7b8906cd",
+    "evidence/performance-50.png": "5c6f06c74b5ca874ad17de71ab5b3922f0218125b6c8b3e9fea383f3216ecf1a",
+    "evidence/performance-before-holding.json": "9d7b5e2b8ad7bfa7b51ffc5a83a68620f215dce5685eb384994b9e08221a9177",
+    "evidence/performance.json": "126680161556913ddb3901874867e3440bc59e38d06cb0447df681b986130d39",
+    "evidence/physics-checks.json": "fe8435b4c166cd2723665fb89e305228d736fe172e9959b4b51b538c2b334b5a",
+    "evidence/physics-first-failures.json": "afa040cf44b15eb128670f565d8d0ce877906ab891e6cb280f3363a579b6c925",
+    "evidence/protected-before.json": "06b6700049aa16015dc38a194913245519d89ee4ead03c21ba0826b05044ddbc",
+    "evidence/README.md": "2206f1643e43c86fff9d1b6b9740fb0751f45fa8a7201b73c837b563e60a9cb0",
+    "evidence/realtime-104729.json": "129e0e1824538063aa7dd785b6a13a5fb07c63a10001fe0f9b9cd61110680354",
+    "evidence/realtime-20261005.json": "d34b735bfc424dcb7dec2988ebfe945fcce9749841f0fd4ed2642a2b65a296d0",
+    "evidence/realtime-8675309.json": "d0c1b1148ad59c3f7da0b82817ed7d910a69c69c4d298c1baff7c3bd27e74e58",
+    "evidence/reset-lifecycle.json": "cf0244205109b39649de39e6f473b089212eef1d554f651b84c4801a1e87df01",
+    "evidence/sources.json": "c4e8d4b17db3276ccc51a0ff21ba297d183b272acfbb0335e687747e7e1e35a4",
+    "evidence/static-checks.json": "fb8bb1761722d599450bdfe3cb65b7d826742437be9a07e4d1c02d307895e0ac",
+    "generated/models/bent.glb": "fa1eeb103f7a5b0bd97feedb78465190a6bcb27baf8b3ef63659103fcee3a48f",
+    "generated/models/through.glb": "aa8fe6b3635cfdca83edd053719b532c4cbd0e97af2f753872a47607dd934820",
+    "generated/models/warehouse.glb": "fbe1e56202b2720d2b64948140059cc05304d8cf4b849e01db4b08e66717727f",
+    "package.json": "e102d886d89d080fefb8c762470e897d68fb1abc03e2314d5cb5d7ae913304b3",
+    "Play.html": "8d0155f0a379508b0735e0eca305c77791755e01d55fb777de8db3bb24c6fb66",
+    "README.md": "50f7713dbe208a8cbe040556564a858fa6eb36730e25b0c708dd1471ac02c34e",
+    "scenes/104729.json": "db84713f243d7c691bad5bc3fc4f70d743daeed4d96cbc7b24dd9362c752e0f8",
+    "scenes/104729.spawns.json": "224c74bd2a0fad1935a9f13bb2ef923873312c390b5b19dd912edf48fe2a2a37",
+    "scenes/20261005.json": "cc1cbb9dbfb6c237128f1f44894c50016b04d30a3e5609b8fc8896bb2b7df7ec",
+    "scenes/20261005.spawns.json": "46fafbce81ab1c1cc7e3fe81cd16e29d42dacf1597510f56cd77c1723a4d43f3",
+    "scenes/8675309.json": "f641012c188ad8b9a5632da9323b563aa907957bf4fb994572fcf018d48955ba",
+    "scenes/8675309.spawns.json": "851894c40278dc0259753323ad7d19c3e6aa9ccad5e7f58a9ce16e91844de04b",
+    "src/app.mjs": "579c49a2a47592f7b9029a305dd3f6b7f4799eea124cb06ea14c3d702fc928be",
+    "src/asset-check.mjs": "0440047236fcd6aab2a674c5f6978a3ef757fbf8b21ceab0c51a42613274cb72",
+    "src/browser-check.mjs": "33f7529c2c0a55875b34368d4d241383f2d5ecd05d2b0454f881c7c9c920ec42",
+    "src/build.mjs": "a93cb9f5a78c7d4098a9dd137ccc8ee8a7a6eac5643eb801d4a86584293a897e",
+    "src/cases.mjs": "2a5a36f5808742e834d691883d7f5fe5bb9e80ed9e7628e160b4a59b276703be",
+    "src/check.mjs": "9e40ff6517a9dc1d6fe44cf21ee918609d291bfd9ed9562a49bdc253debb7177",
+    "src/extra-check.mjs": "f9a214deef337c615064d9ce1e348e5eecfcf640a9b771856297afc5053fc3e4",
+    "src/finalize.mjs": "38c6c098fc4cee7e7e5883254f6cc873763faf118a452b5f63fca60870b49a8c",
+    "src/generate.mjs": "0f6c44b46d82a4599449a4ced052f1540292a49b0ab45c35323a8e0f088f5196",
+    "src/inspect-browser.mjs": "e440cf2b0cb00c442f9df9b3b8031f344d76bc44fb93167ef62f0c7788cde9e8",
+    "src/navigation.mjs": "945d8cc030f105e25e20a342c05fbdac64136c44778618e821c1448edce5df8c",
+    "src/page.html": "f512e39ced399fa4fbf49496377687829d343766bf63aa66905a76f637db098f",
+    "src/setup.mjs": "d9b76dc8acec669ca23230fb3772f064d1aaef5ae4d1753a82332fe721e9da99",
+    "src/simulation.mjs": "0e4869159cb3b38fe14fbdd6bccdbd38168a705b72df497d6a3293db0374dc8a",
+    "src/verify.mjs": "31a972a99abaa06021fb22dc8b6a2f84f60c54edb849713e5a6570231bb7a7e0",
+    "src/world.mjs": "1fddfda5402d9e9e427dca4f21c80122d4f6930db7cf986632e41fb8961c5477",
+    "templates/bent.json": "12887758086dde34358a4afdc6f67ea46c813829b42a7792f79fcac2a943ac60",
+    "templates/through.json": "bca42bebf176e0589c67a79740be53ce25e417c08926465304cd34dd5db71f0e",
+    "templates/warehouse.json": "43718354061591fb7ece8ac7612b654f6c4be7c8c85358c63c51965574483068"
+  }
+}

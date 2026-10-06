@@ -1,0 +1,193 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_PRJ_002_ShadowDart",
+  "type": "static",
+  "materials": {
+    "metal": {
+      "color": "#343040",
+      "metalness": 0.7,
+      "roughness": 0.34
+    },
+    "edge": {
+      "color": "#AC9CBE",
+      "metalness": 0.75,
+      "roughness": 0.3
+    },
+    "purple": {
+      "color": "#694389",
+      "emissive": "#241035",
+      "roughness": 0.55
+    }
+  },
+  "parts": [
+    {
+      "id": "Core",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.025
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "metal",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        3.8
+      ]
+    },
+    {
+      "id": "Spearhead",
+      "shape": {
+        "type": "cone",
+        "radius": 0.072,
+        "height": 0.24,
+        "radialSegments": 4
+      },
+      "position": [
+        0,
+        0,
+        0.105
+      ],
+      "material": "edge",
+      "rotation": [
+        90,
+        45,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        0.3
+      ]
+    },
+    {
+      "id": "RearSpike",
+      "shape": {
+        "type": "cone",
+        "radius": 0.024,
+        "height": 0.13,
+        "radialSegments": 4
+      },
+      "position": [
+        0,
+        0,
+        -0.12
+      ],
+      "material": "metal",
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Barb_0",
+      "shape": {
+        "type": "cone",
+        "radius": 0.04,
+        "height": 0.115,
+        "radialSegments": 3
+      },
+      "position": [
+        -0.047,
+        0,
+        -0.047
+      ],
+      "material": "metal",
+      "rotation": [
+        -90,
+        0,
+        -22
+      ],
+      "scale": [
+        1,
+        1,
+        0.28
+      ]
+    },
+    {
+      "id": "Barb_1",
+      "shape": {
+        "type": "cone",
+        "radius": 0.04,
+        "height": 0.115,
+        "radialSegments": 3
+      },
+      "position": [
+        0.047,
+        0,
+        -0.047
+      ],
+      "material": "metal",
+      "rotation": [
+        -90,
+        0,
+        22
+      ],
+      "scale": [
+        1,
+        1,
+        0.28
+      ]
+    },
+    {
+      "id": "Inlay",
+      "shape": {
+        "type": "cone",
+        "radius": 0.019,
+        "height": 0.13,
+        "radialSegments": 4
+      },
+      "position": [
+        0,
+        0.011,
+        0.071
+      ],
+      "material": "purple",
+      "rotation": [
+        90,
+        45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.18
+      ]
+    }
+  ],
+  "sockets": [
+    {
+      "id": "VFX_Anchor",
+      "parent": "Core",
+      "position": [
+        0,
+        0,
+        0.052631578947368425
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.2631578947368421
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Scrap_03_Pipes",
+  "label": "废料堆／锈蚀管材束",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -1.6,
+      -1.73
+    ],
+    "max": [
+      1.6,
+      1.74
+    ]
+  },
+  "colliders": [
+    {
+      "node": "BearerA",
+      "role": "solid",
+      "position": [
+        0,
+        0.08,
+        -0.85
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.5,
+        0.16,
+        0.23
+      ]
+    },
+    {
+      "node": "BearerB",
+      "role": "solid",
+      "position": [
+        0,
+        0.08,
+        0.85
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.5,
+        0.16,
+        0.23
+      ]
+    },
+    {
+      "node": "PipeCore0",
+      "role": "solid",
+      "position": [
+        -0.87,
+        0.46,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.4,
+        0.4,
+        2.3
+      ]
+    },
+    {
+      "node": "PipeCore1",
+      "role": "solid",
+      "position": [
+        -0.30000000000000004,
+        0.46,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.4,
+        0.4,
+        2.75
+      ]
+    },
+    {
+      "node": "PipeCore2",
+      "role": "solid",
+      "position": [
+        0.2699999999999999,
+        0.46,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.4,
+        0.4,
+        2.3
+      ]
+    },
+    {
+      "node": "PipeCore3",
+      "role": "solid",
+      "position": [
+        0.84,
+        0.46,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.4,
+        0.4,
+        2.75
+      ]
+    },
+    {
+      "node": "UpperCore0",
+      "role": "solid",
+      "position": [
+        -0.6,
+        0.98,
+        0.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.37,
+        0.37,
+        2.4
+      ]
+    },
+    {
+      "node": "UpperCore1",
+      "role": "solid",
+      "position": [
+        -0.030000000000000027,
+        0.98,
+        0.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.37,
+        0.37,
+        2.4
+      ]
+    },
+    {
+      "node": "UpperCore2",
+      "role": "solid",
+      "position": [
+        0.5399999999999999,
+        0.98,
+        0.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.37,
+        0.37,
+        2.4
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "modelAsset": "models/FSA_ENV_Outdoor_Scrap_03_Pipes.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -1.25,
+      1.7881393449270533e-9,
+      -1.375
+    ],
+    "max": [
+      1.25,
+      1.252499998807907,
+      1.389000000052154
+    ]
+  },
+  "checks": [],
+  "sourceHash": "4e641660309f8e2ed9a30771e34b9d126d02f976b96e606b90c41d1a7c2f86d9",
+  "modelHash": "adadaa317e6e250fb2f0a961ad30c6a171a09a393726360547b82a52a0ddf9d9"
+}

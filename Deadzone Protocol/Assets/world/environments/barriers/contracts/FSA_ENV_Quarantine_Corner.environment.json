@@ -1,0 +1,486 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Quarantine_Corner",
+  "label": "隔离区通透铁栏 / 3m 转角",
+  "type": "barrier",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3.2,
+      -0.3
+    ],
+    "max": [
+      0.3,
+      3.2
+    ]
+  },
+  "colliders": [
+    {
+      "node": "X_ContinuousBlocker",
+      "role": "barrier",
+      "position": [
+        -1.5,
+        1.4,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3,
+        2.8,
+        0.25
+      ]
+    },
+    {
+      "node": "X_Foot",
+      "role": "barrier",
+      "position": [
+        -1.5,
+        0.11,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3,
+        0.22,
+        0.38
+      ]
+    },
+    {
+      "node": "X_Rail0_5",
+      "role": "barrier",
+      "position": [
+        -1.5,
+        0.5,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "X_Rail2_45",
+      "role": "barrier",
+      "position": [
+        -1.5,
+        2.45,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "X_Post0",
+      "role": "barrier",
+      "position": [
+        -3,
+        1.4,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.22,
+        2.8,
+        0.42
+      ]
+    },
+    {
+      "node": "X_Cap0",
+      "role": "barrier",
+      "position": [
+        -3,
+        2.755,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Collar0",
+      "role": "barrier",
+      "position": [
+        -3,
+        0.24,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Post3",
+      "role": "barrier",
+      "position": [
+        0,
+        1.4,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.22,
+        2.8,
+        0.42
+      ]
+    },
+    {
+      "node": "X_Cap3",
+      "role": "barrier",
+      "position": [
+        0,
+        2.755,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Collar3",
+      "role": "barrier",
+      "position": [
+        0,
+        0.24,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    },
+    {
+      "node": "Z_ContinuousBlocker",
+      "role": "barrier",
+      "position": [
+        0,
+        1.4,
+        1.5
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        3,
+        2.8,
+        0.25
+      ]
+    },
+    {
+      "node": "Z_Foot",
+      "role": "barrier",
+      "position": [
+        0,
+        0.11,
+        1.5
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        3,
+        0.22,
+        0.38
+      ]
+    },
+    {
+      "node": "Z_Rail0_5",
+      "role": "barrier",
+      "position": [
+        0,
+        0.5,
+        1.5
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        3,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "Z_Rail2_45",
+      "role": "barrier",
+      "position": [
+        0,
+        2.45,
+        1.5
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        3,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "Z_Post0",
+      "role": "barrier",
+      "position": [
+        0,
+        1.4,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.22,
+        2.8,
+        0.42
+      ]
+    },
+    {
+      "node": "Z_Cap0",
+      "role": "barrier",
+      "position": [
+        0,
+        2.755,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "Z_Collar0",
+      "role": "barrier",
+      "position": [
+        0,
+        0.24,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    },
+    {
+      "node": "Z_Post3",
+      "role": "barrier",
+      "position": [
+        0,
+        1.4,
+        3
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.22,
+        2.8,
+        0.42
+      ]
+    },
+    {
+      "node": "Z_Cap3",
+      "role": "barrier",
+      "position": [
+        0,
+        2.755,
+        3
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "Z_Collar3",
+      "role": "barrier",
+      "position": [
+        0,
+        0.24,
+        3
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [
+    {
+      "id": "West",
+      "position": [
+        -3,
+        0,
+        0
+      ],
+      "outward": [
+        -1,
+        0,
+        0
+      ],
+      "height": 2.8,
+      "thickness": 0.25
+    },
+    {
+      "id": "North",
+      "position": [
+        0,
+        0,
+        3
+      ],
+      "outward": [
+        0,
+        0,
+        1
+      ],
+      "height": 2.8,
+      "thickness": 0.25
+    }
+  ],
+  "modelAsset": "models/FSA_ENV_Quarantine_Corner.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -3.1500000059604645,
+      5.960464483090178e-10,
+      -0.23000000417232513
+    ],
+    "max": [
+      0.23000000417232516,
+      2.8000000017881392,
+      3.1500000059604645
+    ]
+  },
+  "checks": [],
+  "sourceHash": "58328f79db9965522d8de65e4cd028f06e8cceebd64964f4b1d4263bed0ea5e4",
+  "modelHash": "b8d806f7fe7198864064a8d34054d04e9191e68ae32ff262c0adf804d37c50ee"
+}

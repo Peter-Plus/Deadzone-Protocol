@@ -1,0 +1,295 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_Consumable_007_Coolant",
+  "type": "static",
+  "materials": {
+    "white": {
+      "color": "#D9DACD",
+      "roughness": 0.92
+    },
+    "dark": {
+      "color": "#293638",
+      "roughness": 0.78
+    },
+    "metal": {
+      "color": "#929D9E",
+      "metalness": 0.7,
+      "roughness": 0.4
+    },
+    "red": {
+      "color": "#A8463D",
+      "roughness": 0.65
+    },
+    "orange": {
+      "color": "#D2A13D",
+      "roughness": 0.68
+    },
+    "blue": {
+      "color": "#397B98",
+      "roughness": 0.65
+    },
+    "green": {
+      "color": "#568A70",
+      "roughness": 0.65
+    },
+    "purple": {
+      "color": "#70688B",
+      "roughness": 0.65
+    },
+    "label": {
+      "color": "#DFD5B8",
+      "roughness": 0.95
+    },
+    "hole": {
+      "color": "#101B20",
+      "roughness": 1
+    }
+  },
+  "parts": [
+    {
+      "id": "TankBase",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.032,
+        "radiusBottom": 0.032,
+        "height": 0.016
+      },
+      "position": [
+        0,
+        0.00800000037997961,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "TankBody",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.029,
+        "radiusBottom": 0.029,
+        "height": 0.106
+      },
+      "position": [
+        0,
+        0.06700000037997961,
+        0
+      ],
+      "material": "blue"
+    },
+    {
+      "id": "Shoulder",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.015,
+        "radiusBottom": 0.029,
+        "height": 0.016
+      },
+      "position": [
+        0,
+        0.1240000003799796,
+        0
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "ValveNeck",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.012,
+        "radiusBottom": 0.012,
+        "height": 0.016
+      },
+      "position": [
+        0,
+        0.13900000037997962,
+        0
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "Valve",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.02,
+          0.016,
+          0.02
+        ]
+      },
+      "position": [
+        0,
+        0.1510000003799796,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "Outlet",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.006,
+        "radiusBottom": 0.006,
+        "height": 0.026
+      },
+      "position": [
+        0.02,
+        0.1510000003799796,
+        0
+      ],
+      "material": "metal",
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "ValveGuard_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.008,
+          0.06,
+          0.012
+        ]
+      },
+      "position": [
+        -0.025,
+        0.1410000003799796,
+        -0.014
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "ValveGuard_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.008,
+          0.06,
+          0.012
+        ]
+      },
+      "position": [
+        0.025,
+        0.1410000003799796,
+        -0.014
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "GuardBridge",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.057,
+          0.008,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.16900000037997961,
+        -0.014
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "CoolingMark_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.004,
+          0.037,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.07500000037997961,
+        0.029
+      ],
+      "material": "white",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "CoolingMark_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.004,
+          0.037,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.07500000037997961,
+        0.029
+      ],
+      "material": "white",
+      "rotation": [
+        0,
+        0,
+        60
+      ]
+    },
+    {
+      "id": "CoolingMark_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.004,
+          0.037,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.07500000037997961,
+        0.029
+      ],
+      "material": "white",
+      "rotation": [
+        0,
+        0,
+        120
+      ]
+    },
+    {
+      "id": "LowerBand",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.03,
+        "radiusBottom": 0.03,
+        "height": 0.011
+      },
+      "position": [
+        0,
+        0.02500000037997961,
+        0
+      ],
+      "material": "white"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "Grip_R",
+      "parent": "TankBase",
+      "position": [
+        0,
+        0.131,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        180
+      ]
+    }
+  ]
+}

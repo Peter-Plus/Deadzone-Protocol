@@ -1,0 +1,396 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_PRJ_003_SeekingFirebolt",
+  "type": "static",
+  "materials": {
+    "core": {
+      "color": "#D85D17",
+      "emissive": "#502005",
+      "roughness": 0.55
+    },
+    "hot": {
+      "color": "#FFB44A",
+      "emissive": "#673009",
+      "roughness": 0.6
+    },
+    "shell": {
+      "color": "#382B29",
+      "roughness": 0.92
+    },
+    "edge": {
+      "color": "#6D3C2C",
+      "roughness": 0.84
+    }
+  },
+  "parts": [
+    {
+      "id": "Core",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.145
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "core",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1.62
+      ]
+    },
+    {
+      "id": "Nose",
+      "shape": {
+        "type": "cone",
+        "radius": 0.11,
+        "height": 0.19,
+        "radialSegments": 7
+      },
+      "position": [
+        0,
+        0,
+        0.205
+      ],
+      "material": "hot",
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shell_0",
+      "shape": {
+        "type": "cone",
+        "radius": 0.068,
+        "height": 0.39,
+        "radialSegments": 5
+      },
+      "position": [
+        0.104,
+        0,
+        -0.012
+      ],
+      "material": "shell",
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.65
+      ]
+    },
+    {
+      "id": "Tail_0",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.19,
+        "radialSegments": 5
+      },
+      "position": [
+        0.087,
+        0,
+        -0.225
+      ],
+      "material": "edge",
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shell_1",
+      "shape": {
+        "type": "cone",
+        "radius": 0.068,
+        "height": 0.39,
+        "radialSegments": 5
+      },
+      "position": [
+        0.05200000000000001,
+        0.09006664199358161,
+        -0.012
+      ],
+      "material": "shell",
+      "rotation": [
+        90,
+        0,
+        60
+      ],
+      "scale": [
+        1,
+        1,
+        0.65
+      ]
+    },
+    {
+      "id": "Tail_1",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.19,
+        "radialSegments": 5
+      },
+      "position": [
+        0.043500000000000004,
+        0.07534421012924615,
+        -0.225
+      ],
+      "material": "edge",
+      "rotation": [
+        -90,
+        0,
+        60
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shell_2",
+      "shape": {
+        "type": "cone",
+        "radius": 0.068,
+        "height": 0.39,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.05199999999999998,
+        0.09006664199358162,
+        -0.012
+      ],
+      "material": "shell",
+      "rotation": [
+        90,
+        0,
+        120
+      ],
+      "scale": [
+        1,
+        1,
+        0.65
+      ]
+    },
+    {
+      "id": "Tail_2",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.19,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.043499999999999976,
+        0.07534421012924616,
+        -0.225
+      ],
+      "material": "edge",
+      "rotation": [
+        -90,
+        0,
+        120
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shell_3",
+      "shape": {
+        "type": "cone",
+        "radius": 0.068,
+        "height": 0.39,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.104,
+        1.2736326711132473e-17,
+        -0.012
+      ],
+      "material": "shell",
+      "rotation": [
+        90,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        0.65
+      ]
+    },
+    {
+      "id": "Tail_3",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.19,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.087,
+        1.0654427152581972e-17,
+        -0.225
+      ],
+      "material": "edge",
+      "rotation": [
+        -90,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shell_4",
+      "shape": {
+        "type": "cone",
+        "radius": 0.068,
+        "height": 0.39,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.052000000000000046,
+        -0.0900666419935816,
+        -0.012
+      ],
+      "material": "shell",
+      "rotation": [
+        90,
+        0,
+        240
+      ],
+      "scale": [
+        1,
+        1,
+        0.65
+      ]
+    },
+    {
+      "id": "Tail_4",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.19,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.04350000000000004,
+        -0.07534421012924614,
+        -0.225
+      ],
+      "material": "edge",
+      "rotation": [
+        -90,
+        0,
+        240
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shell_5",
+      "shape": {
+        "type": "cone",
+        "radius": 0.068,
+        "height": 0.39,
+        "radialSegments": 5
+      },
+      "position": [
+        0.05200000000000001,
+        -0.09006664199358161,
+        -0.012
+      ],
+      "material": "shell",
+      "rotation": [
+        90,
+        0,
+        300
+      ],
+      "scale": [
+        1,
+        1,
+        0.65
+      ]
+    },
+    {
+      "id": "Tail_5",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.19,
+        "radialSegments": 5
+      },
+      "position": [
+        0.043500000000000004,
+        -0.07534421012924615,
+        -0.225
+      ],
+      "material": "edge",
+      "rotation": [
+        -90,
+        0,
+        300
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "sockets": [
+    {
+      "id": "VFX_Anchor",
+      "parent": "Core",
+      "position": [
+        0,
+        0,
+        0.14814814814814814
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.6172839506172839
+      ]
+    }
+  ]
+}

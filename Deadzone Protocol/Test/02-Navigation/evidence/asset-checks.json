@@ -1,0 +1,126 @@
+{
+  "method": "121 samples per clip, precise world-space transformed vertex radial extent; independent mixer and canonical translation retarget; not a continuous swept mesh proof.",
+  "characters": {
+    "A1": {
+      "scale": 1,
+      "clips": {
+        "Idle": {
+          "radius": 0.3529466628283657,
+          "min": [
+            -0.3375000175570577,
+            -0.005417407791268088,
+            -0.19359576223864863
+          ],
+          "max": [
+            0.3375000175570577,
+            1.8300809638296944,
+            0.2747162951552324
+          ],
+          "profileRadius": 0.78,
+          "insideNavigationCylinder": true
+        },
+        "Walk": {
+          "radius": 0.5335078311935452,
+          "min": [
+            -0.3375000167273347,
+            -0.017963227355640016,
+            -0.48914374664140803
+          ],
+          "max": [
+            0.3375000167273347,
+            1.839465408525431,
+            0.455925115584064
+          ],
+          "profileRadius": 0.78,
+          "insideNavigationCylinder": true
+        },
+        "Run": {
+          "radius": 0.7233065736786143,
+          "min": [
+            -0.33750001210062114,
+            -0.019452553350880773,
+            -0.6912332446144719
+          ],
+          "max": [
+            0.33750001210062114,
+            1.8403620808042218,
+            0.5509500853338927
+          ],
+          "profileRadius": 0.78,
+          "insideNavigationCylinder": true
+        }
+      }
+    },
+    "B2": {
+      "scale": 1,
+      "clips": {
+        "Idle": {
+          "radius": 0.8567856332887143,
+          "min": [
+            -0.5080000474935993,
+            -0.0070425996118600245,
+            -0.23544810528088717
+          ],
+          "max": [
+            0.5066407835321036,
+            2.4160040971286407,
+            0.7506748029663388
+          ],
+          "profileRadius": 1.34,
+          "insideNavigationCylinder": true
+        },
+        "Walk": {
+          "radius": 1.0885593123376418,
+          "min": [
+            -0.5080000452577143,
+            -0.023826288188460665,
+            -0.6358868664244093
+          ],
+          "max": [
+            0.5066407776759642,
+            2.4294787176678976,
+            1.0071704554090053
+          ],
+          "profileRadius": 1.34,
+          "insideNavigationCylinder": true
+        },
+        "Run": {
+          "radius": 1.2705081077813167,
+          "min": [
+            -0.5080000327899392,
+            -0.02535373642815731,
+            -0.898603214592302
+          ],
+          "max": [
+            0.5066407839938554,
+            2.440131306977747,
+            1.2209069040869758
+          ],
+          "profileRadius": 1.34,
+          "insideNavigationCylinder": true
+        }
+      }
+    }
+  },
+  "fps": {
+    "requiredNodes": true,
+    "clips": [
+      {
+        "name": "Idle",
+        "duration": 2.4000000953674316,
+        "tracksBound": true
+      },
+      {
+        "name": "Walk",
+        "duration": 0.8999999761581421,
+        "tracksBound": true
+      },
+      {
+        "name": "Run",
+        "duration": 0.6200000047683716,
+        "tracksBound": true
+      }
+    ]
+  },
+  "passed": true
+}

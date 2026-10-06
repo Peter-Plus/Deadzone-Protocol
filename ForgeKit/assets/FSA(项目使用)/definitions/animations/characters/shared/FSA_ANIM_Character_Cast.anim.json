@@ -1,0 +1,33 @@
+{
+  "schema": "animation.v1",
+  "id": "FSA_ANIM_Character_Cast",
+  "rig": "humanoid.v1",
+  "mode": "timeline",
+  "duration": 1.12,
+  "loop": false,
+  "tracks": {
+    "Body": [
+      { "time": 0, "rotation": [2, 0, 0] },
+      { "time": 1.12, "rotation": [2, 0, 0] }
+    ],
+    "Head": [
+      { "time": 0, "rotation": [0, 0, 0] },
+      { "time": 0.52, "rotation": [-5, 0, 0] },
+      { "time": 1.12, "rotation": [-5, 0, 0] }
+    ],
+    "Arm_L": [
+      { "time": 0, "rotation": [0, 0, -90] },
+      { "time": 0.52, "rotation": [-13, 0, -81] },
+      { "time": 1.12, "rotation": [-13, 0, -81] }
+    ],
+    "Arm_R": [
+      { "time": 0, "rotation": [0, 0, 90] },
+      { "time": 0.22, "rotation": [-136, 0, 78] },
+      { "time": 0.56, "rotation": [-86, 0, 90] },
+      { "time": 0.84, "rotation": [-86, 0, 90] },
+      { "time": 0.92, "rotation": [-80, 2, 88] },
+      { "time": 0.98, "rotation": [-89, -2, 90] },
+      { "time": 1.12, "rotation": [-86, 0, 90] }
+    ]
+  }
+}

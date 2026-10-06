@@ -1,0 +1,26 @@
+{
+  "schema": "model.v1",
+  "id": "example.crate",
+  "type": "static",
+  "parts": [
+    {
+      "id": "crate",
+      "shape": {
+        "type": "box",
+        "size": [
+          1,
+          1,
+          1
+        ]
+      },
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "material": {
+        "color": "#b78653"
+      }
+    }
+  ]
+}

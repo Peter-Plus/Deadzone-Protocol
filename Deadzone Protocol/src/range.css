@@ -1,0 +1,34 @@
+.range-app { position: relative; width: 100%; height: 100svh; min-height: 430px; overflow: hidden; background: #172630; }
+.range-viewport { position: absolute; inset: 0; }
+.range-viewport canvas { outline: none; }
+.range-brand { position: absolute; top: 26px; left: 28px; pointer-events: none; }
+.range-brand span { color: #c4d8bc; letter-spacing: 2px; font-size: 10px; }
+.range-brand h1 { font-size: 23px; letter-spacing: 3px; margin: 8px 0; }
+.range-brand p { font-size: 11px; color: #a6b6bc; }
+.range-top { position: absolute; top: 24px; right: 26px; display: flex; align-items: center; gap: 18px; font-size: 12px; text-shadow: 0 2px 5px #000; }
+.range-top button { flex: none; background: #172329c9; border-color: #607075; font-size: 11px; padding: 8px 13px; }
+.range-bottom { position: absolute; bottom: 26px; left: 28px; right: 28px; display: flex; align-items: end; justify-content: space-between; pointer-events: none; text-shadow: 0 2px 4px #000; }
+.range-hints { font-size: 11px; line-height: 1.8; color: #c2cec9; }
+.ammo { text-align: right; display: flex; flex-direction: column; gap: 5px; }
+.ammo small { font-size: 10px; letter-spacing: 2px; color: #bfcdba; }
+.ammo strong { font-size: 30px; font-variant-numeric: tabular-nums; letter-spacing: 2px; }
+.ammo span { font-size: 11px; color: #c5d5c7; }
+.crosshair { pointer-events: none; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.crosshair i { display: block; width: 4px; height: 4px; background: #eef6dd; border-radius: 50%; box-shadow: 0 0 2px 1px #0008; }
+.crosshair b { position: absolute; display: none; top: -14px; left: -9px; color: #e2fcad; font-size: 24px; font-weight: 400; }
+.crosshair.hit b { display: block; }
+.range-overlay { position: absolute; inset: 0; background: #0711179e; backdrop-filter: blur(4px); display: grid; place-items: center; padding: 22px; overflow-y: auto; }
+.range-overlay[hidden] { display: none; }
+.range-card { width: min(500px, 100%); padding: 30px; background: #101e26f5; border: 1px solid #435852; border-radius: 8px; box-shadow: 0 12px 70px #0005; }
+.range-eyebrow { font-size: 10px; letter-spacing: 2px; color: #b6d394; }
+.range-card h2 { margin: 15px 0; font-size: 24px; font-weight: 600; }
+.range-card p { font-size: 13px; color: #b4c5c8; line-height: 1.9; }
+.range-card .range-summary { color: #dcecc6; font-size: 12px; }
+.range-buttons { display: flex; flex-direction: column; gap: 9px; margin-top: 20px; }
+.range-buttons button { font-size: 13px; padding: 12px; }
+.range-buttons button:first-child { background: #c4dc9b; color: #17271c; border-color: #c4dc9b; font-weight: 600; }
+.range-buttons button:disabled { opacity: 0.4; cursor: wait; }
+.range-card .range-note { font-size: 11px; color: #91a6ad; }
+.range-card .range-message { color: #e5c28c; min-height: 20px; }
+.range-card a { color: #a6b6ba; font-size: 11px; }
+@media(max-width:760px) { .range-brand { left: 18px; top: 16px; } .range-top { top: 90px; left: 18px; right: 18px; justify-content: space-between; font-size: 10px; } .range-card { padding: 22px; } .range-card h2 { font-size: 20px; } .range-bottom { left: 16px; right: 16px; bottom: 18px; } .range-hints { max-width: 55%; font-size: 10px; } .ammo strong { font-size: 24px; } }

@@ -1,0 +1,20 @@
+{
+  "schema": "forge-interactable-feedback.v1",
+  "fire": {
+    "color": "#ff691f",
+    "shape": "rising shards"
+  },
+  "poison": {
+    "color": "#83df43",
+    "shape": "orbiting globules"
+  },
+  "unlockDuration": 0.65,
+  "sync": {
+    "rise": 0.6,
+    "peak": 1.2,
+    "gather": 1.3,
+    "settle": 1.65,
+    "exhausted": 2.4
+  },
+  "note": "Presentation reference only. No consumption, reward, boss or success events."
+}

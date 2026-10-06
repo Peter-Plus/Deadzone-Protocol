@@ -1,0 +1,5 @@
+{
+  "message": "Error: CDP timeout Runtime.enable\n    at Timeout._onTimeout (file:///G:/Game/Fire/Deadzone%20Protocol/Test/03-ItemPlacement/src/browser-placement.mjs:7:107)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)",
+  "exceptions": [],
+  "external": []
+}

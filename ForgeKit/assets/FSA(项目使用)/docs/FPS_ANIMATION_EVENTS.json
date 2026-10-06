@@ -1,0 +1,357 @@
+{
+  "version": 6,
+  "rig": "fps-arms.v1",
+  "angleOrder": [
+    "UpperArm_L",
+    "Forearm_L",
+    "UpperArm_R",
+    "Forearm_R"
+  ],
+  "readyAngles": {
+    "Unarmed": [
+      25,
+      -55,
+      25,
+      -55
+    ],
+    "Firearm": [
+      -15,
+      40,
+      0,
+      0
+    ],
+    "Melee": [
+      28,
+      10,
+      18,
+      -25
+    ],
+    "Throwable": [
+      28,
+      10,
+      20,
+      -27
+    ]
+  },
+  "stowedAngles": [
+    55,
+    20,
+    55,
+    20
+  ],
+  "clips": [
+    {
+      "id": "FSA_ANIM_FPS_Unarmed_Idle",
+      "category": "Unarmed",
+      "action": "Idle",
+      "duration": 2.4,
+      "loop": true,
+      "path": "animations/fps/unarmed/FSA_ANIM_FPS_Unarmed_Idle.anim.glb",
+      "events": [],
+      "equipmentSocket": null
+    },
+    {
+      "id": "FSA_ANIM_FPS_Unarmed_Walk",
+      "category": "Unarmed",
+      "action": "Walk",
+      "duration": 0.9,
+      "loop": true,
+      "path": "animations/fps/unarmed/FSA_ANIM_FPS_Unarmed_Walk.anim.glb",
+      "events": [],
+      "equipmentSocket": null
+    },
+    {
+      "id": "FSA_ANIM_FPS_Unarmed_Run",
+      "category": "Unarmed",
+      "action": "Run",
+      "duration": 0.62,
+      "loop": true,
+      "path": "animations/fps/unarmed/FSA_ANIM_FPS_Unarmed_Run.anim.glb",
+      "events": [],
+      "equipmentSocket": null
+    },
+    {
+      "id": "FSA_ANIM_FPS_Firearm_Idle",
+      "category": "Firearm",
+      "action": "Idle",
+      "duration": 2.4,
+      "loop": true,
+      "path": "animations/fps/firearm/shared/FSA_ANIM_FPS_Firearm_Idle.anim.glb",
+      "events": [],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Firearm_Walk",
+      "category": "Firearm",
+      "action": "Walk",
+      "duration": 0.9,
+      "loop": true,
+      "path": "animations/fps/firearm/shared/FSA_ANIM_FPS_Firearm_Walk.anim.glb",
+      "events": [],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Firearm_Run",
+      "category": "Firearm",
+      "action": "Run",
+      "duration": 0.62,
+      "loop": true,
+      "path": "animations/fps/firearm/shared/FSA_ANIM_FPS_Firearm_Run.anim.glb",
+      "events": [],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Melee_Idle",
+      "category": "Melee",
+      "action": "Idle",
+      "duration": 2.4,
+      "loop": true,
+      "path": "animations/fps/melee/shared/FSA_ANIM_FPS_Melee_Idle.anim.glb",
+      "events": [],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Melee_Walk",
+      "category": "Melee",
+      "action": "Walk",
+      "duration": 0.9,
+      "loop": true,
+      "path": "animations/fps/melee/shared/FSA_ANIM_FPS_Melee_Walk.anim.glb",
+      "events": [],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Melee_Run",
+      "category": "Melee",
+      "action": "Run",
+      "duration": 0.62,
+      "loop": true,
+      "path": "animations/fps/melee/shared/FSA_ANIM_FPS_Melee_Run.anim.glb",
+      "events": [],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Throwable_Idle",
+      "category": "Throwable",
+      "action": "Idle",
+      "duration": 2.4,
+      "loop": true,
+      "path": "animations/fps/throwable/shared/FSA_ANIM_FPS_Throwable_Idle.anim.glb",
+      "events": [],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Throwable_Walk",
+      "category": "Throwable",
+      "action": "Walk",
+      "duration": 0.9,
+      "loop": true,
+      "path": "animations/fps/throwable/shared/FSA_ANIM_FPS_Throwable_Walk.anim.glb",
+      "events": [],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Throwable_Run",
+      "category": "Throwable",
+      "action": "Run",
+      "duration": 0.62,
+      "loop": true,
+      "path": "animations/fps/throwable/shared/FSA_ANIM_FPS_Throwable_Run.anim.glb",
+      "events": [],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Firearm_Fire",
+      "category": "Firearm",
+      "action": "Fire",
+      "duration": 0.26,
+      "loop": false,
+      "path": "animations/fps/firearm/shared/FSA_ANIM_FPS_Firearm_Fire.anim.glb",
+      "events": [
+        {
+          "time": 0,
+          "name": "fire",
+          "note": "Spawn shot / consume ammo in game; recoil starts immediately."
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Firearm_Reload",
+      "category": "Firearm",
+      "action": "Reload",
+      "duration": 1.45,
+      "loop": false,
+      "path": "animations/fps/firearm/shared/FSA_ANIM_FPS_Firearm_Reload.anim.glb",
+      "events": [
+        {
+          "time": 1.18,
+          "name": "reload_commit",
+          "note": "Update ammo once; magazine stays static."
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Firearm_Bolt",
+      "category": "Firearm",
+      "action": "Bolt",
+      "duration": 0.62,
+      "loop": false,
+      "path": "animations/fps/firearm/shared/FSA_ANIM_FPS_Firearm_Bolt.anim.glb",
+      "events": [
+        {
+          "time": 0.4,
+          "name": "bolt_ready",
+          "note": "Chamber ready; DMR/SR play after Fire before next shot."
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Melee_Attack",
+      "category": "Melee",
+      "action": "Attack",
+      "duration": 0.72,
+      "loop": false,
+      "path": "animations/fps/melee/shared/FSA_ANIM_FPS_Melee_Attack.anim.glb",
+      "events": [
+        {
+          "time": 0.28,
+          "name": "hit_window_open"
+        },
+        {
+          "time": 0.43,
+          "name": "hit_window_close"
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Throwable_Throw",
+      "category": "Throwable",
+      "action": "Throw",
+      "duration": 0.8,
+      "loop": false,
+      "path": "animations/fps/throwable/shared/FSA_ANIM_FPS_Throwable_Throw.anim.glb",
+      "events": [
+        {
+          "time": 0.38,
+          "name": "release",
+          "note": "Detach/hide held object and spawn projectile once. Keep hand empty after release until resupplied."
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Firearm_Holster",
+      "category": "Firearm",
+      "action": "Holster",
+      "duration": 0.42,
+      "loop": false,
+      "path": "animations/fps/firearm/shared/FSA_ANIM_FPS_Firearm_Holster.anim.glb",
+      "events": [
+        {
+          "time": 0.42,
+          "name": "unequip",
+          "note": "Switch weapon only after holster reaches shared stowed pose."
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Firearm_Draw",
+      "category": "Firearm",
+      "action": "Draw",
+      "duration": 0.42,
+      "loop": false,
+      "path": "animations/fps/firearm/shared/FSA_ANIM_FPS_Firearm_Draw.anim.glb",
+      "events": [
+        {
+          "time": 0,
+          "name": "equip",
+          "note": "Attach weapon at start while hands are down."
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Melee_Holster",
+      "category": "Melee",
+      "action": "Holster",
+      "duration": 0.34,
+      "loop": false,
+      "path": "animations/fps/melee/shared/FSA_ANIM_FPS_Melee_Holster.anim.glb",
+      "events": [
+        {
+          "time": 0.34,
+          "name": "unequip",
+          "note": "Switch weapon only after holster reaches shared stowed pose."
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Melee_Draw",
+      "category": "Melee",
+      "action": "Draw",
+      "duration": 0.34,
+      "loop": false,
+      "path": "animations/fps/melee/shared/FSA_ANIM_FPS_Melee_Draw.anim.glb",
+      "events": [
+        {
+          "time": 0,
+          "name": "equip",
+          "note": "Attach weapon at start while hands are down."
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Throwable_Holster",
+      "category": "Throwable",
+      "action": "Holster",
+      "duration": 0.34,
+      "loop": false,
+      "path": "animations/fps/throwable/shared/FSA_ANIM_FPS_Throwable_Holster.anim.glb",
+      "events": [
+        {
+          "time": 0.34,
+          "name": "unequip",
+          "note": "Switch weapon only after holster reaches shared stowed pose."
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    },
+    {
+      "id": "FSA_ANIM_FPS_Throwable_Draw",
+      "category": "Throwable",
+      "action": "Draw",
+      "duration": 0.34,
+      "loop": false,
+      "path": "animations/fps/throwable/shared/FSA_ANIM_FPS_Throwable_Draw.anim.glb",
+      "events": [
+        {
+          "time": 0,
+          "name": "equip",
+          "note": "Attach weapon at start while hands are down."
+        }
+      ],
+      "equipmentSocket": "Weapon_R"
+    }
+  ],
+  "equipmentSockets": {
+    "Firearm": "Weapon_R",
+    "Melee": "Weapon_R",
+    "Throwable": "Weapon_R",
+    "Unarmed": null
+  },
+  "firearmStance": {
+    "leftOffset": [
+      -0.11,
+      0,
+      0.06
+    ],
+    "description": "World/Root axes; draw blends in, holster blends out; does not change shoulder/elbow hinge angles."
+  }
+}

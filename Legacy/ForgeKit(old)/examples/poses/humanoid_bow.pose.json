@@ -1,0 +1,28 @@
+{
+  "schema": "pose.v1",
+  "id": "pose.humanoid.bow",
+  "rig": "humanoid.v1",
+  "bones": {
+    "Hips": {
+      "rotation": [
+        25,
+        0,
+        0
+      ]
+    },
+    "UpperArm_L": {
+      "rotation": [
+        0,
+        0,
+        -82
+      ]
+    },
+    "UpperArm_R": {
+      "rotation": [
+        0,
+        0,
+        82
+      ]
+    }
+  }
+}

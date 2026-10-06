@@ -1,0 +1,154 @@
+{
+  "schema": "forge-vfx.v1",
+  "effect": {
+    "schema": "effect.v1",
+    "id": "vfx_poison_toxic_shield",
+    "name": "毒素护盾 · 瘴疫兽包身护罩",
+    "initialState": "active",
+    "states": {
+      "active": {
+        "duration": 3,
+        "loop": true
+      },
+      "hit": {
+        "duration": 0.22,
+        "loop": false,
+        "next": "active"
+      },
+      "broken": {
+        "duration": 0.48,
+        "loop": false,
+        "next": "finished"
+      },
+      "release": {
+        "duration": 0.65,
+        "loop": false,
+        "next": "finished"
+      },
+      "finished": {
+        "duration": 1,
+        "loop": true
+      }
+    },
+    "variants": {},
+    "textures": {},
+    "layers": [
+      {
+        "id": "surface",
+        "kind": "surface",
+        "shape": "ellipsoid",
+        "position": [
+          0,
+          2.0498,
+          0.686
+        ],
+        "size": [
+          4.066,
+          2.6199,
+          3.0465
+        ],
+        "accent": "#c8ff6a",
+        "detailScale": 2.2,
+        "speed": 1,
+        "rimWidth": 0.055,
+        "profiles": {
+          "active": {
+            "strength": 0.62,
+            "expansion": 1
+          },
+          "hit": {
+            "strength": {
+              "keys": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0.2,
+                  1
+                ],
+                [
+                  1,
+                  0.65
+                ]
+              ],
+              "interpolation": "smooth"
+            },
+            "expansion": 1
+          },
+          "broken": {
+            "strength": {
+              "keys": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0.15,
+                  0.8
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "interpolation": "smooth"
+            },
+            "expansion": {
+              "keys": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1.1
+                ]
+              ],
+              "interpolation": "smooth"
+            }
+          },
+          "release": {
+            "strength": {
+              "keys": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0.25,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "interpolation": "smooth"
+            },
+            "expansion": {
+              "keys": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1.17
+                ]
+              ],
+              "interpolation": "smooth"
+            }
+          }
+        },
+        "render": {
+          "color": "#469c37",
+          "opacity": 0.58,
+          "depthTest": true,
+          "depthWrite": false,
+          "blend": "additive"
+        }
+      }
+    ]
+  }
+}

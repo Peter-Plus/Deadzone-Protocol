@@ -1,0 +1,7 @@
+{
+  "schema": "material.v1",
+  "id": "metal.dark",
+  "color": "#303d4c",
+  "roughness": 0.58,
+  "metalness": 0.72
+}

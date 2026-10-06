@@ -1,0 +1,783 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Quarantine_Straight",
+  "label": "隔离区通透铁栏 / 6m 直段",
+  "type": "barrier",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3.2,
+      -0.3
+    ],
+    "max": [
+      3.2,
+      0.3
+    ]
+  },
+  "colliders": [
+    {
+      "node": "X_ContinuousBlocker",
+      "role": "barrier"
+    },
+    {
+      "node": "X_Foot",
+      "role": "barrier"
+    },
+    {
+      "node": "X_Rail0_5",
+      "role": "barrier"
+    },
+    {
+      "node": "X_Rail2_45",
+      "role": "barrier"
+    },
+    {
+      "node": "X_Post0",
+      "role": "barrier"
+    },
+    {
+      "node": "X_Cap0",
+      "role": "barrier"
+    },
+    {
+      "node": "X_Collar0",
+      "role": "barrier"
+    },
+    {
+      "node": "X_Post6",
+      "role": "barrier"
+    },
+    {
+      "node": "X_Cap6",
+      "role": "barrier"
+    },
+    {
+      "node": "X_Collar6",
+      "role": "barrier"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [
+    {
+      "id": "West",
+      "position": [
+        -3,
+        0,
+        0
+      ],
+      "outward": [
+        -1,
+        0,
+        0
+      ],
+      "height": 2.8,
+      "thickness": 0.25
+    },
+    {
+      "id": "East",
+      "position": [
+        3,
+        0,
+        0
+      ],
+      "outward": [
+        1,
+        0,
+        0
+      ],
+      "height": 2.8,
+      "thickness": 0.25
+    }
+  ],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Quarantine_Straight",
+    "type": "static",
+    "materials": {
+      "steel": {
+        "color": "#4f5b59",
+        "metalness": 0.65,
+        "roughness": 0.76
+      },
+      "dark": {
+        "color": "#293a3c",
+        "metalness": 0.7,
+        "roughness": 0.7
+      },
+      "rust": {
+        "color": "#885a3c",
+        "roughness": 0.96
+      },
+      "sand": {
+        "color": "#a18c67",
+        "roughness": 1
+      },
+      "stripe": {
+        "color": "#c7a24e",
+        "roughness": 0.84
+      },
+      "invisible": {
+        "color": "#ffffff",
+        "transparent": true,
+        "opacity": 0
+      }
+    },
+    "parts": [
+      {
+        "id": "X_ContinuousBlocker",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            2.8,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          1.4,
+          0
+        ],
+        "material": "invisible",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Foot",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            0.22,
+            0.38
+          ]
+        },
+        "position": [
+          0,
+          0.11,
+          0
+        ],
+        "material": "sand",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Rail0_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            0.12,
+            0.34
+          ]
+        },
+        "position": [
+          0,
+          0.5,
+          0
+        ],
+        "material": "dark",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Rail2_45",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            0.12,
+            0.34
+          ]
+        },
+        "position": [
+          0,
+          2.45,
+          0
+        ],
+        "material": "dark",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar24",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          -2.76,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar54",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          -2.46,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar84",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          -2.1599999999999997,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar114",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          -1.8599999999999999,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar144",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          -1.5599999999999998,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar174",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          -1.2599999999999998,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar204",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          -0.96,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar234",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          -0.6600000000000001,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar264",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          -0.3600000000000003,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar294",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          -0.0600000000000005,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar324",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          0.23999999999999977,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar354",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          0.5399999999999991,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar384",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          0.8399999999999985,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar414",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          1.1399999999999988,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar444",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          1.4399999999999986,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar474",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          1.7399999999999984,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar504",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          2.0399999999999983,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar534",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          2.339999999999999,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Bar564",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.53,
+            0.065
+          ]
+        },
+        "position": [
+          2.639999999999998,
+          1.5,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Post0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            2.8,
+            0.42
+          ]
+        },
+        "position": [
+          -3,
+          1.4,
+          0
+        ],
+        "material": "dark",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Cap0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.09,
+            0.46
+          ]
+        },
+        "position": [
+          -3,
+          2.755,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Collar0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.16,
+            0.46
+          ]
+        },
+        "position": [
+          -3,
+          0.24,
+          0
+        ],
+        "material": "rust",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Post6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            2.8,
+            0.42
+          ]
+        },
+        "position": [
+          3,
+          1.4,
+          0
+        ],
+        "material": "dark",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Cap6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.09,
+            0.46
+          ]
+        },
+        "position": [
+          3,
+          2.755,
+          0
+        ],
+        "material": "steel",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X_Collar6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.16,
+            0.46
+          ]
+        },
+        "position": [
+          3,
+          0.24,
+          0
+        ],
+        "material": "rust",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

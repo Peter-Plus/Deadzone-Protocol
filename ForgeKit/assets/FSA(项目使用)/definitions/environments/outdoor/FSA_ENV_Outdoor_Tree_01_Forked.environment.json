@@ -1,0 +1,921 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Tree_01_Forked",
+  "label": "枯树／高叉枯木",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -2.07,
+      -1.13
+    ],
+    "max": [
+      2.07,
+      1.2
+    ]
+  },
+  "colliders": [
+    {
+      "node": "RootCore",
+      "role": "solid"
+    },
+    {
+      "node": "Root_0",
+      "role": "solid"
+    },
+    {
+      "node": "Root_1",
+      "role": "solid"
+    },
+    {
+      "node": "Root_2",
+      "role": "solid"
+    },
+    {
+      "node": "Root_3",
+      "role": "solid"
+    },
+    {
+      "node": "Root_4",
+      "role": "solid"
+    },
+    {
+      "node": "Trunk_0",
+      "role": "solid"
+    },
+    {
+      "node": "Trunk_1",
+      "role": "solid"
+    },
+    {
+      "node": "Trunk_2",
+      "role": "solid"
+    },
+    {
+      "node": "Trunk_3",
+      "role": "solid"
+    },
+    {
+      "node": "Trunk_4",
+      "role": "solid"
+    },
+    {
+      "node": "Trunk_5",
+      "role": "solid"
+    },
+    {
+      "node": "Trunk_6",
+      "role": "solid"
+    },
+    {
+      "node": "Trunk_7",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Tree_01_Forked",
+    "type": "static",
+    "parts": [
+      {
+        "id": "RootCore",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            0.4,
+            0.75
+          ]
+        },
+        "position": [
+          0,
+          0.2,
+          0
+        ],
+        "rotation": [
+          0,
+          12,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Root_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.2,
+            0.85
+          ]
+        },
+        "position": [
+          0,
+          0.1,
+          0.42
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Root_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.2,
+            0.85
+          ]
+        },
+        "position": [
+          0.39944373684396445,
+          0.1,
+          0.12978713763747793
+        ],
+        "rotation": [
+          0,
+          72,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Root_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.2,
+            0.85
+          ]
+        },
+        "position": [
+          0.24686980596283875,
+          0.1,
+          -0.33978713763747787
+        ],
+        "rotation": [
+          0,
+          144,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Root_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.2,
+            0.85
+          ]
+        },
+        "position": [
+          -0.24686980596283867,
+          0.1,
+          -0.3397871376374779
+        ],
+        "rotation": [
+          0,
+          216,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Root_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.2,
+            0.85
+          ]
+        },
+        "position": [
+          -0.3994437368439645,
+          0.1,
+          0.12978713763747785
+        ],
+        "rotation": [
+          0,
+          288,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Trunk_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.63,
+            0.65,
+            0.5544
+          ]
+        },
+        "position": [
+          0,
+          0.675,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Trunk_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.578,
+            0.65,
+            0.50864
+          ]
+        },
+        "position": [
+          0.038,
+          1.325,
+          0
+        ],
+        "rotation": [
+          0,
+          7,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Trunk_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.526,
+            0.65,
+            0.46288
+          ]
+        },
+        "position": [
+          0.076,
+          1.9749999999999999,
+          0
+        ],
+        "rotation": [
+          0,
+          14,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Trunk_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.474,
+            0.65,
+            0.41712
+          ]
+        },
+        "position": [
+          0.11399999999999999,
+          2.6250000000000004,
+          0
+        ],
+        "rotation": [
+          0,
+          21,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Trunk_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.42200000000000004,
+            0.65,
+            0.37136
+          ]
+        },
+        "position": [
+          0.152,
+          3.2750000000000004,
+          0
+        ],
+        "rotation": [
+          0,
+          28,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Trunk_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.37,
+            0.65,
+            0.3256
+          ]
+        },
+        "position": [
+          0.19,
+          3.9250000000000003,
+          0
+        ],
+        "rotation": [
+          0,
+          35,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Trunk_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.65,
+            0.27984000000000003
+          ]
+        },
+        "position": [
+          0.22799999999999998,
+          4.575,
+          0
+        ],
+        "rotation": [
+          0,
+          42,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Trunk_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.266,
+            0.04999999999999982,
+            0.23408
+          ]
+        },
+        "position": [
+          0.266,
+          4.924999999999999,
+          0
+        ],
+        "rotation": [
+          0,
+          49,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Branch_0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.084,
+          "radiusBottom": 0.14,
+          "height": 1.2767536959022285
+        },
+        "position": [
+          0.6549999999999999,
+          2.85,
+          -0.2
+        ],
+        "rotation": [
+          -18.49511339996606,
+          9.02726991557753,
+          -51.732596320157526
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Twig_0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.045,
+          "radiusBottom": 0.075,
+          "height": 0.7751773990513395
+        },
+        "position": [
+          1.4,
+          3.475,
+          -0.29000000000000004
+        ],
+        "rotation": [
+          16.58558645844423,
+          -6.147148264268963,
+          -40.44695782324434
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Fork_0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.033,
+          "radiusBottom": 0.055,
+          "height": 0.6670082458260915
+        },
+        "position": [
+          1.25,
+          3.475,
+          -0.56
+        ],
+        "rotation": [
+          -28.767220468983677,
+          4.52198211459603,
+          -17.50461735792196
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Branch_1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.084,
+          "radiusBottom": 0.14,
+          "height": 1.4852945835759315
+        },
+        "position": [
+          -0.49499999999999994,
+          3.22,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          61.882130277984
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Twig_1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.045,
+          "radiusBottom": 0.075,
+          "height": 0.7751773990513395
+        },
+        "position": [
+          -1.4,
+          3.845,
+          0.11
+        ],
+        "rotation": [
+          16.58558645844423,
+          6.147148264268963,
+          40.44695782324434
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Fork_1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.033,
+          "radiusBottom": 0.055,
+          "height": 0.6670082458260915
+        },
+        "position": [
+          -1.25,
+          3.845,
+          -0.16
+        ],
+        "rotation": [
+          -28.767220468983687,
+          -4.521982114596032,
+          17.50461735792196
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Branch_2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.084,
+          "radiusBottom": 0.14,
+          "height": 1.2767536959022285
+        },
+        "position": [
+          0.6549999999999999,
+          3.5900000000000003,
+          0.2
+        ],
+        "rotation": [
+          18.49511339996606,
+          -9.02726991557753,
+          -51.732596320157526
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Twig_2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.045,
+          "radiusBottom": 0.075,
+          "height": 0.7751773990513395
+        },
+        "position": [
+          1.4,
+          4.215,
+          0.51
+        ],
+        "rotation": [
+          16.585586458444226,
+          -6.147148264268961,
+          -40.44695782324434
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Fork_2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.033,
+          "radiusBottom": 0.055,
+          "height": 0.6670082458260915
+        },
+        "position": [
+          1.25,
+          4.215,
+          0.24000000000000002
+        ],
+        "rotation": [
+          -28.767220468983687,
+          4.521982114596032,
+          -17.50461735792196
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Branch_3",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.084,
+          "radiusBottom": 0.14,
+          "height": 1.5382132491953122
+        },
+        "position": [
+          -0.49499999999999994,
+          3.96,
+          -0.2
+        ],
+        "rotation": [
+          -15.254513912985155,
+          -8.754413420890454,
+          59.505305329611076
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Twig_3",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.045,
+          "radiusBottom": 0.075,
+          "height": 0.7751773990513395
+        },
+        "position": [
+          -1.4,
+          4.584999999999999,
+          -0.29000000000000004
+        ],
+        "rotation": [
+          16.58558645844423,
+          6.147148264268963,
+          40.44695782324434
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Fork_3",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.033,
+          "radiusBottom": 0.055,
+          "height": 0.6670082458260915
+        },
+        "position": [
+          -1.25,
+          4.584999999999999,
+          -0.56
+        ],
+        "rotation": [
+          -28.767220468983677,
+          -4.52198211459603,
+          17.50461735792196
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Branch_4",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.084,
+          "radiusBottom": 0.14,
+          "height": 1.212476803901831
+        },
+        "position": [
+          0.6549999999999999,
+          4.33,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          -54.736988270402755
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Twig_4",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.045,
+          "radiusBottom": 0.075,
+          "height": 0.7751773990513395
+        },
+        "position": [
+          1.4,
+          4.955,
+          0.11
+        ],
+        "rotation": [
+          16.58558645844423,
+          -6.147148264268963,
+          -40.44695782324434
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Fork_4",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.033,
+          "radiusBottom": 0.055,
+          "height": 0.6670082458260915
+        },
+        "position": [
+          1.25,
+          4.955,
+          -0.16
+        ],
+        "rotation": [
+          -28.767220468983687,
+          4.521982114596032,
+          -17.50461735792196
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Splinter_0",
+        "shape": {
+          "type": "cone",
+          "radius": 0.1,
+          "height": 0.4,
+          "radialSegments": 4
+        },
+        "position": [
+          0.1,
+          5,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa9170",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Splinter_1",
+        "shape": {
+          "type": "cone",
+          "radius": 0.1,
+          "height": 0.48000000000000004,
+          "radialSegments": 4
+        },
+        "position": [
+          0.16,
+          5,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa9170",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Splinter_2",
+        "shape": {
+          "type": "cone",
+          "radius": 0.1,
+          "height": 0.56,
+          "radialSegments": 4
+        },
+        "position": [
+          0.22,
+          5,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa9170",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Splinter_3",
+        "shape": {
+          "type": "cone",
+          "radius": 0.1,
+          "height": 0.64,
+          "radialSegments": 4
+        },
+        "position": [
+          0.28,
+          5,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa9170",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      }
+    ]
+  }
+}

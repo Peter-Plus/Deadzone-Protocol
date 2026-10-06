@@ -1,0 +1,1216 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ENEMY_B002_BurstAxeman",
+  "type": "humanoid",
+  "rig": "humanoid.v1",
+  "materials": {
+    "skin": {
+      "color": "#75695E",
+      "roughness": 0.96
+    },
+    "cloth": {
+      "color": "#4F4338",
+      "roughness": 0.97
+    },
+    "dark": {
+      "color": "#292421",
+      "roughness": 0.96
+    },
+    "pants": {
+      "color": "#3B3530",
+      "roughness": 0.97
+    },
+    "boot": {
+      "color": "#292B29",
+      "roughness": 0.93
+    },
+    "eye": {
+      "color": "#FFB45E",
+      "emissive": "#8A2E08",
+      "roughness": 0.42
+    },
+    "accent": {
+      "color": "#A74821",
+      "emissive": "#511809",
+      "roughness": 0.76
+    },
+    "wood": {
+      "color": "#3A3028",
+      "roughness": 0.89
+    },
+    "steel": {
+      "color": "#34312F",
+      "roughness": 0.6,
+      "metalness": 0.42
+    },
+    "hair": {
+      "color": "#292421",
+      "roughness": 0.98
+    },
+    "crust": {
+      "color": "#322D2A",
+      "roughness": 0.99
+    },
+    "magma": {
+      "color": "#F66B28",
+      "emissive": "#9C2708",
+      "roughness": 0.46
+    },
+    "hot": {
+      "color": "#FFD378",
+      "emissive": "#C65011",
+      "roughness": 0.36
+    }
+  },
+  "parts": [
+    {
+      "id": "Hips",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.4,
+          0.22,
+          0.31
+        ]
+      },
+      "position": [
+        0,
+        0.0845,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "Torso",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.49,
+          0.62,
+          0.34
+        ]
+      },
+      "position": [
+        0,
+        0.468,
+        0.035
+      ],
+      "material": "skin",
+      "rotation": [
+        11,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Shoulders",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.68,
+          0.19,
+          0.37
+        ]
+      },
+      "position": [
+        0,
+        0.72,
+        0.025
+      ],
+      "material": "skin",
+      "rotation": [
+        11,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Belt",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.4238,
+          0.0806,
+          0.3484
+        ]
+      },
+      "position": [
+        0,
+        0.156,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "Buckle",
+      "parent": "Belt",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0754,
+          0.0559,
+          0.0325
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.1872
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "Neck",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.182,
+          0.156,
+          0.182
+        ]
+      },
+      "position": [
+        0,
+        -0.0325,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Face",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.32,
+          0.34,
+          0.28
+        ]
+      },
+      "position": [
+        0,
+        0.189,
+        0.062
+      ],
+      "material": "skin",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "EyeR",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0585,
+          0.0338,
+          0.0169
+        ]
+      },
+      "position": [
+        -0.0832,
+        0.0338,
+        0.1534
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "EyeL",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0585,
+          0.0338,
+          0.0169
+        ]
+      },
+      "position": [
+        0.0832,
+        0.0338,
+        0.1534
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "Brow",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2652,
+          0.0351,
+          0.0273
+        ]
+      },
+      "position": [
+        0,
+        0.0741,
+        0.1547
+      ],
+      "material": "crust"
+    },
+    {
+      "id": "Nose",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0533,
+          0.0715,
+          0.0403
+        ]
+      },
+      "position": [
+        0,
+        -0.0091,
+        0.1612
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Mouth",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0936,
+          0.0195,
+          0.0156
+        ]
+      },
+      "position": [
+        0,
+        -0.091,
+        0.1508
+      ],
+      "material": "crust"
+    },
+    {
+      "id": "UpperArmL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.44,
+          0.23,
+          0.25
+        ]
+      },
+      "position": [
+        0.221,
+        0.0455,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "ForearmL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.29,
+          0.19,
+          0.2
+        ]
+      },
+      "position": [
+        0.5265,
+        0.0455,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "WristCrustL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0715,
+          0.182,
+          0.1924
+        ]
+      },
+      "position": [
+        0.611,
+        0.0455,
+        0
+      ],
+      "material": "crust"
+    },
+    {
+      "id": "HandL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1365,
+          0.169,
+          0.182
+        ]
+      },
+      "position": [
+        0.6955,
+        0.0455,
+        0.0052
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "TrousersL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2405,
+          0.858,
+          0.2665
+        ]
+      },
+      "position": [
+        0,
+        -0.429,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "BootL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2561,
+          0.2665,
+          0.377
+        ]
+      },
+      "position": [
+        0,
+        -0.9425,
+        0.0455
+      ],
+      "material": "boot"
+    },
+    {
+      "id": "SoleL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2613,
+          0.0455,
+          0.3874
+        ]
+      },
+      "position": [
+        0,
+        -1.053,
+        0.0455
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "UpperArmR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.44,
+          0.23,
+          0.25
+        ]
+      },
+      "position": [
+        -0.221,
+        0.0455,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "ForearmR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.29,
+          0.19,
+          0.2
+        ]
+      },
+      "position": [
+        -0.5265,
+        0.0455,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "WristCrustR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0715,
+          0.182,
+          0.1924
+        ]
+      },
+      "position": [
+        -0.611,
+        0.0455,
+        0
+      ],
+      "material": "crust"
+    },
+    {
+      "id": "HandR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1365,
+          0.169,
+          0.182
+        ]
+      },
+      "position": [
+        -0.6955,
+        0.0455,
+        0.0052
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "TrousersR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2405,
+          0.858,
+          0.2665
+        ]
+      },
+      "position": [
+        0,
+        -0.429,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "BootR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2561,
+          0.2665,
+          0.377
+        ]
+      },
+      "position": [
+        0,
+        -0.9425,
+        0.0455
+      ],
+      "material": "boot"
+    },
+    {
+      "id": "SoleR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2613,
+          0.0455,
+          0.3874
+        ]
+      },
+      "position": [
+        0,
+        -1.053,
+        0.0455
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "AxeShaft",
+      "parent": "HandR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.068,
+          0.068,
+          0.91
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.24
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "AxeCollar",
+      "parent": "AxeShaft",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0884,
+          0.0975,
+          0.117
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.3081
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "AxeHead",
+      "parent": "AxeShaft",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.39,
+          0.15,
+          0.18
+        ]
+      },
+      "position": [
+        -0.1,
+        0,
+        0.36
+      ],
+      "material": "crust",
+      "rotation": [
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "id": "AxeEdge",
+      "parent": "AxeShaft",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1,
+          0.075,
+          0.22
+        ]
+      },
+      "position": [
+        -0.32,
+        0,
+        0.34
+      ],
+      "material": "magma",
+      "rotation": [
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "id": "CrustChestL",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.18,
+          0.25,
+          0.045
+        ]
+      },
+      "position": [
+        0.16,
+        0.55,
+        0.19
+      ],
+      "material": "crust",
+      "rotation": [
+        11,
+        0,
+        -9
+      ]
+    },
+    {
+      "id": "CrustChestR",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.14,
+          0.18,
+          0.045
+        ]
+      },
+      "position": [
+        -0.17,
+        0.61,
+        0.18
+      ],
+      "material": "crust",
+      "rotation": [
+        11,
+        0,
+        13
+      ]
+    },
+    {
+      "id": "MagmaChestA",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.43,
+          0.026
+        ]
+      },
+      "position": [
+        0,
+        0.5,
+        0.229
+      ],
+      "material": "magma",
+      "rotation": [
+        10,
+        0,
+        -12
+      ]
+    },
+    {
+      "id": "MagmaChestB",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.19,
+          0.04,
+          0.027
+        ]
+      },
+      "position": [
+        0.09,
+        0.58,
+        0.23
+      ],
+      "material": "hot",
+      "rotation": [
+        9,
+        0,
+        -25
+      ]
+    },
+    {
+      "id": "MagmaChestC",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.18,
+          0.032,
+          0.027
+        ]
+      },
+      "position": [
+        -0.09,
+        0.4,
+        0.22
+      ],
+      "material": "magma",
+      "rotation": [
+        9,
+        0,
+        24
+      ]
+    },
+    {
+      "id": "MagmaHeart",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.06
+      },
+      "position": [
+        0,
+        0.54,
+        0.245
+      ],
+      "scale": [
+        1,
+        1.15,
+        0.45
+      ],
+      "material": "hot"
+    },
+    {
+      "id": "MagmaWaist",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.16,
+          0.023
+        ]
+      },
+      "position": [
+        0.07,
+        0.19,
+        0.17
+      ],
+      "material": "magma",
+      "rotation": [
+        0,
+        0,
+        22
+      ]
+    },
+    {
+      "id": "MagmaBack",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.07,
+          0.34,
+          0.023
+        ]
+      },
+      "position": [
+        0,
+        0.48,
+        -0.205
+      ],
+      "material": "magma",
+      "rotation": [
+        10,
+        0,
+        13
+      ]
+    },
+    {
+      "id": "CrustSpineL",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.08,
+        "height": 0.31
+      },
+      "position": [
+        0.18,
+        0.81,
+        -0.13
+      ],
+      "rotation": [
+        -22,
+        0,
+        -25
+      ],
+      "material": "crust"
+    },
+    {
+      "id": "CrustSpineR",
+      "parent": "Body",
+      "shape": {
+        "type": "cone",
+        "radius": 0.08,
+        "height": 0.31
+      },
+      "position": [
+        -0.18,
+        0.81,
+        -0.13
+      ],
+      "rotation": [
+        -22,
+        0,
+        25
+      ],
+      "material": "crust"
+    },
+    {
+      "id": "MagmaBrow",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.18,
+          0.025,
+          0.023
+        ]
+      },
+      "position": [
+        0,
+        0.3,
+        0.231
+      ],
+      "material": "magma",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "MagmaJaw",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.11,
+          0.022,
+          0.023
+        ]
+      },
+      "position": [
+        0,
+        0.035,
+        0.236
+      ],
+      "material": "magma",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "CrownL",
+      "parent": "Head",
+      "shape": {
+        "type": "cone",
+        "radius": 0.06,
+        "height": 0.2
+      },
+      "position": [
+        0.1,
+        0.355,
+        -0.08
+      ],
+      "rotation": [
+        -20,
+        0,
+        -20
+      ],
+      "material": "crust"
+    },
+    {
+      "id": "CrownR",
+      "parent": "Head",
+      "shape": {
+        "type": "cone",
+        "radius": 0.06,
+        "height": 0.2
+      },
+      "position": [
+        -0.1,
+        0.355,
+        -0.08
+      ],
+      "rotation": [
+        -20,
+        0,
+        20
+      ],
+      "material": "crust"
+    },
+    {
+      "id": "ShoulderCrustL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.18,
+          0.15,
+          0.27
+        ]
+      },
+      "position": [
+        0.13,
+        0.115,
+        0.01
+      ],
+      "material": "crust",
+      "rotation": [
+        0,
+        0,
+        -18
+      ]
+    },
+    {
+      "id": "ArmFissureL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.23,
+          0.029,
+          0.024
+        ]
+      },
+      "position": [
+        0.2,
+        0.07,
+        0.145
+      ],
+      "material": "magma",
+      "rotation": [
+        0,
+        0,
+        16
+      ]
+    },
+    {
+      "id": "ForearmFissureL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.15,
+          0.03,
+          0.025
+        ]
+      },
+      "position": [
+        0.49,
+        0.075,
+        0.12
+      ],
+      "material": "hot",
+      "rotation": [
+        0,
+        0,
+        -17
+      ]
+    },
+    {
+      "id": "LegFissureL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.21,
+          0.024
+        ]
+      },
+      "position": [
+        0,
+        -0.4,
+        0.152
+      ],
+      "material": "magma",
+      "rotation": [
+        0,
+        0,
+        11
+      ]
+    },
+    {
+      "id": "ShoulderCrustR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.18,
+          0.15,
+          0.27
+        ]
+      },
+      "position": [
+        -0.13,
+        0.115,
+        0.01
+      ],
+      "material": "crust",
+      "rotation": [
+        0,
+        0,
+        18
+      ]
+    },
+    {
+      "id": "ArmFissureR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.23,
+          0.029,
+          0.024
+        ]
+      },
+      "position": [
+        -0.2,
+        0.07,
+        0.145
+      ],
+      "material": "magma",
+      "rotation": [
+        0,
+        0,
+        -16
+      ]
+    },
+    {
+      "id": "ForearmFissureR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.15,
+          0.03,
+          0.025
+        ]
+      },
+      "position": [
+        -0.49,
+        0.075,
+        0.12
+      ],
+      "material": "hot",
+      "rotation": [
+        0,
+        0,
+        17
+      ]
+    },
+    {
+      "id": "LegFissureR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.21,
+          0.024
+        ]
+      },
+      "position": [
+        0,
+        -0.4,
+        0.152
+      ],
+      "material": "magma",
+      "rotation": [
+        0,
+        0,
+        -11
+      ]
+    },
+    {
+      "id": "AxeHeadFissure",
+      "parent": "AxeShaft",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.21,
+          0.025,
+          0.027
+        ]
+      },
+      "position": [
+        -0.13,
+        0.078,
+        0.36
+      ],
+      "material": "magma",
+      "rotation": [
+        0,
+        0,
+        -12
+      ]
+    },
+    {
+      "id": "AxeBlade",
+      "parent": "AxeShaft",
+      "shape": {
+        "type": "cone",
+        "radius": 0.17,
+        "height": 0.36
+      },
+      "position": [
+        -0.34,
+        0,
+        0.36
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1,
+        0.28
+      ],
+      "material": "crust"
+    },
+    {
+      "id": "AxeBladeEdge",
+      "parent": "AxeShaft",
+      "shape": {
+        "type": "cone",
+        "radius": 0.065,
+        "height": 0.15
+      },
+      "position": [
+        -0.51,
+        0,
+        0.36
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1,
+        0.3
+      ],
+      "material": "magma"
+    },
+    {
+      "id": "AxeShaftRing",
+      "parent": "AxeShaft",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.083,
+          0.085,
+          0.09
+        ]
+      },
+      "position": [
+        0,
+        0,
+        -0.23
+      ],
+      "material": "magma"
+    }
+  ],
+  "parameters": {
+    "height": 2.34
+  }
+}

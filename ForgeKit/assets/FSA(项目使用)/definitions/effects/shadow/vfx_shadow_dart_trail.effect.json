@@ -1,0 +1,175 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_shadow_dart_trail",
+  "name": "暗影袖箭 · 紫黑影迹",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "dissipate": {
+      "duration": 0.45,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "projectile_mist.png"
+    }
+  },
+  "binding": {
+    "model": "FSA_PRJ_002_ShadowDart",
+    "attachment": "VFX_Anchor"
+  },
+  "layers": [
+    {
+      "id": "shadow_tail",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 18,
+      "seed": 1701,
+      "position": [
+        0,
+        0,
+        -0.28500000000000003
+      ],
+      "radii": [
+        0.052500000000000005,
+        0.052500000000000005,
+        0.255
+      ],
+      "shell": 0.55,
+      "size": [
+        0.135,
+        0.21000000000000002
+      ],
+      "aspect": 1,
+      "drift": [
+        0.012,
+        0.018000000000000002,
+        0.012
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#14091e",
+        "opacity": 0.5,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "violet_edge",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 9,
+      "seed": 1701,
+      "position": [
+        0,
+        0,
+        -0.15000000000000002
+      ],
+      "radii": [
+        0.033,
+        0.033,
+        0.195
+      ],
+      "shell": 0.55,
+      "size": [
+        0.0825,
+        0.135
+      ],
+      "aspect": 1,
+      "drift": [
+        0.012,
+        0.018000000000000002,
+        0.012
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#894ae1",
+        "opacity": 0.3,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

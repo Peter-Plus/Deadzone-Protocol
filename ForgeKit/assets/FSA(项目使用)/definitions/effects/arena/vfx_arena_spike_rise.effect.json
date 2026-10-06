@@ -1,0 +1,211 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_arena_spike_rise",
+  "name": "混沌入场 · 暗红黑破地雾",
+  "initialState": "rise",
+  "states": {
+    "rise": {
+      "duration": 3.2,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "GroundShroud",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 220,
+      "seed": 1033,
+      "position": [
+        0,
+        0.025,
+        0
+      ],
+      "radii": [
+        0.82,
+        0.08,
+        0.82
+      ],
+      "size": [
+        0.08,
+        0.16
+      ],
+      "shell": 0.45,
+      "aspect": 1.2,
+      "drift": [
+        0.015,
+        0.025,
+        0.015
+      ],
+      "speed": 1.2,
+      "rotationSpeed": 0.3,
+      "profiles": {
+        "rise": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.15,
+                0.8
+              ],
+              [
+                0.52,
+                0.85
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.35
+              ],
+              [
+                0.3,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0.32
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "riseSpread": 1
+        }
+      },
+      "render": {
+        "color": "#160e16",
+        "opacity": 0.6,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "BloodFissures",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 140,
+      "seed": 953,
+      "position": [
+        0,
+        0.04,
+        0
+      ],
+      "radii": [
+        0.8,
+        0.04,
+        0.8
+      ],
+      "size": [
+        0.025,
+        0.065
+      ],
+      "shell": 0.45,
+      "aspect": 2.6,
+      "drift": [
+        0.01,
+        0.02,
+        0.01
+      ],
+      "speed": 1.2,
+      "rotationSpeed": 0.3,
+      "profiles": {
+        "rise": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.12,
+                1
+              ],
+              [
+                0.5,
+                0.75
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.2
+              ],
+              [
+                0.26,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0.23
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "riseSpread": 0.8
+        }
+      },
+      "render": {
+        "color": "#ac1935",
+        "opacity": 0.55,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

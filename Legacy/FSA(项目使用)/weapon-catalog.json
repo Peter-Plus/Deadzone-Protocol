@@ -1,0 +1,700 @@
+{
+  "version": 1,
+  "rig": "humanoid.v1",
+  "animationPlan": {
+    "status": "generated",
+    "sharedSet": "fsa.humanoid.weapon",
+    "actions": [
+      "hold",
+      "fire",
+      "reload"
+    ],
+    "handsRequired": 2,
+    "requiresGripPoseAdaptation": false,
+    "attachmentHand": "left",
+    "attachmentSocket": "grip_main",
+    "rightHandBinding": false,
+    "ik": false,
+    "catalog": "laoen-catalog.json",
+    "characterSocket": "weapon_mount",
+    "clips": {
+      "hold": "fsa.animation.arms.hold",
+      "fire": "fsa.animation.arms.fire",
+      "reload": "fsa.animation.arms.reload"
+    }
+  },
+  "weapons": [
+    {
+      "id": "fsa.weapon.ar_01_sentinel",
+      "name": "哨兵 AR-01",
+      "category": "ar",
+      "model": "generated/models/weapons/ar/ar_01_sentinel.glb",
+      "definition": "definitions/models/weapons/ar/ar_01_sentinel.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "magazine",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.436
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.245,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.ar_02_kestrel",
+      "name": "游隼 AR-02",
+      "category": "ar",
+      "model": "generated/models/weapons/ar/ar_02_kestrel.glb",
+      "definition": "definitions/models/weapons/ar/ar_02_kestrel.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "magazine",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.396
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.245,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.smg_01_wasp",
+      "name": "黄蜂 SMG-01",
+      "category": "smg",
+      "model": "generated/models/weapons/smg/smg_01_wasp.glb",
+      "definition": "definitions/models/weapons/smg/smg_01_wasp.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "magazine",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.256
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.245,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.smg_02_lynx",
+      "name": "山猫 SMG-02",
+      "category": "smg",
+      "model": "generated/models/weapons/smg/smg_02_lynx.glb",
+      "definition": "definitions/models/weapons/smg/smg_02_lynx.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "magazine",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.303
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.245,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.lmg_01_badger",
+      "name": "獾 LMG-01",
+      "category": "lmg",
+      "model": "generated/models/weapons/lmg/lmg_01_badger.glb",
+      "definition": "definitions/models/weapons/lmg/lmg_01_badger.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "magazine",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.576
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.245,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.lmg_02_bastion",
+      "name": "堡垒 LMG-02",
+      "category": "lmg",
+      "model": "generated/models/weapons/lmg/lmg_02_bastion.glb",
+      "definition": "definitions/models/weapons/lmg/lmg_02_bastion.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "belt_box",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.616
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.245,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.dmr_01_ranger",
+      "name": "游骑兵 DMR-01",
+      "category": "dmr",
+      "model": "generated/models/weapons/dmr/dmr_01_ranger.glb",
+      "definition": "definitions/models/weapons/dmr/dmr_01_ranger.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "magazine",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.596
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.28,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.dmr_02_watchman",
+      "name": "守望者 DMR-02",
+      "category": "dmr",
+      "model": "generated/models/weapons/dmr/dmr_02_watchman.glb",
+      "definition": "definitions/models/weapons/dmr/dmr_02_watchman.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "magazine",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.576
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.28,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.sr_01_frost",
+      "name": "霜隼 SR-01",
+      "category": "sr",
+      "model": "generated/models/weapons/sr/sr_01_frost.glb",
+      "definition": "definitions/models/weapons/sr/sr_01_frost.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "magazine",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.726
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.28,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.sr_02_monolith",
+      "name": "磐石 SR-02",
+      "category": "sr",
+      "model": "generated/models/weapons/sr/sr_02_monolith.glb",
+      "definition": "definitions/models/weapons/sr/sr_02_monolith.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "magazine",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.846
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.28,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.shotgun_01_warden",
+      "name": "守卫 SG-01",
+      "category": "shotgun",
+      "model": "generated/models/weapons/shotgun/shotgun_01_warden.glb",
+      "definition": "definitions/models/weapons/shotgun/shotgun_01_warden.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "tube",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.566
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.245,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.shotgun_02_breaker",
+      "name": "破门者 SG-02",
+      "category": "shotgun",
+      "model": "generated/models/weapons/shotgun/shotgun_02_breaker.glb",
+      "definition": "definitions/models/weapons/shotgun/shotgun_02_breaker.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_long_gun",
+      "reloadStyle": "break_action",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.145,
+            0.386
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.245,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.pistol_01_swift",
+      "name": "雨燕 P-01",
+      "category": "pistol",
+      "model": "generated/models/weapons/pistol/pistol_01_swift.glb",
+      "definition": "definitions/models/weapons/pistol/pistol_01_swift.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_pistol",
+      "reloadStyle": "magazine",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.105,
+            0.161
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.156,
+            -0.052
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fsa.weapon.pistol_02_revenant",
+      "name": "归魂 P-02",
+      "category": "pistol",
+      "model": "generated/models/weapons/pistol/pistol_02_revenant.glb",
+      "definition": "definitions/models/weapons/pistol/pistol_02_revenant.model.json",
+      "handsRequired": 2,
+      "gripStyle": "two_hand_pistol",
+      "reloadStyle": "revolver",
+      "sockets": {
+        "grip_main": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "muzzle": {
+          "position": [
+            0,
+            0.105,
+            0.286
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "aim": {
+          "position": [
+            0,
+            0.156,
+            -0.052
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ]
+}

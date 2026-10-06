@@ -1,0 +1,9 @@
+{
+  "schema": "animation.v1",
+  "id": "animation.humanoid.walk",
+  "rig": "humanoid.v1",
+  "duration": 1,
+  "loop": true,
+  "mode": "generator",
+  "generator": "humanoid.walk"
+}

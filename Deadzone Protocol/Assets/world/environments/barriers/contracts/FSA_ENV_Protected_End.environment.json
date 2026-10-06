@@ -1,0 +1,326 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Protected_End",
+  "label": "保护区装甲铁墙 / 1m 收边",
+  "type": "barrier",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -0.7,
+      -0.3
+    ],
+    "max": [
+      0.7,
+      0.3
+    ]
+  },
+  "colliders": [
+    {
+      "node": "X_ContinuousBlocker",
+      "role": "barrier",
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        4,
+        0.25
+      ]
+    },
+    {
+      "node": "X_Foot",
+      "role": "barrier",
+      "position": [
+        0,
+        0.11,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        0.22,
+        0.38
+      ]
+    },
+    {
+      "node": "X_Rail0_5",
+      "role": "barrier",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "X_Rail2_1",
+      "role": "barrier",
+      "position": [
+        0,
+        2.1,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "X_Rail3_78",
+      "role": "barrier",
+      "position": [
+        0,
+        3.78,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "X_Post0",
+      "role": "barrier",
+      "position": [
+        -0.5,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.22,
+        4,
+        0.42
+      ]
+    },
+    {
+      "node": "X_Cap0",
+      "role": "barrier",
+      "position": [
+        -0.5,
+        3.955,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Collar0",
+      "role": "barrier",
+      "position": [
+        -0.5,
+        0.24,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Post1",
+      "role": "barrier",
+      "position": [
+        0.5,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.22,
+        4,
+        0.42
+      ]
+    },
+    {
+      "node": "X_Cap1",
+      "role": "barrier",
+      "position": [
+        0.5,
+        3.955,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Collar1",
+      "role": "barrier",
+      "position": [
+        0.5,
+        0.24,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    },
+    {
+      "node": "TerminalSpine",
+      "role": "barrier",
+      "position": [
+        0.5,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.18,
+        4,
+        0.5
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [
+    {
+      "id": "West",
+      "position": [
+        -0.5,
+        0,
+        0
+      ],
+      "outward": [
+        -1,
+        0,
+        0
+      ],
+      "height": 4,
+      "thickness": 0.25
+    },
+    {
+      "id": "East",
+      "position": [
+        0.5,
+        0,
+        0
+      ],
+      "outward": [
+        1,
+        0,
+        0
+      ],
+      "height": 4,
+      "thickness": 0.25
+    }
+  ],
+  "modelAsset": "models/FSA_ENV_Protected_End.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -0.6500000059604645,
+      0,
+      -0.25
+    ],
+    "max": [
+      0.6500000059604645,
+      4.000000001788139,
+      0.25
+    ]
+  },
+  "checks": [],
+  "sourceHash": "0585fbc63d9bc1b91838d15d16d666e4542a247133adeb563f5cad9af1c6b12a",
+  "modelHash": "e69ce842ecba9d758d259afd8234f355ec2a09950126393d3000455ebb23ef4c"
+}

@@ -1,0 +1,283 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_VileCore",
+  "type": "static",
+  "materials": {
+    "orange": {
+      "color": "#B63C36",
+      "roughness": 0.75
+    },
+    "black": {
+      "color": "#273236",
+      "roughness": 0.87
+    },
+    "metal": {
+      "color": "#839093",
+      "roughness": 0.4,
+      "metalness": 0.65
+    },
+    "olive": {
+      "color": "#626F52",
+      "roughness": 1
+    },
+    "tan": {
+      "color": "#9B8966",
+      "roughness": 1
+    },
+    "cloth": {
+      "color": "#394C46",
+      "roughness": 1
+    },
+    "strap": {
+      "color": "#263E34",
+      "roughness": 0.92
+    },
+    "light": {
+      "color": "#CABD96",
+      "roughness": 0.9
+    },
+    "hole": {
+      "color": "#0D171D",
+      "roughness": 1
+    },
+    "stone": {
+      "color": "#3A3548",
+      "roughness": 0.95
+    },
+    "purple": {
+      "color": "#82749E",
+      "roughness": 0.45,
+      "metalness": 0.15
+    },
+    "purpleTip": {
+      "color": "#B0A0C8",
+      "roughness": 0.38
+    },
+    "ember": {
+      "color": "#D76436",
+      "roughness": 0.5
+    },
+    "hot": {
+      "color": "#F0B25C",
+      "roughness": 0.38
+    },
+    "char": {
+      "color": "#493C3C",
+      "roughness": 0.92
+    },
+    "green": {
+      "color": "#579875",
+      "roughness": 0.5
+    },
+    "toxic": {
+      "color": "#ABD27E",
+      "roughness": 0.4
+    },
+    "bark": {
+      "color": "#344F42",
+      "roughness": 0.9
+    }
+  },
+  "parts": [
+    {
+      "id": "VileHeart_Crown",
+      "shape": {
+        "type": "cone",
+        "radius": 0.074,
+        "height": 0.11699999999999999,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.004499999999999999,
+        0.13001396741511456,
+        0.005620130119398514
+      ],
+      "rotation": [
+        7.999999999999997,
+        36,
+        18
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "green"
+    },
+    {
+      "id": "VileHeart_Root",
+      "shape": {
+        "type": "cone",
+        "radius": 0.074,
+        "height": 0.048,
+        "radialSegments": 5
+      },
+      "position": [
+        0.016125,
+        0.05440089371093393,
+        -0.020138799594511345
+      ],
+      "rotation": [
+        -172,
+        -35.99999999999999,
+        -18.000000000000007
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "green"
+    },
+    {
+      "id": "VileLeft_Crown",
+      "shape": {
+        "type": "cone",
+        "radius": 0.03,
+        "height": 0.0975,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.07256186241989279,
+        0.0985021604077005,
+        0.006253074501272595
+      ],
+      "rotation": [
+        5.000000000000002,
+        12.000000000000002,
+        52
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "green"
+    },
+    {
+      "id": "VileLeft_Root",
+      "shape": {
+        "type": "cone",
+        "radius": 0.03,
+        "height": 0.04,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.019569992995384144,
+        0.05731820215416764,
+        -0.008656850296226797
+      ],
+      "rotation": [
+        -175,
+        -11.999999999999995,
+        -52
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "green"
+    },
+    {
+      "id": "VileRight_Crown",
+      "shape": {
+        "type": "cone",
+        "radius": 0.033,
+        "height": 0.10452000000000002,
+        "radialSegments": 5
+      },
+      "position": [
+        0.06488040884467193,
+        0.10450121005428933,
+        -0.015006091068237163
+      ],
+      "rotation": [
+        9.999999999999996,
+        42,
+        -47.99999999999999
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "green"
+    },
+    {
+      "id": "VileRight_Root",
+      "shape": {
+        "type": "cone",
+        "radius": 0.033,
+        "height": 0.04288,
+        "radialSegments": 5
+      },
+      "position": [
+        0.0241785349732589,
+        0.049571607587224314,
+        0.012521826327849839
+      ],
+      "rotation": [
+        -170,
+        -42.000000000000014,
+        47.99999999999999
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "green"
+    },
+    {
+      "id": "VileFront_Crown",
+      "shape": {
+        "type": "cone",
+        "radius": 0.026,
+        "height": 0.07254000000000001,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        0.0890656255012284,
+        0.035826490275898216
+      ],
+      "rotation": [
+        -40,
+        20,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "toxic"
+    },
+    {
+      "id": "VileFront_Root",
+      "shape": {
+        "type": "cone",
+        "radius": 0.026,
+        "height": 0.02976,
+        "radialSegments": 5
+      },
+      "position": [
+        8.673617379884035e-19,
+        0.04988245223569268,
+        0.0687050765113647
+      ],
+      "rotation": [
+        140,
+        -20,
+        -2.5385066971182593e-15
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "toxic"
+    }
+  ]
+}

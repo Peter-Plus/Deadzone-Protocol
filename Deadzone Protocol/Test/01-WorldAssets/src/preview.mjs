@@ -1,0 +1,73 @@
+import * as T from '../../../../ForgeKit/node_modules/three/build/three.module.js';
+import {GLTFLoader} from '../../../../ForgeKit/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import {OrbitControls} from '../../../../ForgeKit/node_modules/three/examples/jsm/controls/OrbitControls.js';
+import {generate,templates,terrainBuffers,ground,transform} from './world.mjs';
+import payload from '../preview-data.json';
+const $=id=>document.getElementById(id),stage=$('stage'),ts=templates(),loader=new GLTFLoader();
+const scene=new T.Scene();scene.background=new T.Color('#b8b9ac');scene.fog=new T.Fog('#b8b9ac',240,450);
+const camera=new T.PerspectiveCamera(43,1,.05,650),renderer=new T.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFSoftShadowMap;renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;stage.prepend(renderer.domElement);
+const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.maxDistance=450;controls.minDistance=.2;controls.maxPolarAngle=Math.PI*.495;
+scene.add(new T.HemisphereLight('#e4e9df','#726854',2.9));const sun=new T.DirectionalLight('#fff0d5',3.1);sun.position.set(45,95,20);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-115,right:115,top:115,bottom:-115,near:1,far:260});sun.shadow.bias=-.0003;sun.shadow.normalBias=.02;scene.add(sun);
+const world=new T.Group(),overlay=new T.Group(),gauges=new T.Group();scene.add(world,overlay,gauges);let current,selected,models={},groups=[],terrainMesh,renderEpoch=0;
+function geom(t){const b=terrainBuffers(t),g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute(b.positions,3));g.setIndex(b.indices);g.computeVertexNormals();return g;}
+function disposeGroup(g){while(g.children.length){const c=g.children[0];g.remove(c);c.traverse(n=>{if(n.userData.disposable){n.geometry?.dispose();n.material?.map?.dispose();n.material?.dispose();}});}}
+function line(points,color,closed=false){const geo=new T.BufferGeometry().setFromPoints(points.map(p=>new T.Vector3(...p)));const m=new T.LineBasicMaterial({color,depthTest:true,transparent:true,opacity:.85});const l=closed?new T.LineLoop(geo,m):new T.Line(geo,m);l.userData.disposable=true;return l;}
+function rect(min,max,y,color){const g=new T.PlaneGeometry(max[0]-min[0],max[1]-min[1]);g.rotateX(-Math.PI/2);const m=new T.MeshBasicMaterial({color,transparent:true,opacity:.32,side:T.DoubleSide,depthWrite:false});const obj=new T.Mesh(g,m);obj.position.set((min[0]+max[0])/2,y,(min[1]+max[1])/2);obj.userData.disposable=true;return obj;}
+function label(text,pos,color='#e5d8b9',size=2){const c=document.createElement('canvas');c.width=512;c.height=90;const ctx=c.getContext('2d');ctx.fillStyle='rgba(17,35,40,.85)';ctx.fillRect(0,0,512,90);ctx.font='32px "Segoe UI","Microsoft YaHei"';ctx.textAlign='center';ctx.fillStyle=color;ctx.fillText(text,256,56);const texture=new T.CanvasTexture(c);const m=new T.SpriteMaterial({map:texture,depthTest:false});const sprite=new T.Sprite(m);sprite.position.fromArray(pos);sprite.scale.set(size*5.68,size,1);sprite.userData.disposable=true;return sprite;}
+function view(pos,target,title){camera.position.fromArray(pos);controls.target.fromArray(target);controls.update();$('viewtitle').textContent=title;}
+function overview(){const size=current.config.size;view([size*.95,size*1.1,size*1.18],[0,0,0],'荒漠中的小聚落');$('subtitle').textContent=`${size} × ${size} M / CONTINUOUS TERRAIN`;$('overview').classList.add('active');}
+function top(){view([0,210,.01],[0,0,0],'布局与预留空间');}
+function focus(type='building'){
+ const i=current.buildings.find(b=>b.instanceId===selected),t=ts.find(t=>t.templateId===i.templateId);const wp=p=>transform(p,i);
+ if(type==='interior'){view(wp([0,t.floorElevation+1.65,t.size[1]/2-.7]),wp(t.templateId==='bent'?[3.5,t.floorElevation+1.65,-3]:[0,t.floorElevation+1.65,-t.size[1]/2]),`${t.label} · 室内`);$('roof').checked=true;}
+ else if(type==='entrance'){view(wp([8,4.6,t.size[1]/2+9]),wp([0,t.floorElevation/2,t.size[1]/2+1]),'抬高地坪 · 连续入口缓坡');$('gauges').checked=true;}
+ else if(type==='settlement'){const b=current.buildings.filter(b=>b.settlementId===i.settlementId);const center=[b.reduce((a,b)=>a+b.position[0],0)/b.length,0,b.reduce((a,b)=>a+b.position[2],0)/b.length];view([center[0]+41,48,center[2]+50],center,`聚落 ${i.settlementId} · ${b.length} 栋建筑`);}
+ else if(type==='slope'){const p=i.platform,x=(p.min[0]+p.max[0])/2,z=p.max[1]+7;view([x+22,13,z+21],[x,1,z],'水平建造平台 · 外围缓坡');}
+ else{view(wp([14,17,18]),wp([0,1,0]),t.label+' · 空间检查');$('roof').checked=false;}
+ layers();$('overview').classList.remove('active');
+}
+function select(id,move=false){selected=id;$('selected').value=id;const i=current.buildings.find(b=>b.instanceId===id),t=ts.find(t=>t.templateId===i.templateId);$('building-title').textContent=t.label;$('building-id').textContent=`${i.instanceId} / ${t.templateId.toUpperCase()} / YAW ${Math.round(i.rotation[1]*180/Math.PI)}°`;$('door').textContent=`${t.doorWidth.toFixed(1)} × ${t.doorHeight.toFixed(1)} m`;$('floor').textContent=`+${t.floorElevation.toFixed(2)} / ${t.clearHeight.toFixed(1)} m`;$('ramp').textContent=`3.00 m / ${t.entrances[0].slopeDegrees.toFixed(2)}°`;$('rise-label').textContent=`+${t.floorElevation.toFixed(2)}`;if(move)focus();else layers();}
+function layers(){
+ for(const g of groups)g.traverse(n=>{if(n.name==='roof')n.visible=$('roof').checked;});terrainMesh.material.wireframe=$('wire').checked;
+ disposeGroup(overlay);disposeGroup(gauges);
+ const showRegions=$('regions').checked,showRes=$('reservation').checked,showCollision=$('collision').checked;
+ for(const i of current.buildings){const t=ts.find(t=>t.templateId===i.templateId),g=new T.Group();g.position.fromArray(i.position);g.rotation.fromArray([...i.rotation,'XYZ']);overlay.add(g);
+  if(i.instanceId===selected)g.add(line([[-t.size[0]/2-.1,.05,-t.size[1]/2-.1],[t.size[0]/2+.1,.05,-t.size[1]/2-.1],[t.size[0]/2+.1,.05,t.size[1]/2+.1],[-t.size[0]/2-.1,.05,t.size[1]/2+.1]],'#fff3bf',true));
+  if(showRes){g.add(line([[t.reservation.min[0],.07,t.reservation.min[1]],[t.reservation.max[0],.07,t.reservation.min[1]],[t.reservation.max[0],.07,t.reservation.max[1]],[t.reservation.min[0],.07,t.reservation.max[1]]],'#e3bc75',true));for(const e of t.entrances)g.add(rect(e.landing.min,e.landing.max,.04,'#d9b269'));}
+  if(showRegions){for(const r of t.interiorRegions)g.add(rect(r.min,r.max,r.floorY+.035,'#75dab0'));for(const r of t.exclusions){if(r.min)g.add(rect(r.min,r.max,t.floorElevation+.04,'#eb8177'));else{const p=r.polyline;g.add(line(p.map(p=>[p[0],p[1]+.06,p[2]]),'#ff9892'));for(let n=1;n<p.length;n++){const a=p[n-1],b=p[n],length=Math.hypot(b[0]-a[0],b[2]-a[2]),mesh=rect([-r.radius,-length/2],[r.radius,length/2],0,'#eb8177');mesh.position.set((a[0]+b[0])/2,t.floorElevation+.025,(a[2]+b[2])/2);mesh.rotation.y=Math.atan2(b[0]-a[0],b[2]-a[2]);g.add(mesh);}}}}
+  if(showCollision)for(const c of t.colliders){if(c.role==='roof'&&!$('roof').checked)continue;const geo=new T.EdgesGeometry(new T.BoxGeometry(...c.size)),l=new T.LineSegments(geo,new T.LineBasicMaterial({color:c.role==='ramp'?'#ffce70':'#6ed7e4',depthTest:false,transparent:true,opacity:.7}));l.position.fromArray(c.position);l.rotation.fromArray([...c.rotation,'XYZ']);l.userData.disposable=true;g.add(l);}
+ }
+ if(showRegions)for(const r of current.outdoorRegions){const obj=rect(r.min,r.max,ground(current.terrain,(r.min[0]+r.max[0])/2,(r.min[1]+r.max[1])/2).height+.1,'#69bbee');overlay.add(obj);}
+ const i=current.buildings.find(b=>b.instanceId===selected),t=ts.find(t=>t.templateId===i.templateId);
+ if($('gauges').checked){gauges.position.fromArray(i.position);gauges.rotation.set(...i.rotation);const positions=[[-3.4,0,t.size[1]/2+3.8],[0,0,t.size[1]/2+3.8],[3.4,0,t.size[1]/2+3.8]];const player=new T.Mesh(new T.CapsuleGeometry(.3,1.2,8,16),new T.MeshStandardMaterial({color:'#e2bc6a',transparent:true,opacity:.75}));player.position.set(positions[0][0],.9,positions[0][2]);player.userData.disposable=true;gauges.add(player);for(const [idx,id] of [[1,'A1'],[2,'B2']]){const m=models[id].clone(true);m.position.fromArray(positions[idx]);gauges.add(m);}for(let j=0;j<3;j++)gauges.add(label(['玩家 1.80 m','A1 1.83 m','B2 含斧 2.41 m'][j],[positions[j][0],j===2?3:2.35,positions[j][2]],'#e5d8b9',.36));}
+}
+async function loadScene(s){const epoch=++renderEpoch;current=s;disposeGroup(world);groups=[];
+ if(payload.glbs[s.terrain.asset]){const loaded=await parse(payload.glbs[s.terrain.asset]);if(epoch!==renderEpoch)return;terrainMesh=loaded.scene.getObjectByName('terrain');terrainMesh.material=new T.MeshStandardMaterial({color:'#b9a47e',roughness:1});}
+ else terrainMesh=new T.Mesh(geom(s.terrain),new T.MeshStandardMaterial({color:'#b9a47e',roughness:1}));
+ terrainMesh.receiveShadow=true;terrainMesh.userData.disposable=true;world.add(terrainMesh);
+ const colors=[],pos=terrainMesh.geometry.attributes.position,lo=new T.Color('#786b51'),hi=new T.Color('#d0ba8e');for(let n=0;n<pos.count;n++){const c=lo.clone().lerp(hi,pos.getY(n)/2.2);colors.push(c.r,c.g,c.b);}terrainMesh.geometry.setAttribute('color',new T.Float32BufferAttribute(colors,3));terrainMesh.material.color.set('#ffffff');terrainMesh.material.vertexColors=true;
+ terrainMesh.material.onBeforeCompile=shader=>{shader.vertexShader='varying float vHeight;\n'+shader.vertexShader;shader.vertexShader=shader.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nvHeight=position.y;');shader.fragmentShader='varying float vHeight;\n'+shader.fragmentShader;shader.fragmentShader=shader.fragmentShader.replace('#include <color_fragment>','#include <color_fragment>\nfloat h=vHeight*4.0; float contour=smoothstep(0.0,max(fwidth(h)*1.5,0.015),abs(fract(h+0.5)-0.5)); diffuseColor.rgb*=mix(0.79,1.0,contour);');};
+ for(const i of s.buildings){const g=new T.Group();g.position.fromArray(i.position);g.rotation.set(...i.rotation);g.userData.instanceId=i.instanceId;const m=models[i.templateId].clone(true);m.traverse(n=>{if(n.isMesh){n.castShadow=true;n.receiveShadow=true;n.userData.instanceId=i.instanceId;}});g.add(m);world.add(g);groups.push(g);}
+ const border=s.config.size/2;world.add(line([[-border,ground(s.terrain,-border,-border).height+.08,-border],[border,ground(s.terrain,border,-border).height+.08,-border],[border,ground(s.terrain,border,border).height+.08,border],[-border,ground(s.terrain,-border,border).height+.08,border]],'#f1dfba',true));
+ for(const group of s.settlements){const b=s.buildings.filter(b=>b.settlementId===group.id),x=b.reduce((v,i)=>v+i.position[0],0)/b.length,z=b.reduce((v,i)=>v+i.position[2],0)/b.length;world.add(label(`聚落 ${group.id}   /   ${b.length} 栋`,[x,8,z],'#f1dfb8',2));}
+ $('selected').innerHTML=s.buildings.map(i=>`<option value="${i.instanceId}">${i.instanceId} · ${ts.find(t=>t.templateId===i.templateId).label}</option>`).join('');$('seed').value=s.seed;$('seed-hud').textContent=s.seed;$('building-count').innerHTML=`${s.buildings.length} <span>/ 3</span>`;$('map-size').innerHTML=`${s.config.size} × ${s.config.size} <span>m</span>`;$('relief').innerHTML=`${(Math.max(...s.terrain.heights)-Math.min(...s.terrain.heights)).toFixed(2)} <span>m</span>`;
+ $('status').textContent=payload.scenes.some(x=>x.seed===s.seed)?'● 固定 seed：GLB、静态空间检查已通过。':'● 新 seed 已生成；导出后请运行静态验证工具。';select(s.buildings[0].instanceId);overview();window.__ready=true;
+}
+async function parse(base64){const b=Uint8Array.from(atob(base64),c=>c.charCodeAt(0));return loader.parseAsync(b.buffer,'');}
+function fail(e){console.error(e);$('loading').classList.add('hidden');$('status').textContent='生成 / 加载失败：'+e.message;}
+async function start(){
+ for(const t of ts)models[t.templateId]=(await parse(payload.glbs[t.visualAsset])).scene;
+ for(const name of ['A1','B2'])models[name]=(await parse(payload.glbs[`references/${name}.glb`])).scene;
+ $('presets').innerHTML=payload.scenes.map(s=>`<button class="seedbtn" data-seed="${s.seed}">${s.seed}</button>`).join('');$('presets').onclick=e=>{const seed=e.target.dataset.seed;if(seed)loadScene(payload.scenes.find(s=>s.seed===seed)).catch(fail);};
+ $('regenerate').onclick=()=>{try{const seed=$('seed').value.trim();if(!/^[A-Za-z0-9_-]{1,40}$/.test(seed))throw Error('Seed 使用 1–40 位字母、数字、下划线或短横线');loadScene(generate(seed)).catch(fail);}catch(e){fail(e);}};
+ $('selected').onchange=()=>select($('selected').value,true);for(const id of ['through','bent','warehouse'])$(id).onclick=()=>select(current.buildings.find(b=>b.templateId===id).instanceId,true);
+ $('overview').onclick=overview;$('reset').onclick=overview;$('top').onclick=top;$('settlement').onclick=()=>focus('settlement');$('slope').onclick=()=>focus('slope');$('interior').onclick=()=>focus('interior');$('entrance').onclick=()=>focus('entrance');
+ for(const id of ['roof','gauges','collision','regions','reservation','wire'])$(id).onchange=layers;
+ $('download').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(current,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download=`world-${current.seed}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+ let down;renderer.domElement.addEventListener('pointerdown',e=>down=[e.clientX,e.clientY]);renderer.domElement.addEventListener('pointerup',e=>{if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>3)return;const r=renderer.domElement.getBoundingClientRect(),ray=new T.Raycaster();ray.setFromCamera(new T.Vector2((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1),camera);const hit=ray.intersectObjects(groups,true).find(h=>h.object.userData.instanceId);if(hit)select(hit.object.userData.instanceId);});
+ await loadScene(payload.scenes[0]);$('loading').classList.add('hidden');
+ window.assetPreview={loadSeed:async seed=>loadScene(payload.scenes.find(s=>s.seed===String(seed))??generate(String(seed))),selectTemplate:id=>select(current.buildings.find(b=>b.templateId===id).instanceId,true),focus,overview,top,getState:()=>({seed:current.seed,buildings:groups.length,selected,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,camera:camera.position.toArray(),errors:[],version:current.schemaVersion}),scene:()=>current};
+}
+new ResizeObserver(()=>{const w=stage.clientWidth,h=stage.clientHeight;renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();}).observe(stage);
+renderer.setAnimationLoop(()=>{controls.update();renderer.render(scene,camera);});start().catch(fail);
+

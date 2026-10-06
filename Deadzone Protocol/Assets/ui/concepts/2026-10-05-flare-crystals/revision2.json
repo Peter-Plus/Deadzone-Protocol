@@ -1,0 +1,17 @@
+[
+  {
+    "file": "ui_item_mutation_crystal.png",
+    "name": "异变结晶",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-5331304b-6acc-43fc-a931-5771ae45ad59.png"
+  },
+  {
+    "file": "ui_item_fire_demon_core.png",
+    "name": "火魔晶核",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-91e01c9b-d4c0-4153-9624-5bed23ec00f7.png"
+  },
+  {
+    "file": "ui_item_vile_core.png",
+    "name": "恶毒晶核",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-b76cea1a-dade-4ca6-af40-d4216736f5bc.png"
+  }
+]

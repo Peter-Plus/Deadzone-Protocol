@@ -1,0 +1,1262 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_WPN_LMG_001_Bastion",
+  "type": "static",
+  "materials": {
+    "metal": {
+      "color": "#343D45",
+      "metalness": 0.75,
+      "roughness": 0.38
+    },
+    "edge": {
+      "color": "#63717B",
+      "metalness": 0.8,
+      "roughness": 0.32
+    },
+    "black": {
+      "color": "#151C22",
+      "roughness": 0.76
+    },
+    "polymer": {
+      "color": "#495650",
+      "roughness": 0.86
+    },
+    "accent": {
+      "color": "#B68D50",
+      "metalness": 0.45,
+      "roughness": 0.5
+    },
+    "glass": {
+      "color": "#315D68",
+      "metalness": 0.5,
+      "roughness": 0.18
+    },
+    "hole": {
+      "color": "#070B0E",
+      "roughness": 1
+    },
+    "blade": {
+      "color": "#BAC7CE",
+      "metalness": 0.9,
+      "roughness": 0.23
+    }
+  },
+  "parts": [
+    {
+      "id": "GripCore",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.058,
+          0.15,
+          0.07
+        ]
+      },
+      "position": [
+        0,
+        0.003,
+        0
+      ],
+      "material": "black",
+      "rotation": [
+        12,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GuardFront",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.067,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.0245,
+        0.083
+      ],
+      "material": "black"
+    },
+    {
+      "id": "GuardBottom",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.012,
+          0.07
+        ]
+      },
+      "position": [
+        0,
+        -0.008,
+        0.054
+      ],
+      "material": "black"
+    },
+    {
+      "id": "Trigger",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.012,
+          0.032,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.038,
+        0.06
+      ],
+      "material": "black",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Receiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.098,
+          0.09,
+          0.29
+        ]
+      },
+      "position": [
+        0,
+        0.118,
+        0.043
+      ],
+      "material": "polymer"
+    },
+    {
+      "id": "UpperReceiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.067,
+          0.024,
+          0.29
+        ]
+      },
+      "position": [
+        0,
+        0.174,
+        0.043
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LowerReceiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.064,
+          0.043,
+          0.14
+        ]
+      },
+      "position": [
+        0,
+        0.07,
+        0.03
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "EjectionPort",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.031,
+          0.066
+        ]
+      },
+      "position": [
+        0.038,
+        0.133,
+        0.064
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "BoltCover",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.004,
+          0.015,
+          0.042
+        ]
+      },
+      "position": [
+        0.041,
+        0.132,
+        0.071
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Selector",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.012,
+        "radiusBottom": 0.012,
+        "height": 0.006
+      },
+      "position": [
+        -0.04,
+        0.094,
+        -0.025
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "SelectorLever",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.006,
+          0.012,
+          0.027
+        ]
+      },
+      "position": [
+        -0.045,
+        0.088,
+        -0.017
+      ],
+      "material": "edge",
+      "rotation": [
+        -22,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ReceiverPin_-0p053",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.005,
+        "radiusBottom": 0.005,
+        "height": 0.078
+      },
+      "position": [
+        0,
+        0.097,
+        -0.053
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "ReceiverPin_0p116",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.005,
+        "radiusBottom": 0.005,
+        "height": 0.078
+      },
+      "position": [
+        0,
+        0.097,
+        0.116
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Handguard",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.075,
+          0.28
+        ]
+      },
+      "position": [
+        0,
+        0.133,
+        0.29
+      ],
+      "material": "polymer"
+    },
+    {
+      "id": "HandguardUnder",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.022,
+          0.23800000000000002
+        ]
+      },
+      "position": [
+        0,
+        0.087,
+        0.29
+      ],
+      "material": "black"
+    },
+    {
+      "id": "Vent_-1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.002,
+          0.017,
+          0.024
+        ]
+      },
+      "position": [
+        -0.0385,
+        0.15,
+        0.18919999999999998
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "Vent_-1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.002,
+          0.017,
+          0.024
+        ]
+      },
+      "position": [
+        -0.0385,
+        0.15,
+        0.23679999999999998
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "Vent_-1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.002,
+          0.017,
+          0.024
+        ]
+      },
+      "position": [
+        -0.0385,
+        0.15,
+        0.2844
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "Vent_-1_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.002,
+          0.017,
+          0.024
+        ]
+      },
+      "position": [
+        -0.0385,
+        0.15,
+        0.33199999999999996
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "Vent_-1_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.002,
+          0.017,
+          0.024
+        ]
+      },
+      "position": [
+        -0.0385,
+        0.15,
+        0.37960000000000005
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "Vent_1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.002,
+          0.017,
+          0.024
+        ]
+      },
+      "position": [
+        0.0385,
+        0.15,
+        0.18919999999999998
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "Vent_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.002,
+          0.017,
+          0.024
+        ]
+      },
+      "position": [
+        0.0385,
+        0.15,
+        0.23679999999999998
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "Vent_1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.002,
+          0.017,
+          0.024
+        ]
+      },
+      "position": [
+        0.0385,
+        0.15,
+        0.2844
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "Vent_1_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.002,
+          0.017,
+          0.024
+        ]
+      },
+      "position": [
+        0.0385,
+        0.15,
+        0.33199999999999996
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "Vent_1_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.002,
+          0.017,
+          0.024
+        ]
+      },
+      "position": [
+        0.0385,
+        0.15,
+        0.37960000000000005
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "Barrel",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.013,
+        "radiusBottom": 0.013,
+        "height": 0.2
+      },
+      "position": [
+        0,
+        0.137,
+        0.53
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "Muzzle",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.024,
+        "radiusBottom": 0.024,
+        "height": 0.052
+      },
+      "position": [
+        0,
+        0.137,
+        0.655
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Bore",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.01392,
+        "radiusBottom": 0.01392,
+        "height": 0.0015
+      },
+      "position": [
+        0,
+        0.137,
+        0.682
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "MuzzleSlot_-1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.001,
+          0.012,
+          0.009
+        ]
+      },
+      "position": [
+        -0.024,
+        0.137,
+        0.643
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "MuzzleSlot_-1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.001,
+          0.012,
+          0.009
+        ]
+      },
+      "position": [
+        -0.024,
+        0.137,
+        0.663
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "MuzzleSlot_1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.001,
+          0.012,
+          0.009
+        ]
+      },
+      "position": [
+        0.024,
+        0.137,
+        0.643
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "MuzzleSlot_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.001,
+          0.012,
+          0.009
+        ]
+      },
+      "position": [
+        0.024,
+        0.137,
+        0.663
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "RailBase",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.034,
+          0.014,
+          0.43
+        ]
+      },
+      "position": [
+        0,
+        0.188,
+        0.135
+      ],
+      "material": "black"
+    },
+    {
+      "id": "RailTooth_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        -0.06599999999999999
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        -0.04099999999999999
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        -0.015999999999999986
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.009000000000000022
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.034000000000000016
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.05900000000000001
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.08400000000000003
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_7",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.10900000000000003
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_8",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.134
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_9",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.15900000000000003
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_10",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.184
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_11",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.20900000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_12",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.23400000000000004
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_13",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.259
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_14",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.28400000000000003
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_15",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.309
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "RailTooth_16",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.05,
+          0.009,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.199,
+        0.334
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "StockTube",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.032,
+          0.033,
+          0.18
+        ]
+      },
+      "position": [
+        0,
+        0.135,
+        -0.177
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "StockBody",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.06,
+          0.093,
+          0.15
+        ]
+      },
+      "position": [
+        0,
+        0.116,
+        -0.237
+      ],
+      "material": "polymer"
+    },
+    {
+      "id": "StockCheek",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.027,
+          0.12
+        ]
+      },
+      "position": [
+        0,
+        0.168,
+        -0.22999999999999998
+      ],
+      "material": "polymer"
+    },
+    {
+      "id": "ButtPad",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.071,
+          0.137,
+          0.028
+        ]
+      },
+      "position": [
+        0,
+        0.1,
+        -0.317
+      ],
+      "material": "black"
+    },
+    {
+      "id": "StockInset",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.062,
+          0.025,
+          0.063
+        ]
+      },
+      "position": [
+        0,
+        0.108,
+        -0.23299999999999998
+      ],
+      "material": "black"
+    },
+    {
+      "id": "AmmoBox",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.146,
+          0.142
+        ]
+      },
+      "position": [
+        0,
+        -0.004,
+        0.153
+      ],
+      "material": "polymer"
+    },
+    {
+      "id": "AmmoBoxLid",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.154,
+          0.022,
+          0.148
+        ]
+      },
+      "position": [
+        0,
+        0.07,
+        0.153
+      ],
+      "material": "black"
+    },
+    {
+      "id": "AmmoBoxRib_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.149,
+          0.009,
+          0.132
+        ]
+      },
+      "position": [
+        0,
+        -0.056,
+        0.153
+      ],
+      "material": "black"
+    },
+    {
+      "id": "AmmoBoxRib_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.149,
+          0.009,
+          0.132
+        ]
+      },
+      "position": [
+        0,
+        -0.017,
+        0.153
+      ],
+      "material": "black"
+    },
+    {
+      "id": "AmmoBoxRib_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.149,
+          0.009,
+          0.132
+        ]
+      },
+      "position": [
+        0,
+        0.022,
+        0.153
+      ],
+      "material": "black"
+    },
+    {
+      "id": "SightBase",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.048,
+          0.022,
+          0.065
+        ]
+      },
+      "position": [
+        0,
+        0.218,
+        0.014
+      ],
+      "material": "black"
+    },
+    {
+      "id": "SightSide_-0p022",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.047,
+          0.018
+        ]
+      },
+      "position": [
+        -0.022,
+        0.248,
+        0.014
+      ],
+      "material": "black"
+    },
+    {
+      "id": "SightSide_0p022",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.047,
+          0.018
+        ]
+      },
+      "position": [
+        0.022,
+        0.248,
+        0.014
+      ],
+      "material": "black"
+    },
+    {
+      "id": "SightTop",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.051,
+          0.01,
+          0.018
+        ]
+      },
+      "position": [
+        0,
+        0.272,
+        0.014
+      ],
+      "material": "black"
+    },
+    {
+      "id": "SightGlass",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.034,
+          0.032,
+          0.002
+        ]
+      },
+      "position": [
+        0,
+        0.247,
+        0.014
+      ],
+      "material": "glass"
+    },
+    {
+      "id": "BipodLeg_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.015,
+          0.185,
+          0.021
+        ]
+      },
+      "position": [
+        -0.045,
+        0.012,
+        0.3852
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        -23
+      ]
+    },
+    {
+      "id": "BipodFoot_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.014,
+          0.045
+        ]
+      },
+      "position": [
+        -0.08,
+        -0.073,
+        0.3852
+      ],
+      "material": "black"
+    },
+    {
+      "id": "BipodLeg_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.015,
+          0.185,
+          0.021
+        ]
+      },
+      "position": [
+        0.045,
+        0.012,
+        0.3852
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        23
+      ]
+    },
+    {
+      "id": "BipodFoot_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.014,
+          0.045
+        ]
+      },
+      "position": [
+        0.08,
+        -0.073,
+        0.3852
+      ],
+      "material": "black"
+    }
+  ]
+}

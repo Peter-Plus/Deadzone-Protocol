@@ -1,0 +1,2053 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Truck_01_Cargo",
+  "label": "报废卡车／封闭货运车",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -1.66,
+      -3.72
+    ],
+    "max": [
+      1.66,
+      4.34
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Frame",
+      "role": "solid"
+    },
+    {
+      "node": "Cab",
+      "role": "solid"
+    },
+    {
+      "node": "Hood",
+      "role": "solid"
+    },
+    {
+      "node": "Bumper",
+      "role": "solid"
+    },
+    {
+      "node": "Step_-1",
+      "role": "solid"
+    },
+    {
+      "node": "Step_1",
+      "role": "solid"
+    },
+    {
+      "node": "Wheel_-1_-2_4_Core",
+      "role": "solid"
+    },
+    {
+      "node": "Wheel_1_-2_4_Core",
+      "role": "solid"
+    },
+    {
+      "node": "Wheel_-1_-1_1_Core",
+      "role": "solid"
+    },
+    {
+      "node": "Wheel_1_-1_1_Core",
+      "role": "solid"
+    },
+    {
+      "node": "Wheel_-1_2_5_Core",
+      "role": "solid"
+    },
+    {
+      "node": "Wheel_1_2_5_Core",
+      "role": "solid"
+    },
+    {
+      "node": "CargoBody",
+      "role": "solid"
+    },
+    {
+      "node": "CargoRoof",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Truck_01_Cargo",
+    "type": "static",
+    "parts": [
+      {
+        "id": "Frame",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.1,
+            0.45,
+            6.7
+          ]
+        },
+        "position": [
+          0,
+          0.65,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Cab",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.3,
+            1.7,
+            1.85
+          ]
+        },
+        "position": [
+          0,
+          1.7,
+          2.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#69715a",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Hood",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.15,
+            0.65,
+            1.1
+          ]
+        },
+        "position": [
+          0,
+          1.2,
+          3.3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#69715a",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Bumper",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.5,
+            0.22,
+            0.23
+          ]
+        },
+        "position": [
+          0,
+          0.66,
+          3.87
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Windshield",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.92,
+            0.68,
+            0.04
+          ]
+        },
+        "position": [
+          0,
+          2.05,
+          3.096
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#283c3d",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WindshieldPillar",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.065,
+            0.73,
+            0.055
+          ]
+        },
+        "position": [
+          0,
+          2.05,
+          3.13
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "SideWindow_-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.63,
+            1.1
+          ]
+        },
+        "position": [
+          -1.166,
+          2.08,
+          2.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#283c3d",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Handle_-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.05,
+            0.06,
+            0.24
+          ]
+        },
+        "position": [
+          -1.18,
+          1.58,
+          1.77
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Step_-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.16,
+            1.25
+          ]
+        },
+        "position": [
+          -1.16,
+          0.67,
+          2
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Headlight_-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.37,
+            0.25,
+            0.035
+          ]
+        },
+        "position": [
+          -0.75,
+          1.28,
+          3.86
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#b0ab8f",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "SideWindow_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.63,
+            1.1
+          ]
+        },
+        "position": [
+          1.166,
+          2.08,
+          2.2
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#283c3d",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Handle_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.05,
+            0.06,
+            0.24
+          ]
+        },
+        "position": [
+          1.18,
+          1.58,
+          1.77
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Step_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.16,
+            1.25
+          ]
+        },
+        "position": [
+          1.16,
+          0.67,
+          2
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Headlight_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.37,
+            0.25,
+            0.035
+          ]
+        },
+        "position": [
+          0.75,
+          1.28,
+          3.86
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#b0ab8f",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Grille_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.045,
+            0.035
+          ]
+        },
+        "position": [
+          0,
+          0.94,
+          3.862
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Grille_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.045,
+            0.035
+          ]
+        },
+        "position": [
+          0,
+          1.004,
+          3.862
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Grille_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.045,
+            0.035
+          ]
+        },
+        "position": [
+          0,
+          1.068,
+          3.862
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Grille_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.045,
+            0.035
+          ]
+        },
+        "position": [
+          0,
+          1.132,
+          3.862
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Grille_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.045,
+            0.035
+          ]
+        },
+        "position": [
+          0,
+          1.196,
+          3.862
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Grille_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.045,
+            0.035
+          ]
+        },
+        "position": [
+          0,
+          1.26,
+          3.862
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Grille_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.045,
+            0.035
+          ]
+        },
+        "position": [
+          0,
+          1.3239999999999998,
+          3.862
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_-1_-2_4_Core",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.38,
+            0.68,
+            0.68
+          ]
+        },
+        "position": [
+          -1.05,
+          0.47,
+          -2.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_-1_-2_4",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.47,
+          "radiusBottom": 0.47,
+          "height": 0.38
+        },
+        "position": [
+          -1.09,
+          0.47,
+          -2.4
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_-1_-2_4_Hub",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.23,
+          "radiusBottom": 0.23,
+          "height": 0.4
+        },
+        "position": [
+          -1.1,
+          0.47,
+          -2.4
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Wheel_1_-2_4_Core",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.38,
+            0.68,
+            0.68
+          ]
+        },
+        "position": [
+          1.05,
+          0.47,
+          -2.4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_1_-2_4",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.47,
+          "radiusBottom": 0.47,
+          "height": 0.38
+        },
+        "position": [
+          1.09,
+          0.47,
+          -2.4
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_1_-2_4_Hub",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.23,
+          "radiusBottom": 0.23,
+          "height": 0.4
+        },
+        "position": [
+          1.1,
+          0.47,
+          -2.4
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Wheel_-1_-1_1_Core",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.38,
+            0.68,
+            0.68
+          ]
+        },
+        "position": [
+          -1.05,
+          0.47,
+          -1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_-1_-1_1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.47,
+          "radiusBottom": 0.47,
+          "height": 0.38
+        },
+        "position": [
+          -1.09,
+          0.47,
+          -1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_-1_-1_1_Hub",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.23,
+          "radiusBottom": 0.23,
+          "height": 0.4
+        },
+        "position": [
+          -1.1,
+          0.47,
+          -1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Wheel_1_-1_1_Core",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.38,
+            0.68,
+            0.68
+          ]
+        },
+        "position": [
+          1.05,
+          0.47,
+          -1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_1_-1_1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.47,
+          "radiusBottom": 0.47,
+          "height": 0.38
+        },
+        "position": [
+          1.09,
+          0.47,
+          -1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_1_-1_1_Hub",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.23,
+          "radiusBottom": 0.23,
+          "height": 0.4
+        },
+        "position": [
+          1.1,
+          0.47,
+          -1.1
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Wheel_-1_2_5_Core",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.38,
+            0.68,
+            0.68
+          ]
+        },
+        "position": [
+          -1.05,
+          0.47,
+          2.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_-1_2_5",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.47,
+          "radiusBottom": 0.47,
+          "height": 0.38
+        },
+        "position": [
+          -1.09,
+          0.47,
+          2.5
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_-1_2_5_Hub",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.23,
+          "radiusBottom": 0.23,
+          "height": 0.4
+        },
+        "position": [
+          -1.1,
+          0.47,
+          2.5
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Wheel_1_2_5_Core",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.38,
+            0.68,
+            0.68
+          ]
+        },
+        "position": [
+          1.05,
+          0.47,
+          2.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_1_2_5",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.47,
+          "radiusBottom": 0.47,
+          "height": 0.38
+        },
+        "position": [
+          1.09,
+          0.47,
+          2.5
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#292b29",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Wheel_1_2_5_Hub",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.23,
+          "radiusBottom": 0.23,
+          "height": 0.4
+        },
+        "position": [
+          1.1,
+          0.47,
+          2.5
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CargoBody",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.38,
+            2.15,
+            4.25
+          ]
+        },
+        "position": [
+          0,
+          1.82,
+          -1.17
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CargoRoof",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.48,
+            0.12,
+            4.35
+          ]
+        },
+        "position": [
+          0,
+          2.955,
+          -1.17
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_-1_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          -1.214,
+          1.8,
+          -3.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_1_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          1.214,
+          1.8,
+          -3.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_-1_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          -1.214,
+          1.8,
+          -2.66
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_1_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          1.214,
+          1.8,
+          -2.66
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_-1_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          -1.214,
+          1.8,
+          -2.17
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_1_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          1.214,
+          1.8,
+          -2.17
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_-1_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          -1.214,
+          1.8,
+          -1.68
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_1_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          1.214,
+          1.8,
+          -1.68
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_-1_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          -1.214,
+          1.8,
+          -1.19
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_1_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          1.214,
+          1.8,
+          -1.19
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_-1_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          -1.214,
+          1.8,
+          -0.6999999999999997
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_1_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          1.214,
+          1.8,
+          -0.6999999999999997
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_-1_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          -1.214,
+          1.8,
+          -0.20999999999999996
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_1_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          1.214,
+          1.8,
+          -0.20999999999999996
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_-1_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          -1.214,
+          1.8,
+          0.2799999999999998
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_1_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          1.214,
+          1.8,
+          0.2799999999999998
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_-1_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          -1.214,
+          1.8,
+          0.77
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Rib_1_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            2.02,
+            0.075
+          ]
+        },
+        "position": [
+          1.214,
+          1.8,
+          0.77
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "RearSeam",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            1.9,
+            0.04
+          ]
+        },
+        "position": [
+          0,
+          1.82,
+          -3.31
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "RearBar_-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            1.9,
+            0.06
+          ]
+        },
+        "position": [
+          -0.65,
+          1.82,
+          -3.34
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "RearBar_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            1.9,
+            0.06
+          ]
+        },
+        "position": [
+          0.65,
+          1.82,
+          -3.34
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_-1_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.12,
+            0.25
+          ]
+        },
+        "position": [
+          -1.165,
+          1.05,
+          1.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_1_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.12,
+            0.25
+          ]
+        },
+        "position": [
+          1.165,
+          1.05,
+          1.45
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_-1_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.2,
+            0.25
+          ]
+        },
+        "position": [
+          -1.165,
+          1.25,
+          1.67
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_1_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.2,
+            0.25
+          ]
+        },
+        "position": [
+          1.165,
+          1.25,
+          1.67
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_-1_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.28,
+            0.25
+          ]
+        },
+        "position": [
+          -1.165,
+          1.4500000000000002,
+          1.89
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_1_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.28,
+            0.25
+          ]
+        },
+        "position": [
+          1.165,
+          1.4500000000000002,
+          1.89
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_-1_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.12,
+            0.25
+          ]
+        },
+        "position": [
+          -1.165,
+          1.05,
+          2.11
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_1_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.12,
+            0.25
+          ]
+        },
+        "position": [
+          1.165,
+          1.05,
+          2.11
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_-1_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.2,
+            0.25
+          ]
+        },
+        "position": [
+          -1.165,
+          1.25,
+          2.33
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_1_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.2,
+            0.25
+          ]
+        },
+        "position": [
+          1.165,
+          1.25,
+          2.33
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_-1_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.28,
+            0.25
+          ]
+        },
+        "position": [
+          -1.165,
+          1.4500000000000002,
+          2.55
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_1_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.28,
+            0.25
+          ]
+        },
+        "position": [
+          1.165,
+          1.4500000000000002,
+          2.55
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_-1_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.12,
+            0.25
+          ]
+        },
+        "position": [
+          -1.165,
+          1.05,
+          2.77
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Corrosion_1_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.12,
+            0.25
+          ]
+        },
+        "position": [
+          1.165,
+          1.05,
+          2.77
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      }
+    ]
+  }
+}

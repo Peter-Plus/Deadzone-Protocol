@@ -1,0 +1,102 @@
+[
+  {
+    "file": "ui_equipment_military_helmet.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "transparentPixels": 152410,
+    "borderMaxAlpha": 0,
+    "visibleBounds": [
+      45,
+      77,
+      474,
+      460
+    ]
+  },
+  {
+    "file": "ui_equipment_special_forces_helmet.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "transparentPixels": 154971,
+    "borderMaxAlpha": 1,
+    "visibleBounds": [
+      56,
+      55,
+      472,
+      445
+    ]
+  },
+  {
+    "file": "ui_equipment_ballistic_vest.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "transparentPixels": 135961,
+    "borderMaxAlpha": 0,
+    "visibleBounds": [
+      81,
+      48,
+      435,
+      476
+    ]
+  },
+  {
+    "file": "ui_equipment_special_forces_armor.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "transparentPixels": 139921,
+    "borderMaxAlpha": 0,
+    "visibleBounds": [
+      69,
+      61,
+      466,
+      460
+    ]
+  },
+  {
+    "file": "ui_equipment_military_boots.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "transparentPixels": 144587,
+    "borderMaxAlpha": 0,
+    "visibleBounds": [
+      48,
+      52,
+      467,
+      476
+    ]
+  }
+]

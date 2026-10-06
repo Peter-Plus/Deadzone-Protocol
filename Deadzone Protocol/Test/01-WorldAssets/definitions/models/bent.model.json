@@ -1,0 +1,357 @@
+{
+  "schema": "model.v1",
+  "id": "world01.bent",
+  "type": "static",
+  "parts": [
+    {
+      "id": "floor",
+      "shape": {
+        "type": "box",
+        "size": [
+          12,
+          0.5,
+          12
+        ]
+      },
+      "position": [
+        0,
+        0.25,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#79796d",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "wall_left",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.3,
+          3.8,
+          12
+        ]
+      },
+      "position": [
+        -5.85,
+        2.4,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#91a19a",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "wall_right",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.3,
+          3.8,
+          12
+        ]
+      },
+      "position": [
+        5.85,
+        2.4,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#91a19a",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "wall_back_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          4.2,
+          3.8,
+          0.3
+        ]
+      },
+      "position": [
+        -3.9000000000000004,
+        2.4,
+        -5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#91a19a",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "wall_back_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          4.2,
+          3.8,
+          0.3
+        ]
+      },
+      "position": [
+        3.9000000000000004,
+        2.4,
+        -5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#91a19a",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "lintel_back",
+      "shape": {
+        "type": "box",
+        "size": [
+          3.6,
+          0.19999999999999973,
+          0.3
+        ]
+      },
+      "position": [
+        0,
+        4.199999999999999,
+        -5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#59635e",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "ramp_back",
+      "shape": {
+        "type": "box",
+        "size": [
+          3.6,
+          0.12,
+          3.0413812651491092
+        ]
+      },
+      "position": [
+        0,
+        0.19081636457007137,
+        -7.490136060761679
+      ],
+      "rotation": [
+        -9.462322208025617,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#c5aa73",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "wall_front_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          4.2,
+          3.8,
+          0.3
+        ]
+      },
+      "position": [
+        -3.9000000000000004,
+        2.4,
+        5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#91a19a",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "wall_front_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          4.2,
+          3.8,
+          0.3
+        ]
+      },
+      "position": [
+        3.9000000000000004,
+        2.4,
+        5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#91a19a",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "lintel_front",
+      "shape": {
+        "type": "box",
+        "size": [
+          3.6,
+          0.19999999999999973,
+          0.3
+        ]
+      },
+      "position": [
+        0,
+        4.199999999999999,
+        5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#59635e",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "ramp_front",
+      "shape": {
+        "type": "box",
+        "size": [
+          3.6,
+          0.12,
+          3.0413812651491092
+        ]
+      },
+      "position": [
+        0,
+        0.19081636457007137,
+        7.490136060761679
+      ],
+      "rotation": [
+        9.462322208025617,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#c5aa73",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "roof",
+      "shape": {
+        "type": "box",
+        "size": [
+          12.3,
+          0.3,
+          12.3
+        ]
+      },
+      "position": [
+        0,
+        4.45,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#685e50",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "partition_s",
+      "shape": {
+        "type": "box",
+        "size": [
+          7.3,
+          3.8,
+          0.3
+        ]
+      },
+      "position": [
+        -2.05,
+        2.4,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#91a19a",
+        "roughness": 0.9
+      }
+    },
+    {
+      "id": "partition_n",
+      "shape": {
+        "type": "box",
+        "size": [
+          7.3,
+          3.8,
+          0.3
+        ]
+      },
+      "position": [
+        2.05,
+        2.4,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#91a19a",
+        "roughness": 0.9
+      }
+    }
+  ]
+}

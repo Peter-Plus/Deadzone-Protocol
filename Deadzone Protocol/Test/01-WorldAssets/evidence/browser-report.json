@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "protocol": "file://",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/154.0.8037.93",
+    "revision": "@f89f3a4363808e117c592adedcf9947882ac3b79",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+    "jsVersion": "15.4.80.19"
+  },
+  "viewport": [
+    1600,
+    1040
+  ],
+  "checks": [
+    "file:// inline bundle and eight GLB resources load",
+    "three fixed seeds switch and render",
+    "three template roof cutaways and candidate/circulation overlays",
+    "eye-level indoor and raised entry, model gauges, collision overlay",
+    "new seed generated via UI, complete scene exported for independent validation",
+    "mouse orbit camera responds"
+  ],
+  "screenshots": [
+    "01-overview-104729.png",
+    "02-overview-20261005.png",
+    "02-overview-8675309.png",
+    "03-map-reservations.png",
+    "04-settlement.png",
+    "05-interior-through.png",
+    "05-interior-bent.png",
+    "05-interior-warehouse.png",
+    "06-inside-eye-level.png",
+    "07-raised-entry-gauges.png",
+    "08-platform-slope.png",
+    "08-terrain-wire.png"
+  ],
+  "externalRequests": [],
+  "exceptions": [],
+  "lastState": {
+    "seed": "new-seed-042",
+    "buildings": 15,
+    "selected": "A-1",
+    "drawCalls": 196,
+    "triangles": 53486,
+    "camera": [
+      -27.723276154568175,
+      261.6949105756688,
+      143.08261158523192
+    ],
+    "errors": [],
+    "version": "world-assets.v1"
+  }
+}

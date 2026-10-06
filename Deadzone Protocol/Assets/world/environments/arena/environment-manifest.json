@@ -1,0 +1,47 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Arena_Spikes_01",
+      "type": "solid",
+      "sourceHash": "528a9ad8ef295da6d08c31623ea797426a27c8c56af939815e53b5647c4ccee4",
+      "modelHash": "671d1f5b2fbbbac0f92a886ffd436f2ee1bc20f57ce36744f530641a1d4bc566",
+      "contract": "contracts/FSA_ENV_Arena_Spikes_01.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Arena_Spikes_02",
+      "type": "solid",
+      "sourceHash": "e43845ebcda8c3f59082c259c64009e3004b7bc3c605de643891e0ab4fc2ca90",
+      "modelHash": "261538683091ef3c9aba5a0b52d67a666a77e8357fa86e437012e0433b1ed07c",
+      "contract": "contracts/FSA_ENV_Arena_Spikes_02.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Arena_Spikes_03",
+      "type": "solid",
+      "sourceHash": "9a647a4515a0da5e5e71154b8a674f4b67a560ef54dbc7df99d9093a43387ca4",
+      "modelHash": "5de5040fa92b7c3a57e038011e672d2fa76455d891cc4f58bd582fefb5f53cd0",
+      "contract": "contracts/FSA_ENV_Arena_Spikes_03.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Arena_Spikes_04",
+      "type": "solid",
+      "sourceHash": "1adf09ab730af1700b078c18f507c2406a1b49e8a3e353115430453f3adbf6f1",
+      "modelHash": "2bc98200fe6720e9114f6f2f5baee232589a2f791af2a7f04c00866e7f258138",
+      "contract": "contracts/FSA_ENV_Arena_Spikes_04.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Arena_Spikes_05",
+      "type": "solid",
+      "sourceHash": "20e738489f97b0745592f23471e3fdec3fe97c68c5be0f48636ed7566dcb9e1b",
+      "modelHash": "18290ad1b82f37d5ab4f1680bec1a4fbfda256ae813d40b2a69d2f3c47740b3c",
+      "contract": "contracts/FSA_ENV_Arena_Spikes_05.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Arena_Spikes_06",
+      "type": "solid",
+      "sourceHash": "a2fd1bb4afa8e9df016ce6a39778d93edd4479819f1a78b8cd0ba85a927cf29c",
+      "modelHash": "28f25b0821054b9cdda41d38e5f50b74e725549b934513a5b1c355f01c48c611",
+      "contract": "contracts/FSA_ENV_Arena_Spikes_06.environment.json"
+    }
+  ]
+}

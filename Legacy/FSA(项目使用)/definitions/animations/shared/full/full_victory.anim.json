@@ -1,0 +1,268 @@
+{
+  "schema": "animation.v1",
+  "id": "fsa.animation.full.victory",
+  "rig": "humanoid.v1",
+  "duration": 2,
+  "loop": false,
+  "mode": "timeline",
+  "tracks": {
+    "Root": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.55,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.55,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 2,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Body": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.55,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0.025,
+          0
+        ]
+      },
+      {
+        "time": 1.55,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0.025,
+          0
+        ]
+      },
+      {
+        "time": 2,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Head": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.55,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.55,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 2,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Arm_L": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          -90
+        ]
+      },
+      {
+        "time": 0.55,
+        "rotation": [
+          0,
+          0,
+          -25
+        ]
+      },
+      {
+        "time": 1.55,
+        "rotation": [
+          0,
+          0,
+          -25
+        ]
+      },
+      {
+        "time": 2,
+        "rotation": [
+          0,
+          0,
+          -90
+        ]
+      }
+    ],
+    "Arm_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          90
+        ]
+      },
+      {
+        "time": 0.55,
+        "rotation": [
+          0,
+          0,
+          -35
+        ]
+      },
+      {
+        "time": 1.55,
+        "rotation": [
+          0,
+          0,
+          -35
+        ]
+      },
+      {
+        "time": 2,
+        "rotation": [
+          0,
+          0,
+          90
+        ]
+      }
+    ],
+    "Leg_L": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.55,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.55,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 2,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Leg_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.55,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.55,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 2,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ForgeKit · Asset Studio</title></head>
+<body>
+  <header><div class="brand"><span class="mark">F</span><strong>ForgeKit</strong><span class="separator"></span><span class="muted">ASSET STUDIO</span></div><div class="header-right"><span class="live-dot"></span><span>本地资产管线</span><span class="version">V1.0</span></div></header>
+  <aside>
+    <div class="library-title"><span>资产库</span><button id="refresh" title="刷新资产列表">↻</button></div>
+    <section><h2>MODELS <span id="model-count">0</span></h2><div id="models" class="asset-list"></div></section>
+    <section><h2>ANIMATIONS <span id="animation-count">0</span></h2><div id="animations" class="asset-list"></div></section>
+    <div class="aside-bottom"><span class="eyebrow">PIPELINE</span><p>定义 → 校验 → 编译 → 预览</p><div id="validation" role="status">读取校验状态…</div></div>
+  </aside>
+  <main>
+    <div class="toolbar"><div><span class="eyebrow">VIEWPORT</span><strong id="current-model">选择一个模型</strong></div><div class="toolbar-actions"><button id="frame">聚焦 <kbd>F</kbd></button><button id="reset">重置 <kbd>R</kbd></button></div></div>
+    <div id="viewport"><div class="viewport-label">PERSPECTIVE <span>+Y UP · METERS</span></div><div class="controls-hint">点击画面进入自由视角 <span>W A S D 移动 · 鼠标转向 · Q / E 升降 · Shift 加速 · Esc 退出</span></div><div id="message" role="alert" hidden></div></div>
+    <div class="debugbar"><div id="toggles"></div><label class="loop"><input id="loop" type="checkbox"> Preview Loop</label><button id="replay">重新播放</button></div>
+    <div class="info"><div><span class="eyebrow">ASSET METADATA</span><pre id="metadata">尚未加载模型</pre></div><div class="metrics"><div><span id="fps">—</span><small>FPS</small></div><div><span id="triangles">—</span><small>TRIANGLES</small></div></div></div>
+  </main>
+  <footer><span id="activity">准备就绪</span><span>Source → GLB <span class="footer-dot">●</span> Deterministic build</span></footer>
+  <script type="module" src="/main.ts"></script>
+</body></html>

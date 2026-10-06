@@ -1,0 +1,235 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Scrap_02_Machinery",
+  "label": "废料堆／机件残骸",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -1.56,
+      -1.08
+    ],
+    "max": [
+      1.75,
+      2.16
+    ]
+  },
+  "colliders": [
+    {
+      "node": "EngineBlock",
+      "role": "solid",
+      "position": [
+        -0.45,
+        0.55,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.13917310096006544,
+        0,
+        0.9902680687415704
+      ],
+      "size": [
+        1.25,
+        1.1,
+        1.15
+      ]
+    },
+    {
+      "node": "Housing",
+      "role": "solid",
+      "position": [
+        0.55,
+        0.35,
+        0.25
+      ],
+      "quaternion": [
+        0,
+        0.17364817766693033,
+        0,
+        0.9848077530122079
+      ],
+      "size": [
+        1,
+        0.7,
+        1.5
+      ]
+    },
+    {
+      "node": "MotorBase",
+      "role": "solid",
+      "position": [
+        0.35,
+        0.85,
+        0.15
+      ],
+      "quaternion": [
+        0,
+        0.17364817766693033,
+        0,
+        0.9848077530122079
+      ],
+      "size": [
+        0.9,
+        0.22,
+        1.45
+      ]
+    },
+    {
+      "node": "MotorCore",
+      "role": "solid",
+      "position": [
+        0.35,
+        1.18,
+        0.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.58,
+        0.58,
+        1.25
+      ]
+    },
+    {
+      "node": "CylinderHead_0",
+      "role": "solid",
+      "position": [
+        -0.65,
+        1.18,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.13917310096006544,
+        0,
+        0.9902680687415704
+      ],
+      "size": [
+        0.3,
+        0.24,
+        0.32
+      ]
+    },
+    {
+      "node": "CylinderHead_1",
+      "role": "solid",
+      "position": [
+        -0.38,
+        1.18,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.13917310096006544,
+        0,
+        0.9902680687415704
+      ],
+      "size": [
+        0.3,
+        0.24,
+        0.32
+      ]
+    },
+    {
+      "node": "CylinderHead_2",
+      "role": "solid",
+      "position": [
+        -0.10999999999999999,
+        1.18,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.13917310096006544,
+        0,
+        0.9902680687415704
+      ],
+      "size": [
+        0.3,
+        0.24,
+        0.32
+      ]
+    },
+    {
+      "node": "CylinderHead_3",
+      "role": "solid",
+      "position": [
+        0.16000000000000003,
+        1.18,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.13917310096006544,
+        0,
+        0.9902680687415704
+      ],
+      "size": [
+        0.3,
+        0.24,
+        0.32
+      ]
+    },
+    {
+      "node": "FallenPanel",
+      "role": "solid",
+      "position": [
+        0.4,
+        0.1,
+        1.05
+      ],
+      "quaternion": [
+        0,
+        -0.20791169081775937,
+        0,
+        0.9781476007338057
+      ],
+      "size": [
+        1.8,
+        0.13,
+        0.85
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "modelAsset": "models/FSA_ENV_Outdoor_Scrap_02_Machinery.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -1.2092800362703704,
+      -1.1920928910669204e-8,
+      -0.7249988110910255
+    ],
+    "max": [
+      1.3950539682536136,
+      1.629999988079071,
+      1.8043197994592788
+    ]
+  },
+  "checks": [],
+  "sourceHash": "baaadf8b60d7d833f7f899b8fa971d4d7f12a43cb2ce0c7cf32fae5604972d30",
+  "modelHash": "c1a790d32a0c0ce44fc512dbb83e13dcc4cd107a73769a2e8789075fc8d96b8c"
+}

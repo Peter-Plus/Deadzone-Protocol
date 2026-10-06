@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ui_equipment_military_helmet",
+    "name": "军用盔",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-b8ce1881-8dac-4829-9b61-df1b162bbda9.png",
+    "file": "ui_equipment_military_helmet.png",
+    "reference": "G:\\Game\\Fire\\ForgeKit\\.qa\\armor-0.png"
+  },
+  {
+    "id": "ui_equipment_special_forces_helmet",
+    "name": "特种兵头盔",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-a5225f48-9284-4a40-86f0-875bea49bddb.png",
+    "file": "ui_equipment_special_forces_helmet.png",
+    "reference": "G:\\Game\\Fire\\ForgeKit\\.qa\\armor-1.png"
+  },
+  {
+    "id": "ui_equipment_ballistic_vest",
+    "name": "防弹衣",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-154f27f9-aa19-4bca-892e-e68482ecff67.png",
+    "file": "ui_equipment_ballistic_vest.png",
+    "reference": "G:\\Game\\Fire\\ForgeKit\\.qa\\armor-2.png"
+  },
+  {
+    "id": "ui_equipment_special_forces_armor",
+    "name": "特种兵护甲",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-641c37d7-d6c6-4011-a07e-270f4eb392a7.png",
+    "file": "ui_equipment_special_forces_armor.png",
+    "reference": "G:\\Game\\Fire\\ForgeKit\\.qa\\armor-3.png"
+  },
+  {
+    "id": "ui_equipment_military_boots",
+    "name": "军用靴",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-215b995d-b3ce-473e-b018-f586675ae7de.png",
+    "file": "ui_equipment_military_boots.png",
+    "reference": "G:\\Game\\Fire\\ForgeKit\\.qa\\armor-4.png"
+  }
+]

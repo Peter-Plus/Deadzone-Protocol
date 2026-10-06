@@ -1,0 +1,52 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_shared_circle_warning",
+  "name": "通用 · 圆形红色预警",
+  "initialState": "warning",
+  "states": {
+    "warning": {
+      "duration": 1,
+      "loop": false
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {},
+  "layers": [
+    {
+      "id": "red_boundary",
+      "kind": "warning",
+      "shape": "circle",
+      "angle": 360,
+      "radius": 1,
+      "ground": 0.025,
+      "profiles": {
+        "warning": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0.65
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ff2028",
+        "opacity": 0.95,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

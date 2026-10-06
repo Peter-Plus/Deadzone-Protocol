@@ -1,0 +1,2015 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ENEMY_C001_Phantom",
+  "type": "humanoid",
+  "rig": "humanoid.v2",
+  "parameters": {
+    "height": 1.8
+  },
+  "materials": {
+    "skin": {
+      "color": "#A3A2B0",
+      "roughness": 0.86
+    },
+    "skinShadow": {
+      "color": "#747186",
+      "roughness": 0.9
+    },
+    "suit": {
+      "color": "#302D3F",
+      "roughness": 0.88
+    },
+    "cloth": {
+      "color": "#51475F",
+      "roughness": 0.94
+    },
+    "leather": {
+      "color": "#22232E",
+      "roughness": 0.78
+    },
+    "hair": {
+      "color": "#292734",
+      "roughness": 0.92
+    },
+    "hairLight": {
+      "color": "#51485E",
+      "roughness": 0.86
+    },
+    "chitin": {
+      "color": "#574C6C",
+      "roughness": 0.63,
+      "metalness": 0.12
+    },
+    "vein": {
+      "color": "#946CBA",
+      "emissive": "#241030",
+      "roughness": 0.8
+    },
+    "eye": {
+      "color": "#DAC1FF",
+      "emissive": "#8050AF",
+      "roughness": 0.4
+    },
+    "socketDark": {
+      "color": "#342C41",
+      "roughness": 0.96
+    },
+    "steel": {
+      "color": "#ACABBA",
+      "metalness": 0.75,
+      "roughness": 0.35
+    },
+    "edge": {
+      "color": "#E0D9E8",
+      "metalness": 0.65,
+      "roughness": 0.26
+    }
+  },
+  "sockets": [
+    {
+      "id": "BladeGrip_L",
+      "parent": "Hand_L",
+      "position": [
+        0.048,
+        0.006,
+        0.026
+      ],
+      "rotation": [
+        0,
+        0,
+        -90
+      ]
+    },
+    {
+      "id": "BladeGrip_R",
+      "parent": "Hand_R",
+      "position": [
+        -0.048,
+        0.006,
+        0.026
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "BladeTip_L",
+      "parent": "BladeGrip_L",
+      "position": [
+        0,
+        0.475,
+        0
+      ]
+    },
+    {
+      "id": "BladeTip_R",
+      "parent": "BladeGrip_R",
+      "position": [
+        0,
+        0.475,
+        0
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "Pelvis",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.071,
+        -0.012
+      ],
+      "scale": [
+        0.167,
+        0.123,
+        0.112
+      ],
+      "material": "suit"
+    },
+    {
+      "id": "Waist",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.25,
+        -0.002
+      ],
+      "scale": [
+        0.115,
+        0.176,
+        0.09
+      ],
+      "material": "suit"
+    },
+    {
+      "id": "Ribcage",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.416,
+        0.007
+      ],
+      "scale": [
+        0.169,
+        0.15,
+        0.104
+      ],
+      "material": "suit"
+    },
+    {
+      "id": "ChestL",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.071,
+        0.441,
+        0.055
+      ],
+      "scale": [
+        0.086,
+        0.079,
+        0.077
+      ],
+      "material": "suit"
+    },
+    {
+      "id": "ChestR",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.071,
+        0.441,
+        0.055
+      ],
+      "scale": [
+        0.086,
+        0.079,
+        0.077
+      ],
+      "material": "suit"
+    },
+    {
+      "id": "Clavicle",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.535,
+        0
+      ],
+      "material": "skin",
+      "scale": [
+        0.229,
+        0.063,
+        0.082
+      ]
+    },
+    {
+      "id": "ShoulderL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.067
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        0.96,
+        1.1
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "ShoulderR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.068
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        0.96,
+        1.1
+      ],
+      "material": "chitin"
+    },
+    {
+      "id": "StrapL",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.113,
+        0.501,
+        0.087
+      ],
+      "rotation": [
+        0,
+        0,
+        -10
+      ],
+      "material": "leather",
+      "scale": [
+        0.021,
+        0.075,
+        0.0095
+      ]
+    },
+    {
+      "id": "StrapR",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.113,
+        0.501,
+        0.087
+      ],
+      "rotation": [
+        0,
+        0,
+        10
+      ],
+      "material": "leather",
+      "scale": [
+        0.021,
+        0.075,
+        0.0095
+      ]
+    },
+    {
+      "id": "Belt",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.122,
+        "radiusBottom": 0.132,
+        "height": 0.041
+      },
+      "position": [
+        0,
+        0.158,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.76
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "Clasp",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.157,
+        0.105
+      ],
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "material": "steel",
+      "scale": [
+        0.0175,
+        0.017,
+        0.008
+      ]
+    },
+    {
+      "id": "WaistSeamL",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.067,
+        0.307,
+        0.077
+      ],
+      "rotation": [
+        0,
+        0,
+        -10
+      ],
+      "material": "cloth",
+      "scale": [
+        0.006,
+        0.115,
+        0.006
+      ]
+    },
+    {
+      "id": "WaistSeamR",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.067,
+        0.307,
+        0.077
+      ],
+      "rotation": [
+        0,
+        0,
+        10
+      ],
+      "material": "cloth",
+      "scale": [
+        0.006,
+        0.115,
+        0.006
+      ]
+    },
+    {
+      "id": "CollarVein",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.049,
+        0.543,
+        0.081
+      ],
+      "rotation": [
+        0,
+        0,
+        12
+      ],
+      "material": "vein",
+      "scale": [
+        0.056,
+        0.0065,
+        0.0045
+      ]
+    },
+    {
+      "id": "BackSeam",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.328,
+        -0.092
+      ],
+      "material": "cloth",
+      "scale": [
+        0.009,
+        0.175,
+        0.006
+      ]
+    },
+    {
+      "id": "HipFlapL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.066,
+        -0.057,
+        -0.013
+      ],
+      "rotation": [
+        0,
+        0,
+        9
+      ],
+      "material": "cloth",
+      "scale": [
+        0.024,
+        0.115,
+        0.0755
+      ]
+    },
+    {
+      "id": "HipFlapR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.066,
+        -0.04,
+        -0.013
+      ],
+      "rotation": [
+        0,
+        0,
+        -9
+      ],
+      "material": "cloth",
+      "scale": [
+        0.024,
+        0.09,
+        0.0755
+      ]
+    },
+    {
+      "id": "Neck",
+      "parent": "Head",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.047,
+        "radiusBottom": 0.057,
+        "height": 0.164
+      },
+      "position": [
+        0,
+        -0.028,
+        0.007
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Face",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.145,
+        0.026
+      ],
+      "material": "skin",
+      "scale": [
+        0.103,
+        0.119,
+        0.095
+      ]
+    },
+    {
+      "id": "Jaw",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.067,
+        0.029
+      ],
+      "scale": [
+        0.081,
+        0.063,
+        0.081
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "EarL",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.108,
+        0.122,
+        0.012
+      ],
+      "rotation": [
+        0,
+        0,
+        -12
+      ],
+      "material": "skinShadow",
+      "scale": [
+        0.0155,
+        0.0305,
+        0.016
+      ]
+    },
+    {
+      "id": "EarR",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.108,
+        0.122,
+        0.012
+      ],
+      "rotation": [
+        0,
+        0,
+        12
+      ],
+      "material": "skinShadow",
+      "scale": [
+        0.0155,
+        0.0305,
+        0.016
+      ]
+    },
+    {
+      "id": "EyeSocketL",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.052,
+        0.161,
+        0.121
+      ],
+      "rotation": [
+        0,
+        0,
+        10
+      ],
+      "material": "socketDark",
+      "scale": [
+        0.031,
+        0.0165,
+        0.005
+      ]
+    },
+    {
+      "id": "EyeSocketR",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.052,
+        0.161,
+        0.121
+      ],
+      "rotation": [
+        0,
+        0,
+        -10
+      ],
+      "material": "socketDark",
+      "scale": [
+        0.031,
+        0.0165,
+        0.005
+      ]
+    },
+    {
+      "id": "EyeL",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.052,
+        0.16,
+        0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        10
+      ],
+      "material": "eye",
+      "scale": [
+        0.0215,
+        0.0055,
+        0.0045
+      ]
+    },
+    {
+      "id": "EyeR",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.052,
+        0.16,
+        0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        -10
+      ],
+      "material": "eye",
+      "scale": [
+        0.0215,
+        0.0055,
+        0.0045
+      ]
+    },
+    {
+      "id": "Nose",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.126,
+        0.125
+      ],
+      "rotation": [
+        -8,
+        0,
+        0
+      ],
+      "material": "skin",
+      "scale": [
+        0.012,
+        0.0235,
+        0.013
+      ]
+    },
+    {
+      "id": "Lips",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.003,
+        0.084,
+        0.119
+      ],
+      "material": "skinShadow",
+      "scale": [
+        0.0245,
+        0.0045,
+        0.006
+      ]
+    },
+    {
+      "id": "TempleMutation",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.087,
+        0.156,
+        0.116
+      ],
+      "rotation": [
+        0,
+        -15,
+        12
+      ],
+      "material": "chitin",
+      "scale": [
+        0.0205,
+        0.0595,
+        0.012
+      ]
+    },
+    {
+      "id": "CheekFissure",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.07,
+        0.112,
+        0.133
+      ],
+      "rotation": [
+        0,
+        0,
+        -23
+      ],
+      "material": "vein",
+      "scale": [
+        0.0045,
+        0.0385,
+        0.0045
+      ]
+    },
+    {
+      "id": "CheekBranch",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.058,
+        0.112,
+        0.133
+      ],
+      "rotation": [
+        0,
+        0,
+        -20
+      ],
+      "material": "vein",
+      "scale": [
+        0.017,
+        0.004,
+        0.0045
+      ]
+    },
+    {
+      "id": "HairCrown",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.221,
+        0.008
+      ],
+      "material": "hair",
+      "scale": [
+        0.115,
+        0.067,
+        0.108
+      ]
+    },
+    {
+      "id": "HairBack",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.11,
+        -0.079
+      ],
+      "material": "hair",
+      "scale": [
+        0.112,
+        0.146,
+        0.042
+      ]
+    },
+    {
+      "id": "Fringe",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.035,
+        0.217,
+        0.121
+      ],
+      "rotation": [
+        0,
+        0,
+        -22
+      ],
+      "material": "hair",
+      "scale": [
+        0.073,
+        0.024,
+        0.0205
+      ]
+    },
+    {
+      "id": "FringePoint",
+      "parent": "Head",
+      "shape": {
+        "type": "cone",
+        "radius": 0.041,
+        "height": 0.135
+      },
+      "position": [
+        0.089,
+        0.172,
+        0.114
+      ],
+      "rotation": [
+        0,
+        0,
+        169
+      ],
+      "scale": [
+        1,
+        1,
+        0.47
+      ],
+      "material": "hair"
+    },
+    {
+      "id": "HairSideL",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.111,
+        0.082,
+        -0.009
+      ],
+      "rotation": [
+        0,
+        0,
+        -5
+      ],
+      "material": "hair",
+      "scale": [
+        0.0265,
+        0.114,
+        0.071
+      ]
+    },
+    {
+      "id": "HairLockL",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.132,
+        -0.057,
+        -0.012
+      ],
+      "rotation": [
+        0,
+        0,
+        174
+      ],
+      "scale": [
+        0.0315,
+        0.1239,
+        0.045
+      ],
+      "material": "hair"
+    },
+    {
+      "id": "HairSideR",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.111,
+        0.14,
+        -0.032
+      ],
+      "rotation": [
+        0,
+        0,
+        4
+      ],
+      "material": "hair",
+      "scale": [
+        0.018,
+        0.0715,
+        0.0625
+      ]
+    },
+    {
+      "id": "HairBackLockL",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.058,
+        -0.066,
+        -0.095
+      ],
+      "rotation": [
+        -10,
+        0,
+        176
+      ],
+      "scale": [
+        0.058,
+        0.133,
+        0.0319
+      ],
+      "material": "hair"
+    },
+    {
+      "id": "HairBackLockR",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.064,
+        -0.037,
+        -0.095
+      ],
+      "rotation": [
+        -10,
+        0,
+        -173
+      ],
+      "scale": [
+        0.051,
+        0.105,
+        0.02805
+      ],
+      "material": "hair"
+    },
+    {
+      "id": "HairStreak",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.122,
+        0.078,
+        0.064
+      ],
+      "rotation": [
+        0,
+        0,
+        -5
+      ],
+      "material": "hairLight",
+      "scale": [
+        0.007,
+        0.103,
+        0.006
+      ]
+    },
+    {
+      "id": "UpperArmL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.052,
+        "length": 0.174
+      },
+      "position": [
+        0.135,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -90
+      ],
+      "material": "skin",
+      "scale": [
+        1,
+        1,
+        1.04
+      ]
+    },
+    {
+      "id": "UpperArmR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.052,
+        "length": 0.174
+      },
+      "position": [
+        -0.135,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "material": "skin",
+      "scale": [
+        1,
+        1,
+        1.04
+      ]
+    },
+    {
+      "id": "ForearmL",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.044,
+        "length": 0.149
+      },
+      "position": [
+        0.105,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -90
+      ],
+      "material": "skin",
+      "scale": [
+        1,
+        1,
+        0.93
+      ]
+    },
+    {
+      "id": "ForearmR",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.044,
+        "length": 0.149
+      },
+      "position": [
+        -0.105,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "material": "skinShadow",
+      "scale": [
+        1,
+        1,
+        0.93
+      ]
+    },
+    {
+      "id": "BracerL",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.156,
+        0,
+        0
+      ],
+      "material": "leather",
+      "scale": [
+        0.065,
+        0.0425,
+        0.05
+      ]
+    },
+    {
+      "id": "BracerR",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.148,
+        0,
+        0
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ],
+      "material": "chitin",
+      "scale": [
+        0.073,
+        0.0475,
+        0.0515
+      ]
+    },
+    {
+      "id": "ArmGrowthR",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.15
+      },
+      "position": [
+        -0.065,
+        0.054,
+        -0.023
+      ],
+      "rotation": [
+        -28,
+        0,
+        -60
+      ],
+      "scale": [
+        1,
+        1,
+        0.62
+      ],
+      "material": "chitin"
+    },
+    {
+      "id": "ArmFissureR",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.143,
+        0.01,
+        0.054
+      ],
+      "rotation": [
+        0,
+        0,
+        10
+      ],
+      "material": "vein",
+      "scale": [
+        0.0635,
+        0.0055,
+        0.0045
+      ]
+    },
+    {
+      "id": "ArmVeinL",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.03,
+        0.009,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        -14
+      ],
+      "material": "vein",
+      "scale": [
+        0.05,
+        0.004,
+        0.004
+      ]
+    },
+    {
+      "id": "HandL",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.043,
+        0,
+        -0.003
+      ],
+      "material": "skin",
+      "scale": [
+        0.053,
+        0.042,
+        0.037
+      ]
+    },
+    {
+      "id": "HandR",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.043,
+        0,
+        -0.003
+      ],
+      "material": "skin",
+      "scale": [
+        0.053,
+        0.042,
+        0.037
+      ]
+    },
+    {
+      "id": "FingersL",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.055,
+        -0.022,
+        0.053
+      ],
+      "material": "skinShadow",
+      "scale": [
+        0.037,
+        0.0175,
+        0.0135
+      ]
+    },
+    {
+      "id": "FingersR",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.055,
+        -0.022,
+        0.053
+      ],
+      "material": "skinShadow",
+      "scale": [
+        0.037,
+        0.0175,
+        0.0135
+      ]
+    },
+    {
+      "id": "ThumbL",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.021,
+        0.023,
+        0.043
+      ],
+      "rotation": [
+        0,
+        0,
+        -24
+      ],
+      "material": "skin",
+      "scale": [
+        0.0165,
+        0.0205,
+        0.016
+      ]
+    },
+    {
+      "id": "ThumbR",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.021,
+        0.023,
+        0.043
+      ],
+      "rotation": [
+        0,
+        0,
+        24
+      ],
+      "material": "skin",
+      "scale": [
+        0.0165,
+        0.0205,
+        0.016
+      ]
+    },
+    {
+      "id": "ThighL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.069,
+        "length": 0.284
+      },
+      "position": [
+        0,
+        -0.184,
+        0
+      ],
+      "scale": [
+        1.06,
+        1,
+        1.14
+      ],
+      "material": "suit"
+    },
+    {
+      "id": "ThighR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.069,
+        "length": 0.284
+      },
+      "position": [
+        0,
+        -0.184,
+        0
+      ],
+      "scale": [
+        1.06,
+        1,
+        1.14
+      ],
+      "material": "suit"
+    },
+    {
+      "id": "KneeL",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0,
+        0.005
+      ],
+      "material": "leather",
+      "scale": [
+        0.054,
+        0.056,
+        0.055
+      ]
+    },
+    {
+      "id": "KneeR",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0,
+        0.005
+      ],
+      "material": "chitin",
+      "scale": [
+        0.054,
+        0.056,
+        0.055
+      ]
+    },
+    {
+      "id": "CalfL",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.05,
+        "length": 0.255
+      },
+      "position": [
+        0,
+        -0.179,
+        -0.009
+      ],
+      "scale": [
+        0.98,
+        1,
+        1.08
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "CalfR",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.05,
+        "length": 0.255
+      },
+      "position": [
+        0,
+        -0.179,
+        -0.009
+      ],
+      "scale": [
+        0.98,
+        1,
+        1.08
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "BootL",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        -0.38,
+        0.033
+      ],
+      "material": "leather",
+      "scale": [
+        0.0595,
+        0.058,
+        0.112
+      ]
+    },
+    {
+      "id": "BootR",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        -0.38,
+        0.033
+      ],
+      "material": "leather",
+      "scale": [
+        0.0595,
+        0.058,
+        0.112
+      ]
+    },
+    {
+      "id": "SoleL",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        -0.4255,
+        0.033
+      ],
+      "material": "suit",
+      "scale": [
+        0.0615,
+        0.0125,
+        0.109
+      ]
+    },
+    {
+      "id": "SoleR",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        -0.4255,
+        0.033
+      ],
+      "material": "suit",
+      "scale": [
+        0.0615,
+        0.0125,
+        0.109
+      ]
+    },
+    {
+      "id": "ShinSeamL",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        -0.182,
+        0.049
+      ],
+      "rotation": [
+        -3,
+        0,
+        0
+      ],
+      "material": "cloth",
+      "scale": [
+        0.0065,
+        0.1015,
+        0.006
+      ]
+    },
+    {
+      "id": "ShinSeamR",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        -0.182,
+        0.049
+      ],
+      "rotation": [
+        -3,
+        0,
+        0
+      ],
+      "material": "cloth",
+      "scale": [
+        0.0065,
+        0.1015,
+        0.006
+      ]
+    },
+    {
+      "id": "BladeHandleL",
+      "parent": "BladeGrip_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.018,
+        "radiusBottom": 0.018,
+        "height": 0.128
+      },
+      "material": "leather"
+    },
+    {
+      "id": "BladeHandleR",
+      "parent": "BladeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.018,
+        "radiusBottom": 0.018,
+        "height": 0.128
+      },
+      "material": "leather"
+    },
+    {
+      "id": "BladePommelL",
+      "parent": "BladeGrip_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.023
+      },
+      "position": [
+        0,
+        -0.068,
+        0
+      ],
+      "scale": [
+        1,
+        0.6,
+        1
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "BladePommelR",
+      "parent": "BladeGrip_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.023
+      },
+      "position": [
+        0,
+        -0.068,
+        0
+      ],
+      "scale": [
+        1,
+        0.6,
+        1
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "BladeGuardL",
+      "parent": "BladeGrip_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.139,
+          0.023,
+          0.037
+        ]
+      },
+      "position": [
+        0,
+        0.076,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -8
+      ],
+      "material": "chitin"
+    },
+    {
+      "id": "BladeGuardR",
+      "parent": "BladeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.139,
+          0.023,
+          0.037
+        ]
+      },
+      "position": [
+        0,
+        0.076,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        8
+      ],
+      "material": "chitin"
+    },
+    {
+      "id": "BladeEdgeL",
+      "parent": "BladeGrip_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.024,
+        "radiusBottom": 0.046,
+        "height": 0.248
+      },
+      "position": [
+        0,
+        0.211,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.22
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "BladeEdgeR",
+      "parent": "BladeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.024,
+        "radiusBottom": 0.046,
+        "height": 0.248
+      },
+      "position": [
+        0,
+        0.211,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.22
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "BladeCoreL",
+      "parent": "BladeGrip_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.014,
+        "radiusBottom": 0.032,
+        "height": 0.25
+      },
+      "position": [
+        0,
+        0.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.43
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "BladeCoreR",
+      "parent": "BladeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.014,
+        "radiusBottom": 0.032,
+        "height": 0.25
+      },
+      "position": [
+        0,
+        0.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.43
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "BladePointL",
+      "parent": "BladeGrip_L",
+      "shape": {
+        "type": "cone",
+        "radius": 0.024,
+        "height": 0.14
+      },
+      "position": [
+        0,
+        0.405,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.22
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "BladePointR",
+      "parent": "BladeGrip_R",
+      "shape": {
+        "type": "cone",
+        "radius": 0.024,
+        "height": 0.14
+      },
+      "position": [
+        0,
+        0.405,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.22
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "BladeInlayL",
+      "parent": "BladeGrip_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.01,
+          0.16,
+          0.005
+        ]
+      },
+      "position": [
+        0,
+        0.178,
+        0.013
+      ],
+      "material": "vein"
+    },
+    {
+      "id": "BladeInlayR",
+      "parent": "BladeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.01,
+          0.16,
+          0.005
+        ]
+      },
+      "position": [
+        0,
+        0.178,
+        0.013
+      ],
+      "material": "vein"
+    },
+    {
+      "id": "GluteL",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.076,
+        0.025,
+        -0.048
+      ],
+      "scale": [
+        0.096,
+        0.114,
+        0.082
+      ],
+      "material": "suit"
+    },
+    {
+      "id": "ElbowL",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.047
+      },
+      "material": "skin"
+    },
+    {
+      "id": "AnkleL",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.042,
+        "length": 0.073
+      },
+      "position": [
+        0,
+        -0.316,
+        0
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "GluteR",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.076,
+        0.025,
+        -0.048
+      ],
+      "scale": [
+        0.096,
+        0.114,
+        0.082
+      ],
+      "material": "suit"
+    },
+    {
+      "id": "ElbowR",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.047
+      },
+      "material": "skinShadow"
+    },
+    {
+      "id": "AnkleR",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.042,
+        "length": 0.073
+      },
+      "position": [
+        0,
+        -0.316,
+        0
+      ],
+      "material": "leather"
+    }
+  ],
+  "root": {
+    "scale": 1.1
+  },
+  "jointPositions": {
+    "Forearm_L": [
+      0.27,
+      0,
+      0
+    ],
+    "Forearm_R": [
+      -0.27,
+      0,
+      0
+    ],
+    "Hand_L": [
+      0.217,
+      0,
+      0
+    ],
+    "Hand_R": [
+      -0.217,
+      0,
+      0
+    ],
+    "LowerLeg_L": [
+      0,
+      -0.39,
+      0
+    ],
+    "LowerLeg_R": [
+      0,
+      -0.39,
+      0
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "forge-vfx.v1",
+  "effect": {
+    "schema": "effect.v1",
+    "id": "vfx_poison_field_circle",
+    "name": "圆形毒阵 · 单位半径可缩放",
+    "initialState": "active",
+    "states": {
+      "active": {
+        "duration": 3,
+        "loop": true
+      },
+      "fading": {
+        "duration": 0.8,
+        "loop": false,
+        "next": "finished"
+      },
+      "finished": {
+        "duration": 1,
+        "loop": true
+      }
+    },
+    "variants": {},
+    "textures": {},
+    "layers": [
+      {
+        "id": "surface",
+        "kind": "surface",
+        "shape": "disc",
+        "position": [
+          0,
+          0.025,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "accent": "#b2ed39",
+        "detailScale": 2.2,
+        "speed": 1,
+        "rimWidth": 0.055,
+        "profiles": {
+          "active": {
+            "strength": 1,
+            "expansion": 1
+          },
+          "fading": {
+            "strength": {
+              "keys": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "interpolation": "smooth"
+            },
+            "expansion": 1
+          }
+        },
+        "render": {
+          "color": "#194c20",
+          "opacity": 0.84,
+          "depthTest": true,
+          "depthWrite": false,
+          "blend": "normal"
+        }
+      }
+    ]
+  }
+}

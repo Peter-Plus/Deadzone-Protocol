@@ -1,0 +1,35 @@
+[
+  {
+    "file": "ui_equipment_ballistic_vest.png",
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "preview": "preview-v2.png",
+    "checkedDisplaySize": 64
+  },
+  {
+    "file": "ui_equipment_special_forces_armor.png",
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "preview": "preview-v2.png",
+    "checkedDisplaySize": 64
+  },
+  {
+    "file": "ui_equipment_military_boots.png",
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "preview": "preview-v2.png",
+    "checkedDisplaySize": 64
+  }
+]

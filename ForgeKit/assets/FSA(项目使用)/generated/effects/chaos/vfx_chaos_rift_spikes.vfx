@@ -1,0 +1,134 @@
+{
+  "schema": "forge-vfx.v1",
+  "effect": {
+    "schema": "effect.v1",
+    "id": "vfx_chaos_rift_spikes",
+    "name": "裂空斩 · 红刺与黑色缠魂",
+    "initialState": "warning",
+    "states": {
+      "warning": {
+        "duration": 0.8,
+        "loop": true
+      },
+      "erupt": {
+        "duration": 1.55,
+        "loop": false,
+        "next": "finished"
+      },
+      "finished": {
+        "duration": 1,
+        "loop": true
+      }
+    },
+    "variants": {},
+    "textures": {},
+    "layers": [
+      {
+        "id": "rift_sector",
+        "kind": "sector",
+        "angle": 60,
+        "radius": 8,
+        "seed": 9617,
+        "capacity": 192,
+        "density": 1.45,
+        "height": [
+          0.65,
+          2.4
+        ],
+        "color": "#450811",
+        "emissive": "#750d21",
+        "smokeColor": "#0c0308",
+        "profiles": {
+          "warning": {
+            "strength": 0,
+            "growth": 0,
+            "smoke": 0,
+            "ground": 0.8
+          },
+          "erupt": {
+            "strength": {
+              "keys": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0.65,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "interpolation": "smooth"
+            },
+            "growth": {
+              "keys": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0.18,
+                  1
+                ],
+                [
+                  0.65,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "interpolation": "smooth"
+            },
+            "smoke": {
+              "keys": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0.2,
+                  1
+                ],
+                [
+                  0.7,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "interpolation": "smooth"
+            },
+            "ground": {
+              "keys": [
+                [
+                  0,
+                  0.7
+                ],
+                [
+                  0.2,
+                  0.55
+                ],
+                [
+                  0.65,
+                  0.35
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "interpolation": "smooth"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

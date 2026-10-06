@@ -1,0 +1,79 @@
+{
+  "passed": false,
+  "status": "protected-tree-drift-observed",
+  "protectedFileCount": 558,
+  "modifiedOrMissing": [
+    {
+      "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\模型资产使用说明.md",
+      "sha256": "A8D52DD98A9D87129F3F6D50665840CE7E343230822CBBCFF6D8D71F86E64854",
+      "currentSha256": "62f5a3b92be943bd93034f53bc2a67d43de5c2f864d8e61df267811c1427b422"
+    },
+    {
+      "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\资产配置表.md",
+      "sha256": "B4FD8F07D439CAF103999C4E345B4C9EC0A917133B3EAEF96D70241F20463D9D",
+      "currentSha256": "10e154e828ca16965a5f5a6d8051de57cfba2f5c170682e883d30cc30e324a97"
+    },
+    {
+      "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\Character\\EnemyContent.md",
+      "sha256": "3CD75915EAFBCFB5256575CF40AB423151008EE497EDD969A158EE9EAD36F1E7",
+      "currentSha256": "405dcf151a7b2861d70aee90fc69a7e7343d3cb7cfbb1dc0fbd7cc4c2116686b"
+    },
+    {
+      "path": "G:\\Game\\Fire\\Deadzone Protocol\\Implementation\\README.md",
+      "sha256": "2867EE0C191143549782A42C951FB90B0672458EC532A223FFA18D1668E0DF58",
+      "currentSha256": "2d5f2014eec16e3797124d834d708aad2185e9144779545106b11e8942c122a1"
+    },
+    {
+      "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Guide\\GettingStarted.md",
+      "sha256": "18D5EA19206392DE4CAAD4288DDF45BBB1A67908B7F5DCC73C4E808C9589D687",
+      "currentSha256": "03f11f7a16cbb2d497a4bc2621015abfd74b922c51c60b4256ab2fe73b12e4f8"
+    },
+    {
+      "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\ArtAssetNeeds.md",
+      "sha256": "F20D7AF6A960D2F45A9085C12C08FABBC379E6BB80E8EA527D90C6F65016FF5F",
+      "currentSha256": "1fe9a09ce6d2228f55892015cdafa34fb7d73b198bcf5ba5757329004d3e5829"
+    },
+    {
+      "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\02-建议项\\05-瘴疫兽角色与动作.md",
+      "sha256": "EC2047CBDB410AA6666B4FB69148F036A6B78A0A63597EEE6EB4B69E0C2193F8",
+      "currentSha256": "91c88c1fb70e289226d84192b7919407c58d7d28b37bd123f75113c9c770cf4d"
+    },
+    {
+      "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\02-建议项\\06-炎巫角色与动作.md",
+      "sha256": "FE984A2B7606321BB78AEB95F87590E387F400DCA4EF3E0C1B73FB7FCD1134D9",
+      "currentSha256": "68ddca7cc7c6bedd1f1fe9e6946b3b7b1ed490eb7c341b24d848ad3237e92519"
+    },
+    {
+      "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\02-建议项\\07-混沌角色与动作.md",
+      "sha256": "65100767FD9E30346B562E60B783BEC444E09BC4BCE07009EA1D58AB3088DECC",
+      "currentSha256": "1d7d0998448b2a2f385b60a8b05ca4771e9bc240e0ac20e8caa861e018a3b303"
+    },
+    {
+      "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C003_FlameWitch.model.json",
+      "sha256": "171E05C9A071C06F3073CBCDDFC168CF1B0F69F1C7FBA0C1098512AAD9CF9625",
+      "currentSha256": "b2274109c79446e17439c6cc3be14d768a91408dd3b14346e145edfe4488225c"
+    },
+    {
+      "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C003_FlameWitch.glb",
+      "sha256": "E952456C04358C9971BCE75855492AFC69BBB96F2C2CBD3FDA0D5F5576611B0A",
+      "currentSha256": "41f9ee468126509977f5b41c5de98ef4f1bce1e74367c2f6dcca54ac67eff13c"
+    }
+  ],
+  "unexpectedAdditions": [
+    "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C002_PlagueBeast.glb",
+    "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C003_FlameWitch.glb",
+    "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\bosses\\FSA_ENEMY_D001_Chaos.glb",
+    "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\bosses\\FSA_ENEMY_D001_Chaos.model.json",
+    "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\FLAME_WITCH_V1.md",
+    "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\bosses\\FSA_ENEMY_D001_Chaos.glb"
+  ],
+  "exclusions": [
+    "node_modules",
+    ".git",
+    "Test",
+    ".qa",
+    "01-资产验证报告.md"
+  ],
+  "method": "SHA256 before/after for existing game and ForgeKit source/assets/docs; compare new paths outside allowed test/report areas.",
+  "interpretation": "This task only writes Test/01-WorldAssets and its report. Changes outside those paths were observed, not reverted. A whole-tree unchanged claim is not made. The command log invokes ForgeKit with the explicit isolated definitions path."
+}

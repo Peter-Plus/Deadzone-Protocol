@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "independentCheck": "npm --cache .npm-cache run check; exit 0",
+  "staticSeeds": 20,
+  "nodeMotionCases": 45,
+  "browserMotionCases": 45,
+  "performanceRuns": [
+    {
+      "enemies": 30,
+      "seconds": 120.222,
+      "stuck": 0,
+      "waiting": 2
+    },
+    {
+      "enemies": 50,
+      "seconds": 120.717,
+      "stuck": 0,
+      "waiting": 11
+    }
+  ],
+  "htmlSha256": "8d0155f0a379508b0735e0eca305c77791755e01d55fb777de8db3bb24c6fb66",
+  "note": "Final display-only changes sync the enemy selector and live collision/player-volume overlays; motion and performance code match measured run. Mouse-lock desktop authorization remains manual; documented peak frame persists."
+}

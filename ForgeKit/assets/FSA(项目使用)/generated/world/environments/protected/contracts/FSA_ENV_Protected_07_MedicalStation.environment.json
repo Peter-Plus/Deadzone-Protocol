@@ -1,0 +1,3064 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Protected_07_MedicalStation",
+  "label": "保护区 · 小型医疗站",
+  "type": "building",
+  "roofMode": "full",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -12.5,
+      -6
+    ],
+    "max": [
+      12.5,
+      7
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Floor_0",
+      "role": "floor",
+      "position": [
+        -7,
+        -0.09,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.18,
+        8
+      ]
+    },
+    {
+      "node": "Wall_1",
+      "role": "wall",
+      "position": [
+        -9.225,
+        2.1,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.55,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_2",
+      "role": "wall",
+      "position": [
+        -4.775,
+        2.1,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.55,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_3",
+      "role": "wall",
+      "position": [
+        -7,
+        0.625,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9000000000000004,
+        1.25,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_4",
+      "role": "wall",
+      "position": [
+        -7,
+        3.5,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9000000000000004,
+        1.4000000000000004,
+        0.32
+      ]
+    },
+    {
+      "node": "Cornice_5",
+      "role": "wall",
+      "position": [
+        -7,
+        4.1,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.25,
+        0.52
+      ]
+    },
+    {
+      "node": "Pilaster_6",
+      "role": "wall",
+      "position": [
+        -10.28,
+        2.025,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_7",
+      "role": "wall",
+      "position": [
+        -10.28,
+        3.7,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "Pilaster_8",
+      "role": "wall",
+      "position": [
+        -3.72,
+        2.025,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_9",
+      "role": "wall",
+      "position": [
+        -3.72,
+        3.7,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "WindowFrame_10",
+      "role": "wall",
+      "position": [
+        -7,
+        2.05,
+        4.23
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.14,
+        1.75,
+        0.14
+      ]
+    },
+    {
+      "node": "Glass_11",
+      "role": "wall",
+      "position": [
+        -7,
+        2.05,
+        4.32
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.84,
+        1.45,
+        0.07
+      ]
+    },
+    {
+      "node": "Sill_14",
+      "role": "wall",
+      "position": [
+        -7,
+        1.15,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.4,
+        0.16,
+        0.58
+      ]
+    },
+    {
+      "node": "Shutter_15",
+      "role": "wall",
+      "position": [
+        -8.25,
+        2.05,
+        4.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        1.65,
+        0.09
+      ]
+    },
+    {
+      "node": "Shutter_16",
+      "role": "wall",
+      "position": [
+        -5.75,
+        2.05,
+        4.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        1.65,
+        0.09
+      ]
+    },
+    {
+      "node": "Wall_18",
+      "role": "wall",
+      "position": [
+        -3.5,
+        2.1,
+        -2.65
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        4.2,
+        2.7
+      ]
+    },
+    {
+      "node": "Wall_19",
+      "role": "wall",
+      "position": [
+        -3.5,
+        2.1,
+        2.65
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        4.2,
+        2.7
+      ]
+    },
+    {
+      "node": "Wall_20",
+      "role": "wall",
+      "position": [
+        -3.5,
+        3.6,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        1.2000000000000002,
+        2.6
+      ]
+    },
+    {
+      "node": "Wall_21",
+      "role": "wall",
+      "position": [
+        -9.225,
+        2.1,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.55,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_22",
+      "role": "wall",
+      "position": [
+        -4.775,
+        2.1,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.55,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_23",
+      "role": "wall",
+      "position": [
+        -7,
+        0.625,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9000000000000004,
+        1.25,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_24",
+      "role": "wall",
+      "position": [
+        -7,
+        3.5,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9000000000000004,
+        1.4000000000000004,
+        0.32
+      ]
+    },
+    {
+      "node": "Cornice_25",
+      "role": "wall",
+      "position": [
+        -7,
+        4.1,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.25,
+        0.52
+      ]
+    },
+    {
+      "node": "Pilaster_26",
+      "role": "wall",
+      "position": [
+        -10.28,
+        2.025,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_27",
+      "role": "wall",
+      "position": [
+        -10.28,
+        3.7,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "Pilaster_28",
+      "role": "wall",
+      "position": [
+        -3.72,
+        2.025,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_29",
+      "role": "wall",
+      "position": [
+        -3.72,
+        3.7,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "WindowFrame_30",
+      "role": "wall",
+      "position": [
+        -7,
+        2.05,
+        -4.23
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.14,
+        1.75,
+        0.14
+      ]
+    },
+    {
+      "node": "Glass_31",
+      "role": "wall",
+      "position": [
+        -7,
+        2.05,
+        -4.32
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.84,
+        1.45,
+        0.07
+      ]
+    },
+    {
+      "node": "Sill_34",
+      "role": "wall",
+      "position": [
+        -7,
+        1.15,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.4,
+        0.16,
+        0.58
+      ]
+    },
+    {
+      "node": "Shutter_35",
+      "role": "wall",
+      "position": [
+        -8.25,
+        2.05,
+        -4.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        1.65,
+        0.09
+      ]
+    },
+    {
+      "node": "Shutter_36",
+      "role": "wall",
+      "position": [
+        -5.75,
+        2.05,
+        -4.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        1.65,
+        0.09
+      ]
+    },
+    {
+      "node": "Wall_38",
+      "role": "wall",
+      "position": [
+        -10.5,
+        2.1,
+        -2.475
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        4.2,
+        3.05
+      ]
+    },
+    {
+      "node": "Wall_39",
+      "role": "wall",
+      "position": [
+        -10.5,
+        2.1,
+        2.475
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        4.2,
+        3.05
+      ]
+    },
+    {
+      "node": "Wall_40",
+      "role": "wall",
+      "position": [
+        -10.5,
+        0.625,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        1.25,
+        1.9
+      ]
+    },
+    {
+      "node": "Wall_41",
+      "role": "wall",
+      "position": [
+        -10.5,
+        3.5,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        1.4000000000000004,
+        1.9
+      ]
+    },
+    {
+      "node": "Cornice_42",
+      "role": "wall",
+      "position": [
+        -10.5,
+        4.1,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.52,
+        0.25,
+        8
+      ]
+    },
+    {
+      "node": "Pilaster_43",
+      "role": "wall",
+      "position": [
+        -10.5,
+        2.025,
+        -3.78
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        4.05,
+        0.3
+      ]
+    },
+    {
+      "node": "Capital_44",
+      "role": "wall",
+      "position": [
+        -10.5,
+        3.7,
+        -3.78
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.58,
+        0.22,
+        0.54
+      ]
+    },
+    {
+      "node": "Pilaster_45",
+      "role": "wall",
+      "position": [
+        -10.5,
+        2.025,
+        3.78
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        4.05,
+        0.3
+      ]
+    },
+    {
+      "node": "Capital_46",
+      "role": "wall",
+      "position": [
+        -10.5,
+        3.7,
+        3.78
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.58,
+        0.22,
+        0.54
+      ]
+    },
+    {
+      "node": "WindowFrame_47",
+      "role": "wall",
+      "position": [
+        -10.73,
+        2.05,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.14,
+        1.75,
+        2.14
+      ]
+    },
+    {
+      "node": "Glass_48",
+      "role": "wall",
+      "position": [
+        -10.82,
+        2.05,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07,
+        1.45,
+        1.84
+      ]
+    },
+    {
+      "node": "Sill_51",
+      "role": "wall",
+      "position": [
+        -10.5,
+        1.15,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.58,
+        0.16,
+        2.4
+      ]
+    },
+    {
+      "node": "Shutter_52",
+      "role": "wall",
+      "position": [
+        -10.75,
+        2.05,
+        -1.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.09,
+        1.65,
+        0.3
+      ]
+    },
+    {
+      "node": "Shutter_53",
+      "role": "wall",
+      "position": [
+        -10.75,
+        2.05,
+        1.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.09,
+        1.65,
+        0.3
+      ]
+    },
+    {
+      "node": "FlatRoof_55",
+      "role": "roof",
+      "position": [
+        -7,
+        4.435000000074506,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7.349999904632568,
+        0.32000000014901175,
+        8.350000381469727
+      ]
+    },
+    {
+      "node": "RoofPlant_60",
+      "role": "roof",
+      "position": [
+        -7,
+        5.06,
+        0.04499998763203622
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2,
+        1.100000023841858,
+        1.7900000229477881
+      ]
+    },
+    {
+      "node": "BedFrame_66",
+      "role": "solid",
+      "position": [
+        -4.9,
+        0.225,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.4,
+        0.45,
+        1.3
+      ]
+    },
+    {
+      "node": "Mattress_67",
+      "role": "solid",
+      "position": [
+        -4.9,
+        0.53,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.25,
+        0.18,
+        1.2
+      ]
+    },
+    {
+      "node": "Pillow_68",
+      "role": "solid",
+      "position": [
+        -5.65,
+        0.68,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.5,
+        0.13,
+        1
+      ]
+    },
+    {
+      "node": "Headboard_69",
+      "role": "solid",
+      "position": [
+        -6.08,
+        0.6,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.15,
+        1,
+        1.35
+      ]
+    },
+    {
+      "node": "BedFrame_70",
+      "role": "solid",
+      "position": [
+        -9.1,
+        0.225,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.4,
+        0.45,
+        1.3
+      ]
+    },
+    {
+      "node": "Mattress_71",
+      "role": "solid",
+      "position": [
+        -9.1,
+        0.53,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.25,
+        0.18,
+        1.2
+      ]
+    },
+    {
+      "node": "Pillow_72",
+      "role": "solid",
+      "position": [
+        -9.85,
+        0.68,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.5,
+        0.13,
+        1
+      ]
+    },
+    {
+      "node": "Headboard_73",
+      "role": "solid",
+      "position": [
+        -10.28,
+        0.6,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.15,
+        1,
+        1.35
+      ]
+    },
+    {
+      "node": "Floor_74",
+      "role": "floor",
+      "position": [
+        0,
+        -0.09,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.18,
+        8
+      ]
+    },
+    {
+      "node": "Wall_75",
+      "role": "wall",
+      "position": [
+        -2.4,
+        2.1,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.2,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_76",
+      "role": "wall",
+      "position": [
+        2.4,
+        2.1,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.2,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_77",
+      "role": "wall",
+      "position": [
+        0,
+        3.6,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.6,
+        1.2000000000000002,
+        0.32
+      ]
+    },
+    {
+      "node": "Cornice_78",
+      "role": "wall",
+      "position": [
+        0,
+        4.1,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.25,
+        0.52
+      ]
+    },
+    {
+      "node": "Pilaster_79",
+      "role": "wall",
+      "position": [
+        -3.28,
+        2.025,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_80",
+      "role": "wall",
+      "position": [
+        -3.28,
+        3.7,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "Pilaster_81",
+      "role": "wall",
+      "position": [
+        3.28,
+        2.025,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_82",
+      "role": "wall",
+      "position": [
+        3.28,
+        3.7,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "Wall_84",
+      "role": "wall",
+      "position": [
+        3.5,
+        2.1,
+        -2.65
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        4.2,
+        2.7
+      ]
+    },
+    {
+      "node": "Wall_85",
+      "role": "wall",
+      "position": [
+        3.5,
+        2.1,
+        2.65
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        4.2,
+        2.7
+      ]
+    },
+    {
+      "node": "Wall_86",
+      "role": "wall",
+      "position": [
+        3.5,
+        3.6,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        1.2000000000000002,
+        2.6
+      ]
+    },
+    {
+      "node": "Wall_87",
+      "role": "wall",
+      "position": [
+        -2.225,
+        2.1,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.55,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_88",
+      "role": "wall",
+      "position": [
+        2.225,
+        2.1,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.55,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_89",
+      "role": "wall",
+      "position": [
+        0,
+        0.625,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9,
+        1.25,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_90",
+      "role": "wall",
+      "position": [
+        0,
+        3.5,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9,
+        1.4000000000000004,
+        0.32
+      ]
+    },
+    {
+      "node": "Cornice_91",
+      "role": "wall",
+      "position": [
+        0,
+        4.1,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.25,
+        0.52
+      ]
+    },
+    {
+      "node": "Pilaster_92",
+      "role": "wall",
+      "position": [
+        -3.28,
+        2.025,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_93",
+      "role": "wall",
+      "position": [
+        -3.28,
+        3.7,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "Pilaster_94",
+      "role": "wall",
+      "position": [
+        3.28,
+        2.025,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_95",
+      "role": "wall",
+      "position": [
+        3.28,
+        3.7,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "WindowFrame_96",
+      "role": "wall",
+      "position": [
+        0,
+        2.05,
+        -4.23
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.14,
+        1.75,
+        0.14
+      ]
+    },
+    {
+      "node": "Glass_97",
+      "role": "wall",
+      "position": [
+        0,
+        2.05,
+        -4.32
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.84,
+        1.45,
+        0.07
+      ]
+    },
+    {
+      "node": "Sill_100",
+      "role": "wall",
+      "position": [
+        0,
+        1.15,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.4,
+        0.16,
+        0.58
+      ]
+    },
+    {
+      "node": "Shutter_101",
+      "role": "wall",
+      "position": [
+        -1.25,
+        2.05,
+        -4.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        1.65,
+        0.09
+      ]
+    },
+    {
+      "node": "Shutter_102",
+      "role": "wall",
+      "position": [
+        1.25,
+        2.05,
+        -4.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        1.65,
+        0.09
+      ]
+    },
+    {
+      "node": "FlatRoof_104",
+      "role": "roof",
+      "position": [
+        0,
+        4.435000000074506,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7.349999904632568,
+        0.32000000014901175,
+        8.350000381469727
+      ]
+    },
+    {
+      "node": "TableBase_109",
+      "role": "solid",
+      "position": [
+        -2,
+        0.425,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9,
+        0.85,
+        0.9
+      ]
+    },
+    {
+      "node": "TableTop_110",
+      "role": "solid",
+      "position": [
+        -2,
+        0.91,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.15,
+        0.12,
+        1.05
+      ]
+    },
+    {
+      "node": "Cabinet_111",
+      "role": "solid",
+      "position": [
+        2.3,
+        1.15,
+        -2.9
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.5,
+        2.3,
+        0.7
+      ]
+    },
+    {
+      "node": "Floor_114",
+      "role": "floor",
+      "position": [
+        7,
+        -0.09,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.18,
+        8
+      ]
+    },
+    {
+      "node": "Wall_115",
+      "role": "wall",
+      "position": [
+        4.775,
+        2.1,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.55,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_116",
+      "role": "wall",
+      "position": [
+        9.225,
+        2.1,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.55,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_117",
+      "role": "wall",
+      "position": [
+        7,
+        0.625,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9000000000000004,
+        1.25,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_118",
+      "role": "wall",
+      "position": [
+        7,
+        3.5,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9000000000000004,
+        1.4000000000000004,
+        0.32
+      ]
+    },
+    {
+      "node": "Cornice_119",
+      "role": "wall",
+      "position": [
+        7,
+        4.1,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.25,
+        0.52
+      ]
+    },
+    {
+      "node": "Pilaster_120",
+      "role": "wall",
+      "position": [
+        3.72,
+        2.025,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_121",
+      "role": "wall",
+      "position": [
+        3.72,
+        3.7,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "Pilaster_122",
+      "role": "wall",
+      "position": [
+        10.28,
+        2.025,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_123",
+      "role": "wall",
+      "position": [
+        10.28,
+        3.7,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "WindowFrame_124",
+      "role": "wall",
+      "position": [
+        7,
+        2.05,
+        4.23
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.14,
+        1.75,
+        0.14
+      ]
+    },
+    {
+      "node": "Glass_125",
+      "role": "wall",
+      "position": [
+        7,
+        2.05,
+        4.32
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.84,
+        1.45,
+        0.07
+      ]
+    },
+    {
+      "node": "Sill_128",
+      "role": "wall",
+      "position": [
+        7,
+        1.15,
+        4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.4,
+        0.16,
+        0.58
+      ]
+    },
+    {
+      "node": "Shutter_129",
+      "role": "wall",
+      "position": [
+        5.75,
+        2.05,
+        4.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        1.65,
+        0.09
+      ]
+    },
+    {
+      "node": "Shutter_130",
+      "role": "wall",
+      "position": [
+        8.25,
+        2.05,
+        4.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        1.65,
+        0.09
+      ]
+    },
+    {
+      "node": "Wall_132",
+      "role": "wall",
+      "position": [
+        10.5,
+        2.1,
+        -2.475
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        4.2,
+        3.05
+      ]
+    },
+    {
+      "node": "Wall_133",
+      "role": "wall",
+      "position": [
+        10.5,
+        2.1,
+        2.475
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        4.2,
+        3.05
+      ]
+    },
+    {
+      "node": "Wall_134",
+      "role": "wall",
+      "position": [
+        10.5,
+        0.625,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        1.25,
+        1.9
+      ]
+    },
+    {
+      "node": "Wall_135",
+      "role": "wall",
+      "position": [
+        10.5,
+        3.5,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        1.4000000000000004,
+        1.9
+      ]
+    },
+    {
+      "node": "Cornice_136",
+      "role": "wall",
+      "position": [
+        10.5,
+        4.1,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.52,
+        0.25,
+        8
+      ]
+    },
+    {
+      "node": "Pilaster_137",
+      "role": "wall",
+      "position": [
+        10.5,
+        2.025,
+        -3.78
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        4.05,
+        0.3
+      ]
+    },
+    {
+      "node": "Capital_138",
+      "role": "wall",
+      "position": [
+        10.5,
+        3.7,
+        -3.78
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.58,
+        0.22,
+        0.54
+      ]
+    },
+    {
+      "node": "Pilaster_139",
+      "role": "wall",
+      "position": [
+        10.5,
+        2.025,
+        3.78
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.48,
+        4.05,
+        0.3
+      ]
+    },
+    {
+      "node": "Capital_140",
+      "role": "wall",
+      "position": [
+        10.5,
+        3.7,
+        3.78
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.58,
+        0.22,
+        0.54
+      ]
+    },
+    {
+      "node": "WindowFrame_141",
+      "role": "wall",
+      "position": [
+        10.73,
+        2.05,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.14,
+        1.75,
+        2.14
+      ]
+    },
+    {
+      "node": "Glass_142",
+      "role": "wall",
+      "position": [
+        10.82,
+        2.05,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.07,
+        1.45,
+        1.84
+      ]
+    },
+    {
+      "node": "Sill_145",
+      "role": "wall",
+      "position": [
+        10.5,
+        1.15,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.58,
+        0.16,
+        2.4
+      ]
+    },
+    {
+      "node": "Shutter_146",
+      "role": "wall",
+      "position": [
+        10.75,
+        2.05,
+        -1.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.09,
+        1.65,
+        0.3
+      ]
+    },
+    {
+      "node": "Shutter_147",
+      "role": "wall",
+      "position": [
+        10.75,
+        2.05,
+        1.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.09,
+        1.65,
+        0.3
+      ]
+    },
+    {
+      "node": "Wall_149",
+      "role": "wall",
+      "position": [
+        4.775,
+        2.1,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.55,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_150",
+      "role": "wall",
+      "position": [
+        9.225,
+        2.1,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.55,
+        4.2,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_151",
+      "role": "wall",
+      "position": [
+        7,
+        0.625,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9000000000000004,
+        1.25,
+        0.32
+      ]
+    },
+    {
+      "node": "Wall_152",
+      "role": "wall",
+      "position": [
+        7,
+        3.5,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9000000000000004,
+        1.4000000000000004,
+        0.32
+      ]
+    },
+    {
+      "node": "Cornice_153",
+      "role": "wall",
+      "position": [
+        7,
+        4.1,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7,
+        0.25,
+        0.52
+      ]
+    },
+    {
+      "node": "Pilaster_154",
+      "role": "wall",
+      "position": [
+        3.72,
+        2.025,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_155",
+      "role": "wall",
+      "position": [
+        3.72,
+        3.7,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "Pilaster_156",
+      "role": "wall",
+      "position": [
+        10.28,
+        2.025,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        4.05,
+        0.48
+      ]
+    },
+    {
+      "node": "Capital_157",
+      "role": "wall",
+      "position": [
+        10.28,
+        3.7,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.22,
+        0.58
+      ]
+    },
+    {
+      "node": "WindowFrame_158",
+      "role": "wall",
+      "position": [
+        7,
+        2.05,
+        -4.23
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.14,
+        1.75,
+        0.14
+      ]
+    },
+    {
+      "node": "Glass_159",
+      "role": "wall",
+      "position": [
+        7,
+        2.05,
+        -4.32
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.84,
+        1.45,
+        0.07
+      ]
+    },
+    {
+      "node": "Sill_162",
+      "role": "wall",
+      "position": [
+        7,
+        1.15,
+        -4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.4,
+        0.16,
+        0.58
+      ]
+    },
+    {
+      "node": "Shutter_163",
+      "role": "wall",
+      "position": [
+        5.75,
+        2.05,
+        -4.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        1.65,
+        0.09
+      ]
+    },
+    {
+      "node": "Shutter_164",
+      "role": "wall",
+      "position": [
+        8.25,
+        2.05,
+        -4.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        1.65,
+        0.09
+      ]
+    },
+    {
+      "node": "FlatRoof_166",
+      "role": "roof",
+      "position": [
+        7,
+        4.435000000074506,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7.349999904632568,
+        0.32000000014901175,
+        8.350000381469727
+      ]
+    },
+    {
+      "node": "BedFrame_171",
+      "role": "solid",
+      "position": [
+        9.1,
+        0.225,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.4,
+        0.45,
+        1.3
+      ]
+    },
+    {
+      "node": "Mattress_172",
+      "role": "solid",
+      "position": [
+        9.1,
+        0.53,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.25,
+        0.18,
+        1.2
+      ]
+    },
+    {
+      "node": "Pillow_173",
+      "role": "solid",
+      "position": [
+        8.35,
+        0.68,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.5,
+        0.13,
+        1
+      ]
+    },
+    {
+      "node": "Headboard_174",
+      "role": "solid",
+      "position": [
+        7.92,
+        0.6,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.15,
+        1,
+        1.35
+      ]
+    },
+    {
+      "node": "BedFrame_175",
+      "role": "solid",
+      "position": [
+        4.9,
+        0.225,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.4,
+        0.45,
+        1.3
+      ]
+    },
+    {
+      "node": "Mattress_176",
+      "role": "solid",
+      "position": [
+        4.9,
+        0.53,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.25,
+        0.18,
+        1.2
+      ]
+    },
+    {
+      "node": "Pillow_177",
+      "role": "solid",
+      "position": [
+        4.15,
+        0.68,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.5,
+        0.13,
+        1
+      ]
+    },
+    {
+      "node": "Headboard_178",
+      "role": "solid",
+      "position": [
+        3.7200000000000006,
+        0.6,
+        -2.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.15,
+        1,
+        1.35
+      ]
+    },
+    {
+      "node": "PorchCanopy_179",
+      "role": "wall",
+      "position": [
+        0,
+        3.4,
+        4.65
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        4.5,
+        0.22,
+        1.4
+      ]
+    },
+    {
+      "node": "PorchColumn_180",
+      "role": "wall",
+      "position": [
+        -1.9,
+        1.65,
+        5.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        3.3,
+        0.3
+      ]
+    },
+    {
+      "node": "PorchColumn_181",
+      "role": "wall",
+      "position": [
+        1.9,
+        1.65,
+        5.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        3.3,
+        0.3
+      ]
+    },
+    {
+      "node": "MedicalSign_182",
+      "role": "wall",
+      "position": [
+        0,
+        4.02,
+        4.27
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2,
+        0.95,
+        0.12
+      ]
+    }
+  ],
+  "walkables": [
+    "Floor_0",
+    "Floor_74",
+    "Floor_114"
+  ],
+  "entrances": [
+    {
+      "id": "MainEntrance",
+      "outer": [
+        0,
+        0,
+        5.7
+      ],
+      "inner": [
+        0,
+        0,
+        2.3
+      ],
+      "width": 2.6,
+      "height": 3,
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "ExploreAllRooms",
+      "points": [
+        [
+          0,
+          0,
+          5.7
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          -7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [
+    {
+      "id": "RoomLoot0",
+      "min": [
+        -5.6,
+        1.9
+      ],
+      "max": [
+        -4.4,
+        3.1
+      ],
+      "surface": "Floor_0"
+    },
+    {
+      "id": "RoomLoot1",
+      "min": [
+        1.4,
+        1.9
+      ],
+      "max": [
+        2.6,
+        3.1
+      ],
+      "surface": "Floor_74"
+    },
+    {
+      "id": "RoomLoot2",
+      "min": [
+        8.4,
+        1.9
+      ],
+      "max": [
+        9.6,
+        3.1
+      ],
+      "surface": "Floor_114"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "Path1",
+      "min": [
+        -0.85,
+        -0.85
+      ],
+      "max": [
+        0.85,
+        6.55
+      ]
+    },
+    {
+      "id": "Path2",
+      "min": [
+        -0.85,
+        -0.85
+      ],
+      "max": [
+        7.85,
+        0.85
+      ]
+    },
+    {
+      "id": "Path3",
+      "min": [
+        -0.85,
+        -0.85
+      ],
+      "max": [
+        7.85,
+        0.85
+      ]
+    },
+    {
+      "id": "Path4",
+      "min": [
+        -7.85,
+        -0.85
+      ],
+      "max": [
+        0.85,
+        0.85
+      ]
+    },
+    {
+      "id": "Path5",
+      "min": [
+        -7.85,
+        -0.85
+      ],
+      "max": [
+        0.85,
+        0.85
+      ]
+    }
+  ],
+  "connectors": [],
+  "modelAsset": "models/FSA_ENV_Protected_07_MedicalStation.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -10.930000000745059,
+      -0.18000000357627868,
+      -4.430000000745058
+    ],
+    "max": [
+      10.930000000745059,
+      5.610000011920929,
+      5.349999988079071
+    ]
+  },
+  "checks": [
+    {
+      "route": "ExploreAllRooms",
+      "profile": "player",
+      "ok": true
+    },
+    {
+      "route": "ExploreAllRooms",
+      "profile": "A1",
+      "ok": true
+    }
+  ],
+  "sourceHash": "7a7d297ed2150b8acf574d429814c6110a915c59e7317ca75ab7a680dfcabac4",
+  "modelHash": "670cb3946bafa347100f0e5209b4f576300b101a7e442d78272861e986ef8a71"
+}

@@ -1,0 +1,251 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_chaos_hell_eye_charge",
+  "name": "地狱之眼蓄力 · 左手暗魂",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "dissipate": {
+      "duration": 0.45,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "palm_dark",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 40,
+      "seed": 12018,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "radii": [
+        0.42,
+        0.25,
+        0.42
+      ],
+      "size": [
+        0.28,
+        0.5
+      ],
+      "shell": 0.65,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#100c18",
+        "opacity": 0.8,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "palm_souls",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 44,
+      "seed": 12019,
+      "position": [
+        0,
+        0.04,
+        0
+      ],
+      "radii": [
+        0.46,
+        0.27,
+        0.46
+      ],
+      "size": [
+        0.19,
+        0.35
+      ],
+      "shell": 0.9,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#612288",
+        "opacity": 0.65,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "palm_sparks",
+      "kind": "cloud",
+      "texture": "glow",
+      "count": 26,
+      "seed": 12020,
+      "position": [
+        0,
+        0.06,
+        0
+      ],
+      "radii": [
+        0.43,
+        0.3,
+        0.43
+      ],
+      "size": [
+        0.035,
+        0.07
+      ],
+      "shell": 0.65,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1,
+          "rise": 0
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#9762be",
+        "opacity": 0.65,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

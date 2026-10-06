@@ -1,0 +1,256 @@
+{
+  "schema": "environment-preview-assembly.v1",
+  "id": "FSA_REF_Protected_TwoGates",
+  "label": "保护区围墙组合 · 南北双门／独立开启",
+  "instances": [
+    {
+      "id": "P0",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -12,
+        0,
+        -12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P1",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -6,
+        0,
+        -12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P2",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        6,
+        0,
+        -12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P3",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        12,
+        0,
+        -12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P4",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -12,
+        0,
+        12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P5",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -6,
+        0,
+        12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P6",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        6,
+        0,
+        12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P7",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        12,
+        0,
+        12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P8",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -18,
+        0,
+        -6
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P9",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -18,
+        0,
+        0
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P10",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -18,
+        0,
+        6
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P11",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        18,
+        0,
+        -6
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P12",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        18,
+        0,
+        0
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P13",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        18,
+        0,
+        6
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P14",
+      "asset": "FSA_ENV_Protected_Corner",
+      "position": [
+        18,
+        0,
+        -12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P15",
+      "asset": "FSA_ENV_Protected_Corner",
+      "position": [
+        18,
+        0,
+        12
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "P16",
+      "asset": "FSA_ENV_Protected_Corner",
+      "position": [
+        -18,
+        0,
+        12
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "P17",
+      "asset": "FSA_ENV_Protected_Corner",
+      "position": [
+        -18,
+        0,
+        -12
+      ],
+      "yaw": 90
+    }
+  ],
+  "doors": [
+    {
+      "id": "South",
+      "asset": "FSA_ENV_Door_ProtectedSlide",
+      "position": [
+        0,
+        0,
+        -12
+      ],
+      "yaw": 180,
+      "pocket": "SouthPocket"
+    },
+    {
+      "id": "North",
+      "asset": "FSA_ENV_Door_ProtectedSlide",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "yaw": 0,
+      "pocket": "NorthPocket"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "SouthPocket",
+      "min": [
+        -9.85,
+        -11.65
+      ],
+      "max": [
+        -3.15,
+        -10.95
+      ]
+    },
+    {
+      "id": "NorthPocket",
+      "min": [
+        3.15,
+        10.95
+      ],
+      "max": [
+        9.85,
+        11.65
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "AcrossBothGates",
+      "points": [
+        [
+          0,
+          0,
+          -15
+        ],
+        [
+          0,
+          0,
+          15
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ]
+}

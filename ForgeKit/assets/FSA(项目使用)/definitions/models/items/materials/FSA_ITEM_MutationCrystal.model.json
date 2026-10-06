@@ -1,0 +1,133 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_MutationCrystal",
+  "type": "static",
+  "materials": {
+    "orange": {
+      "color": "#B63C36",
+      "roughness": 0.75
+    },
+    "black": {
+      "color": "#273236",
+      "roughness": 0.87
+    },
+    "metal": {
+      "color": "#839093",
+      "roughness": 0.4,
+      "metalness": 0.65
+    },
+    "olive": {
+      "color": "#626F52",
+      "roughness": 1
+    },
+    "tan": {
+      "color": "#9B8966",
+      "roughness": 1
+    },
+    "cloth": {
+      "color": "#394C46",
+      "roughness": 1
+    },
+    "strap": {
+      "color": "#263E34",
+      "roughness": 0.92
+    },
+    "light": {
+      "color": "#CABD96",
+      "roughness": 0.9
+    },
+    "hole": {
+      "color": "#0D171D",
+      "roughness": 1
+    },
+    "stone": {
+      "color": "#3A3548",
+      "roughness": 0.95
+    },
+    "purple": {
+      "color": "#82749E",
+      "roughness": 0.45,
+      "metalness": 0.15
+    },
+    "purpleTip": {
+      "color": "#B0A0C8",
+      "roughness": 0.38
+    },
+    "ember": {
+      "color": "#D76436",
+      "roughness": 0.5
+    },
+    "hot": {
+      "color": "#F0B25C",
+      "roughness": 0.38
+    },
+    "char": {
+      "color": "#493C3C",
+      "roughness": 0.92
+    },
+    "green": {
+      "color": "#579875",
+      "roughness": 0.5
+    },
+    "toxic": {
+      "color": "#ABD27E",
+      "roughness": 0.4
+    },
+    "bark": {
+      "color": "#344F42",
+      "roughness": 0.9
+    }
+  },
+  "parts": [
+    {
+      "id": "SingleShard_Crown",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.09828,
+        "radialSegments": 5
+      },
+      "position": [
+        0.004443656507331097,
+        0.09607577361980216,
+        0.001577484478074485
+      ],
+      "rotation": [
+        12.000000000000002,
+        18.000000000000004,
+        -18.000000000000004
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "purple"
+    },
+    {
+      "id": "SingleShard_Root",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.04032,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.0159231024846031,
+        0.03023194137743295,
+        -0.005652652713100238
+      ],
+      "rotation": [
+        -168,
+        -18.000000000000004,
+        18
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "purple"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Desert_hill",
+  "label": "荒漠 / 低丘 · 大基地平台",
+  "type": "terrain",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -56,
+      -56
+    ],
+    "max": [
+      56,
+      56
+    ]
+  },
+  "colliders": [],
+  "walkables": [],
+  "entrances": [],
+  "routes": [
+    {
+      "id": "CrossX",
+      "points": [
+        [
+          -52,
+          0,
+          1
+        ],
+        [
+          52,
+          0,
+          1
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    },
+    {
+      "id": "CrossZ",
+      "points": [
+        [
+          0,
+          0,
+          -52
+        ],
+        [
+          0,
+          0,
+          52
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "terrain": {
+    "size": [
+      112,
+      112
+    ],
+    "cell": 1,
+    "seed": 731,
+    "amplitude": 3.2,
+    "wavelength": 16,
+    "maxSlopeDegrees": 15,
+    "landform": "hill",
+    "edgeBlend": 12,
+    "platforms": [
+      {
+        "center": [
+          0,
+          1
+        ],
+        "size": [
+          48,
+          44
+        ],
+        "height": 2,
+        "blend": 16
+      }
+    ],
+    "surface": "desert-mottled"
+  }
+}

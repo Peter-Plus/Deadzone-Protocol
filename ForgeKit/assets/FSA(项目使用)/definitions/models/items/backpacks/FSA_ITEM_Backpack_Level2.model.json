@@ -1,0 +1,689 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_Backpack_Level2",
+  "type": "static",
+  "materials": {
+    "orange": {
+      "color": "#B63C36",
+      "roughness": 0.75
+    },
+    "black": {
+      "color": "#273236",
+      "roughness": 0.87
+    },
+    "metal": {
+      "color": "#839093",
+      "roughness": 0.4,
+      "metalness": 0.65
+    },
+    "olive": {
+      "color": "#626F52",
+      "roughness": 1
+    },
+    "tan": {
+      "color": "#9B8966",
+      "roughness": 1
+    },
+    "cloth": {
+      "color": "#394C46",
+      "roughness": 1
+    },
+    "strap": {
+      "color": "#263E34",
+      "roughness": 0.92
+    },
+    "light": {
+      "color": "#CABD96",
+      "roughness": 0.9
+    },
+    "hole": {
+      "color": "#0D171D",
+      "roughness": 1
+    },
+    "stone": {
+      "color": "#3A3548",
+      "roughness": 0.95
+    },
+    "purple": {
+      "color": "#82749E",
+      "roughness": 0.45,
+      "metalness": 0.15
+    },
+    "purpleTip": {
+      "color": "#B0A0C8",
+      "roughness": 0.38
+    },
+    "ember": {
+      "color": "#D76436",
+      "roughness": 0.5
+    },
+    "hot": {
+      "color": "#F0B25C",
+      "roughness": 0.38
+    },
+    "char": {
+      "color": "#493C3C",
+      "roughness": 0.92
+    },
+    "green": {
+      "color": "#579875",
+      "roughness": 0.5
+    },
+    "toxic": {
+      "color": "#ABD27E",
+      "roughness": 0.4
+    },
+    "bark": {
+      "color": "#344F42",
+      "roughness": 0.9
+    }
+  },
+  "parts": [
+    {
+      "id": "BagCore",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.24939999999999998,
+          0.35000000000000003,
+          0.17
+        ]
+      },
+      "position": [
+        0,
+        0.2000000000447035,
+        0
+      ],
+      "material": "olive"
+    },
+    {
+      "id": "SoftShell",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.5
+      },
+      "position": [
+        0,
+        0.2040000000447035,
+        0
+      ],
+      "scale": [
+        0.29,
+        0.4,
+        0.2074
+      ],
+      "material": "olive"
+    },
+    {
+      "id": "TopFlap",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.26389999999999997,
+          0.06,
+          0.17850000000000002
+        ]
+      },
+      "position": [
+        0,
+        0.38500000004470347,
+        0.025
+      ],
+      "material": "olive"
+    },
+    {
+      "id": "BottomReinforce",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.24939999999999998,
+          0.046,
+          0.17
+        ]
+      },
+      "position": [
+        0,
+        0.023000000044703484,
+        0
+      ],
+      "material": "black"
+    },
+    {
+      "id": "FrontPocket",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.20589999999999997,
+          0.144,
+          0.064
+        ]
+      },
+      "position": [
+        0,
+        0.12000000004470349,
+        0.1003
+      ],
+      "material": "tan"
+    },
+    {
+      "id": "PocketFlap",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.22039999999999998,
+          0.032,
+          0.075
+        ]
+      },
+      "position": [
+        0,
+        0.1920000000447035,
+        0.10455
+      ],
+      "material": "olive"
+    },
+    {
+      "id": "UpperPocket",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.20299999999999999,
+          0.08000000000000002,
+          0.035
+        ]
+      },
+      "position": [
+        0,
+        0.2720000000447035,
+        0.09860000000000001
+      ],
+      "material": "tan"
+    },
+    {
+      "id": "Zipper",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.17689999999999997,
+          0.006,
+          0.015
+        ]
+      },
+      "position": [
+        0,
+        0.3060000000447035,
+        0.1037
+      ],
+      "material": "black"
+    },
+    {
+      "id": "ZipperPull",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.012,
+          0.028,
+          0.008
+        ]
+      },
+      "position": [
+        0.0638,
+        0.2956000000447035,
+        0.11050000000000001
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "ShoulderStrap_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.047,
+          0.296,
+          0.025
+        ]
+      },
+      "position": [
+        -0.0783,
+        0.21600000004470352,
+        -0.11560000000000002
+      ],
+      "material": "strap",
+      "rotation": [
+        -9,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "BackPadding_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.07,
+          0.26,
+          0.027
+        ]
+      },
+      "position": [
+        -0.0638,
+        0.1920000000447035,
+        -0.0918
+      ],
+      "material": "black"
+    },
+    {
+      "id": "FrontStrap_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.02,
+          0.30000000000000004,
+          0.012
+        ]
+      },
+      "position": [
+        -0.0783,
+        0.1920000000447035,
+        0.136
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Buckle_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.032,
+          0.03,
+          0.016
+        ]
+      },
+      "position": [
+        -0.0783,
+        0.22400000004470352,
+        0.1394
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "HandlePost_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.045,
+          0.022
+        ]
+      },
+      "position": [
+        -0.055,
+        0.4200000000447035,
+        0
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "ShoulderStrap_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.047,
+          0.296,
+          0.025
+        ]
+      },
+      "position": [
+        0.0783,
+        0.21600000004470352,
+        -0.11560000000000002
+      ],
+      "material": "strap",
+      "rotation": [
+        9,
+        0,
+        -6
+      ]
+    },
+    {
+      "id": "BackPadding_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.07,
+          0.26,
+          0.027
+        ]
+      },
+      "position": [
+        0.0638,
+        0.1920000000447035,
+        -0.0918
+      ],
+      "material": "black"
+    },
+    {
+      "id": "FrontStrap_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.02,
+          0.30000000000000004,
+          0.012
+        ]
+      },
+      "position": [
+        0.0783,
+        0.1920000000447035,
+        0.136
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Buckle_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.032,
+          0.03,
+          0.016
+        ]
+      },
+      "position": [
+        0.0783,
+        0.22400000004470352,
+        0.1394
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "HandlePost_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.045,
+          0.022
+        ]
+      },
+      "position": [
+        0.055,
+        0.4200000000447035,
+        0
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "CarryHandle",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.128,
+          0.018,
+          0.022
+        ]
+      },
+      "position": [
+        0,
+        0.44000000004470347,
+        0
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_0_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.06524999999999999,
+        0.0800000000447035,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_0_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.02175,
+        0.0800000000447035,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_0_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.02175,
+        0.0800000000447035,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_0_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.06524999999999999,
+        0.0800000000447035,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.06524999999999999,
+        0.1100000000447035,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.02175,
+        0.1100000000447035,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.02175,
+        0.1100000000447035,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_1_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.06524999999999999,
+        0.1100000000447035,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_2_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.06524999999999999,
+        0.14000000004470348,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_2_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.02175,
+        0.14000000004470348,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_2_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.02175,
+        0.14000000004470348,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_2_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0348,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.06524999999999999,
+        0.14000000004470348,
+        0.13260000000000002
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Patch",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.064,
+          0.036,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.2720000000447035,
+        0.13260000000000002
+      ],
+      "material": "light"
+    },
+    {
+      "id": "LevelMark_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.006,
+          0.022,
+          0.004
+        ]
+      },
+      "position": [
+        -0.007,
+        0.2720000000447035,
+        0.136
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "LevelMark_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.006,
+          0.022,
+          0.004
+        ]
+      },
+      "position": [
+        0.007,
+        0.2720000000447035,
+        0.136
+      ],
+      "material": "strap"
+    }
+  ]
+}

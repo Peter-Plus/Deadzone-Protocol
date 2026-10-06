@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "fixedHz": 60,
+  "maxCatchUpSteps": 8,
+  "player": { "height": 1.8, "radius": 0.3, "eyeHeight": 1.65, "speed": 4.5, "jumpSpeed": 6, "gravity": 18, "sensitivity": 0.002 },
+  "weapon": { "magazineSize": 30, "reserveAmmo": 180, "shotsPerSecond": 8, "damage": 34, "range": 80, "reloadCommit": 1.18, "reloadDuration": 1.45, "fireDuration": 0.26 },
+  "targets": [
+    { "x": 0, "z": 18, "health": 100 },
+    { "x": -4, "z": 23, "health": 100 },
+    { "x": 4, "z": 23, "health": 100 },
+    { "x": -8, "z": 29, "health": 100 },
+    { "x": 8, "z": 29, "health": 100 }
+  ]
+}

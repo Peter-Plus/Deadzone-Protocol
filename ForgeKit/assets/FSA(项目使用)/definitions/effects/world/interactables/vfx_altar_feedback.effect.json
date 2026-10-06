@@ -1,0 +1,249 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_altar_feedback",
+  "name": "附魔台封印与附魔反馈",
+  "initialState": "available",
+  "states": {
+    "available": {
+      "duration": 1,
+      "loop": true
+    },
+    "sealed": {
+      "duration": 1,
+      "loop": true
+    },
+    "unlocking": {
+      "duration": 0.65,
+      "loop": false,
+      "next": "unlocked"
+    },
+    "unlocked": {
+      "duration": 1,
+      "loop": true
+    },
+    "enchanting": {
+      "duration": 2.4,
+      "loop": false,
+      "next": "exhausted"
+    },
+    "exhausted": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {
+    "fire": "#ff691f",
+    "poison": "#83df43"
+  },
+  "textures": {},
+  "binding": {
+    "model": "FSA_WORLD_EnchantAltar",
+    "animation": "FSA_ANIM_EnchantAltar_Enchant",
+    "attachment": "Asset",
+    "animationStates": {
+      "enchanting": "time",
+      "exhausted": "end"
+    }
+  },
+  "layers": [
+    {
+      "id": "fire_orbit",
+      "kind": "orbit",
+      "variant": "fire",
+      "profiles": {
+        "sealed": {
+          "strength": 1,
+          "radius": 0.59
+        },
+        "unlocking": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "linear"
+          },
+          "radius": 0.59
+        },
+        "enchanting": {
+          "strength": {
+            "wave": "sinSquared",
+            "domain": "normalized",
+            "frequency": 0.5,
+            "phase": 0,
+            "amplitude": 1,
+            "bias": 0
+          },
+          "radius": {
+            "wave": "sin",
+            "domain": "normalized",
+            "frequency": 0.5,
+            "phase": 0,
+            "amplitude": -0.351,
+            "bias": 0.54
+          }
+        }
+      },
+      "shape": {
+        "type": "cone",
+        "radius": 0.045,
+        "height": 0.27,
+        "segments": 5
+      },
+      "count": 12,
+      "position": [
+        0,
+        1.14,
+        0
+      ],
+      "angularSpeed": 1.4,
+      "bob": {
+        "amplitude": 0.035,
+        "frequency": 8,
+        "phaseStep": 1
+      },
+      "pulse": {
+        "base": 0.65,
+        "amplitude": 0.35,
+        "frequency": 9,
+        "phaseStep": 1
+      },
+      "render": {
+        "color": "#ff691f",
+        "opacity": 0.8,
+        "depthTest": true,
+        "depthWrite": false,
+        "blend": "normal"
+      }
+    },
+    {
+      "id": "poison_orbit",
+      "kind": "orbit",
+      "variant": "poison",
+      "profiles": {
+        "sealed": {
+          "strength": 1,
+          "radius": 0.59
+        },
+        "unlocking": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "linear"
+          },
+          "radius": 0.59
+        },
+        "enchanting": {
+          "strength": {
+            "wave": "sinSquared",
+            "domain": "normalized",
+            "frequency": 0.5,
+            "phase": 0,
+            "amplitude": 1,
+            "bias": 0
+          },
+          "radius": {
+            "wave": "sin",
+            "domain": "normalized",
+            "frequency": 0.5,
+            "phase": 0,
+            "amplitude": -0.351,
+            "bias": 0.54
+          }
+        }
+      },
+      "shape": {
+        "type": "sphere",
+        "radius": 0.048,
+        "widthSegments": 10,
+        "heightSegments": 8
+      },
+      "count": 12,
+      "position": [
+        0,
+        1.14,
+        0
+      ],
+      "angularSpeed": -0.8,
+      "bob": {
+        "amplitude": 0.13,
+        "frequency": 2,
+        "phaseStep": 1
+      },
+      "pulse": {
+        "base": 1,
+        "amplitude": 0,
+        "frequency": 9,
+        "phaseStep": 1
+      },
+      "render": {
+        "color": "#83df43",
+        "opacity": 0.8,
+        "depthTest": true,
+        "depthWrite": false,
+        "blend": "normal"
+      }
+    },
+    {
+      "id": "crystal_glow",
+      "kind": "material",
+      "prefixes": [
+        "Crystal",
+        "Etching"
+      ],
+      "profiles": {
+        "available": {
+          "colorMultiplier": 1,
+          "emissive": "#34525e",
+          "intensity": 0.65
+        },
+        "unlocked": {
+          "colorMultiplier": 1,
+          "emissive": "#34525e",
+          "intensity": 0.65
+        },
+        "sealed": {
+          "colorMultiplier": 1,
+          "emissive": "$variant",
+          "intensity": 0.65
+        },
+        "unlocking": {
+          "colorMultiplier": 1,
+          "emissive": "$variant",
+          "intensity": 0.65
+        },
+        "enchanting": {
+          "colorMultiplier": 1,
+          "emissive": "$variant",
+          "intensity": {
+            "wave": "sinSquared",
+            "domain": "normalized",
+            "frequency": 0.5,
+            "phase": 0,
+            "amplitude": 2,
+            "bias": 0.5
+          }
+        },
+        "exhausted": {
+          "colorMultiplier": 0.25,
+          "emissive": "#030506",
+          "intensity": 0.1
+        }
+      }
+    }
+  ]
+}

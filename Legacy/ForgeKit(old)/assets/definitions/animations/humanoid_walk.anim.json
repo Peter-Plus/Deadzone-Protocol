@@ -1,0 +1,16 @@
+{
+  "schema": "animation.v1",
+  "id": "animation.humanoid.walk",
+  "rig": "humanoid.v1",
+  "duration": 1,
+  "loop": true,
+  "mode": "generator",
+  "generator": "humanoid.walk",
+  "parameters": {
+    "strideAngle": 32,
+    "kneeBend": 24,
+    "armSwing": 20,
+    "bodyBob": 0.025,
+    "hipTwist": 4
+  }
+}

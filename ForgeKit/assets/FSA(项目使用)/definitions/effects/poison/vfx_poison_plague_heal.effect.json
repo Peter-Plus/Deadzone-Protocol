@@ -1,0 +1,260 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_poison_plague_heal",
+  "name": "瘴疫兽 · 毒伤回血全身回流",
+  "initialState": "heal",
+  "states": {
+    "heal": {
+      "duration": 1.25,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "projectile_mist.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "body_recovery",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 64,
+      "seed": 813,
+      "position": [
+        0,
+        1.7,
+        0.5
+      ],
+      "radii": [
+        2.2,
+        1.55,
+        1.5
+      ],
+      "size": [
+        0.46,
+        0.72
+      ],
+      "shell": 0.72,
+      "aspect": 1.2,
+      "drift": [
+        0.05,
+        0.15,
+        0.05
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.2,
+      "profiles": {
+        "heal": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.15,
+                1
+              ],
+              [
+                0.5,
+                0.85
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1.12
+              ],
+              [
+                0.6,
+                0.94
+              ],
+              [
+                1,
+                0.84
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#68db55",
+        "opacity": 0.18,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "inner_recovery",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 24,
+      "seed": 773,
+      "position": [
+        0,
+        1.8,
+        0.5
+      ],
+      "radii": [
+        1.1,
+        1.45,
+        0.75
+      ],
+      "size": [
+        0.28,
+        0.42
+      ],
+      "shell": 0.72,
+      "aspect": 1.2,
+      "drift": [
+        0.05,
+        0.15,
+        0.05
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.2,
+      "profiles": {
+        "heal": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.15,
+                1
+              ],
+              [
+                0.5,
+                0.85
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1.12
+              ],
+              [
+                0.6,
+                0.94
+              ],
+              [
+                1,
+                0.84
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#c6f998",
+        "opacity": 0.24,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "returning_sparks",
+      "kind": "orbit",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.045,
+        "widthSegments": 5,
+        "heightSegments": 4
+      },
+      "count": 22,
+      "position": [
+        0,
+        1.55,
+        0.5
+      ],
+      "angularSpeed": 2.1,
+      "bob": {
+        "amplitude": 1.3,
+        "frequency": 2.5,
+        "phaseStep": 1.4
+      },
+      "pulse": {
+        "base": 0.6,
+        "amplitude": 0.4,
+        "frequency": 3,
+        "phaseStep": 0.9
+      },
+      "profiles": {
+        "heal": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.15,
+                1
+              ],
+              [
+                0.5,
+                0.85
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "radius": {
+            "keys": [
+              [
+                0,
+                2.4
+              ],
+              [
+                0.65,
+                1.25
+              ],
+              [
+                1,
+                0.65
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#b1ef71",
+        "opacity": 0.8,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

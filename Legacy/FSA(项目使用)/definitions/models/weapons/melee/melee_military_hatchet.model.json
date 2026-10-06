@@ -1,0 +1,425 @@
+{
+  "schema": "model.v1",
+  "id": "fsa.weapon.melee_military_hatchet",
+  "type": "static",
+  "materials": {
+    "steel": {
+      "color": "#81929d",
+      "metalness": 0.82,
+      "roughness": 0.33
+    },
+    "edge": {
+      "color": "#c3d0d5",
+      "metalness": 0.85,
+      "roughness": 0.24
+    },
+    "dark": {
+      "color": "#242f36",
+      "metalness": 0.6,
+      "roughness": 0.52
+    },
+    "grip": {
+      "color": "#343d3b",
+      "roughness": 0.95
+    },
+    "olive": {
+      "color": "#5e6b45",
+      "roughness": 0.8,
+      "metalness": 0.2
+    },
+    "groove": {
+      "color": "#34412d",
+      "roughness": 0.88
+    },
+    "mark": {
+      "color": "#bdb780",
+      "roughness": 0.78
+    }
+  },
+  "parts": [
+    {
+      "id": "grip",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.033,
+          0.175,
+          0.038
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "grip"
+    },
+    {
+      "id": "handle_core",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.026,
+          0.341,
+          0.03
+        ]
+      },
+      "position": [
+        0,
+        0.089,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "grip_rib_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.037,
+          0.008,
+          0.042
+        ]
+      },
+      "position": [
+        0,
+        -0.077,
+        0
+      ],
+      "material": "groove"
+    },
+    {
+      "id": "grip_rib_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.037,
+          0.008,
+          0.042
+        ]
+      },
+      "position": [
+        0,
+        -0.055999999999999994,
+        0
+      ],
+      "material": "groove"
+    },
+    {
+      "id": "grip_rib_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.037,
+          0.008,
+          0.042
+        ]
+      },
+      "position": [
+        0,
+        -0.034999999999999996,
+        0
+      ],
+      "material": "groove"
+    },
+    {
+      "id": "grip_rib_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.037,
+          0.008,
+          0.042
+        ]
+      },
+      "position": [
+        0,
+        -0.013999999999999999,
+        0
+      ],
+      "material": "groove"
+    },
+    {
+      "id": "grip_rib_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.037,
+          0.008,
+          0.042
+        ]
+      },
+      "position": [
+        0,
+        0.007000000000000006,
+        0
+      ],
+      "material": "groove"
+    },
+    {
+      "id": "grip_rib_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.037,
+          0.008,
+          0.042
+        ]
+      },
+      "position": [
+        0,
+        0.02800000000000001,
+        0
+      ],
+      "material": "groove"
+    },
+    {
+      "id": "grip_rib_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.037,
+          0.008,
+          0.042
+        ]
+      },
+      "position": [
+        0,
+        0.049,
+        0
+      ],
+      "material": "groove"
+    },
+    {
+      "id": "grip_rib_7",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.037,
+          0.008,
+          0.042
+        ]
+      },
+      "position": [
+        0,
+        0.07000000000000002,
+        0
+      ],
+      "material": "groove"
+    },
+    {
+      "id": "handle_end",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.044,
+          0.022,
+          0.047
+        ]
+      },
+      "position": [
+        0,
+        -0.101,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "handle_neck",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043,
+          0.08,
+          0.049
+        ]
+      },
+      "position": [
+        0,
+        0.252,
+        0.012
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "axe_head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.091,
+          0.138
+        ]
+      },
+      "position": [
+        0,
+        0.29,
+        0.027
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "poll",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.063,
+          0.077,
+          0.033
+        ]
+      },
+      "position": [
+        0,
+        0.29,
+        -0.059
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "blade_body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043,
+          0.111,
+          0.068
+        ]
+      },
+      "position": [
+        0,
+        0.286,
+        0.112
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "blade_flare_top",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.038,
+          0.035,
+          0.088
+        ]
+      },
+      "position": [
+        0,
+        0.335,
+        0.117
+      ],
+      "material": "steel",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "blade_flare_bottom",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.038,
+          0.035,
+          0.088
+        ]
+      },
+      "position": [
+        0,
+        0.237,
+        0.117
+      ],
+      "material": "steel",
+      "rotation": [
+        13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cutting_edge",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.014,
+          0.161,
+          0.017
+        ]
+      },
+      "position": [
+        0,
+        0.286,
+        0.159
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "blade_center",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.046,
+          0.044,
+          0.037
+        ]
+      },
+      "position": [
+        0,
+        0.286,
+        0.095
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "head_fastener_-1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.01,
+        "radiusBottom": 0.01,
+        "height": 0.003
+      },
+      "position": [
+        -0.029,
+        0.29,
+        0.025
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "head_fastener_1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.01,
+        "radiusBottom": 0.01,
+        "height": 0.003
+      },
+      "position": [
+        0.029,
+        0.29,
+        0.025
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    }
+  ],
+  "sockets": [
+    {
+      "id": "grip_main",
+      "parent": "grip",
+      "position": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

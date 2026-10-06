@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "worldSeed": "deadzone-001",
+  "simulation": { "fixedHz": 60, "maxCatchUpSteps": 8, "telemetryHz": 2 },
+  "scene": { "size": 48, "markerCount": 28, "probeSpeed": 0.4 }
+}

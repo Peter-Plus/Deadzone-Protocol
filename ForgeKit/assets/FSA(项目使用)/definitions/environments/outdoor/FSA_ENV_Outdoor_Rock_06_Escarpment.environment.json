@@ -1,0 +1,753 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Rock_06_Escarpment",
+  "label": "石块／大型断裂岩脊",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -5.61,
+      -2.27
+    ],
+    "max": [
+      5.5,
+      2.87
+    ]
+  },
+  "colliders": [
+    {
+      "node": "RidgeCenter_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "RidgeCenter_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "RidgeCenter_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "RidgeCenter_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "RidgeCenter_Core_4",
+      "role": "solid"
+    },
+    {
+      "node": "WestWing_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "WestWing_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "WestWing_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "WestWing_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "WestWing_Core_4",
+      "role": "solid"
+    },
+    {
+      "node": "EastWing_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "EastWing_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "EastWing_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "EastWing_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "EastWing_Core_4",
+      "role": "solid"
+    },
+    {
+      "node": "FrontScree_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "FrontScree_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "FrontScree_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "FrontScree_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "FrontScree_Core_4",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Rock_06_Escarpment",
+    "type": "static",
+    "parts": [
+      {
+        "id": "RidgeCenter",
+        "shape": {
+          "type": "rock",
+          "size": [
+            4,
+            3.3,
+            3.3
+          ],
+          "seed": 1061
+        },
+        "position": [
+          0,
+          1.65,
+          0
+        ],
+        "rotation": [
+          0,
+          -8,
+          0
+        ],
+        "material": {
+          "color": "#777d71",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "RidgeCenter_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.88115234375,
+            0.6567,
+            1.0777435302734375
+          ]
+        },
+        "position": [
+          0,
+          0.33000000000000007,
+          0
+        ],
+        "rotation": [
+          0,
+          -8,
+          0
+        ],
+        "material": {
+          "color": "#777d71",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "RidgeCenter_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.36932373046875,
+            0.6567,
+            1.9546920776367187
+          ]
+        },
+        "position": [
+          0,
+          0.9899999999999999,
+          0
+        ],
+        "rotation": [
+          0,
+          -8,
+          0
+        ],
+        "material": {
+          "color": "#777d71",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "RidgeCenter_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.47998046875,
+            0.6567,
+            2.04598388671875
+          ]
+        },
+        "position": [
+          0.3168857819973025,
+          1.65,
+          0.04453539230722094
+        ],
+        "rotation": [
+          0,
+          -8,
+          0
+        ],
+        "material": {
+          "color": "#777d71",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "RidgeCenter_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8433837890625,
+            0.6567,
+            1.5207916259765624
+          ]
+        },
+        "position": [
+          0.3168857819973025,
+          2.3099999999999996,
+          0.04453539230722094
+        ],
+        "rotation": [
+          0,
+          -8,
+          0
+        ],
+        "material": {
+          "color": "#777d71",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "RidgeCenter_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1887939453125,
+            0.39599999999999996,
+            0.6810798645019531
+          ]
+        },
+        "position": [
+          0.3168857819973025,
+          2.904,
+          0.04453539230722094
+        ],
+        "rotation": [
+          0,
+          -8,
+          0
+        ],
+        "material": {
+          "color": "#777d71",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestWing",
+        "shape": {
+          "type": "rock",
+          "size": [
+            3.8,
+            2.45,
+            2.9
+          ],
+          "seed": 1073
+        },
+        "position": [
+          -3,
+          1.225,
+          0.15
+        ],
+        "rotation": [
+          0,
+          -18,
+          0
+        ],
+        "material": {
+          "color": "#8b8d7d",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestWing_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.595123291015625,
+            0.48755000000000004,
+            1.2173309326171875
+          ]
+        },
+        "position": [
+          -2.928308057305012,
+          0.245,
+          -0.07064511178047561
+        ],
+        "rotation": [
+          0,
+          -18,
+          0
+        ],
+        "material": {
+          "color": "#8b8d7d",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestWing_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.1350067138671873,
+            0.48755000000000004,
+            1.6293472290039062
+          ]
+        },
+        "position": [
+          -3.289121180953727,
+          0.7350000000000001,
+          0.05605883371001599
+        ],
+        "rotation": [
+          0,
+          -18,
+          0
+        ],
+        "material": {
+          "color": "#8b8d7d",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestWing_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.1459075927734372,
+            0.48755000000000004,
+            1.6376663208007811
+          ]
+        },
+        "position": [
+          -3,
+          1.225,
+          0.15
+        ],
+        "rotation": [
+          0,
+          -18,
+          0
+        ],
+        "material": {
+          "color": "#8b8d7d",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestWing_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.6823883056640625,
+            0.48755000000000004,
+            1.2839279174804688
+          ]
+        },
+        "position": [
+          -2.928308057305012,
+          1.715,
+          -0.07064511178047561
+        ],
+        "rotation": [
+          0,
+          -18,
+          0
+        ],
+        "material": {
+          "color": "#8b8d7d",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "WestWing_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.155377197265625,
+            0.294,
+            0.6123161315917969
+          ]
+        },
+        "position": [
+          -3,
+          2.156,
+          0.15
+        ],
+        "rotation": [
+          0,
+          -18,
+          0
+        ],
+        "material": {
+          "color": "#8b8d7d",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastWing",
+        "shape": {
+          "type": "rock",
+          "size": [
+            3.35,
+            2.65,
+            3.1
+          ],
+          "seed": 1094
+        },
+        "position": [
+          3,
+          1.325,
+          0.28
+        ],
+        "rotation": [
+          0,
+          23,
+          0
+        ],
+        "material": {
+          "color": "#626e66",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastWing_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.3175392150878906,
+            0.52735,
+            1.2192153930664062
+          ]
+        },
+        "position": [
+          3,
+          0.2649999999999999,
+          0.28
+        ],
+        "rotation": [
+          0,
+          23,
+          0
+        ],
+        "material": {
+          "color": "#626e66",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastWing_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8423568725585937,
+            0.52735,
+            1.7048675537109375
+          ]
+        },
+        "position": [
+          3,
+          0.795,
+          0.28
+        ],
+        "rotation": [
+          0,
+          23,
+          0
+        ],
+        "material": {
+          "color": "#626e66",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastWing_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8233413696289062,
+            0.52735,
+            1.6872711181640625
+          ]
+        },
+        "position": [
+          3.246695300725254,
+          1.3250000000000002,
+          0.17528405756487467
+        ],
+        "rotation": [
+          0,
+          23,
+          0
+        ],
+        "material": {
+          "color": "#626e66",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastWing_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.3293472290039063,
+            0.52735,
+            1.2301422119140626
+          ]
+        },
+        "position": [
+          3.246695300725254,
+          1.855,
+          0.17528405756487467
+        ],
+        "rotation": [
+          0,
+          23,
+          0
+        ],
+        "material": {
+          "color": "#626e66",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "EastWing_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8474678039550781,
+            0.318,
+            0.7842239379882813
+          ]
+        },
+        "position": [
+          3.246695300725254,
+          2.332,
+          0.17528405756487467
+        ],
+        "rotation": [
+          0,
+          23,
+          0
+        ],
+        "material": {
+          "color": "#626e66",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontScree",
+        "shape": {
+          "type": "rock",
+          "size": [
+            1.75,
+            0.95,
+            1.5
+          ],
+          "seed": 1109
+        },
+        "position": [
+          1.5,
+          0.475,
+          1.6
+        ],
+        "rotation": [
+          0,
+          12,
+          0
+        ],
+        "material": {
+          "color": "#969482",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontScree_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6901359558105469,
+            0.18905,
+            0.5915451049804688
+          ]
+        },
+        "position": [
+          1.5,
+          0.09499999999999997,
+          1.6
+        ],
+        "rotation": [
+          0,
+          12,
+          0
+        ],
+        "material": {
+          "color": "#969482",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontScree_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9530525207519531,
+            0.18905,
+            0.8169021606445312
+          ]
+        },
+        "position": [
+          1.4750505971018688,
+          0.28500000000000003,
+          1.4826222879119435
+        ],
+        "rotation": [
+          0,
+          12,
+          0
+        ],
+        "material": {
+          "color": "#969482",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontScree_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.867095947265625,
+            0.18905,
+            0.74322509765625
+          ]
+        },
+        "position": [
+          1.6369406641027329,
+          0.475,
+          1.5708923632855138
+        ],
+        "rotation": [
+          0,
+          12,
+          0
+        ],
+        "material": {
+          "color": "#969482",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontScree_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.558879280090332,
+            0.18905,
+            0.6630302877987132
+          ]
+        },
+        "position": [
+          1.6369406641027329,
+          0.665,
+          1.5708923632855138
+        ],
+        "rotation": [
+          0,
+          12,
+          0
+        ],
+        "material": {
+          "color": "#969482",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontScree_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.444976806640625,
+            0.11399999999999999,
+            0.38140869140625
+          ]
+        },
+        "position": [
+          1.6369406641027329,
+          0.836,
+          1.5708923632855138
+        ],
+        "rotation": [
+          0,
+          12,
+          0
+        ],
+        "material": {
+          "color": "#969482",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      }
+    ]
+  }
+}

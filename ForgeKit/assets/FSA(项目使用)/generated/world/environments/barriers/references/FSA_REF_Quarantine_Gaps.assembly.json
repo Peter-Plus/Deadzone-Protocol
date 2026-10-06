@@ -1,0 +1,48 @@
+{
+  "schema": "environment-preview-assembly.v1",
+  "id": "FSA_REF_Quarantine_Gaps",
+  "label": "装配示意 / 断续铁栏 · 4m 通行缺口",
+  "instances": [
+    {
+      "id": "Q0",
+      "asset": "FSA_ENV_Quarantine_Straight",
+      "position": [
+        -5,
+        0,
+        0
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "Q1",
+      "asset": "FSA_ENV_Quarantine_Straight",
+      "position": [
+        5,
+        0,
+        0
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "Q2",
+      "asset": "FSA_ENV_Quarantine_End",
+      "position": [
+        -8.5,
+        0,
+        0
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "Q3",
+      "asset": "FSA_ENV_Quarantine_End",
+      "position": [
+        8.5,
+        0,
+        0
+      ],
+      "yaw": 0
+    }
+  ],
+  "gateSlots": []
+}

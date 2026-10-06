@@ -1,0 +1,14 @@
+{
+  "schema": "pose.v1",
+  "id": "pose.ready",
+  "rig": "humanoid.v1",
+  "bones": {
+    "Arm_R": {
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    }
+  }
+}

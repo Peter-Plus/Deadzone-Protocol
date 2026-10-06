@@ -1,0 +1,815 @@
+[
+  {
+    "name": "unknown template",
+    "passed": true,
+    "message": "未知 templateId missing"
+  },
+  {
+    "name": "unknown region",
+    "passed": true,
+    "message": "未知 regionId missing"
+  },
+  {
+    "name": "unknown instance",
+    "passed": true,
+    "message": "未知 instanceId missing"
+  },
+  {
+    "name": "unknown tag",
+    "passed": true,
+    "message": "未知 tag missing"
+  },
+  {
+    "name": "negative weight",
+    "passed": true,
+    "message": "非法颜色或权重 template-A-red"
+  },
+  {
+    "name": "zero weights",
+    "passed": true,
+    "message": "非法颜色或权重 template-A-red"
+  },
+  {
+    "name": "NaN weight",
+    "passed": true,
+    "message": "非法颜色或权重 template-A-red"
+  },
+  {
+    "name": "conflict",
+    "passed": true,
+    "message": "同优先级规则冲突 A-3/through-storage"
+  },
+  {
+    "name": "subregion outside parent",
+    "passed": true,
+    "message": "子区域越界或尺寸非法 warehouse-south"
+  },
+  {
+    "name": "unknown kind",
+    "passed": true,
+    "message": "未知 kind"
+  },
+  {
+    "name": "negative count",
+    "passed": true,
+    "message": "数量需为 0..10000 整数或升序范围"
+  },
+  {
+    "name": "zero",
+    "passed": true,
+    "requested": 0,
+    "success": 0,
+    "failed": 0,
+    "stats": [
+      {
+        "key": "A-1/through-storage",
+        "ruleId": "instance-purple",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "A-2/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "A-3/through-storage",
+        "ruleId": "template-A-red",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "A-4/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "A-5/through-storage",
+        "ruleId": "template-A-red",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "A-6/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "A-6/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "B-1/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "B-1/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "B-2/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "B-3/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "B-3/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "B-4/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "B-5/through-storage",
+        "ruleId": "template-A-red",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "C-1/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "C-1/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "C-2/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "C-2/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "C-3/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "C-4/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "C-4/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "outdoor/outdoor-white",
+        "ruleId": "outside-white",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      },
+      {
+        "key": "outdoor/outdoor-mixed",
+        "ruleId": "weighted-mix",
+        "requested": 0,
+        "success": 0,
+        "failed": 0,
+        "attempts": 0,
+        "rejections": {}
+      }
+    ]
+  },
+  {
+    "name": "over-capacity",
+    "passed": true,
+    "requested": 230000,
+    "success": 191,
+    "failed": 229809,
+    "stats": [
+      {
+        "key": "A-1/through-storage",
+        "ruleId": "instance-purple",
+        "requested": 10000,
+        "success": 6,
+        "failed": 9994,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2394
+        }
+      },
+      {
+        "key": "A-2/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 10000,
+        "success": 3,
+        "failed": 9997,
+        "attempts": 2400,
+        "rejections": {
+          "初始角色占用": 652,
+          "物品间距": 1745
+        }
+      },
+      {
+        "key": "A-3/through-storage",
+        "ruleId": "template-A-red",
+        "requested": 10000,
+        "success": 7,
+        "failed": 9993,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2393
+        }
+      },
+      {
+        "key": "A-4/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 10000,
+        "success": 5,
+        "failed": 9995,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2395
+        }
+      },
+      {
+        "key": "A-5/through-storage",
+        "ruleId": "template-A-red",
+        "requested": 10000,
+        "success": 4,
+        "failed": 9996,
+        "attempts": 2400,
+        "rejections": {
+          "初始角色占用": 154,
+          "物品间距": 2242
+        }
+      },
+      {
+        "key": "A-6/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 10000,
+        "success": 3,
+        "failed": 9997,
+        "attempts": 2400,
+        "rejections": {
+          "初始角色占用": 221,
+          "物品间距": 2176
+        }
+      },
+      {
+        "key": "A-6/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 10000,
+        "success": 2,
+        "failed": 9998,
+        "attempts": 2400,
+        "rejections": {
+          "初始角色占用": 367,
+          "物品间距": 2031
+        }
+      },
+      {
+        "key": "B-1/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 10000,
+        "success": 4,
+        "failed": 9996,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2396
+        }
+      },
+      {
+        "key": "B-1/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 10000,
+        "success": 4,
+        "failed": 9996,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2396
+        }
+      },
+      {
+        "key": "B-2/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 10000,
+        "success": 4,
+        "failed": 9996,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2396
+        }
+      },
+      {
+        "key": "B-3/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 10000,
+        "success": 3,
+        "failed": 9997,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2397
+        }
+      },
+      {
+        "key": "B-3/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 10000,
+        "success": 2,
+        "failed": 9998,
+        "attempts": 2400,
+        "rejections": {
+          "初始角色占用": 372,
+          "物品间距": 2026
+        }
+      },
+      {
+        "key": "B-4/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 10000,
+        "success": 3,
+        "failed": 9997,
+        "attempts": 2400,
+        "rejections": {
+          "初始角色占用": 322,
+          "物品间距": 2075
+        }
+      },
+      {
+        "key": "B-5/through-storage",
+        "ruleId": "template-A-red",
+        "requested": 10000,
+        "success": 7,
+        "failed": 9993,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2393
+        }
+      },
+      {
+        "key": "C-1/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 10000,
+        "success": 4,
+        "failed": 9996,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2396
+        }
+      },
+      {
+        "key": "C-1/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 10000,
+        "success": 4,
+        "failed": 9996,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2396
+        }
+      },
+      {
+        "key": "C-2/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 10000,
+        "success": 4,
+        "failed": 9996,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2396
+        }
+      },
+      {
+        "key": "C-2/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 10000,
+        "success": 3,
+        "failed": 9997,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2397
+        }
+      },
+      {
+        "key": "C-3/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 10000,
+        "success": 4,
+        "failed": 9996,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2396
+        }
+      },
+      {
+        "key": "C-4/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 10000,
+        "success": 4,
+        "failed": 9996,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2396
+        }
+      },
+      {
+        "key": "C-4/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 10000,
+        "success": 3,
+        "failed": 9997,
+        "attempts": 2400,
+        "rejections": {
+          "物品间距": 2397
+        }
+      },
+      {
+        "key": "outdoor/outdoor-white",
+        "ruleId": "outside-white",
+        "requested": 10000,
+        "success": 58,
+        "failed": 9942,
+        "attempts": 2400,
+        "rejections": {
+          "坡面跨折线 / 底面不共面": 1944,
+          "物品间距": 395,
+          "初始角色占用": 3
+        }
+      },
+      {
+        "key": "outdoor/outdoor-mixed",
+        "ruleId": "weighted-mix",
+        "requested": 10000,
+        "success": 50,
+        "failed": 9950,
+        "attempts": 2400,
+        "rejections": {
+          "坡面跨折线 / 底面不共面": 2003,
+          "物品间距": 344,
+          "初始角色占用": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "tiny",
+    "passed": true,
+    "requested": 105,
+    "success": 87,
+    "failed": 18,
+    "stats": [
+      {
+        "key": "A-1/through-storage",
+        "ruleId": "instance-purple",
+        "requested": 4,
+        "success": 4,
+        "failed": 0,
+        "attempts": 6,
+        "rejections": {
+          "物品间距": 2
+        }
+      },
+      {
+        "key": "A-2/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 5,
+        "success": 3,
+        "failed": 2,
+        "attempts": 500,
+        "rejections": {
+          "初始角色占用": 139,
+          "物品间距": 358
+        }
+      },
+      {
+        "key": "A-3/through-storage",
+        "ruleId": "template-A-red",
+        "requested": 4,
+        "success": 4,
+        "failed": 0,
+        "attempts": 13,
+        "rejections": {
+          "物品间距": 9
+        }
+      },
+      {
+        "key": "A-4/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 5,
+        "success": 5,
+        "failed": 0,
+        "attempts": 15,
+        "rejections": {
+          "物品间距": 10
+        }
+      },
+      {
+        "key": "A-5/through-storage",
+        "ruleId": "template-A-red",
+        "requested": 4,
+        "success": 4,
+        "failed": 0,
+        "attempts": 35,
+        "rejections": {
+          "初始角色占用": 2,
+          "物品间距": 29
+        }
+      },
+      {
+        "key": "A-6/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 2,
+        "success": 0,
+        "failed": 2,
+        "attempts": 200,
+        "rejections": {
+          "区域容不下完整方块": 200
+        }
+      },
+      {
+        "key": "A-6/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 2,
+        "success": 2,
+        "failed": 0,
+        "attempts": 9,
+        "rejections": {
+          "初始角色占用": 4,
+          "物品间距": 3
+        }
+      },
+      {
+        "key": "B-1/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 2,
+        "success": 0,
+        "failed": 2,
+        "attempts": 200,
+        "rejections": {
+          "区域容不下完整方块": 200
+        }
+      },
+      {
+        "key": "B-1/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 2,
+        "success": 2,
+        "failed": 0,
+        "attempts": 3,
+        "rejections": {
+          "物品间距": 1
+        }
+      },
+      {
+        "key": "B-2/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 5,
+        "success": 4,
+        "failed": 1,
+        "attempts": 500,
+        "rejections": {
+          "物品间距": 496
+        }
+      },
+      {
+        "key": "B-3/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 2,
+        "success": 0,
+        "failed": 2,
+        "attempts": 200,
+        "rejections": {
+          "区域容不下完整方块": 200
+        }
+      },
+      {
+        "key": "B-3/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 2,
+        "success": 2,
+        "failed": 0,
+        "attempts": 19,
+        "rejections": {
+          "初始角色占用": 8,
+          "物品间距": 9
+        }
+      },
+      {
+        "key": "B-4/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 5,
+        "success": 3,
+        "failed": 2,
+        "attempts": 500,
+        "rejections": {
+          "初始角色占用": 71,
+          "物品间距": 426
+        }
+      },
+      {
+        "key": "B-5/through-storage",
+        "ruleId": "template-A-red",
+        "requested": 4,
+        "success": 4,
+        "failed": 0,
+        "attempts": 15,
+        "rejections": {
+          "物品间距": 11
+        }
+      },
+      {
+        "key": "C-1/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 2,
+        "success": 0,
+        "failed": 2,
+        "attempts": 200,
+        "rejections": {
+          "区域容不下完整方块": 200
+        }
+      },
+      {
+        "key": "C-1/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 2,
+        "success": 2,
+        "failed": 0,
+        "attempts": 6,
+        "rejections": {
+          "物品间距": 4
+        }
+      },
+      {
+        "key": "C-2/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 2,
+        "success": 0,
+        "failed": 2,
+        "attempts": 200,
+        "rejections": {
+          "区域容不下完整方块": 200
+        }
+      },
+      {
+        "key": "C-2/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 2,
+        "success": 2,
+        "failed": 0,
+        "attempts": 4,
+        "rejections": {
+          "物品间距": 2
+        }
+      },
+      {
+        "key": "C-3/bent-storage",
+        "ruleId": "template-B-blue",
+        "requested": 5,
+        "success": 4,
+        "failed": 1,
+        "attempts": 500,
+        "rejections": {
+          "物品间距": 496
+        }
+      },
+      {
+        "key": "C-4/warehouse-south",
+        "ruleId": "C-south-green",
+        "requested": 2,
+        "success": 0,
+        "failed": 2,
+        "attempts": 200,
+        "rejections": {
+          "区域容不下完整方块": 200
+        }
+      },
+      {
+        "key": "C-4/warehouse-north",
+        "ruleId": "C-north-yellow",
+        "requested": 2,
+        "success": 2,
+        "failed": 0,
+        "attempts": 4,
+        "rejections": {
+          "物品间距": 2
+        }
+      },
+      {
+        "key": "outdoor/outdoor-white",
+        "ruleId": "outside-white",
+        "requested": 20,
+        "success": 20,
+        "failed": 0,
+        "attempts": 135,
+        "rejections": {
+          "坡面跨折线 / 底面不共面": 105,
+          "物品间距": 10
+        }
+      },
+      {
+        "key": "outdoor/outdoor-mixed",
+        "ruleId": "weighted-mix",
+        "requested": 20,
+        "success": 20,
+        "failed": 0,
+        "attempts": 196,
+        "rejections": {
+          "坡面跨折线 / 底面不共面": 162,
+          "物品间距": 13,
+          "初始角色占用": 1
+        }
+      }
+    ]
+  }
+]

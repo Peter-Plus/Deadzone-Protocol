@@ -1,0 +1,113 @@
+{
+  "schema": "animation.v1",
+  "id": "FSA_ANIM_Airdrop_Open",
+  "rig": "nodes.v1",
+  "targetModel": "FSA_WORLD_Airdrop",
+  "duration": 1.12,
+  "loop": false,
+  "mode": "timeline",
+  "tracks": {
+    "LidPivot": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.22,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.4,
+        "rotation": [
+          -25,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.72,
+        "rotation": [
+          -88,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.94,
+        "rotation": [
+          -107,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.12,
+        "rotation": [
+          -105,
+          0,
+          0
+        ]
+      }
+    ],
+    "Latch_L": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.15,
+        "rotation": [
+          -105,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.12,
+        "rotation": [
+          -105,
+          0,
+          0
+        ]
+      }
+    ],
+    "Latch_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.15,
+        "rotation": [
+          -105,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 1.12,
+        "rotation": [
+          -105,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

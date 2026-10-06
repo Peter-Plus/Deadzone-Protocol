@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "verification.v1",
+  "scope": "asset and static spatial contract only; no runtime navigation claim",
+  "templates": [
+    {
+      "templateId": "through",
+      "doorWidth": 3.6,
+      "doorHeight": 3.6,
+      "clearHeight": 3.8,
+      "floorElevation": 0.4,
+      "routeMinClearWidth": 3.6000000000000005,
+      "rampSlope": 7.594643368591445,
+      "rampRun": 3
+    },
+    {
+      "templateId": "bent",
+      "doorWidth": 3.6,
+      "doorHeight": 3.6,
+      "clearHeight": 3.8,
+      "floorElevation": 0.5,
+      "routeMinClearWidth": 3.3999999999999995,
+      "rampSlope": 9.462322208025617,
+      "rampRun": 3
+    },
+    {
+      "templateId": "warehouse",
+      "doorWidth": 5,
+      "doorHeight": 3.6,
+      "clearHeight": 3.8,
+      "floorElevation": 0.2,
+      "routeMinClearWidth": 5,
+      "rampSlope": 3.8140748342903548,
+      "rampRun": 3
+    }
+  ],
+  "scenes": [
+    {
+      "seed": "104729",
+      "buildings": 15,
+      "templateCounts": {
+        "through": 4,
+        "bent": 5,
+        "warehouse": 6
+      },
+      "settlements": [
+        {
+          "id": "A",
+          "name": "密集聚落 A",
+          "count": 6,
+          "nominalSpacing": 25
+        },
+        {
+          "id": "B",
+          "name": "疏散聚落 B",
+          "count": 5,
+          "nominalSpacing": 30
+        },
+        {
+          "id": "C",
+          "name": "线形聚落 C",
+          "count": 4,
+          "nominalSpacing": 31
+        }
+      ],
+      "heightMin": 0,
+      "heightMax": 2.200000047683716,
+      "relief": 2.200000047683716,
+      "maxSlopeDegrees": 11.874920237376534,
+      "maxEntranceSeamMeters": 9.232522935054277e-8,
+      "raisedBuildings": 15
+    },
+    {
+      "seed": "20261005",
+      "buildings": 15,
+      "templateCounts": {
+        "through": 5,
+        "bent": 6,
+        "warehouse": 4
+      },
+      "settlements": [
+        {
+          "id": "A",
+          "name": "密集聚落 A",
+          "count": 6,
+          "nominalSpacing": 25
+        },
+        {
+          "id": "B",
+          "name": "疏散聚落 B",
+          "count": 5,
+          "nominalSpacing": 30
+        },
+        {
+          "id": "C",
+          "name": "线形聚落 C",
+          "count": 4,
+          "nominalSpacing": 31
+        }
+      ],
+      "heightMin": 0,
+      "heightMax": 2.200000047683716,
+      "relief": 2.200000047683716,
+      "maxSlopeDegrees": 11.650605625490773,
+      "maxEntranceSeamMeters": 9.246280230357229e-8,
+      "raisedBuildings": 15
+    },
+    {
+      "seed": "8675309",
+      "buildings": 15,
+      "templateCounts": {
+        "through": 5,
+        "bent": 8,
+        "warehouse": 2
+      },
+      "settlements": [
+        {
+          "id": "A",
+          "name": "密集聚落 A",
+          "count": 6,
+          "nominalSpacing": 25
+        },
+        {
+          "id": "B",
+          "name": "疏散聚落 B",
+          "count": 5,
+          "nominalSpacing": 30
+        },
+        {
+          "id": "C",
+          "name": "线形聚落 C",
+          "count": 4,
+          "nominalSpacing": 31
+        }
+      ],
+      "heightMin": 0,
+      "heightMax": 2.200000047683716,
+      "relief": 2.200000047683716,
+      "maxSlopeDegrees": 12.816354638909958,
+      "maxEntranceSeamMeters": 1.6992008577965123e-8,
+      "raisedBuildings": 15
+    }
+  ],
+  "glbLoads": [
+    "generated/models/through.glb",
+    "generated/models/bent.glb",
+    "generated/models/warehouse.glb",
+    "terrain/104729.glb",
+    "terrain/20261005.glb",
+    "terrain/8675309.glb",
+    "references/A1.glb",
+    "references/B2.glb"
+  ],
+  "reproducible": [
+    {
+      "seed": "104729",
+      "sha256": "c80ca167b464cddb062cdeabcdf1d44e8a2adcdf27890c63f97ee5a520e992f8"
+    },
+    {
+      "seed": "20261005",
+      "sha256": "535fb6dd323727efd5a95ac6eae99700292d426c4bd267b55fb8c4cf3bbe80a5"
+    },
+    {
+      "seed": "8675309",
+      "sha256": "9c527ff543d668e02454bdc3d7e3f624d9017f9b496b6c35ac5aef95842b79f5"
+    }
+  ],
+  "negativeChecks": [
+    "unknown schema rejected",
+    "overlap rejected",
+    "landing rejected"
+  ],
+  "errors": [],
+  "characterClearance": {
+    "B2SampledMaxY": 3.138358922879022,
+    "doorMargin": 0.46164107712097824,
+    "referencePoseWidth": 2.629250003457069,
+    "sampling": "121 times per shared clip; not a swept motion guarantee",
+    "player": {
+      "radius": 0.3,
+      "height": 1.8
+    },
+    "A1SampledMaxY": 1.8783457343582273,
+    "B2LocomotionConservativeRadius": 1.3223757793312092,
+    "B2RouteRadialMargin": 0.3276242206687907
+  },
+  "passed": true
+}

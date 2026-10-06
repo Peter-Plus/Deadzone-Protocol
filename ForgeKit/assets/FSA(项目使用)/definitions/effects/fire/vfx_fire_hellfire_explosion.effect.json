@@ -1,0 +1,269 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_fire_hellfire_explosion",
+  "name": "业火转移 · 原地范围爆炸",
+  "initialState": "explode",
+  "states": {
+    "explode": {
+      "duration": 1.15,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "fire_wave",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 100,
+      "seed": 708,
+      "position": [
+        0,
+        0.2,
+        0
+      ],
+      "radii": [
+        0.7,
+        0.16,
+        0.7
+      ],
+      "size": [
+        0.18,
+        0.35
+      ],
+      "shell": 0.9,
+      "aspect": 1.4,
+      "drift": [
+        0.02,
+        0.03,
+        0.02
+      ],
+      "speed": 5,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "explode": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.07,
+                1
+              ],
+              [
+                0.4,
+                0.8
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.08
+              ],
+              [
+                0.22,
+                0.7
+              ],
+              [
+                0.65,
+                0.9
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ff4a08",
+        "opacity": 0.6,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "gold_bloom",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 64,
+      "seed": 709,
+      "position": [
+        0,
+        0.23,
+        0
+      ],
+      "radii": [
+        0.55,
+        0.2,
+        0.55
+      ],
+      "size": [
+        0.16,
+        0.3
+      ],
+      "shell": 0.5,
+      "aspect": 1.35,
+      "drift": [
+        0.01,
+        0.06,
+        0.01
+      ],
+      "speed": 5,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "explode": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.07,
+                1
+              ],
+              [
+                0.4,
+                0.8
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.08
+              ],
+              [
+                0.22,
+                0.7
+              ],
+              [
+                0.65,
+                0.9
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ffb333",
+        "opacity": 0.6,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "soot",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 38,
+      "seed": 710,
+      "position": [
+        0,
+        0.35,
+        0
+      ],
+      "radii": [
+        0.62,
+        0.24,
+        0.62
+      ],
+      "size": [
+        0.2,
+        0.38
+      ],
+      "shell": 0.65,
+      "aspect": 1.35,
+      "drift": [
+        0.01,
+        0.07,
+        0.01
+      ],
+      "speed": 5,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "explode": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.18,
+                0.4
+              ],
+              [
+                0.5,
+                0.55
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#512216",
+        "opacity": 0.3,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

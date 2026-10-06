@@ -1,0 +1,4492 @@
+{
+  "schemaVersion": "placement.v1",
+  "version": "1.0.0",
+  "worldSeed": "20261005",
+  "placementSeed": "loot-104729",
+  "items": [
+    {
+      "id": "item-001",
+      "regionKey": "A-1/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-1",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "instance-purple",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -47.52761429453269,
+        1.6968199223985792,
+        -44.520285404017194
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-1/interior-floor",
+      "access": [
+        -46.830486165321666,
+        1.5368199223985792,
+        -44.520285404017194
+      ],
+      "color": "purple",
+      "testItemId": "purple",
+      "hex": "#cb65ff"
+    },
+    {
+      "id": "item-002",
+      "regionKey": "A-1/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-1",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "instance-purple",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -46.27659640081227,
+        1.6968199223985792,
+        -43.308033671444285
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-1/interior-floor",
+      "access": [
+        -45.57946827160124,
+        1.5368199223985792,
+        -43.308033671444285
+      ],
+      "color": "purple",
+      "testItemId": "purple",
+      "hex": "#cb65ff"
+    },
+    {
+      "id": "item-003",
+      "regionKey": "A-1/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-1",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "instance-purple",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -46.23982038581744,
+        1.6968199223985792,
+        -44.53012564815581
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-1/interior-floor",
+      "access": [
+        -45.542692256606415,
+        1.5368199223985792,
+        -44.53012564815581
+      ],
+      "color": "purple",
+      "testItemId": "purple",
+      "hex": "#cb65ff"
+    },
+    {
+      "id": "item-004",
+      "regionKey": "A-1/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-1",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "instance-purple",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -48.76251389656216,
+        1.6968199223985792,
+        -43.21559284984134
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-1/interior-floor",
+      "access": [
+        -48.06538576735114,
+        1.5368199223985792,
+        -43.21559284984134
+      ],
+      "color": "purple",
+      "testItemId": "purple",
+      "hex": "#cb65ff"
+    },
+    {
+      "id": "item-005",
+      "regionKey": "A-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -21.760312341433018,
+        1.6968199223985792,
+        -51.4872646420449
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-2/interior-floor",
+      "access": [
+        -21.063184212221998,
+        1.5368199223985792,
+        -51.4872646420449
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-006",
+      "regionKey": "A-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -20.748813976589588,
+        1.6968199223985792,
+        -50.75443998443894
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-2/interior-floor",
+      "access": [
+        -20.051685847378568,
+        1.5368199223985792,
+        -50.75443998443894
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-007",
+      "regionKey": "A-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -23.135564454253764,
+        1.6968199223985792,
+        -52.11881768980995
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-2/interior-floor",
+      "access": [
+        -22.438436325042744,
+        1.5368199223985792,
+        -52.11881768980995
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-008",
+      "regionKey": "A-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -20.66088423166424,
+        1.6968199223985792,
+        -52.05711110958829
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-2/interior-floor",
+      "access": [
+        -19.96375610245322,
+        1.5368199223985792,
+        -52.05711110958829
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-009",
+      "regionKey": "A-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -23.649742954913528,
+        1.6968199223985792,
+        -51.03817063029855
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-2/interior-floor",
+      "access": [
+        -22.952614825702508,
+        1.5368199223985792,
+        -51.03817063029855
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-010",
+      "regionKey": "A-3/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "A-3",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -53.08062049880624,
+        1.7968199223985792,
+        -18.612203841879964
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-3/interior-floor",
+      "access": [
+        -52.38349236959522,
+        1.6368199223985793,
+        -18.612203841879964
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-011",
+      "regionKey": "A-3/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "A-3",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -51.50615752164275,
+        1.7968199223985792,
+        -18.23408429378178
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-3/interior-floor",
+      "access": [
+        -50.809029392431725,
+        1.6368199223985793,
+        -18.23408429378178
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-012",
+      "regionKey": "A-3/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "A-3",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -53.04317243671045,
+        1.7968199223985792,
+        -17.211818231288344
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-3/interior-floor",
+      "access": [
+        -52.346044307499426,
+        1.6368199223985793,
+        -17.211818231288344
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-013",
+      "regionKey": "A-3/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "A-3",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -51.75265208005905,
+        1.7968199223985792,
+        -17.202495747883805
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-3/interior-floor",
+      "access": [
+        -51.05552395084803,
+        1.6368199223985793,
+        -17.202495747883805
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-014",
+      "regionKey": "A-4/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "A-4",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -19.480042286049574,
+        1.7968199223985792,
+        -26.422012415854258
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-4/interior-floor",
+      "access": [
+        -18.782914156838554,
+        1.6368199223985793,
+        -26.422012415854258
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-015",
+      "regionKey": "A-4/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "A-4",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -19.77523538544774,
+        1.7968199223985792,
+        -27.727169167348183
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-4/interior-floor",
+      "access": [
+        -19.07810725623672,
+        1.6368199223985793,
+        -27.727169167348183
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-016",
+      "regionKey": "A-4/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "A-4",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -18.626114879474045,
+        1.7968199223985792,
+        -27.31477162143681
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-4/interior-floor",
+      "access": [
+        -18.626114879474045,
+        1.6368199223985793,
+        -26.617643492225792
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-017",
+      "regionKey": "A-5/warehouse-south",
+      "regionId": "warehouse-south",
+      "instanceId": "A-5",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-south-green",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -42.13923074485268,
+        1.4968199223985792,
+        1.9829142955783763
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "A-5/interior-floor",
+      "access": [
+        -41.79066668024717,
+        1.3368199223985793,
+        2.5866449651678405
+      ],
+      "color": "green",
+      "testItemId": "green",
+      "hex": "#39ee78"
+    },
+    {
+      "id": "item-018",
+      "regionKey": "A-5/warehouse-south",
+      "regionId": "warehouse-south",
+      "instanceId": "A-5",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-south-green",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -43.699587096339094,
+        1.4968199223985792,
+        1.7424623067304499
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "A-5/interior-floor",
+      "access": [
+        -43.00245896712807,
+        1.3368199223985793,
+        1.7424623067304499
+      ],
+      "color": "green",
+      "testItemId": "green",
+      "hex": "#39ee78"
+    },
+    {
+      "id": "item-019",
+      "regionKey": "A-5/warehouse-north",
+      "regionId": "warehouse-north",
+      "instanceId": "A-5",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-north-yellow",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -42.64572219623719,
+        1.4968199223985792,
+        0.7727108474262064
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "A-5/interior-floor",
+      "access": [
+        -41.948594067026164,
+        1.3368199223985793,
+        0.7727108474262064
+      ],
+      "color": "yellow",
+      "testItemId": "yellow",
+      "hex": "#ffe044"
+    },
+    {
+      "id": "item-020",
+      "regionKey": "A-5/warehouse-north",
+      "regionId": "warehouse-north",
+      "instanceId": "A-5",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-north-yellow",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -43.65817658915184,
+        1.4968199223985792,
+        -0.052078013708814375
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "A-5/interior-floor",
+      "access": [
+        -42.96104845994082,
+        1.3368199223985793,
+        -0.052078013708814375
+      ],
+      "color": "yellow",
+      "testItemId": "yellow",
+      "hex": "#ffe044"
+    },
+    {
+      "id": "item-021",
+      "regionKey": "A-6/warehouse-south",
+      "regionId": "warehouse-south",
+      "instanceId": "A-6",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-south-green",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -22.28072070182301,
+        1.4968199223985792,
+        -0.9061004983074961
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-6/interior-floor",
+      "access": [
+        -21.58359257261199,
+        1.3368199223985793,
+        -0.9061004983074961
+      ],
+      "color": "green",
+      "testItemId": "green",
+      "hex": "#39ee78"
+    },
+    {
+      "id": "item-022",
+      "regionKey": "A-6/warehouse-south",
+      "regionId": "warehouse-south",
+      "instanceId": "A-6",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-south-green",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -21.27509036119096,
+        1.4968199223985792,
+        -0.7641750518605108
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-6/interior-floor",
+      "access": [
+        -20.57796223197994,
+        1.3368199223985793,
+        -0.7641750518605108
+      ],
+      "color": "green",
+      "testItemId": "green",
+      "hex": "#39ee78"
+    },
+    {
+      "id": "item-023",
+      "regionKey": "A-6/warehouse-north",
+      "regionId": "warehouse-north",
+      "instanceId": "A-6",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-north-yellow",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -23.856865768861024,
+        1.4968199223985792,
+        -1.351634746892378
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-6/interior-floor",
+      "access": [
+        -23.159737639650004,
+        1.3368199223985793,
+        -1.351634746892378
+      ],
+      "color": "yellow",
+      "testItemId": "yellow",
+      "hex": "#ffe044"
+    },
+    {
+      "id": "item-024",
+      "regionKey": "A-6/warehouse-north",
+      "regionId": "warehouse-north",
+      "instanceId": "A-6",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-north-yellow",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -24.195679867668076,
+        1.4968199223985792,
+        -0.4185406693164264
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-6/interior-floor",
+      "access": [
+        -23.498551738457056,
+        1.3368199223985793,
+        -0.4185406693164264
+      ],
+      "color": "yellow",
+      "testItemId": "yellow",
+      "hex": "#ffe044"
+    },
+    {
+      "id": "item-025",
+      "regionKey": "B-1/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "B-1",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        16.040724249812776,
+        2.426076299623752,
+        -52.04569232320413
+      ],
+      "axes": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "surfaceId": "B-1/interior-floor",
+      "access": [
+        16.737852379023796,
+        2.266076299623752,
+        -52.04569232320413
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-026",
+      "regionKey": "B-1/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "B-1",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        17.26277986488305,
+        2.426076299623752,
+        -51.101246874891224
+      ],
+      "axes": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "surfaceId": "B-1/interior-floor",
+      "access": [
+        17.95990799409407,
+        2.266076299623752,
+        -51.101246874891224
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-027",
+      "regionKey": "B-1/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "B-1",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        15.855107591697015,
+        2.426076299623752,
+        -50.74012060051784
+      ],
+      "axes": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "surfaceId": "B-1/interior-floor",
+      "access": [
+        16.552235720908037,
+        2.266076299623752,
+        -50.74012060051784
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-028",
+      "regionKey": "B-1/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "B-1",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        17.06286987844389,
+        2.426076299623752,
+        -52.1974844369106
+      ],
+      "axes": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "surfaceId": "B-1/interior-floor",
+      "access": [
+        17.75999800765491,
+        2.266076299623752,
+        -52.1974844369106
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-029",
+      "regionKey": "B-2/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "B-2",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        55.073116088104435,
+        2.426076299623752,
+        -41.58824820624665
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-2/interior-floor",
+      "access": [
+        55.77024421731546,
+        2.266076299623752,
+        -41.58824820624665
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-030",
+      "regionKey": "B-2/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "B-2",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        55.09112575290259,
+        2.426076299623752,
+        -42.72103804050013
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-2/interior-floor",
+      "access": [
+        55.788253882113615,
+        2.266076299623752,
+        -42.72103804050013
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-031",
+      "regionKey": "B-2/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "B-2",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        56.10081613966264,
+        2.426076299623752,
+        -41.51565772105008
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-2/interior-floor",
+      "access": [
+        56.797944268873664,
+        2.266076299623752,
+        -41.51565772105008
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-032",
+      "regionKey": "B-2/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "B-2",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        56.46845144889318,
+        2.426076299623752,
+        -42.48827186327428
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-2/interior-floor",
+      "access": [
+        56.81701551349869,
+        2.266076299623752,
+        -41.88454119368481
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-033",
+      "regionKey": "B-3/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "B-3",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        25.057117286603898,
+        2.326076299623752,
+        -17.314303454197944
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-3/interior-floor",
+      "access": [
+        25.754245415814918,
+        2.166076299623752,
+        -17.314303454197944
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-034",
+      "regionKey": "B-3/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "B-3",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        25.491274575963615,
+        2.326076299623752,
+        -18.809115990325807
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-3/interior-floor",
+      "access": [
+        25.491274575963615,
+        2.166076299623752,
+        -18.111987861114788
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-035",
+      "regionKey": "B-3/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "B-3",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        25.239976938413456,
+        2.326076299623752,
+        -15.663791879881172
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-3/interior-floor",
+      "access": [
+        25.588541003018968,
+        2.166076299623752,
+        -15.060061210291709
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-036",
+      "regionKey": "B-3/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "B-3",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        24.351876276833938,
+        2.326076299623752,
+        -18.513435485102235
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-3/interior-floor",
+      "access": [
+        25.049004406044958,
+        2.166076299623752,
+        -18.513435485102235
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-037",
+      "regionKey": "B-4/warehouse-south",
+      "regionId": "warehouse-south",
+      "instanceId": "B-4",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-south-green",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        53.64199929231778,
+        2.126076299623752,
+        -21.172180773303843
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "B-4/interior-floor",
+      "access": [
+        54.3391274215288,
+        1.966076299623752,
+        -21.172180773303843
+      ],
+      "color": "green",
+      "testItemId": "green",
+      "hex": "#39ee78"
+    },
+    {
+      "id": "item-038",
+      "regionKey": "B-4/warehouse-south",
+      "regionId": "warehouse-south",
+      "instanceId": "B-4",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-south-green",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        53.12756397392601,
+        2.126076299623752,
+        -22.202233867631293
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "B-4/interior-floor",
+      "access": [
+        53.82469210313703,
+        1.966076299623752,
+        -22.202233867631293
+      ],
+      "color": "green",
+      "testItemId": "green",
+      "hex": "#39ee78"
+    },
+    {
+      "id": "item-039",
+      "regionKey": "B-4/warehouse-north",
+      "regionId": "warehouse-north",
+      "instanceId": "B-4",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-north-yellow",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        52.196944891633464,
+        2.126076299623752,
+        -21.542034370875918
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "B-4/interior-floor",
+      "access": [
+        52.89407302084449,
+        1.966076299623752,
+        -21.542034370875918
+      ],
+      "color": "yellow",
+      "testItemId": "yellow",
+      "hex": "#ffe044"
+    },
+    {
+      "id": "item-040",
+      "regionKey": "B-4/warehouse-north",
+      "regionId": "warehouse-north",
+      "instanceId": "B-4",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-north-yellow",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        51.09815881503746,
+        2.126076299623752,
+        -21.764794357293287
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "B-4/interior-floor",
+      "access": [
+        51.79528694424848,
+        1.966076299623752,
+        -21.764794357293287
+      ],
+      "color": "yellow",
+      "testItemId": "yellow",
+      "hex": "#ffe044"
+    },
+    {
+      "id": "item-041",
+      "regionKey": "B-5/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "B-5",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        40.76032795645297,
+        2.326076299623752,
+        15.059677444361151
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-5/interior-floor",
+      "access": [
+        41.45745608566399,
+        2.166076299623752,
+        15.059677444361151
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-042",
+      "regionKey": "B-5/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "B-5",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        40.44951029147953,
+        2.326076299623752,
+        12.910785087700933
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-5/interior-floor",
+      "access": [
+        41.14663842069055,
+        2.166076299623752,
+        12.910785087700933
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-043",
+      "regionKey": "B-5/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "B-5",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        40.161380612431095,
+        2.326076299623752,
+        14.047647439017892
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-5/interior-floor",
+      "access": [
+        40.85850874164212,
+        2.166076299623752,
+        14.047647439017892
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-044",
+      "regionKey": "B-5/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "B-5",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        41.391444311989474,
+        2.326076299623752,
+        14.115420331526549
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-5/interior-floor",
+      "access": [
+        41.740008376594986,
+        2.166076299623752,
+        14.719151001116012
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-045",
+      "regionKey": "B-5/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "B-5",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        41.446036903606725,
+        2.326076299623752,
+        12.760282105468214
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "B-5/interior-floor",
+      "access": [
+        41.446036903606725,
+        2.166076299623752,
+        13.457410234679234
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-046",
+      "regionKey": "C-1/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "C-1",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -49.04637555513997,
+        2.355533132981273,
+        56.24817487638444
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "C-1/interior-floor",
+      "access": [
+        -48.349247425928944,
+        2.195533132981273,
+        56.24817487638444
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-047",
+      "regionKey": "C-1/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "C-1",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -48.25073073622771,
+        2.355533132981273,
+        55.31585388833657
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "C-1/interior-floor",
+      "access": [
+        -47.553602607016686,
+        2.195533132981273,
+        55.31585388833657
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-048",
+      "regionKey": "C-1/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "C-1",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -49.578405492324386,
+        2.355533132981273,
+        55.23902816677466
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "C-1/interior-floor",
+      "access": [
+        -48.88127736311336,
+        2.195533132981273,
+        55.23902816677466
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-049",
+      "regionKey": "C-1/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "C-1",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -47.82337255967315,
+        2.355533132981273,
+        56.46235264223069
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "C-1/interior-floor",
+      "access": [
+        -47.47480849506764,
+        2.195533132981273,
+        57.06608331182016
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-050",
+      "regionKey": "C-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "C-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -21.192011683024464,
+        2.255533132981273,
+        54.53128385993652
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "C-2/interior-floor",
+      "access": [
+        -20.494883553813445,
+        2.0955331329812728,
+        54.53128385993652
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-051",
+      "regionKey": "C-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "C-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -22.874406593106688,
+        2.255533132981273,
+        55.77658317455091
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "C-2/interior-floor",
+      "access": [
+        -22.177278463895668,
+        2.0955331329812728,
+        55.77658317455091
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-052",
+      "regionKey": "C-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "C-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -19.952874649949372,
+        2.255533132981273,
+        54.38285518685356
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "C-2/interior-floor",
+      "access": [
+        -19.255746520738352,
+        2.0955331329812728,
+        54.38285518685356
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-053",
+      "regionKey": "C-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "C-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -21.664826287403702,
+        2.255533132981273,
+        55.76275874007493
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "C-2/interior-floor",
+      "access": [
+        -20.967698158192682,
+        2.0955331329812728,
+        55.76275874007493
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-054",
+      "regionKey": "C-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "C-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -20.681305597797035,
+        2.255533132981273,
+        55.79021222893149
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "C-2/interior-floor",
+      "access": [
+        -19.984177468586015,
+        2.0955331329812728,
+        55.79021222893149
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    {
+      "id": "item-055",
+      "regionKey": "C-3/warehouse-south",
+      "regionId": "warehouse-south",
+      "instanceId": "C-3",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-south-green",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        8.068274007625877,
+        2.0555331329812727,
+        55.90125715732109
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "C-3/interior-floor",
+      "access": [
+        8.765402136836897,
+        1.8955331329812728,
+        55.90125715732109
+      ],
+      "color": "green",
+      "testItemId": "green",
+      "hex": "#39ee78"
+    },
+    {
+      "id": "item-056",
+      "regionKey": "C-3/warehouse-north",
+      "regionId": "warehouse-north",
+      "instanceId": "C-3",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-north-yellow",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        10.211560780089348,
+        2.0555331329812727,
+        54.65169380152598
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "C-3/interior-floor",
+      "access": [
+        10.908688909300368,
+        1.8955331329812728,
+        54.65169380152598
+      ],
+      "color": "yellow",
+      "testItemId": "yellow",
+      "hex": "#ffe044"
+    },
+    {
+      "id": "item-057",
+      "regionKey": "C-3/warehouse-north",
+      "regionId": "warehouse-north",
+      "instanceId": "C-3",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-north-yellow",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        10.477938029514625,
+        2.0555331329812727,
+        55.857895822003485
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "C-3/interior-floor",
+      "access": [
+        11.175066158725645,
+        1.8955331329812728,
+        55.857895822003485
+      ],
+      "color": "yellow",
+      "testItemId": "yellow",
+      "hex": "#ffe044"
+    },
+    {
+      "id": "item-058",
+      "regionKey": "C-4/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "C-4",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        44.88067934869788,
+        2.355533132981273,
+        54.48153838900849
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "C-4/interior-floor",
+      "access": [
+        45.577807477908905,
+        2.195533132981273,
+        54.48153838900849
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-059",
+      "regionKey": "C-4/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "C-4",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        43.96119428823702,
+        2.355533132981273,
+        55.2305377830565
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "C-4/interior-floor",
+      "access": [
+        44.65832241744804,
+        2.195533132981273,
+        55.2305377830565
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-060",
+      "regionKey": "C-4/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "C-4",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        45.56844677555841,
+        2.355533132981273,
+        55.28093852160499
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "C-4/interior-floor",
+      "access": [
+        44.96471610596894,
+        2.195533132981273,
+        55.6295025862105
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-061",
+      "regionKey": "C-4/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "C-4",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        43.93775775203947,
+        2.355533132981273,
+        54.18325318284333
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "C-4/interior-floor",
+      "access": [
+        44.63488588125049,
+        2.195533132981273,
+        54.18325318284333
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    {
+      "id": "item-062",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -0.35556141965262616,
+        1.664226185348125,
+        -4.722480959827487
+      ],
+      "axes": [
+        [
+          0.9971168670533871,
+          0.07588117973277653,
+          0
+        ],
+        [
+          -0.0758808795469798,
+          0.9971129224610358,
+          -0.0028128242727658687
+        ],
+        [
+          -0.00021344042419846332,
+          0.002804714526432025,
+          0.9999960440019804
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        0.3537076502859109,
+        1.551908363739267,
+        -4.722030907943845
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-063",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -3.4910259417184806,
+        1.6126623727838036,
+        5.04487305766624
+      ],
+      "axes": [
+        [
+          0.9985277141435661,
+          0.05424393134005681,
+          0
+        ],
+        [
+          -0.05424381019616927,
+          0.9985254841147662,
+          -0.002113440033251962
+        ],
+        [
+          -0.0001146412960550468,
+          0.002110328445382584,
+          0.9999977666831192
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -2.785218802876073,
+        1.4898607035499216,
+        5.04521120807156
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-064",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -2.5151343442933607,
+        1.6353703328489946,
+        -1.7331762946030902
+      ],
+      "axes": [
+        [
+          0.9987469019392122,
+          0.05004623728938558,
+          0
+        ],
+        [
+          -0.050039904172284204,
+          0.998620515193131,
+          -0.01590831939063116
+        ],
+        [
+          -0.0007961515270988608,
+          0.015888384706452367,
+          0.9998734546802238
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -1.809999830414775,
+        1.5094537598764484,
+        -1.7306309635005892
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-065",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -3.8509071197567333,
+        1.4878353157952842,
+        -4.178173907836658
+      ],
+      "axes": [
+        [
+          0.9986036015126132,
+          0.05282846814018047,
+          0
+        ],
+        [
+          -0.05277572230075654,
+          0.9976065598214975,
+          -0.044675216135461736
+        ],
+        [
+          -0.0023601232322679167,
+          0.044612831731226495,
+          0.999001564094496
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -3.145334874977592,
+        1.365088687275717,
+        -4.171025873254985
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-066",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -3.4669901741086178,
+        1.6068682631287075,
+        1.9809592354698178
+      ],
+      "axes": [
+        [
+          0.9985448785903364,
+          0.05392703812569824,
+          0
+        ],
+        [
+          -0.05392687387918714,
+          0.9985418373049593,
+          -0.0024680812900878223
+        ],
+        [
+          -0.00013309631382788848,
+          0.0024644899321618254,
+          0.9999969542827346
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -2.7612337450769275,
+        1.4838375432346385,
+        1.981354128476232
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-067",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -0.38482075433120316,
+        1.7561979991277321,
+        6.153732649189844
+      ],
+      "axes": [
+        [
+          0.9994007451576989,
+          0.03461431175447915,
+          0
+        ],
+        [
+          -0.034614279334443644,
+          0.9993998091111332,
+          -0.0013686543711505768
+        ],
+        [
+          -0.00004737502908713668,
+          0.0013678341983912284,
+          0.9999990633921677
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        0.3178456595733281,
+        1.617493530028162,
+        6.153951633889228
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-068",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -2.473238606566553,
+        1.6589855229319284,
+        2.1780180592282705
+      ],
+      "axes": [
+        [
+          0.9987426731636366,
+          0.05013055756675184,
+          0
+        ],
+        [
+          -0.05013040361220872,
+          0.9987396059531485,
+          -0.002478332953157513
+        ],
+        [
+          -0.0001242402127778408,
+          0.0024752168786260644,
+          0.9999969289281709
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -1.7680896127775791,
+        1.532740887153241,
+        2.1784145925007756
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-069",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -6.77544042338143,
+        1.432139969328699,
+        4.571477286026871
+      ],
+      "axes": [
+        [
+          0.9986352610846645,
+          0.05222657674368262,
+          0
+        ],
+        [
+          -0.052226535247806696,
+          0.9986344676333708,
+          -0.0012605834457599836
+        ],
+        [
+          -0.00006583595807179967,
+          0.0012588630784755273,
+          0.9999992054643724
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -6.069956048530761,
+        1.3086816589544008,
+        4.571678979378193
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-070",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -1.423946233822025,
+        1.714633368186408,
+        5.131293619021812
+      ],
+      "axes": [
+        [
+          0.999050319942309,
+          0.04357130045305416,
+          0
+        ],
+        [
+          -0.043571225379080966,
+          0.9990485985643341,
+          -0.0018563473827627034
+        ],
+        [
+          -0.00008088346955959447,
+          0.0018545844466731467,
+          0.9999982769857132
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -0.7198467085503517,
+        1.5827214833573993,
+        5.131590634603054
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-071",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -3.710511042858947,
+        1.4488339565678476,
+        -5.193301868643224
+      ],
+      "axes": [
+        [
+          0.9986225844112979,
+          0.052468408625575676,
+          0
+        ],
+        [
+          -0.052404636118490236,
+          0.9974088127816967,
+          -0.04928908904306142
+        ],
+        [
+          -0.002586120064693731,
+          0.04922119748346058,
+          0.9987845541964019
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -3.004998171868968,
+        1.3257884082233808,
+        -5.185415614396334
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-072",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -2.314451191332938,
+        1.6699462349161167,
+        3.4049397870647518
+      ],
+      "axes": [
+        [
+          0.9987432334364972,
+          0.05011939409859911,
+          0
+        ],
+        [
+          -0.05011925724568939,
+          0.9987405063301541,
+          -0.002336892921715768
+        ],
+        [
+          -0.0001171236573096993,
+          0.0023339559928292693,
+          0.9999972694620083
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -1.6093039809626073,
+        1.5426351941628076,
+        3.4053136899322265
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-073",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -6.716986037455499,
+        1.2968199586868285,
+        -6.751983678136021
+      ],
+      "axes": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -6.019857908244479,
+        1.1368199586868286,
+        -6.751983678136021
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-074",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -5.187396877268696,
+        1.4725871099862644,
+        -2.606080335822751
+      ],
+      "axes": [
+        [
+          0.9986233515179817,
+          0.05245380637278611,
+          0
+        ],
+        [
+          -0.05243375158399031,
+          0.9982415454721263,
+          -0.02764992926300585
+        ],
+        [
+          -0.0014503440357829414,
+          0.027611865029858018,
+          0.9996176676168498
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -4.481879347804236,
+        1.350372636352481,
+        -2.60165634714067
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-075",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -1.4623551234672831,
+        1.706293667711058,
+        2.1400901730320934
+      ],
+      "axes": [
+        [
+          0.9990285529397402,
+          0.04406756643075077,
+          0
+        ],
+        [
+          -0.044067447001034356,
+          0.9990258454224791,
+          -0.002328152209778314
+        ],
+        [
+          -0.00010259600216530506,
+          0.0023258905331582876,
+          0.9999972898499716
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -0.7581762027360974,
+        1.5751607605793903,
+        2.140462677385658
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-076",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -2.3535386291230647,
+        1.6195337892723272,
+        -2.6986306999244647
+      ],
+      "axes": [
+        [
+          0.9987487936575208,
+          0.05000847095889896,
+          0
+        ],
+        [
+          -0.04998857044299758,
+          0.998351348667331,
+          -0.028208641214827076
+        ],
+        [
+          -0.00141067101498168,
+          0.028173346384026365,
+          0.9996020571011313
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -1.648412328641165,
+        1.4927908996197585,
+        -2.6941173173300923
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-077",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -4.253635660020466,
+        1.5623528969510068,
+        1.2774183162982264
+      ],
+      "axes": [
+        [
+          0.9984798097992337,
+          0.05511868488349444,
+          0
+        ],
+        [
+          -0.05511851702944223,
+          0.9984767691083595,
+          -0.002467920461975661
+        ],
+        [
+          -0.0001360285302611645,
+          0.0024641687534730948,
+          0.9999969546796594
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -3.547688568084735,
+        1.4405132401344933,
+        1.2778131835721425
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-078",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -6.655608769126798,
+        1.4412523403078468,
+        6.7230300952010635
+      ],
+      "axes": [
+        [
+          0.9985987679908175,
+          0.05291975592556548,
+          0
+        ],
+        [
+          -0.052919719965443646,
+          0.9985980894212979,
+          -0.0011657799589279616
+        ],
+        [
+          -0.00006169279088938348,
+          0.0011641464307338483,
+          0.9999993204783129
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -5.950013484721307,
+        1.3184801829769677,
+        6.723216619994492
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-079",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -6.204867655642626,
+        1.4565733118104065,
+        1.372453982941979
+      ],
+      "axes": [
+        [
+          0.9987185422223407,
+          0.05060902509713667,
+          0
+        ],
+        [
+          -0.05060894012169768,
+          0.9987168653169588,
+          -0.0018325150002191817
+        ],
+        [
+          -0.00009274179763697197,
+          0.0018301667096194735,
+          0.9999983209429774
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -5.499642096012133,
+        1.333984503729455,
+        1.3727471853420141
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-080",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -5.186465764912474,
+        1.5154902414334313,
+        3.460728945049517
+      ],
+      "axes": [
+        [
+          0.9984978688915489,
+          0.05479056322976721,
+          0
+        ],
+        [
+          -0.05479045026397203,
+          0.9984958102139391,
+          -0.0020306513932049036
+        ],
+        [
+          -0.00011126053355700815,
+          0.002027601088576751,
+          0.9999979382253342
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -4.480571163659219,
+        1.3945294295768724,
+        3.46105384927243
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-081",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -4.677509813135276,
+        1.3902715486512813,
+        -5.347267887476991
+      ],
+      "axes": [
+        [
+          0.9985941719245438,
+          0.0530064128038732,
+          0
+        ],
+        [
+          -0.052943624228766445,
+          0.9974112904230725,
+          -0.04865891891631343
+        ],
+        [
+          -0.002579234742668304,
+          0.04859051284197953,
+          0.9988154532294219
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -3.971910704047653,
+        1.2674603211900777,
+        -5.339482460450381
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "id": "item-082",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        5.664942566845181,
+        1.837880058621488,
+        -5.658852575371779
+      ],
+      "axes": [
+        [
+          0.9999062627665326,
+          0.013691810700767103,
+          0
+        ],
+        [
+          -0.013691810485980461,
+          0.9999062470807688,
+          -0.00017712839641118315
+        ],
+        [
+          -0.0000024252084733923548,
+          0.00017711179288533506,
+          0.9999999843127656
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        6.364261385733959,
+        1.6875740036927798,
+        -5.658824234828353
+      ],
+      "color": "orange",
+      "testItemId": "orange",
+      "hex": "#ff962f"
+    },
+    {
+      "id": "item-083",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        4.34958259736677,
+        1.8205544102845204,
+        3.697139558177027
+      ],
+      "axes": [
+        [
+          0.9999964830202772,
+          -0.00265215894630374,
+          0
+        ],
+        [
+          0.00265215893307024,
+          0.9999964780305861,
+          0.00009989703280802145
+        ],
+        [
+          -2.649428092709923e-7,
+          -0.00009989668147218269,
+          0.9999999950102914
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        5.0462863811485,
+        1.6619077607884385,
+        3.697123574651778
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-084",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        3.6272088437813705,
+        1.8183994141075959,
+        0.2623062138179035
+      ],
+      "axes": [
+        [
+          0.999973625857121,
+          0.007262753621217126,
+          0
+        ],
+        [
+          -0.007262753260206548,
+          0.9999735761513103,
+          -0.0003153002391958494
+        ],
+        [
+          -0.000002289947953990281,
+          0.0003152919234222911,
+          0.9999999502928782
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        4.325499013514024,
+        1.664088329073354,
+        0.2623566618561748
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-085",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        4.244009537873063,
+        1.8235685885600403,
+        1.6253614811628165
+      ],
+      "axes": [
+        [
+          0.9999623786274505,
+          0.008674176026056251,
+          0
+        ],
+        [
+          -0.008674175890516077,
+          0.9999623630023265,
+          -0.0001767807226577342
+        ],
+        [
+          -0.000001533427106346617,
+          0.0001767740719243075,
+          0.9999999843742878
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        4.942525535226565,
+        1.6697531108898411,
+        1.6253897660784418
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-086",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        0.48534001689977757,
+        1.7749340187823883,
+        1.8024124669284118
+      ],
+      "axes": [
+        [
+          0.9996268216162641,
+          0.027316981995922036,
+          0
+        ],
+        [
+          -0.027316915126528982,
+          0.9996243746241751,
+          -0.002212646649840079
+        ],
+        [
+          -0.00006044282869701864,
+          0.002211820937939513,
+          0.9999975520944053
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        1.1868388525310425,
+        1.6324348901571006,
+        1.8027664903923863
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-087",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        0.8046454720239418,
+        1.7642100004461605,
+        -1.8337388092563807
+      ],
+      "axes": [
+        [
+          0.9995782051583855,
+          0.029041552512575012,
+          0
+        ],
+        [
+          -0.029038269222201058,
+          0.9994651979251258,
+          -0.01503652410194214
+        ],
+        [
+          -0.0004366840043131525,
+          0.015030181773640128,
+          0.9998869450807586
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        1.5064197243105142,
+        1.6230175616924025,
+        -1.8313329654000698
+      ],
+      "color": "orange",
+      "testItemId": "orange",
+      "hex": "#ff962f"
+    },
+    {
+      "id": "item-088",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        4.506002881746611,
+        1.8257693842594152,
+        -0.16605751748556494
+      ],
+      "axes": [
+        [
+          0.9999546805586526,
+          0.009520337643325013,
+          0
+        ],
+        [
+          -0.009520336660425984,
+          0.9999545773212967,
+          -0.0004544051705299357
+        ],
+        [
+          -0.000004326090650317669,
+          0.0004543845771414619,
+          0.9999998967579651
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        5.204654264823299,
+        1.6728675474390202,
+        -0.16598481265828013
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-089",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        2.6413143159699577,
+        1.79745206687674,
+        -6.763672652768295
+      ],
+      "axes": [
+        [
+          0.999833042704667,
+          0.01827256730531745,
+          0
+        ],
+        [
+          -0.01827253344879312,
+          0.99983119015318,
+          -0.0019250242176251423
+        ],
+        [
+          -0.000035175134580921475,
+          0.001924702820788317,
+          0.9999981471391641
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        3.341366050532785,
+        1.6477193284837583,
+        -6.763364648893475
+      ],
+      "color": "orange",
+      "testItemId": "orange",
+      "hex": "#ff962f"
+    },
+    {
+      "id": "item-090",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        4.676021441566346,
+        1.8239798175991828,
+        -6.690182436247795
+      ],
+      "axes": [
+        [
+          0.9999148725864246,
+          0.01304789563392732,
+          0
+        ],
+        [
+          -0.013047892131388277,
+          0.999914604172193,
+          -0.0007327169265564049
+        ],
+        [
+          -0.00000956041398691996,
+          0.0007326545522595643,
+          0.9999997315629168
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        5.375237233518389,
+        1.6733615155345438,
+        -6.6900652015395465
+      ],
+      "color": "orange",
+      "testItemId": "orange",
+      "hex": "#ff962f"
+    },
+    {
+      "id": "item-091",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        3.1743244936387844,
+        1.812854377949783,
+        -2.1664021181621034
+      ],
+      "axes": [
+        [
+          0.9999650229064925,
+          0.008363788831494835,
+          0
+        ],
+        [
+          -0.008363781685564002,
+          0.9999641685471784,
+          -0.0013072022285805175
+        ],
+        [
+          -0.000010933163399906892,
+          0.0013071565064459352,
+          0.9999991456108017
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        3.872790827919495,
+        1.658713351686697,
+        -2.1661929658055303
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-092",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        0.7440247842072999,
+        1.7295328430239065,
+        -6.784513421225513
+      ],
+      "axes": [
+        [
+          0.9982058020444051,
+          0.059876345620668875,
+          0
+        ],
+        [
+          -0.05987607946181342,
+          0.9982013648779243,
+          -0.002981654596298474
+        ],
+        [
+          -0.00017853058112942335,
+          0.002976304917717505,
+          0.9999955548580546
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        1.4507330861322103,
+        1.6031198014347212,
+        -6.784036356490105
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-093",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        3.2569732055062786,
+        1.812261060101195,
+        -3.2348432253450983
+      ],
+      "axes": [
+        [
+          0.9999600514162815,
+          0.008938432275700386,
+          0
+        ],
+        [
+          -0.00893842272088979,
+          0.9999589825007716,
+          -0.0014621611689751702
+        ],
+        [
+          -0.000013069428585043467,
+          0.0014621027577073015,
+          0.9999989310417865
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        3.955531482352641,
+        1.6586113718084592,
+        -3.2346092795580623
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-094",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        6.624171588008989,
+        1.781943362476439,
+        6.314087472042746
+      ],
+      "axes": [
+        [
+          0.999974574678231,
+          -0.007130918390423272,
+          0
+        ],
+        [
+          0.007130604922698074,
+          0.9999306168402615,
+          0.009376352109987137
+        ],
+        [
+          -0.00006686200169619132,
+          -0.009376113713217721,
+          0.9999560410443599
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        7.320158820432377,
+        1.6166637441264646,
+        6.312587255705148
+      ],
+      "color": "orange",
+      "testItemId": "orange",
+      "hex": "#ff962f"
+    },
+    {
+      "id": "item-095",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        4.663660451984001,
+        1.826568187997799,
+        -2.726851268558795
+      ],
+      "axes": [
+        [
+          0.9999403047949303,
+          0.010926428813745701,
+          0
+        ],
+        [
+          -0.010926428484005,
+          0.9999402746184634,
+          -0.00024567567181451954
+        ],
+        [
+          -0.000002684357739350499,
+          0.00024566100615490996,
+          0.9999999698217316
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        5.362536809752461,
+        1.6746435754392968,
+        -2.726811960451305
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-096",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        2.2324172585559356,
+        1.8021285560141547,
+        -1.438849634253376
+      ],
+      "axes": [
+        [
+          0.9999446244397849,
+          0.010523690131192443,
+          0
+        ],
+        [
+          -0.010523510392933245,
+          0.9999275459907,
+          -0.005844527185853722
+        ],
+        [
+          -0.00006150599306725475,
+          0.005844203541886613,
+          0.9999829206051339
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        2.931229149429825,
+        1.6512092300875783,
+        -1.4379145099036394
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-097",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        1.7266671055430889,
+        1.777789479450378,
+        -5.573681183115333
+      ],
+      "axes": [
+        [
+          0.9991661793722724,
+          0.04082825000677929,
+          0
+        ],
+        [
+          -0.04082813337074538,
+          0.9991633250059855,
+          -0.0023902904517913003
+        ],
+        [
+          -0.00009759137615455262,
+          0.0023882973783063365,
+          0.9999971432516975
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        2.430327736093428,
+        1.6361539082294612,
+        -5.573298736643046
+      ],
+      "color": "orange",
+      "testItemId": "orange",
+      "hex": "#ff962f"
+    },
+    {
+      "id": "item-098",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        5.754690259541095,
+        1.839312285635358,
+        -0.7781507777605003
+      ],
+      "axes": [
+        [
+          0.9999314235051286,
+          0.011711032704554184,
+          0
+        ],
+        [
+          -0.011711032044317747,
+          0.9999313671316921,
+          0.00033578952088474947
+        ],
+        [
+          0.000003932442060927881,
+          -0.00033576649361639264,
+          0.9999999436226974
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        6.4536921538792065,
+        1.6880107463141196,
+        -0.7782045040838419
+      ],
+      "color": "orange",
+      "testItemId": "orange",
+      "hex": "#ff962f"
+    },
+    {
+      "id": "item-099",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        1.7794830577131722,
+        1.8027120045574123,
+        1.3535911919324446
+      ],
+      "axes": [
+        [
+          0.9998233219713222,
+          0.018796937043840084,
+          0
+        ],
+        [
+          -0.018796922312823032,
+          0.999822538417365,
+          -0.0012519521645946506
+        ],
+        [
+          -0.000023532866019784965,
+          0.001251730972154211,
+          0.9999992163075819
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        2.479618694494244,
+        1.6505680556923088,
+        1.3537915042787798
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-100",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        5.741606789542327,
+        1.838523884302268,
+        -6.818265493375936
+      ],
+      "axes": [
+        [
+          0.9998999725757054,
+          0.014143720978008275,
+          0
+        ],
+        [
+          -0.01414372042075992,
+          0.999899933180654,
+          -0.0002807097843456793
+        ],
+        [
+          -0.0000039702808655821635,
+          0.00028068170566897694,
+          0.9999999606010077
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        6.440997914020668,
+        1.6885790652897497,
+        -6.818220579810441
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    },
+    {
+      "id": "item-101",
+      "regionKey": "outdoor/outdoor-mixed",
+      "regionId": "outdoor-mixed",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "weighted-mix",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        6.546548416156297,
+        1.795208793787602,
+        5.1632478317176025
+      ],
+      "axes": [
+        [
+          0.9999810951061804,
+          -0.006148937326403498,
+          0
+        ],
+        [
+          0.006148479808899499,
+          0.9999066905659495,
+          0.01219862113068446
+        ],
+        [
+          -0.00007500855680112011,
+          -0.012198390517047238,
+          0.9999255940531324
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        7.242692788597893,
+        1.6307468151418207,
+        5.161296052336693
+      ],
+      "color": "cyan",
+      "testItemId": "cyan",
+      "hex": "#39dfe7"
+    }
+  ],
+  "stats": [
+    {
+      "key": "A-1/through-storage",
+      "ruleId": "instance-purple",
+      "requested": 4,
+      "success": 4,
+      "failed": 0,
+      "attempts": 10,
+      "rejections": {
+        "物品间距": 6
+      }
+    },
+    {
+      "key": "A-2/through-storage",
+      "ruleId": "template-A-red",
+      "requested": 5,
+      "success": 5,
+      "failed": 0,
+      "attempts": 35,
+      "rejections": {
+        "物品间距": 30
+      }
+    },
+    {
+      "key": "A-3/bent-storage",
+      "ruleId": "template-B-blue",
+      "requested": 4,
+      "success": 4,
+      "failed": 0,
+      "attempts": 15,
+      "rejections": {
+        "物品间距": 11
+      }
+    },
+    {
+      "key": "A-4/bent-storage",
+      "ruleId": "template-B-blue",
+      "requested": 4,
+      "success": 3,
+      "failed": 1,
+      "attempts": 400,
+      "rejections": {
+        "物品间距": 397
+      }
+    },
+    {
+      "key": "A-5/warehouse-south",
+      "ruleId": "C-south-green",
+      "requested": 2,
+      "success": 2,
+      "failed": 0,
+      "attempts": 3,
+      "rejections": {
+        "物品间距": 1
+      }
+    },
+    {
+      "key": "A-5/warehouse-north",
+      "ruleId": "C-north-yellow",
+      "requested": 2,
+      "success": 2,
+      "failed": 0,
+      "attempts": 5,
+      "rejections": {
+        "物品间距": 3
+      }
+    },
+    {
+      "key": "A-6/warehouse-south",
+      "ruleId": "C-south-green",
+      "requested": 2,
+      "success": 2,
+      "failed": 0,
+      "attempts": 3,
+      "rejections": {
+        "物品间距": 1
+      }
+    },
+    {
+      "key": "A-6/warehouse-north",
+      "ruleId": "C-north-yellow",
+      "requested": 2,
+      "success": 2,
+      "failed": 0,
+      "attempts": 3,
+      "rejections": {
+        "物品间距": 1
+      }
+    },
+    {
+      "key": "B-1/bent-storage",
+      "ruleId": "template-B-blue",
+      "requested": 5,
+      "success": 4,
+      "failed": 1,
+      "attempts": 500,
+      "rejections": {
+        "物品间距": 496
+      }
+    },
+    {
+      "key": "B-2/bent-storage",
+      "ruleId": "template-B-blue",
+      "requested": 5,
+      "success": 4,
+      "failed": 1,
+      "attempts": 500,
+      "rejections": {
+        "物品间距": 496
+      }
+    },
+    {
+      "key": "B-3/through-storage",
+      "ruleId": "template-A-red",
+      "requested": 5,
+      "success": 4,
+      "failed": 1,
+      "attempts": 500,
+      "rejections": {
+        "物品间距": 444,
+        "初始角色占用": 52
+      }
+    },
+    {
+      "key": "B-4/warehouse-south",
+      "ruleId": "C-south-green",
+      "requested": 2,
+      "success": 2,
+      "failed": 0,
+      "attempts": 9,
+      "rejections": {
+        "物品间距": 7
+      }
+    },
+    {
+      "key": "B-4/warehouse-north",
+      "ruleId": "C-north-yellow",
+      "requested": 2,
+      "success": 2,
+      "failed": 0,
+      "attempts": 3,
+      "rejections": {
+        "物品间距": 1
+      }
+    },
+    {
+      "key": "B-5/through-storage",
+      "ruleId": "template-A-red",
+      "requested": 5,
+      "success": 5,
+      "failed": 0,
+      "attempts": 145,
+      "rejections": {
+        "物品间距": 140
+      }
+    },
+    {
+      "key": "C-1/bent-storage",
+      "ruleId": "template-B-blue",
+      "requested": 4,
+      "success": 4,
+      "failed": 0,
+      "attempts": 30,
+      "rejections": {
+        "物品间距": 26
+      }
+    },
+    {
+      "key": "C-2/through-storage",
+      "ruleId": "template-A-red",
+      "requested": 5,
+      "success": 5,
+      "failed": 0,
+      "attempts": 11,
+      "rejections": {
+        "物品间距": 6
+      }
+    },
+    {
+      "key": "C-3/warehouse-south",
+      "ruleId": "C-south-green",
+      "requested": 2,
+      "success": 1,
+      "failed": 1,
+      "attempts": 200,
+      "rejections": {
+        "初始角色占用": 106,
+        "物品间距": 93
+      }
+    },
+    {
+      "key": "C-3/warehouse-north",
+      "ruleId": "C-north-yellow",
+      "requested": 2,
+      "success": 2,
+      "failed": 0,
+      "attempts": 16,
+      "rejections": {
+        "物品间距": 10,
+        "初始角色占用": 4
+      }
+    },
+    {
+      "key": "C-4/bent-storage",
+      "ruleId": "template-B-blue",
+      "requested": 4,
+      "success": 4,
+      "failed": 0,
+      "attempts": 40,
+      "rejections": {
+        "物品间距": 36
+      }
+    },
+    {
+      "key": "outdoor/outdoor-white",
+      "ruleId": "outside-white",
+      "requested": 20,
+      "success": 20,
+      "failed": 0,
+      "attempts": 79,
+      "rejections": {
+        "坡面跨折线 / 底面不共面": 54,
+        "物品间距": 5
+      }
+    },
+    {
+      "key": "outdoor/outdoor-mixed",
+      "ruleId": "weighted-mix",
+      "requested": 20,
+      "success": 20,
+      "failed": 0,
+      "attempts": 168,
+      "rejections": {
+        "坡面跨折线 / 底面不共面": 140,
+        "物品间距": 8
+      }
+    }
+  ],
+  "requested": 106,
+  "success": 101,
+  "failed": 5,
+  "generationMs": 675.8026
+}

@@ -1,0 +1,868 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_Backpack_Level3",
+  "type": "static",
+  "materials": {
+    "orange": {
+      "color": "#B63C36",
+      "roughness": 0.75
+    },
+    "black": {
+      "color": "#273236",
+      "roughness": 0.87
+    },
+    "metal": {
+      "color": "#839093",
+      "roughness": 0.4,
+      "metalness": 0.65
+    },
+    "olive": {
+      "color": "#626F52",
+      "roughness": 1
+    },
+    "tan": {
+      "color": "#9B8966",
+      "roughness": 1
+    },
+    "cloth": {
+      "color": "#394C46",
+      "roughness": 1
+    },
+    "strap": {
+      "color": "#263E34",
+      "roughness": 0.92
+    },
+    "light": {
+      "color": "#CABD96",
+      "roughness": 0.9
+    },
+    "hole": {
+      "color": "#0D171D",
+      "roughness": 1
+    },
+    "stone": {
+      "color": "#3A3548",
+      "roughness": 0.95
+    },
+    "purple": {
+      "color": "#82749E",
+      "roughness": 0.45,
+      "metalness": 0.15
+    },
+    "purpleTip": {
+      "color": "#B0A0C8",
+      "roughness": 0.38
+    },
+    "ember": {
+      "color": "#D76436",
+      "roughness": 0.5
+    },
+    "hot": {
+      "color": "#F0B25C",
+      "roughness": 0.38
+    },
+    "char": {
+      "color": "#493C3C",
+      "roughness": 0.92
+    },
+    "green": {
+      "color": "#579875",
+      "roughness": 0.5
+    },
+    "toxic": {
+      "color": "#ABD27E",
+      "roughness": 0.4
+    },
+    "bark": {
+      "color": "#344F42",
+      "roughness": 0.9
+    }
+  },
+  "parts": [
+    {
+      "id": "BagCore",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.3096,
+          0.47000000000000003,
+          0.2
+        ]
+      },
+      "position": [
+        0,
+        0.26000000004470347,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "SoftShell",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.5
+      },
+      "position": [
+        0,
+        0.26520000004470345,
+        0
+      ],
+      "scale": [
+        0.36,
+        0.52,
+        0.244
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "TopFlap",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.3276,
+          0.06,
+          0.21000000000000002
+        ]
+      },
+      "position": [
+        0,
+        0.5050000000447035,
+        0.025
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "BottomReinforce",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.3096,
+          0.046,
+          0.2
+        ]
+      },
+      "position": [
+        0,
+        0.023000000044703484,
+        0
+      ],
+      "material": "black"
+    },
+    {
+      "id": "FrontPocket",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2556,
+          0.1872,
+          0.064
+        ]
+      },
+      "position": [
+        0,
+        0.1560000000447035,
+        0.118
+      ],
+      "material": "olive"
+    },
+    {
+      "id": "PocketFlap",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2736,
+          0.032,
+          0.075
+        ]
+      },
+      "position": [
+        0,
+        0.24960000004470348,
+        0.123
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "UpperPocket",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.252,
+          0.10400000000000001,
+          0.035
+        ]
+      },
+      "position": [
+        0,
+        0.3536000000447035,
+        0.11599999999999999
+      ],
+      "material": "olive"
+    },
+    {
+      "id": "Zipper",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2196,
+          0.006,
+          0.015
+        ]
+      },
+      "position": [
+        0,
+        0.3978000000447035,
+        0.122
+      ],
+      "material": "black"
+    },
+    {
+      "id": "ZipperPull",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.012,
+          0.028,
+          0.008
+        ]
+      },
+      "position": [
+        0.07919999999999999,
+        0.3842800000447035,
+        0.13
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "ShoulderStrap_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.047,
+          0.38480000000000003,
+          0.025
+        ]
+      },
+      "position": [
+        -0.09720000000000001,
+        0.2808000000447035,
+        -0.136
+      ],
+      "material": "strap",
+      "rotation": [
+        -9,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "BackPadding_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.07,
+          0.338,
+          0.027
+        ]
+      },
+      "position": [
+        -0.07919999999999999,
+        0.24960000004470348,
+        -0.10800000000000001
+      ],
+      "material": "black"
+    },
+    {
+      "id": "FrontStrap_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.02,
+          0.39,
+          0.012
+        ]
+      },
+      "position": [
+        -0.09720000000000001,
+        0.24960000004470348,
+        0.16000000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Buckle_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.032,
+          0.03,
+          0.016
+        ]
+      },
+      "position": [
+        -0.09720000000000001,
+        0.2912000000447035,
+        0.164
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "HandlePost_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.045,
+          0.022
+        ]
+      },
+      "position": [
+        -0.055,
+        0.5400000000447035,
+        0
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "SidePocket_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.081,
+          0.205,
+          0.16
+        ]
+      },
+      "position": [
+        -0.19999999999999998,
+        0.18200000004470349,
+        0
+      ],
+      "material": "olive"
+    },
+    {
+      "id": "SideFlap_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.085,
+          0.035,
+          0.17
+        ]
+      },
+      "position": [
+        -0.20199999999999999,
+        0.23920000004470351,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "SideBand_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.025,
+          0.17
+        ]
+      },
+      "position": [
+        -0.246,
+        0.1664000000447035,
+        0
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "ShoulderStrap_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.047,
+          0.38480000000000003,
+          0.025
+        ]
+      },
+      "position": [
+        0.09720000000000001,
+        0.2808000000447035,
+        -0.136
+      ],
+      "material": "strap",
+      "rotation": [
+        9,
+        0,
+        -6
+      ]
+    },
+    {
+      "id": "BackPadding_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.07,
+          0.338,
+          0.027
+        ]
+      },
+      "position": [
+        0.07919999999999999,
+        0.24960000004470348,
+        -0.10800000000000001
+      ],
+      "material": "black"
+    },
+    {
+      "id": "FrontStrap_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.02,
+          0.39,
+          0.012
+        ]
+      },
+      "position": [
+        0.09720000000000001,
+        0.24960000004470348,
+        0.16000000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Buckle_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.032,
+          0.03,
+          0.016
+        ]
+      },
+      "position": [
+        0.09720000000000001,
+        0.2912000000447035,
+        0.164
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "HandlePost_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.045,
+          0.022
+        ]
+      },
+      "position": [
+        0.055,
+        0.5400000000447035,
+        0
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "SidePocket_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.081,
+          0.205,
+          0.16
+        ]
+      },
+      "position": [
+        0.19999999999999998,
+        0.18200000004470349,
+        0
+      ],
+      "material": "olive"
+    },
+    {
+      "id": "SideFlap_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.085,
+          0.035,
+          0.17
+        ]
+      },
+      "position": [
+        0.20199999999999999,
+        0.23920000004470351,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "SideBand_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.025,
+          0.17
+        ]
+      },
+      "position": [
+        0.246,
+        0.1664000000447035,
+        0
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "CarryHandle",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.128,
+          0.018,
+          0.022
+        ]
+      },
+      "position": [
+        0,
+        0.5600000000447035,
+        0
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_0_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.081,
+        0.1040000000447035,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_0_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.027,
+        0.1040000000447035,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_0_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.027,
+        0.1040000000447035,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_0_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.081,
+        0.1040000000447035,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.081,
+        0.1430000000447035,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.027,
+        0.1430000000447035,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.027,
+        0.1430000000447035,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_1_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.081,
+        0.1430000000447035,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_2_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.081,
+        0.18200000004470349,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_2_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        -0.027,
+        0.18200000004470349,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_2_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.027,
+        0.18200000004470349,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Webbing_2_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043199999999999995,
+          0.009,
+          0.007
+        ]
+      },
+      "position": [
+        0.081,
+        0.18200000004470349,
+        0.15600000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Patch",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.064,
+          0.036,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.3536000000447035,
+        0.15600000000000003
+      ],
+      "material": "light"
+    },
+    {
+      "id": "LevelMark_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.006,
+          0.022,
+          0.004
+        ]
+      },
+      "position": [
+        -0.014,
+        0.3536000000447035,
+        0.16000000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "LevelMark_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.006,
+          0.022,
+          0.004
+        ]
+      },
+      "position": [
+        0,
+        0.3536000000447035,
+        0.16000000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "LevelMark_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.006,
+          0.022,
+          0.004
+        ]
+      },
+      "position": [
+        0.014,
+        0.3536000000447035,
+        0.16000000000000003
+      ],
+      "material": "strap"
+    },
+    {
+      "id": "Bedroll",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.063,
+        "radiusBottom": 0.063,
+        "height": 0.36
+      },
+      "position": [
+        0,
+        0.07500000004470347,
+        0.174
+      ],
+      "material": "tan",
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "RollBand_-1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.065,
+        "radiusBottom": 0.065,
+        "height": 0.023
+      },
+      "position": [
+        -0.115,
+        0.07500000004470347,
+        0.174
+      ],
+      "material": "strap",
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "RollBand_1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.065,
+        "radiusBottom": 0.065,
+        "height": 0.023
+      },
+      "position": [
+        0.115,
+        0.07500000004470347,
+        0.174
+      ],
+      "material": "strap",
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    }
+  ]
+}

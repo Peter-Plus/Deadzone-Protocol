@@ -1,0 +1,175 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_fire_seeking_bolt",
+  "name": "追魂火弹 · 橙红尾焰",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "dissipate": {
+      "duration": 0.45,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "projectile_mist.png"
+    }
+  },
+  "binding": {
+    "model": "FSA_PRJ_003_SeekingFirebolt",
+    "attachment": "VFX_Anchor"
+  },
+  "layers": [
+    {
+      "id": "outer_fire",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 20,
+      "seed": 1622,
+      "position": [
+        0,
+        0,
+        -0.74
+      ],
+      "radii": [
+        0.17,
+        0.17,
+        0.68
+      ],
+      "shell": 0.55,
+      "size": [
+        0.34,
+        0.5
+      ],
+      "aspect": 1,
+      "drift": [
+        0.016,
+        0.024,
+        0.016
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#e83405",
+        "opacity": 0.4,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "inner_flame",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 10,
+      "seed": 1701,
+      "position": [
+        0,
+        0,
+        -0.26
+      ],
+      "radii": [
+        0.08,
+        0.08,
+        0.32
+      ],
+      "shell": 0.55,
+      "size": [
+        0.16,
+        0.28
+      ],
+      "aspect": 1,
+      "drift": [
+        0.016,
+        0.024,
+        0.016
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ffb52d",
+        "opacity": 0.36,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,8609 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Quarantine_Building_04_Collapsed",
+  "label": "隔离区 04 · 局部塌顶房",
+  "type": "building",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -6.3,
+      -5.3
+    ],
+    "max": [
+      6.3,
+      6.6
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Floor",
+      "role": "floor"
+    },
+    {
+      "node": "FrontLeft",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRight",
+      "role": "wall"
+    },
+    {
+      "node": "FrontLintel",
+      "role": "wall"
+    },
+    {
+      "node": "WestLeft",
+      "role": "wall"
+    },
+    {
+      "node": "WestRight",
+      "role": "wall"
+    },
+    {
+      "node": "WestSill",
+      "role": "wall"
+    },
+    {
+      "node": "WestLintel",
+      "role": "wall"
+    },
+    {
+      "node": "Sill_126",
+      "role": "solid"
+    },
+    {
+      "node": "BackBase",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_0",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_0",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_1",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_1",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_2",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_2",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_3",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_3",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_4",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_4",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_5",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_5",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_6",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_6",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_7",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_7",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_8",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_8",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_9",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_9",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_10",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_10",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_11",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_11",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_12",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_12",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_13",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_13",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_14",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_14",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_15",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_15",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_16",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_16",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_17",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_17",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Fracture_18",
+      "role": "wall"
+    },
+    {
+      "node": "Back_Exposed_18",
+      "role": "wall"
+    },
+    {
+      "node": "EastBase",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_0",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_0",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_1",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_1",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_2",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_2",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_3",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_3",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_4",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_4",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_5",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_5",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_6",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_6",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_7",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_7",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_8",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_8",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_9",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_9",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_10",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_10",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_11",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_11",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_12",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_12",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_13",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_13",
+      "role": "wall"
+    },
+    {
+      "node": "East_Fracture_14",
+      "role": "wall"
+    },
+    {
+      "node": "East_Exposed_14",
+      "role": "wall"
+    },
+    {
+      "node": "PartitionLeft",
+      "role": "wall"
+    },
+    {
+      "node": "PartitionRight",
+      "role": "wall"
+    },
+    {
+      "node": "PartitionLintel",
+      "role": "wall"
+    },
+    {
+      "node": "Roof_RemnantWest",
+      "role": "roof"
+    },
+    {
+      "node": "Roof_RemnantFront",
+      "role": "roof"
+    },
+    {
+      "node": "Roof_BrokenRafterA",
+      "role": "roof"
+    },
+    {
+      "node": "Roof_BrokenRafterB",
+      "role": "roof"
+    },
+    {
+      "node": "Cot",
+      "role": "solid"
+    },
+    {
+      "node": "CotMat",
+      "role": "solid"
+    },
+    {
+      "node": "CotPillow",
+      "role": "solid"
+    },
+    {
+      "node": "Rubble_0",
+      "role": "solid"
+    },
+    {
+      "node": "Rubble_1",
+      "role": "solid"
+    },
+    {
+      "node": "Rubble_2",
+      "role": "solid"
+    },
+    {
+      "node": "Rubble_3",
+      "role": "solid"
+    },
+    {
+      "node": "Rubble_4",
+      "role": "solid"
+    },
+    {
+      "node": "Rubble_5",
+      "role": "solid"
+    },
+    {
+      "node": "Rubble_6",
+      "role": "solid"
+    },
+    {
+      "node": "Rubble_7",
+      "role": "solid"
+    },
+    {
+      "node": "RoofInfill_264",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_265",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_266",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_267",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_268",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_269",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_270",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_271",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_272",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_273",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_274",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_275",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_276",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_277",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_278",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_279",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_280",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_281",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_282",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_283",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_284",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_285",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_286",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_287",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_288",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_289",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_290",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_291",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_292",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_293",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_294",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_295",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_296",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_297",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_298",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_299",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_300",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_301",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_302",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_303",
+      "role": "roof"
+    },
+    {
+      "node": "RoofEave_304",
+      "role": "roof"
+    },
+    {
+      "node": "RoofEave_305",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_306",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_307",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_308",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_309",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_310",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_311",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_312",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_313",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_314",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_315",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_316",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_317",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_318",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_319",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_320",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_321",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_322",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_323",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_324",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_325",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_326",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_327",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_328",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_329",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_330",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_331",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_332",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_333",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_334",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_335",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_336",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_337",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_338",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_339",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_340",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill_341",
+      "role": "roof"
+    },
+    {
+      "node": "RoofEave_342",
+      "role": "roof"
+    }
+  ],
+  "walkables": [
+    "Floor"
+  ],
+  "entrances": [
+    {
+      "id": "Entry",
+      "outer": [
+        -2,
+        0,
+        5.4
+      ],
+      "inner": [
+        -2,
+        0,
+        2.7
+      ],
+      "width": 2,
+      "height": 2.35,
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "CoveredAndExposed",
+      "points": [
+        [
+          -2,
+          0,
+          5.4
+        ],
+        [
+          -2,
+          0,
+          1.9
+        ],
+        [
+          -2,
+          0,
+          -1.5
+        ],
+        [
+          -2,
+          0,
+          0
+        ],
+        [
+          2.5,
+          0,
+          0
+        ],
+        [
+          2.5,
+          0,
+          -2.5
+        ],
+        [
+          2.5,
+          0,
+          0
+        ],
+        [
+          2.5,
+          0,
+          2
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [
+    {
+      "id": "CoveredStore",
+      "min": [
+        -4.3,
+        0.6
+      ],
+      "max": [
+        -3.1,
+        1.9
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "ExposedStore",
+      "min": [
+        0.6,
+        -3.35
+      ],
+      "max": [
+        1.6,
+        -2.1
+      ],
+      "surface": "Floor"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "CoveredAndExposed_1",
+      "min": [
+        -2.85,
+        1.0499999999999998
+      ],
+      "max": [
+        -1.15,
+        6.25
+      ]
+    },
+    {
+      "id": "CoveredAndExposed_2",
+      "min": [
+        -2.85,
+        -2.35
+      ],
+      "max": [
+        -1.15,
+        2.75
+      ]
+    },
+    {
+      "id": "CoveredAndExposed_3",
+      "min": [
+        -2.85,
+        -2.35
+      ],
+      "max": [
+        -1.15,
+        0.85
+      ]
+    },
+    {
+      "id": "CoveredAndExposed_4",
+      "min": [
+        -2.85,
+        -0.85
+      ],
+      "max": [
+        3.35,
+        0.85
+      ]
+    },
+    {
+      "id": "CoveredAndExposed_5",
+      "min": [
+        1.65,
+        -3.35
+      ],
+      "max": [
+        3.35,
+        0.85
+      ]
+    },
+    {
+      "id": "CoveredAndExposed_6",
+      "min": [
+        1.65,
+        -3.35
+      ],
+      "max": [
+        3.35,
+        0.85
+      ]
+    },
+    {
+      "id": "CoveredAndExposed_7",
+      "min": [
+        1.65,
+        -0.85
+      ],
+      "max": [
+        3.35,
+        2.85
+      ]
+    }
+  ],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Quarantine_Building_04_Collapsed",
+    "type": "static",
+    "materials": {
+      "plaster": {
+        "color": "#99998a",
+        "roughness": 1
+      },
+      "lime": {
+        "color": "#b5b2a0",
+        "roughness": 1
+      },
+      "stone": {
+        "color": "#626764",
+        "roughness": 1
+      },
+      "brick": {
+        "color": "#8b5c49",
+        "roughness": 1
+      },
+      "brickLight": {
+        "color": "#a1775e",
+        "roughness": 1
+      },
+      "wood": {
+        "color": "#594b3b",
+        "roughness": 1
+      },
+      "metal": {
+        "color": "#60746e",
+        "roughness": 0.92,
+        "metalness": 0.25
+      },
+      "rust": {
+        "color": "#8b5844",
+        "roughness": 1
+      },
+      "floor": {
+        "color": "#797c71",
+        "roughness": 1
+      },
+      "cloth": {
+        "color": "#747867",
+        "roughness": 1
+      },
+      "dark": {
+        "color": "#45473d",
+        "roughness": 1
+      },
+      "yellow": {
+        "color": "#b6a05b",
+        "roughness": 1
+      },
+      "white": {
+        "color": "#cac7ae",
+        "roughness": 1
+      }
+    },
+    "parts": [
+      {
+        "id": "Floor",
+        "shape": {
+          "type": "box",
+          "size": [
+            10,
+            0.14,
+            8
+          ]
+        },
+        "position": [
+          0,
+          -0.07,
+          0
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "FrontLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            2,
+            3.05,
+            0.3
+          ]
+        },
+        "position": [
+          -4,
+          1.525,
+          4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Stone_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -4.645,
+          0.12,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -4.015,
+          0.12,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -3.385,
+          0.12,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -4.645,
+          0.35,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -4.015,
+          0.35,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -3.385,
+          0.35,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.88,
+            0.58,
+            0.018
+          ]
+        },
+        "position": [
+          -4.3,
+          0.96,
+          3.848
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.24,
+          0.67,
+          3.841
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.54,
+          0.67,
+          3.841
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.33,
+          0.8300000000000001,
+          3.841
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.63,
+          0.8300000000000001,
+          3.841
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.24,
+          0.99,
+          3.841
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.54,
+          0.99,
+          3.841
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.88,
+            0.58,
+            0.018
+          ]
+        },
+        "position": [
+          -4.3,
+          0.96,
+          4.152
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.24,
+          0.67,
+          4.159
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.54,
+          0.67,
+          4.159
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_16",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.33,
+          0.8300000000000001,
+          4.159
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_17",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.63,
+          0.8300000000000001,
+          4.159
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_18",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.24,
+          0.99,
+          4.159
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_19",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          -3.54,
+          0.99,
+          4.159
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "FrontRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            3.05,
+            0.3
+          ]
+        },
+        "position": [
+          2,
+          1.525,
+          4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Stone_20",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -0.645,
+          0.12,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_21",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -0.014999999999999958,
+          0.12,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_22",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          0.615,
+          0.12,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_23",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          1.245,
+          0.12,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_24",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          1.875,
+          0.12,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_25",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          2.5050000000000003,
+          0.12,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_26",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          3.1350000000000002,
+          0.12,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_27",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          3.765,
+          0.12,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_28",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          4.3950000000000005,
+          0.12,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_29",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22499999999999978,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          4.8525,
+          0.12,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_30",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -0.645,
+          0.35,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_31",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -0.014999999999999958,
+          0.35,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_32",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          0.615,
+          0.35,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_33",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          1.245,
+          0.35,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_34",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          1.875,
+          0.35,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_35",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          2.5050000000000003,
+          0.35,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_36",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          3.1350000000000002,
+          0.35,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_37",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          3.765,
+          0.35,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_38",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          4.3950000000000005,
+          0.35,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_39",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22499999999999978,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          4.8525,
+          0.35,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Repair_40",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.88,
+            0.58,
+            0.018
+          ]
+        },
+        "position": [
+          -0.30000000000000004,
+          0.96,
+          3.848
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_41",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.76,
+          0.67,
+          3.841
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_42",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.46,
+          0.67,
+          3.841
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_43",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.67,
+          0.8300000000000001,
+          3.841
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_44",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.37,
+          0.8300000000000001,
+          3.841
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_45",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.76,
+          0.99,
+          3.841
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_46",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.46,
+          0.99,
+          3.841
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_47",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.88,
+            0.58,
+            0.018
+          ]
+        },
+        "position": [
+          -0.30000000000000004,
+          0.96,
+          4.152
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_48",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.76,
+          0.67,
+          4.159
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_49",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.46,
+          0.67,
+          4.159
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_50",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.67,
+          0.8300000000000001,
+          4.159
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_51",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.37,
+          0.8300000000000001,
+          4.159
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_52",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.76,
+          0.99,
+          4.159
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_53",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.13,
+            0.02
+          ]
+        },
+        "position": [
+          4.46,
+          0.99,
+          4.159
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "FrontLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            2,
+            0.6999999999999997,
+            0.3
+          ]
+        },
+        "position": [
+          -2,
+          2.7,
+          4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Header_54",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.24,
+            0.2,
+            0.34
+          ]
+        },
+        "position": [
+          -2,
+          2.46,
+          4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "WestLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            3.05,
+            3.4
+          ]
+        },
+        "position": [
+          -5,
+          1.525,
+          -2.3
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Stone_55",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          -3.645
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_56",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          -3.015
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_57",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          -2.3850000000000002
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_58",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          -1.7550000000000006
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_59",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          -1.1250000000000007
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_60",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.1450000000000006
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          -0.7075000000000002
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_61",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          -3.645
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_62",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          -3.015
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_63",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          -2.3850000000000002
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_64",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          -1.7550000000000006
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_65",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          -1.1250000000000007
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_66",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.1450000000000006
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          -0.7075000000000002
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Repair_67",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.018,
+            0.58,
+            0.88
+          ]
+        },
+        "position": [
+          -5.152,
+          0.96,
+          -3.3
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_68",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.67,
+          -0.84
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_69",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.67,
+          -1.14
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_70",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.8300000000000001,
+          -0.9299999999999999
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_71",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.8300000000000001,
+          -1.23
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_72",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.99,
+          -0.84
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_73",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.99,
+          -1.14
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_74",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.018,
+            0.58,
+            0.88
+          ]
+        },
+        "position": [
+          -4.848,
+          0.96,
+          -3.3
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_75",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.67,
+          -0.84
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_76",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.67,
+          -1.14
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_77",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.8300000000000001,
+          -0.9299999999999999
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_78",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.8300000000000001,
+          -1.23
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_79",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.99,
+          -0.84
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_80",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.99,
+          -1.14
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "WestRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            3.05,
+            3.4
+          ]
+        },
+        "position": [
+          -5,
+          1.525,
+          2.3
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Stone_81",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          0.9549999999999998
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_82",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          1.5849999999999997
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_83",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          2.215
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_84",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          2.8449999999999998
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_85",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          3.4749999999999996
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_86",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.1450000000000006
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          3.8924999999999996
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_87",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          0.9549999999999998
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_88",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          1.5849999999999997
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_89",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          2.215
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_90",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          2.8449999999999998
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_91",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          3.4749999999999996
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_92",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.1450000000000006
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          3.8924999999999996
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_93",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.018,
+            0.58,
+            0.88
+          ]
+        },
+        "position": [
+          -5.152,
+          0.96,
+          1.2999999999999998
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_94",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.67,
+          3.76
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_95",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.67,
+          3.46
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_96",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.8300000000000001,
+          3.67
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_97",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.8300000000000001,
+          3.37
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_98",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.99,
+          3.76
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_99",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.99,
+          3.46
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_100",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.018,
+            0.58,
+            0.88
+          ]
+        },
+        "position": [
+          -4.848,
+          0.96,
+          1.2999999999999998
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_101",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.67,
+          3.76
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_102",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.67,
+          3.46
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_103",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.8300000000000001,
+          3.67
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_104",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.8300000000000001,
+          3.37
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_105",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.99,
+          3.76
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_106",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.99,
+          3.46
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "WestSill",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.35,
+            1.2
+          ]
+        },
+        "position": [
+          -5,
+          0.675,
+          0
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Stone_107",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          -0.24500000000000005
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_108",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.46499999999999997
+          ]
+        },
+        "position": [
+          -5,
+          0.12,
+          0.33249999999999996
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_109",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          -0.24500000000000005
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_110",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.46499999999999997
+          ]
+        },
+        "position": [
+          -5,
+          0.35,
+          0.33249999999999996
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_111",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.018,
+            0.58,
+            0.88
+          ]
+        },
+        "position": [
+          -5.152,
+          0.96,
+          0
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_112",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.67,
+          0.36
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_113",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.67,
+          0.06
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_114",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.8300000000000001,
+          0.27
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_115",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.8300000000000001,
+          -0.03
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_116",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.99,
+          0.36
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_117",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -5.159,
+          0.99,
+          0.06
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_118",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.018,
+            0.58,
+            0.88
+          ]
+        },
+        "position": [
+          -4.848,
+          0.96,
+          0
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_119",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.67,
+          0.36
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_120",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.67,
+          0.06
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_121",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.8300000000000001,
+          0.27
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_122",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.8300000000000001,
+          -0.03
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_123",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.99,
+          0.36
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_124",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -4.841,
+          0.99,
+          0.06
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "WestLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8499999999999996,
+            1.2
+          ]
+        },
+        "position": [
+          -5,
+          2.625,
+          0
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Header_125",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.34,
+            0.2,
+            1.44
+          ]
+        },
+        "position": [
+          -5,
+          2.31,
+          0
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Sill_126",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.38,
+            0.1,
+            1.3399999999999999
+          ]
+        },
+        "position": [
+          -5,
+          1.2950000000000002,
+          0
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "BackBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            10,
+            1.25,
+            0.3
+          ]
+        },
+        "position": [
+          0,
+          0.625,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Stone_127",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -4.645,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_128",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -4.015,
+          0.12,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_129",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -3.385,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_130",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -2.755,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_131",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -2.125,
+          0.12,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_132",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -1.4950000000000003,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_133",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -0.8650000000000004,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_134",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -0.23500000000000038,
+          0.12,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_135",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          0.39499999999999963,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_136",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          1.0249999999999997,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_137",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          1.6549999999999996,
+          0.12,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_138",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          2.2849999999999997,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_139",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          2.9149999999999996,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_140",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          3.5449999999999995,
+          0.12,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_141",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          4.174999999999999,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_142",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4450000000000004,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          4.7425,
+          0.12,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_143",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -4.645,
+          0.35,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_144",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -4.015,
+          0.35,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_145",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -3.385,
+          0.35,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_146",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -2.755,
+          0.35,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_147",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -2.125,
+          0.35,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_148",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -1.4950000000000003,
+          0.35,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_149",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -0.8650000000000004,
+          0.35,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_150",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          -0.23500000000000038,
+          0.35,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_151",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          0.39499999999999963,
+          0.35,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_152",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          1.0249999999999997,
+          0.35,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_153",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          1.6549999999999996,
+          0.35,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_154",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          2.2849999999999997,
+          0.35,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_155",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          2.9149999999999996,
+          0.35,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_156",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          3.5449999999999995,
+          0.35,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_157",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.57,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          4.174999999999999,
+          0.35,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_158",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4450000000000004,
+            0.2,
+            0.318
+          ]
+        },
+        "position": [
+          4.7425,
+          0.35,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Back_Fracture_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.41999999999999993,
+            1.5699999999999998,
+            0.3
+          ]
+        },
+        "position": [
+          -4.79,
+          2.035,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.34439999999999993,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          -4.79,
+          2.7449999999999997,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Back_Fracture_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6299999999999999,
+            1.4900000000000002,
+            0.3
+          ]
+        },
+        "position": [
+          -4.265000000000001,
+          1.995,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5165999999999998,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          -4.265000000000001,
+          2.665,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Back_Fracture_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3700000000000001,
+            1.33,
+            0.3
+          ]
+        },
+        "position": [
+          -3.765,
+          1.915,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.30340000000000006,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          -3.765,
+          2.505,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Back_Fracture_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8199999999999998,
+            0.9700000000000002,
+            0.3
+          ]
+        },
+        "position": [
+          -3.17,
+          1.735,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6723999999999998,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          -3.17,
+          2.145,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Back_Fracture_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5100000000000002,
+            0.8300000000000001,
+            0.3
+          ]
+        },
+        "position": [
+          -2.505,
+          1.665,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4182000000000002,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          -2.505,
+          2.005,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Back_Fracture_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.41999999999999993,
+            0.5800000000000001,
+            0.3
+          ]
+        },
+        "position": [
+          -2.04,
+          1.54,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.34439999999999993,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          -2.04,
+          1.7550000000000001,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Back_Fracture_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6299999999999999,
+            0.71,
+            0.3
+          ]
+        },
+        "position": [
+          -1.5150000000000001,
+          1.605,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5165999999999998,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          -1.5150000000000001,
+          1.885,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Back_Fracture_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.37,
+            0.9300000000000002,
+            0.3
+          ]
+        },
+        "position": [
+          -1.0150000000000001,
+          1.715,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3034,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          -1.0150000000000001,
+          2.105,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Back_Fracture_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            1.2200000000000002,
+            0.3
+          ]
+        },
+        "position": [
+          -0.4200000000000002,
+          1.86,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6723999999999999,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          -0.4200000000000002,
+          2.395,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Back_Fracture_9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.51,
+            1.4100000000000001,
+            0.3
+          ]
+        },
+        "position": [
+          0.24499999999999977,
+          1.955,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.41819999999999996,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          0.24499999999999977,
+          2.585,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Back_Fracture_10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.41999999999999993,
+            1.48,
+            0.3
+          ]
+        },
+        "position": [
+          0.7099999999999997,
+          1.99,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.34439999999999993,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          0.7099999999999997,
+          2.655,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Back_Fracture_11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6300000000000001,
+            1.25,
+            0.3
+          ]
+        },
+        "position": [
+          1.2349999999999999,
+          1.875,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5166000000000001,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          1.2349999999999999,
+          2.425,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Back_Fracture_12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3700000000000001,
+            1.0299999999999998,
+            0.3
+          ]
+        },
+        "position": [
+          1.7349999999999999,
+          1.765,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.30340000000000006,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          1.7349999999999999,
+          2.2049999999999996,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Back_Fracture_13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8199999999999998,
+            1.5699999999999998,
+            0.3
+          ]
+        },
+        "position": [
+          2.33,
+          2.035,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6723999999999998,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          2.33,
+          2.7449999999999997,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Back_Fracture_14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5100000000000002,
+            1.4900000000000002,
+            0.3
+          ]
+        },
+        "position": [
+          2.995,
+          1.995,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4182000000000002,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          2.995,
+          2.665,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Back_Fracture_15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.41999999999999993,
+            1.33,
+            0.3
+          ]
+        },
+        "position": [
+          3.46,
+          1.915,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.34439999999999993,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          3.46,
+          2.505,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Back_Fracture_16",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6299999999999999,
+            0.9700000000000002,
+            0.3
+          ]
+        },
+        "position": [
+          3.985,
+          1.735,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_16",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5165999999999998,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          3.985,
+          2.145,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Back_Fracture_17",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3700000000000001,
+            0.8300000000000001,
+            0.3
+          ]
+        },
+        "position": [
+          4.484999999999999,
+          1.665,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_17",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.30340000000000006,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          4.484999999999999,
+          2.005,
+          -4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Back_Fracture_18",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.33000000000000007,
+            0.5800000000000001,
+            0.3
+          ]
+        },
+        "position": [
+          4.835,
+          1.54,
+          -4
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Back_Exposed_18",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27060000000000006,
+            0.15,
+            0.32
+          ]
+        },
+        "position": [
+          4.835,
+          1.7550000000000001,
+          -4
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "EastBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.25,
+            8
+          ]
+        },
+        "position": [
+          5,
+          0.625,
+          0
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Stone_159",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          -3.645
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_160",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          -3.015
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_161",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          -2.3850000000000002
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_162",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          -1.7550000000000006
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_163",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          -1.1250000000000007
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_164",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          -0.4950000000000006
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_165",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          0.1349999999999994
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_166",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          0.7649999999999995
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_167",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          1.3949999999999994
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_168",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          2.0249999999999995
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_169",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          2.6549999999999994
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_170",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          3.2849999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_171",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.33500000000000096
+          ]
+        },
+        "position": [
+          5,
+          0.12,
+          3.7974999999999994
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_172",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          -3.645
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_173",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          -3.015
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_174",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          -2.3850000000000002
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_175",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          -1.7550000000000006
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_176",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          -1.1250000000000007
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_177",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          -0.4950000000000006
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_178",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          0.1349999999999994
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_179",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          0.7649999999999995
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_180",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          1.3949999999999994
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_181",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          2.0249999999999995
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_182",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          2.6549999999999994
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_183",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          3.2849999999999993
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_184",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.33500000000000096
+          ]
+        },
+        "position": [
+          5,
+          0.35,
+          3.7974999999999994
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "East_Fracture_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.5699999999999998,
+            0.41999999999999993
+          ]
+        },
+        "position": [
+          5,
+          2.035,
+          -3.79
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.34439999999999993
+          ]
+        },
+        "position": [
+          5,
+          2.7449999999999997,
+          -3.79
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "East_Fracture_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.4900000000000002,
+            0.6299999999999999
+          ]
+        },
+        "position": [
+          5,
+          1.995,
+          -3.265
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.5165999999999998
+          ]
+        },
+        "position": [
+          5,
+          2.665,
+          -3.265
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "East_Fracture_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.33,
+            0.3700000000000001
+          ]
+        },
+        "position": [
+          5,
+          1.915,
+          -2.765
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.30340000000000006
+          ]
+        },
+        "position": [
+          5,
+          2.505,
+          -2.765
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "East_Fracture_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.9700000000000002,
+            0.8199999999999998
+          ]
+        },
+        "position": [
+          5,
+          1.735,
+          -2.17
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.6723999999999998
+          ]
+        },
+        "position": [
+          5,
+          2.145,
+          -2.17
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "East_Fracture_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8300000000000001,
+            0.51
+          ]
+        },
+        "position": [
+          5,
+          1.665,
+          -1.5050000000000003
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.41819999999999996
+          ]
+        },
+        "position": [
+          5,
+          2.005,
+          -1.5050000000000003
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "East_Fracture_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5800000000000001,
+            0.41999999999999993
+          ]
+        },
+        "position": [
+          5,
+          1.54,
+          -1.0400000000000003
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.34439999999999993
+          ]
+        },
+        "position": [
+          5,
+          1.7550000000000001,
+          -1.0400000000000003
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "East_Fracture_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.71,
+            0.63
+          ]
+        },
+        "position": [
+          5,
+          1.605,
+          -0.5150000000000003
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.5166
+          ]
+        },
+        "position": [
+          5,
+          1.885,
+          -0.5150000000000003
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "East_Fracture_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.9300000000000002,
+            0.37
+          ]
+        },
+        "position": [
+          5,
+          1.715,
+          -0.015000000000000291
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.3034
+          ]
+        },
+        "position": [
+          5,
+          2.105,
+          -0.015000000000000291
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "East_Fracture_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.2200000000000002,
+            0.82
+          ]
+        },
+        "position": [
+          5,
+          1.86,
+          0.5799999999999996
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.6723999999999999
+          ]
+        },
+        "position": [
+          5,
+          2.395,
+          0.5799999999999996
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "East_Fracture_9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.4100000000000001,
+            0.5099999999999999
+          ]
+        },
+        "position": [
+          5,
+          1.955,
+          1.2449999999999997
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.4181999999999999
+          ]
+        },
+        "position": [
+          5,
+          2.585,
+          1.2449999999999997
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "East_Fracture_10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.48,
+            0.41999999999999993
+          ]
+        },
+        "position": [
+          5,
+          1.99,
+          1.7099999999999995
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.34439999999999993
+          ]
+        },
+        "position": [
+          5,
+          2.655,
+          1.7099999999999995
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "East_Fracture_11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.25,
+            0.6299999999999999
+          ]
+        },
+        "position": [
+          5,
+          1.875,
+          2.2349999999999994
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.5165999999999998
+          ]
+        },
+        "position": [
+          5,
+          2.425,
+          2.2349999999999994
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "East_Fracture_12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.0299999999999998,
+            0.3700000000000001
+          ]
+        },
+        "position": [
+          5,
+          1.765,
+          2.7349999999999994
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.30340000000000006
+          ]
+        },
+        "position": [
+          5,
+          2.2049999999999996,
+          2.7349999999999994
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "East_Fracture_13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.5699999999999998,
+            0.8199999999999998
+          ]
+        },
+        "position": [
+          5,
+          2.035,
+          3.329999999999999
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.6723999999999998
+          ]
+        },
+        "position": [
+          5,
+          2.7449999999999997,
+          3.329999999999999
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "East_Fracture_14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            1.4900000000000002,
+            0.2600000000000007
+          ]
+        },
+        "position": [
+          5,
+          1.995,
+          3.8699999999999997
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "East_Exposed_14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.15,
+            0.21320000000000053
+          ]
+        },
+        "position": [
+          5,
+          2.665,
+          3.8699999999999997
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "PartitionLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            3.05,
+            3
+          ]
+        },
+        "position": [
+          0,
+          1.525,
+          -2.5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Stone_185",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.645
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_186",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -3.015
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_187",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -2.3850000000000002
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_188",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.7550000000000006
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_189",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.37500000000000056
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          -1.2225000000000004
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_190",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          -3.645
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_191",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          -3.015
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_192",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          -2.3850000000000002
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_193",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          -1.7550000000000006
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_194",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.37500000000000056
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          -1.2225000000000004
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_195",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.018,
+            0.58,
+            0.88
+          ]
+        },
+        "position": [
+          -0.152,
+          0.96,
+          -3.3
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_196",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.67,
+          -1.24
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_197",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.67,
+          -1.54
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_198",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.8300000000000001,
+          -1.33
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_199",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.8300000000000001,
+          -1.6300000000000001
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_200",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.99,
+          -1.24
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_201",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.99,
+          -1.54
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_202",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.018,
+            0.58,
+            0.88
+          ]
+        },
+        "position": [
+          0.152,
+          0.96,
+          -3.3
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_203",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.67,
+          -1.24
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_204",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.67,
+          -1.54
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_205",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.8300000000000001,
+          -1.33
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_206",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.8300000000000001,
+          -1.6300000000000001
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_207",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.99,
+          -1.24
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_208",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.99,
+          -1.54
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "PartitionRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            3.05,
+            3
+          ]
+        },
+        "position": [
+          0,
+          1.525,
+          2.5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Stone_209",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.355
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_210",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          1.985
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_211",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          2.615
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_212",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.245
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_213",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.3750000000000001
+          ]
+        },
+        "position": [
+          0,
+          0.12,
+          3.7775
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_214",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          1.355
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_215",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          1.985
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Stone_216",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          2.615
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_217",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.57
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          3.245
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Stone_218",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.318,
+            0.2,
+            0.3750000000000001
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          3.7775
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_219",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.018,
+            0.58,
+            0.88
+          ]
+        },
+        "position": [
+          -0.152,
+          0.96,
+          1.7
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_220",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.67,
+          3.76
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_221",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.67,
+          3.46
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_222",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.8300000000000001,
+          3.67
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_223",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.8300000000000001,
+          3.37
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_224",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.99,
+          3.76
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_225",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          -0.159,
+          0.99,
+          3.46
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Repair_226",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.018,
+            0.58,
+            0.88
+          ]
+        },
+        "position": [
+          0.152,
+          0.96,
+          1.7
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Brick_227",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.67,
+          3.76
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_228",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.67,
+          3.46
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_229",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.8300000000000001,
+          3.67
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_230",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.8300000000000001,
+          3.37
+        ],
+        "material": "brickLight"
+      },
+      {
+        "id": "Brick_231",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.99,
+          3.76
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "Brick_232",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.02,
+            0.13,
+            0.27
+          ]
+        },
+        "position": [
+          0.159,
+          0.99,
+          3.46
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "PartitionLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.6999999999999997,
+            2
+          ]
+        },
+        "position": [
+          0,
+          2.7,
+          0
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "Header_233",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.34,
+            0.2,
+            2.24
+          ]
+        },
+        "position": [
+          0,
+          2.46,
+          0
+        ],
+        "material": "stone"
+      },
+      {
+        "id": "Roof_RemnantWest",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.08,
+            0.14,
+            8.43
+          ]
+        },
+        "position": [
+          -2.6900000000000004,
+          3.39,
+          0.015000000000000124
+        ],
+        "material": "metal",
+        "rotation": [
+          0,
+          0,
+          5
+        ]
+      },
+      {
+        "id": "RoofRib_234",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          -2.42,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_235",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          -2.04,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_236",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          -1.6600000000000001,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_237",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          -1.2800000000000002,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_238",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          -0.9000000000000002,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_239",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          -0.5200000000000002,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_240",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          -0.14000000000000024,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_241",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          0.23999999999999977,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_242",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          0.6199999999999998,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_243",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          0.9999999999999998,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_244",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          1.38,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_245",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          1.7599999999999998,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_246",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          2.1399999999999997,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofRib_247",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            8.4
+          ]
+        },
+        "position": [
+          2.5199999999999996,
+          0.086,
+          0
+        ],
+        "material": "metal",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "RoofPatch_248",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.35,
+            0.026,
+            1.8
+          ]
+        },
+        "position": [
+          0.8128000000000001,
+          0.09,
+          1.0115999999999998
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantWest"
+      },
+      {
+        "id": "Roof_RemnantFront",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.15,
+            0.14,
+            1.5
+          ]
+        },
+        "position": [
+          2.625,
+          3.22,
+          3.45
+        ],
+        "material": "rust",
+        "rotation": [
+          0,
+          0,
+          -2
+        ]
+      },
+      {
+        "id": "RoofRib_249",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          -2.455,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_250",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          -2.075,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_251",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          -1.6950000000000003,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_252",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          -1.3150000000000004,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_253",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          -0.9350000000000004,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_254",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          -0.5550000000000004,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_255",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          -0.17500000000000038,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_256",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          0.20499999999999963,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_257",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          0.5849999999999996,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_258",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          0.9649999999999996,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_259",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          1.3449999999999998,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_260",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          1.7249999999999996,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_261",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          2.1049999999999995,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofRib_262",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            0.04,
+            1.47
+          ]
+        },
+        "position": [
+          2.4849999999999994,
+          0.086,
+          0
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "RoofPatch_263",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.35,
+            0.026,
+            0.75
+          ]
+        },
+        "position": [
+          0.8240000000000001,
+          0.09,
+          0.18
+        ],
+        "material": "rust",
+        "parent": "Roof_RemnantFront"
+      },
+      {
+        "id": "Roof_BrokenRafterA",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.25,
+            0.16,
+            0.14
+          ]
+        },
+        "position": [
+          0.48,
+          3.17,
+          2.4
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "Roof_BrokenRafterB",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.95,
+            0.14,
+            0.15
+          ]
+        },
+        "position": [
+          0.33,
+          3.14,
+          -2.9
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "Cot",
+        "shape": {
+          "type": "box",
+          "size": [
+            1,
+            0.36,
+            1.95
+          ]
+        },
+        "position": [
+          -4.1,
+          0.18,
+          -2.4
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "CotMat",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.95,
+            0.12,
+            1.85
+          ]
+        },
+        "position": [
+          -4.1,
+          0.42,
+          -2.4
+        ],
+        "material": "cloth"
+      },
+      {
+        "id": "CotPillow",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7,
+            0.1,
+            0.36
+          ]
+        },
+        "position": [
+          -4.1,
+          0.53,
+          -3.04
+        ],
+        "material": "lime"
+      },
+      {
+        "id": "Rubble_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.14,
+            0.3
+          ]
+        },
+        "position": [
+          3.8,
+          0.07,
+          -3.35
+        ],
+        "material": "stone",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "Rubble_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.325,
+            0.19,
+            0.3
+          ]
+        },
+        "position": [
+          4.12,
+          0.095,
+          -3.35
+        ],
+        "material": "brick",
+        "rotation": [
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "id": "Rubble_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.35,
+            0.14,
+            0.3
+          ]
+        },
+        "position": [
+          3.8,
+          0.07,
+          -3.0300000000000002
+        ],
+        "material": "stone",
+        "rotation": [
+          0,
+          38,
+          0
+        ]
+      },
+      {
+        "id": "Rubble_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.375,
+            0.19,
+            0.3
+          ]
+        },
+        "position": [
+          4.12,
+          0.095,
+          -3.0300000000000002
+        ],
+        "material": "brick",
+        "rotation": [
+          0,
+          57,
+          0
+        ]
+      },
+      {
+        "id": "Rubble_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.14,
+            0.3
+          ]
+        },
+        "position": [
+          3.85,
+          0.07,
+          2.7
+        ],
+        "material": "stone",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "Rubble_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.325,
+            0.19,
+            0.3
+          ]
+        },
+        "position": [
+          4.17,
+          0.095,
+          2.7
+        ],
+        "material": "brick",
+        "rotation": [
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "id": "Rubble_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.35,
+            0.14,
+            0.3
+          ]
+        },
+        "position": [
+          3.85,
+          0.07,
+          3.02
+        ],
+        "material": "stone",
+        "rotation": [
+          0,
+          38,
+          0
+        ]
+      },
+      {
+        "id": "Rubble_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.375,
+            0.19,
+            0.3
+          ]
+        },
+        "position": [
+          4.17,
+          0.095,
+          3.02
+        ],
+        "material": "brick",
+        "rotation": [
+          0,
+          57,
+          0
+        ]
+      },
+      {
+        "id": "Sign_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.25,
+            0.45,
+            0.035
+          ]
+        },
+        "position": [
+          -2,
+          2.61,
+          4.18
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Tally_9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.065,
+            0.25,
+            0.05
+          ]
+        },
+        "position": [
+          -2.43,
+          2.61,
+          4.215
+        ],
+        "material": "white"
+      },
+      {
+        "id": "Tally_10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.065,
+            0.25,
+            0.05
+          ]
+        },
+        "position": [
+          -2.25,
+          2.61,
+          4.215
+        ],
+        "material": "white"
+      },
+      {
+        "id": "Tally_11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.065,
+            0.25,
+            0.05
+          ]
+        },
+        "position": [
+          -2.0700000000000003,
+          2.61,
+          4.215
+        ],
+        "material": "white"
+      },
+      {
+        "id": "Tally_12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.065,
+            0.25,
+            0.05
+          ]
+        },
+        "position": [
+          -1.8900000000000001,
+          2.61,
+          4.215
+        ],
+        "material": "white"
+      },
+      {
+        "id": "RoofInfill_264",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.06924544565502178,
+            0.28
+          ]
+        },
+        "position": [
+          -4.870334533153033,
+          3.079622722827511,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_265",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.09024272490124385,
+            0.28
+          ]
+        },
+        "position": [
+          -4.630334533153033,
+          3.090121362450622,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_266",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.11124000414746549,
+            0.28
+          ]
+        },
+        "position": [
+          -4.390334533153033,
+          3.1006200020737325,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_267",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.13223728339368712,
+            0.28
+          ]
+        },
+        "position": [
+          -4.150334533153033,
+          3.1111186416968435,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_268",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.1532345626399092,
+            0.28
+          ]
+        },
+        "position": [
+          -3.9103345331530326,
+          3.1216172813199545,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_269",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.17423184188613083,
+            0.28
+          ]
+        },
+        "position": [
+          -3.6703345331530324,
+          3.1321159209430656,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_270",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.19522912113235247,
+            0.28
+          ]
+        },
+        "position": [
+          -3.430334533153032,
+          3.142614560566176,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_271",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.21622640037857455,
+            0.28
+          ]
+        },
+        "position": [
+          -3.190334533153032,
+          3.153113200189287,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_272",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.23722367962479618,
+            0.28
+          ]
+        },
+        "position": [
+          -2.9503345331530317,
+          3.163611839812398,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_273",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.2582209588710178,
+            0.28
+          ]
+        },
+        "position": [
+          -2.7103345331530315,
+          3.174110479435509,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_274",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.2792182381172399,
+            0.28
+          ]
+        },
+        "position": [
+          -2.4703345331530313,
+          3.18460911905862,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_275",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.3002155173634615,
+            0.28
+          ]
+        },
+        "position": [
+          -2.230334533153031,
+          3.195107758681731,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_276",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.32121279660968316,
+            0.28
+          ]
+        },
+        "position": [
+          -1.9903345331530309,
+          3.2056063983048415,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_277",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.34221007585590524,
+            0.28
+          ]
+        },
+        "position": [
+          -1.7503345331530311,
+          3.2161050379279525,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_278",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.36320735510212687,
+            0.28
+          ]
+        },
+        "position": [
+          -1.510334533153031,
+          3.226603677551063,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_279",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.3842046343483485,
+            0.28
+          ]
+        },
+        "position": [
+          -1.2703345331530311,
+          3.237102317174174,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_280",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.40520191359457014,
+            0.28
+          ]
+        },
+        "position": [
+          -1.030334533153031,
+          3.247600956797285,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_281",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.4261991928407922,
+            0.28
+          ]
+        },
+        "position": [
+          -0.790334533153031,
+          3.2580995964203963,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_282",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.44719647208701385,
+            0.28
+          ]
+        },
+        "position": [
+          -0.550334533153031,
+          3.268598236043507,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_283",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04066906630606426,
+            0.4594741528391073,
+            0.28
+          ]
+        },
+        "position": [
+          -0.4099999999999989,
+          3.2747370764195534,
+          -3.9699999999999993
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_284",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.06924544565502178,
+            0.28
+          ]
+        },
+        "position": [
+          -4.870334533153033,
+          3.079622722827511,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_285",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.09024272490124385,
+            0.28
+          ]
+        },
+        "position": [
+          -4.630334533153033,
+          3.090121362450622,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_286",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.11124000414746549,
+            0.28
+          ]
+        },
+        "position": [
+          -4.390334533153033,
+          3.1006200020737325,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_287",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.13223728339368712,
+            0.28
+          ]
+        },
+        "position": [
+          -4.150334533153033,
+          3.1111186416968435,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_288",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.1532345626399092,
+            0.28
+          ]
+        },
+        "position": [
+          -3.9103345331530326,
+          3.1216172813199545,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_289",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.17423184188613083,
+            0.28
+          ]
+        },
+        "position": [
+          -3.6703345331530324,
+          3.1321159209430656,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_290",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.19522912113235247,
+            0.28
+          ]
+        },
+        "position": [
+          -3.430334533153032,
+          3.142614560566176,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_291",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.21622640037857455,
+            0.28
+          ]
+        },
+        "position": [
+          -3.190334533153032,
+          3.153113200189287,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_292",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.23722367962479618,
+            0.28
+          ]
+        },
+        "position": [
+          -2.9503345331530317,
+          3.163611839812398,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_293",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.2582209588710178,
+            0.28
+          ]
+        },
+        "position": [
+          -2.7103345331530315,
+          3.174110479435509,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_294",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.2792182381172399,
+            0.28
+          ]
+        },
+        "position": [
+          -2.4703345331530313,
+          3.18460911905862,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_295",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.3002155173634615,
+            0.28
+          ]
+        },
+        "position": [
+          -2.230334533153031,
+          3.195107758681731,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_296",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.32121279660968316,
+            0.28
+          ]
+        },
+        "position": [
+          -1.9903345331530309,
+          3.2056063983048415,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_297",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.34221007585590524,
+            0.28
+          ]
+        },
+        "position": [
+          -1.7503345331530311,
+          3.2161050379279525,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_298",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.36320735510212687,
+            0.28
+          ]
+        },
+        "position": [
+          -1.510334533153031,
+          3.226603677551063,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_299",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.3842046343483485,
+            0.28
+          ]
+        },
+        "position": [
+          -1.2703345331530311,
+          3.237102317174174,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_300",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.40520191359457014,
+            0.28
+          ]
+        },
+        "position": [
+          -1.030334533153031,
+          3.247600956797285,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_301",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.4261991928407922,
+            0.28
+          ]
+        },
+        "position": [
+          -0.790334533153031,
+          3.2580995964203963,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_302",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.44719647208701385,
+            0.28
+          ]
+        },
+        "position": [
+          -0.550334533153031,
+          3.268598236043507,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_303",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04066906630606426,
+            0.4594741528391073,
+            0.28
+          ]
+        },
+        "position": [
+          -0.4099999999999989,
+          3.2747370764195534,
+          4
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofEave_304",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            0.05874680603191118,
+            7.97
+          ]
+        },
+        "position": [
+          -4.9903345331530335,
+          3.0743734030159553,
+          0.015000000000000124
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RoofEave_305",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            0.4612531939680893,
+            7.97
+          ]
+        },
+        "position": [
+          -0.3896654668469668,
+          3.2756265969840443,
+          0.015000000000000124
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RoofInfill_306",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.1676439346868288,
+            0.28
+          ]
+        },
+        "position": [
+          0.4015686204258281,
+          3.1288219673434146,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_307",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.15926295000880897,
+            0.28
+          ]
+        },
+        "position": [
+          0.6415686204258281,
+          3.1246314750044046,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_308",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.15088196533078957,
+            0.28
+          ]
+        },
+        "position": [
+          0.8815686204258281,
+          3.1204409826653947,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_309",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.14250098065277017,
+            0.28
+          ]
+        },
+        "position": [
+          1.121568620425828,
+          3.116250490326385,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_310",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.13411999597475077,
+            0.28
+          ]
+        },
+        "position": [
+          1.3615686204258282,
+          3.1120599979873753,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_311",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.12573901129673137,
+            0.28
+          ]
+        },
+        "position": [
+          1.601568620425828,
+          3.107869505648366,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_312",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.11735802661871197,
+            0.28
+          ]
+        },
+        "position": [
+          1.8415686204258281,
+          3.103679013309356,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_313",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.10897704194069258,
+            0.28
+          ]
+        },
+        "position": [
+          2.081568620425828,
+          3.099488520970346,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_314",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.10059605726267318,
+            0.28
+          ]
+        },
+        "position": [
+          2.321568620425828,
+          3.0952980286313365,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_315",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.09221507258465333,
+            0.28
+          ]
+        },
+        "position": [
+          2.5615686204258283,
+          3.0911075362923266,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_316",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.08383408790663394,
+            0.28
+          ]
+        },
+        "position": [
+          2.8015686204258285,
+          3.086917043953317,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_317",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.07545310322861454,
+            0.28
+          ]
+        },
+        "position": [
+          3.0415686204258288,
+          3.082726551614307,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_318",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.06707211855059514,
+            0.28
+          ]
+        },
+        "position": [
+          3.281568620425829,
+          3.0785360592752973,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_319",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.05869113387257574,
+            0.28
+          ]
+        },
+        "position": [
+          3.521568620425829,
+          3.074345566936288,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_320",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.05031014919455634,
+            0.28
+          ]
+        },
+        "position": [
+          3.7615686204258294,
+          3.0701550745972783,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_321",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.04192916451653694,
+            0.28
+          ]
+        },
+        "position": [
+          4.00156862042583,
+          3.0659645822582684,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_322",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.0335481798385171,
+            0.28
+          ]
+        },
+        "position": [
+          4.24156862042583,
+          3.0617740899192585,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_323",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.025167195160497702,
+            0.28
+          ]
+        },
+        "position": [
+          4.48156862042583,
+          3.0575835975802486,
+          2.93
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_324",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.1676439346868288,
+            0.28
+          ]
+        },
+        "position": [
+          0.4015686204258281,
+          3.1288219673434146,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_325",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.15926295000880897,
+            0.28
+          ]
+        },
+        "position": [
+          0.6415686204258281,
+          3.1246314750044046,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_326",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.15088196533078957,
+            0.28
+          ]
+        },
+        "position": [
+          0.8815686204258281,
+          3.1204409826653947,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_327",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.14250098065277017,
+            0.28
+          ]
+        },
+        "position": [
+          1.121568620425828,
+          3.116250490326385,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_328",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.13411999597475077,
+            0.28
+          ]
+        },
+        "position": [
+          1.3615686204258282,
+          3.1120599979873753,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_329",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.12573901129673137,
+            0.28
+          ]
+        },
+        "position": [
+          1.601568620425828,
+          3.107869505648366,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_330",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.11735802661871197,
+            0.28
+          ]
+        },
+        "position": [
+          1.8415686204258281,
+          3.103679013309356,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_331",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.10897704194069258,
+            0.28
+          ]
+        },
+        "position": [
+          2.081568620425828,
+          3.099488520970346,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_332",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.10059605726267318,
+            0.28
+          ]
+        },
+        "position": [
+          2.321568620425828,
+          3.0952980286313365,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_333",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.09221507258465333,
+            0.28
+          ]
+        },
+        "position": [
+          2.5615686204258283,
+          3.0911075362923266,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_334",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.08383408790663394,
+            0.28
+          ]
+        },
+        "position": [
+          2.8015686204258285,
+          3.086917043953317,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_335",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.07545310322861454,
+            0.28
+          ]
+        },
+        "position": [
+          3.0415686204258288,
+          3.082726551614307,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_336",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.06707211855059514,
+            0.28
+          ]
+        },
+        "position": [
+          3.281568620425829,
+          3.0785360592752973,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_337",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.05869113387257574,
+            0.28
+          ]
+        },
+        "position": [
+          3.521568620425829,
+          3.074345566936288,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_338",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.05031014919455634,
+            0.28
+          ]
+        },
+        "position": [
+          3.7615686204258294,
+          3.0701550745972783,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_339",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.04192916451653694,
+            0.28
+          ]
+        },
+        "position": [
+          4.00156862042583,
+          3.0659645822582684,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_340",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.0335481798385171,
+            0.28
+          ]
+        },
+        "position": [
+          4.24156862042583,
+          3.0617740899192585,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofInfill_341",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.025167195160497702,
+            0.28
+          ]
+        },
+        "position": [
+          4.48156862042583,
+          3.0575835975802486,
+          3.97
+        ],
+        "material": "brick"
+      },
+      {
+        "id": "RoofEave_342",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            0.1718344270258383,
+            1.04
+          ]
+        },
+        "position": [
+          0.2815686204258281,
+          3.130917213512919,
+          3.45
+        ],
+        "material": "wood"
+      }
+    ],
+    "sockets": []
+  },
+  "roofMode": "partial"
+}

@@ -1,0 +1,255 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_Consumable_004_EnergyDrink",
+  "type": "static",
+  "materials": {
+    "white": {
+      "color": "#D9DACD",
+      "roughness": 0.92
+    },
+    "dark": {
+      "color": "#293638",
+      "roughness": 0.78
+    },
+    "metal": {
+      "color": "#929D9E",
+      "metalness": 0.7,
+      "roughness": 0.4
+    },
+    "red": {
+      "color": "#A8463D",
+      "roughness": 0.65
+    },
+    "orange": {
+      "color": "#D2A13D",
+      "roughness": 0.68
+    },
+    "blue": {
+      "color": "#397B98",
+      "roughness": 0.65
+    },
+    "green": {
+      "color": "#568A70",
+      "roughness": 0.65
+    },
+    "purple": {
+      "color": "#70688B",
+      "roughness": 0.65
+    },
+    "label": {
+      "color": "#DFD5B8",
+      "roughness": 0.95
+    },
+    "hole": {
+      "color": "#101B20",
+      "roughness": 1
+    }
+  },
+  "parts": [
+    {
+      "id": "CanBody",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.032,
+        "radiusBottom": 0.032,
+        "height": 0.112
+      },
+      "position": [
+        0,
+        0.06099999988824129,
+        0
+      ],
+      "material": "blue"
+    },
+    {
+      "id": "BottomRim",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.033,
+        "radiusBottom": 0.033,
+        "height": 0.01
+      },
+      "position": [
+        0,
+        0.004999999888241291,
+        0
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "TopShoulder",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.029,
+        "radiusBottom": 0.032,
+        "height": 0.012
+      },
+      "position": [
+        0,
+        0.11799999988824128,
+        0
+      ],
+      "material": "blue"
+    },
+    {
+      "id": "CanTop",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.03,
+        "radiusBottom": 0.03,
+        "height": 0.006
+      },
+      "position": [
+        0,
+        0.1259999998882413,
+        0
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "DrinkOpening",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.012,
+          0.001,
+          0.019
+        ]
+      },
+      "position": [
+        0,
+        0.1299999998882413,
+        0.009
+      ],
+      "material": "hole"
+    },
+    {
+      "id": "TabL",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.003,
+          0.019
+        ]
+      },
+      "position": [
+        -0.007,
+        0.1319999998882413,
+        -0.004
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "TabR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.003,
+          0.019
+        ]
+      },
+      "position": [
+        0.007,
+        0.1319999998882413,
+        -0.004
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "TabTop",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.015,
+          0.003,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.1319999998882413,
+        -0.013
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "BoltUpper",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.011,
+          0.036,
+          0.003
+        ]
+      },
+      "position": [
+        0.001,
+        0.07799999988824129,
+        0.032
+      ],
+      "material": "orange",
+      "rotation": [
+        0,
+        0,
+        -27
+      ]
+    },
+    {
+      "id": "BoltLower",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.011,
+          0.035,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.05199999988824129,
+        0.032
+      ],
+      "material": "orange",
+      "rotation": [
+        0,
+        0,
+        -27
+      ]
+    },
+    {
+      "id": "BoltCenter",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.023,
+          0.009,
+          0.003
+        ]
+      },
+      "position": [
+        0,
+        0.06499999988824129,
+        0.033
+      ],
+      "material": "orange"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "Grip_R",
+      "parent": "CanBody",
+      "position": [
+        0,
+        0.048999999999999995,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        180
+      ]
+    }
+  ]
+}

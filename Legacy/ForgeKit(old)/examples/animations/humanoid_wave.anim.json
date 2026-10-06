@@ -1,0 +1,112 @@
+{
+  "schema": "animation.v1",
+  "id": "animation.humanoid.wave",
+  "rig": "humanoid.v1",
+  "duration": 2,
+  "loop": false,
+  "mode": "timeline",
+  "tracks": {
+    "UpperArm_L": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          -82
+        ]
+      },
+      {
+        "time": 2,
+        "rotation": [
+          0,
+          0,
+          -82
+        ]
+      }
+    ],
+    "UpperArm_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          82
+        ]
+      },
+      {
+        "time": 0.4,
+        "rotation": [
+          0,
+          0,
+          -30
+        ]
+      },
+      {
+        "time": 1.6,
+        "rotation": [
+          0,
+          0,
+          -30
+        ]
+      },
+      {
+        "time": 2,
+        "rotation": [
+          0,
+          0,
+          82
+        ]
+      }
+    ],
+    "LowerArm_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.6,
+        "rotation": [
+          0,
+          0,
+          -75
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          0,
+          -35
+        ]
+      },
+      {
+        "time": 1.2,
+        "rotation": [
+          0,
+          0,
+          -75
+        ]
+      },
+      {
+        "time": 1.5,
+        "rotation": [
+          0,
+          0,
+          -35
+        ]
+      },
+      {
+        "time": 2,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

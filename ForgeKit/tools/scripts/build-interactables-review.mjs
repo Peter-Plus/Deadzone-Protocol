@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {build} from 'esbuild';
+import {readLibrary} from '../core/library.js';
+const defs=readLibrary().entries.filter(e=>e.data.rig==='nodes.v1').map(e=>e.data);
+const bytes=p=>readFileSync('assets/FSA(项目使用)/generated/'+p).toString('base64');
+const data=defs.map(d=>({id:d.targetModel,duration:d.duration,model:bytes('models/world/interactables/'+d.targetModel+'.glb'),animation:bytes('animations/world/interactables/'+d.id+'.anim.glb')}));
+mkdirSync('.qa',{recursive:true});writeFileSync('.qa/interactables-data.json',JSON.stringify(data));
+const r=await build({entryPoints:['tools/scripts/interactables-review.js'],bundle:true,write:false,format:'esm',minify:true});
+const html=`<!doctype html><meta charset="utf-8"><title>大型交互物 · 模型与动画验收</title><style>body{margin:20px;background:#141d25;color:#e5eaf0;font:15px system-ui}h1{font-size:23px;margin:8px 0}button,select,input{padding:7px;margin:3px;background:#304351;color:#fff;border:1px solid #71838e;border-radius:4px}#status{color:#b6c7d0}canvas{display:block}input{width:220px}</style><h1>大型交互物 · 正式 GLB 预览</h1><select id="model"><option value="0">空投箱</option><option value="1">附魔台</option><option value="2">大型神秘宝箱</option><option value="3" selected>同尺度总览</option></select><select id="state"></select><select id="element"><option value="fire">火附魔</option><option value="poison">毒附魔</option></select><button id="play">播放</button><button id="unlock">封印消退</button><button id="front">正面</button><button id="side">侧面</button><button id="back">背面</button><button id="persp">透视</button><input id="time" type="range" min="0" max="1" step="0.001"><span id="clock"></span><p id="status"></p><div id="view"></div><p>米制 · +Y 上 / +Z 前 · 灰色标尺高 1.8m · 左键拖动旋转 · 两个实例独立状态 · 仅资产表现，玩法未接入</p><script type="module">${r.outputFiles[0].text}</script>`;
+writeFileSync('.qa/Interactables-Review.html',html);
+console.log('Built self-contained .qa/Interactables-Review.html');

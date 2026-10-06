@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "fsa.character.andel",
+      "name": "安黛尔",
+      "category": "character",
+      "description": "灰蓝野外装、赤褐马尾与暖色围巾",
+      "definition": "definitions/models/characters/player/andel.model.json",
+      "model": "generated/models/characters/player/andel.glb",
+      "compatibleAnimationCount": 26,
+      "parts": 70,
+      "rig": "humanoid.v1",
+      "animationCatalog": "laoen-catalog.json",
+      "attachment": {
+        "characterSocket": "weapon_mount",
+        "parentBone": "Arm_L",
+        "weaponSocket": "grip_main",
+        "ik": false
+      }
+    },
+    {
+      "id": "fsa.character.joe",
+      "name": "乔",
+      "category": "character",
+      "description": "黑色战术装、装甲背心、头盔、护目镜与面罩",
+      "definition": "definitions/models/characters/player/joe.model.json",
+      "model": "generated/models/characters/player/joe.glb",
+      "compatibleAnimationCount": 26,
+      "parts": 89,
+      "rig": "humanoid.v1",
+      "animationCatalog": "laoen-catalog.json",
+      "attachment": {
+        "characterSocket": "weapon_mount",
+        "parentBone": "Arm_L",
+        "weaponSocket": "grip_main",
+        "ik": false
+      }
+    },
+    {
+      "id": "fsa.weapon.melee_dagger",
+      "name": "匕首",
+      "category": "melee",
+      "description": "深色防滑握柄、双刃短刀造型",
+      "action": "melee",
+      "definition": "definitions/models/weapons/melee/melee_dagger.model.json",
+      "model": "generated/models/weapons/melee/melee_dagger.glb",
+      "parts": 15,
+      "gripSocket": "grip_main",
+      "actionLayer": "arms"
+    },
+    {
+      "id": "fsa.weapon.melee_military_hatchet",
+      "name": "军用手斧",
+      "category": "melee",
+      "description": "短柄战术斧、深色骨架与银灰刃口",
+      "action": "melee",
+      "definition": "definitions/models/weapons/melee/melee_military_hatchet.model.json",
+      "model": "generated/models/weapons/melee/melee_military_hatchet.glb",
+      "parts": 21,
+      "gripSocket": "grip_main",
+      "actionLayer": "arms"
+    },
+    {
+      "id": "fsa.weapon.throwable_grenade",
+      "name": "手雷",
+      "category": "throwable",
+      "description": "橄榄绿色分块弹体、外观拉环与压柄",
+      "action": "throw",
+      "definition": "definitions/models/weapons/throwables/throwable_grenade.model.json",
+      "model": "generated/models/weapons/throwables/throwable_grenade.glb",
+      "parts": 44,
+      "gripSocket": "grip_main",
+      "actionLayer": "arms"
+    }
+  ],
+  "notes": [
+    "两个角色保持劳恩骨架与比例，共用已有 26 段动画。",
+    "匕首与手斧复用 arms/melee；手雷复用 arms/throw。",
+    "当前 throw 动画挥动右臂：投掷手雷应由游戏临时挂到右臂末端的表现层挂点，或在释放帧从该位置生成投掷物。角色模型唯一 weapon_mount 仍在左臂，未新增握持点。",
+    "throw_release 时由游戏解绑或生成投掷物并驱动物理；模型不包含爆炸效果、伤害逻辑或动画。"
+  ]
+}

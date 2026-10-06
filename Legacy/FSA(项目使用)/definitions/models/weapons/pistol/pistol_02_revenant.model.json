@@ -1,0 +1,570 @@
+{
+  "schema": "model.v1",
+  "id": "fsa.weapon.pistol_02_revenant",
+  "type": "static",
+  "materials": {
+    "body": {
+      "color": "#987451",
+      "roughness": 0.64,
+      "metalness": 0.4
+    },
+    "steel": {
+      "color": "#333d45",
+      "metalness": 0.8,
+      "roughness": 0.36
+    },
+    "edge": {
+      "color": "#727e86",
+      "metalness": 0.72,
+      "roughness": 0.34
+    },
+    "rubber": {
+      "color": "#20292c",
+      "roughness": 0.97
+    },
+    "dark": {
+      "color": "#10191d",
+      "roughness": 0.88
+    },
+    "wood": {
+      "color": "#805237",
+      "roughness": 0.83
+    },
+    "glass": {
+      "color": "#3b919e",
+      "metalness": 0.45,
+      "roughness": 0.16
+    },
+    "accent": {
+      "color": "#d3b975",
+      "metalness": 0.55,
+      "roughness": 0.4
+    }
+  },
+  "parts": [
+    {
+      "id": "grip",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.037,
+          0.125,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        -0.014,
+        -0.006
+      ],
+      "material": "rubber",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_tang",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.037,
+          0.083,
+          0.062
+        ]
+      },
+      "position": [
+        0,
+        0.071,
+        -0.023
+      ],
+      "material": "body"
+    },
+    {
+      "id": "grip_rib_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.039,
+          0.006,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        -0.057,
+        -0.004
+      ],
+      "material": "dark",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_rib_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.039,
+          0.006,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        -0.038000000000000006,
+        -0.004
+      ],
+      "material": "dark",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_rib_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.039,
+          0.006,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        -0.019000000000000003,
+        -0.004
+      ],
+      "material": "dark",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_rib_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.039,
+          0.006,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        -6.938893903907228e-18,
+        -0.004
+      ],
+      "material": "dark",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_rib_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.039,
+          0.006,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        0.018999999999999996,
+        -0.004
+      ],
+      "material": "dark",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "receiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043,
+          0.057,
+          0.15
+        ]
+      },
+      "position": [
+        0,
+        0.105,
+        0.008
+      ],
+      "material": "body"
+    },
+    {
+      "id": "ejection_port",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.025,
+          0.036
+        ]
+      },
+      "position": [
+        0.0235,
+        0.111,
+        0.05
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "charging_handle",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.014,
+          0.025
+        ]
+      },
+      "position": [
+        0.055,
+        0.13,
+        0.025
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "barrel",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.011,
+        "radiusBottom": 0.011,
+        "height": 0.195
+      },
+      "position": [
+        0,
+        0.105,
+        0.18250000000000002
+      ],
+      "material": "steel",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "muzzle_device",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.021,
+        "radiusBottom": 0.021,
+        "height": 0.047
+      },
+      "position": [
+        0,
+        0.105,
+        0.26
+      ],
+      "material": "steel",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "bore",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.006,
+        "radiusBottom": 0.006,
+        "height": 0.002
+      },
+      "position": [
+        0,
+        0.105,
+        0.28400000000000003
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "revolver_cylinder",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.039,
+        "radiusBottom": 0.039,
+        "height": 0.072
+      },
+      "position": [
+        0,
+        0.09899999999999999,
+        0.027
+      ],
+      "material": "edge",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cylinder_chamber_0",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.009,
+        "height": 0.003
+      },
+      "position": [
+        0,
+        0.124,
+        0.064
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cylinder_chamber_1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.009,
+        "height": 0.003
+      },
+      "position": [
+        0.021650635094610966,
+        0.11149999999999999,
+        0.064
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cylinder_chamber_2",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.009,
+        "height": 0.003
+      },
+      "position": [
+        0.02165063509461097,
+        0.0865,
+        0.064
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cylinder_chamber_3",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.009,
+        "height": 0.003
+      },
+      "position": [
+        3.061616997868383e-18,
+        0.07399999999999998,
+        0.064
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cylinder_chamber_4",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.009,
+        "height": 0.003
+      },
+      "position": [
+        -0.021650635094610963,
+        0.08649999999999998,
+        0.064
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cylinder_chamber_5",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.009,
+        "height": 0.003
+      },
+      "position": [
+        -0.021650635094610966,
+        0.11149999999999999,
+        0.064
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "barrel_underlug",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.035,
+          0.17
+        ]
+      },
+      "position": [
+        0,
+        0.077,
+        0.191
+      ],
+      "material": "body"
+    },
+    {
+      "id": "hammer",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.016,
+          0.04,
+          0.018
+        ]
+      },
+      "position": [
+        0,
+        0.126,
+        -0.063
+      ],
+      "material": "edge",
+      "rotation": [
+        -25,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pistol_rear_sight",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.039,
+          0.014,
+          0.015
+        ]
+      },
+      "position": [
+        0,
+        0.149,
+        -0.043
+      ],
+      "material": "rubber"
+    },
+    {
+      "id": "pistol_front_sight",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.008,
+          0.014,
+          0.013
+        ]
+      },
+      "position": [
+        0,
+        0.148,
+        0.24800000000000003
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "pistol_front_sight_base",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.01,
+          0.03,
+          0.015
+        ]
+      },
+      "position": [
+        0,
+        0.128,
+        0.24800000000000003
+      ],
+      "material": "steel"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "grip_main",
+      "parent": "grip",
+      "position": [
+        0,
+        0.012291474580930105,
+        0.008995535149525521
+      ],
+      "rotation": [
+        13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "muzzle",
+      "parent": "receiver",
+      "position": [
+        0,
+        0,
+        0.278
+      ]
+    },
+    {
+      "id": "aim",
+      "parent": "receiver",
+      "position": [
+        0,
+        0.051,
+        -0.06
+      ]
+    }
+  ]
+}

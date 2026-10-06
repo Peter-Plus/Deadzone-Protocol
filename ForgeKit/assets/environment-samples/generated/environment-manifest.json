@@ -1,0 +1,41 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "ENV_Barrier",
+      "type": "barrier",
+      "sourceHash": "af0a1f95da1c3389f6af497072896f27c2f9f0da5fb8b297f264f40210948fad",
+      "modelHash": "74a2c8f78ee7facf168b5ba0cda86af126077208f27f472e6686104e233bb9f8",
+      "contract": "contracts/ENV_Barrier.environment.json"
+    },
+    {
+      "id": "ENV_Building",
+      "type": "building",
+      "sourceHash": "4013400982cde2e3634c7ff0a162d593ba490b426c3973aebf6dce91227abef5",
+      "modelHash": "dd95d544ca6f19f40f07d04110b2071c601ec12835456272acb575406aa743eb",
+      "contract": "contracts/ENV_Building.environment.json"
+    },
+    {
+      "id": "ENV_Gate",
+      "type": "gate",
+      "sourceHash": "5d6fcff58772141f4e13b7a0a9b1c2a0901cd82e463a8a84dac61866430d47a6",
+      "modelHash": "da42e88a97dc3b910799af11cd40cb4ece5466e712636b85a28482b8af307ee7",
+      "animationHash": "97d70557a42f446bcb783cea7f3f6b6cbe34d8aa788771f775852e543dc899d9",
+      "contract": "contracts/ENV_Gate.environment.json"
+    },
+    {
+      "id": "ENV_Solid",
+      "type": "solid",
+      "sourceHash": "b19d1a98bbfc1514d7200f39be9d86586868a7c4c67ef808196391a63cff2892",
+      "modelHash": "77de329d3ca9abe977c6556c48bb17d56155bf43d44795e7f4a0b646dc8e18c5",
+      "contract": "contracts/ENV_Solid.environment.json"
+    },
+    {
+      "id": "ENV_Terrain",
+      "type": "terrain",
+      "sourceHash": "718e3363899b06102227e1e823440342d8a8da1e2f955c092f31c2aad27f69e7",
+      "modelHash": "e58e476386f0e4451eda3e1912d1378df403f40dc8aeb7ba6adffdd87d64ea53",
+      "contract": "contracts/ENV_Terrain.environment.json"
+    }
+  ]
+}

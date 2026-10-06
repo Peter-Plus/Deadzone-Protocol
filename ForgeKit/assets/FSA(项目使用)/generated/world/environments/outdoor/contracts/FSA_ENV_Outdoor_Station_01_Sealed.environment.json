@@ -1,0 +1,215 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Station_01_Sealed",
+  "label": "废弃站／永久封闭值守站",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3.03,
+      -2.56
+    ],
+    "max": [
+      3.03,
+      2.56
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Foundation",
+      "role": "solid",
+      "position": [
+        0,
+        0.12,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        5.2,
+        0.24,
+        4.2
+      ]
+    },
+    {
+      "node": "SealedBody",
+      "role": "solid",
+      "position": [
+        0,
+        1.665,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        4.9,
+        2.85,
+        3.9
+      ]
+    },
+    {
+      "node": "Roof",
+      "role": "solid",
+      "position": [
+        0,
+        3.21,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        5.35,
+        0.24,
+        4.4
+      ]
+    },
+    {
+      "node": "TopUnit",
+      "role": "solid",
+      "position": [
+        1.35,
+        3.6,
+        -0.8
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.2,
+        0.55,
+        0.85
+      ]
+    },
+    {
+      "node": "FrontShutter",
+      "role": "solid",
+      "position": [
+        -1.15,
+        1.34,
+        2.01
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.55,
+        2.2,
+        0.12
+      ]
+    },
+    {
+      "node": "WindowSeal",
+      "role": "solid",
+      "position": [
+        1,
+        1.98,
+        2.015
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.9,
+        1.15,
+        0.1
+      ]
+    },
+    {
+      "node": "SideSeal_-1",
+      "role": "solid",
+      "position": [
+        -2.49,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.08,
+        0.9,
+        1.5
+      ]
+    },
+    {
+      "node": "SideSeal_1",
+      "role": "solid",
+      "position": [
+        2.49,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.08,
+        0.9,
+        1.5
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "modelAsset": "models/FSA_ENV_Outdoor_Station_01_Sealed.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -2.674999952316284,
+      2.682209010451686e-9,
+      -2.200000047683716
+    ],
+    "max": [
+      2.674999952316284,
+      3.8750000059604646,
+      2.200000047683716
+    ]
+  },
+  "checks": [],
+  "sourceHash": "6553fdac87faa75628a60d62c85ee7978480f9fe073803edcf2df258e5e56538",
+  "modelHash": "88f5489fb24e74914f451ec8862b2b027b921e51592cf3353a568d3945fa386d"
+}

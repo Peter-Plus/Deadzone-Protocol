@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ui_item_flare_gun",
+    "file": "ui_item_flare_gun.png",
+    "name": "信号枪",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-95159f04-89fe-418f-8b82-a8db867ebd0b.png"
+  },
+  {
+    "id": "ui_item_mutation_crystal",
+    "file": "ui_item_mutation_crystal.png",
+    "name": "异变结晶",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-f58bd692-5471-489b-a119-9d99e27ce50d.png"
+  },
+  {
+    "id": "ui_item_fire_demon_core",
+    "file": "ui_item_fire_demon_core.png",
+    "name": "火魔晶核",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-8b4e0278-65d3-4bda-b9da-789d27988132.png"
+  },
+  {
+    "id": "ui_item_vile_core",
+    "file": "ui_item_vile_core.png",
+    "name": "恶毒晶核",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-7c4dafec-4226-46a4-84fa-30c59f111cda.png"
+  }
+]

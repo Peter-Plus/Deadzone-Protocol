@@ -1,0 +1,221 @@
+{
+  "schema": "environment.v1",
+  "id": "ENV_Solid",
+  "label": "报废运输卡车",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "B2": {
+      "radius": 1.34,
+      "height": 3.2,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3,
+      -5
+    ],
+    "max": [
+      3,
+      5
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Chassis",
+      "role": "solid",
+      "position": [
+        0,
+        0.7,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.5,
+        0.65,
+        6.6
+      ]
+    },
+    {
+      "node": "Cabin",
+      "role": "solid",
+      "position": [
+        0,
+        1.75,
+        2.05
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.45,
+        1.85,
+        2.1
+      ]
+    },
+    {
+      "node": "Hood",
+      "role": "solid",
+      "position": [
+        0,
+        1.2,
+        3.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.4,
+        0.8,
+        1.1
+      ]
+    },
+    {
+      "node": "Cargo",
+      "role": "solid",
+      "position": [
+        0,
+        1.85,
+        -1.4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.5,
+        1.9,
+        3.6
+      ]
+    },
+    {
+      "node": "WheelBLCollision",
+      "role": "solid",
+      "position": [
+        -1.24,
+        0.58,
+        -2.3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        1.16,
+        1.16
+      ]
+    },
+    {
+      "node": "WheelBRCollision",
+      "role": "solid",
+      "position": [
+        1.24,
+        0.58,
+        -2.3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        1.16,
+        1.16
+      ]
+    },
+    {
+      "node": "WheelFLCollision",
+      "role": "solid",
+      "position": [
+        -1.24,
+        0.58,
+        2.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        1.16,
+        1.16
+      ]
+    },
+    {
+      "node": "WheelFRCollision",
+      "role": "solid",
+      "position": [
+        1.24,
+        0.58,
+        2.25
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.32,
+        1.16,
+        1.16
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "modelAsset": "models/ENV_Solid.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -1.3999999964237213,
+      1.6689300497141346e-8,
+      -3.299999952316284
+    ],
+    "max": [
+      1.3999999964237213,
+      2.799999988079071,
+      3.650000011920929
+    ]
+  },
+  "checks": [],
+  "sourceHash": "b19d1a98bbfc1514d7200f39be9d86586868a7c4c67ef808196391a63cff2892",
+  "modelHash": "77de329d3ca9abe977c6556c48bb17d56155bf43d44795e7f4a0b646dc8e18c5"
+}

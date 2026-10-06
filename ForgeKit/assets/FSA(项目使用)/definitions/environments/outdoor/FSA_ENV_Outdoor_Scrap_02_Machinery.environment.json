@@ -1,0 +1,483 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Scrap_02_Machinery",
+  "label": "废料堆／机件残骸",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -1.56,
+      -1.08
+    ],
+    "max": [
+      1.75,
+      2.16
+    ]
+  },
+  "colliders": [
+    {
+      "node": "EngineBlock",
+      "role": "solid"
+    },
+    {
+      "node": "Housing",
+      "role": "solid"
+    },
+    {
+      "node": "MotorBase",
+      "role": "solid"
+    },
+    {
+      "node": "MotorCore",
+      "role": "solid"
+    },
+    {
+      "node": "CylinderHead_0",
+      "role": "solid"
+    },
+    {
+      "node": "CylinderHead_1",
+      "role": "solid"
+    },
+    {
+      "node": "CylinderHead_2",
+      "role": "solid"
+    },
+    {
+      "node": "CylinderHead_3",
+      "role": "solid"
+    },
+    {
+      "node": "FallenPanel",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Scrap_02_Machinery",
+    "type": "static",
+    "parts": [
+      {
+        "id": "EngineBlock",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.25,
+            1.1,
+            1.15
+          ]
+        },
+        "position": [
+          -0.45,
+          0.55,
+          0
+        ],
+        "rotation": [
+          0,
+          -16,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Housing",
+        "shape": {
+          "type": "box",
+          "size": [
+            1,
+            0.7,
+            1.5
+          ]
+        },
+        "position": [
+          0.55,
+          0.35,
+          0.25
+        ],
+        "rotation": [
+          0,
+          20,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "MotorBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.22,
+            1.45
+          ]
+        },
+        "position": [
+          0.35,
+          0.85,
+          0.15
+        ],
+        "rotation": [
+          0,
+          20,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "MotorCore",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.58,
+            0.58,
+            1.25
+          ]
+        },
+        "position": [
+          0.35,
+          1.18,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Motor",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.42,
+          "radiusBottom": 0.42,
+          "height": 1.25
+        },
+        "position": [
+          0.35,
+          1.18,
+          0.15
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CoolingRing_0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.45,
+          "radiusBottom": 0.45,
+          "height": 0.055
+        },
+        "position": [
+          0.35,
+          1.18,
+          -0.37
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CoolingRing_1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.45,
+          "radiusBottom": 0.45,
+          "height": 0.055
+        },
+        "position": [
+          0.35,
+          1.18,
+          -0.16999999999999998
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CoolingRing_2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.45,
+          "radiusBottom": 0.45,
+          "height": 0.055
+        },
+        "position": [
+          0.35,
+          1.18,
+          0.030000000000000027
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CoolingRing_3",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.45,
+          "radiusBottom": 0.45,
+          "height": 0.055
+        },
+        "position": [
+          0.35,
+          1.18,
+          0.2300000000000001
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CoolingRing_4",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.45,
+          "radiusBottom": 0.45,
+          "height": 0.055
+        },
+        "position": [
+          0.35,
+          1.18,
+          0.43000000000000005
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CoolingRing_5",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.45,
+          "radiusBottom": 0.45,
+          "height": 0.055
+        },
+        "position": [
+          0.35,
+          1.18,
+          0.63
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CylinderHead_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.24,
+            0.32
+          ]
+        },
+        "position": [
+          -0.65,
+          1.18,
+          0
+        ],
+        "rotation": [
+          0,
+          -16,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "CylinderHead_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.24,
+            0.32
+          ]
+        },
+        "position": [
+          -0.38,
+          1.18,
+          0
+        ],
+        "rotation": [
+          0,
+          -16,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "CylinderHead_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.24,
+            0.32
+          ]
+        },
+        "position": [
+          -0.10999999999999999,
+          1.18,
+          0
+        ],
+        "rotation": [
+          0,
+          -16,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "CylinderHead_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.24,
+            0.32
+          ]
+        },
+        "position": [
+          0.16000000000000003,
+          1.18,
+          0
+        ],
+        "rotation": [
+          0,
+          -16,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FallenPanel",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.13,
+            0.85
+          ]
+        },
+        "position": [
+          0.4,
+          0.1,
+          1.05
+        ],
+        "rotation": [
+          0,
+          -24,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      }
+    ]
+  }
+}

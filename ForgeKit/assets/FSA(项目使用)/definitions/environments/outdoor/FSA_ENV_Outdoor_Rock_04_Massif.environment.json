@@ -1,0 +1,576 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Rock_04_Massif",
+  "label": "石块／宽厚巨岩",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -4.1,
+      -2.8
+    ],
+    "max": [
+      3.27,
+      3.17
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Massif_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "Massif_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "Massif_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "Massif_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "Massif_Core_4",
+      "role": "solid"
+    },
+    {
+      "node": "BrokenShoulder_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "BrokenShoulder_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "BrokenShoulder_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "BrokenShoulder_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "BrokenShoulder_Core_4",
+      "role": "solid"
+    },
+    {
+      "node": "FrontFragment_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "FrontFragment_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "FrontFragment_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "FrontFragment_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "FrontFragment_Core_4",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Rock_04_Massif",
+    "type": "static",
+    "parts": [
+      {
+        "id": "Massif",
+        "shape": {
+          "type": "rock",
+          "size": [
+            5.3,
+            3.65,
+            4.2
+          ],
+          "seed": 804
+        },
+        "position": [
+          0,
+          1.825,
+          0
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#7c7e72",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Massif_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.7128843688964843,
+            0.7263499999999999,
+            1.8787267348345589
+          ]
+        },
+        "position": [
+          -0.37311149922384385,
+          0.365,
+          0.3917394659042354
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#7c7e72",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Massif_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.0305816650390622,
+            0.7263499999999999,
+            2.4015930175781253
+          ]
+        },
+        "position": [
+          -0.4198736611464258,
+          1.095,
+          0.059009394807067746
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#7c7e72",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Massif_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.9851318359375,
+            0.7263499999999999,
+            2.365576171875
+          ]
+        },
+        "position": [
+          0.04676216192258199,
+          1.825,
+          0.3327300710971677
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#7c7e72",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Massif_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.5594885253906248,
+            0.7263499999999999,
+            1.4085235595703125
+          ]
+        },
+        "position": [
+          0.04676216192258199,
+          2.5549999999999997,
+          0.3327300710971677
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#7c7e72",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Massif_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.551763916015625,
+            0.438,
+            0.546533203125
+          ]
+        },
+        "position": [
+          0.04676216192258199,
+          3.2119999999999997,
+          0.3327300710971677
+        ],
+        "rotation": [
+          0,
+          8,
+          0
+        ],
+        "material": {
+          "color": "#7c7e72",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "BrokenShoulder",
+        "shape": {
+          "type": "rock",
+          "size": [
+            2.7,
+            1.85,
+            2.6
+          ],
+          "seed": 814
+        },
+        "position": [
+          -2.05,
+          0.925,
+          0.35
+        ],
+        "rotation": [
+          0,
+          -19,
+          0
+        ],
+        "material": {
+          "color": "#919080",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "BrokenShoulder_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1233657836914064,
+            0.36815,
+            1.0817596435546875
+          ]
+        },
+        "position": [
+          -2.1177181761270885,
+          0.18500000000000005,
+          0.5466678637246579
+        ],
+        "rotation": [
+          0,
+          -19,
+          0
+        ],
+        "material": {
+          "color": "#919080",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "BrokenShoulder_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5378250122070314,
+            0.36815,
+            1.4808685302734375
+          ]
+        },
+        "position": [
+          -2.1177181761270885,
+          0.5549999999999999,
+          0.5466678637246579
+        ],
+        "rotation": [
+          0,
+          -19,
+          0
+        ],
+        "material": {
+          "color": "#919080",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "BrokenShoulder_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.4719482421875,
+            0.36815,
+            1.417431640625
+          ]
+        },
+        "position": [
+          -1.913486163797636,
+          0.925,
+          0.6169905850874038
+        ],
+        "rotation": [
+          0,
+          -19,
+          0
+        ],
+        "material": {
+          "color": "#919080",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "BrokenShoulder_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.0536987304687502,
+            0.36815,
+            1.0146728515625
+          ]
+        },
+        "position": [
+          -1.913486163797636,
+          1.295,
+          0.6169905850874038
+        ],
+        "rotation": [
+          0,
+          -19,
+          0
+        ],
+        "material": {
+          "color": "#919080",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "BrokenShoulder_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4756805419921875,
+            0.222,
+            0.45806274414062503
+          ]
+        },
+        "position": [
+          -2.05,
+          1.6280000000000001,
+          0.35
+        ],
+        "rotation": [
+          0,
+          -19,
+          0
+        ],
+        "material": {
+          "color": "#919080",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontFragment",
+        "shape": {
+          "type": "rock",
+          "size": [
+            1.6,
+            0.9,
+            1.4
+          ],
+          "seed": 821
+        },
+        "position": [
+          1.7,
+          0.45,
+          1.85
+        ],
+        "rotation": [
+          0,
+          24,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontFragment_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5547619628906251,
+            0.17909999999999998,
+            0.6718570484834558
+          ]
+        },
+        "position": [
+          1.7,
+          0.09000000000000002,
+          1.85
+        ],
+        "rotation": [
+          0,
+          24,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontFragment_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1236816406249999,
+            0.17909999999999998,
+            0.6827926635742188
+          ]
+        },
+        "position": [
+          1.6544454959755104,
+          0.27,
+          1.7476829087440289
+        ],
+        "rotation": [
+          0,
+          24,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontFragment_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9130615234375,
+            0.17909999999999998,
+            0.7989288330078125
+          ]
+        },
+        "position": [
+          1.8169338185782529,
+          0.44999999999999996,
+          1.7979377096862976
+        ],
+        "rotation": [
+          0,
+          24,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontFragment_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6782470703125001,
+            0.17909999999999998,
+            0.5934661865234374
+          ]
+        },
+        "position": [
+          1.8169338185782529,
+          0.63,
+          1.7979377096862976
+        ],
+        "rotation": [
+          0,
+          24,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FrontFragment_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3013916015625,
+            0.108,
+            0.2637176513671875
+          ]
+        },
+        "position": [
+          1.8624883226027424,
+          0.792,
+          1.9002548009422688
+        ],
+        "rotation": [
+          0,
+          24,
+          0
+        ],
+        "material": {
+          "color": "#a09a88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      }
+    ]
+  }
+}

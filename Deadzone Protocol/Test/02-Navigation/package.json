@@ -1,0 +1,13 @@
+{
+  "name": "deadzone-navigation-lab-02",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "check": "node src/verify.mjs",
+    "browser": "node src/browser-check.mjs",
+    "generate": "node src/generate.mjs",
+    "finalize": "node src/finalize.mjs"
+  }
+}

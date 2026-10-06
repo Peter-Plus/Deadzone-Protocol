@@ -1,0 +1,576 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Rock_05_Tower",
+  "label": "石块／高耸裂岩",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -2.86,
+      -2.58
+    ],
+    "max": [
+      3.17,
+      3.09
+    ]
+  },
+  "colliders": [
+    {
+      "node": "TallSpire_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "TallSpire_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "TallSpire_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "TallSpire_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "TallSpire_Core_4",
+      "role": "solid"
+    },
+    {
+      "node": "SplitButtress_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "SplitButtress_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "SplitButtress_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "SplitButtress_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "SplitButtress_Core_4",
+      "role": "solid"
+    },
+    {
+      "node": "FootBoulder_Core_0",
+      "role": "solid"
+    },
+    {
+      "node": "FootBoulder_Core_1",
+      "role": "solid"
+    },
+    {
+      "node": "FootBoulder_Core_2",
+      "role": "solid"
+    },
+    {
+      "node": "FootBoulder_Core_3",
+      "role": "solid"
+    },
+    {
+      "node": "FootBoulder_Core_4",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Rock_05_Tower",
+    "type": "static",
+    "parts": [
+      {
+        "id": "TallSpire",
+        "shape": {
+          "type": "rock",
+          "size": [
+            3.25,
+            5.8,
+            3.3
+          ],
+          "seed": 920
+        },
+        "position": [
+          -0.6,
+          2.9,
+          -0.3
+        ],
+        "rotation": [
+          0,
+          -11,
+          0
+        ],
+        "material": {
+          "color": "#727a73",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "TallSpire_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1933345794677734,
+            1.1542,
+            1.677084530101103
+          ]
+        },
+        "position": [
+          -0.5496264252205921,
+          0.5800000000000001,
+          -0.5591495764301833
+        ],
+        "rotation": [
+          0,
+          -11,
+          0
+        ],
+        "material": {
+          "color": "#727a73",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "TallSpire_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9361839294433594,
+            1.1542,
+            1.9659713745117187
+          ]
+        },
+        "position": [
+          -0.6,
+          1.7399999999999998,
+          -0.3
+        ],
+        "rotation": [
+          0,
+          -11,
+          0
+        ],
+        "material": {
+          "color": "#727a73",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "TallSpire_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5480049133300782,
+            1.1542,
+            2.1755299287683822
+          ]
+        },
+        "position": [
+          -0.34477693230360734,
+          2.9,
+          -0.2503896612020983
+        ],
+        "rotation": [
+          0,
+          -11,
+          0
+        ],
+        "material": {
+          "color": "#727a73",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "TallSpire_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1930395126342772,
+            1.1542,
+            1.6766698500689337
+          ]
+        },
+        "position": [
+          -0.34477693230360734,
+          4.06,
+          -0.2503896612020983
+        ],
+        "rotation": [
+          0,
+          -11,
+          0
+        ],
+        "material": {
+          "color": "#727a73",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "TallSpire_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9232368469238281,
+            0.696,
+            0.9374404907226562
+          ]
+        },
+        "position": [
+          -0.34477693230360734,
+          5.103999999999999,
+          -0.2503896612020983
+        ],
+        "rotation": [
+          0,
+          -11,
+          0
+        ],
+        "material": {
+          "color": "#727a73",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "SplitButtress",
+        "shape": {
+          "type": "rock",
+          "size": [
+            2.8,
+            3.9,
+            2.9
+          ],
+          "seed": 930
+        },
+        "position": [
+          1.05,
+          1.95,
+          0.2
+        ],
+        "rotation": [
+          0,
+          17,
+          0
+        ],
+        "material": {
+          "color": "#8f9184",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "SplitButtress_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.3321874999999999,
+            0.7761,
+            0.9581705729166666
+          ]
+        },
+        "position": [
+          1.05,
+          0.3899999999999999,
+          0.2
+        ],
+        "rotation": [
+          0,
+          17,
+          0
+        ],
+        "material": {
+          "color": "#8f9184",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "SplitButtress_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5133911132812499,
+            0.7761,
+            1.5674407958984375
+          ]
+        },
+        "position": [
+          1.117830235495675,
+          1.17,
+          0.42186270338342424
+        ],
+        "rotation": [
+          0,
+          17,
+          0
+        ],
+        "material": {
+          "color": "#8f9184",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "SplitButtress_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5796142578124999,
+            0.7761,
+            1.636029052734375
+          ]
+        },
+        "position": [
+          1.332042500831395,
+          1.9500000000000002,
+          0.3563714415255312
+        ],
+        "rotation": [
+          0,
+          17,
+          0
+        ],
+        "material": {
+          "color": "#8f9184",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "SplitButtress_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1412597656249999,
+            0.7761,
+            1.18201904296875
+          ]
+        },
+        "position": [
+          1.332042500831395,
+          2.73,
+          0.3563714415255312
+        ],
+        "rotation": [
+          0,
+          17,
+          0
+        ],
+        "material": {
+          "color": "#8f9184",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "SplitButtress_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.107452392578125,
+            0.46799999999999997,
+            0.11128997802734375
+          ]
+        },
+        "position": [
+          1.196382029840045,
+          3.432,
+          -0.08735396524131722
+        ],
+        "rotation": [
+          0,
+          17,
+          0
+        ],
+        "material": {
+          "color": "#8f9184",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FootBoulder",
+        "shape": {
+          "type": "rock",
+          "size": [
+            2,
+            1.2,
+            1.8
+          ],
+          "seed": 943
+        },
+        "position": [
+          -0.9,
+          0.6,
+          1.55
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#a09b88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FootBoulder_Core_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.78106689453125,
+            0.23879999999999998,
+            0.7029602050781251
+          ]
+        },
+        "position": [
+          -0.9492509006388963,
+          0.12,
+          1.6853157373931709
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#a09b88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FootBoulder_Core_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.24097900390625,
+            0.23879999999999998,
+            0.7756118774414062
+          ]
+        },
+        "position": [
+          -0.9,
+          0.36,
+          1.55
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#a09b88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FootBoulder_Core_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.04901123046875,
+            0.23879999999999998,
+            0.9441101074218751
+          ]
+        },
+        "position": [
+          -0.9492509006388963,
+          0.6,
+          1.6853157373931709
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#a09b88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FootBoulder_Core_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.809539794921875,
+            0.23879999999999998,
+            0.7285858154296875
+          ]
+        },
+        "position": [
+          -0.7496491806742547,
+          0.84,
+          1.6047232229321071
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#a09b88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "FootBoulder_Core_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3713821411132812,
+            0.144,
+            0.4626213522518383
+          ]
+        },
+        "position": [
+          -0.9492509006388963,
+          1.056,
+          1.6853157373931709
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#a09b88",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      }
+    ]
+  }
+}

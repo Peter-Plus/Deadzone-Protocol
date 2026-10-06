@@ -1,0 +1,58 @@
+[
+  {
+    "file": "ui_item_bandage.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "bytes": 197918
+  },
+  {
+    "file": "ui_item_adrenaline.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "bytes": 83607
+  },
+  {
+    "file": "ui_item_virus_serum.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "bytes": 162581
+  },
+  {
+    "file": "ui_item_blood_bottle.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "bytes": 162849
+  }
+]

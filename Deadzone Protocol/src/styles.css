@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+:root { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; color: #e2ebe8; background: #111e26; color-scheme: dark; }
+body { margin: 0; }
+#app { min-height: 100svh; }
+.viewport { position: absolute; inset: 0 340px 0 0; }
+canvas { display: block; width: 100%; height: 100%; }
+header { position: absolute; left: 34px; top: 30px; pointer-events: none; }
+.eyebrow { color: #afd475; font-size: 11px; letter-spacing: 2px; }
+h1 { font-size: 34px; letter-spacing: 5px; margin: 12px 0 4px; }
+header p { font-size: 13px; color: #9bb0b8; margin: 0; }
+.panel { position: absolute; right: 0; top: 0; bottom: 0; width: 340px; padding: 34px 26px; background: #10191eee; border-left: 1px solid #34434a; overflow-y: auto; }
+.status { display: flex; align-items: center; gap: 9px; font-size: 15px; }
+.dot { background: #bee57b; height: 7px; width: 7px; border-radius: 50%; }
+.intro, .boundary p, .notice { font-size: 12px; line-height: 1.9; color: #9eb1b8; }
+.intro { margin: 22px 0 28px; }
+label { display: block; font-size: 12px; margin-bottom: 9px; }
+input { width: 100%; padding: 11px; background: #1c2a31; border: 1px solid #41515a; border-radius: 4px; color: #e9f3ed; font: inherit; font-size: 13px; }
+input:focus, button:focus-visible { outline: 2px solid #c8fa73; outline-offset: 3px; }
+.actions { display: flex; gap: 8px; margin-top: 12px; }
+button { flex: 1; border: 1px solid #5b6e57; border-radius: 4px; padding: 10px 6px; color: #dcecc9; background: #263b30; cursor: pointer; }
+button:hover { background: #36513d; }
+dl { margin: 28px 0 15px; font-size: 12px; }
+dl div { display: flex; justify-content: space-between; border-bottom: 1px solid #2a3940; padding: 13px 0; }
+dt { color: #9bb0b8; } dd { margin: 0; font-variant-numeric: tabular-nums; }
+.notice { min-height: 46px; color: #c4d790; }
+.boundary { border-top: 1px solid #34434a; padding-top: 16px; }
+h2 { font-size: 12px; font-weight: 500; color: #d8e4df; }
+footer { position: absolute; left: 34px; right: 370px; bottom: 22px; font-size: 10px; color: #8499a3; }
+footer span { float: right; }
+@media (max-width: 760px) {
+  .viewport { position: relative; inset: auto; height: 52svh; }
+  header { left: 18px; top: 18px; } h1 { font-size: 26px; }
+  .panel { position: relative; width: 100%; padding: 22px; border-left: none; border-top: 1px solid #34434a; }
+  footer { position: relative; inset: auto; padding: 16px 22px; } footer span { float: none; display: block; margin-top: 8px; }
+}

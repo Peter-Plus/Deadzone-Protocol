@@ -1,0 +1,599 @@
+{
+  "schemaVersion": "world-assets.v1",
+  "templateId": "bent",
+  "label": "转折通路小屋",
+  "visualAsset": "generated/models/bent.glb",
+  "size": [
+    12,
+    12
+  ],
+  "floorElevation": 0.5,
+  "clearHeight": 3.8,
+  "doorWidth": 3.6,
+  "doorHeight": 3.6,
+  "foundation": {
+    "min": [
+      -6,
+      0,
+      -6
+    ],
+    "max": [
+      6,
+      0.5,
+      6
+    ]
+  },
+  "reservation": {
+    "min": [
+      -7,
+      -11
+    ],
+    "max": [
+      7,
+      11
+    ]
+  },
+  "colliders": [
+    {
+      "id": "floor",
+      "role": "floor",
+      "shape": "box",
+      "size": [
+        12,
+        0.5,
+        12
+      ],
+      "position": [
+        0,
+        0.25,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_left",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        0.3,
+        3.8,
+        12
+      ],
+      "position": [
+        -5.85,
+        2.4,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_right",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        0.3,
+        3.8,
+        12
+      ],
+      "position": [
+        5.85,
+        2.4,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_back_L",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        4.2,
+        3.8,
+        0.3
+      ],
+      "position": [
+        -3.9000000000000004,
+        2.4,
+        -5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_back_R",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        4.2,
+        3.8,
+        0.3
+      ],
+      "position": [
+        3.9000000000000004,
+        2.4,
+        -5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lintel_back",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.6,
+        0.19999999999999973,
+        0.3
+      ],
+      "position": [
+        0,
+        4.199999999999999,
+        -5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ramp_back",
+      "role": "ramp",
+      "shape": "box",
+      "size": [
+        3.6,
+        0.12,
+        3.0413812651491092
+      ],
+      "position": [
+        0,
+        0.19081636457007137,
+        -7.490136060761679
+      ],
+      "rotation": [
+        -0.16514867741462683,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_front_L",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        4.2,
+        3.8,
+        0.3
+      ],
+      "position": [
+        -3.9000000000000004,
+        2.4,
+        5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_front_R",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        4.2,
+        3.8,
+        0.3
+      ],
+      "position": [
+        3.9000000000000004,
+        2.4,
+        5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lintel_front",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.6,
+        0.19999999999999973,
+        0.3
+      ],
+      "position": [
+        0,
+        4.199999999999999,
+        5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ramp_front",
+      "role": "ramp",
+      "shape": "box",
+      "size": [
+        3.6,
+        0.12,
+        3.0413812651491092
+      ],
+      "position": [
+        0,
+        0.19081636457007137,
+        7.490136060761679
+      ],
+      "rotation": [
+        0.16514867741462683,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "roof",
+      "role": "roof",
+      "shape": "box",
+      "size": [
+        12.3,
+        0.3,
+        12.3
+      ],
+      "position": [
+        0,
+        4.45,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "partition_s",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        7.3,
+        3.8,
+        0.3
+      ],
+      "position": [
+        -2.05,
+        2.4,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "partition_n",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        7.3,
+        3.8,
+        0.3
+      ],
+      "position": [
+        2.05,
+        2.4,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "walkableSurfaces": [
+    {
+      "surfaceId": "interior-floor",
+      "kind": "floor",
+      "polygon": [
+        [
+          -6,
+          0.5,
+          -6
+        ],
+        [
+          6,
+          0.5,
+          -6
+        ],
+        [
+          6,
+          0.5,
+          6
+        ],
+        [
+          -6,
+          0.5,
+          6
+        ]
+      ],
+      "colliderId": "floor",
+      "subtractBlockers": "wall colliders; complete floor polygon includes doorway thresholds"
+    },
+    {
+      "surfaceId": "ramp_back",
+      "kind": "ramp",
+      "polygon": [
+        [
+          -1.8,
+          0.5,
+          -6
+        ],
+        [
+          1.8,
+          0.5,
+          -6
+        ],
+        [
+          1.8,
+          0,
+          -9
+        ],
+        [
+          -1.8,
+          0,
+          -9
+        ]
+      ],
+      "colliderId": "ramp_back"
+    },
+    {
+      "surfaceId": "ramp_front",
+      "kind": "ramp",
+      "polygon": [
+        [
+          -1.8,
+          0.5,
+          6
+        ],
+        [
+          1.8,
+          0.5,
+          6
+        ],
+        [
+          1.8,
+          0,
+          9
+        ],
+        [
+          -1.8,
+          0,
+          9
+        ]
+      ],
+      "colliderId": "ramp_front"
+    }
+  ],
+  "entrances": [
+    {
+      "entranceId": "bent--1",
+      "width": 3.6,
+      "clearHeight": 3.6,
+      "top": [
+        0,
+        0.5,
+        -6
+      ],
+      "bottom": [
+        0,
+        0,
+        -9
+      ],
+      "rampLength": 3,
+      "slopeDegrees": 9.462322208025617,
+      "landing": {
+        "min": [
+          -1.8,
+          -11
+        ],
+        "max": [
+          1.8,
+          -9
+        ]
+      },
+      "surfaceId": "ramp_back"
+    },
+    {
+      "entranceId": "bent-1",
+      "width": 3.6,
+      "clearHeight": 3.6,
+      "top": [
+        0,
+        0.5,
+        6
+      ],
+      "bottom": [
+        0,
+        0,
+        9
+      ],
+      "rampLength": 3,
+      "slopeDegrees": 9.462322208025617,
+      "landing": {
+        "min": [
+          -1.8,
+          9
+        ],
+        "max": [
+          1.8,
+          11
+        ]
+      },
+      "surfaceId": "ramp_front"
+    }
+  ],
+  "interiorRegions": [
+    {
+      "regionId": "bent-storage",
+      "tags": [
+        "indoor",
+        "loot-candidate"
+      ],
+      "min": [
+        -5.2,
+        -5.2
+      ],
+      "max": [
+        -2.7,
+        -3.2
+      ],
+      "heightSource": "interior-floor",
+      "floorY": 0.5
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "entry--1",
+      "reason": "entrance-ramp-turning",
+      "min": [
+        -2.1,
+        -11
+      ],
+      "max": [
+        2.1,
+        -4
+      ]
+    },
+    {
+      "id": "entry-1",
+      "reason": "entrance-ramp-turning",
+      "min": [
+        -2.1,
+        4
+      ],
+      "max": [
+        2.1,
+        11
+      ]
+    },
+    {
+      "id": "main-route",
+      "reason": "main-circulation",
+      "polyline": [
+        [
+          0,
+          0.5,
+          -6
+        ],
+        [
+          0,
+          0.5,
+          -4
+        ],
+        [
+          3.5,
+          0.5,
+          -4
+        ],
+        [
+          3.5,
+          0.5,
+          0
+        ],
+        [
+          -3.5,
+          0.5,
+          0
+        ],
+        [
+          -3.5,
+          0.5,
+          4
+        ],
+        [
+          0,
+          0.5,
+          4
+        ],
+        [
+          0,
+          0.5,
+          6
+        ]
+      ],
+      "radius": 1.65
+    }
+  ],
+  "connections": {
+    "polyline": [
+      [
+        0,
+        0.5,
+        -6
+      ],
+      [
+        0,
+        0.5,
+        -4
+      ],
+      [
+        3.5,
+        0.5,
+        -4
+      ],
+      [
+        3.5,
+        0.5,
+        0
+      ],
+      [
+        -3.5,
+        0.5,
+        0
+      ],
+      [
+        -3.5,
+        0.5,
+        4
+      ],
+      [
+        0,
+        0.5,
+        4
+      ],
+      [
+        0,
+        0.5,
+        6
+      ]
+    ],
+    "clearWidth": 3.3,
+    "from": "bent--1",
+    "to": "bent-1"
+  }
+}

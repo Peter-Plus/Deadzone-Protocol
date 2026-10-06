@@ -1,0 +1,209 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_WORLD_ShadowStone",
+  "type": "static",
+  "parts": [
+    {
+      "id": "Core",
+      "shape": {
+        "type": "rock",
+        "size": [
+          1.18,
+          1.78,
+          0.98
+        ],
+        "seed": 311
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#29153f",
+        "emissive": "#000000",
+        "roughness": 0.78,
+        "metalness": 0.15
+      }
+    },
+    {
+      "id": "UpperFacet",
+      "shape": {
+        "type": "rock",
+        "size": [
+          0.78,
+          1.12,
+          0.73
+        ],
+        "seed": 312
+      },
+      "position": [
+        0.14,
+        0.48,
+        0.05
+      ],
+      "rotation": [
+        12,
+        28,
+        -12
+      ],
+      "material": {
+        "color": "#51306e",
+        "emissive": "#000000",
+        "roughness": 0.78,
+        "metalness": 0.15
+      }
+    },
+    {
+      "id": "LowerFacet",
+      "shape": {
+        "type": "rock",
+        "size": [
+          0.72,
+          0.96,
+          0.65
+        ],
+        "seed": 313
+      },
+      "position": [
+        -0.08,
+        -0.61,
+        -0.02
+      ],
+      "rotation": [
+        8,
+        -18,
+        9
+      ],
+      "material": {
+        "color": "#361c50",
+        "emissive": "#000000",
+        "roughness": 0.78,
+        "metalness": 0.15
+      }
+    },
+    {
+      "id": "BrightFracture",
+      "shape": {
+        "type": "rock",
+        "size": [
+          0.22,
+          1.16,
+          0.45
+        ],
+        "seed": 314
+      },
+      "position": [
+        -0.37,
+        0.07,
+        0.22
+      ],
+      "rotation": [
+        6,
+        -14,
+        -16
+      ],
+      "material": {
+        "color": "#80579a",
+        "emissive": "#51306e",
+        "roughness": 0.78,
+        "metalness": 0.15
+      }
+    },
+    {
+      "id": "EdgeFracture",
+      "shape": {
+        "type": "rock",
+        "size": [
+          0.13,
+          0.62,
+          0.29
+        ],
+        "seed": 315
+      },
+      "position": [
+        0.42,
+        -0.16,
+        0.17
+      ],
+      "rotation": [
+        -10,
+        28,
+        18
+      ],
+      "material": {
+        "color": "#51306e",
+        "emissive": "#361c50",
+        "roughness": 0.78,
+        "metalness": 0.15
+      }
+    },
+    {
+      "id": "SatelliteA",
+      "shape": {
+        "type": "rock",
+        "size": [
+          0.21,
+          0.44,
+          0.24
+        ],
+        "seed": 316
+      },
+      "position": [
+        0.92,
+        -0.36,
+        0.12
+      ],
+      "rotation": [
+        18,
+        24,
+        26
+      ],
+      "material": {
+        "color": "#51306e",
+        "emissive": "#000000",
+        "roughness": 0.78,
+        "metalness": 0.15
+      }
+    },
+    {
+      "id": "SatelliteB",
+      "shape": {
+        "type": "rock",
+        "size": [
+          0.16,
+          0.3,
+          0.2
+        ],
+        "seed": 317
+      },
+      "position": [
+        -0.78,
+        0.54,
+        -0.1
+      ],
+      "rotation": [
+        -16,
+        8,
+        -28
+      ],
+      "material": {
+        "color": "#80579a",
+        "emissive": "#000000",
+        "roughness": 0.78,
+        "metalness": 0.15
+      }
+    }
+  ],
+  "sockets": [
+    {
+      "id": "VFX_Anchor",
+      "parent": "Core"
+    }
+  ]
+}

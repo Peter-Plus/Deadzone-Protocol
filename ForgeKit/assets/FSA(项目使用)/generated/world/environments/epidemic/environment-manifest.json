@@ -1,0 +1,12 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Epidemic_01_ScreeningStation",
+      "type": "building",
+      "sourceHash": "f854249997412ace596cbbb34051e1f76208bac5f637720bc9ea8fdc7a52d543",
+      "modelHash": "c8a6f7ead8bea274ce9ed8e972e0f06b8d4b526d29cadba48bbc95768d8ff765",
+      "contract": "contracts/FSA_ENV_Epidemic_01_ScreeningStation.environment.json"
+    }
+  ]
+}

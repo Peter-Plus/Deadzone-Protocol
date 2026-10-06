@@ -1,0 +1,352 @@
+{
+  "schema": "environment.v1",
+  "id": "ENV_Solid",
+  "label": "报废运输卡车",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "B2": {
+      "radius": 1.34,
+      "height": 3.2,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3,
+      -5
+    ],
+    "max": [
+      3,
+      5
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Chassis",
+      "role": "solid"
+    },
+    {
+      "node": "Cabin",
+      "role": "solid"
+    },
+    {
+      "node": "Hood",
+      "role": "solid"
+    },
+    {
+      "node": "Cargo",
+      "role": "solid"
+    },
+    {
+      "node": "WheelBLCollision",
+      "role": "solid"
+    },
+    {
+      "node": "WheelBRCollision",
+      "role": "solid"
+    },
+    {
+      "node": "WheelFLCollision",
+      "role": "solid"
+    },
+    {
+      "node": "WheelFRCollision",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "ENV_Solid",
+    "type": "static",
+    "parts": [
+      {
+        "id": "Chassis",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.5,
+            0.65,
+            6.6
+          ]
+        },
+        "position": [
+          0,
+          0.7,
+          0
+        ],
+        "material": {
+          "color": "#393e39",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "Cabin",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.45,
+            1.85,
+            2.1
+          ]
+        },
+        "position": [
+          0,
+          1.75,
+          2.05
+        ],
+        "material": {
+          "color": "#716e53",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "Hood",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            0.8,
+            1.1
+          ]
+        },
+        "position": [
+          0,
+          1.2,
+          3.1
+        ],
+        "material": {
+          "color": "#68644f",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "Cargo",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.5,
+            1.9,
+            3.6
+          ]
+        },
+        "position": [
+          0,
+          1.85,
+          -1.4
+        ],
+        "material": {
+          "color": "#776348",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "Windshield",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.95,
+            0.65,
+            0.03
+          ]
+        },
+        "position": [
+          0,
+          2.05,
+          3.115
+        ],
+        "material": {
+          "color": "#253e45",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "WheelBL",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.58,
+          "radiusBottom": 0.58,
+          "height": 0.3
+        },
+        "position": [
+          -1.24,
+          0.58,
+          -2.3
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#282b2c"
+        }
+      },
+      {
+        "id": "WheelBLCollision",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.16,
+            1.16
+          ]
+        },
+        "position": [
+          -1.24,
+          0.58,
+          -2.3
+        ],
+        "material": {
+          "color": "#282b2c",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "WheelBR",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.58,
+          "radiusBottom": 0.58,
+          "height": 0.3
+        },
+        "position": [
+          1.24,
+          0.58,
+          -2.3
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#282b2c"
+        }
+      },
+      {
+        "id": "WheelBRCollision",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.16,
+            1.16
+          ]
+        },
+        "position": [
+          1.24,
+          0.58,
+          -2.3
+        ],
+        "material": {
+          "color": "#282b2c",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "WheelFL",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.58,
+          "radiusBottom": 0.58,
+          "height": 0.3
+        },
+        "position": [
+          -1.24,
+          0.58,
+          2.25
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#282b2c"
+        }
+      },
+      {
+        "id": "WheelFLCollision",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.16,
+            1.16
+          ]
+        },
+        "position": [
+          -1.24,
+          0.58,
+          2.25
+        ],
+        "material": {
+          "color": "#282b2c",
+          "roughness": 0.85
+        }
+      },
+      {
+        "id": "WheelFR",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.58,
+          "radiusBottom": 0.58,
+          "height": 0.3
+        },
+        "position": [
+          1.24,
+          0.58,
+          2.25
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": {
+          "color": "#282b2c"
+        }
+      },
+      {
+        "id": "WheelFRCollision",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            1.16,
+            1.16
+          ]
+        },
+        "position": [
+          1.24,
+          0.58,
+          2.25
+        ],
+        "material": {
+          "color": "#282b2c",
+          "roughness": 0.85
+        }
+      }
+    ],
+    "sockets": []
+  }
+}

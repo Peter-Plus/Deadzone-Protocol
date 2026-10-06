@@ -1,0 +1,12 @@
+{
+  "schema": "animation.v1",
+  "id": "animation.humanoid.breathing",
+  "rig": "humanoid.v1",
+  "duration": 4,
+  "loop": true,
+  "mode": "generator",
+  "generator": "humanoid.breathing",
+  "parameters": {
+    "breath": 3
+  }
+}

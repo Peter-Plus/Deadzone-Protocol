@@ -1,0 +1,40 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Abandoned_House_01_Compact",
+      "type": "building",
+      "sourceHash": "fa8137e5d45f74b9e94bcf75767f9398fdb6752e7ac2b70107bf1778379b77bd",
+      "modelHash": "db42199266097da642d72e32070a060a4ecc70c77cb5e36401bc956fe757f161",
+      "contract": "contracts/FSA_ENV_Abandoned_House_01_Compact.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Abandoned_House_02_Long",
+      "type": "building",
+      "sourceHash": "17688951565c84cb336453d93b88fc9e79da353a97256a9c1453b53e1c01369f",
+      "modelHash": "5f73e725aa4a880521350b027a1a397613d1705164c7da01a72e29d29306dcb0",
+      "contract": "contracts/FSA_ENV_Abandoned_House_02_Long.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Abandoned_House_03_Corner",
+      "type": "building",
+      "sourceHash": "9d4c42106be1e8d2f0f58e951bfc9a25c703f90a0ab30b4b4cc563d34658cde5",
+      "modelHash": "8b9c0d54f7e984c8c5b4a552e38cd4e2e2ef19b67f70e91862d3579fdf2c8279",
+      "contract": "contracts/FSA_ENV_Abandoned_House_03_Corner.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Abandoned_House_04_Courtyard",
+      "type": "building",
+      "sourceHash": "9ab80bf3c7ac326bc47decf48cc04e6c67edcb54cb87eeb91776901fccaf5323",
+      "modelHash": "4509a4a602aa496513f3f1cdea2bf5aac58961cdfa54a859dbe22511049447e9",
+      "contract": "contracts/FSA_ENV_Abandoned_House_04_Courtyard.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Abandoned_House_05_Divided",
+      "type": "building",
+      "sourceHash": "6595ba59bdcf82ea328fa1558ec278cc6657aeda6b91d6b9d236ddcdaef7ff30",
+      "modelHash": "9c4099640365d281b37bdf8be82bd6ba23a52d2bf9fcff088068c19eeda4b0ab",
+      "contract": "contracts/FSA_ENV_Abandoned_House_05_Divided.environment.json"
+    }
+  ]
+}

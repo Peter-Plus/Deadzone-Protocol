@@ -1,0 +1,164 @@
+[
+  {
+    "id": "FSA_WORLD_Airdrop",
+    "unit": "meter",
+    "closedBounds": {
+      "min": [
+        -0.9024999988079071,
+        1.341104505225843e-9,
+        -0.7949999976158143
+      ],
+      "max": [
+        0.9024999988079071,
+        1.3700000001490118,
+        0.8124999988079072
+      ]
+    },
+    "sampledMotionBounds": {
+      "min": [
+        -0.9024999988079071,
+        1.341104505225843e-9,
+        -1.3599150422596935
+      ],
+      "max": [
+        0.9024999988079071,
+        2.644895754149404,
+        0.9442021454810632
+      ]
+    },
+    "placementClearance": {
+      "min": [
+        -0.94,
+        0,
+        -1.39
+      ],
+      "max": [
+        0.94,
+        2.68,
+        0.98
+      ]
+    },
+    "simplifiedCollision": {
+      "type": "box",
+      "center": [
+        0,
+        0.58,
+        0
+      ],
+      "size": [
+        1.81,
+        1.16,
+        1.61
+      ]
+    },
+    "interactionSocket": "Interaction_Front",
+    "note": "Collision is reference only; use a separate moving lid collider if required. Motion bounds sample 241 points; placement bounds include 3cm allowance. +Z interaction approach must remain clear."
+  },
+  {
+    "id": "FSA_WORLD_EnchantAltar",
+    "unit": "meter",
+    "closedBounds": {
+      "min": [
+        -0.6200000047683716,
+        1.341104505225843e-9,
+        -0.6200000047683716
+      ],
+      "max": [
+        0.6200000047683716,
+        1.5250000000000001,
+        0.6200000047683716
+      ]
+    },
+    "sampledMotionBounds": {
+      "min": [
+        -0.6200000047683716,
+        1.341104505225843e-9,
+        -0.6200000047683716
+      ],
+      "max": [
+        0.6200000047683716,
+        1.6849999516350938,
+        0.6200000047683716
+      ]
+    },
+    "placementClearance": {
+      "min": [
+        -0.66,
+        0,
+        -0.66
+      ],
+      "max": [
+        0.66,
+        1.72,
+        0.66
+      ]
+    },
+    "simplifiedCollision": {
+      "type": "cylinder",
+      "radius": 0.62,
+      "height": 0.99,
+      "center": [
+        0,
+        0.495,
+        0
+      ]
+    },
+    "interactionSocket": "Interaction_Front",
+    "note": "Collision is reference only; use a separate moving lid collider if required. Motion bounds sample 241 points; placement bounds include 3cm allowance. +Z interaction approach must remain clear."
+  },
+  {
+    "id": "FSA_WORLD_MysteryChest",
+    "unit": "meter",
+    "closedBounds": {
+      "min": [
+        -0.9774999988079072,
+        1.341104505225843e-9,
+        -0.6299999976158143
+      ],
+      "max": [
+        0.9774999988079072,
+        1.1500000001490116,
+        0.6474999988079072
+      ]
+    },
+    "sampledMotionBounds": {
+      "min": [
+        -0.9774999988079072,
+        1.341104505225843e-9,
+        -1.0445530505798115
+      ],
+      "max": [
+        0.9774999988079072,
+        2.0991800616389154,
+        0.7792690663929169
+      ]
+    },
+    "placementClearance": {
+      "min": [
+        -1.01,
+        0,
+        -1.08
+      ],
+      "max": [
+        1.01,
+        2.13,
+        0.81
+      ]
+    },
+    "simplifiedCollision": {
+      "type": "box",
+      "center": [
+        0,
+        0.47,
+        0
+      ],
+      "size": [
+        1.96,
+        0.94,
+        1.28
+      ]
+    },
+    "interactionSocket": "Interaction_Front",
+    "note": "Collision is reference only; use a separate moving lid collider if required. Motion bounds sample 241 points; placement bounds include 3cm allowance. +Z interaction approach must remain clear."
+  }
+]

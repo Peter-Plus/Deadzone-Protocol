@@ -1,0 +1,982 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_CRATE_003_Advanced",
+  "type": "static",
+  "materials": {
+    "shell": {
+      "color": "#354550",
+      "roughness": 0.85,
+      "metalness": 0.2
+    },
+    "edge": {
+      "color": "#263137",
+      "roughness": 0.75,
+      "metalness": 0.35
+    },
+    "metal": {
+      "color": "#8A9390",
+      "roughness": 0.43,
+      "metalness": 0.7
+    },
+    "accent": {
+      "color": "#BC9954",
+      "roughness": 0.65,
+      "metalness": 0.25
+    },
+    "inside": {
+      "color": "#1B2529",
+      "roughness": 1
+    },
+    "label": {
+      "color": "#D1C9A7",
+      "roughness": 0.95
+    }
+  },
+  "parts": [
+    {
+      "id": "Base",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.54,
+          0.03,
+          0.34
+        ]
+      },
+      "position": [
+        0,
+        0.035,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "InteriorFloor",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.51,
+          0.01,
+          0.31000000000000005
+        ]
+      },
+      "position": [
+        0,
+        0.054,
+        0
+      ],
+      "material": "inside"
+    },
+    {
+      "id": "FrontWall",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.54,
+          0.27,
+          0.022
+        ]
+      },
+      "position": [
+        0,
+        0.185,
+        0.159
+      ],
+      "material": "shell"
+    },
+    {
+      "id": "BackWall",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.54,
+          0.27,
+          0.022
+        ]
+      },
+      "position": [
+        0,
+        0.185,
+        -0.159
+      ],
+      "material": "shell"
+    },
+    {
+      "id": "SideWall_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.022,
+          0.27,
+          0.30500000000000005
+        ]
+      },
+      "position": [
+        -0.259,
+        0.185,
+        0
+      ],
+      "material": "shell"
+    },
+    {
+      "id": "SideWall_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.022,
+          0.27,
+          0.30500000000000005
+        ]
+      },
+      "position": [
+        0.259,
+        0.185,
+        0
+      ],
+      "material": "shell"
+    },
+    {
+      "id": "LidSeal",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.548,
+          0.012,
+          0.34800000000000003
+        ]
+      },
+      "position": [
+        0,
+        0.324,
+        0
+      ],
+      "material": "inside"
+    },
+    {
+      "id": "LidShell",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.558,
+          0.034,
+          0.35800000000000004
+        ]
+      },
+      "position": [
+        0,
+        0.34600000000000003,
+        0
+      ],
+      "material": "shell"
+    },
+    {
+      "id": "TopInset",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.47800000000000004,
+          0.008,
+          0.28
+        ]
+      },
+      "position": [
+        0,
+        0.366,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Foot_-1_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.066,
+          0.02,
+          0.06
+        ]
+      },
+      "position": [
+        -0.24000000000000002,
+        0.01,
+        -0.14
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "CornerFront_-1_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.264,
+          0.015
+        ]
+      },
+      "position": [
+        -0.25,
+        0.1568,
+        -0.17400000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "CornerSide_-1_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.015,
+          0.264,
+          0.045
+        ]
+      },
+      "position": [
+        -0.274,
+        0.1568,
+        -0.15000000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LidCorner_-1_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.068,
+          0.022,
+          0.064
+        ]
+      },
+      "position": [
+        -0.24500000000000002,
+        0.365,
+        -0.14700000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Foot_-1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.066,
+          0.02,
+          0.06
+        ]
+      },
+      "position": [
+        -0.24000000000000002,
+        0.01,
+        0.14
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "CornerFront_-1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.264,
+          0.015
+        ]
+      },
+      "position": [
+        -0.25,
+        0.1568,
+        0.17400000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "CornerSide_-1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.015,
+          0.264,
+          0.045
+        ]
+      },
+      "position": [
+        -0.274,
+        0.1568,
+        0.15000000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LidCorner_-1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.068,
+          0.022,
+          0.064
+        ]
+      },
+      "position": [
+        -0.24500000000000002,
+        0.365,
+        0.14700000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Foot_1_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.066,
+          0.02,
+          0.06
+        ]
+      },
+      "position": [
+        0.24000000000000002,
+        0.01,
+        -0.14
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "CornerFront_1_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.264,
+          0.015
+        ]
+      },
+      "position": [
+        0.25,
+        0.1568,
+        -0.17400000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "CornerSide_1_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.015,
+          0.264,
+          0.045
+        ]
+      },
+      "position": [
+        0.274,
+        0.1568,
+        -0.15000000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LidCorner_1_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.068,
+          0.022,
+          0.064
+        ]
+      },
+      "position": [
+        0.24500000000000002,
+        0.365,
+        -0.14700000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "Foot_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.066,
+          0.02,
+          0.06
+        ]
+      },
+      "position": [
+        0.24000000000000002,
+        0.01,
+        0.14
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "CornerFront_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.264,
+          0.015
+        ]
+      },
+      "position": [
+        0.25,
+        0.1568,
+        0.17400000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "CornerSide_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.015,
+          0.264,
+          0.045
+        ]
+      },
+      "position": [
+        0.274,
+        0.1568,
+        0.15000000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LidCorner_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.068,
+          0.022,
+          0.064
+        ]
+      },
+      "position": [
+        0.24500000000000002,
+        0.365,
+        0.14700000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LatchBase_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043,
+          0.073,
+          0.017
+        ]
+      },
+      "position": [
+        -0.16740000000000002,
+        0.268,
+        0.185
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LatchLever_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.024,
+          0.051,
+          0.012
+        ]
+      },
+      "position": [
+        -0.16740000000000002,
+        0.279,
+        0.198
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "LatchHook_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.038,
+          0.015
+        ]
+      },
+      "position": [
+        -0.16740000000000002,
+        0.333,
+        0.19
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "HingeBase_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.05,
+          0.018
+        ]
+      },
+      "position": [
+        -0.16740000000000002,
+        0.294,
+        -0.18200000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "HingeCap_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.063,
+          0.035,
+          0.02
+        ]
+      },
+      "position": [
+        -0.16740000000000002,
+        0.332,
+        -0.18400000000000002
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "HandleMount_-1_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.028,
+          0.027,
+          0.022
+        ]
+      },
+      "position": [
+        -0.28700000000000003,
+        0.192,
+        -0.0748
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "HandleMount_-1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.028,
+          0.027,
+          0.022
+        ]
+      },
+      "position": [
+        -0.28700000000000003,
+        0.192,
+        0.0748
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "SideGrip_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.021,
+          0.025,
+          0.1496
+        ]
+      },
+      "position": [
+        -0.30300000000000005,
+        0.192,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LatchBase_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.043,
+          0.073,
+          0.017
+        ]
+      },
+      "position": [
+        0.16740000000000002,
+        0.268,
+        0.185
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LatchLever_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.024,
+          0.051,
+          0.012
+        ]
+      },
+      "position": [
+        0.16740000000000002,
+        0.279,
+        0.198
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "LatchHook_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.03,
+          0.038,
+          0.015
+        ]
+      },
+      "position": [
+        0.16740000000000002,
+        0.333,
+        0.19
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "HingeBase_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.05,
+          0.018
+        ]
+      },
+      "position": [
+        0.16740000000000002,
+        0.294,
+        -0.18200000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "HingeCap_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.063,
+          0.035,
+          0.02
+        ]
+      },
+      "position": [
+        0.16740000000000002,
+        0.332,
+        -0.18400000000000002
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "HandleMount_1_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.028,
+          0.027,
+          0.022
+        ]
+      },
+      "position": [
+        0.28700000000000003,
+        0.192,
+        -0.0748
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "HandleMount_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.028,
+          0.027,
+          0.022
+        ]
+      },
+      "position": [
+        0.28700000000000003,
+        0.192,
+        0.0748
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "SideGrip_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.021,
+          0.025,
+          0.1496
+        ]
+      },
+      "position": [
+        0.30300000000000005,
+        0.192,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "TopRib_-0_124",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.025,
+          0.022,
+          0.28800000000000003
+        ]
+      },
+      "position": [
+        -0.12420000000000002,
+        0.376,
+        0
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "TopRib_0_124",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.025,
+          0.022,
+          0.28800000000000003
+        ]
+      },
+      "position": [
+        0.12420000000000002,
+        0.376,
+        0
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "FrontPanel",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.21600000000000003,
+          0.14400000000000002,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.1696,
+        0.18300000000000002
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "IDPlate",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1296,
+          0.029,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.2048,
+        0.193
+      ],
+      "material": "label"
+    },
+    {
+      "id": "SerialBar_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.022680000000000002,
+          0.011,
+          0.006
+        ]
+      },
+      "position": [
+        -0.054000000000000006,
+        0.1536,
+        0.192
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "SerialBar_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.022680000000000002,
+          0.011,
+          0.006
+        ]
+      },
+      "position": [
+        -0.0162,
+        0.1536,
+        0.192
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "SerialBar_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.022680000000000002,
+          0.011,
+          0.006
+        ]
+      },
+      "position": [
+        0.021600000000000008,
+        0.1536,
+        0.192
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "FrontReinforcement_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.017,
+          0.1728,
+          0.017
+        ]
+      },
+      "position": [
+        -0.10800000000000001,
+        0.1376,
+        0.18400000000000002
+      ],
+      "material": "shell"
+    },
+    {
+      "id": "FrontReinforcement_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.017,
+          0.1728,
+          0.017
+        ]
+      },
+      "position": [
+        0.10800000000000001,
+        0.1376,
+        0.18400000000000002
+      ],
+      "material": "shell"
+    },
+    {
+      "id": "LockHousing",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.07,
+          0.069,
+          0.028
+        ]
+      },
+      "position": [
+        0,
+        0.295,
+        0.20700000000000002
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "LockInset",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.039,
+          0.007
+        ]
+      },
+      "position": [
+        0,
+        0.3,
+        0.223
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "KeySlot",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.02,
+          0.004
+        ]
+      },
+      "position": [
+        0,
+        0.302,
+        0.228
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "TopBadge",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.09,
+          0.009,
+          0.09
+        ]
+      },
+      "position": [
+        0,
+        0.374,
+        0
+      ],
+      "material": "accent",
+      "rotation": [
+        0,
+        45,
+        0
+      ]
+    },
+    {
+      "id": "BadgeInset",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.058,
+          0.004,
+          0.058
+        ]
+      },
+      "position": [
+        0,
+        0.38,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        45,
+        0
+      ]
+    }
+  ]
+}

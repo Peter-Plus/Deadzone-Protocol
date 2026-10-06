@@ -1,0 +1,175 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_fire_seed_aura",
+  "name": "火种 · 水晶燃烧气息",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "dissipate": {
+      "duration": 0.45,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "projectile_mist.png"
+    }
+  },
+  "binding": {
+    "model": "FSA_PRJ_004_FireSeed",
+    "attachment": "VFX_Anchor"
+  },
+  "layers": [
+    {
+      "id": "crystal_heat",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 20,
+      "seed": 1780,
+      "position": [
+        0,
+        0.09,
+        0
+      ],
+      "radii": [
+        0.38,
+        0.38,
+        0.38
+      ],
+      "shell": 0.55,
+      "size": [
+        0.24,
+        0.38
+      ],
+      "aspect": 1,
+      "drift": [
+        0.016,
+        0.024,
+        0.016
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#f04006",
+        "opacity": 0.2,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "rising_flame",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 10,
+      "seed": 1780,
+      "position": [
+        0,
+        0.48,
+        0
+      ],
+      "radii": [
+        0.18,
+        0.3,
+        0.18
+      ],
+      "shell": 0.55,
+      "size": [
+        0.22,
+        0.36
+      ],
+      "aspect": 1,
+      "drift": [
+        0.016,
+        0.024,
+        0.016
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ff9c21",
+        "opacity": 0.23,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "ui_item_flare_gun.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "bytes": 152204
+  },
+  {
+    "file": "ui_item_mutation_crystal.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "bytes": 127149
+  },
+  {
+    "file": "ui_item_fire_demon_core.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "bytes": 174789
+  },
+  {
+    "file": "ui_item_vile_core.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "format": "Format32bppArgb",
+    "borderMaxAlpha": 0,
+    "bytes": 277336
+  }
+]

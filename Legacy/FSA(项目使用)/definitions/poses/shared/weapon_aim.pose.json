@@ -1,0 +1,21 @@
+{
+  "schema": "pose.v1",
+  "id": "fsa.pose.weapon.aim",
+  "rig": "humanoid.v1",
+  "bones": {
+    "Arm_L": {
+      "rotation": [
+        -114.204497,
+        -66.508381,
+        -134.028978
+      ]
+    },
+    "Arm_R": {
+      "rotation": [
+        -119.180408,
+        57.767401,
+        144.117863
+      ]
+    }
+  }
+}

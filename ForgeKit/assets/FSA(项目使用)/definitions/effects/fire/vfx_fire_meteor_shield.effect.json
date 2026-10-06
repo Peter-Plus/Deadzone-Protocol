@@ -1,0 +1,388 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_fire_meteor_shield",
+  "name": "天外陨石 · 炎巫火焰护盾",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "hit": {
+      "duration": 0.2,
+      "loop": false,
+      "next": "active"
+    },
+    "broken": {
+      "duration": 0.45,
+      "loop": false,
+      "next": "finished"
+    },
+    "dissipate": {
+      "duration": 0.6,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "barrier",
+      "kind": "surface",
+      "shape": "ellipsoid",
+      "position": [
+        0.14414663801071498,
+        1.786862257878314,
+        0.08197785361665261
+      ],
+      "size": [
+        1.0454570136872903,
+        2.4331567205484745,
+        0.7888478743380521
+      ],
+      "accent": "#ffd474",
+      "detailScale": 3,
+      "speed": 2,
+      "rimWidth": 0.1,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        },
+        "hit": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.3,
+                1.6
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": 1
+        },
+        "broken": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#f55a12",
+        "opacity": 0.55,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "shell_flames",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 88,
+      "seed": 703,
+      "position": [
+        0.14414663801071498,
+        1.786862257878314,
+        0.08197785361665261
+      ],
+      "radii": [
+        1.0454570136872903,
+        2.4331567205484745,
+        0.7888478743380521
+      ],
+      "size": [
+        0.18,
+        0.42
+      ],
+      "shell": 0.94,
+      "aspect": 1.35,
+      "drift": [
+        0.05,
+        0.12,
+        0.05
+      ],
+      "speed": 5,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        },
+        "hit": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.3,
+                1.6
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": 1
+        },
+        "broken": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ff7115",
+        "opacity": 0.45,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "embers",
+      "kind": "cloud",
+      "texture": "glow",
+      "count": 36,
+      "seed": 704,
+      "position": [
+        0.14414663801071498,
+        1.786862257878314,
+        0.08197785361665261
+      ],
+      "radii": [
+        1.0454570136872903,
+        2.4331567205484745,
+        0.7888478743380521
+      ],
+      "size": [
+        0.025,
+        0.065
+      ],
+      "shell": 0.9,
+      "aspect": 2.6,
+      "drift": [
+        0.05,
+        0.12,
+        0.05
+      ],
+      "speed": 5,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        },
+        "hit": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.3,
+                1.6
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": 1
+        },
+        "broken": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.12
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ffdc77",
+        "opacity": 0.6,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

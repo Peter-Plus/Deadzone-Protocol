@@ -1,0 +1,274 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_chaos_toxic_blast",
+  "name": "混沌 · 毒爆（瘴疫兽复用）",
+  "initialState": "burst",
+  "states": {
+    "burst": {
+      "duration": 1.25,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "supplement_mist.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "toxic_front",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 120,
+      "seed": 2820,
+      "position": [
+        0,
+        0.22,
+        0
+      ],
+      "radii": [
+        0.79,
+        0.1,
+        0.79
+      ],
+      "size": [
+        0.11,
+        0.23
+      ],
+      "shell": 0.95,
+      "aspect": 1,
+      "drift": [
+        0.015,
+        0.025,
+        0.015
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "burst": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.06,
+                1
+              ],
+              [
+                0.3,
+                0.85
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.06
+              ],
+              [
+                0.22,
+                0.75
+              ],
+              [
+                0.6,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#72d51a",
+        "opacity": 0.65,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "toxic_volume",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 80,
+      "seed": 2780,
+      "position": [
+        0,
+        0.22,
+        0
+      ],
+      "radii": [
+        0.56,
+        0.22,
+        0.56
+      ],
+      "size": [
+        0.2,
+        0.34
+      ],
+      "shell": 0.3,
+      "aspect": 1,
+      "drift": [
+        0.015,
+        0.025,
+        0.015
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "burst": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.06,
+                1
+              ],
+              [
+                0.3,
+                0.85
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.06
+              ],
+              [
+                0.22,
+                0.75
+              ],
+              [
+                0.6,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#315b0d",
+        "opacity": 0.5,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "toxic_glint",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 36,
+      "seed": 2736,
+      "position": [
+        0,
+        0.22,
+        0
+      ],
+      "radii": [
+        0.65,
+        0.14,
+        0.65
+      ],
+      "size": [
+        0.045,
+        0.08
+      ],
+      "shell": 0.8,
+      "aspect": 1,
+      "drift": [
+        0.015,
+        0.025,
+        0.015
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "burst": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.06,
+                1
+              ],
+              [
+                0.3,
+                0.85
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.06
+              ],
+              [
+                0.22,
+                0.75
+              ],
+              [
+                0.6,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#c5ff45",
+        "opacity": 0.65,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

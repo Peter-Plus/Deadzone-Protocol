@@ -1,0 +1,877 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ENEMY_A004_FlameZombie",
+  "type": "humanoid",
+  "rig": "humanoid.v1",
+  "materials": {
+    "skin": {
+      "color": "#9D8272",
+      "roughness": 0.94
+    },
+    "cloth": {
+      "color": "#5B382E",
+      "roughness": 0.95
+    },
+    "dark": {
+      "color": "#30272A",
+      "roughness": 0.97
+    },
+    "pants": {
+      "color": "#3C3031",
+      "roughness": 0.95
+    },
+    "boot": {
+      "color": "#282629",
+      "roughness": 0.93
+    },
+    "eye": {
+      "color": "#F8B96D",
+      "emissive": "#8B3615",
+      "roughness": 0.45
+    },
+    "accent": {
+      "color": "#CF7040",
+      "emissive": "#632714",
+      "roughness": 0.66
+    },
+    "wood": {
+      "color": "#3B2B24",
+      "roughness": 0.89
+    },
+    "steel": {
+      "color": "#786356",
+      "roughness": 0.65,
+      "metalness": 0.3
+    },
+    "hair": {
+      "color": "#35282A",
+      "roughness": 0.95
+    },
+    "ember": {
+      "color": "#FFB04E",
+      "emissive": "#B95716",
+      "roughness": 0.36
+    },
+    "ash": {
+      "color": "#242326",
+      "roughness": 0.98
+    }
+  },
+  "parts": [
+    {
+      "id": "Hips",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.279,
+          0.153,
+          0.225
+        ]
+      },
+      "position": [
+        0,
+        0.0585,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "Torso",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.288,
+          0.432,
+          0.243
+        ]
+      },
+      "position": [
+        0,
+        0.324,
+        0.0315
+      ],
+      "material": "cloth",
+      "rotation": [
+        12,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Shoulders",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.405,
+          0.117,
+          0.252
+        ]
+      },
+      "position": [
+        0,
+        0.4995,
+        0.054
+      ],
+      "material": "dark",
+      "rotation": [
+        12,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "RoundedBack",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.297,
+          0.216,
+          0.135
+        ]
+      },
+      "position": [
+        0,
+        0.468,
+        -0.0945
+      ],
+      "material": "dark",
+      "rotation": [
+        15,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Belt",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.2934,
+          0.0558,
+          0.2412
+        ]
+      },
+      "position": [
+        0,
+        0.108,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "Buckle",
+      "parent": "Belt",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0522,
+          0.0387,
+          0.0225
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.1296
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "Neck",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.126,
+          0.108,
+          0.126
+        ]
+      },
+      "position": [
+        0,
+        -0.0225,
+        0.063
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Face",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.216,
+          0.225,
+          0.2025
+        ]
+      },
+      "position": [
+        0,
+        0.1305,
+        0.0945
+      ],
+      "material": "skin",
+      "rotation": [
+        9,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "EyeR",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0405,
+          0.0234,
+          0.0117
+        ]
+      },
+      "position": [
+        -0.0576,
+        0.0234,
+        0.1062
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "EyeL",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0405,
+          0.0234,
+          0.0117
+        ]
+      },
+      "position": [
+        0.0576,
+        0.0234,
+        0.1062
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "Brow",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1836,
+          0.0243,
+          0.0189
+        ]
+      },
+      "position": [
+        0,
+        0.0513,
+        0.1071
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "Nose",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0369,
+          0.0495,
+          0.0279
+        ]
+      },
+      "position": [
+        0,
+        -0.0063,
+        0.1116
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Mouth",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0648,
+          0.0135,
+          0.0108
+        ]
+      },
+      "position": [
+        0,
+        -0.063,
+        0.1044
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "SleeveL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.324,
+          0.1395,
+          0.1485
+        ]
+      },
+      "position": [
+        0.153,
+        0.0315,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "ForearmL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.171,
+          0.1089,
+          0.117
+        ]
+      },
+      "position": [
+        0.3645,
+        0.0315,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "CuffL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0495,
+          0.126,
+          0.1332
+        ]
+      },
+      "position": [
+        0.423,
+        0.0315,
+        0
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "HandL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0945,
+          0.117,
+          0.126
+        ]
+      },
+      "position": [
+        0.4815,
+        0.0315,
+        0.0036
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "TrousersL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1665,
+          0.594,
+          0.1845
+        ]
+      },
+      "position": [
+        0,
+        -0.297,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "BootL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1773,
+          0.1845,
+          0.261
+        ]
+      },
+      "position": [
+        0,
+        -0.6525,
+        0.0315
+      ],
+      "material": "boot"
+    },
+    {
+      "id": "SoleL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1809,
+          0.0315,
+          0.2682
+        ]
+      },
+      "position": [
+        0,
+        -0.729,
+        0.0315
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "SleeveR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.324,
+          0.1395,
+          0.1485
+        ]
+      },
+      "position": [
+        -0.153,
+        0.0315,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "ForearmR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.171,
+          0.1089,
+          0.117
+        ]
+      },
+      "position": [
+        -0.3645,
+        0.0315,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "CuffR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0495,
+          0.126,
+          0.1332
+        ]
+      },
+      "position": [
+        -0.423,
+        0.0315,
+        0
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "HandR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.0945,
+          0.117,
+          0.126
+        ]
+      },
+      "position": [
+        -0.4815,
+        0.0315,
+        0.0036
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "TrousersR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1665,
+          0.594,
+          0.1845
+        ]
+      },
+      "position": [
+        0,
+        -0.297,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "BootR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1773,
+          0.1845,
+          0.261
+        ]
+      },
+      "position": [
+        0,
+        -0.6525,
+        0.0315
+      ],
+      "material": "boot"
+    },
+    {
+      "id": "SoleR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1809,
+          0.0315,
+          0.2682
+        ]
+      },
+      "position": [
+        0,
+        -0.729,
+        0.0315
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "CowlCrown",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.25,
+          0.08,
+          0.24
+        ]
+      },
+      "position": [
+        0,
+        0.245,
+        0.025
+      ],
+      "material": "ash",
+      "rotation": [
+        12,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "CowlL",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.18,
+          0.23
+        ]
+      },
+      "position": [
+        0.115,
+        0.15,
+        0.025
+      ],
+      "material": "ash",
+      "rotation": [
+        10,
+        0,
+        -8
+      ]
+    },
+    {
+      "id": "CowlR",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.18,
+          0.23
+        ]
+      },
+      "position": [
+        -0.115,
+        0.15,
+        0.025
+      ],
+      "material": "ash",
+      "rotation": [
+        10,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "RobePanelL",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.12,
+          0.31,
+          0.075
+        ]
+      },
+      "position": [
+        0.095,
+        0.05,
+        -0.07
+      ],
+      "material": "cloth",
+      "rotation": [
+        8,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "RobePanelR",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.12,
+          0.31,
+          0.075
+        ]
+      },
+      "position": [
+        -0.095,
+        0.05,
+        -0.07
+      ],
+      "material": "cloth",
+      "rotation": [
+        8,
+        0,
+        -8
+      ]
+    },
+    {
+      "id": "EmberChest",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.14,
+          0.022
+        ]
+      },
+      "position": [
+        0,
+        0.37,
+        0.168
+      ],
+      "material": "ember",
+      "rotation": [
+        11,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "EmberLineL",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.07,
+          0.019,
+          0.021
+        ]
+      },
+      "position": [
+        0.084,
+        0.42,
+        0.165
+      ],
+      "material": "accent",
+      "rotation": [
+        0,
+        0,
+        -18
+      ]
+    },
+    {
+      "id": "EmberLineR",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.07,
+          0.019,
+          0.021
+        ]
+      },
+      "position": [
+        -0.084,
+        0.42,
+        0.165
+      ],
+      "material": "accent",
+      "rotation": [
+        0,
+        0,
+        18
+      ]
+    },
+    {
+      "id": "StaffGrip",
+      "parent": "HandR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.12,
+          0.08,
+          0.1
+        ]
+      },
+      "position": [
+        -0.01,
+        0,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "StaffShaft",
+      "parent": "HandR",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.026,
+        "radiusBottom": 0.038,
+        "height": 0.66
+      },
+      "position": [
+        -0.2,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "material": "wood"
+    },
+    {
+      "id": "StaffBand",
+      "parent": "StaffShaft",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.09,
+          0.07,
+          0.09
+        ]
+      },
+      "position": [
+        0,
+        -0.16,
+        0
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "StaffCore",
+      "parent": "StaffShaft",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.088
+      },
+      "position": [
+        0,
+        0.35,
+        0
+      ],
+      "material": "ember"
+    },
+    {
+      "id": "StaffProngL",
+      "parent": "StaffShaft",
+      "shape": {
+        "type": "cone",
+        "radius": 0.032,
+        "height": 0.19
+      },
+      "position": [
+        0.065,
+        0.34,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -20
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "StaffProngR",
+      "parent": "StaffShaft",
+      "shape": {
+        "type": "cone",
+        "radius": 0.032,
+        "height": 0.19
+      },
+      "position": [
+        -0.065,
+        0.34,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        20
+      ],
+      "material": "steel"
+    }
+  ],
+  "parameters": {
+    "height": 1.62
+  },
+  "sockets": [
+    {
+      "id": "Fireball_Muzzle",
+      "parent": "StaffShaft",
+      "position": [
+        0,
+        0.46,
+        0
+      ]
+    }
+  ]
+}

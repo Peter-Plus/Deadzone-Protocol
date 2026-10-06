@@ -1,0 +1,16 @@
+{
+  "schema": "animation.v1",
+  "id": "animation.humanoid.run",
+  "rig": "humanoid.v1",
+  "duration": 0.65,
+  "loop": true,
+  "mode": "generator",
+  "generator": "humanoid.run",
+  "parameters": {
+    "strideAngle": 48,
+    "kneeBend": 70,
+    "armSwing": 38,
+    "bodyBob": 0.05,
+    "lean": 12
+  }
+}

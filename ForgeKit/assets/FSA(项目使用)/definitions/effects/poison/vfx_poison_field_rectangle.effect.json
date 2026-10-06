@@ -1,0 +1,73 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_poison_field_rectangle",
+  "name": "矩形毒阵 · 按实际直线位移增长",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 3,
+      "loop": true
+    },
+    "fading": {
+      "duration": 0.8,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {},
+  "layers": [
+    {
+      "id": "surface",
+      "kind": "surface",
+      "shape": "rectangle",
+      "position": [
+        0,
+        0.025,
+        0
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "accent": "#b2ed39",
+      "detailScale": 2.2,
+      "speed": 1,
+      "rimWidth": 0.055,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "fading": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": 1
+        }
+      },
+      "render": {
+        "color": "#194c20",
+        "opacity": 0.84,
+        "depthTest": true,
+        "depthWrite": false,
+        "blend": "normal"
+      }
+    }
+  ]
+}

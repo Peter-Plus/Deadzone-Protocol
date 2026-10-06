@@ -1,0 +1,2 @@
+import {build} from 'esbuild';import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
+process.chdir(fileURLToPath(new URL('../',import.meta.url)));await build({entryPoints:['src/check-placement.mjs'],bundle:true,platform:'node',format:'esm',outfile:'build/placement-check.mjs',target:'node22'});const p=spawnSync(process.execPath,['build/placement-check.mjs',...process.argv.slice(2)],{stdio:'inherit',windowsHide:true});process.exitCode=p.status;

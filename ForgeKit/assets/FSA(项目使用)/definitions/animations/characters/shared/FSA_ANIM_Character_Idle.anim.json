@@ -1,0 +1,15 @@
+{
+  "schema": "animation.v1",
+  "id": "FSA_ANIM_Character_Idle",
+  "rig": "humanoid.v1",
+  "mode": "generator",
+  "generator": "humanoid.idle",
+  "duration": 2.4,
+  "loop": true,
+  "parameters": {
+    "armSwing": 1.8,
+    "legSwing": 0,
+    "bodyBob": 0.004,
+    "bodyLean": 2
+  }
+}

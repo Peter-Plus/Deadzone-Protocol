@@ -1,0 +1,994 @@
+{
+  "schema": "model.v1",
+  "id": "fsa.weapon.shotgun_02_breaker",
+  "type": "static",
+  "materials": {
+    "body": {
+      "color": "#684839",
+      "roughness": 0.64,
+      "metalness": 0.4
+    },
+    "steel": {
+      "color": "#333d45",
+      "metalness": 0.8,
+      "roughness": 0.36
+    },
+    "edge": {
+      "color": "#727e86",
+      "metalness": 0.72,
+      "roughness": 0.34
+    },
+    "rubber": {
+      "color": "#20292c",
+      "roughness": 0.97
+    },
+    "dark": {
+      "color": "#10191d",
+      "roughness": 0.88
+    },
+    "wood": {
+      "color": "#805237",
+      "roughness": 0.83
+    },
+    "glass": {
+      "color": "#3b919e",
+      "metalness": 0.45,
+      "roughness": 0.16
+    },
+    "accent": {
+      "color": "#d3b975",
+      "metalness": 0.55,
+      "roughness": 0.4
+    }
+  },
+  "parts": [
+    {
+      "id": "grip",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.046,
+          0.125,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        -0.014,
+        -0.006
+      ],
+      "material": "rubber",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_tang",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.046,
+          0.083,
+          0.062
+        ]
+      },
+      "position": [
+        0,
+        0.071,
+        -0.023
+      ],
+      "material": "body"
+    },
+    {
+      "id": "grip_rib_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.048,
+          0.006,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        -0.057,
+        -0.004
+      ],
+      "material": "dark",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_rib_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.048,
+          0.006,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        -0.038000000000000006,
+        -0.004
+      ],
+      "material": "dark",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_rib_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.048,
+          0.006,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        -0.019000000000000003,
+        -0.004
+      ],
+      "material": "dark",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_rib_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.048,
+          0.006,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        -6.938893903907228e-18,
+        -0.004
+      ],
+      "material": "dark",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_rib_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.048,
+          0.006,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        0.018999999999999996,
+        -0.004
+      ],
+      "material": "dark",
+      "rotation": [
+        -13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "receiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.077,
+          0.1,
+          0.245
+        ]
+      },
+      "position": [
+        0,
+        0.145,
+        0.035
+      ],
+      "material": "body"
+    },
+    {
+      "id": "ejection_port",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.025,
+          0.065
+        ]
+      },
+      "position": [
+        0.0405,
+        0.151,
+        0.05
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "charging_handle",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.035,
+          0.014,
+          0.025
+        ]
+      },
+      "position": [
+        0.055,
+        0.16999999999999998,
+        0.025
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "handguard",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.08,
+          0.18
+        ]
+      },
+      "position": [
+        0,
+        0.145,
+        0.23299999999999998
+      ],
+      "material": "body"
+    },
+    {
+      "id": "vent_-1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        -0.039,
+        0.154,
+        0.155
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        0.039,
+        0.154,
+        0.155
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_-1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        -0.039,
+        0.154,
+        0.1856
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        0.039,
+        0.154,
+        0.1856
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_-1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        -0.039,
+        0.154,
+        0.2162
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        0.039,
+        0.154,
+        0.2162
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_-1_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        -0.039,
+        0.154,
+        0.2468
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_1_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        0.039,
+        0.154,
+        0.2468
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_-1_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        -0.039,
+        0.154,
+        0.2774
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_1_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        0.039,
+        0.154,
+        0.2774
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_-1_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        -0.039,
+        0.154,
+        0.308
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "vent_1_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.022,
+          0.013
+        ]
+      },
+      "position": [
+        0.039,
+        0.154,
+        0.308
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "upper_rail",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.036,
+          0.015,
+          0.26599999999999996
+        ]
+      },
+      "position": [
+        0,
+        0.204,
+        0.1
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "rail_tooth_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        -0.018
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.0010000000000000009
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.02
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.03899999999999999
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.057999999999999996
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.077
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.09599999999999999
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_7",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.115
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_8",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.134
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_9",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.153
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_10",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.17200000000000001
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "rail_tooth_11",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.042,
+          0.007,
+          0.009
+        ]
+      },
+      "position": [
+        0,
+        0.214,
+        0.191
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "stock_spine",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.039,
+          0.042,
+          0.2
+        ]
+      },
+      "position": [
+        0,
+        0.12499999999999999,
+        -0.16
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "stock_body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.094,
+          0.16
+        ]
+      },
+      "position": [
+        0,
+        0.10399999999999998,
+        -0.18
+      ],
+      "material": "wood"
+    },
+    {
+      "id": "buttpad",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.073,
+          0.147,
+          0.027
+        ]
+      },
+      "position": [
+        0,
+        0.102,
+        -0.26
+      ],
+      "material": "rubber"
+    },
+    {
+      "id": "rear_sight_base",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.053,
+          0.03,
+          0.027
+        ]
+      },
+      "position": [
+        0,
+        0.22099999999999997,
+        -0.055
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "rear_sight_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.008,
+          0.022,
+          0.01
+        ]
+      },
+      "position": [
+        -0.015,
+        0.244,
+        -0.055
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "rear_sight_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.008,
+          0.022,
+          0.01
+        ]
+      },
+      "position": [
+        0.015,
+        0.244,
+        -0.055
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "front_sight_base",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.027,
+          0.054,
+          0.02
+        ]
+      },
+      "position": [
+        0,
+        0.188,
+        0.316
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "front_sight_post",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.007,
+          0.026,
+          0.008
+        ]
+      },
+      "position": [
+        0,
+        0.22599999999999998,
+        0.316
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "double_barrel_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.022,
+        "radiusBottom": 0.022,
+        "height": 0.3
+      },
+      "position": [
+        -0.022,
+        0.145,
+        0.23
+      ],
+      "material": "steel",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "double_bore_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.015,
+        "radiusBottom": 0.015,
+        "height": 0.002
+      },
+      "position": [
+        -0.022,
+        0.145,
+        0.381
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "double_barrel_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.022,
+        "radiusBottom": 0.022,
+        "height": 0.3
+      },
+      "position": [
+        0.022,
+        0.145,
+        0.23
+      ],
+      "material": "steel",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "double_bore_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.015,
+        "radiusBottom": 0.015,
+        "height": 0.002
+      },
+      "position": [
+        0.022,
+        0.145,
+        0.381
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "barrel_rib",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.012,
+          0.015,
+          0.3
+        ]
+      },
+      "position": [
+        0,
+        0.16499999999999998,
+        0.23
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "wood_foreend",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.081,
+          0.047,
+          0.12
+        ]
+      },
+      "position": [
+        0,
+        0.10999999999999999,
+        0.23
+      ],
+      "material": "wood"
+    },
+    {
+      "id": "break_lever",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.019,
+          0.014,
+          0.075
+        ]
+      },
+      "position": [
+        0.018,
+        0.204,
+        -0.033
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        15,
+        0
+      ]
+    }
+  ],
+  "sockets": [
+    {
+      "id": "grip_main",
+      "parent": "grip",
+      "position": [
+        0,
+        0.012291474580930105,
+        0.008995535149525521
+      ],
+      "rotation": [
+        13,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "muzzle",
+      "parent": "receiver",
+      "position": [
+        0,
+        0,
+        0.351
+      ]
+    },
+    {
+      "id": "aim",
+      "parent": "receiver",
+      "position": [
+        0,
+        0.1,
+        -0.06
+      ]
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_WPN_Throwable_001_Thunder",
+  "type": "static",
+  "materials": {
+    "metal": {
+      "color": "#343D45",
+      "metalness": 0.75,
+      "roughness": 0.38
+    },
+    "edge": {
+      "color": "#63717B",
+      "metalness": 0.8,
+      "roughness": 0.32
+    },
+    "black": {
+      "color": "#151C22",
+      "roughness": 0.76
+    },
+    "polymer": {
+      "color": "#495650",
+      "roughness": 0.86
+    },
+    "accent": {
+      "color": "#B68D50",
+      "metalness": 0.45,
+      "roughness": 0.5
+    },
+    "glass": {
+      "color": "#315D68",
+      "metalness": 0.5,
+      "roughness": 0.18
+    },
+    "hole": {
+      "color": "#070B0E",
+      "roughness": 1
+    },
+    "blade": {
+      "color": "#BAC7CE",
+      "metalness": 0.9,
+      "roughness": 0.23
+    }
+  },
+  "parts": [
+    {
+      "id": "Shell",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.039
+      },
+      "position": [
+        0,
+        -0.007,
+        0
+      ],
+      "scale": [
+        1,
+        1.32,
+        1
+      ],
+      "material": "polymer"
+    },
+    {
+      "id": "Base",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.027,
+        "radiusBottom": 0.027,
+        "height": 0.009
+      },
+      "position": [
+        0,
+        -0.055,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "black"
+    },
+    {
+      "id": "Neck",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.022,
+        "radiusBottom": 0.022,
+        "height": 0.02
+      },
+      "position": [
+        0,
+        0.043,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "FuseCap",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.017,
+        "radiusBottom": 0.017,
+        "height": 0.018
+      },
+      "position": [
+        0,
+        0.058,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "black"
+    },
+    {
+      "id": "LeverTop",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.022,
+          0.006,
+          0.056
+        ]
+      },
+      "position": [
+        0,
+        0.071,
+        0.012
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "LeverSide",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.022,
+          0.068,
+          0.006
+        ]
+      },
+      "position": [
+        0,
+        0.034,
+        0.043
+      ],
+      "material": "edge",
+      "rotation": [
+        -14,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LeverTail",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.022,
+          0.032,
+          0.006
+        ]
+      },
+      "position": [
+        0,
+        -0.01,
+        0.034
+      ],
+      "material": "edge",
+      "rotation": [
+        22,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "PinStem",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0025,
+        "radiusBottom": 0.0025,
+        "height": 0.066
+      },
+      "position": [
+        0,
+        0.053,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "PinRing_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.031,
+        0.053,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "PinRing_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.03327756813566454,
+        0.0615,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        120
+      ]
+    },
+    {
+      "id": "PinRing_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.0395,
+        0.06772243186433545,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        150
+      ]
+    },
+    {
+      "id": "PinRing_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.048,
+        0.07,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        180
+      ]
+    },
+    {
+      "id": "PinRing_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.056499999999999995,
+        0.06772243186433546,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        210
+      ]
+    },
+    {
+      "id": "PinRing_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.06272243186433546,
+        0.0615,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        240
+      ]
+    },
+    {
+      "id": "PinRing_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.065,
+        0.053,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        270
+      ]
+    },
+    {
+      "id": "PinRing_7",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.06272243186433546,
+        0.044500000000000005,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        300
+      ]
+    },
+    {
+      "id": "PinRing_8",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.05650000000000001,
+        0.03827756813566455,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        330
+      ]
+    },
+    {
+      "id": "PinRing_9",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.048,
+        0.036,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        360
+      ]
+    },
+    {
+      "id": "PinRing_10",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.0395,
+        0.03827756813566454,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        390
+      ]
+    },
+    {
+      "id": "PinRing_11",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.009,
+          0.0028,
+          0.0028
+        ]
+      },
+      "position": [
+        -0.03327756813566455,
+        0.04449999999999999,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        420
+      ]
+    },
+    {
+      "id": "ShellBand_0",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.029,
+        "radiusBottom": 0.029,
+        "height": 0.003
+      },
+      "position": [
+        0,
+        -0.039,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "black"
+    },
+    {
+      "id": "ShellBand_1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.039,
+        "radiusBottom": 0.039,
+        "height": 0.003
+      },
+      "position": [
+        0,
+        -0.011,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "black"
+    },
+    {
+      "id": "ShellBand_2",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.033,
+        "radiusBottom": 0.033,
+        "height": 0.003
+      },
+      "position": [
+        0,
+        0.017,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "black"
+    }
+  ]
+}

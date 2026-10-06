@@ -1,0 +1,335 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Truck_02_Tanker",
+  "label": "报废卡车／锈蚀罐车",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -1.66,
+      -3.7
+    ],
+    "max": [
+      1.66,
+      4.34
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Frame",
+      "role": "solid",
+      "position": [
+        0,
+        0.65,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.1,
+        0.45,
+        6.7
+      ]
+    },
+    {
+      "node": "Cab",
+      "role": "solid",
+      "position": [
+        0,
+        1.7,
+        2.15
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.3,
+        1.7,
+        1.85
+      ]
+    },
+    {
+      "node": "Hood",
+      "role": "solid",
+      "position": [
+        0,
+        1.2,
+        3.3
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.15,
+        0.65,
+        1.1
+      ]
+    },
+    {
+      "node": "Bumper",
+      "role": "solid",
+      "position": [
+        0,
+        0.66,
+        3.87
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        2.5,
+        0.22,
+        0.23
+      ]
+    },
+    {
+      "node": "Step_-1",
+      "role": "solid",
+      "position": [
+        -1.16,
+        0.67,
+        2
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.27,
+        0.16,
+        1.25
+      ]
+    },
+    {
+      "node": "Step_1",
+      "role": "solid",
+      "position": [
+        1.16,
+        0.67,
+        2
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.27,
+        0.16,
+        1.25
+      ]
+    },
+    {
+      "node": "Wheel_-1_-2_4_Core",
+      "role": "solid",
+      "position": [
+        -1.05,
+        0.47,
+        -2.4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.38,
+        0.68,
+        0.68
+      ]
+    },
+    {
+      "node": "Wheel_1_-2_4_Core",
+      "role": "solid",
+      "position": [
+        1.05,
+        0.47,
+        -2.4
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.38,
+        0.68,
+        0.68
+      ]
+    },
+    {
+      "node": "Wheel_-1_-1_1_Core",
+      "role": "solid",
+      "position": [
+        -1.05,
+        0.47,
+        -1.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.38,
+        0.68,
+        0.68
+      ]
+    },
+    {
+      "node": "Wheel_1_-1_1_Core",
+      "role": "solid",
+      "position": [
+        1.05,
+        0.47,
+        -1.1
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.38,
+        0.68,
+        0.68
+      ]
+    },
+    {
+      "node": "Wheel_-1_2_5_Core",
+      "role": "solid",
+      "position": [
+        -1.05,
+        0.47,
+        2.5
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.38,
+        0.68,
+        0.68
+      ]
+    },
+    {
+      "node": "Wheel_1_2_5_Core",
+      "role": "solid",
+      "position": [
+        1.05,
+        0.47,
+        2.5
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.38,
+        0.68,
+        0.68
+      ]
+    },
+    {
+      "node": "TankCore",
+      "role": "solid",
+      "position": [
+        0,
+        1.78,
+        -1.2
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1.8,
+        1,
+        4.05
+      ]
+    },
+    {
+      "node": "TankCoreUpper",
+      "role": "solid",
+      "position": [
+        0,
+        1.78,
+        -1.2
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1.8,
+        4.05
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "modelAsset": "models/FSA_ENV_Outdoor_Truck_02_Tanker.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -1.3000000029802323,
+      1.1920928133513087e-9,
+      -3.3499999046325684
+    ],
+    "max": [
+      1.3000000029802323,
+      2.969999998211861,
+      3.9850000020861627
+    ]
+  },
+  "checks": [],
+  "sourceHash": "9756e3f60b24119a115fa5b07190714e979cc521c5c218564d5cab273149a432",
+  "modelHash": "e93735396aa8728834049606561baea86d62f48fdd7f080f425cb3cad2cd56f9"
+}

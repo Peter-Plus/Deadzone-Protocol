@@ -1,0 +1,245 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_fire_fireball",
+  "name": "火球 · 炎疫鬼／炎巫通用",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "dissipate": {
+      "duration": 0.4,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "fire_tail",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 22,
+      "seed": 1473,
+      "position": [
+        0,
+        0,
+        -0.55
+      ],
+      "radii": [
+        0.1,
+        0.1,
+        0.45
+      ],
+      "shell": 0.55,
+      "size": [
+        0.18,
+        0.34
+      ],
+      "aspect": 1,
+      "drift": [
+        0.025,
+        0.035,
+        0.025
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.2
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#eb3606",
+        "opacity": 0.42,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "orange_flame",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 22,
+      "seed": 1710,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "radii": [
+        0.19,
+        0.19,
+        0.19
+      ],
+      "shell": 0.55,
+      "size": [
+        0.25,
+        0.4
+      ],
+      "aspect": 1,
+      "drift": [
+        0.025,
+        0.035,
+        0.025
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.2
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ff590a",
+        "opacity": 0.58,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "golden_core",
+      "kind": "cloud",
+      "texture": "glow",
+      "count": 3,
+      "seed": 1631,
+      "position": [
+        0,
+        0,
+        0.04
+      ],
+      "radii": [
+        0.035,
+        0.035,
+        0.035
+      ],
+      "shell": 0.55,
+      "size": [
+        0.29,
+        0.34
+      ],
+      "aspect": 1,
+      "drift": [
+        0.025,
+        0.035,
+        0.025
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.2
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ffc343",
+        "opacity": 0.72,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

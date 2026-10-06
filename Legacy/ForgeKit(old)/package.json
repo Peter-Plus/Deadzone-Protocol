@@ -1,0 +1,13 @@
+{
+  "name": "forgekit", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": {
+    "asset": "tsx src/cli/main.ts",
+    "dev": "tsx src/cli/main.ts preview",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/**/*.test.ts",
+    "build": "npm run typecheck && vite build",
+    "check": "npm run typecheck && npm test && npm run asset -- validate && npm run asset -- build && vite build"
+  },
+  "dependencies": { "ajv": "^8.17.1", "chokidar": "^4.0.3", "commander": "^13.1.0", "three": "^0.180.0", "vite": "^6.1.0" },
+  "devDependencies": { "@types/node": "^22.13.0", "@types/three": "^0.180.0", "tsx": "^4.19.2", "typescript": "^5.7.3" }
+}

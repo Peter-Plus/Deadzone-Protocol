@@ -1,0 +1,282 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_chaos_toxic_shield",
+  "name": "混沌 · 毒素护盾强化",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 3,
+      "loop": true
+    },
+    "hit": {
+      "duration": 0.22,
+      "loop": false,
+      "next": "active"
+    },
+    "broken": {
+      "duration": 0.48,
+      "loop": false,
+      "next": "finished"
+    },
+    "release": {
+      "duration": 0.65,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "surface",
+      "kind": "surface",
+      "shape": "ellipsoid",
+      "position": [
+        0.4255368918194824,
+        1.9462157014402344,
+        0.27336981291474305
+      ],
+      "size": [
+        2.414365325866635,
+        2.5652659727007716,
+        2.3053112821365946
+      ],
+      "accent": "#c8ff6a",
+      "detailScale": 2.2,
+      "speed": 1,
+      "rimWidth": 0.055,
+      "profiles": {
+        "active": {
+          "strength": 0.62,
+          "expansion": 1
+        },
+        "hit": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.2,
+                1
+              ],
+              [
+                1,
+                0.65
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": 1
+        },
+        "broken": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.15,
+                0.8
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        },
+        "release": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.25,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.17
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#469c37",
+        "opacity": 0.58,
+        "depthTest": true,
+        "depthWrite": false,
+        "blend": "additive"
+      }
+    },
+    {
+      "id": "sparse_black_particles",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 30,
+      "seed": 12007,
+      "position": [
+        0.4255368918194824,
+        1.9462157014402344,
+        0.27336981291474305
+      ],
+      "radii": [
+        2.2453597530559706,
+        2.3856973546117177,
+        2.143939492387033
+      ],
+      "size": [
+        0.06,
+        0.14
+      ],
+      "shell": 0.94,
+      "aspect": 1,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "active": {
+          "strength": 0.62,
+          "expansion": 1
+        },
+        "hit": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.2,
+                1
+              ],
+              [
+                1,
+                0.65
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": 1
+        },
+        "broken": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.15,
+                0.8
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        },
+        "release": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.25,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.17
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#100c18",
+        "opacity": 0.7,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

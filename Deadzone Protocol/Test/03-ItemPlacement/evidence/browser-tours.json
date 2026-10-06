@@ -1,0 +1,1795 @@
+[
+  {
+    "seed": "104729",
+    "color": "red",
+    "item": {
+      "id": "item-008",
+      "regionKey": "A-3/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-3",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        51.013597297901285,
+        2.447549235474662,
+        20.999776445552715
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "A-3/interior-floor",
+      "access": [
+        51.71072542711231,
+        2.287549235474662,
+        20.999776445552715
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 196,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            48.38558222632855,
+            1.8875491619110107,
+            31.33632170455531
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 196,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              51.12950897216797,
+              2.295549249649048,
+              22.819456100463867
+            ],
+            "mode": "moving",
+            "arrived": false,
+            "distance": 8.947995266835843,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008000014174386116
+          }
+        ],
+        "logs": []
+      },
+      {
+        "time": 3.9999999999999907,
+        "actors": 1,
+        "colliders": 196,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              51.69983673095703,
+              2.295434808731079,
+              21.03384780883789
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 10.82247128989274,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007885573256417366
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "104729",
+    "color": "blue",
+    "item": {
+      "id": "item-005",
+      "regionKey": "A-2/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "A-2",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        25.22995654336176,
+        2.547549235474662,
+        53.732892290838066
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "A-2/interior-floor",
+      "access": [
+        25.92708467257278,
+        2.387549235474662,
+        53.732892290838066
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 196,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            22.2436506319791,
+            1.8875491619110107,
+            58.776249749585986
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 196,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              25.831270217895508,
+              2.3955191135406495,
+              53.75034713745117
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 6.968546258343637,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.00796987806598759
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "104729",
+    "color": "green",
+    "item": {
+      "id": "item-021",
+      "regionKey": "A-6/warehouse-south",
+      "regionId": "warehouse-south",
+      "instanceId": "A-6",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-south-green",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        23.70517730635591,
+        2.2475492354746622,
+        -5.511856854413633
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-6/interior-floor",
+      "access": [
+        24.40230543556693,
+        2.087549235474662,
+        -5.511856854413633
+      ],
+      "color": "green",
+      "testItemId": "green",
+      "hex": "#39ee78"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 196,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            31.40409369720146,
+            1.8875491619110107,
+            -1.274419524706896
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 196,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              24.436237335205078,
+              2.0951889514923097,
+              -5.480355739593506
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 8.237595971450304,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007639716017647569
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "104729",
+    "color": "purple",
+    "item": {
+      "id": "item-001",
+      "regionKey": "A-1/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-1",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "instance-purple",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        46.79934486858546,
+        2.447549235474662,
+        50.99851706993767
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-1/interior-floor",
+      "access": [
+        47.49647299779648,
+        2.287549235474662,
+        50.99851706993767
+      ],
+      "color": "purple",
+      "testItemId": "purple",
+      "hex": "#cb65ff"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 196,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            39.405378752853714,
+            1.8875491619110107,
+            47.026830453891314
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 196,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              47.35987854003906,
+              2.295487976074219,
+              50.903106689453125
+            ],
+            "mode": "moving",
+            "arrived": false,
+            "distance": 8.94845938581314,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007938740599557015
+          }
+        ],
+        "logs": []
+      },
+      {
+        "time": 3.9999999999999907,
+        "actors": 1,
+        "colliders": 196,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              47.421363830566406,
+              2.295487976074219,
+              50.94605255126953
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 9.023459385364513,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007938740599557015
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "104729",
+    "color": "white",
+    "item": {
+      "id": "item-060",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -2.178470048126506,
+        1.5943226486976818,
+        5.406699419988583
+      ],
+      "axes": [
+        [
+          0.9988246750661589,
+          0.048469252923706914,
+          0
+        ],
+        [
+          -0.04846773526353238,
+          0.9987934000549044,
+          -0.00791344711158861
+        ],
+        [
+          -0.0003835588695499663,
+          0.007904146239885728,
+          0.9999686881871913
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -1.4735870812733203,
+        1.4709228462819501,
+        5.407965571526438
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 196,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            0,
+            1.4973435401916504,
+            0
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 196,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              -1.4590694904327393,
+              1.4796677589416505,
+              5.354628562927246
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 5.549857159779247,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008440709299839089
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "20261005",
+    "color": "red",
+    "item": {
+      "id": "item-005",
+      "regionKey": "A-2/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-2",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -21.760312341433018,
+        1.6968199223985792,
+        -51.4872646420449
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-2/interior-floor",
+      "access": [
+        -21.063184212221998,
+        1.5368199223985792,
+        -51.4872646420449
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 198,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            -13.053821603767574,
+            1.1368199586868286,
+            -48.17736469814554
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 198,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              -21.003997802734375,
+              1.5447667598724366,
+              -51.454769134521484
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 8.648179648123037,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007946837473857382
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "20261005",
+    "color": "blue",
+    "item": {
+      "id": "item-010",
+      "regionKey": "A-3/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "A-3",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -53.08062049880624,
+        1.7968199223985792,
+        -18.612203841879964
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-3/interior-floor",
+      "access": [
+        -52.38349236959522,
+        1.6368199223985793,
+        -18.612203841879964
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 198,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            -58.12979650916532,
+            1.1368199586868286,
+            -22.04315600404516
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 198,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              -52.43476486206055,
+              1.6443353652954102,
+              -18.69449234008789
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 6.970664527616772,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007515442896830926
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "20261005",
+    "color": "green",
+    "item": {
+      "id": "item-017",
+      "regionKey": "A-5/warehouse-south",
+      "regionId": "warehouse-south",
+      "instanceId": "A-5",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-south-green",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -42.13923074485268,
+        1.4968199223985792,
+        1.9829142955783763
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "A-5/interior-floor",
+      "access": [
+        -41.79066668024717,
+        1.3368199223985793,
+        2.5866449651678405
+      ],
+      "color": "green",
+      "testItemId": "green",
+      "hex": "#39ee78"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 198,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            -47.09565323963761,
+            1.1368199586868286,
+            10.559071884024888
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 198,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              -42.26996612548828,
+              1.3447092533111573,
+              3.1069700717926025
+            ],
+            "mode": "moving",
+            "arrived": false,
+            "distance": 8.987458235599755,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.00788933091257804
+          }
+        ],
+        "logs": []
+      },
+      {
+        "time": 3.9999999999999907,
+        "actors": 1,
+        "colliders": 198,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              -41.86345672607422,
+              1.3446222305297852,
+              2.6656646728515625
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 9.587458221634483,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.0078023081312059706
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "20261005",
+    "color": "purple",
+    "item": {
+      "id": "item-001",
+      "regionKey": "A-1/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-1",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "instance-purple",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -47.52761429453269,
+        1.6968199223985792,
+        -44.520285404017194
+      ],
+      "axes": [
+        [
+          6.123233995736766e-17,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6.123233995736766e-17
+        ]
+      ],
+      "surfaceId": "A-1/interior-floor",
+      "access": [
+        -46.830486165321666,
+        1.5368199223985792,
+        -44.520285404017194
+      ],
+      "color": "purple",
+      "testItemId": "purple",
+      "hex": "#cb65ff"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 198,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            -56.63576772343367,
+            1.1368199586868286,
+            -47.12455100938678
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 198,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              -47.98905944824219,
+              1.544774866104126,
+              -44.82569122314453
+            ],
+            "mode": "moving",
+            "arrived": false,
+            "distance": 8.947201448028874,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007954943705546835
+          }
+        ],
+        "logs": []
+      },
+      {
+        "time": 3.9999999999999907,
+        "actors": 1,
+        "colliders": 198,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              -46.901241302490234,
+              1.5447145462036134,
+              -44.538936614990234
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 10.07219684014255,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.00789462380503414
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "20261005",
+    "color": "white",
+    "item": {
+      "id": "item-062",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -0.35556141965262616,
+        1.664226185348125,
+        -4.722480959827487
+      ],
+      "axes": [
+        [
+          0.9971168670533871,
+          0.07588117973277653,
+          0
+        ],
+        [
+          -0.0758808795469798,
+          0.9971129224610358,
+          -0.0028128242727658687
+        ],
+        [
+          -0.00021344042419846332,
+          0.002804714526432025,
+          0.9999960440019804
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        0.3537076502859109,
+        1.551908363739267,
+        -4.722030907943845
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 198,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            0,
+            1.5974544286727905,
+            0
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 198,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              0.34723520278930664,
+              1.5602861404418946,
+              -4.636977672576904
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 4.649960502352147,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008534954883975931
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "8675309",
+    "color": "red",
+    "item": {
+      "id": "item-013",
+      "regionKey": "A-4/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-4",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "template-A-red",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        26.988182218596336,
+        1.437575698386362,
+        20.735774830915037
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "A-4/interior-floor",
+      "access": [
+        27.685310347807356,
+        1.277575698386362,
+        20.735774830915037
+      ],
+      "color": "red",
+      "testItemId": "red",
+      "hex": "#ff4141"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 202,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            23.81475627236068,
+            0.877575695514679,
+            31.322423240635548
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 202,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              26.456680297851562,
+              1.2855273246765138,
+              22.77296257019043
+            ],
+            "mode": "moving",
+            "arrived": false,
+            "distance": 8.94839312340882,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007951626290151781
+          }
+        ],
+        "logs": []
+      },
+      {
+        "time": 3.9999999999999907,
+        "actors": 1,
+        "colliders": 202,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              27.62300682067871,
+              1.285429334640503,
+              20.76919174194336
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 11.423346712885444,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007853636254141039
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "8675309",
+    "color": "blue",
+    "item": {
+      "id": "item-009",
+      "regionKey": "A-3/bent-storage",
+      "regionId": "bent-storage",
+      "instanceId": "A-3",
+      "templateId": "bent",
+      "kind": "indoor",
+      "ruleId": "template-B-blue",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        52.270581338498744,
+        1.5375756983863618,
+        19.109841161081576
+      ],
+      "axes": [
+        [
+          -1.8369701987210297e-16,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1.8369701987210297e-16
+        ]
+      ],
+      "surfaceId": "A-3/interior-floor",
+      "access": [
+        52.96770946770977,
+        1.3775756983863618,
+        19.109841161081576
+      ],
+      "color": "blue",
+      "testItemId": "blue",
+      "hex": "#3485ff"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 202,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            58.293536670506,
+            0.877575695514679,
+            23.154348250944178
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 202,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              52.98551559448242,
+              1.3855756282806397,
+              19.180389404296875
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 7.4939058312338895,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.00799992989427789
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "8675309",
+    "color": "green",
+    "item": {
+      "id": "item-005",
+      "regionKey": "A-2/warehouse-south",
+      "regionId": "warehouse-south",
+      "instanceId": "A-2",
+      "templateId": "warehouse",
+      "kind": "indoor",
+      "ruleId": "C-south-green",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        27.056654277299522,
+        1.237575698386362,
+        48.37087090766989
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "A-2/interior-floor",
+      "access": [
+        27.753782406510542,
+        1.077575698386362,
+        48.37087090766989
+      ],
+      "color": "green",
+      "testItemId": "green",
+      "hex": "#39ee78"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 202,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            22.89408195205032,
+            0.877575695514679,
+            56.65937133831903
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 202,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              27.3461971282959,
+              1.085559105873108,
+              48.91347122192383
+            ],
+            "mode": "moving",
+            "arrived": false,
+            "distance": 8.9876517710834,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007983407486745975
+          }
+        ],
+        "logs": []
+      },
+      {
+        "time": 3.9999999999999907,
+        "actors": 1,
+        "colliders": 202,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              27.706560134887695,
+              1.085303044319153,
+              48.433738708496094
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 9.587650294633555,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007727345932790897
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "8675309",
+    "color": "purple",
+    "item": {
+      "id": "item-001",
+      "regionKey": "A-1/through-storage",
+      "regionId": "through-storage",
+      "instanceId": "A-1",
+      "templateId": "through",
+      "kind": "indoor",
+      "ruleId": "instance-purple",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        52.207298616003236,
+        1.437575698386362,
+        48.0684392958507
+      ],
+      "axes": [
+        [
+          -1,
+          0,
+          -1.2246467991473532e-16
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1.2246467991473532e-16,
+          0,
+          -1
+        ]
+      ],
+      "surfaceId": "A-1/interior-floor",
+      "access": [
+        52.90442674521426,
+        1.277575698386362,
+        48.0684392958507
+      ],
+      "color": "purple",
+      "testItemId": "purple",
+      "hex": "#cb65ff"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 202,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            48.89109558425843,
+            0.877575695514679,
+            57.393326248507954
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 202,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              52.31548309326172,
+              1.2854913234710694,
+              49.163516998291016
+            ],
+            "mode": "moving",
+            "arrived": false,
+            "distance": 8.947727267849166,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007915625084707445
+          }
+        ],
+        "logs": []
+      },
+      {
+        "time": 3.9999999999999907,
+        "actors": 1,
+        "colliders": 202,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              52.883853912353516,
+              1.285457468032837,
+              48.10669708251953
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 10.147710850181063,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.007881769646475023
+          }
+        ],
+        "logs": []
+      }
+    ]
+  },
+  {
+    "seed": "8675309",
+    "color": "white",
+    "item": {
+      "id": "item-064",
+      "regionKey": "outdoor/outdoor-white",
+      "regionId": "outdoor-white",
+      "instanceId": null,
+      "templateId": null,
+      "kind": "outdoor",
+      "ruleId": "outside-white",
+      "size": 0.32,
+      "minGap": 0.42,
+      "position": [
+        -5.179082199770132,
+        0.7244107128914321,
+        -1.6846777218382967
+      ],
+      "axes": [
+        [
+          0.999966791040886,
+          -0.008149651243650524,
+          0
+        ],
+        [
+          0.008149645715524092,
+          0.9999661127366638,
+          -0.0011647544965207508
+        ],
+        [
+          0.000009492342931117876,
+          0.001164715816236298,
+          0.9999993216732513
+        ]
+      ],
+      "surfaceId": "terrain",
+      "access": [
+        -4.483258013873595,
+        0.5514422396036728,
+        -1.6844913611188534
+      ],
+      "color": "white",
+      "testItemId": "white",
+      "hex": "#ffffff"
+    },
+    "start": {
+      "time": 0,
+      "actors": 1,
+      "colliders": 202,
+      "bodies": 1,
+      "maxOverlap": 0,
+      "collisionStops": 0,
+      "stuck": 0,
+      "maxStuck": 0,
+      "actorsState": [
+        {
+          "id": "player",
+          "kind": "player",
+          "p": [
+            0,
+            0.5138469338417053,
+            0
+          ],
+          "mode": "moving",
+          "arrived": false,
+          "distance": 0,
+          "stuck": 0,
+          "maxStuck": 0,
+          "reason": "",
+          "supportError": 0
+        }
+      ],
+      "logs": []
+    },
+    "trace": [
+      {
+        "time": 1.9999999999999978,
+        "actors": 1,
+        "colliders": 202,
+        "bodies": 1,
+        "maxOverlap": 0,
+        "collisionStops": 0,
+        "stuck": 0,
+        "maxStuck": 0,
+        "actorsState": [
+          {
+            "id": "player",
+            "kind": "player",
+            "p": [
+              -4.422239303588867,
+              0.5581458568572998,
+              -1.6616249084472656
+            ],
+            "mode": "arrived",
+            "arrived": true,
+            "distance": 4.7241083652849705,
+            "stuck": 0,
+            "maxStuck": 0,
+            "reason": "",
+            "supportError": 0.008043477118894748
+          }
+        ],
+        "logs": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,630 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_FlareGun",
+  "type": "static",
+  "materials": {
+    "orange": {
+      "color": "#B63C36",
+      "roughness": 0.75
+    },
+    "black": {
+      "color": "#273236",
+      "roughness": 0.87
+    },
+    "metal": {
+      "color": "#839093",
+      "roughness": 0.4,
+      "metalness": 0.65
+    },
+    "olive": {
+      "color": "#626F52",
+      "roughness": 1
+    },
+    "tan": {
+      "color": "#9B8966",
+      "roughness": 1
+    },
+    "cloth": {
+      "color": "#394C46",
+      "roughness": 1
+    },
+    "strap": {
+      "color": "#263E34",
+      "roughness": 0.92
+    },
+    "light": {
+      "color": "#CABD96",
+      "roughness": 0.9
+    },
+    "hole": {
+      "color": "#0D171D",
+      "roughness": 1
+    },
+    "stone": {
+      "color": "#3A3548",
+      "roughness": 0.95
+    },
+    "purple": {
+      "color": "#82749E",
+      "roughness": 0.45,
+      "metalness": 0.15
+    },
+    "purpleTip": {
+      "color": "#B0A0C8",
+      "roughness": 0.38
+    },
+    "ember": {
+      "color": "#D76436",
+      "roughness": 0.5
+    },
+    "hot": {
+      "color": "#F0B25C",
+      "roughness": 0.38
+    },
+    "char": {
+      "color": "#493C3C",
+      "roughness": 0.92
+    },
+    "green": {
+      "color": "#579875",
+      "roughness": 0.5
+    },
+    "toxic": {
+      "color": "#ABD27E",
+      "roughness": 0.4
+    },
+    "bark": {
+      "color": "#344F42",
+      "roughness": 0.9
+    }
+  },
+  "parts": [
+    {
+      "id": "Grip",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.044,
+          0.116,
+          0.048
+        ]
+      },
+      "position": [
+        0,
+        0.06799999977648259,
+        -0.064
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripHeel",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.053,
+          0.02,
+          0.05
+        ]
+      },
+      "position": [
+        0,
+        0.009999999776482582,
+        -0.048
+      ],
+      "material": "orange"
+    },
+    {
+      "id": "GripPanel_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.006,
+          0.079,
+          0.037
+        ]
+      },
+      "position": [
+        -0.023,
+        0.06799999977648259,
+        -0.064
+      ],
+      "material": "orange",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripRib_-1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.004,
+          0.035
+        ]
+      },
+      "position": [
+        -0.027,
+        0.04099999977648258,
+        -0.06
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripRib_-1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.004,
+          0.035
+        ]
+      },
+      "position": [
+        -0.027,
+        0.052999999776482586,
+        -0.06
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripRib_-1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.004,
+          0.035
+        ]
+      },
+      "position": [
+        -0.027,
+        0.06499999977648259,
+        -0.06
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripRib_-1_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.004,
+          0.035
+        ]
+      },
+      "position": [
+        -0.027,
+        0.0769999997764826,
+        -0.06
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripRib_-1_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.004,
+          0.035
+        ]
+      },
+      "position": [
+        -0.027,
+        0.08899999977648258,
+        -0.06
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripPanel_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.006,
+          0.079,
+          0.037
+        ]
+      },
+      "position": [
+        0.023,
+        0.06799999977648259,
+        -0.064
+      ],
+      "material": "orange",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripRib_1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.004,
+          0.035
+        ]
+      },
+      "position": [
+        0.027,
+        0.04099999977648258,
+        -0.06
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripRib_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.004,
+          0.035
+        ]
+      },
+      "position": [
+        0.027,
+        0.052999999776482586,
+        -0.06
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripRib_1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.004,
+          0.035
+        ]
+      },
+      "position": [
+        0.027,
+        0.06499999977648259,
+        -0.06
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripRib_1_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.004,
+          0.035
+        ]
+      },
+      "position": [
+        0.027,
+        0.0769999997764826,
+        -0.06
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GripRib_1_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.004,
+          0.035
+        ]
+      },
+      "position": [
+        0.027,
+        0.08899999977648258,
+        -0.06
+      ],
+      "material": "black",
+      "rotation": [
+        -16,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Receiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.066,
+          0.055,
+          0.123
+        ]
+      },
+      "position": [
+        0,
+        0.13899999977648259,
+        -0.013
+      ],
+      "material": "orange"
+    },
+    {
+      "id": "Barrel",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.036,
+        "radiusBottom": 0.036,
+        "height": 0.166
+      },
+      "position": [
+        0,
+        0.17399999977648256,
+        0.05
+      ],
+      "material": "orange",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "MuzzleRim",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.039,
+        "radiusBottom": 0.039,
+        "height": 0.012
+      },
+      "position": [
+        0,
+        0.17399999977648256,
+        0.136
+      ],
+      "material": "metal",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "MuzzleDark",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.03,
+        "radiusBottom": 0.03,
+        "height": 0.003
+      },
+      "position": [
+        0,
+        0.17399999977648256,
+        0.143
+      ],
+      "material": "hole",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "BoreInset",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.022,
+        "radiusBottom": 0.022,
+        "height": 0.002
+      },
+      "position": [
+        0,
+        0.17399999977648256,
+        0.145
+      ],
+      "material": "black",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Breech",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.072,
+          0.067,
+          0.037
+        ]
+      },
+      "position": [
+        0,
+        0.17399999977648256,
+        -0.045
+      ],
+      "material": "black"
+    },
+    {
+      "id": "Latch",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.028,
+          0.017,
+          0.032
+        ]
+      },
+      "position": [
+        0,
+        0.21399999977648257,
+        -0.044
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "Hinge_-1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.012,
+        "radiusBottom": 0.012,
+        "height": 0.011
+      },
+      "position": [
+        -0.038,
+        0.1399999997764826,
+        0.01
+      ],
+      "material": "metal",
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "Hinge_1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.012,
+        "radiusBottom": 0.012,
+        "height": 0.011
+      },
+      "position": [
+        0.038,
+        0.1399999997764826,
+        0.01
+      ],
+      "material": "metal",
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "id": "GuardFront",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.056,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        0.09599999977648259,
+        0.03
+      ],
+      "material": "orange"
+    },
+    {
+      "id": "GuardBottom",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.018,
+          0.012,
+          0.059
+        ]
+      },
+      "position": [
+        0,
+        0.07099999977648258,
+        0.007
+      ],
+      "material": "orange"
+    },
+    {
+      "id": "Trigger",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.01,
+          0.035,
+          0.01
+        ]
+      },
+      "position": [
+        0,
+        0.10499999977648258,
+        -0.004
+      ],
+      "material": "metal",
+      "rotation": [
+        -22,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "FrontSight",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.012,
+          0.013,
+          0.023
+        ]
+      },
+      "position": [
+        0,
+        0.21399999977648257,
+        0.108
+      ],
+      "material": "black"
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Protected_Corner",
+  "label": "保护区装甲铁墙 / 3m 转角",
+  "type": "barrier",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3.2,
+      -0.3
+    ],
+    "max": [
+      0.3,
+      3.2
+    ]
+  },
+  "colliders": [
+    {
+      "node": "X_ContinuousBlocker",
+      "role": "barrier",
+      "position": [
+        -1.5,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3,
+        4,
+        0.25
+      ]
+    },
+    {
+      "node": "X_Foot",
+      "role": "barrier",
+      "position": [
+        -1.5,
+        0.11,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3,
+        0.22,
+        0.38
+      ]
+    },
+    {
+      "node": "X_Rail0_5",
+      "role": "barrier",
+      "position": [
+        -1.5,
+        0.5,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "X_Rail2_1",
+      "role": "barrier",
+      "position": [
+        -1.5,
+        2.1,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "X_Rail3_78",
+      "role": "barrier",
+      "position": [
+        -1.5,
+        3.78,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "X_Post0",
+      "role": "barrier",
+      "position": [
+        -3,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.22,
+        4,
+        0.42
+      ]
+    },
+    {
+      "node": "X_Cap0",
+      "role": "barrier",
+      "position": [
+        -3,
+        3.955,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Collar0",
+      "role": "barrier",
+      "position": [
+        -3,
+        0.24,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Post3",
+      "role": "barrier",
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.22,
+        4,
+        0.42
+      ]
+    },
+    {
+      "node": "X_Cap3",
+      "role": "barrier",
+      "position": [
+        0,
+        3.955,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Collar3",
+      "role": "barrier",
+      "position": [
+        0,
+        0.24,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    },
+    {
+      "node": "Z_ContinuousBlocker",
+      "role": "barrier",
+      "position": [
+        0,
+        2,
+        1.5
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        3,
+        4,
+        0.25
+      ]
+    },
+    {
+      "node": "Z_Foot",
+      "role": "barrier",
+      "position": [
+        0,
+        0.11,
+        1.5
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        3,
+        0.22,
+        0.38
+      ]
+    },
+    {
+      "node": "Z_Rail0_5",
+      "role": "barrier",
+      "position": [
+        0,
+        0.5,
+        1.5
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        3,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "Z_Rail2_1",
+      "role": "barrier",
+      "position": [
+        0,
+        2.1,
+        1.5
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        3,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "Z_Rail3_78",
+      "role": "barrier",
+      "position": [
+        0,
+        3.78,
+        1.5
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        3,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "Z_Post0",
+      "role": "barrier",
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.22,
+        4,
+        0.42
+      ]
+    },
+    {
+      "node": "Z_Cap0",
+      "role": "barrier",
+      "position": [
+        0,
+        3.955,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "Z_Collar0",
+      "role": "barrier",
+      "position": [
+        0,
+        0.24,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    },
+    {
+      "node": "Z_Post3",
+      "role": "barrier",
+      "position": [
+        0,
+        2,
+        3
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.22,
+        4,
+        0.42
+      ]
+    },
+    {
+      "node": "Z_Cap3",
+      "role": "barrier",
+      "position": [
+        0,
+        3.955,
+        3
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "Z_Collar3",
+      "role": "barrier",
+      "position": [
+        0,
+        0.24,
+        3
+      ],
+      "quaternion": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [
+    {
+      "id": "West",
+      "position": [
+        -3,
+        0,
+        0
+      ],
+      "outward": [
+        -1,
+        0,
+        0
+      ],
+      "height": 4,
+      "thickness": 0.25
+    },
+    {
+      "id": "North",
+      "position": [
+        0,
+        0,
+        3
+      ],
+      "outward": [
+        0,
+        0,
+        1
+      ],
+      "height": 4,
+      "thickness": 0.25
+    }
+  ],
+  "modelAsset": "models/FSA_ENV_Protected_Corner.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -3.1500000059604645,
+      0,
+      -0.23000000417232513
+    ],
+    "max": [
+      0.23000000417232516,
+      4.000000001788139,
+      3.1500000059604645
+    ]
+  },
+  "checks": [],
+  "sourceHash": "e7f35894714e12201c6617407a0a4588a4c966120e196f75b51e32581552a569",
+  "modelHash": "5f8e4015ed3426cda830afcb86547a388935155fb16968456f1b10273f49ee81"
+}

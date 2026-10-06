@@ -1,0 +1,4398 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ENEMY_D001_Chaos",
+  "type": "humanoid",
+  "rig": "humanoid.v2",
+  "parameters": {
+    "height": 3.6,
+    "bodyWidth": 1.48,
+    "bodyDepth": 0.66,
+    "headScale": 0.8333333333333334,
+    "armLength": 1.38,
+    "armThickness": 0.34,
+    "legLength": 1.55,
+    "legThickness": 0.36
+  },
+  "materials": {
+    "skin": {
+      "color": "#80796F",
+      "roughness": 0.92
+    },
+    "muscle": {
+      "color": "#8E8579",
+      "roughness": 0.9
+    },
+    "shadow": {
+      "color": "#5B5653",
+      "roughness": 0.94
+    },
+    "mutation": {
+      "color": "#504C51",
+      "roughness": 0.93
+    },
+    "shell": {
+      "color": "#33343A",
+      "roughness": 0.79,
+      "metalness": 0.08
+    },
+    "ridge": {
+      "color": "#666169",
+      "roughness": 0.83
+    },
+    "bone": {
+      "color": "#B5A78D",
+      "roughness": 0.84
+    },
+    "scar": {
+      "color": "#A39784",
+      "roughness": 0.96
+    },
+    "cloth": {
+      "color": "#353033",
+      "roughness": 0.98
+    },
+    "leather": {
+      "color": "#48403A",
+      "roughness": 0.97
+    },
+    "iron": {
+      "color": "#333B41",
+      "roughness": 0.6,
+      "metalness": 0.68
+    },
+    "axeIron": {
+      "color": "#657177",
+      "roughness": 0.67,
+      "metalness": 0.35
+    },
+    "edge": {
+      "color": "#B0B9B6",
+      "roughness": 0.43,
+      "metalness": 0.57
+    },
+    "trim": {
+      "color": "#86785D",
+      "roughness": 0.68,
+      "metalness": 0.55
+    },
+    "recess": {
+      "color": "#201F24",
+      "roughness": 1
+    },
+    "eye": {
+      "color": "#FF242C",
+      "emissive": "#B30810",
+      "roughness": 0.6
+    },
+    "horn": {
+      "color": "#42322E",
+      "roughness": 0.88
+    },
+    "hornTip": {
+      "color": "#A9937D",
+      "roughness": 0.82
+    },
+    "bloodRoot": {
+      "color": "#51272C",
+      "roughness": 0.84
+    },
+    "bloodSpine": {
+      "color": "#962D38",
+      "roughness": 0.63
+    },
+    "bloodTip": {
+      "color": "#C45857",
+      "roughness": 0.66
+    },
+    "leftFlesh": {
+      "color": "#74656B",
+      "roughness": 0.93
+    },
+    "leftMuscle": {
+      "color": "#8C767B",
+      "roughness": 0.94
+    },
+    "leftTendon": {
+      "color": "#65555D",
+      "roughness": 0.9
+    }
+  },
+  "parts": [
+    {
+      "id": "Ribcage",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.615,
+        "radiusBottom": 0.355,
+        "height": 1.02
+      },
+      "position": [
+        0,
+        0.7878055,
+        0.0463821
+      ],
+      "material": "skin",
+      "scale": [
+        1,
+        1,
+        0.66
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Latissimus_L",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.34,
+        0.8618348,
+        -0.0492456
+      ],
+      "material": "skin",
+      "rotation": [
+        8,
+        0,
+        -15
+      ],
+      "scale": [
+        0.3,
+        0.43,
+        0.255
+      ]
+    },
+    {
+      "id": "Latissimus_R",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.34,
+        0.8618348,
+        -0.0492456
+      ],
+      "material": "skin",
+      "rotation": [
+        8,
+        0,
+        15
+      ],
+      "scale": [
+        0.3,
+        0.43,
+        0.255
+      ]
+    },
+    {
+      "id": "Waist",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.63,
+          0.42,
+          0.45
+        ]
+      },
+      "position": [
+        0,
+        0.29,
+        0.015
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Pelvis",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.06,
+        0
+      ],
+      "material": "cloth",
+      "scale": [
+        0.42,
+        0.24,
+        0.27
+      ]
+    },
+    {
+      "id": "Trapezius_L",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.44,
+        1.32,
+        0.065
+      ],
+      "material": "muscle",
+      "rotation": [
+        8,
+        0,
+        -17
+      ],
+      "scale": [
+        0.46,
+        0.205,
+        0.29
+      ]
+    },
+    {
+      "id": "Pectoral_L",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.305,
+        1.0792654,
+        0.4155381
+      ],
+      "material": "muscle",
+      "rotation": [
+        8,
+        0,
+        7
+      ],
+      "scale": [
+        0.326,
+        0.194,
+        0.117
+      ]
+    },
+    {
+      "id": "Clavicle_L",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.65,
+          0.055,
+          0.1
+        ]
+      },
+      "position": [
+        0.42,
+        1.3,
+        0.33
+      ],
+      "material": "scar",
+      "rotation": [
+        8,
+        0,
+        -9
+      ]
+    },
+    {
+      "id": "Oblique_L",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.27,
+        0.5457518,
+        0.2597715
+      ],
+      "material": "skin",
+      "rotation": [
+        8,
+        0,
+        -12
+      ],
+      "scale": [
+        0.12,
+        0.34,
+        0.115
+      ]
+    },
+    {
+      "id": "Abdominal_L_0",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.134,
+        0.7948712,
+        0.3553726
+      ],
+      "material": "muscle",
+      "scale": [
+        0.129,
+        0.114,
+        0.077
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Abdominal_L_1",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.134,
+        0.6037173,
+        0.3143701
+      ],
+      "material": "muscle",
+      "scale": [
+        0.129,
+        0.108,
+        0.077
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Abdominal_L_2",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.134,
+        0.4125635,
+        0.2733675
+      ],
+      "material": "muscle",
+      "scale": [
+        0.129,
+        0.10200000000000001,
+        0.077
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Scapula_L",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.3,
+        1.0778204,
+        -0.2208563
+      ],
+      "material": "muscle",
+      "rotation": [
+        8,
+        0,
+        -13
+      ],
+      "scale": [
+        0.275,
+        0.36,
+        0.11
+      ]
+    },
+    {
+      "id": "Trapezius_R",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.32,
+        1.3394919,
+        0.1087692
+      ],
+      "material": "muscle",
+      "rotation": [
+        8,
+        0,
+        17
+      ],
+      "scale": [
+        0.33,
+        0.185,
+        0.255
+      ]
+    },
+    {
+      "id": "Pectoral_R",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.305,
+        1.0792654,
+        0.4155381
+      ],
+      "material": "muscle",
+      "rotation": [
+        8,
+        0,
+        -7
+      ],
+      "scale": [
+        0.326,
+        0.194,
+        0.117
+      ]
+    },
+    {
+      "id": "Clavicle_R",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.52,
+          0.055,
+          0.1
+        ]
+      },
+      "position": [
+        -0.31,
+        1.311122,
+        0.3824846
+      ],
+      "material": "scar",
+      "rotation": [
+        8,
+        0,
+        9
+      ]
+    },
+    {
+      "id": "Oblique_R",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.27,
+        0.5457518,
+        0.2597715
+      ],
+      "material": "skin",
+      "rotation": [
+        8,
+        0,
+        12
+      ],
+      "scale": [
+        0.12,
+        0.34,
+        0.115
+      ]
+    },
+    {
+      "id": "Abdominal_R_0",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.134,
+        0.7948712,
+        0.3553726
+      ],
+      "material": "muscle",
+      "scale": [
+        0.129,
+        0.114,
+        0.077
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Abdominal_R_1",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.134,
+        0.6037173,
+        0.3143701
+      ],
+      "material": "muscle",
+      "scale": [
+        0.129,
+        0.108,
+        0.077
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Abdominal_R_2",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.134,
+        0.4125635,
+        0.2733675
+      ],
+      "material": "muscle",
+      "scale": [
+        0.129,
+        0.10200000000000001,
+        0.077
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Scapula_R",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.3,
+        1.0778204,
+        -0.2208563
+      ],
+      "material": "muscle",
+      "rotation": [
+        8,
+        0,
+        13
+      ],
+      "scale": [
+        0.275,
+        0.36,
+        0.11
+      ]
+    },
+    {
+      "id": "Sternum",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.52,
+          0.06
+        ]
+      },
+      "position": [
+        0,
+        0.9965647,
+        0.429161
+      ],
+      "material": "shadow",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Spine",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.82,
+          0.065
+        ]
+      },
+      "position": [
+        0,
+        1.0402758,
+        -0.3129781
+      ],
+      "material": "shadow",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ChestScar_A",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.25,
+          0.021,
+          0.013
+        ]
+      },
+      "position": [
+        -0.26,
+        1.1028712,
+        0.5349859
+      ],
+      "material": "scar",
+      "rotation": [
+        8,
+        0,
+        -27
+      ]
+    },
+    {
+      "id": "ChestScar_B",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.16,
+          0.019,
+          0.013
+        ]
+      },
+      "position": [
+        -0.23,
+        1.023789,
+        0.5228618
+      ],
+      "material": "shadow",
+      "rotation": [
+        8,
+        0,
+        -27
+      ]
+    },
+    {
+      "id": "Belt",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.79,
+          0.15,
+          0.565
+        ]
+      },
+      "position": [
+        0,
+        0.15,
+        0.008
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "BeltFront",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.83,
+          0.085,
+          0.04
+        ]
+      },
+      "position": [
+        0,
+        0.15,
+        0.304
+      ],
+      "material": "iron"
+    },
+    {
+      "id": "BeltBuckle",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.18,
+          0.19,
+          0.063
+        ]
+      },
+      "position": [
+        0,
+        0.145,
+        0.337
+      ],
+      "material": "trim"
+    },
+    {
+      "id": "BuckleInset",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1,
+          0.11,
+          0.02
+        ]
+      },
+      "position": [
+        0,
+        0.145,
+        0.378
+      ],
+      "material": "recess"
+    },
+    {
+      "id": "Tasset_L",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.22,
+          0.43,
+          0.085
+        ]
+      },
+      "position": [
+        0.265,
+        -0.09,
+        0.27
+      ],
+      "material": "cloth",
+      "rotation": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "BeltLoop_L",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.058,
+          0.2,
+          0.046
+        ]
+      },
+      "position": [
+        0.27,
+        0.15,
+        0.328
+      ],
+      "material": "trim"
+    },
+    {
+      "id": "RearTasset_L",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.3,
+          0.46,
+          0.06
+        ]
+      },
+      "position": [
+        0.2,
+        -0.095,
+        -0.25
+      ],
+      "material": "cloth",
+      "rotation": [
+        0,
+        0,
+        -7
+      ]
+    },
+    {
+      "id": "Tasset_R",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.22,
+          0.43,
+          0.085
+        ]
+      },
+      "position": [
+        -0.265,
+        -0.09,
+        0.27
+      ],
+      "material": "cloth",
+      "rotation": [
+        0,
+        0,
+        -8
+      ]
+    },
+    {
+      "id": "BeltLoop_R",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.058,
+          0.2,
+          0.046
+        ]
+      },
+      "position": [
+        -0.27,
+        0.15,
+        0.328
+      ],
+      "material": "trim"
+    },
+    {
+      "id": "RearTasset_R",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.3,
+          0.46,
+          0.06
+        ]
+      },
+      "position": [
+        -0.2,
+        -0.095,
+        -0.25
+      ],
+      "material": "cloth",
+      "rotation": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "LoinPanel",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.23,
+          0.57,
+          0.075
+        ]
+      },
+      "position": [
+        0,
+        -0.17,
+        0.322
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "LoinPanelTip",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.163,
+          0.15,
+          0.074
+        ]
+      },
+      "position": [
+        0.025,
+        -0.5,
+        0.322
+      ],
+      "material": "cloth",
+      "rotation": [
+        0,
+        0,
+        -15
+      ]
+    },
+    {
+      "id": "Neck",
+      "parent": "Head",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.18,
+        "radiusBottom": 0.245,
+        "height": 0.24
+      },
+      "position": [
+        0,
+        -0.1323771,
+        0.1774915
+      ],
+      "material": "skin",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Skull",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0.1680916,
+        0.2166901
+      ],
+      "material": "skin",
+      "scale": [
+        0.231,
+        0.215,
+        0.213
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Face",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.347,
+          0.29,
+          0.267
+        ]
+      },
+      "position": [
+        0,
+        0.1130808,
+        0.3422561
+      ],
+      "material": "skin",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Jaw",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.294,
+          0.11,
+          0.273
+        ]
+      },
+      "position": [
+        0,
+        -0.0456244,
+        0.32904
+      ],
+      "material": "shadow",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Chin",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.172,
+          0.091,
+          0.115
+        ]
+      },
+      "position": [
+        0,
+        -0.0719013,
+        0.465713
+      ],
+      "material": "skin",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "NoseBridge",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.061,
+          0.138,
+          0.075
+        ]
+      },
+      "position": [
+        0,
+        0.1062399,
+        0.5058965
+      ],
+      "material": "ridge",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Nose",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.084,
+          0.05,
+          0.085
+        ]
+      },
+      "position": [
+        0,
+        0.0465936,
+        0.5207398
+      ],
+      "material": "skin",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Mouth",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.18,
+          0.026,
+          0.017
+        ]
+      },
+      "position": [
+        0,
+        -0.0157344,
+        0.4756264
+      ],
+      "material": "recess",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "EyeSocket_L",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.122,
+          0.058,
+          0.033
+        ]
+      },
+      "position": [
+        0.101,
+        0.1449514,
+        0.4891209
+      ],
+      "material": "recess",
+      "rotation": [
+        8,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "Eye_L",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.076,
+          0.019,
+          0.022
+        ]
+      },
+      "position": [
+        0.103,
+        0.139909,
+        0.5106284
+      ],
+      "material": "eye",
+      "rotation": [
+        8,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "Brow_L",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.16,
+          0.057,
+          0.077
+        ]
+      },
+      "position": [
+        0.104,
+        0.1854132,
+        0.4958172
+      ],
+      "material": "ridge",
+      "rotation": [
+        8,
+        0,
+        -15
+      ]
+    },
+    {
+      "id": "Cheek_L",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.087,
+          0.113,
+          0.07
+        ]
+      },
+      "position": [
+        0.153,
+        0.0581932,
+        0.4597607
+      ],
+      "material": "muscle",
+      "rotation": [
+        8,
+        0,
+        18
+      ]
+    },
+    {
+      "id": "Temple_L",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.2,
+          0.21
+        ]
+      },
+      "position": [
+        0.203,
+        0.1861787,
+        0.2101436
+      ],
+      "material": "shell",
+      "rotation": [
+        8,
+        0,
+        -9
+      ]
+    },
+    {
+      "id": "JawTooth_L",
+      "parent": "Head",
+      "shape": {
+        "type": "cone",
+        "radius": 0.021,
+        "height": 0.057
+      },
+      "position": [
+        0.064,
+        -0.0247538,
+        0.4895062
+      ],
+      "material": "bone",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "EyeSocket_R",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.122,
+          0.058,
+          0.033
+        ]
+      },
+      "position": [
+        -0.101,
+        0.1449514,
+        0.4891209
+      ],
+      "material": "recess",
+      "rotation": [
+        8,
+        0,
+        -8
+      ]
+    },
+    {
+      "id": "Eye_R",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.076,
+          0.019,
+          0.022
+        ]
+      },
+      "position": [
+        -0.103,
+        0.139909,
+        0.5106284
+      ],
+      "material": "eye",
+      "rotation": [
+        8,
+        0,
+        -8
+      ]
+    },
+    {
+      "id": "Brow_R",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.16,
+          0.057,
+          0.077
+        ]
+      },
+      "position": [
+        -0.104,
+        0.1854132,
+        0.4958172
+      ],
+      "material": "ridge",
+      "rotation": [
+        8,
+        0,
+        15
+      ]
+    },
+    {
+      "id": "Cheek_R",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.087,
+          0.113,
+          0.07
+        ]
+      },
+      "position": [
+        -0.153,
+        0.0581932,
+        0.4597607
+      ],
+      "material": "muscle",
+      "rotation": [
+        8,
+        0,
+        -18
+      ]
+    },
+    {
+      "id": "Temple_R",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.2,
+          0.21
+        ]
+      },
+      "position": [
+        -0.203,
+        0.1861787,
+        0.2101436
+      ],
+      "material": "shell",
+      "rotation": [
+        8,
+        0,
+        9
+      ]
+    },
+    {
+      "id": "JawTooth_R",
+      "parent": "Head",
+      "shape": {
+        "type": "cone",
+        "radius": 0.021,
+        "height": 0.057
+      },
+      "position": [
+        -0.064,
+        -0.0247538,
+        0.4895062
+      ],
+      "material": "bone",
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Deltoid_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.1,
+        0,
+        0
+      ],
+      "material": "muscle",
+      "scale": [
+        0.29,
+        0.285,
+        0.3
+      ]
+    },
+    {
+      "id": "UpperArm_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.38,
+        -0.008,
+        0
+      ],
+      "material": "skin",
+      "scale": [
+        0.37,
+        0.21,
+        0.225
+      ]
+    },
+    {
+      "id": "Biceps_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.39,
+        -0.005,
+        0.173
+      ],
+      "material": "muscle",
+      "scale": [
+        0.275,
+        0.146,
+        0.133
+      ]
+    },
+    {
+      "id": "Elbow_R",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "shadow",
+      "scale": [
+        0.16,
+        0.183,
+        0.19
+      ]
+    },
+    {
+      "id": "ForearmMesh_R",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.15,
+        "radiusBottom": 0.207,
+        "height": 0.56
+      },
+      "position": [
+        -0.175,
+        0,
+        0.25
+      ],
+      "material": "skin",
+      "rotation": [
+        0,
+        35,
+        90
+      ]
+    },
+    {
+      "id": "Bracer_R",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.34,
+          0.29,
+          0.095
+        ]
+      },
+      "position": [
+        -0.23,
+        0.01,
+        0.105
+      ],
+      "material": "iron",
+      "rotation": [
+        0,
+        35,
+        -5
+      ]
+    },
+    {
+      "id": "BracerBand_R_0",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.174,
+        "radiusBottom": 0.174,
+        "height": 0.051
+      },
+      "position": [
+        -0.13,
+        0,
+        0.215
+      ],
+      "material": "leather",
+      "rotation": [
+        0,
+        35,
+        90
+      ]
+    },
+    {
+      "id": "BracerBand_R_1",
+      "parent": "Forearm_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.174,
+        "radiusBottom": 0.174,
+        "height": 0.051
+      },
+      "position": [
+        -0.3,
+        0,
+        0.334
+      ],
+      "material": "leather",
+      "rotation": [
+        0,
+        35,
+        90
+      ]
+    },
+    {
+      "id": "HandMesh_R",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.27,
+          0.24,
+          0.235
+        ]
+      },
+      "position": [
+        -0.115,
+        0,
+        0.06
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "GripFinger_R_0",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.052,
+          0.255,
+          0.085
+        ]
+      },
+      "position": [
+        -0.015,
+        0,
+        0.161
+      ],
+      "material": "muscle"
+    },
+    {
+      "id": "GripFinger_R_1",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.052,
+          0.255,
+          0.085
+        ]
+      },
+      "position": [
+        -0.079,
+        0,
+        0.161
+      ],
+      "material": "muscle"
+    },
+    {
+      "id": "GripFinger_R_2",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.052,
+          0.255,
+          0.085
+        ]
+      },
+      "position": [
+        -0.143,
+        0,
+        0.161
+      ],
+      "material": "muscle"
+    },
+    {
+      "id": "GripFinger_R_3",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.052,
+          0.255,
+          0.085
+        ]
+      },
+      "position": [
+        -0.207,
+        0,
+        0.161
+      ],
+      "material": "muscle"
+    },
+    {
+      "id": "GripThumb_R",
+      "parent": "Hand_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.18,
+          0.08,
+          0.102
+        ]
+      },
+      "position": [
+        -0.04,
+        -0.11,
+        0.079
+      ],
+      "material": "muscle",
+      "rotation": [
+        0,
+        0,
+        -18
+      ]
+    },
+    {
+      "id": "Pauldron_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.11,
+        0.205,
+        -0.02
+      ],
+      "material": "iron",
+      "scale": [
+        0.31,
+        0.145,
+        0.333
+      ]
+    },
+    {
+      "id": "PauldronRim_R",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.44,
+          0.065,
+          0.49
+        ]
+      },
+      "position": [
+        -0.13,
+        0.28,
+        -0.015
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        -6
+      ]
+    },
+    {
+      "id": "PauldronStud_R_0",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.06,
+          0.06,
+          0.06
+        ]
+      },
+      "position": [
+        -0.12,
+        0.18,
+        -0.23
+      ],
+      "material": "trim"
+    },
+    {
+      "id": "PauldronStud_R_1",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.06,
+          0.06,
+          0.06
+        ]
+      },
+      "position": [
+        -0.12,
+        0.18,
+        0
+      ],
+      "material": "trim"
+    },
+    {
+      "id": "PauldronStud_R_2",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.06,
+          0.06,
+          0.06
+        ]
+      },
+      "position": [
+        -0.12,
+        0.18,
+        0.23
+      ],
+      "material": "trim"
+    },
+    {
+      "id": "Thigh_L",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        -0.37,
+        -0.016
+      ],
+      "material": "skin",
+      "scale": [
+        0.253,
+        0.49,
+        0.269
+      ]
+    },
+    {
+      "id": "Quadriceps_L",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.026,
+        -0.34,
+        0.215
+      ],
+      "material": "muscle",
+      "rotation": [
+        0,
+        0,
+        -4
+      ],
+      "scale": [
+        0.176,
+        0.37,
+        0.096
+      ]
+    },
+    {
+      "id": "ThighWrap_L",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.43,
+          0.11,
+          0.475
+        ]
+      },
+      "position": [
+        0,
+        -0.36,
+        0
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "Knee_L",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "shadow",
+      "scale": [
+        0.194,
+        0.197,
+        0.209
+      ]
+    },
+    {
+      "id": "KneePlate_L",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.276,
+          0.246,
+          0.12
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.198
+      ],
+      "material": "iron",
+      "rotation": [
+        9,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Shin_L",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.173,
+        "radiusBottom": 0.139,
+        "height": 0.49
+      },
+      "position": [
+        0,
+        -0.298,
+        -0.019
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "Greave_L",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.258,
+          0.46,
+          0.135
+        ]
+      },
+      "position": [
+        0,
+        -0.32,
+        0.124
+      ],
+      "material": "iron",
+      "rotation": [
+        -6,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GreaveRidge_L",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.051,
+          0.41,
+          0.055
+        ]
+      },
+      "position": [
+        0,
+        -0.29,
+        0.208
+      ],
+      "material": "trim",
+      "rotation": [
+        -6,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Boot_L",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.36,
+          0.267,
+          0.47
+        ]
+      },
+      "position": [
+        0,
+        -0.563,
+        0.054
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "ToeCap_L",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.374,
+          0.155,
+          0.27
+        ]
+      },
+      "position": [
+        0,
+        -0.602,
+        0.228
+      ],
+      "material": "iron"
+    },
+    {
+      "id": "Sole_L",
+      "parent": "LowerLeg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.386,
+          0.074,
+          0.558
+        ]
+      },
+      "position": [
+        0,
+        -0.703,
+        0.078
+      ],
+      "material": "recess"
+    },
+    {
+      "id": "Thigh_R",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        -0.37,
+        -0.016
+      ],
+      "material": "skin",
+      "scale": [
+        0.253,
+        0.49,
+        0.269
+      ]
+    },
+    {
+      "id": "Quadriceps_R",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.026,
+        -0.34,
+        0.215
+      ],
+      "material": "muscle",
+      "rotation": [
+        0,
+        0,
+        4
+      ],
+      "scale": [
+        0.176,
+        0.37,
+        0.096
+      ]
+    },
+    {
+      "id": "ThighWrap_R",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.43,
+          0.11,
+          0.475
+        ]
+      },
+      "position": [
+        0,
+        -0.36,
+        0
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "Knee_R",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "shadow",
+      "scale": [
+        0.194,
+        0.197,
+        0.209
+      ]
+    },
+    {
+      "id": "KneePlate_R",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.276,
+          0.246,
+          0.12
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.198
+      ],
+      "material": "iron",
+      "rotation": [
+        9,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Shin_R",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.173,
+        "radiusBottom": 0.139,
+        "height": 0.49
+      },
+      "position": [
+        0,
+        -0.298,
+        -0.019
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "Greave_R",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.258,
+          0.46,
+          0.135
+        ]
+      },
+      "position": [
+        0,
+        -0.32,
+        0.124
+      ],
+      "material": "iron",
+      "rotation": [
+        -6,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "GreaveRidge_R",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.051,
+          0.41,
+          0.055
+        ]
+      },
+      "position": [
+        0,
+        -0.29,
+        0.208
+      ],
+      "material": "trim",
+      "rotation": [
+        -6,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Boot_R",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.36,
+          0.267,
+          0.47
+        ]
+      },
+      "position": [
+        0,
+        -0.563,
+        0.054
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "ToeCap_R",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.374,
+          0.155,
+          0.27
+        ]
+      },
+      "position": [
+        0,
+        -0.602,
+        0.228
+      ],
+      "material": "iron"
+    },
+    {
+      "id": "Sole_R",
+      "parent": "LowerLeg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.386,
+          0.074,
+          0.558
+        ]
+      },
+      "position": [
+        0,
+        -0.703,
+        0.078
+      ],
+      "material": "recess"
+    },
+    {
+      "id": "AxeShaft",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.052,
+        "radiusBottom": 0.062,
+        "height": 1.98
+      },
+      "position": [
+        0,
+        0.12,
+        0
+      ],
+      "material": "iron"
+    },
+    {
+      "id": "AxeGripWrap",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.072,
+        "radiusBottom": 0.072,
+        "height": 0.47
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "leather"
+    },
+    {
+      "id": "AxeWrapRing_0",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.077,
+        "radiusBottom": 0.077,
+        "height": 0.026
+      },
+      "position": [
+        0,
+        -0.19,
+        0
+      ],
+      "material": "shadow"
+    },
+    {
+      "id": "AxeWrapRing_1",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.077,
+        "radiusBottom": 0.077,
+        "height": 0.026
+      },
+      "position": [
+        0,
+        -0.095,
+        0
+      ],
+      "material": "shadow"
+    },
+    {
+      "id": "AxeWrapRing_2",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.077,
+        "radiusBottom": 0.077,
+        "height": 0.026
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "shadow"
+    },
+    {
+      "id": "AxeWrapRing_3",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.077,
+        "radiusBottom": 0.077,
+        "height": 0.026
+      },
+      "position": [
+        0,
+        0.09500000000000003,
+        0
+      ],
+      "material": "shadow"
+    },
+    {
+      "id": "AxeWrapRing_4",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.077,
+        "radiusBottom": 0.077,
+        "height": 0.026
+      },
+      "position": [
+        0,
+        0.19,
+        0
+      ],
+      "material": "shadow"
+    },
+    {
+      "id": "AxePommel",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.09,
+        "radiusBottom": 0.063,
+        "height": 0.15
+      },
+      "position": [
+        0,
+        -0.91,
+        0
+      ],
+      "material": "trim"
+    },
+    {
+      "id": "AxePommelSpike",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cone",
+        "radius": 0.067,
+        "height": 0.16
+      },
+      "position": [
+        0,
+        -1.06,
+        0
+      ],
+      "material": "axeIron",
+      "rotation": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "AxeEye",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.235,
+          0.33,
+          0.25
+        ]
+      },
+      "position": [
+        0,
+        0.91,
+        0
+      ],
+      "material": "axeIron"
+    },
+    {
+      "id": "AxeEyeBand",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.27,
+          0.088,
+          0.273
+        ]
+      },
+      "position": [
+        0,
+        0.91,
+        0
+      ],
+      "material": "trim"
+    },
+    {
+      "id": "AxeBladeCore",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.42,
+          0.45,
+          0.115
+        ]
+      },
+      "position": [
+        -0.28,
+        0.93,
+        0
+      ],
+      "material": "axeIron"
+    },
+    {
+      "id": "AxeBladeFan_0",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.38,
+          0.25,
+          0.125
+        ]
+      },
+      "position": [
+        -0.51,
+        0.62,
+        0
+      ],
+      "material": "axeIron",
+      "rotation": [
+        0,
+        0,
+        -25
+      ]
+    },
+    {
+      "id": "AxeCuttingEdge_0",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.28300000000000003,
+          0.07
+        ]
+      },
+      "position": [
+        -0.688,
+        0.62,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        -25
+      ]
+    },
+    {
+      "id": "AxeBladeFan_1",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.49,
+          0.27,
+          0.125
+        ]
+      },
+      "position": [
+        -0.59,
+        0.84,
+        0
+      ],
+      "material": "axeIron",
+      "rotation": [
+        0,
+        0,
+        -8
+      ]
+    },
+    {
+      "id": "AxeCuttingEdge_1",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.30300000000000005,
+          0.07
+        ]
+      },
+      "position": [
+        -0.823,
+        0.84,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        -8
+      ]
+    },
+    {
+      "id": "AxeBladeFan_2",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.5,
+          0.27,
+          0.125
+        ]
+      },
+      "position": [
+        -0.61,
+        1.08,
+        0
+      ],
+      "material": "axeIron",
+      "rotation": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "AxeCuttingEdge_2",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.30300000000000005,
+          0.07
+        ]
+      },
+      "position": [
+        -0.848,
+        1.08,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "AxeBladeFan_3",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.42,
+          0.25,
+          0.125
+        ]
+      },
+      "position": [
+        -0.52,
+        1.31,
+        0
+      ],
+      "material": "axeIron",
+      "rotation": [
+        0,
+        0,
+        25
+      ]
+    },
+    {
+      "id": "AxeCuttingEdge_3",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.075,
+          0.28300000000000003,
+          0.07
+        ]
+      },
+      "position": [
+        -0.718,
+        1.31,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        25
+      ]
+    },
+    {
+      "id": "AxeBladeUpperBridge",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.42,
+          0.23,
+          0.116
+        ]
+      },
+      "position": [
+        -0.24,
+        1.18,
+        0
+      ],
+      "material": "axeIron",
+      "rotation": [
+        0,
+        0,
+        25
+      ]
+    },
+    {
+      "id": "AxeBladeLowerBridge",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.36,
+          0.19,
+          0.116
+        ]
+      },
+      "position": [
+        -0.235,
+        0.73,
+        0
+      ],
+      "material": "axeIron",
+      "rotation": [
+        0,
+        0,
+        -20
+      ]
+    },
+    {
+      "id": "AxeBackSpike",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cone",
+        "radius": 0.155,
+        "height": 0.43
+      },
+      "position": [
+        0.27,
+        0.92,
+        0
+      ],
+      "material": "axeIron",
+      "rotation": [
+        0,
+        0,
+        -90
+      ],
+      "scale": [
+        1,
+        1,
+        0.4
+      ]
+    },
+    {
+      "id": "AxeTopSpike",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cone",
+        "radius": 0.077,
+        "height": 0.23
+      },
+      "position": [
+        0,
+        1.225,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "AxeFaceBand_Back",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.43,
+          0.055,
+          0.02
+        ]
+      },
+      "position": [
+        -0.3,
+        0.96,
+        -0.078
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        15
+      ]
+    },
+    {
+      "id": "AxeRivet_Back",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.038,
+        "radiusBottom": 0.038,
+        "height": 0.027
+      },
+      "position": [
+        -0.24,
+        0.98,
+        -0.094
+      ],
+      "material": "trim",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "AxeFaceBand_Front",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.43,
+          0.055,
+          0.02
+        ]
+      },
+      "position": [
+        -0.3,
+        0.96,
+        0.078
+      ],
+      "material": "trim",
+      "rotation": [
+        0,
+        0,
+        15
+      ]
+    },
+    {
+      "id": "AxeRivet_Front",
+      "parent": "AxeGrip_R",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.038,
+        "radiusBottom": 0.038,
+        "height": 0.027
+      },
+      "position": [
+        -0.24,
+        0.98,
+        0.094
+      ],
+      "material": "trim",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "HunchedUpperBack",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.015,
+        1.24,
+        -0.295
+      ],
+      "material": "skin",
+      "rotation": [
+        8,
+        0,
+        0
+      ],
+      "scale": [
+        0.535,
+        0.34,
+        0.305
+      ]
+    },
+    {
+      "id": "NeckBackMass",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        1.42,
+        -0.12
+      ],
+      "material": "muscle",
+      "rotation": [
+        12,
+        0,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.235,
+        0.275
+      ]
+    },
+    {
+      "id": "Horn_L_Root",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.185,
+        0.1936352,
+        0.1930147
+      ],
+      "material": "horn",
+      "scale": [
+        0.115,
+        0.12,
+        0.105
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Horn_L_Base",
+      "parent": "Head",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.105,
+        "radiusTop": 0.08,
+        "height": 0.21523243250030882
+      },
+      "position": [
+        0.2525,
+        0.2763359,
+        0.1793918
+      ],
+      "material": "horn",
+      "rotation": [
+        -5.4809853,
+        4.7943004,
+        -39.0081669
+      ]
+    },
+    {
+      "id": "Horn_L_Curve",
+      "parent": "Head",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.081,
+        "radiusTop": 0.045,
+        "height": 0.2229910312097776
+      },
+      "position": [
+        0.3625,
+        0.4586791,
+        0.1393797
+      ],
+      "material": "horn",
+      "rotation": [
+        -13.0842804,
+        4.234469,
+        -22.4715498
+      ]
+    },
+    {
+      "id": "Horn_L_Tip",
+      "parent": "Head",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.046,
+        "radiusTop": 0,
+        "height": 0.19723082923316027
+      },
+      "position": [
+        0.385,
+        0.6523167,
+        0.0908566
+      ],
+      "material": "hornTip",
+      "rotation": [
+        -12.8035993,
+        -2.1567572,
+        11.7096268
+      ]
+    },
+    {
+      "id": "Horn_R_Root",
+      "parent": "Head",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.185,
+        0.1936352,
+        0.1930147
+      ],
+      "material": "horn",
+      "scale": [
+        0.115,
+        0.12,
+        0.105
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Horn_R_Base",
+      "parent": "Head",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.105,
+        "radiusTop": 0.08,
+        "height": 0.21523243250030882
+      },
+      "position": [
+        -0.2525,
+        0.2763359,
+        0.1793918
+      ],
+      "material": "horn",
+      "rotation": [
+        -5.4809853,
+        -4.7943004,
+        39.0081669
+      ]
+    },
+    {
+      "id": "Horn_R_Curve",
+      "parent": "Head",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.081,
+        "radiusTop": 0.045,
+        "height": 0.2229910312097776
+      },
+      "position": [
+        -0.3625,
+        0.4586791,
+        0.1393797
+      ],
+      "material": "horn",
+      "rotation": [
+        -13.0842804,
+        -4.234469,
+        22.4715498
+      ]
+    },
+    {
+      "id": "Horn_R_Tip",
+      "parent": "Head",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.046,
+        "radiusTop": 0,
+        "height": 0.19723082923316027
+      },
+      "position": [
+        -0.385,
+        0.6523167,
+        0.0908566
+      ],
+      "material": "hornTip",
+      "rotation": [
+        -12.8035993,
+        2.1567572,
+        -11.7096268
+      ]
+    },
+    {
+      "id": "BloodSpurRoot_0",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.31,
+        1.42,
+        -0.39
+      ],
+      "material": "bloodRoot",
+      "rotation": [
+        -25,
+        0,
+        0
+      ],
+      "scale": [
+        0.147,
+        0.1575,
+        0.105
+      ]
+    },
+    {
+      "id": "BloodSpur_0",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.105,
+        "radiusTop": 0.04409999999999999,
+        "height": 0.3273961667460387
+      },
+      "position": [
+        -0.37175,
+        1.498,
+        -0.52
+      ],
+      "material": "bloodSpine",
+      "rotation": [
+        -54.1950189,
+        -11.7060879,
+        22.6580915
+      ]
+    },
+    {
+      "id": "BloodSpurTip_0",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.045149999999999996,
+        "radiusTop": 0,
+        "height": 0.18665007366727723
+      },
+      "position": [
+        -0.46675,
+        1.628,
+        -0.72
+      ],
+      "material": "bloodTip",
+      "rotation": [
+        -49.584412,
+        -9.8816361,
+        21.2013739
+      ]
+    },
+    {
+      "id": "BloodSpurRoot_1",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.09,
+        1.46,
+        -0.41
+      ],
+      "material": "bloodRoot",
+      "rotation": [
+        -25,
+        0,
+        0
+      ],
+      "scale": [
+        0.154,
+        0.165,
+        0.11
+      ]
+    },
+    {
+      "id": "BloodSpur_1",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.11,
+        "radiusTop": 0.0462,
+        "height": 0.39491146159614055
+      },
+      "position": [
+        0.094875,
+        1.562,
+        -0.579
+      ],
+      "material": "bloodSpine",
+      "rotation": [
+        -58.8671885,
+        0.7983542,
+        -1.4148611
+      ]
+    },
+    {
+      "id": "BloodSpurTip_1",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.0473,
+        "radiusTop": 0,
+        "height": 0.22726100083384307
+      },
+      "position": [
+        0.102375,
+        1.732,
+        -0.839
+      ],
+      "material": "bloodTip",
+      "rotation": [
+        -53.2156505,
+        0.6631615,
+        -1.3238072
+      ]
+    },
+    {
+      "id": "BloodSpurRoot_2",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.36,
+        1.28,
+        -0.38
+      ],
+      "material": "bloodRoot",
+      "rotation": [
+        -25,
+        0,
+        0
+      ],
+      "scale": [
+        0.161,
+        0.17250000000000001,
+        0.115
+      ]
+    },
+    {
+      "id": "BloodSpur_2",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.115,
+        "radiusTop": 0.0483,
+        "height": 0.35182737244279344
+      },
+      "position": [
+        0.43475,
+        1.343,
+        -0.52625
+      ],
+      "material": "bloodSpine",
+      "rotation": [
+        -59.4303813,
+        15.0769221,
+        -26.1085205
+      ]
+    },
+    {
+      "id": "BloodSpurTip_2",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.04945,
+        "radiusTop": 0,
+        "height": 0.19581241022979098
+      },
+      "position": [
+        0.54975,
+        1.448,
+        -0.75125
+      ],
+      "material": "bloodTip",
+      "rotation": [
+        -55.7695576,
+        13.3796947,
+        -24.9974149
+      ]
+    },
+    {
+      "id": "BloodSpurRoot_3",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.12,
+        1.16,
+        -0.47
+      ],
+      "material": "bloodRoot",
+      "rotation": [
+        -25,
+        0,
+        0
+      ],
+      "scale": [
+        0.126,
+        0.135,
+        0.09
+      ]
+    },
+    {
+      "id": "BloodSpur_3",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.09,
+        "radiusTop": 0.0378,
+        "height": 0.3803650384827713
+      },
+      "position": [
+        -0.131375,
+        1.214,
+        -0.652
+      ],
+      "material": "bloodSpine",
+      "rotation": [
+        -73.3210061,
+        -2.5550783,
+        3.4323788
+      ]
+    },
+    {
+      "id": "BloodSpurTip_3",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.0387,
+        "radiusTop": 0,
+        "height": 0.20916515603704158
+      },
+      "position": [
+        -0.148875,
+        1.304,
+        -0.932
+      ],
+      "material": "bloodTip",
+      "rotation": [
+        -69.6919995,
+        -2.339832,
+        3.3603199
+      ]
+    },
+    {
+      "id": "BloodSpurRoot_4",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.4,
+        1.04,
+        -0.36
+      ],
+      "material": "bloodRoot",
+      "rotation": [
+        -25,
+        0,
+        0
+      ],
+      "scale": [
+        0.10919999999999999,
+        0.11699999999999999,
+        0.078
+      ]
+    },
+    {
+      "id": "BloodSpur_4",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.078,
+        "radiusTop": 0.03276,
+        "height": 0.2456282760595775
+      },
+      "position": [
+        -0.46175,
+        1.082,
+        -0.4575
+      ],
+      "material": "bloodSpine",
+      "rotation": [
+        -56.2548295,
+        -17.3038827,
+        31.777842
+      ]
+    },
+    {
+      "id": "BloodSpurTip_4",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.03354,
+        "radiusTop": 0,
+        "height": 0.13632039465905313
+      },
+      "position": [
+        -0.55675,
+        1.152,
+        -0.6075
+      ],
+      "material": "bloodTip",
+      "rotation": [
+        -53.0449218,
+        -15.4461672,
+        30.4044777
+      ]
+    },
+    {
+      "id": "BloodSpurRoot_5",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.23,
+        0.97,
+        -0.43
+      ],
+      "material": "bloodRoot",
+      "rotation": [
+        -25,
+        0,
+        0
+      ],
+      "scale": [
+        0.13299999999999998,
+        0.14250000000000002,
+        0.095
+      ]
+    },
+    {
+      "id": "BloodSpur_5",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.095,
+        "radiusTop": 0.0399,
+        "height": 0.30929678304178987
+      },
+      "position": [
+        0.27225,
+        1.021,
+        -0.56975
+      ],
+      "material": "bloodSpine",
+      "rotation": [
+        -66.8751191,
+        10.6993515,
+        -16.1429047
+      ]
+    },
+    {
+      "id": "BloodSpurTip_5",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.04085,
+        "radiusTop": 0,
+        "height": 0.17130236425688924
+      },
+      "position": [
+        0.33725,
+        1.106,
+        -0.78475
+      ],
+      "material": "bloodTip",
+      "rotation": [
+        -63.0097906,
+        9.6161443,
+        -15.6284186
+      ]
+    },
+    {
+      "id": "BloodSpurRoot_6",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        -0.16,
+        0.8,
+        -0.38
+      ],
+      "material": "bloodRoot",
+      "rotation": [
+        -25,
+        0,
+        0
+      ],
+      "scale": [
+        0.105,
+        0.11249999999999999,
+        0.075
+      ]
+    },
+    {
+      "id": "BloodSpur_6",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.075,
+        "radiusTop": 0.0315,
+        "height": 0.24830085078388264
+      },
+      "position": [
+        -0.190875,
+        0.839,
+        -0.49375
+      ],
+      "material": "bloodSpine",
+      "rotation": [
+        -68.4845019,
+        -9.9849309,
+        14.6263866
+      ]
+    },
+    {
+      "id": "BloodSpurTip_6",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.03225,
+        "radiusTop": 0,
+        "height": 0.13717074214277628
+      },
+      "position": [
+        -0.238375,
+        0.904,
+        -0.66875
+      ],
+      "material": "bloodTip",
+      "rotation": [
+        -64.7234117,
+        -9.030976,
+        14.2079095
+      ]
+    },
+    {
+      "id": "BloodSpurRoot_7",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.16,
+        0.62,
+        -0.32
+      ],
+      "material": "bloodRoot",
+      "rotation": [
+        -25,
+        0,
+        0
+      ],
+      "scale": [
+        0.08399999999999999,
+        0.09,
+        0.06
+      ]
+    },
+    {
+      "id": "BloodSpur_7",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.06,
+        "radiusTop": 0.025199999999999997,
+        "height": 0.16823569775764005
+      },
+      "position": [
+        0.186,
+        0.6485,
+        -0.39475
+      ],
+      "material": "bloodSpine",
+      "rotation": [
+        -65.223216,
+        11.8387678,
+        -18.4095855
+      ]
+    },
+    {
+      "id": "BloodSpurTip_7",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.0258,
+        "radiusTop": 0,
+        "height": 0.09331800469362808
+      },
+      "position": [
+        0.226,
+        0.696,
+        -0.50975
+      ],
+      "material": "bloodTip",
+      "rotation": [
+        -61.356008,
+        10.5990424,
+        -17.7736535
+      ]
+    },
+    {
+      "id": "BloodSpurRoot_8",
+      "parent": "Body",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.43,
+        1.48,
+        -0.19
+      ],
+      "material": "bloodRoot",
+      "rotation": [
+        -25,
+        0,
+        0
+      ],
+      "scale": [
+        0.12039999999999998,
+        0.129,
+        0.086
+      ]
+    },
+    {
+      "id": "BloodSpur_8",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.086,
+        "radiusTop": 0.03611999999999999,
+        "height": 0.2813525368643403
+      },
+      "position": [
+        0.4755,
+        1.567,
+        -0.29075
+      ],
+      "material": "bloodSpine",
+      "rotation": [
+        -46.3552899,
+        8.2287619,
+        -19.0747982
+      ]
+    },
+    {
+      "id": "BloodSpurTip_8",
+      "parent": "Body",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.03698,
+        "radiusTop": 0,
+        "height": 0.16622048610204465
+      },
+      "position": [
+        0.5455,
+        1.712,
+        -0.44575
+      ],
+      "material": "bloodTip",
+      "rotation": [
+        -41.0699758,
+        6.5074294,
+        -17.2595509
+      ]
+    },
+    {
+      "id": "Deltoid_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.035,
+        0.32,
+        0.005
+      ],
+      "material": "muscle",
+      "rotation": [
+        0,
+        0,
+        12
+      ],
+      "scale": [
+        0.35,
+        0.365,
+        0.37
+      ]
+    },
+    {
+      "id": "UpperArm_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.37,
+        0.27,
+        0.015
+      ],
+      "material": "skin",
+      "rotation": [
+        0,
+        0,
+        18
+      ],
+      "scale": [
+        0.45,
+        0.285,
+        0.315
+      ]
+    },
+    {
+      "id": "Biceps_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.405,
+        0.25,
+        0.215
+      ],
+      "material": "muscle",
+      "rotation": [
+        0,
+        0,
+        15
+      ],
+      "scale": [
+        0.355,
+        0.245,
+        0.19
+      ]
+    },
+    {
+      "id": "Triceps_L",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.39,
+        0.3,
+        -0.19
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        0,
+        0,
+        20
+      ],
+      "scale": [
+        0.35,
+        0.24,
+        0.19
+      ]
+    },
+    {
+      "id": "Elbow_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "leftFlesh",
+      "scale": [
+        0.235,
+        0.26,
+        0.275
+      ]
+    },
+    {
+      "id": "ForearmMesh_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.265,
+        0.065,
+        0.045
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        0,
+        0,
+        12
+      ],
+      "scale": [
+        0.39,
+        0.32,
+        0.335
+      ]
+    },
+    {
+      "id": "ForearmFlexor_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.255,
+        -0.05,
+        0.225
+      ],
+      "material": "leftMuscle",
+      "rotation": [
+        0,
+        0,
+        14
+      ],
+      "scale": [
+        0.335,
+        0.205,
+        0.155
+      ]
+    },
+    {
+      "id": "ForearmExtensor_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.275,
+        0.16,
+        -0.185
+      ],
+      "material": "leftMuscle",
+      "rotation": [
+        0,
+        0,
+        13
+      ],
+      "scale": [
+        0.34,
+        0.235,
+        0.17
+      ]
+    },
+    {
+      "id": "WristMass_L",
+      "parent": "Forearm_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.49,
+        0.105,
+        0.072
+      ],
+      "material": "leftFlesh",
+      "scale": [
+        0.185,
+        0.26,
+        0.25
+      ]
+    },
+    {
+      "id": "WristJoint_L",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "leftFlesh",
+      "scale": [
+        0.165,
+        0.235,
+        0.235
+      ]
+    },
+    {
+      "id": "Palm_L",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.27,
+        0,
+        0.035
+      ],
+      "material": "leftFlesh",
+      "scale": [
+        0.345,
+        0.385,
+        0.255
+      ]
+    },
+    {
+      "id": "PalmDorsal_L",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.29,
+        0,
+        -0.16
+      ],
+      "material": "leftMuscle",
+      "scale": [
+        0.3,
+        0.315,
+        0.12
+      ]
+    },
+    {
+      "id": "PalmUlnar_L",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.255,
+        -0.265,
+        0.025
+      ],
+      "material": "leftFlesh",
+      "scale": [
+        0.265,
+        0.145,
+        0.235
+      ]
+    },
+    {
+      "id": "Knuckle_L_0",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.53,
+        -0.27,
+        0.085
+      ],
+      "material": "leftMuscle",
+      "scale": [
+        0.12,
+        0.112,
+        0.13
+      ]
+    },
+    {
+      "id": "FingerProximal_L_0",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.091,
+        "length": 0.2110094784600919
+      },
+      "position": [
+        0.6425,
+        -0.27,
+        0.11
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        14.0929764,
+        -13.3093031,
+        -86.6923163
+      ]
+    },
+    {
+      "id": "FingerCurl_L_0",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.079,
+        "length": 0.18601075237738277
+      },
+      "position": [
+        0.815,
+        -0.27,
+        0.19
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        42.2829416,
+        -28.4817369,
+        -66.5552289
+      ]
+    },
+    {
+      "id": "Claw_L_0",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.065,
+        "radiusTop": 0,
+        "height": 0.15572411502397435
+      },
+      "position": [
+        0.9325,
+        -0.27,
+        0.3075
+      ],
+      "material": "bone",
+      "rotation": [
+        58.3820002,
+        -29.8636822,
+        -51.0334637
+      ]
+    },
+    {
+      "id": "Knuckle_L_1",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.53,
+        -0.09000000000000002,
+        0.085
+      ],
+      "material": "leftMuscle",
+      "scale": [
+        0.12,
+        0.112,
+        0.13
+      ]
+    },
+    {
+      "id": "FingerProximal_L_1",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.091,
+        "length": 0.2110094784600919
+      },
+      "position": [
+        0.6425,
+        -0.09,
+        0.11
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        14.0929764,
+        -13.3093031,
+        -86.6923163
+      ]
+    },
+    {
+      "id": "FingerCurl_L_1",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.079,
+        "length": 0.27313000567495327
+      },
+      "position": [
+        0.865,
+        -0.09,
+        0.19
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        25.6740037,
+        -21.6313175,
+        -79.951218
+      ]
+    },
+    {
+      "id": "Claw_L_1",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.065,
+        "radiusTop": 0,
+        "height": 0.15572411502397435
+      },
+      "position": [
+        1.0325,
+        -0.09,
+        0.3075
+      ],
+      "material": "bone",
+      "rotation": [
+        58.3820002,
+        -29.8636822,
+        -51.0334637
+      ]
+    },
+    {
+      "id": "Knuckle_L_2",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.53,
+        0.08999999999999997,
+        0.085
+      ],
+      "material": "leftMuscle",
+      "scale": [
+        0.12,
+        0.112,
+        0.13
+      ]
+    },
+    {
+      "id": "FingerProximal_L_2",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.091,
+        "length": 0.2110094784600919
+      },
+      "position": [
+        0.6425,
+        0.09,
+        0.11
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        14.0929764,
+        -13.3093031,
+        -86.6923163
+      ]
+    },
+    {
+      "id": "FingerCurl_L_2",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.079,
+        "length": 0.29618406439239764
+      },
+      "position": [
+        0.8775,
+        0.09,
+        0.19
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        23.3070147,
+        -20.1712713,
+        -81.5501508
+      ]
+    },
+    {
+      "id": "Claw_L_2",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.065,
+        "radiusTop": 0,
+        "height": 0.15572411502397435
+      },
+      "position": [
+        1.0575,
+        0.09,
+        0.3075
+      ],
+      "material": "bone",
+      "rotation": [
+        58.3820002,
+        -29.8636822,
+        -51.0334637
+      ]
+    },
+    {
+      "id": "Knuckle_L_3",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.53,
+        0.27,
+        0.085
+      ],
+      "material": "leftMuscle",
+      "scale": [
+        0.12,
+        0.112,
+        0.13
+      ]
+    },
+    {
+      "id": "FingerProximal_L_3",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.091,
+        "length": 0.2110094784600919
+      },
+      "position": [
+        0.6425,
+        0.27,
+        0.11
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        14.0929764,
+        -13.3093031,
+        -86.6923163
+      ]
+    },
+    {
+      "id": "FingerCurl_L_3",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.079,
+        "length": 0.21523243250030888
+      },
+      "position": [
+        0.8325,
+        0.27,
+        0.19
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        34.6740273,
+        -26.0584387,
+        -73.0968824
+      ]
+    },
+    {
+      "id": "Claw_L_3",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.065,
+        "radiusTop": 0,
+        "height": 0.15572411502397435
+      },
+      "position": [
+        0.9675,
+        0.27,
+        0.3075
+      ],
+      "material": "bone",
+      "rotation": [
+        58.3820002,
+        -29.8636822,
+        -51.0334637
+      ]
+    },
+    {
+      "id": "ThumbBase_L",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "sphere",
+        "radius": 1
+      },
+      "position": [
+        0.145,
+        0.355,
+        0.085
+      ],
+      "material": "leftMuscle",
+      "rotation": [
+        0,
+        0,
+        25
+      ],
+      "scale": [
+        0.23,
+        0.205,
+        0.21
+      ]
+    },
+    {
+      "id": "Thumb_L",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.12,
+        "length": 0.25169425897306436
+      },
+      "position": [
+        0.255,
+        0.4825,
+        0.1425
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        19.9355557,
+        -7.9192366,
+        -42.9943304
+      ]
+    },
+    {
+      "id": "ThumbCurl_L",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "capsule",
+        "radius": 0.096,
+        "length": 0.2076655965729519
+      },
+      "position": [
+        0.435,
+        0.5775,
+        0.225
+      ],
+      "material": "leftFlesh",
+      "rotation": [
+        23.943801,
+        -18.3361495,
+        -74.5516413
+      ]
+    },
+    {
+      "id": "ThumbClaw_L",
+      "parent": "Hand_L",
+      "shape": {
+        "type": "cylinder",
+        "radiusBottom": 0.074,
+        "radiusTop": 0,
+        "height": 0.174928556845359
+      },
+      "position": [
+        0.585,
+        0.57,
+        0.33
+      ],
+      "material": "bone",
+      "rotation": [
+        69.0865713,
+        -37.2906687,
+        -52.2238376
+      ]
+    }
+  ],
+  "sockets": [
+    {
+      "id": "AxeGrip_R",
+      "parent": "Hand_R",
+      "position": [
+        -0.125,
+        0,
+        0.075
+      ],
+      "rotation": [
+        77,
+        0,
+        12
+      ]
+    },
+    {
+      "id": "AxeBlade_Top",
+      "parent": "AxeGrip_R",
+      "position": [
+        -0.7,
+        1.43,
+        0
+      ]
+    },
+    {
+      "id": "AxeBlade_Bottom",
+      "parent": "AxeGrip_R",
+      "position": [
+        -0.665,
+        0.49,
+        0
+      ]
+    },
+    {
+      "id": "Cast_L",
+      "parent": "Hand_L",
+      "position": [
+        0.3,
+        0,
+        0.355
+      ]
+    },
+    {
+      "id": "Attack_L",
+      "parent": "Hand_L",
+      "position": [
+        1.11,
+        0,
+        0.365
+      ],
+      "rotation": [
+        0,
+        0,
+        -90
+      ]
+    },
+    {
+      "id": "Body_Center",
+      "parent": "Body",
+      "position": [
+        0,
+        0.86,
+        0
+      ]
+    },
+    {
+      "id": "Ground_Reference",
+      "parent": "Root",
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Foot_Reference_L",
+      "parent": "LowerLeg_L",
+      "position": [
+        0,
+        -0.74,
+        0.081
+      ]
+    },
+    {
+      "id": "Foot_Reference_R",
+      "parent": "LowerLeg_R",
+      "position": [
+        0,
+        -0.74,
+        0.081
+      ]
+    }
+  ],
+  "jointPositions": {
+    "Forearm_L": [
+      0.73,
+      0.42,
+      -0.015
+    ],
+    "Hand_L": [
+      0.5,
+      0.11,
+      0.075
+    ],
+    "LowerLeg_L": [
+      0,
+      -0.81,
+      0.019
+    ],
+    "Forearm_R": [
+      -0.67,
+      0,
+      -0.015000000000000001
+    ],
+    "Hand_R": [
+      -0.335,
+      0,
+      0.42
+    ],
+    "LowerLeg_R": [
+      0,
+      -0.81,
+      0.019
+    ]
+  }
+}

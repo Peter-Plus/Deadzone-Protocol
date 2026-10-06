@@ -1,0 +1,27 @@
+{
+  "version": "placement.v1",
+  "seed": "loot-104729",
+  "size": 0.32,
+  "minGap": 0.42,
+  "actorGap": 0.25,
+  "attemptsPerItem": 100,
+  "maxAttemptsPerRegion": 2400,
+  "palette": {"red":"#ff4141","blue":"#3485ff","green":"#39ee78","yellow":"#ffe044","purple":"#cb65ff","white":"#ffffff","cyan":"#39dfe7","orange":"#ff962f"},
+  "subregions": [
+    {"templateId":"warehouse","parentId":"warehouse-storage","regionId":"warehouse-south","min":[-5.2,-1.8],"max":[-3.1,0],"tags":["indoor","south"]},
+    {"templateId":"warehouse","parentId":"warehouse-storage","regionId":"warehouse-north","min":[-5.2,0],"max":[-3.1,1.8],"tags":["indoor","north"]}
+  ],
+  "outdoorSubregions": [
+    {"parentId":"central-corridor","regionId":"outdoor-white","min":[-7,-7],"max":[0,7],"tags":["outdoor","white-zone"]},
+    {"parentId":"central-corridor","regionId":"outdoor-mixed","min":[0,-7],"max":[7,7],"tags":["outdoor","mixed-zone"]}
+  ],
+  "rules": [
+    {"id":"template-A-red","templateId":"through","kind":"indoor","count":[4,5],"colors":{"red":1}},
+    {"id":"template-B-blue","templateId":"bent","kind":"indoor","count":[4,5],"colors":{"blue":1}},
+    {"id":"C-south-green","templateId":"warehouse","regionId":"warehouse-south","count":2,"colors":{"green":1}},
+    {"id":"C-north-yellow","templateId":"warehouse","tag":"north","count":2,"colors":{"yellow":1}},
+    {"id":"instance-purple","instanceId":"A-1","kind":"indoor","count":4,"colors":{"purple":1}},
+    {"id":"outside-white","regionId":"outdoor-white","count":20,"colors":{"white":1}},
+    {"id":"weighted-mix","regionId":"outdoor-mixed","count":20,"colors":{"cyan":3,"orange":1}}
+  ]
+}

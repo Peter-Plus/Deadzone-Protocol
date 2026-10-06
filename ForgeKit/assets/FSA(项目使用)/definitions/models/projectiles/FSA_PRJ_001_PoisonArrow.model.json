@@ -1,0 +1,120 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_PRJ_001_PoisonArrow",
+  "type": "static",
+  "materials": {
+    "wood": {
+      "color": "#594C3A",
+      "roughness": 0.88
+    },
+    "steel": {
+      "color": "#89998A",
+      "roughness": 0.55,
+      "metalness": 0.35
+    },
+    "toxin": {
+      "color": "#9FE56C",
+      "emissive": "#426C2A",
+      "roughness": 0.44
+    }
+  },
+  "parts": [
+    {
+      "id": "ArrowShaft",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.009,
+        "height": 0.72
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "material": "wood"
+    },
+    {
+      "id": "ArrowTip",
+      "parent": "ArrowShaft",
+      "shape": {
+        "type": "cone",
+        "radius": 0.027,
+        "height": 0.075
+      },
+      "position": [
+        0,
+        0.38,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "ArrowFletchL",
+      "parent": "ArrowShaft",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.065,
+          0.013
+        ]
+      },
+      "position": [
+        0.025,
+        -0.28,
+        0
+      ],
+      "material": "toxin"
+    },
+    {
+      "id": "ArrowFletchR",
+      "parent": "ArrowShaft",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.065,
+          0.013
+        ]
+      },
+      "position": [
+        -0.025,
+        -0.28,
+        0
+      ],
+      "material": "toxin"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "VFX_Anchor",
+      "parent": "ArrowShaft",
+      "position": [
+        0,
+        0.38,
+        0
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

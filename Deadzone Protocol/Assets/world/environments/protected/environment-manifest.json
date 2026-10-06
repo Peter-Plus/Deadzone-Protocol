@@ -1,0 +1,54 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Protected_01_CompactManor",
+      "type": "building",
+      "sourceHash": "fc93c1fccdddac8c466ffaf660839e762e7bd11bc2a5e7ca6feeb6bd60de5005",
+      "modelHash": "27bd185e24afe5670e21be8e46a31ed85a6715803581092a71e987a45c0e5429",
+      "contract": "contracts/FSA_ENV_Protected_01_CompactManor.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Protected_02_CornerVilla",
+      "type": "building",
+      "sourceHash": "8ff6f87078d29c08d585f47bbd05247b0c21f455387083a2566efd295f71b51a",
+      "modelHash": "a706ef0366a7c69fc3a793f4d44e0a0685b903e6e7f603ef933b58af6691df4a",
+      "contract": "contracts/FSA_ENV_Protected_02_CornerVilla.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Protected_03_CourtyardWings",
+      "type": "building",
+      "sourceHash": "2c583636bd8497e93da765b68b5cb3aa7b5700c0a334c093235361337251a0ce",
+      "modelHash": "f045802784ab51e45e53efcd717169b0ad7b15c0b6693f3b2944fa1ed81014c0",
+      "contract": "contracts/FSA_ENV_Protected_03_CourtyardWings.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Protected_04_ReceptionVilla",
+      "type": "building",
+      "sourceHash": "7eb4098c21624e79454ddc2ab4c3f6164fd65e94447eb1c2e07a7caa4c021bf1",
+      "modelHash": "3b3446eec1738d0efa3bb51d2a8d04b21114e3c6f69457063690f9641fdcb896",
+      "contract": "contracts/FSA_ENV_Protected_04_ReceptionVilla.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Protected_05_GardenPavilion",
+      "type": "building",
+      "sourceHash": "20819cd5445bc0d77a1e2062e14c3972273b78adbd13989accb39e1c45eacc5c",
+      "modelHash": "ec771b3aaa96b450c4361458aa35ca8268df5adec63c9d2f6372ca2e9d02e16c",
+      "contract": "contracts/FSA_ENV_Protected_05_GardenPavilion.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Protected_06_SecurityPost",
+      "type": "building",
+      "sourceHash": "b2e7af08977a774b926d2b22b07dba03108820e317db4f088034fe70d7ce6928",
+      "modelHash": "8bcb8fbdf4b5033dc0602bcb2a22f26806d2ebd218466514e7a67cacb04f63a8",
+      "contract": "contracts/FSA_ENV_Protected_06_SecurityPost.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Protected_07_MedicalStation",
+      "type": "building",
+      "sourceHash": "7a7d297ed2150b8acf574d429814c6110a915c59e7317ca75ab7a680dfcabac4",
+      "modelHash": "670cb3946bafa347100f0e5209b4f576300b101a7e442d78272861e986ef8a71",
+      "contract": "contracts/FSA_ENV_Protected_07_MedicalStation.environment.json"
+    }
+  ]
+}

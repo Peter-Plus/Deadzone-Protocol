@@ -1,0 +1,130 @@
+{
+  "prerequisiteVersion": "1.0.0",
+  "sources": [
+    {
+      "source": "Test/01-WorldAssets/src/world.mjs",
+      "path": "src/world.mjs",
+      "sha256": "1fddfda5402d9e9e427dca4f21c80122d4f6930db7cf986632e41fb8961c5477"
+    },
+    {
+      "source": "Test/01-WorldAssets/templates/through.json",
+      "path": "templates/through.json",
+      "sha256": "bca42bebf176e0589c67a79740be53ce25e417c08926465304cd34dd5db71f0e"
+    },
+    {
+      "source": "Test/01-WorldAssets/templates/bent.json",
+      "path": "templates/bent.json",
+      "sha256": "12887758086dde34358a4afdc6f67ea46c813829b42a7792f79fcac2a943ac60"
+    },
+    {
+      "source": "Test/01-WorldAssets/templates/warehouse.json",
+      "path": "templates/warehouse.json",
+      "sha256": "43718354061591fb7ece8ac7612b654f6c4be7c8c85358c63c51965574483068"
+    },
+    {
+      "source": "Test/01-WorldAssets/scenes/104729.json",
+      "path": "scenes/104729.json",
+      "sha256": "db84713f243d7c691bad5bc3fc4f70d743daeed4d96cbc7b24dd9362c752e0f8"
+    },
+    {
+      "source": "Test/01-WorldAssets/scenes/20261005.json",
+      "path": "scenes/20261005.json",
+      "sha256": "cc1cbb9dbfb6c237128f1f44894c50016b04d30a3e5609b8fc8896bb2b7df7ec"
+    },
+    {
+      "source": "Test/01-WorldAssets/scenes/8675309.json",
+      "path": "scenes/8675309.json",
+      "sha256": "f641012c188ad8b9a5632da9323b563aa907957bf4fb994572fcf018d48955ba"
+    },
+    {
+      "source": "Test/01-WorldAssets/generated/models/through.glb",
+      "path": "generated/models/through.glb",
+      "sha256": "aa8fe6b3635cfdca83edd053719b532c4cbd0e97af2f753872a47607dd934820"
+    },
+    {
+      "source": "Test/01-WorldAssets/generated/models/bent.glb",
+      "path": "generated/models/bent.glb",
+      "sha256": "fa1eeb103f7a5b0bd97feedb78465190a6bcb27baf8b3ef63659103fcee3a48f"
+    },
+    {
+      "source": "Test/01-WorldAssets/generated/models/warehouse.glb",
+      "path": "generated/models/warehouse.glb",
+      "sha256": "fbe1e56202b2720d2b64948140059cc05304d8cf4b849e01db4b08e66717727f"
+    },
+    {
+      "source": "Assets/models/characters/enemies/common/FSA_ENEMY_A001_ZombieA.glb",
+      "path": "assets/A1.glb",
+      "sha256": "1a3a50f89e6efd8c9774cadcda7b03942fbc4010a1225c58bd77a23de856318c"
+    },
+    {
+      "source": "Assets/models/characters/enemies/elite/FSA_ENEMY_B002_BurstAxeman.glb",
+      "path": "assets/B2.glb",
+      "sha256": "5e2baee1d60b2bf0b588665020eae7ae0bfb21920d6eab10b773dd893a68a635"
+    },
+    {
+      "source": "Assets/models/fps_arms/FSA_FPS_Arms_001_Base.glb",
+      "path": "assets/arms.glb",
+      "sha256": "678f56d9cfd23a475c6503e625176866668e9fcf2afde3ae98ebb5dd6a435247"
+    },
+    {
+      "source": "Assets/animations/characters/shared/FSA_ANIM_Character_Idle.anim.glb",
+      "path": "assets/enemyIdle.glb",
+      "sha256": "6fe773715b20052e4cbe824fc72757a8a0affda80cb6960dfa87583fe5ed3bb2"
+    },
+    {
+      "source": "Assets/animations/fps/unarmed/FSA_ANIM_FPS_Unarmed_Idle.anim.glb",
+      "path": "assets/fpsIdle.glb",
+      "sha256": "c0510f4ab19e99cf53107481be2536b7a9c331f6bb1ad151ac9d6f10dba3f64e"
+    },
+    {
+      "source": "Assets/animations/characters/shared/FSA_ANIM_Character_Walk.anim.glb",
+      "path": "assets/enemyWalk.glb",
+      "sha256": "f15f777c9377625059249e03382adf172ed9538863c506095ce89a623542368f"
+    },
+    {
+      "source": "Assets/animations/fps/unarmed/FSA_ANIM_FPS_Unarmed_Walk.anim.glb",
+      "path": "assets/fpsWalk.glb",
+      "sha256": "89cd4be16c11ccf2b86d50e7c8fef54376f4d8a9acffb5ae8cf3d4e327ee85fd"
+    },
+    {
+      "source": "Assets/animations/characters/shared/FSA_ANIM_Character_Run.anim.glb",
+      "path": "assets/enemyRun.glb",
+      "sha256": "f8d2ec350262b275da74c76f454092c268e55fbea77f25e66ed0dffa0fadddaf"
+    },
+    {
+      "source": "Assets/animations/fps/unarmed/FSA_ANIM_FPS_Unarmed_Run.anim.glb",
+      "path": "assets/fpsRun.glb",
+      "sha256": "0cbef44d3560cb88f18e73fb6cb6b611d991af3fb36bcb06b7962b84be60ca7c"
+    }
+  ],
+  "readOnlyImplementationReferences": [
+    {
+      "source": "src/physics/rapier-world.ts",
+      "sha256AtStart": "cef69c11104faa12f4d39c906e3d7ba2e30a9a36255618572a7b83a3d8b09bba"
+    },
+    {
+      "source": "src/character/player.ts",
+      "sha256AtStart": "a6a7eb098dd980c6f9709a73f97367a43483a44d6670c7470ed46239387db6e1"
+    },
+    {
+      "source": "src/presentation/assets/range-assets.ts",
+      "sha256AtStart": "1f1e5f744126d024c68e65cf4a19a9b6d02d1f53daa6c1b4bf9fad226b44bc24"
+    },
+    {
+      "source": "src/presentation/range-view.ts",
+      "sha256AtStart": "cfa5406debbc658f224d9a248cf59481320ff5d6f794da431328d12b1817b0cb"
+    },
+    {
+      "source": "tools/build.mjs",
+      "sha256AtStart": "4c7fd64ca5835b0f995247997215c7a6aa5328314bef92108047f05347f56359"
+    },
+    {
+      "source": "Assets/模型资产使用说明.md",
+      "sha256AtStart": "1106b6cb23b215b093250d9ec042cd8ddfabe5a88f141c76912c085fd74c4b63"
+    },
+    {
+      "source": "Assets/资产配置表.md",
+      "sha256AtStart": "74889fe80ed8d8c720bc23fcc157006aac94d073163286649c37d8d1727f88c9"
+    }
+  ]
+}

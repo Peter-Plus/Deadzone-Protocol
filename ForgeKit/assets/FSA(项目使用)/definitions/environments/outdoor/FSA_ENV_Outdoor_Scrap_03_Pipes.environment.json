@@ -1,0 +1,677 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Scrap_03_Pipes",
+  "label": "废料堆／锈蚀管材束",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -1.6,
+      -1.73
+    ],
+    "max": [
+      1.6,
+      1.74
+    ]
+  },
+  "colliders": [
+    {
+      "node": "BearerA",
+      "role": "solid"
+    },
+    {
+      "node": "BearerB",
+      "role": "solid"
+    },
+    {
+      "node": "PipeCore0",
+      "role": "solid"
+    },
+    {
+      "node": "PipeCore1",
+      "role": "solid"
+    },
+    {
+      "node": "PipeCore2",
+      "role": "solid"
+    },
+    {
+      "node": "PipeCore3",
+      "role": "solid"
+    },
+    {
+      "node": "UpperCore0",
+      "role": "solid"
+    },
+    {
+      "node": "UpperCore1",
+      "role": "solid"
+    },
+    {
+      "node": "UpperCore2",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Scrap_03_Pipes",
+    "type": "static",
+    "parts": [
+      {
+        "id": "BearerA",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.5,
+            0.16,
+            0.23
+          ]
+        },
+        "position": [
+          0,
+          0.08,
+          -0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "BearerB",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.5,
+            0.16,
+            0.23
+          ]
+        },
+        "position": [
+          0,
+          0.08,
+          0.85
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#665342",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "PipeCore0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4,
+            0.4,
+            2.3
+          ]
+        },
+        "position": [
+          -0.87,
+          0.46,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Pipe0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.285,
+          "radiusBottom": 0.285,
+          "height": 2.3
+        },
+        "position": [
+          -0.87,
+          0.46,
+          0
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "PipeEnd0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.23,
+          "radiusBottom": 0.23,
+          "height": 0.012
+        },
+        "position": [
+          -0.87,
+          0.46,
+          1.158
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "PipeCore1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4,
+            0.4,
+            2.75
+          ]
+        },
+        "position": [
+          -0.30000000000000004,
+          0.46,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Pipe1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.285,
+          "radiusBottom": 0.285,
+          "height": 2.75
+        },
+        "position": [
+          -0.30000000000000004,
+          0.46,
+          0
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "PipeEnd1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.23,
+          "radiusBottom": 0.23,
+          "height": 0.012
+        },
+        "position": [
+          -0.30000000000000004,
+          0.46,
+          1.383
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "PipeCore2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4,
+            0.4,
+            2.3
+          ]
+        },
+        "position": [
+          0.2699999999999999,
+          0.46,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Pipe2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.285,
+          "radiusBottom": 0.285,
+          "height": 2.3
+        },
+        "position": [
+          0.2699999999999999,
+          0.46,
+          0
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "PipeEnd2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.23,
+          "radiusBottom": 0.23,
+          "height": 0.012
+        },
+        "position": [
+          0.2699999999999999,
+          0.46,
+          1.158
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "PipeCore3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4,
+            0.4,
+            2.75
+          ]
+        },
+        "position": [
+          0.84,
+          0.46,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Pipe3",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.285,
+          "radiusBottom": 0.285,
+          "height": 2.75
+        },
+        "position": [
+          0.84,
+          0.46,
+          0
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "PipeEnd3",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.23,
+          "radiusBottom": 0.23,
+          "height": 0.012
+        },
+        "position": [
+          0.84,
+          0.46,
+          1.383
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "UpperCore0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.37,
+            0.37,
+            2.4
+          ]
+        },
+        "position": [
+          -0.6,
+          0.98,
+          0.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "UpperPipe0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.265,
+          "radiusBottom": 0.265,
+          "height": 2.4
+        },
+        "position": [
+          -0.6,
+          0.98,
+          0.1
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "UpperEnd0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.22,
+          "radiusBottom": 0.22,
+          "height": 0.012
+        },
+        "position": [
+          -0.6,
+          0.98,
+          1.307
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "UpperCore1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.37,
+            0.37,
+            2.4
+          ]
+        },
+        "position": [
+          -0.030000000000000027,
+          0.98,
+          0.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "UpperPipe1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.265,
+          "radiusBottom": 0.265,
+          "height": 2.4
+        },
+        "position": [
+          -0.030000000000000027,
+          0.98,
+          0.1
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "UpperEnd1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.22,
+          "radiusBottom": 0.22,
+          "height": 0.012
+        },
+        "position": [
+          -0.030000000000000027,
+          0.98,
+          1.307
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "UpperCore2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.37,
+            0.37,
+            2.4
+          ]
+        },
+        "position": [
+          0.5399999999999999,
+          0.98,
+          0.1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "UpperPipe2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.265,
+          "radiusBottom": 0.265,
+          "height": 2.4
+        },
+        "position": [
+          0.5399999999999999,
+          0.98,
+          0.1
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "UpperEnd2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.22,
+          "radiusBottom": 0.22,
+          "height": 0.012
+        },
+        "position": [
+          0.5399999999999999,
+          0.98,
+          1.307
+        ],
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "StrapFront",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            0.065,
+            0.085
+          ]
+        },
+        "position": [
+          0,
+          1.22,
+          0.8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      }
+    ]
+  }
+}

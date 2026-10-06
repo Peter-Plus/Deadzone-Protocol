@@ -1,0 +1,385 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_enchant_melee_poison",
+  "name": "通用近战 · 毒雾附魔",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "attack": {
+      "duration": 0.32,
+      "loop": false,
+      "next": "active"
+    },
+    "dissipate": {
+      "duration": 0.4,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "element_0",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 10,
+      "seed": 1840,
+      "position": [
+        0,
+        -0.025,
+        -0.07
+      ],
+      "radii": [
+        0.006,
+        0.008,
+        0.028
+      ],
+      "shell": 0.85,
+      "size": [
+        0.018,
+        0.038
+      ],
+      "aspect": 1.1,
+      "drift": [
+        0.003,
+        0.007,
+        0.005
+      ],
+      "speed": 1.6,
+      "rotationSpeed": 0.1,
+      "profiles": {
+        "active": {
+          "strength": 0.55,
+          "expansion": 1
+        },
+        "attack": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0.5
+              ],
+              [
+                0.18,
+                1
+              ],
+              [
+                1,
+                0.5
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.3,
+                1.25
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": 1
+        }
+      },
+      "render": {
+        "color": "#4ea92e",
+        "opacity": 0.35,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "element_1",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 10,
+      "seed": 1841,
+      "position": [
+        0,
+        -0.02,
+        0.01
+      ],
+      "radii": [
+        0.006,
+        0.008,
+        0.028
+      ],
+      "shell": 0.85,
+      "size": [
+        0.018,
+        0.038
+      ],
+      "aspect": 1.1,
+      "drift": [
+        0.003,
+        0.007,
+        0.005
+      ],
+      "speed": 1.6,
+      "rotationSpeed": 0.1,
+      "profiles": {
+        "active": {
+          "strength": 0.55,
+          "expansion": 1
+        },
+        "attack": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0.5
+              ],
+              [
+                0.18,
+                1
+              ],
+              [
+                1,
+                0.5
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.3,
+                1.25
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": 1
+        }
+      },
+      "render": {
+        "color": "#4ea92e",
+        "opacity": 0.35,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "element_2",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 10,
+      "seed": 1842,
+      "position": [
+        0,
+        0.005,
+        0.07
+      ],
+      "radii": [
+        0.006,
+        0.008,
+        0.028
+      ],
+      "shell": 0.85,
+      "size": [
+        0.018,
+        0.038
+      ],
+      "aspect": 1.1,
+      "drift": [
+        0.003,
+        0.007,
+        0.005
+      ],
+      "speed": 1.6,
+      "rotationSpeed": 0.1,
+      "profiles": {
+        "active": {
+          "strength": 0.55,
+          "expansion": 1
+        },
+        "attack": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0.5
+              ],
+              [
+                0.18,
+                1
+              ],
+              [
+                1,
+                0.5
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.3,
+                1.25
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": 1
+        }
+      },
+      "render": {
+        "color": "#4ea92e",
+        "opacity": 0.35,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "flecks",
+      "kind": "cloud",
+      "texture": "glow",
+      "count": 10,
+      "seed": 1848,
+      "position": [
+        0,
+        0,
+        -0.01
+      ],
+      "radii": [
+        0.016,
+        0.022,
+        0.1
+      ],
+      "shell": 0.8,
+      "size": [
+        0.002,
+        0.006
+      ],
+      "aspect": 1,
+      "drift": [
+        0.004,
+        0.018,
+        0.006
+      ],
+      "speed": 2,
+      "rotationSpeed": 0.1,
+      "profiles": {
+        "active": {
+          "strength": 0.35,
+          "expansion": 1
+        },
+        "attack": {
+          "strength": 1,
+          "expansion": 1.2
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": 1
+        }
+      },
+      "render": {
+        "color": "#a4e377",
+        "opacity": 0.7,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

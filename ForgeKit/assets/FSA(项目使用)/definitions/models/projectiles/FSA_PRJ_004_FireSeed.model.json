@@ -1,0 +1,92 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_PRJ_004_FireSeed",
+  "type": "static",
+  "materials": {
+    "upper": {
+      "color": "#F49732",
+      "emissive": "#2B0B02",
+      "roughness": 0.28,
+      "metalness": 0.18
+    },
+    "lower": {
+      "color": "#BD4A16",
+      "emissive": "#210703",
+      "roughness": 0.32,
+      "metalness": 0.15
+    }
+  },
+  "parts": [
+    {
+      "id": "CrystalUpper",
+      "shape": {
+        "type": "cone",
+        "radius": 0.215,
+        "height": 0.2,
+        "radialSegments": 8
+      },
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "material": "upper",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CrystalLower",
+      "shape": {
+        "type": "cone",
+        "radius": 0.215,
+        "height": 0.2,
+        "radialSegments": 8
+      },
+      "position": [
+        0,
+        -0.1,
+        0
+      ],
+      "material": "lower",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "sockets": [
+    {
+      "id": "VFX_Anchor",
+      "parent": "CrystalUpper",
+      "position": [
+        0,
+        -0.1,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

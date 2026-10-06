@@ -1,0 +1,221 @@
+{
+  "schema": "environment-preview-assembly.v1",
+  "id": "FSA_REF_Protected_TwoGateSlots",
+  "label": "装配示意 / 36×24m 保护区 · 两个门位（未装门扇）",
+  "instances": [
+    {
+      "id": "P0",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -12,
+        0,
+        -12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P1",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -6,
+        0,
+        -12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P2",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        6,
+        0,
+        -12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P3",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        12,
+        0,
+        -12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P4",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -12,
+        0,
+        12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P5",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -6,
+        0,
+        12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P6",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        6,
+        0,
+        12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P7",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        12,
+        0,
+        12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P8",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -18,
+        0,
+        -6
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P9",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -18,
+        0,
+        0
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P10",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        -18,
+        0,
+        6
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P11",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        18,
+        0,
+        -6
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P12",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        18,
+        0,
+        0
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P13",
+      "asset": "FSA_ENV_Protected_Straight",
+      "position": [
+        18,
+        0,
+        6
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "P14",
+      "asset": "FSA_ENV_Protected_Corner",
+      "position": [
+        18,
+        0,
+        -12
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "P15",
+      "asset": "FSA_ENV_Protected_Corner",
+      "position": [
+        18,
+        0,
+        12
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "P16",
+      "asset": "FSA_ENV_Protected_Corner",
+      "position": [
+        -18,
+        0,
+        12
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "P17",
+      "asset": "FSA_ENV_Protected_Corner",
+      "position": [
+        -18,
+        0,
+        -12
+      ],
+      "yaw": 90
+    }
+  ],
+  "gateSlots": [
+    {
+      "id": "South",
+      "center": [
+        0,
+        0,
+        -12
+      ],
+      "width": 6,
+      "height": 4,
+      "thickness": 0.25,
+      "outside": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "North",
+      "center": [
+        0,
+        0,
+        12
+      ],
+      "width": 6,
+      "height": 4,
+      "thickness": 0.25,
+      "outside": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

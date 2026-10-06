@@ -1,0 +1,649 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_WPN_Melee_002_ShadowBlades_L",
+  "type": "static",
+  "materials": {
+    "grip": {
+      "color": "#16151E",
+      "roughness": 0.85
+    },
+    "wrap": {
+      "color": "#34303F",
+      "roughness": 0.72
+    },
+    "steel": {
+      "color": "#343147",
+      "metalness": 0.78,
+      "roughness": 0.34
+    },
+    "edge": {
+      "color": "#C4BBDB",
+      "metalness": 0.85,
+      "roughness": 0.24
+    },
+    "dark": {
+      "color": "#1B1827",
+      "metalness": 0.6,
+      "roughness": 0.42
+    },
+    "shadow": {
+      "color": "#8C4ECC",
+      "emissive": "#351255",
+      "metalness": 0.25,
+      "roughness": 0.35
+    }
+  },
+  "parts": [
+    {
+      "id": "Grip",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.016,
+        "radiusBottom": 0.019,
+        "height": 0.135
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "grip"
+    },
+    {
+      "id": "GripWrap_0",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.02,
+        "height": 0.006
+      },
+      "position": [
+        0,
+        -0.054,
+        0
+      ],
+      "material": "wrap",
+      "rotation": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "GripWrap_1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.02,
+        "height": 0.006
+      },
+      "position": [
+        0,
+        -0.037,
+        0
+      ],
+      "material": "wrap",
+      "rotation": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "GripWrap_2",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.02,
+        "height": 0.006
+      },
+      "position": [
+        0,
+        -0.019999999999999997,
+        0
+      ],
+      "material": "wrap",
+      "rotation": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "GripWrap_3",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.02,
+        "height": 0.006
+      },
+      "position": [
+        0,
+        -0.0029999999999999957,
+        0
+      ],
+      "material": "wrap",
+      "rotation": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "GripWrap_4",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.02,
+        "height": 0.006
+      },
+      "position": [
+        0,
+        0.014000000000000005,
+        0
+      ],
+      "material": "wrap",
+      "rotation": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "GripWrap_5",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.02,
+        "height": 0.006
+      },
+      "position": [
+        0,
+        0.031000000000000007,
+        0
+      ],
+      "material": "wrap",
+      "rotation": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "GripWrap_6",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.02,
+        "height": 0.006
+      },
+      "position": [
+        0,
+        0.04800000000000001,
+        0
+      ],
+      "material": "wrap",
+      "rotation": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "Pommel",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.025
+      },
+      "position": [
+        0,
+        -0.078,
+        0
+      ],
+      "material": "steel",
+      "scale": [
+        1,
+        0.65,
+        0.7
+      ]
+    },
+    {
+      "id": "PommelGem",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.012
+      },
+      "position": [
+        0,
+        -0.081,
+        0.017
+      ],
+      "material": "shadow",
+      "scale": [
+        0.65,
+        1,
+        0.35
+      ]
+    },
+    {
+      "id": "GuardCore",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.102,
+          0.017,
+          0.041
+        ]
+      },
+      "position": [
+        0,
+        0.078,
+        0
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        -6
+      ]
+    },
+    {
+      "id": "GuardWing_Inner",
+      "shape": {
+        "type": "cone",
+        "radius": 0.019,
+        "height": 0.07
+      },
+      "position": [
+        -0.057,
+        0.095,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        58
+      ],
+      "scale": [
+        1,
+        1,
+        0.55
+      ]
+    },
+    {
+      "id": "GuardWing_Outer",
+      "shape": {
+        "type": "cone",
+        "radius": 0.019,
+        "height": 0.07
+      },
+      "position": [
+        0.057,
+        0.095,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        -58
+      ],
+      "scale": [
+        1,
+        1,
+        0.55
+      ]
+    },
+    {
+      "id": "BladeHeel",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.042,
+        "radiusBottom": 0.022,
+        "height": 0.09
+      },
+      "position": [
+        0,
+        0.132,
+        0
+      ],
+      "material": "steel",
+      "scale": [
+        1,
+        1,
+        0.18
+      ]
+    },
+    {
+      "id": "BladeEdge",
+      "shape": {
+        "type": "cone",
+        "radius": 0.046,
+        "height": 0.31
+      },
+      "position": [
+        0.01,
+        0.322,
+        0
+      ],
+      "material": "edge",
+      "rotation": [
+        0,
+        0,
+        -4
+      ],
+      "scale": [
+        1,
+        1,
+        0.18
+      ]
+    },
+    {
+      "id": "BladeFace",
+      "shape": {
+        "type": "cone",
+        "radius": 0.038,
+        "height": 0.294
+      },
+      "position": [
+        0.01,
+        0.317,
+        0.002
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        -4
+      ],
+      "scale": [
+        1,
+        1,
+        0.21
+      ]
+    },
+    {
+      "id": "BladeRidge",
+      "shape": {
+        "type": "cone",
+        "radius": 0.012,
+        "height": 0.269
+      },
+      "position": [
+        0.01,
+        0.303,
+        0.007
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        -4
+      ],
+      "scale": [
+        1,
+        1,
+        0.5
+      ]
+    },
+    {
+      "id": "Rune_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.022,
+          0.0018
+        ]
+      },
+      "position": [
+        0.01,
+        0.206,
+        0.01
+      ],
+      "material": "shadow",
+      "rotation": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "id": "Rune_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.018,
+          0.0018
+        ]
+      },
+      "position": [
+        0.0115,
+        0.251,
+        0.01
+      ],
+      "material": "shadow",
+      "rotation": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "id": "Rune_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.013999999999999999,
+          0.0018
+        ]
+      },
+      "position": [
+        0.013000000000000001,
+        0.296,
+        0.01
+      ],
+      "material": "shadow",
+      "rotation": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "id": "GuardGem",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.014
+      },
+      "position": [
+        0,
+        0.102,
+        0.023
+      ],
+      "material": "shadow",
+      "scale": [
+        1,
+        1.3,
+        0.4
+      ]
+    },
+    {
+      "id": "PommelGem_Back",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.012
+      },
+      "position": [
+        0,
+        -0.081,
+        -0.017
+      ],
+      "material": "shadow",
+      "scale": [
+        0.65,
+        1,
+        0.35
+      ]
+    },
+    {
+      "id": "BladeFace_Back",
+      "shape": {
+        "type": "cone",
+        "radius": 0.038,
+        "height": 0.294
+      },
+      "position": [
+        0.01,
+        0.317,
+        -0.002
+      ],
+      "material": "steel",
+      "rotation": [
+        0,
+        0,
+        -4
+      ],
+      "scale": [
+        1,
+        1,
+        0.21
+      ]
+    },
+    {
+      "id": "BladeRidge_Back",
+      "shape": {
+        "type": "cone",
+        "radius": 0.012,
+        "height": 0.269
+      },
+      "position": [
+        0.01,
+        0.303,
+        -0.007
+      ],
+      "material": "dark",
+      "rotation": [
+        0,
+        0,
+        -4
+      ],
+      "scale": [
+        1,
+        1,
+        0.5
+      ]
+    },
+    {
+      "id": "Rune_0_Back",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.022,
+          0.0018
+        ]
+      },
+      "position": [
+        0.01,
+        0.206,
+        -0.01
+      ],
+      "material": "shadow",
+      "rotation": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "id": "Rune_1_Back",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.018,
+          0.0018
+        ]
+      },
+      "position": [
+        0.0115,
+        0.251,
+        -0.01
+      ],
+      "material": "shadow",
+      "rotation": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "id": "Rune_2_Back",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.005,
+          0.013999999999999999,
+          0.0018
+        ]
+      },
+      "position": [
+        0.013000000000000001,
+        0.296,
+        -0.01
+      ],
+      "material": "shadow",
+      "rotation": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "id": "GuardGem_Back",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.014
+      },
+      "position": [
+        0,
+        0.102,
+        -0.023
+      ],
+      "material": "shadow",
+      "scale": [
+        1,
+        1.3,
+        0.4
+      ]
+    }
+  ],
+  "sockets": [
+    {
+      "id": "GripOrigin",
+      "parent": "Grip"
+    },
+    {
+      "id": "Blade_Base",
+      "parent": "BladeHeel",
+      "position": [
+        0,
+        -0.035,
+        0
+      ]
+    },
+    {
+      "id": "Blade_Tip",
+      "parent": "BladeEdge",
+      "position": [
+        0,
+        0.155,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,690 @@
+{
+  "schema": "animation.v1",
+  "id": "FSA_ANIM_C003_FlameWitch_TeleportRecover",
+  "rig": "humanoid.v2",
+  "duration": 0.9,
+  "loop": false,
+  "mode": "timeline",
+  "tracks": {
+    "Root": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Body": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0.025,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          -0.015,
+          0
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0.013,
+          0
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0.006,
+          0
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Head": [
+      {
+        "time": 0,
+        "rotation": [
+          -22,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          10,
+          0,
+          -4
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          3,
+          0,
+          2
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          -2,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Arm_L": [
+      {
+        "time": 0,
+        "rotation": [
+          -28,
+          0,
+          -61
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          -32,
+          -8,
+          -49
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          -25,
+          0,
+          -57
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          -15,
+          0,
+          -70
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          -10,
+          0,
+          -78
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          -10,
+          0,
+          -78
+        ]
+      }
+    ],
+    "Arm_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          12,
+          -28
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          -12,
+          8,
+          -9
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          -20,
+          5,
+          30
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          -12,
+          0,
+          68
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          0,
+          90
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          0,
+          90
+        ]
+      }
+    ],
+    "Leg_L": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Leg_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Forearm_L": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          -38,
+          18
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          0,
+          -32,
+          8
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          0,
+          -33,
+          15
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          0,
+          -28,
+          12
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          -25,
+          10
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          -25,
+          10
+        ]
+      }
+    ],
+    "Hand_L": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          -12
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          0,
+          0,
+          -24
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          0,
+          0,
+          -15
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "Forearm_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          8,
+          -60
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          0,
+          16,
+          -48
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          0,
+          27,
+          -18
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          0,
+          34,
+          0
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          28,
+          0
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          28,
+          0
+        ]
+      }
+    ],
+    "Hand_R": [
+      {
+        "time": 0,
+        "rotation": [
+          18.96757,
+          -4.2684,
+          179.11133
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          30.97156,
+          6.12084,
+          145.58598
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          39.53699,
+          -31.54005,
+          99.15332
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          4.54178,
+          -42.26456,
+          24.81267
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          -28,
+          0
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          -28,
+          0
+        ]
+      }
+    ],
+    "LowerLeg_L": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "LowerLeg_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.1,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.24,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.48,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.7,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 0.9,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

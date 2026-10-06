@@ -1,0 +1,40 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Quarantine_Building_01_Shelter",
+      "type": "building",
+      "sourceHash": "61bb8d8cc1cc8939fcc54a649d9400c13ce2ae73b4b7295402da98e7ee8e57ae",
+      "modelHash": "a801a85012eb4712c50abfaea4683ec9f63389ec338271774f2c712b05bb7400",
+      "contract": "contracts/FSA_ENV_Quarantine_Building_01_Shelter.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Quarantine_Building_02_Dormitory",
+      "type": "building",
+      "sourceHash": "de8aeb3d6362a2198e3cf069e1a2b28926e74654dcfadba933fb48f643012354",
+      "modelHash": "1db5b9e23d103177ae8ca28447bd808371c7b4ec8f528afc833ffafb5573ab23",
+      "contract": "contracts/FSA_ENV_Quarantine_Building_02_Dormitory.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Quarantine_Building_03_Spliced",
+      "type": "building",
+      "sourceHash": "ca1d91838677a73da00d0ea6166ccd846873bc540236b7723d389096597e4246",
+      "modelHash": "3257d435975db2c98fdf0bb3a2c17ea205bd6f0b0e973ce9201cd17993475d1a",
+      "contract": "contracts/FSA_ENV_Quarantine_Building_03_Spliced.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Quarantine_Building_04_Collapsed",
+      "type": "building",
+      "sourceHash": "007fc64ef216554f3ea754fd69d037ed1e6ee9c5415e08a280377002f0554299",
+      "modelHash": "9e28b1c8dab2845d53c0adfb51fe5d099ca2bdfed2dd36f714b1bf342ed85b12",
+      "contract": "contracts/FSA_ENV_Quarantine_Building_04_Collapsed.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Quarantine_Building_05_Roofless",
+      "type": "building",
+      "sourceHash": "b14c694e686077c02c85b7996712331620e197103d513243af652f17439f6157",
+      "modelHash": "5b917f2b32ddf9832440e2193817e9fa1548febe8c29042e733bbcf52b891052",
+      "contract": "contracts/FSA_ENV_Quarantine_Building_05_Roofless.environment.json"
+    }
+  ]
+}

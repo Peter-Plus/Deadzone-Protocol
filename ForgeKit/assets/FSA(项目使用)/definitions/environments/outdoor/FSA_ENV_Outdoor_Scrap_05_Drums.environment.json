@@ -1,0 +1,731 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Scrap_05_Drums",
+  "label": "废料堆／压扁桶罐",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -1.81,
+      -1.53
+    ],
+    "max": [
+      1.81,
+      1.55
+    ]
+  },
+  "colliders": [
+    {
+      "node": "BasePlate",
+      "role": "solid"
+    },
+    {
+      "node": "DrumCore0",
+      "role": "solid"
+    },
+    {
+      "node": "DrumCore1",
+      "role": "solid"
+    },
+    {
+      "node": "DrumCore2",
+      "role": "solid"
+    },
+    {
+      "node": "CrushedCan",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Outdoor_Scrap_05_Drums",
+    "type": "static",
+    "parts": [
+      {
+        "id": "BasePlate",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.65,
+            0.09,
+            2
+          ]
+        },
+        "position": [
+          0,
+          0.045,
+          0
+        ],
+        "rotation": [
+          0,
+          -8,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "DrumCore0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5940000000000001,
+            1.1,
+            0.5940000000000001
+          ]
+        },
+        "position": [
+          -0.6,
+          0.65,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Drum0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.3872,
+          "radiusBottom": 0.44,
+          "height": 1.1
+        },
+        "position": [
+          -0.6,
+          0.65,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Hoop0_0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.455,
+          "radiusBottom": 0.455,
+          "height": 0.045
+        },
+        "position": [
+          -0.6,
+          0.14,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Hoop0_1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.455,
+          "radiusBottom": 0.455,
+          "height": 0.045
+        },
+        "position": [
+          -0.6,
+          0.65,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Hoop0_2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.455,
+          "radiusBottom": 0.455,
+          "height": 0.045
+        },
+        "position": [
+          -0.6,
+          1.1600000000000001,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Lid0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.3872,
+          "radiusBottom": 0.3872,
+          "height": 0.05
+        },
+        "position": [
+          -0.6,
+          1.215,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Bung0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.065,
+          "radiusBottom": 0.065,
+          "height": 0.06
+        },
+        "position": [
+          -0.47,
+          1.25,
+          0.08
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "DrumCore1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.675,
+            0.76,
+            0.675
+          ]
+        },
+        "position": [
+          0.4,
+          0.48,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Drum1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.44,
+          "radiusBottom": 0.5,
+          "height": 0.76
+        },
+        "position": [
+          0.4,
+          0.48,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#69715a",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Hoop1_0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.515,
+          "radiusBottom": 0.515,
+          "height": 0.045
+        },
+        "position": [
+          0.4,
+          0.14,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Hoop1_1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.515,
+          "radiusBottom": 0.515,
+          "height": 0.045
+        },
+        "position": [
+          0.4,
+          0.48000000000000004,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Hoop1_2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.515,
+          "radiusBottom": 0.515,
+          "height": 0.045
+        },
+        "position": [
+          0.4,
+          0.8200000000000001,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Lid1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.44,
+          "radiusBottom": 0.44,
+          "height": 0.05
+        },
+        "position": [
+          0.4,
+          0.875,
+          0.35
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Bung1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.065,
+          "radiusBottom": 0.065,
+          "height": 0.06
+        },
+        "position": [
+          0.53,
+          0.91,
+          0.43
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "DrumCore2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.54,
+            0.57,
+            0.54
+          ]
+        },
+        "position": [
+          0.7,
+          0.385,
+          -0.65
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Drum2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.35200000000000004,
+          "radiusBottom": 0.4,
+          "height": 0.57
+        },
+        "position": [
+          0.7,
+          0.385,
+          -0.65
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Hoop2_0",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.41500000000000004,
+          "radiusBottom": 0.41500000000000004,
+          "height": 0.045
+        },
+        "position": [
+          0.7,
+          0.14,
+          -0.65
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Hoop2_1",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.41500000000000004,
+          "radiusBottom": 0.41500000000000004,
+          "height": 0.045
+        },
+        "position": [
+          0.7,
+          0.385,
+          -0.65
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Hoop2_2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.41500000000000004,
+          "radiusBottom": 0.41500000000000004,
+          "height": 0.045
+        },
+        "position": [
+          0.7,
+          0.6299999999999999,
+          -0.65
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#4c5858",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "Lid2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.35200000000000004,
+          "radiusBottom": 0.35200000000000004,
+          "height": 0.05
+        },
+        "position": [
+          0.7,
+          0.6849999999999999,
+          -0.65
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#414740",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "Bung2",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.065,
+          "radiusBottom": 0.065,
+          "height": 0.06
+        },
+        "position": [
+          0.83,
+          0.72,
+          -0.5700000000000001
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "material": {
+          "color": "#aa7652",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "CrushedCan",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            0.3,
+            0.65
+          ]
+        },
+        "position": [
+          -0.3,
+          0.28,
+          0.75
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#b0ab8f",
+          "roughness": 0.94,
+          "metalness": 0
+        }
+      },
+      {
+        "id": "DentFold0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.75,
+            0.06,
+            0.09
+          ]
+        },
+        "position": [
+          -0.3,
+          0.46,
+          0.52
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "DentFold1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.75,
+            0.06,
+            0.09
+          ]
+        },
+        "position": [
+          -0.3,
+          0.46,
+          0.66
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "DentFold2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.75,
+            0.06,
+            0.09
+          ]
+        },
+        "position": [
+          -0.3,
+          0.46,
+          0.8
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      },
+      {
+        "id": "DentFold3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.75,
+            0.06,
+            0.09
+          ]
+        },
+        "position": [
+          -0.3,
+          0.46,
+          0.9400000000000001
+        ],
+        "rotation": [
+          0,
+          -20,
+          0
+        ],
+        "material": {
+          "color": "#845238",
+          "roughness": 0.94,
+          "metalness": 0.25
+        }
+      }
+    ]
+  }
+}

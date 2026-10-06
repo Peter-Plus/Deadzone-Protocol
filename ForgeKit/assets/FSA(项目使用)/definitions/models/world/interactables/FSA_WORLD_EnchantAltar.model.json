@@ -1,0 +1,1182 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_WORLD_EnchantAltar",
+  "type": "static",
+  "parts": [
+    {
+      "id": "Floor",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.93,
+          0.12,
+          0.84
+        ]
+      },
+      "position": [
+        0,
+        0.06,
+        0
+      ],
+      "material": {
+        "color": "#33393d",
+        "roughness": 1
+      }
+    },
+    {
+      "id": "BrokenStone_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.27,
+          0.72,
+          0.28
+        ]
+      },
+      "position": [
+        0.31,
+        0.46,
+        0
+      ],
+      "material": {
+        "color": "#46494a",
+        "roughness": 0.97
+      },
+      "rotation": [
+        0,
+        0,
+        -6
+      ]
+    },
+    {
+      "id": "BrokenStone_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.27,
+          0.755,
+          0.28
+        ]
+      },
+      "position": [
+        0.19328183857620743,
+        0.46,
+        0.24236775956508924
+      ],
+      "material": {
+        "color": "#33393d",
+        "roughness": 1
+      },
+      "rotation": [
+        5,
+        51,
+        0
+      ]
+    },
+    {
+      "id": "BrokenStone_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.27,
+          0.79,
+          0.28
+        ]
+      },
+      "position": [
+        -0.06898148952645744,
+        0.46,
+        0.3022276527763653
+      ],
+      "material": {
+        "color": "#46494a",
+        "roughness": 0.97
+      },
+      "rotation": [
+        0,
+        102,
+        6
+      ]
+    },
+    {
+      "id": "BrokenStone_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.27,
+          0.72,
+          0.28
+        ]
+      },
+      "position": [
+        -0.2793003490497499,
+        0.46,
+        0.13450395912644306
+      ],
+      "material": {
+        "color": "#33393d",
+        "roughness": 1
+      },
+      "rotation": [
+        5,
+        153,
+        -6
+      ]
+    },
+    {
+      "id": "BrokenStone_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.27,
+          0.755,
+          0.28
+        ]
+      },
+      "position": [
+        -0.27930034904974993,
+        0.46,
+        -0.13450395912644297
+      ],
+      "material": {
+        "color": "#46494a",
+        "roughness": 0.97
+      },
+      "rotation": [
+        0,
+        204,
+        0
+      ]
+    },
+    {
+      "id": "BrokenStone_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.27,
+          0.79,
+          0.28
+        ]
+      },
+      "position": [
+        -0.06898148952645752,
+        0.46,
+        -0.3022276527763653
+      ],
+      "material": {
+        "color": "#33393d",
+        "roughness": 1
+      },
+      "rotation": [
+        5,
+        255,
+        6
+      ]
+    },
+    {
+      "id": "BrokenStone_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.27,
+          0.72,
+          0.28
+        ]
+      },
+      "position": [
+        0.19328183857620734,
+        0.46,
+        -0.24236775956508927
+      ],
+      "material": {
+        "color": "#46494a",
+        "roughness": 0.97
+      },
+      "rotation": [
+        0,
+        306,
+        -6
+      ]
+    },
+    {
+      "id": "Basin",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.62,
+        "radiusBottom": 0.51,
+        "height": 0.16
+      },
+      "position": [
+        0,
+        0.9,
+        0
+      ],
+      "material": {
+        "color": "#46494a",
+        "roughness": 0.97
+      }
+    },
+    {
+      "id": "Recess",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.42,
+        "radiusBottom": 0.42,
+        "height": 0.018
+      },
+      "position": [
+        0,
+        0.987,
+        0
+      ],
+      "material": {
+        "color": "#10191f",
+        "metalness": 0.45,
+        "roughness": 0.85
+      }
+    },
+    {
+      "id": "Etching_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        0,
+        0.984,
+        0.48
+      ],
+      "material": {
+        "color": "#10191f",
+        "metalness": 0.45,
+        "roughness": 0.85
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Etching_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        0.1836880475352431,
+        0.984,
+        0.4434621756054176
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        22.5,
+        0
+      ]
+    },
+    {
+      "id": "Etching_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        0.3394112549695428,
+        0.984,
+        0.33941125496954283
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        45,
+        0
+      ]
+    },
+    {
+      "id": "Etching_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        0.4434621756054176,
+        0.984,
+        0.18368804753524312
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        67.5,
+        0
+      ]
+    },
+    {
+      "id": "Etching_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        0.48,
+        0.984,
+        2.9391523179536474e-17
+      ],
+      "material": {
+        "color": "#10191f",
+        "metalness": 0.45,
+        "roughness": 0.85
+      },
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "id": "Etching_5",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        0.4434621756054176,
+        0.984,
+        -0.18368804753524307
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        112.5,
+        0
+      ]
+    },
+    {
+      "id": "Etching_6",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        0.33941125496954283,
+        0.984,
+        -0.3394112549695428
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        135,
+        0
+      ]
+    },
+    {
+      "id": "Etching_7",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        0.18368804753524315,
+        0.984,
+        -0.4434621756054176
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        157.5,
+        0
+      ]
+    },
+    {
+      "id": "Etching_8",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        5.878304635907295e-17,
+        0.984,
+        -0.48
+      ],
+      "material": {
+        "color": "#10191f",
+        "metalness": 0.45,
+        "roughness": 0.85
+      },
+      "rotation": [
+        0,
+        180,
+        0
+      ]
+    },
+    {
+      "id": "Etching_9",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        -0.18368804753524282,
+        0.984,
+        -0.44346217560541773
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        202.5,
+        0
+      ]
+    },
+    {
+      "id": "Etching_10",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        -0.3394112549695428,
+        0.984,
+        -0.3394112549695429
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        225,
+        0
+      ]
+    },
+    {
+      "id": "Etching_11",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        -0.4434621756054177,
+        0.984,
+        -0.18368804753524295
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        247.5,
+        0
+      ]
+    },
+    {
+      "id": "Etching_12",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        -0.48,
+        0.984,
+        -8.817456953860942e-17
+      ],
+      "material": {
+        "color": "#10191f",
+        "metalness": 0.45,
+        "roughness": 0.85
+      },
+      "rotation": [
+        0,
+        270,
+        0
+      ]
+    },
+    {
+      "id": "Etching_13",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        -0.44346217560541756,
+        0.984,
+        0.1836880475352432
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        292.5,
+        0
+      ]
+    },
+    {
+      "id": "Etching_14",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        -0.3394112549695429,
+        0.984,
+        0.3394112549695427
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        315,
+        0
+      ]
+    },
+    {
+      "id": "Etching_15",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.092,
+          0.006,
+          0.018
+        ]
+      },
+      "position": [
+        -0.18368804753524298,
+        0.984,
+        0.4434621756054177
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      },
+      "rotation": [
+        0,
+        337.5,
+        0
+      ]
+    },
+    {
+      "id": "MetalStrap_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.09,
+          0.65,
+          0.035
+        ]
+      },
+      "position": [
+        0,
+        0.5,
+        0.43
+      ],
+      "material": {
+        "color": "#a68652",
+        "metalness": 0.65,
+        "roughness": 0.7
+      },
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_0_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        -0.1545084971874737,
+        0,
+        0.47552825814757677
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_0",
+      "rotation": [
+        0,
+        -18,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_0_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.5
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_0",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_0_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        0.1545084971874737,
+        0,
+        0.47552825814757677
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_0",
+      "rotation": [
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "id": "MetalStrap_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.09,
+          0.65,
+          0.035
+        ]
+      },
+      "position": [
+        0.43,
+        0.5,
+        2.6329906181668094e-17
+      ],
+      "material": {
+        "color": "#a68652",
+        "metalness": 0.65,
+        "roughness": 0.7
+      },
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_1_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        0.47552825814757677,
+        0,
+        0.15450849718747373
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_1",
+      "rotation": [
+        0,
+        72,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_1_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        0.5,
+        0,
+        3.061616997868383e-17
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_1",
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_1_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        0.4755282581475768,
+        0,
+        -0.15450849718747367
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_1",
+      "rotation": [
+        0,
+        108,
+        0
+      ]
+    },
+    {
+      "id": "MetalStrap_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.09,
+          0.65,
+          0.035
+        ]
+      },
+      "position": [
+        5.265981236333619e-17,
+        0.5,
+        -0.43
+      ],
+      "material": {
+        "color": "#a68652",
+        "metalness": 0.65,
+        "roughness": 0.7
+      },
+      "rotation": [
+        0,
+        180,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_2_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        0.15450849718747375,
+        0,
+        -0.47552825814757677
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_2",
+      "rotation": [
+        0,
+        162,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_2_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        6.123233995736766e-17,
+        0,
+        -0.5
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_2",
+      "rotation": [
+        0,
+        180,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_2_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        -0.15450849718747386,
+        0,
+        -0.47552825814757677
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_2",
+      "rotation": [
+        0,
+        198,
+        0
+      ]
+    },
+    {
+      "id": "MetalStrap_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.09,
+          0.65,
+          0.035
+        ]
+      },
+      "position": [
+        -0.43,
+        0.5,
+        -7.898971854500428e-17
+      ],
+      "material": {
+        "color": "#a68652",
+        "metalness": 0.65,
+        "roughness": 0.7
+      },
+      "rotation": [
+        0,
+        270,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_3_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        -0.47552825814757677,
+        0,
+        -0.15450849718747378
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_3",
+      "rotation": [
+        0,
+        252,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_3_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        -0.5,
+        0,
+        -9.184850993605148e-17
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_3",
+      "rotation": [
+        0,
+        270,
+        0
+      ]
+    },
+    {
+      "id": "RingSegment_3_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.145,
+          0.048,
+          0.055
+        ]
+      },
+      "position": [
+        -0.4755282581475768,
+        0,
+        0.15450849718747361
+      ],
+      "material": {
+        "color": "#657176",
+        "metalness": 0.8,
+        "roughness": 0.48
+      },
+      "parent": "Ring_3",
+      "rotation": [
+        0,
+        288,
+        0
+      ]
+    },
+    {
+      "id": "CrystalUpper",
+      "parent": "Crystal",
+      "shape": {
+        "type": "cone",
+        "radius": 0.135,
+        "height": 0.25
+      },
+      "position": [
+        0,
+        0.08,
+        0
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      }
+    },
+    {
+      "id": "CrystalLower",
+      "parent": "Crystal",
+      "shape": {
+        "type": "cone",
+        "radius": 0.135,
+        "height": 0.16
+      },
+      "position": [
+        0,
+        -0.125,
+        0
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "material": {
+        "color": "#87afbb",
+        "emissive": "#34525e",
+        "roughness": 0.4
+      }
+    }
+  ],
+  "sockets": [
+    {
+      "id": "Ring_0",
+      "parent": "Floor",
+      "position": [
+        0,
+        0.94,
+        0
+      ]
+    },
+    {
+      "id": "Ring_1",
+      "parent": "Floor",
+      "position": [
+        0,
+        0.94,
+        0
+      ]
+    },
+    {
+      "id": "Ring_2",
+      "parent": "Floor",
+      "position": [
+        0,
+        0.94,
+        0
+      ]
+    },
+    {
+      "id": "Ring_3",
+      "parent": "Floor",
+      "position": [
+        0,
+        0.94,
+        0
+      ]
+    },
+    {
+      "id": "Crystal",
+      "parent": "Floor",
+      "position": [
+        0,
+        1.26,
+        0
+      ]
+    },
+    {
+      "id": "Interaction_Front",
+      "parent": "Floor",
+      "position": [
+        0,
+        0.65,
+        0.98
+      ]
+    }
+  ]
+}

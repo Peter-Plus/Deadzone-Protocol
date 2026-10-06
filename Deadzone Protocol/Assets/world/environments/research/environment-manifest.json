@@ -1,0 +1,27 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Research_01_RadialLabs",
+      "type": "building",
+      "sourceHash": "5ed12519cac278b44847c47d257efac121a9f91859ef1c3ec257c824292cb457",
+      "modelHash": "3c5f1ef78c3d3ef31930ea61b25d4ea2b9a3bce2b343d65aec01f938f9b85f06",
+      "contract": "contracts/FSA_ENV_Research_01_RadialLabs.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Research_02_ProductionWing",
+      "type": "building",
+      "sourceHash": "7ec496118d6ce5fd91c7928dde473527fa30b8d7dd44a38ae460272632e43c44",
+      "modelHash": "fd2f9e7574c70678f540d8a6b245b59289d67dda38f7a3bcce6e9c1bc0e4ce89",
+      "contract": "contracts/FSA_ENV_Research_02_ProductionWing.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Door_ResearchSlide",
+      "type": "gate",
+      "sourceHash": "a64ac74ed3575951299fbd519b84fbd11b83a76e9fcc913a9126b22cb52f6d26",
+      "modelHash": "1a520aa9052e72b24447fdeda142602696a616b7783974832940ae44a01d0714",
+      "animationHash": "355528f0e187991d5c5dc4fc8df9f42721726e419ad88d035c988406160d329a",
+      "contract": "contracts/FSA_ENV_Door_ResearchSlide.environment.json"
+    }
+  ]
+}

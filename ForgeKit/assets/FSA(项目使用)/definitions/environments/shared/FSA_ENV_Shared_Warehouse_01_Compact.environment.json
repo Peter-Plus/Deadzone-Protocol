@@ -1,0 +1,8086 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Shared_Warehouse_01_Compact",
+  "label": "共享仓库 01 · 紧凑储藏仓库",
+  "type": "building",
+  "roofMode": "full",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -6.3,
+      -8.8
+    ],
+    "max": [
+      6.3,
+      8.8
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Floor",
+      "role": "floor"
+    },
+    {
+      "node": "FrontLeft",
+      "role": "wall"
+    },
+    {
+      "node": "FrontLeft_Plinth",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_0",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_1",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_2",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_3",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_4",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_5",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_6",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_7",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRight",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRight_Plinth",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_10",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_11",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_12",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_13",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_14",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_15",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_16",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_17",
+      "role": "wall"
+    },
+    {
+      "node": "FrontLintel",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_20",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_21",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_22",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_23",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_24",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_25",
+      "role": "wall"
+    },
+    {
+      "node": "BackLeft",
+      "role": "wall"
+    },
+    {
+      "node": "BackLeft_Plinth",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_26",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_27",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_28",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_29",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_30",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_31",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_32",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_33",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_34",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_35",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_36",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_37",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_38",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_39",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_40",
+      "role": "wall"
+    },
+    {
+      "node": "BackRight",
+      "role": "wall"
+    },
+    {
+      "node": "BackRight_Plinth",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_43",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_44",
+      "role": "wall"
+    },
+    {
+      "node": "BackLintel",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_45",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_46",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_47",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_48",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_49",
+      "role": "wall"
+    },
+    {
+      "node": "West",
+      "role": "wall"
+    },
+    {
+      "node": "West_Plinth",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_50",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_51",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_52",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_53",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_54",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_55",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_56",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_57",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_58",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_59",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_60",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_61",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_62",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_63",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_64",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_65",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_66",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_67",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_68",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_69",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_70",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_71",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_72",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_73",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_74",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_75",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_76",
+      "role": "wall"
+    },
+    {
+      "node": "East",
+      "role": "wall"
+    },
+    {
+      "node": "East_Plinth",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_79",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_80",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_81",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_82",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_83",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_84",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_85",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_86",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_87",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_88",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_89",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_90",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_91",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_92",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_93",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_94",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_95",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_96",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_97",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_98",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_99",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_100",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_101",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_102",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_103",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_104",
+      "role": "wall"
+    },
+    {
+      "node": "Corrugation_105",
+      "role": "wall"
+    },
+    {
+      "node": "Roof_L",
+      "role": "roof"
+    },
+    {
+      "node": "Roof_R",
+      "role": "roof"
+    },
+    {
+      "node": "Roof_Ridge",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_136",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_137",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_138",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_139",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_140",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_141",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_142",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_143",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_144",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_145",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_146",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_147",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_148",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_149",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_150",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_151",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_152",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_153",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_154",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_155",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_156",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_157",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_158",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_159",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_160",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_161",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_162",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_163",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_164",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_165",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_166",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_167",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_168",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_169",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_170",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_171",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_172",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_173",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_174",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_175",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_176",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_177",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_178",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_179",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_180",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_181",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_182",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_183",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_184",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_185",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_186",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_187",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_188",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_189",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_190",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_191",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_192",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_193",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_194",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_195",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_196",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_197",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_198",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_199",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_200",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_201",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_202",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_203",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_204",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_205",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_206",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_207",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_208",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_209",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_210",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_211",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_212",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_213",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_214",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_215",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_216",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_217",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_218",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_219",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_220",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_221",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_222",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_223",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_224",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_225",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_226",
+      "role": "roof"
+    },
+    {
+      "node": "RoofGable_227",
+      "role": "roof"
+    },
+    {
+      "node": "LoadingJambL",
+      "role": "wall"
+    },
+    {
+      "node": "LoadingJambR",
+      "role": "wall"
+    },
+    {
+      "node": "LoadingRollHousing",
+      "role": "wall"
+    },
+    {
+      "node": "RearJambL",
+      "role": "wall"
+    },
+    {
+      "node": "RearJambR",
+      "role": "wall"
+    },
+    {
+      "node": "RearRollHousing",
+      "role": "wall"
+    },
+    {
+      "node": "WestRackLeg-1_-1",
+      "role": "solid"
+    },
+    {
+      "node": "WestRackLeg-1_1",
+      "role": "solid"
+    },
+    {
+      "node": "WestRackLeg1_-1",
+      "role": "solid"
+    },
+    {
+      "node": "WestRackLeg1_1",
+      "role": "solid"
+    },
+    {
+      "node": "WestRackShelf22",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_244",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_245",
+      "role": "solid"
+    },
+    {
+      "node": "WestRackShelf125",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_246",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_247",
+      "role": "solid"
+    },
+    {
+      "node": "WestRackShelf235",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_248",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_249",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_250",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_250EdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_250Band-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_250EdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_250Band1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_250TopBand",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_251",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_251EdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_251Band-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_251EdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_251Band1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_251TopBand",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_252",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_252EdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_252Band-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_252EdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_252Band1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_252TopBand",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_253",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_253EdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_253Band-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_253EdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_253Band1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_253TopBand",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_254",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_254EdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_254Band-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_254EdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_254Band1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_254TopBand",
+      "role": "solid"
+    },
+    {
+      "node": "EastRackLeg-1_-1",
+      "role": "solid"
+    },
+    {
+      "node": "EastRackLeg-1_1",
+      "role": "solid"
+    },
+    {
+      "node": "EastRackLeg1_-1",
+      "role": "solid"
+    },
+    {
+      "node": "EastRackLeg1_1",
+      "role": "solid"
+    },
+    {
+      "node": "EastRackShelf22",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_255",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_256",
+      "role": "solid"
+    },
+    {
+      "node": "EastRackShelf125",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_257",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_258",
+      "role": "solid"
+    },
+    {
+      "node": "EastRackShelf235",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_259",
+      "role": "solid"
+    },
+    {
+      "node": "ShelfLip_260",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_261",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_261EdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_261Band-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_261EdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_261Band1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_261TopBand",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_262",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_262EdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_262Band-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_262EdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_262Band1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_262TopBand",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_263",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_263EdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_263Band-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_263EdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_263Band1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_263TopBand",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_264",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_264EdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_264Band-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_264EdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_264Band1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_264TopBand",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_265",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_265EdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_265Band-1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_265EdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_265Band1",
+      "role": "solid"
+    },
+    {
+      "node": "RackLoad_265TopBand",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoPallet",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoLower",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoLowerEdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoLowerBand-1",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoLowerEdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoLowerBand1",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoLowerTopBand",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoUpper",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoUpperEdgeX-1",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoUpperBand-1",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoUpperEdgeX1",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoUpperBand1",
+      "role": "solid"
+    },
+    {
+      "node": "CentralCargoUpperTopBand",
+      "role": "solid"
+    }
+  ],
+  "walkables": [
+    "Floor"
+  ],
+  "entrances": [
+    {
+      "id": "Loading",
+      "outer": [
+        0,
+        0,
+        7.65
+      ],
+      "inner": [
+        0,
+        0,
+        4.5
+      ],
+      "width": 2.6,
+      "height": 2.8,
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    },
+    {
+      "id": "Rear",
+      "outer": [
+        2.8,
+        0,
+        -7.65
+      ],
+      "inner": [
+        2.8,
+        0,
+        -4.5
+      ],
+      "width": 2.2,
+      "height": 2.6,
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "WestLoopToRear",
+      "points": [
+        [
+          0,
+          0,
+          7.65
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          -1.9,
+          0,
+          3
+        ],
+        [
+          -1.9,
+          0,
+          -4.2
+        ],
+        [
+          2.8,
+          0,
+          -4.2
+        ],
+        [
+          2.8,
+          0,
+          -7.65
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    },
+    {
+      "id": "EastLoop",
+      "points": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          1.9,
+          0,
+          3
+        ],
+        [
+          1.9,
+          0,
+          -4.2
+        ],
+        [
+          -1.9,
+          0,
+          -4.2
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [
+    {
+      "id": "FrontWest",
+      "min": [
+        -4.35,
+        3.95
+      ],
+      "max": [
+        -2.9,
+        5.2
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "FrontEast",
+      "min": [
+        2.9,
+        3.95
+      ],
+      "max": [
+        4.35,
+        5.2
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "RearWest",
+      "min": [
+        -4.35,
+        -5.4
+      ],
+      "max": [
+        -3.4,
+        -4.4
+      ],
+      "surface": "Floor"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "WestLoopToRear_1",
+      "min": [
+        -0.85,
+        2.15
+      ],
+      "max": [
+        0.85,
+        8.5
+      ]
+    },
+    {
+      "id": "WestLoopToRear_2",
+      "min": [
+        -2.75,
+        2.15
+      ],
+      "max": [
+        0.85,
+        3.85
+      ]
+    },
+    {
+      "id": "WestLoopToRear_3",
+      "min": [
+        -2.75,
+        -5.05
+      ],
+      "max": [
+        -1.0499999999999998,
+        3.85
+      ]
+    },
+    {
+      "id": "WestLoopToRear_4",
+      "min": [
+        -2.75,
+        -5.05
+      ],
+      "max": [
+        3.65,
+        -3.35
+      ]
+    },
+    {
+      "id": "WestLoopToRear_5",
+      "min": [
+        1.9499999999999997,
+        -8.5
+      ],
+      "max": [
+        3.65,
+        -3.35
+      ]
+    },
+    {
+      "id": "EastLoop_1",
+      "min": [
+        -0.85,
+        2.15
+      ],
+      "max": [
+        2.75,
+        3.85
+      ]
+    },
+    {
+      "id": "EastLoop_2",
+      "min": [
+        1.0499999999999998,
+        -5.05
+      ],
+      "max": [
+        2.75,
+        3.85
+      ]
+    },
+    {
+      "id": "EastLoop_3",
+      "min": [
+        -2.75,
+        -5.05
+      ],
+      "max": [
+        2.75,
+        -3.35
+      ]
+    }
+  ],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Shared_Warehouse_01_Compact",
+    "type": "static",
+    "materials": {
+      "wall": {
+        "color": "#8e9682",
+        "roughness": 0.94,
+        "metalness": 0.16
+      },
+      "wallLight": {
+        "color": "#a3aa95",
+        "roughness": 0.9,
+        "metalness": 0.18
+      },
+      "wallDark": {
+        "color": "#7b877c",
+        "roughness": 0.93,
+        "metalness": 0.18
+      },
+      "concrete": {
+        "color": "#918772",
+        "roughness": 1
+      },
+      "floor": {
+        "color": "#827e6e",
+        "roughness": 1
+      },
+      "roof": {
+        "color": "#616f6d",
+        "roughness": 0.84,
+        "metalness": 0.42
+      },
+      "roofLight": {
+        "color": "#7b8580",
+        "roughness": 0.84,
+        "metalness": 0.35
+      },
+      "rust": {
+        "color": "#8b5b40",
+        "roughness": 1
+      },
+      "steel": {
+        "color": "#384b4b",
+        "roughness": 0.76,
+        "metalness": 0.6
+      },
+      "wood": {
+        "color": "#8e7350",
+        "roughness": 1
+      },
+      "woodLight": {
+        "color": "#ac8e60",
+        "roughness": 1
+      },
+      "strap": {
+        "color": "#53594b",
+        "roughness": 0.94
+      },
+      "paint": {
+        "color": "#c7b265",
+        "roughness": 1
+      },
+      "ivory": {
+        "color": "#c9c6ac",
+        "roughness": 0.95
+      }
+    },
+    "parts": [
+      {
+        "id": "Floor",
+        "shape": {
+          "type": "box",
+          "size": [
+            10,
+            0.16,
+            12
+          ]
+        },
+        "position": [
+          0,
+          -0.08,
+          0
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "FrontLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.7,
+            3.65,
+            0.24
+          ]
+        },
+        "position": [
+          -3.15,
+          1.825,
+          6
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "FrontLeft_Plinth",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.7,
+            0.55,
+            0.27
+          ]
+        },
+        "position": [
+          -3.15,
+          0.275,
+          6
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "Corrugation_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -4.86,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -4.41,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -3.96,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -3.51,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -3.0599999999999996,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -2.6099999999999994,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -2.1599999999999993,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -1.7099999999999993,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Repair_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.62,
+            0.028
+          ]
+        },
+        "position": [
+          -4.36,
+          1.03,
+          5.857
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "Repair_9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.62,
+            0.028
+          ]
+        },
+        "position": [
+          -4.36,
+          1.03,
+          6.143
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "FrontRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.7,
+            3.65,
+            0.24
+          ]
+        },
+        "position": [
+          3.15,
+          1.825,
+          6
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "FrontRight_Plinth",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.7,
+            0.55,
+            0.27
+          ]
+        },
+        "position": [
+          3.15,
+          0.275,
+          6
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "Corrugation_10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          1.44,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          1.89,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          2.34,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          2.79,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          3.24,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          3.6900000000000004,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_16",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          4.140000000000001,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_17",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          4.590000000000001,
+          2.1149999999999998,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Repair_18",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.62,
+            0.028
+          ]
+        },
+        "position": [
+          1.94,
+          1.03,
+          5.857
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "Repair_19",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.62,
+            0.028
+          ]
+        },
+        "position": [
+          1.94,
+          1.03,
+          6.143
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "FrontLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            0.8500000000000001,
+            0.24
+          ]
+        },
+        "position": [
+          0,
+          3.2249999999999996,
+          6
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Corrugation_20",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            0.8500000000000001,
+            0.28
+          ]
+        },
+        "position": [
+          -1.1600000000000001,
+          3.2249999999999996,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_21",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            0.8500000000000001,
+            0.28
+          ]
+        },
+        "position": [
+          -0.7100000000000002,
+          3.2249999999999996,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_22",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            0.8500000000000001,
+            0.28
+          ]
+        },
+        "position": [
+          -0.2600000000000002,
+          3.2249999999999996,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_23",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            0.8500000000000001,
+            0.28
+          ]
+        },
+        "position": [
+          0.18999999999999984,
+          3.2249999999999996,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_24",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            0.8500000000000001,
+            0.28
+          ]
+        },
+        "position": [
+          0.6399999999999999,
+          3.2249999999999996,
+          6
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_25",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            0.8500000000000001,
+            0.28
+          ]
+        },
+        "position": [
+          1.0899999999999999,
+          3.2249999999999996,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "BackLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            6.699999999999999,
+            3.65,
+            0.24
+          ]
+        },
+        "position": [
+          -1.6500000000000001,
+          1.825,
+          -6
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "BackLeft_Plinth",
+        "shape": {
+          "type": "box",
+          "size": [
+            6.699999999999999,
+            0.55,
+            0.27
+          ]
+        },
+        "position": [
+          -1.6500000000000001,
+          0.275,
+          -6
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "Corrugation_26",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -4.86,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_27",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -4.41,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_28",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -3.96,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_29",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -3.51,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_30",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -3.0599999999999996,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_31",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -2.6099999999999994,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_32",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -2.1599999999999993,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_33",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -1.7099999999999993,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_34",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -1.2599999999999993,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_35",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -0.8099999999999994,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_36",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          -0.3599999999999994,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_37",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          0.09000000000000064,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_38",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          0.5400000000000007,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_39",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          0.9900000000000007,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_40",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          1.4400000000000006,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Repair_41",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.62,
+            0.028
+          ]
+        },
+        "position": [
+          -4.36,
+          1.03,
+          -6.143
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Repair_42",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.62,
+            0.028
+          ]
+        },
+        "position": [
+          -4.36,
+          1.03,
+          -5.857
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "BackRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1,
+            3.65,
+            0.24
+          ]
+        },
+        "position": [
+          4.45,
+          1.825,
+          -6
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "BackRight_Plinth",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1,
+            0.55,
+            0.27
+          ]
+        },
+        "position": [
+          4.45,
+          0.275,
+          -6
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "Corrugation_43",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          4.04,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_44",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            3.07,
+            0.28
+          ]
+        },
+        "position": [
+          4.49,
+          2.1149999999999998,
+          -6
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "BackLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            1.0499999999999998,
+            0.24
+          ]
+        },
+        "position": [
+          2.8,
+          3.125,
+          -6
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Corrugation_45",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            1.0499999999999998,
+            0.28
+          ]
+        },
+        "position": [
+          1.8399999999999999,
+          3.125,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_46",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            1.0499999999999998,
+            0.28
+          ]
+        },
+        "position": [
+          2.29,
+          3.125,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_47",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            1.0499999999999998,
+            0.28
+          ]
+        },
+        "position": [
+          2.74,
+          3.125,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_48",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            1.0499999999999998,
+            0.28
+          ]
+        },
+        "position": [
+          3.1900000000000004,
+          3.125,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_49",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.042,
+            1.0499999999999998,
+            0.28
+          ]
+        },
+        "position": [
+          3.6400000000000006,
+          3.125,
+          -6
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "West",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            3.65,
+            12
+          ]
+        },
+        "position": [
+          -5,
+          1.825,
+          0
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "West_Plinth",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.55,
+            12
+          ]
+        },
+        "position": [
+          -5,
+          0.275,
+          0
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "Corrugation_50",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -5.86
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_51",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -5.41
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_52",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -4.96
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_53",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -4.51
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_54",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -4.06
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_55",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -3.6099999999999994
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_56",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -3.1599999999999993
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_57",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -2.709999999999999
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_58",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -2.259999999999999
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_59",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -1.809999999999999
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_60",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -1.359999999999999
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_61",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -0.909999999999999
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_62",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -0.459999999999999
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_63",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          -0.00999999999999901
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_64",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          0.440000000000001
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_65",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          0.890000000000001
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_66",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          1.340000000000001
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_67",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          1.790000000000001
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_68",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          2.240000000000001
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_69",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          2.6900000000000013
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_70",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          3.1400000000000015
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_71",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          3.5900000000000016
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_72",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          4.040000000000002
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_73",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          4.490000000000002
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_74",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          4.940000000000002
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_75",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          5.390000000000002
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_76",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          -5,
+          2.1149999999999998,
+          5.8400000000000025
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Repair_77",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.028,
+            0.62,
+            0.82
+          ]
+        },
+        "position": [
+          -5.143,
+          1.03,
+          -5.36
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Repair_78",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.028,
+            0.62,
+            0.82
+          ]
+        },
+        "position": [
+          -4.857,
+          1.03,
+          -5.36
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "East",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            3.65,
+            12
+          ]
+        },
+        "position": [
+          5,
+          1.825,
+          0
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "East_Plinth",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.55,
+            12
+          ]
+        },
+        "position": [
+          5,
+          0.275,
+          0
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "Corrugation_79",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -5.86
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_80",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -5.41
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_81",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -4.96
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_82",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -4.51
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_83",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -4.06
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_84",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -3.6099999999999994
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_85",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -3.1599999999999993
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_86",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -2.709999999999999
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_87",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -2.259999999999999
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_88",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -1.809999999999999
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_89",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -1.359999999999999
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_90",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -0.909999999999999
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_91",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -0.459999999999999
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_92",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          -0.00999999999999901
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_93",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          0.440000000000001
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_94",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          0.890000000000001
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_95",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          1.340000000000001
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_96",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          1.790000000000001
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_97",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          2.240000000000001
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_98",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          2.6900000000000013
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_99",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          3.1400000000000015
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_100",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          3.5900000000000016
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_101",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          4.040000000000002
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_102",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          4.490000000000002
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_103",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          4.940000000000002
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Corrugation_104",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          5.390000000000002
+        ],
+        "material": "wallLight"
+      },
+      {
+        "id": "Corrugation_105",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            3.07,
+            0.042
+          ]
+        },
+        "position": [
+          5,
+          2.1149999999999998,
+          5.8400000000000025
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Repair_106",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.028,
+            0.62,
+            0.82
+          ]
+        },
+        "position": [
+          4.857,
+          1.03,
+          -5.36
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "Repair_107",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.028,
+            0.62,
+            0.82
+          ]
+        },
+        "position": [
+          5.143,
+          1.03,
+          -5.36
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "Roof_L",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.373862670370355,
+            0.14,
+            12.56
+          ]
+        },
+        "position": [
+          -2.64,
+          4.24,
+          0
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          10.724448537471181
+        ]
+      },
+      {
+        "id": "RoofRib_108",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -2.5869313351851773,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_109",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -2.1669313351851773,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_110",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -1.7469313351851774,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_111",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -1.3269313351851775,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_112",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -0.9069313351851775,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_113",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -0.48693133518517756,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_114",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -0.06693133518517758,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_115",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          0.3530686648148224,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_116",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          0.7730686648148224,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_117",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          1.1930686648148223,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_118",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          1.6130686648148223,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_119",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          2.0330686648148224,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofRib_120",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          2.4530686648148223,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "RoofPatch_121",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.3,
+            0.025,
+            1.7
+          ]
+        },
+        "position": [
+          0.5373862670370355,
+          0.085,
+          2.8888000000000003
+        ],
+        "material": "rust",
+        "parent": "Roof_L"
+      },
+      {
+        "id": "Roof_R",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.373862670370355,
+            0.14,
+            12.56
+          ]
+        },
+        "position": [
+          2.64,
+          4.24,
+          0
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          -10.724448537471181
+        ]
+      },
+      {
+        "id": "RoofRib_122",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -2.5869313351851773,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_123",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -2.1669313351851773,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_124",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -1.7469313351851774,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_125",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -1.3269313351851775,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_126",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -0.9069313351851775,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_127",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -0.48693133518517756,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_128",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          -0.06693133518517758,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_129",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          0.3530686648148224,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_130",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          0.7730686648148224,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_131",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          1.1930686648148223,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_132",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          1.6130686648148223,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_133",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          2.0330686648148224,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofRib_134",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.048,
+            0.05,
+            12.540000000000001
+          ]
+        },
+        "position": [
+          2.4530686648148223,
+          0.09,
+          0
+        ],
+        "material": "roofLight",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "RoofPatch_135",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.3,
+            0.025,
+            1.7
+          ]
+        },
+        "position": [
+          0.5373862670370355,
+          0.085,
+          2.8888000000000003
+        ],
+        "material": "rust",
+        "parent": "Roof_R"
+      },
+      {
+        "id": "Roof_Ridge",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.16,
+            12.6
+          ]
+        },
+        "position": [
+          0,
+          4.76,
+          0
+        ],
+        "material": "roofLight"
+      },
+      {
+        "id": "RoofGable_136",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.11886363636363662,
+            0.24
+          ]
+        },
+        "position": [
+          -4.89,
+          3.6794318181818184,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_137",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.16053030303030313,
+            0.24
+          ]
+        },
+        "position": [
+          -4.67,
+          3.7002651515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_138",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.20219696969696965,
+            0.24
+          ]
+        },
+        "position": [
+          -4.45,
+          3.721098484848485,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_139",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.24386363636363617,
+            0.24
+          ]
+        },
+        "position": [
+          -4.23,
+          3.7419318181818184,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_140",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.2855303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -4.010000000000001,
+          3.7627651515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_141",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.32719696969696965,
+            0.24
+          ]
+        },
+        "position": [
+          -3.790000000000001,
+          3.783598484848485,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_142",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.3688636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -3.5700000000000007,
+          3.8044318181818184,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_143",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.4105303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -3.3500000000000005,
+          3.8252651515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_144",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.45219696969696965,
+            0.24
+          ]
+        },
+        "position": [
+          -3.1300000000000003,
+          3.846098484848485,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_145",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.4938636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -2.91,
+          3.8669318181818184,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_146",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.5355303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -2.69,
+          3.8877651515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_147",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.5771969696969697,
+            0.24
+          ]
+        },
+        "position": [
+          -2.4699999999999998,
+          3.908598484848485,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_148",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.6188636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -2.2499999999999996,
+          3.9294318181818184,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_149",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.6605303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -2.0299999999999994,
+          3.9502651515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_150",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.7021969696969697,
+            0.24
+          ]
+        },
+        "position": [
+          -1.8099999999999992,
+          3.971098484848485,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_151",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.7438636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -1.5899999999999992,
+          3.9919318181818184,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_152",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.7855303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -1.3699999999999992,
+          4.0127651515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_153",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.8271969696969697,
+            0.24
+          ]
+        },
+        "position": [
+          -1.1499999999999992,
+          4.0335984848484845,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_154",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.8688636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -0.9299999999999994,
+          4.054431818181818,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_155",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.9105303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -0.7099999999999994,
+          4.0752651515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_156",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.9521969696969697,
+            0.24
+          ]
+        },
+        "position": [
+          -0.48999999999999944,
+          4.0960984848484845,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_157",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.9938636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -0.26999999999999946,
+          4.116931818181818,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_158",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            1.0355303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -0.04999999999999945,
+          4.1377651515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_159",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            1.0128030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          0.17000000000000054,
+          4.126401515151516,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_160",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.9711363636363632,
+            0.24
+          ]
+        },
+        "position": [
+          0.39000000000000057,
+          4.105568181818182,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_161",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.9294696969696972,
+            0.24
+          ]
+        },
+        "position": [
+          0.6100000000000005,
+          4.084734848484849,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_162",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.8878030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          0.8300000000000005,
+          4.063901515151516,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_163",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.8461363636363632,
+            0.24
+          ]
+        },
+        "position": [
+          1.0500000000000005,
+          4.043068181818182,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_164",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.8044696969696972,
+            0.24
+          ]
+        },
+        "position": [
+          1.2700000000000007,
+          4.022234848484849,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_165",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.7628030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          1.4900000000000007,
+          4.001401515151516,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_166",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.7211363636363632,
+            0.24
+          ]
+        },
+        "position": [
+          1.7100000000000006,
+          3.9805681818181817,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_167",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.6794696969696972,
+            0.24
+          ]
+        },
+        "position": [
+          1.9300000000000006,
+          3.9597348484848487,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_168",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.6378030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          2.1500000000000004,
+          3.938901515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_169",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.5961363636363632,
+            0.24
+          ]
+        },
+        "position": [
+          2.3700000000000006,
+          3.9180681818181817,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_170",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.5544696969696972,
+            0.24
+          ]
+        },
+        "position": [
+          2.5900000000000007,
+          3.8972348484848487,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_171",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.5128030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          2.810000000000001,
+          3.876401515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_172",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.47113636363636324,
+            0.24
+          ]
+        },
+        "position": [
+          3.030000000000001,
+          3.8555681818181817,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_173",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.42946969696969717,
+            0.24
+          ]
+        },
+        "position": [
+          3.2500000000000013,
+          3.8347348484848487,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_174",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.3878030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          3.4700000000000015,
+          3.813901515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_175",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.34613636363636324,
+            0.24
+          ]
+        },
+        "position": [
+          3.6900000000000017,
+          3.7930681818181817,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_176",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.3044696969696967,
+            0.24
+          ]
+        },
+        "position": [
+          3.910000000000002,
+          3.7722348484848487,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_177",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.26280303030302976,
+            0.24
+          ]
+        },
+        "position": [
+          4.130000000000003,
+          3.7514015151515148,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_178",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.22113636363636324,
+            0.24
+          ]
+        },
+        "position": [
+          4.350000000000002,
+          3.7305681818181817,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_179",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.17946969696969628,
+            0.24
+          ]
+        },
+        "position": [
+          4.570000000000002,
+          3.7097348484848482,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_180",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.1378030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          4.790000000000002,
+          3.688901515151515,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_181",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09999999999999876,
+            0.10749999999999993,
+            0.24
+          ]
+        },
+        "position": [
+          4.950000000000001,
+          3.67375,
+          -6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_182",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.11886363636363662,
+            0.24
+          ]
+        },
+        "position": [
+          -4.89,
+          3.6794318181818184,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_183",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.16053030303030313,
+            0.24
+          ]
+        },
+        "position": [
+          -4.67,
+          3.7002651515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_184",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.20219696969696965,
+            0.24
+          ]
+        },
+        "position": [
+          -4.45,
+          3.721098484848485,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_185",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.24386363636363617,
+            0.24
+          ]
+        },
+        "position": [
+          -4.23,
+          3.7419318181818184,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_186",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.2855303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -4.010000000000001,
+          3.7627651515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_187",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.32719696969696965,
+            0.24
+          ]
+        },
+        "position": [
+          -3.790000000000001,
+          3.783598484848485,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_188",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.3688636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -3.5700000000000007,
+          3.8044318181818184,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_189",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.4105303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -3.3500000000000005,
+          3.8252651515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_190",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.45219696969696965,
+            0.24
+          ]
+        },
+        "position": [
+          -3.1300000000000003,
+          3.846098484848485,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_191",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.4938636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -2.91,
+          3.8669318181818184,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_192",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.5355303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -2.69,
+          3.8877651515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_193",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.5771969696969697,
+            0.24
+          ]
+        },
+        "position": [
+          -2.4699999999999998,
+          3.908598484848485,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_194",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.6188636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -2.2499999999999996,
+          3.9294318181818184,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_195",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.6605303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -2.0299999999999994,
+          3.9502651515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_196",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.7021969696969697,
+            0.24
+          ]
+        },
+        "position": [
+          -1.8099999999999992,
+          3.971098484848485,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_197",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.7438636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -1.5899999999999992,
+          3.9919318181818184,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_198",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.7855303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -1.3699999999999992,
+          4.0127651515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_199",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.8271969696969697,
+            0.24
+          ]
+        },
+        "position": [
+          -1.1499999999999992,
+          4.0335984848484845,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_200",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.8688636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -0.9299999999999994,
+          4.054431818181818,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_201",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.9105303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -0.7099999999999994,
+          4.0752651515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_202",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.9521969696969697,
+            0.24
+          ]
+        },
+        "position": [
+          -0.48999999999999944,
+          4.0960984848484845,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_203",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.9938636363636366,
+            0.24
+          ]
+        },
+        "position": [
+          -0.26999999999999946,
+          4.116931818181818,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_204",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            1.0355303030303027,
+            0.24
+          ]
+        },
+        "position": [
+          -0.04999999999999945,
+          4.1377651515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_205",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            1.0128030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          0.17000000000000054,
+          4.126401515151516,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_206",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.9711363636363632,
+            0.24
+          ]
+        },
+        "position": [
+          0.39000000000000057,
+          4.105568181818182,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_207",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.9294696969696972,
+            0.24
+          ]
+        },
+        "position": [
+          0.6100000000000005,
+          4.084734848484849,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_208",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.8878030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          0.8300000000000005,
+          4.063901515151516,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_209",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.8461363636363632,
+            0.24
+          ]
+        },
+        "position": [
+          1.0500000000000005,
+          4.043068181818182,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_210",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.8044696969696972,
+            0.24
+          ]
+        },
+        "position": [
+          1.2700000000000007,
+          4.022234848484849,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_211",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.7628030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          1.4900000000000007,
+          4.001401515151516,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_212",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.7211363636363632,
+            0.24
+          ]
+        },
+        "position": [
+          1.7100000000000006,
+          3.9805681818181817,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_213",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.6794696969696972,
+            0.24
+          ]
+        },
+        "position": [
+          1.9300000000000006,
+          3.9597348484848487,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_214",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.6378030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          2.1500000000000004,
+          3.938901515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_215",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.5961363636363632,
+            0.24
+          ]
+        },
+        "position": [
+          2.3700000000000006,
+          3.9180681818181817,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_216",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.5544696969696972,
+            0.24
+          ]
+        },
+        "position": [
+          2.5900000000000007,
+          3.8972348484848487,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_217",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.5128030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          2.810000000000001,
+          3.876401515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_218",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.47113636363636324,
+            0.24
+          ]
+        },
+        "position": [
+          3.030000000000001,
+          3.8555681818181817,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_219",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.42946969696969717,
+            0.24
+          ]
+        },
+        "position": [
+          3.2500000000000013,
+          3.8347348484848487,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_220",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.3878030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          3.4700000000000015,
+          3.813901515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_221",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.34613636363636324,
+            0.24
+          ]
+        },
+        "position": [
+          3.6900000000000017,
+          3.7930681818181817,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_222",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.3044696969696967,
+            0.24
+          ]
+        },
+        "position": [
+          3.910000000000002,
+          3.7722348484848487,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_223",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.26280303030302976,
+            0.24
+          ]
+        },
+        "position": [
+          4.130000000000003,
+          3.7514015151515148,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_224",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.22113636363636324,
+            0.24
+          ]
+        },
+        "position": [
+          4.350000000000002,
+          3.7305681818181817,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_225",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.17946969696969628,
+            0.24
+          ]
+        },
+        "position": [
+          4.570000000000002,
+          3.7097348484848482,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_226",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.22,
+            0.1378030303030302,
+            0.24
+          ]
+        },
+        "position": [
+          4.790000000000002,
+          3.688901515151515,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "RoofGable_227",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09999999999999876,
+            0.10749999999999993,
+            0.24
+          ]
+        },
+        "position": [
+          4.950000000000001,
+          3.67375,
+          6
+        ],
+        "material": "wallDark"
+      },
+      {
+        "id": "LoadingJambL",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.14,
+            2.8,
+            0.32
+          ]
+        },
+        "position": [
+          -1.3800000000000001,
+          1.4,
+          6
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "LoadingJambR",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.14,
+            2.8,
+            0.32
+          ]
+        },
+        "position": [
+          1.3800000000000001,
+          1.4,
+          6
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "LoadingRollHousing",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.7600000000000002,
+            0.36,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          3.03,
+          6
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "LoadingRolledShutter",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.14,
+          "radiusBottom": 0.14,
+          "height": 2.52
+        },
+        "position": [
+          0,
+          3.02,
+          6.25
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": "roofLight"
+      },
+      {
+        "id": "DoorMark_228",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          -1.3820000000000001,
+          0.42,
+          6.175
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "DoorMark_229",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          -1.3820000000000001,
+          0.77,
+          6.175
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "DoorMark_230",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          -1.3820000000000001,
+          1.1199999999999999,
+          6.175
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "DoorMark_231",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          -1.3820000000000001,
+          1.4699999999999998,
+          6.175
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "DoorMark_232",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          1.3820000000000001,
+          0.42,
+          6.175
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "DoorMark_233",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          1.3820000000000001,
+          0.77,
+          6.175
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "DoorMark_234",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          1.3820000000000001,
+          1.1199999999999999,
+          6.175
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "DoorMark_235",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          1.3820000000000001,
+          1.4699999999999998,
+          6.175
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "RearJambL",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.14,
+            2.6,
+            0.32
+          ]
+        },
+        "position": [
+          1.6199999999999997,
+          1.3,
+          -6
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RearJambR",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.14,
+            2.6,
+            0.32
+          ]
+        },
+        "position": [
+          3.98,
+          1.3,
+          -6
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RearRollHousing",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.3600000000000003,
+            0.36,
+            0.44
+          ]
+        },
+        "position": [
+          2.8,
+          2.83,
+          -6
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RearRolledShutter",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.14,
+          "radiusBottom": 0.14,
+          "height": 2.12
+        },
+        "position": [
+          2.8,
+          2.8200000000000003,
+          -6.25
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ],
+        "material": "roofLight"
+      },
+      {
+        "id": "DoorMark_236",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          1.6179999999999997,
+          0.42,
+          -6.175
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "DoorMark_237",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          1.6179999999999997,
+          0.77,
+          -6.175
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "DoorMark_238",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          1.6179999999999997,
+          1.1199999999999999,
+          -6.175
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "DoorMark_239",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          1.6179999999999997,
+          1.4699999999999998,
+          -6.175
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "DoorMark_240",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          3.982,
+          0.42,
+          -6.175
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "DoorMark_241",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          3.982,
+          0.77,
+          -6.175
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "DoorMark_242",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          3.982,
+          1.1199999999999999,
+          -6.175
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "DoorMark_243",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.18,
+            0.025
+          ]
+        },
+        "position": [
+          3.982,
+          1.4699999999999998,
+          -6.175
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "WestRackLeg-1_-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.095,
+            2.65,
+            0.095
+          ]
+        },
+        "position": [
+          -4.2,
+          1.325,
+          -3.1500000000000004
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestRackLeg-1_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.095,
+            2.65,
+            0.095
+          ]
+        },
+        "position": [
+          -4.2,
+          1.325,
+          1.1500000000000004
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestRackLeg1_-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.095,
+            2.65,
+            0.095
+          ]
+        },
+        "position": [
+          -3.2,
+          1.325,
+          -3.1500000000000004
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestRackLeg1_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.095,
+            2.65,
+            0.095
+          ]
+        },
+        "position": [
+          -3.2,
+          1.325,
+          1.1500000000000004
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestRackShelf22",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1,
+            0.1,
+            4.4
+          ]
+        },
+        "position": [
+          -3.7,
+          0.22,
+          -1
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "ShelfLip_244",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          -4.220000000000001,
+          0.27,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "ShelfLip_245",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          -3.18,
+          0.27,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "WestRackShelf125",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1,
+            0.1,
+            4.4
+          ]
+        },
+        "position": [
+          -3.7,
+          1.25,
+          -1
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "ShelfLip_246",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          -4.220000000000001,
+          1.3,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "ShelfLip_247",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          -3.18,
+          1.3,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "WestRackShelf235",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1,
+            0.1,
+            4.4
+          ]
+        },
+        "position": [
+          -3.7,
+          2.35,
+          -1
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "ShelfLip_248",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          -4.220000000000001,
+          2.4,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "ShelfLip_249",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          -3.18,
+          2.4,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "RackLoad_250",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9400000000000001,
+            0.78,
+            0.88
+          ]
+        },
+        "position": [
+          -3.7,
+          0.67,
+          -2.6500000000000004
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RackLoad_250EdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          -4.115,
+          0.67,
+          -2.6500000000000004
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_250Band-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -3.7,
+          0.826,
+          -3.1080000000000005
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_250EdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          -3.285,
+          0.67,
+          -2.6500000000000004
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_250Band1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -3.7,
+          0.826,
+          -2.192
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_250TopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            0.905
+          ]
+        },
+        "position": [
+          -3.7,
+          1.08,
+          -2.6500000000000004
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_251",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8700000000000001,
+            0.74,
+            0.8
+          ]
+        },
+        "position": [
+          -3.7,
+          1.6800000000000002,
+          -2.6500000000000004
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RackLoad_251EdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.755,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          -4.08,
+          1.6800000000000002,
+          -2.6500000000000004
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_251Band-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9050000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -3.7,
+          1.828,
+          -3.0680000000000005
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_251EdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.755,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          -3.3200000000000003,
+          1.6800000000000002,
+          -2.6500000000000004
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_251Band1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9050000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -3.7,
+          1.828,
+          -2.232
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_251TopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          -3.7,
+          2.07,
+          -2.6500000000000004
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_252",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9400000000000001,
+            0.78,
+            0.88
+          ]
+        },
+        "position": [
+          -3.7,
+          0.67,
+          -1.4000000000000001
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RackLoad_252EdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          -4.115,
+          0.67,
+          -1.4000000000000001
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_252Band-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -3.7,
+          0.826,
+          -1.858
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_252EdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          -3.285,
+          0.67,
+          -1.4000000000000001
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_252Band1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -3.7,
+          0.826,
+          -0.9420000000000002
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_252TopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            0.905
+          ]
+        },
+        "position": [
+          -3.7,
+          1.08,
+          -1.4000000000000001
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_253",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8700000000000001,
+            0.74,
+            0.8
+          ]
+        },
+        "position": [
+          -3.7,
+          1.6800000000000002,
+          -1.4000000000000001
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RackLoad_253EdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.755,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          -4.08,
+          1.6800000000000002,
+          -1.4000000000000001
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_253Band-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9050000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -3.7,
+          1.828,
+          -1.818
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_253EdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.755,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          -3.3200000000000003,
+          1.6800000000000002,
+          -1.4000000000000001
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_253Band1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9050000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -3.7,
+          1.828,
+          -0.9820000000000001
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_253TopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          -3.7,
+          2.07,
+          -1.4000000000000001
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_254",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9400000000000001,
+            0.78,
+            0.88
+          ]
+        },
+        "position": [
+          -3.7,
+          0.67,
+          -0.15000000000000013
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RackLoad_254EdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          -4.115,
+          0.67,
+          -0.15000000000000013
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_254Band-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -3.7,
+          0.826,
+          -0.6080000000000001
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_254EdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          -3.285,
+          0.67,
+          -0.15000000000000013
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_254Band1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -3.7,
+          0.826,
+          0.3079999999999999
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_254TopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            0.905
+          ]
+        },
+        "position": [
+          -3.7,
+          1.08,
+          -0.15000000000000013
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "EastRackLeg-1_-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.095,
+            2.65,
+            0.095
+          ]
+        },
+        "position": [
+          3.2,
+          1.325,
+          -3.1500000000000004
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EastRackLeg-1_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.095,
+            2.65,
+            0.095
+          ]
+        },
+        "position": [
+          3.2,
+          1.325,
+          1.1500000000000004
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EastRackLeg1_-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.095,
+            2.65,
+            0.095
+          ]
+        },
+        "position": [
+          4.2,
+          1.325,
+          -3.1500000000000004
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EastRackLeg1_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.095,
+            2.65,
+            0.095
+          ]
+        },
+        "position": [
+          4.2,
+          1.325,
+          1.1500000000000004
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EastRackShelf22",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1,
+            0.1,
+            4.4
+          ]
+        },
+        "position": [
+          3.7,
+          0.22,
+          -1
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "ShelfLip_255",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          3.18,
+          0.27,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "ShelfLip_256",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          4.220000000000001,
+          0.27,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "EastRackShelf125",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1,
+            0.1,
+            4.4
+          ]
+        },
+        "position": [
+          3.7,
+          1.25,
+          -1
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "ShelfLip_257",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          3.18,
+          1.3,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "ShelfLip_258",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          4.220000000000001,
+          1.3,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "EastRackShelf235",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1,
+            0.1,
+            4.4
+          ]
+        },
+        "position": [
+          3.7,
+          2.35,
+          -1
+        ],
+        "material": "rust"
+      },
+      {
+        "id": "ShelfLip_259",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          3.18,
+          2.4,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "ShelfLip_260",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.14,
+            4.4
+          ]
+        },
+        "position": [
+          4.220000000000001,
+          2.4,
+          -1
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "RackLoad_261",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9400000000000001,
+            0.78,
+            0.88
+          ]
+        },
+        "position": [
+          3.7,
+          0.67,
+          -2.6500000000000004
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RackLoad_261EdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          3.285,
+          0.67,
+          -2.6500000000000004
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_261Band-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          3.7,
+          0.826,
+          -3.1080000000000005
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_261EdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          4.115,
+          0.67,
+          -2.6500000000000004
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_261Band1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          3.7,
+          0.826,
+          -2.192
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_261TopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            0.905
+          ]
+        },
+        "position": [
+          3.7,
+          1.08,
+          -2.6500000000000004
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_262",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8700000000000001,
+            0.74,
+            0.8
+          ]
+        },
+        "position": [
+          3.7,
+          1.6800000000000002,
+          -2.6500000000000004
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RackLoad_262EdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.755,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          3.3200000000000003,
+          1.6800000000000002,
+          -2.6500000000000004
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_262Band-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9050000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          3.7,
+          1.828,
+          -3.0680000000000005
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_262EdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.755,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          4.08,
+          1.6800000000000002,
+          -2.6500000000000004
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_262Band1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9050000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          3.7,
+          1.828,
+          -2.232
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_262TopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          3.7,
+          2.07,
+          -2.6500000000000004
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_263",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9400000000000001,
+            0.78,
+            0.88
+          ]
+        },
+        "position": [
+          3.7,
+          0.67,
+          -1.4000000000000001
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RackLoad_263EdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          3.285,
+          0.67,
+          -1.4000000000000001
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_263Band-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          3.7,
+          0.826,
+          -1.858
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_263EdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          4.115,
+          0.67,
+          -1.4000000000000001
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_263Band1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          3.7,
+          0.826,
+          -0.9420000000000002
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_263TopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            0.905
+          ]
+        },
+        "position": [
+          3.7,
+          1.08,
+          -1.4000000000000001
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_264",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9400000000000001,
+            0.78,
+            0.88
+          ]
+        },
+        "position": [
+          3.7,
+          0.67,
+          -0.15000000000000013
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RackLoad_264EdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          3.285,
+          0.67,
+          -0.15000000000000013
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_264Band-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          3.7,
+          0.826,
+          -0.6080000000000001
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_264EdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.795,
+            0.905
+          ]
+        },
+        "position": [
+          4.115,
+          0.67,
+          -0.15000000000000013
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_264Band1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9750000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          3.7,
+          0.826,
+          0.3079999999999999
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_264TopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            0.905
+          ]
+        },
+        "position": [
+          3.7,
+          1.08,
+          -0.15000000000000013
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_265",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8700000000000001,
+            0.74,
+            0.8
+          ]
+        },
+        "position": [
+          3.7,
+          1.6800000000000002,
+          -0.15000000000000013
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "RackLoad_265EdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.755,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          3.3200000000000003,
+          1.6800000000000002,
+          -0.15000000000000013
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_265Band-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9050000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          3.7,
+          1.828,
+          -0.5680000000000002
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_265EdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.755,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          4.08,
+          1.6800000000000002,
+          -0.15000000000000013
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "RackLoad_265Band1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9050000000000001,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          3.7,
+          1.828,
+          0.2679999999999999
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "RackLoad_265TopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            0.8250000000000001
+          ]
+        },
+        "position": [
+          3.7,
+          2.07,
+          -0.15000000000000013
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "CentralCargoPallet",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.7200000000000002,
+            0.16,
+            2.52
+          ]
+        },
+        "position": [
+          0,
+          0.08,
+          -1.2
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "CentralCargoLower",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.6,
+            1.1,
+            2.4
+          ]
+        },
+        "position": [
+          0,
+          0.7100000000000001,
+          -1.2
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "CentralCargoLowerEdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            1.115,
+            2.425
+          ]
+        },
+        "position": [
+          -0.745,
+          0.7100000000000001,
+          -1.2
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "CentralCargoLowerBand-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.635,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          0,
+          0.93,
+          -2.418
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "CentralCargoLowerEdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            1.115,
+            2.425
+          ]
+        },
+        "position": [
+          0.745,
+          0.7100000000000001,
+          -1.2
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "CentralCargoLowerBand1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.635,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          0,
+          0.93,
+          0.018000000000000016
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "CentralCargoLowerTopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            2.425
+          ]
+        },
+        "position": [
+          0,
+          1.28,
+          -1.2
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "CentralCargoUpper",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.344,
+            0.83,
+            1.92
+          ]
+        },
+        "position": [
+          -0.05,
+          1.715,
+          -1.28
+        ],
+        "material": "wood"
+      },
+      {
+        "id": "CentralCargoUpperEdgeX-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.845,
+            1.9449999999999998
+          ]
+        },
+        "position": [
+          -0.667,
+          1.715,
+          -1.28
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "CentralCargoUpperBand-1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.379,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -0.05,
+          1.881,
+          -2.258
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "CentralCargoUpperEdgeX1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            0.845,
+            1.9449999999999998
+          ]
+        },
+        "position": [
+          0.567,
+          1.715,
+          -1.28
+        ],
+        "material": "woodLight"
+      },
+      {
+        "id": "CentralCargoUpperBand1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.379,
+            0.11,
+            0.035
+          ]
+        },
+        "position": [
+          -0.05,
+          1.881,
+          -0.30200000000000005
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "CentralCargoUpperTopBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.035,
+            1.9449999999999998
+          ]
+        },
+        "position": [
+          -0.05,
+          2.15,
+          -1.28
+        ],
+        "material": "strap"
+      },
+      {
+        "id": "FloorMark_266",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.006,
+            0.46
+          ]
+        },
+        "position": [
+          -1.42,
+          0.004,
+          2
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "FloorMark_267",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.006,
+            0.46
+          ]
+        },
+        "position": [
+          -1.42,
+          0.004,
+          2.9
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "FloorMark_268",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.006,
+            0.46
+          ]
+        },
+        "position": [
+          -1.42,
+          0.004,
+          3.8
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "FloorMark_269",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.006,
+            0.46
+          ]
+        },
+        "position": [
+          -1.42,
+          0.004,
+          4.7
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "FloorMark_270",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.006,
+            0.46
+          ]
+        },
+        "position": [
+          1.42,
+          0.004,
+          2
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "FloorMark_271",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.006,
+            0.46
+          ]
+        },
+        "position": [
+          1.42,
+          0.004,
+          2.9
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "FloorMark_272",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.006,
+            0.46
+          ]
+        },
+        "position": [
+          1.42,
+          0.004,
+          3.8
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "FloorMark_273",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.006,
+            0.46
+          ]
+        },
+        "position": [
+          1.42,
+          0.004,
+          4.7
+        ],
+        "material": "paint"
+      },
+      {
+        "id": "EntrySign",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.3,
+            0.37,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.4,
+          6.17
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EntrySignMark",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.13,
+            0.22,
+            0.024
+          ]
+        },
+        "position": [
+          0,
+          3.4,
+          6.215
+        ],
+        "material": "ivory"
+      }
+    ],
+    "sockets": []
+  }
+}

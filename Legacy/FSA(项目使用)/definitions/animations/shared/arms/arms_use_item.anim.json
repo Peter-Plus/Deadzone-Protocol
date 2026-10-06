@@ -1,0 +1,78 @@
+{
+  "schema": "animation.v1",
+  "id": "fsa.animation.arms.use_item",
+  "rig": "humanoid.v1",
+  "duration": 1.5,
+  "loop": false,
+  "mode": "timeline",
+  "tracks": {
+    "Arm_L": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          -90
+        ]
+      },
+      {
+        "time": 0.4,
+        "rotation": [
+          -112.142365,
+          -58.948706,
+          -138.366461
+        ]
+      },
+      {
+        "time": 1.05,
+        "rotation": [
+          -112.142365,
+          -58.948706,
+          -138.366461
+        ]
+      },
+      {
+        "time": 1.5,
+        "rotation": [
+          0,
+          0,
+          -90
+        ]
+      }
+    ],
+    "Arm_R": [
+      {
+        "time": 0,
+        "rotation": [
+          0,
+          0,
+          90
+        ]
+      },
+      {
+        "time": 0.4,
+        "rotation": [
+          -124.641682,
+          54.532673,
+          149.743563
+        ]
+      },
+      {
+        "time": 1.05,
+        "rotation": [
+          -124.641682,
+          54.532673,
+          149.743563
+        ]
+      },
+      {
+        "time": 1.5,
+        "rotation": [
+          0,
+          0,
+          90
+        ]
+      }
+    ]
+  }
+}

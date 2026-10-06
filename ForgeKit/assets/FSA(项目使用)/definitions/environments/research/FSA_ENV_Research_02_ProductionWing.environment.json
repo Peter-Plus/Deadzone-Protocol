@@ -1,0 +1,8267 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Research_02_ProductionWing",
+  "label": "研究所 02 · 圆形核心与偏置生产翼",
+  "type": "building",
+  "roofMode": "full",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -22,
+      -11
+    ],
+    "max": [
+      20,
+      26
+    ]
+  },
+  "colliders": [
+    {
+      "node": "CoreFloor0",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor1",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor2",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor3",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor4",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor5",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor6",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor7",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor8",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor9",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor10",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor11",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor12",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor13",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor14",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor15",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor16",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor17",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor18",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor19",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor20",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor21",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor22",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor23",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor24",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor25",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor26",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor27",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor28",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor29",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor30",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor31",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor32",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor33",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor34",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor35",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor36",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor37",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor38",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor39",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor40",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor41",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor42",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor43",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor44",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor45",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor46",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor47",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor48",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor49",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor50",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor51",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor52",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor53",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor54",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor55",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor56",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor57",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor58",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor59",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor60",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor61",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor62",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor63",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor64",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor65",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor66",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor67",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor68",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor69",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor70",
+      "role": "floor"
+    },
+    {
+      "node": "CoreFloor71",
+      "role": "floor"
+    },
+    {
+      "node": "CoreWall2",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall3",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall4",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall5",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall6",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall7",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall8",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall9",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall10",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall11",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall12",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall13",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall14",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall15",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall16",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall17",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall18",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall19",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall20",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall21",
+      "role": "wall"
+    },
+    {
+      "node": "CoreWall22",
+      "role": "wall"
+    },
+    {
+      "node": "CorePortal63",
+      "role": "wall"
+    },
+    {
+      "node": "CorePortal64",
+      "role": "wall"
+    },
+    {
+      "node": "CorePortal65",
+      "role": "wall"
+    },
+    {
+      "node": "CoreRoofAnchor",
+      "role": "roof"
+    },
+    {
+      "node": "CulturePlinth",
+      "role": "solid"
+    },
+    {
+      "node": "CultureServiceSpine",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass0",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass1",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass2",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass3",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass4",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass5",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass6",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass7",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass8",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass9",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass10",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass11",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass12",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass13",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass14",
+      "role": "solid"
+    },
+    {
+      "node": "CultureGlass15",
+      "role": "solid"
+    },
+    {
+      "node": "CulturePillar0",
+      "role": "solid"
+    },
+    {
+      "node": "CulturePillar1",
+      "role": "solid"
+    },
+    {
+      "node": "CulturePillar2",
+      "role": "solid"
+    },
+    {
+      "node": "CulturePillar3",
+      "role": "solid"
+    },
+    {
+      "node": "CoreConsole66",
+      "role": "solid"
+    },
+    {
+      "node": "CoreConsole66Top",
+      "role": "solid"
+    },
+    {
+      "node": "CoreConsole66Screen",
+      "role": "solid"
+    },
+    {
+      "node": "CoreConsole67",
+      "role": "solid"
+    },
+    {
+      "node": "CoreConsole67Top",
+      "role": "solid"
+    },
+    {
+      "node": "CoreConsole67Screen",
+      "role": "solid"
+    },
+    {
+      "node": "LobbyFloor",
+      "role": "floor"
+    },
+    {
+      "node": "WestFloor",
+      "role": "floor"
+    },
+    {
+      "node": "EastFloor",
+      "role": "floor"
+    },
+    {
+      "node": "Front68",
+      "role": "wall"
+    },
+    {
+      "node": "Front69",
+      "role": "wall"
+    },
+    {
+      "node": "Front70",
+      "role": "wall"
+    },
+    {
+      "node": "LobbyLeft71",
+      "role": "wall"
+    },
+    {
+      "node": "LobbyLeft72",
+      "role": "wall"
+    },
+    {
+      "node": "LobbyLeft73",
+      "role": "wall"
+    },
+    {
+      "node": "LobbyRight74",
+      "role": "wall"
+    },
+    {
+      "node": "LobbyRight75",
+      "role": "wall"
+    },
+    {
+      "node": "LobbyRight76",
+      "role": "wall"
+    },
+    {
+      "node": "WestOuter77",
+      "role": "wall"
+    },
+    {
+      "node": "WestBack78",
+      "role": "wall"
+    },
+    {
+      "node": "WestInnerBack79",
+      "role": "wall"
+    },
+    {
+      "node": "EastOuter80",
+      "role": "wall"
+    },
+    {
+      "node": "EastBack81",
+      "role": "wall"
+    },
+    {
+      "node": "LobbyShoulderL82",
+      "role": "wall"
+    },
+    {
+      "node": "LobbyShoulderR83",
+      "role": "wall"
+    },
+    {
+      "node": "WestRooms84",
+      "role": "wall"
+    },
+    {
+      "node": "WestRooms85",
+      "role": "wall"
+    },
+    {
+      "node": "WestRooms86",
+      "role": "wall"
+    },
+    {
+      "node": "EastRooms87",
+      "role": "wall"
+    },
+    {
+      "node": "EastRooms88",
+      "role": "wall"
+    },
+    {
+      "node": "EastRooms89",
+      "role": "wall"
+    },
+    {
+      "node": "LobbyRoof",
+      "role": "roof"
+    },
+    {
+      "node": "LobbyRoofSeam90",
+      "role": "roof"
+    },
+    {
+      "node": "LobbyRoofSeam91",
+      "role": "roof"
+    },
+    {
+      "node": "LobbyRoofSeam92",
+      "role": "roof"
+    },
+    {
+      "node": "LobbyRoofSeam93",
+      "role": "roof"
+    },
+    {
+      "node": "LobbyRoofSeam94",
+      "role": "roof"
+    },
+    {
+      "node": "WestRoof",
+      "role": "roof"
+    },
+    {
+      "node": "WestRoofSeam95",
+      "role": "roof"
+    },
+    {
+      "node": "WestRoofSeam96",
+      "role": "roof"
+    },
+    {
+      "node": "WestRoofSeam97",
+      "role": "roof"
+    },
+    {
+      "node": "WestRoofSeam98",
+      "role": "roof"
+    },
+    {
+      "node": "WestRoofSeam99",
+      "role": "roof"
+    },
+    {
+      "node": "EastRoof",
+      "role": "roof"
+    },
+    {
+      "node": "EastRoofSeam100",
+      "role": "roof"
+    },
+    {
+      "node": "EastRoofSeam101",
+      "role": "roof"
+    },
+    {
+      "node": "EastRoofSeam102",
+      "role": "roof"
+    },
+    {
+      "node": "EastRoofSeam103",
+      "role": "roof"
+    },
+    {
+      "node": "ReceptionScreen104",
+      "role": "wall"
+    },
+    {
+      "node": "ReceptionDesk",
+      "role": "solid"
+    },
+    {
+      "node": "ReceptionDeskTop",
+      "role": "solid"
+    },
+    {
+      "node": "ReceptionDeskScreen",
+      "role": "solid"
+    },
+    {
+      "node": "LobbyStorage",
+      "role": "solid"
+    },
+    {
+      "node": "WestFrontDesk",
+      "role": "solid"
+    },
+    {
+      "node": "WestFrontDeskTop",
+      "role": "solid"
+    },
+    {
+      "node": "WestFrontDeskScreen",
+      "role": "solid"
+    },
+    {
+      "node": "WestFrontCabinet",
+      "role": "solid"
+    },
+    {
+      "node": "WestRearDesk",
+      "role": "solid"
+    },
+    {
+      "node": "WestRearDeskTop",
+      "role": "solid"
+    },
+    {
+      "node": "WestRearDeskScreen",
+      "role": "solid"
+    },
+    {
+      "node": "WestRearCabinet",
+      "role": "solid"
+    },
+    {
+      "node": "EastFrontDesk",
+      "role": "solid"
+    },
+    {
+      "node": "EastFrontDeskTop",
+      "role": "solid"
+    },
+    {
+      "node": "EastFrontDeskScreen",
+      "role": "solid"
+    },
+    {
+      "node": "EastFrontCabinet",
+      "role": "solid"
+    },
+    {
+      "node": "EastRearDesk",
+      "role": "solid"
+    },
+    {
+      "node": "EastRearDeskTop",
+      "role": "solid"
+    },
+    {
+      "node": "EastRearDeskScreen",
+      "role": "solid"
+    },
+    {
+      "node": "ProductionUnit121",
+      "role": "solid"
+    },
+    {
+      "node": "ProductionUnit122",
+      "role": "solid"
+    },
+    {
+      "node": "FrontCorner123",
+      "role": "wall"
+    },
+    {
+      "node": "FrontCorner124",
+      "role": "wall"
+    },
+    {
+      "node": "EntryCanopy",
+      "role": "wall"
+    },
+    {
+      "node": "EntryLabel",
+      "role": "wall"
+    },
+    {
+      "node": "WingStripe130",
+      "role": "wall"
+    },
+    {
+      "node": "RoofHVAC131",
+      "role": "roof"
+    },
+    {
+      "node": "WingStripe138",
+      "role": "wall"
+    },
+    {
+      "node": "RoofHVAC139",
+      "role": "roof"
+    },
+    {
+      "node": "RoofFilter146",
+      "role": "roof"
+    },
+    {
+      "node": "RoofFilter148",
+      "role": "roof"
+    },
+    {
+      "node": "RoofPipe",
+      "role": "roof"
+    }
+  ],
+  "walkables": [
+    "CoreFloor0",
+    "CoreFloor1",
+    "CoreFloor2",
+    "CoreFloor3",
+    "CoreFloor4",
+    "CoreFloor5",
+    "CoreFloor6",
+    "CoreFloor7",
+    "CoreFloor8",
+    "CoreFloor9",
+    "CoreFloor10",
+    "CoreFloor11",
+    "CoreFloor12",
+    "CoreFloor13",
+    "CoreFloor14",
+    "CoreFloor15",
+    "CoreFloor16",
+    "CoreFloor17",
+    "CoreFloor18",
+    "CoreFloor19",
+    "CoreFloor20",
+    "CoreFloor21",
+    "CoreFloor22",
+    "CoreFloor23",
+    "CoreFloor24",
+    "CoreFloor25",
+    "CoreFloor26",
+    "CoreFloor27",
+    "CoreFloor28",
+    "CoreFloor29",
+    "CoreFloor30",
+    "CoreFloor31",
+    "CoreFloor32",
+    "CoreFloor33",
+    "CoreFloor34",
+    "CoreFloor35",
+    "CoreFloor36",
+    "CoreFloor37",
+    "CoreFloor38",
+    "CoreFloor39",
+    "CoreFloor40",
+    "CoreFloor41",
+    "CoreFloor42",
+    "CoreFloor43",
+    "CoreFloor44",
+    "CoreFloor45",
+    "CoreFloor46",
+    "CoreFloor47",
+    "CoreFloor48",
+    "CoreFloor49",
+    "CoreFloor50",
+    "CoreFloor51",
+    "CoreFloor52",
+    "CoreFloor53",
+    "CoreFloor54",
+    "CoreFloor55",
+    "CoreFloor56",
+    "CoreFloor57",
+    "CoreFloor58",
+    "CoreFloor59",
+    "CoreFloor60",
+    "CoreFloor61",
+    "CoreFloor62",
+    "CoreFloor63",
+    "CoreFloor64",
+    "CoreFloor65",
+    "CoreFloor66",
+    "CoreFloor67",
+    "CoreFloor68",
+    "CoreFloor69",
+    "CoreFloor70",
+    "CoreFloor71",
+    "LobbyFloor",
+    "WestFloor",
+    "EastFloor"
+  ],
+  "entrances": [
+    {
+      "id": "Entrance",
+      "outer": [
+        0,
+        0,
+        24.3
+      ],
+      "inner": [
+        0,
+        0,
+        20.8
+      ],
+      "width": 3.4,
+      "height": 3.6,
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "ExploreAll",
+      "points": [
+        [
+          0,
+          0,
+          24.3
+        ],
+        [
+          0,
+          0,
+          21.3
+        ],
+        [
+          3,
+          0,
+          21.3
+        ],
+        [
+          3,
+          0,
+          18
+        ],
+        [
+          0,
+          0,
+          18
+        ],
+        [
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          5,
+          0,
+          5
+        ],
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          -3.5
+        ],
+        [
+          0,
+          0,
+          -3.5
+        ],
+        [
+          -5,
+          0,
+          -3.5
+        ],
+        [
+          -5,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          18
+        ],
+        [
+          -13.5,
+          0,
+          18
+        ],
+        [
+          -13.5,
+          0,
+          20
+        ],
+        [
+          -13.5,
+          0,
+          18
+        ],
+        [
+          -13.5,
+          0,
+          12
+        ],
+        [
+          -13.5,
+          0,
+          7.3
+        ],
+        [
+          -13.5,
+          0,
+          12
+        ],
+        [
+          -13.5,
+          0,
+          18
+        ],
+        [
+          0,
+          0,
+          18
+        ],
+        [
+          3,
+          0,
+          18
+        ],
+        [
+          3,
+          0,
+          15.5
+        ],
+        [
+          12,
+          0,
+          15.5
+        ],
+        [
+          12,
+          0,
+          14.3
+        ],
+        [
+          12,
+          0,
+          15.5
+        ],
+        [
+          12,
+          0,
+          20
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [
+    {
+      "id": "LobbySupplies",
+      "min": [
+        4.1499999999999995,
+        10.35
+      ],
+      "max": [
+        5.45,
+        11.65
+      ],
+      "surface": "LobbyFloor"
+    },
+    {
+      "id": "WestFrontSupplies",
+      "min": [
+        -18.95,
+        17.35
+      ],
+      "max": [
+        -17.650000000000002,
+        18.65
+      ],
+      "surface": "WestFloor"
+    },
+    {
+      "id": "WestRearSupplies",
+      "min": [
+        -9.15,
+        12.35
+      ],
+      "max": [
+        -7.85,
+        13.65
+      ],
+      "surface": "WestFloor"
+    },
+    {
+      "id": "EastFrontSupplies",
+      "min": [
+        14.85,
+        18.05
+      ],
+      "max": [
+        16.15,
+        19.349999999999998
+      ],
+      "surface": "EastFloor"
+    },
+    {
+      "id": "EastRearSupplies",
+      "min": [
+        7.85,
+        12.75
+      ],
+      "max": [
+        9.15,
+        14.05
+      ],
+      "surface": "EastFloor"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "CultureKeepClear",
+      "min": [
+        -2.5,
+        -2.5
+      ],
+      "max": [
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "id": "R2CorePocket",
+      "min": [
+        1.7,
+        8.479999999999999
+      ],
+      "max": [
+        5.35,
+        9.2
+      ]
+    },
+    {
+      "id": "R2WestPocket",
+      "min": [
+        -6.819999999999999,
+        12.65
+      ],
+      "max": [
+        -6.1,
+        16.3
+      ]
+    },
+    {
+      "id": "R2EastPocket",
+      "min": [
+        6.1,
+        17.2
+      ],
+      "max": [
+        6.819999999999999,
+        20.85
+      ]
+    },
+    {
+      "id": "Path1",
+      "min": [
+        -0.9,
+        20.400000000000002
+      ],
+      "max": [
+        0.9,
+        25.2
+      ]
+    },
+    {
+      "id": "Path2",
+      "min": [
+        -0.9,
+        20.400000000000002
+      ],
+      "max": [
+        3.9,
+        22.2
+      ]
+    },
+    {
+      "id": "Path3",
+      "min": [
+        2.1,
+        17.1
+      ],
+      "max": [
+        3.9,
+        22.2
+      ]
+    },
+    {
+      "id": "Path4",
+      "min": [
+        -0.9,
+        17.1
+      ],
+      "max": [
+        3.9,
+        18.9
+      ]
+    },
+    {
+      "id": "Path5",
+      "min": [
+        -0.9,
+        10.1
+      ],
+      "max": [
+        0.9,
+        18.9
+      ]
+    },
+    {
+      "id": "Path6",
+      "min": [
+        -0.9,
+        4.1
+      ],
+      "max": [
+        0.9,
+        11.9
+      ]
+    },
+    {
+      "id": "Path7",
+      "min": [
+        -0.9,
+        4.1
+      ],
+      "max": [
+        5.9,
+        5.9
+      ]
+    },
+    {
+      "id": "Path8",
+      "min": [
+        4.1,
+        -0.9
+      ],
+      "max": [
+        5.9,
+        5.9
+      ]
+    },
+    {
+      "id": "Path9",
+      "min": [
+        4.1,
+        -4.4
+      ],
+      "max": [
+        5.9,
+        0.9
+      ]
+    },
+    {
+      "id": "Path10",
+      "min": [
+        -0.9,
+        -4.4
+      ],
+      "max": [
+        5.9,
+        -2.6
+      ]
+    },
+    {
+      "id": "Path11",
+      "min": [
+        -5.9,
+        -4.4
+      ],
+      "max": [
+        0.9,
+        -2.6
+      ]
+    },
+    {
+      "id": "Path12",
+      "min": [
+        -5.9,
+        -4.4
+      ],
+      "max": [
+        -4.1,
+        3.9
+      ]
+    },
+    {
+      "id": "Path13",
+      "min": [
+        -5.9,
+        2.1
+      ],
+      "max": [
+        0.9,
+        5.9
+      ]
+    },
+    {
+      "id": "Path14",
+      "min": [
+        -0.9,
+        4.1
+      ],
+      "max": [
+        0.9,
+        11.9
+      ]
+    },
+    {
+      "id": "Path15",
+      "min": [
+        -0.9,
+        10.1
+      ],
+      "max": [
+        0.9,
+        18.9
+      ]
+    },
+    {
+      "id": "Path16",
+      "min": [
+        -14.4,
+        17.1
+      ],
+      "max": [
+        0.9,
+        18.9
+      ]
+    },
+    {
+      "id": "Path17",
+      "min": [
+        -14.4,
+        17.1
+      ],
+      "max": [
+        -12.6,
+        20.9
+      ]
+    },
+    {
+      "id": "Path18",
+      "min": [
+        -14.4,
+        17.1
+      ],
+      "max": [
+        -12.6,
+        20.9
+      ]
+    },
+    {
+      "id": "Path19",
+      "min": [
+        -14.4,
+        11.1
+      ],
+      "max": [
+        -12.6,
+        18.9
+      ]
+    },
+    {
+      "id": "Path20",
+      "min": [
+        -14.4,
+        6.3999999999999995
+      ],
+      "max": [
+        -12.6,
+        12.9
+      ]
+    },
+    {
+      "id": "Path21",
+      "min": [
+        -14.4,
+        6.3999999999999995
+      ],
+      "max": [
+        -12.6,
+        12.9
+      ]
+    },
+    {
+      "id": "Path22",
+      "min": [
+        -14.4,
+        11.1
+      ],
+      "max": [
+        -12.6,
+        18.9
+      ]
+    },
+    {
+      "id": "Path23",
+      "min": [
+        -14.4,
+        17.1
+      ],
+      "max": [
+        0.9,
+        18.9
+      ]
+    },
+    {
+      "id": "Path24",
+      "min": [
+        -0.9,
+        17.1
+      ],
+      "max": [
+        3.9,
+        18.9
+      ]
+    },
+    {
+      "id": "Path25",
+      "min": [
+        2.1,
+        14.6
+      ],
+      "max": [
+        3.9,
+        18.9
+      ]
+    },
+    {
+      "id": "Path26",
+      "min": [
+        2.1,
+        14.6
+      ],
+      "max": [
+        12.9,
+        16.4
+      ]
+    },
+    {
+      "id": "Path27",
+      "min": [
+        11.1,
+        13.4
+      ],
+      "max": [
+        12.9,
+        16.4
+      ]
+    },
+    {
+      "id": "Path28",
+      "min": [
+        11.1,
+        13.4
+      ],
+      "max": [
+        12.9,
+        16.4
+      ]
+    },
+    {
+      "id": "Path29",
+      "min": [
+        11.1,
+        14.6
+      ],
+      "max": [
+        12.9,
+        20.9
+      ]
+    }
+  ],
+  "connectors": [],
+  "doors": [
+    {
+      "id": "R2Core",
+      "asset": "FSA_ENV_Door_ResearchSlide",
+      "position": [
+        0,
+        0,
+        8.78
+      ],
+      "yaw": 0,
+      "pocket": "R2CorePocket"
+    },
+    {
+      "id": "R2West",
+      "asset": "FSA_ENV_Door_ResearchSlide",
+      "position": [
+        -6.52,
+        0,
+        18
+      ],
+      "yaw": 90,
+      "pocket": "R2WestPocket"
+    },
+    {
+      "id": "R2East",
+      "asset": "FSA_ENV_Door_ResearchSlide",
+      "position": [
+        6.52,
+        0,
+        15.5
+      ],
+      "yaw": -90,
+      "pocket": "R2EastPocket"
+    }
+  ],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Research_02_ProductionWing",
+    "type": "static",
+    "materials": {
+      "wall": {
+        "color": "#bdc6be",
+        "metalness": 0.28,
+        "roughness": 0.65
+      },
+      "steel": {
+        "color": "#557575",
+        "metalness": 0.7,
+        "roughness": 0.5
+      },
+      "dark": {
+        "color": "#263d47",
+        "metalness": 0.6,
+        "roughness": 0.6
+      },
+      "edge": {
+        "color": "#a6b7b6",
+        "metalness": 0.8,
+        "roughness": 0.4
+      },
+      "floor": {
+        "color": "#828f8d",
+        "roughness": 0.95
+      },
+      "cyan": {
+        "color": "#51cfb9",
+        "emissive": "#174b41",
+        "roughness": 0.4
+      },
+      "glass": {
+        "color": "#53d4bd",
+        "transparent": true,
+        "opacity": 0.24,
+        "metalness": 0.1,
+        "roughness": 0.15
+      },
+      "blue": {
+        "color": "#356775",
+        "metalness": 0.7,
+        "roughness": 0.25
+      },
+      "black": {
+        "color": "#162d34",
+        "roughness": 0.8
+      },
+      "yellow": {
+        "color": "#d5b967",
+        "roughness": 0.7
+      },
+      "bio": {
+        "color": "#83a57f",
+        "emissive": "#163728",
+        "roughness": 0.7
+      }
+    },
+    "parts": [
+      {
+        "id": "CoreFloor0",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.9895651857753496,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -8.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor1",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.141740950300783,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -8.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor2",
+        "shape": {
+          "type": "box",
+          "size": [
+            6.590713163232034,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -8.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor3",
+        "shape": {
+          "type": "box",
+          "size": [
+            7.741931283601011,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -8.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor4",
+        "shape": {
+          "type": "box",
+          "size": [
+            8.714212528966687,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -7.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor5",
+        "shape": {
+          "type": "box",
+          "size": [
+            9.56229574945264,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -7.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor6",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.316855140981675,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -7.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor7",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.997158723961386,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -7.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor8",
+        "shape": {
+          "type": "box",
+          "size": [
+            11.616260155488943,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -6.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor9",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.183492931011205,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -6.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor10",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.705805759573062,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -6.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor11",
+        "shape": {
+          "type": "box",
+          "size": [
+            13.188536689109979,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -6.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor12",
+        "shape": {
+          "type": "box",
+          "size": [
+            13.635890143294644,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -5.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor13",
+        "shape": {
+          "type": "box",
+          "size": [
+            14.051245496396396,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -5.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor14",
+        "shape": {
+          "type": "box",
+          "size": [
+            14.43736471798091,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -5.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor15",
+        "shape": {
+          "type": "box",
+          "size": [
+            14.79653675695769,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -5.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor16",
+        "shape": {
+          "type": "box",
+          "size": [
+            15.13068075137401,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -4.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor17",
+        "shape": {
+          "type": "box",
+          "size": [
+            15.441421566682259,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -4.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor18",
+        "shape": {
+          "type": "box",
+          "size": [
+            15.730146216739373,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -4.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor19",
+        "shape": {
+          "type": "box",
+          "size": [
+            15.998046755776157,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -4.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor20",
+        "shape": {
+          "type": "box",
+          "size": [
+            16.246153390879947,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -3.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor21",
+        "shape": {
+          "type": "box",
+          "size": [
+            16.475360390595405,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -3.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor22",
+        "shape": {
+          "type": "box",
+          "size": [
+            16.68644659596524,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -3.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor23",
+        "shape": {
+          "type": "box",
+          "size": [
+            16.880091824394796,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -3.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor24",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.056890103415686,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -2.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor25",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.217360424873494,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -2.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor26",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.361955535019664,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -2.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor27",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.491069149711805,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -2.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor28",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.605041891458253,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -1.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor29",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.704166176355216,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -1.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor30",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.788690227220215,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -1.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor31",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.858821349685986,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -1.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor32",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.91472857734663,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -0.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor33",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.956544767855537,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -0.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor34",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.984368212422698,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -0.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor35",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.99826380515632,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          -0.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor36",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.99826380515632,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          0.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor37",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.984368212422698,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          0.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor38",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.956544767855537,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          0.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor39",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.91472857734663,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          0.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor40",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.858821349685986,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          1.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor41",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.788690227220215,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          1.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor42",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.704166176355216,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          1.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor43",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.605041891458253,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          1.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor44",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.491069149711805,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          2.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor45",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.361955535019664,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          2.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor46",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.217360424873494,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          2.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor47",
+        "shape": {
+          "type": "box",
+          "size": [
+            17.056890103415686,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          2.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor48",
+        "shape": {
+          "type": "box",
+          "size": [
+            16.880091824394796,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          3.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor49",
+        "shape": {
+          "type": "box",
+          "size": [
+            16.68644659596524,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          3.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor50",
+        "shape": {
+          "type": "box",
+          "size": [
+            16.475360390595405,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          3.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor51",
+        "shape": {
+          "type": "box",
+          "size": [
+            16.246153390879947,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          3.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor52",
+        "shape": {
+          "type": "box",
+          "size": [
+            15.998046755776157,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          4.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor53",
+        "shape": {
+          "type": "box",
+          "size": [
+            15.730146216739373,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          4.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor54",
+        "shape": {
+          "type": "box",
+          "size": [
+            15.441421566682259,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          4.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor55",
+        "shape": {
+          "type": "box",
+          "size": [
+            15.13068075137401,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          4.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor56",
+        "shape": {
+          "type": "box",
+          "size": [
+            14.79653675695769,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          5.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor57",
+        "shape": {
+          "type": "box",
+          "size": [
+            14.43736471798091,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          5.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor58",
+        "shape": {
+          "type": "box",
+          "size": [
+            14.051245496396396,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          5.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor59",
+        "shape": {
+          "type": "box",
+          "size": [
+            13.635890143294644,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          5.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor60",
+        "shape": {
+          "type": "box",
+          "size": [
+            13.188536689109979,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          6.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor61",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.705805759573062,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          6.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor62",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.183492931011205,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          6.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor63",
+        "shape": {
+          "type": "box",
+          "size": [
+            11.616260155488943,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          6.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor64",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.997158723961386,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          7.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor65",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.316855140981675,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          7.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor66",
+        "shape": {
+          "type": "box",
+          "size": [
+            9.56229574945264,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          7.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor67",
+        "shape": {
+          "type": "box",
+          "size": [
+            8.714212528966687,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          7.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor68",
+        "shape": {
+          "type": "box",
+          "size": [
+            7.741931283601011,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          8.125
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor69",
+        "shape": {
+          "type": "box",
+          "size": [
+            6.590713163232034,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          8.375
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor70",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.141740950300783,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          8.625
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreFloor71",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.9895651857753496,
+            0.18,
+            0.25
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          8.875
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "CoreWall2",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          4.499999999999999,
+          5.9,
+          7.794228634059948
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          30,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand0",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall2"
+      },
+      {
+        "id": "CoreBand1",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall2"
+      },
+      {
+        "id": "CoreBand2",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall2"
+      },
+      {
+        "id": "CoreRib2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall2"
+      },
+      {
+        "id": "HighWindowFrame2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall2"
+      },
+      {
+        "id": "HighWindow2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall2"
+      },
+      {
+        "id": "CoreWall3",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          6.363961030678928,
+          5.9,
+          6.3639610306789285
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          45,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand3",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall3"
+      },
+      {
+        "id": "CoreBand4",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall3"
+      },
+      {
+        "id": "CoreBand5",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall3"
+      },
+      {
+        "id": "CoreRib3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall3"
+      },
+      {
+        "id": "CoreWall4",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          7.794228634059947,
+          5.9,
+          4.500000000000001
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          60,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand6",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall4"
+      },
+      {
+        "id": "CoreBand7",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall4"
+      },
+      {
+        "id": "CoreBand8",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall4"
+      },
+      {
+        "id": "CoreRib4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall4"
+      },
+      {
+        "id": "HighWindowFrame4",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall4"
+      },
+      {
+        "id": "HighWindow4",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall4"
+      },
+      {
+        "id": "CoreWall5",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          8.693332436601615,
+          5.9,
+          2.3293714059226867
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          75,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand9",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall5"
+      },
+      {
+        "id": "CoreBand10",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall5"
+      },
+      {
+        "id": "CoreBand11",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall5"
+      },
+      {
+        "id": "CoreRib5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall5"
+      },
+      {
+        "id": "CoreWall6",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          9,
+          5.9,
+          5.51091059616309e-16
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          90,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand12",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall6"
+      },
+      {
+        "id": "CoreBand13",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall6"
+      },
+      {
+        "id": "CoreBand14",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall6"
+      },
+      {
+        "id": "CoreRib6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall6"
+      },
+      {
+        "id": "HighWindowFrame6",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall6"
+      },
+      {
+        "id": "HighWindow6",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall6"
+      },
+      {
+        "id": "CoreWall7",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          8.693332436601615,
+          5.9,
+          -2.3293714059226875
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          105,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand15",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall7"
+      },
+      {
+        "id": "CoreBand16",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall7"
+      },
+      {
+        "id": "CoreBand17",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall7"
+      },
+      {
+        "id": "CoreRib7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall7"
+      },
+      {
+        "id": "CoreWall8",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          7.794228634059948,
+          5.9,
+          -4.499999999999998
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          120,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand18",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall8"
+      },
+      {
+        "id": "CoreBand19",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall8"
+      },
+      {
+        "id": "CoreBand20",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall8"
+      },
+      {
+        "id": "CoreRib8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall8"
+      },
+      {
+        "id": "HighWindowFrame8",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall8"
+      },
+      {
+        "id": "HighWindow8",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall8"
+      },
+      {
+        "id": "CoreWall9",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          6.3639610306789285,
+          5.9,
+          -6.363961030678928
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          135,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand21",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall9"
+      },
+      {
+        "id": "CoreBand22",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall9"
+      },
+      {
+        "id": "CoreBand23",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall9"
+      },
+      {
+        "id": "CoreRib9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall9"
+      },
+      {
+        "id": "CoreWall10",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          4.499999999999999,
+          5.9,
+          -7.794228634059948
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          150,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand24",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall10"
+      },
+      {
+        "id": "CoreBand25",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall10"
+      },
+      {
+        "id": "CoreBand26",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall10"
+      },
+      {
+        "id": "CoreRib10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall10"
+      },
+      {
+        "id": "HighWindowFrame10",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall10"
+      },
+      {
+        "id": "HighWindow10",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall10"
+      },
+      {
+        "id": "CoreWall11",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          2.3293714059226893,
+          5.9,
+          -8.693332436601613
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          165,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand27",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall11"
+      },
+      {
+        "id": "CoreBand28",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall11"
+      },
+      {
+        "id": "CoreBand29",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall11"
+      },
+      {
+        "id": "CoreRib11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall11"
+      },
+      {
+        "id": "CoreWall12",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          1.102182119232618e-15,
+          5.9,
+          -9
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          180,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand30",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall12"
+      },
+      {
+        "id": "CoreBand31",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall12"
+      },
+      {
+        "id": "CoreBand32",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall12"
+      },
+      {
+        "id": "CoreRib12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall12"
+      },
+      {
+        "id": "HighWindowFrame12",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall12"
+      },
+      {
+        "id": "HighWindow12",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall12"
+      },
+      {
+        "id": "CoreWall13",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          -2.329371405922683,
+          5.9,
+          -8.693332436601615
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          195,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand33",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall13"
+      },
+      {
+        "id": "CoreBand34",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall13"
+      },
+      {
+        "id": "CoreBand35",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall13"
+      },
+      {
+        "id": "CoreRib13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall13"
+      },
+      {
+        "id": "CoreWall14",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          -4.500000000000001,
+          5.9,
+          -7.794228634059947
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          210,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand36",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall14"
+      },
+      {
+        "id": "CoreBand37",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall14"
+      },
+      {
+        "id": "CoreBand38",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall14"
+      },
+      {
+        "id": "CoreRib14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall14"
+      },
+      {
+        "id": "HighWindowFrame14",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall14"
+      },
+      {
+        "id": "HighWindow14",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall14"
+      },
+      {
+        "id": "CoreWall15",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          -6.363961030678928,
+          5.9,
+          -6.363961030678929
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          225,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand39",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall15"
+      },
+      {
+        "id": "CoreBand40",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall15"
+      },
+      {
+        "id": "CoreBand41",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall15"
+      },
+      {
+        "id": "CoreRib15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall15"
+      },
+      {
+        "id": "CoreWall16",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          -7.794228634059946,
+          5.9,
+          -4.5000000000000036
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          240,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand42",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall16"
+      },
+      {
+        "id": "CoreBand43",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall16"
+      },
+      {
+        "id": "CoreBand44",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall16"
+      },
+      {
+        "id": "CoreRib16",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall16"
+      },
+      {
+        "id": "HighWindowFrame16",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall16"
+      },
+      {
+        "id": "HighWindow16",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall16"
+      },
+      {
+        "id": "CoreWall17",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          -8.693332436601615,
+          5.9,
+          -2.3293714059226858
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          255,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand45",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall17"
+      },
+      {
+        "id": "CoreBand46",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall17"
+      },
+      {
+        "id": "CoreBand47",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall17"
+      },
+      {
+        "id": "CoreRib17",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall17"
+      },
+      {
+        "id": "CoreWall18",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          -9,
+          5.9,
+          -1.6532731788489267e-15
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          270,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand48",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall18"
+      },
+      {
+        "id": "CoreBand49",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall18"
+      },
+      {
+        "id": "CoreBand50",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall18"
+      },
+      {
+        "id": "CoreRib18",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall18"
+      },
+      {
+        "id": "HighWindowFrame18",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall18"
+      },
+      {
+        "id": "HighWindow18",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall18"
+      },
+      {
+        "id": "CoreWall19",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          -8.693332436601613,
+          5.9,
+          2.32937140592269
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          285,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand51",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall19"
+      },
+      {
+        "id": "CoreBand52",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall19"
+      },
+      {
+        "id": "CoreBand53",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall19"
+      },
+      {
+        "id": "CoreRib19",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall19"
+      },
+      {
+        "id": "CoreWall20",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          -7.794228634059947,
+          5.9,
+          4.500000000000001
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          300,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand54",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall20"
+      },
+      {
+        "id": "CoreBand55",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall20"
+      },
+      {
+        "id": "CoreBand56",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall20"
+      },
+      {
+        "id": "CoreRib20",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall20"
+      },
+      {
+        "id": "HighWindowFrame20",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall20"
+      },
+      {
+        "id": "HighWindow20",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall20"
+      },
+      {
+        "id": "CoreWall21",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          -6.363961030678929,
+          5.9,
+          6.363961030678926
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          315,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand57",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall21"
+      },
+      {
+        "id": "CoreBand58",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall21"
+      },
+      {
+        "id": "CoreBand59",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall21"
+      },
+      {
+        "id": "CoreRib21",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall21"
+      },
+      {
+        "id": "CoreWall22",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4,
+            11.8,
+            0.4
+          ]
+        },
+        "position": [
+          -4.5000000000000036,
+          5.9,
+          7.794228634059945
+        ],
+        "material": "wall",
+        "rotation": [
+          0,
+          330,
+          0
+        ]
+      },
+      {
+        "id": "CoreBand60",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          -4.800000000000001,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall22"
+      },
+      {
+        "id": "CoreBand61",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          2.799999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall22"
+      },
+      {
+        "id": "CoreBand62",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.42,
+            0.22,
+            0.12
+          ]
+        },
+        "position": [
+          0,
+          5.549999999999999,
+          0.28
+        ],
+        "material": "steel",
+        "parent": "CoreWall22"
+      },
+      {
+        "id": "CoreRib22",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            11.5,
+            0.22
+          ]
+        },
+        "position": [
+          1.12,
+          0,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall22"
+      },
+      {
+        "id": "HighWindowFrame22",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            1.5,
+            0.1
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.29
+        ],
+        "material": "dark",
+        "parent": "CoreWall22"
+      },
+      {
+        "id": "HighWindow22",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.55,
+            1.22,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          0.37
+        ],
+        "material": "blue",
+        "parent": "CoreWall22"
+      },
+      {
+        "id": "CorePortal63",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9000000000000001,
+            11.8,
+            0.36
+          ]
+        },
+        "position": [
+          -2.65,
+          5.9,
+          8.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "CorePortal64",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.9000000000000001,
+            11.8,
+            0.36
+          ]
+        },
+        "position": [
+          2.65,
+          5.9,
+          8.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "CorePortal65",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4,
+            8.200000000000001,
+            0.36
+          ]
+        },
+        "position": [
+          0,
+          7.7,
+          8.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "CoreRoofAnchor",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.22,
+            0.5
+          ]
+        },
+        "position": [
+          0,
+          11.98,
+          0
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "CoreRoofDisk",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 9.35,
+          "radiusBottom": 9.35,
+          "height": 0.3
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "material": "steel",
+        "parent": "CoreRoofAnchor"
+      },
+      {
+        "id": "CoreRoofCrown",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 6.8,
+          "radiusBottom": 6.8,
+          "height": 0.6
+        },
+        "position": [
+          0,
+          0.45,
+          0
+        ],
+        "material": "dark",
+        "parent": "CoreRoofAnchor"
+      },
+      {
+        "id": "CoreRoofTop",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 6.45,
+          "radiusBottom": 6.45,
+          "height": 0.2
+        },
+        "position": [
+          0,
+          0.82,
+          0
+        ],
+        "material": "edge",
+        "parent": "CoreRoofAnchor"
+      },
+      {
+        "id": "RoofRib0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.25,
+            8.8
+          ]
+        },
+        "position": [
+          0,
+          0.28,
+          4.4
+        ],
+        "material": "edge",
+        "parent": "CoreRoofAnchor",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "RoofRib1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.25,
+            8.8
+          ]
+        },
+        "position": [
+          3.111269837220809,
+          0.28,
+          3.1112698372208096
+        ],
+        "material": "edge",
+        "parent": "CoreRoofAnchor",
+        "rotation": [
+          0,
+          45,
+          0
+        ]
+      },
+      {
+        "id": "RoofRib2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.25,
+            8.8
+          ]
+        },
+        "position": [
+          4.4,
+          0.28,
+          2.6942229581241775e-16
+        ],
+        "material": "edge",
+        "parent": "CoreRoofAnchor",
+        "rotation": [
+          0,
+          90,
+          0
+        ]
+      },
+      {
+        "id": "RoofRib3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.25,
+            8.8
+          ]
+        },
+        "position": [
+          3.1112698372208096,
+          0.28,
+          -3.111269837220809
+        ],
+        "material": "edge",
+        "parent": "CoreRoofAnchor",
+        "rotation": [
+          0,
+          135,
+          0
+        ]
+      },
+      {
+        "id": "RoofRib4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.25,
+            8.8
+          ]
+        },
+        "position": [
+          5.388445916248355e-16,
+          0.28,
+          -4.4
+        ],
+        "material": "edge",
+        "parent": "CoreRoofAnchor",
+        "rotation": [
+          0,
+          180,
+          0
+        ]
+      },
+      {
+        "id": "RoofRib5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.25,
+            8.8
+          ]
+        },
+        "position": [
+          -3.111269837220809,
+          0.28,
+          -3.11126983722081
+        ],
+        "material": "edge",
+        "parent": "CoreRoofAnchor",
+        "rotation": [
+          0,
+          225,
+          0
+        ]
+      },
+      {
+        "id": "RoofRib6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.25,
+            8.8
+          ]
+        },
+        "position": [
+          -4.4,
+          0.28,
+          -8.082668874372531e-16
+        ],
+        "material": "edge",
+        "parent": "CoreRoofAnchor",
+        "rotation": [
+          0,
+          270,
+          0
+        ]
+      },
+      {
+        "id": "RoofRib7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.25,
+            8.8
+          ]
+        },
+        "position": [
+          -3.11126983722081,
+          0.28,
+          3.1112698372208087
+        ],
+        "material": "edge",
+        "parent": "CoreRoofAnchor",
+        "rotation": [
+          0,
+          315,
+          0
+        ]
+      },
+      {
+        "id": "CulturePlinth",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.7,
+            0.65,
+            4.7
+          ]
+        },
+        "position": [
+          0,
+          0.325,
+          0
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "CultureBase",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 2.25,
+          "radiusBottom": 2.25,
+          "height": 0.55
+        },
+        "position": [
+          0,
+          0.88,
+          0
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "CultureBaseGlow",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 2.13,
+          "radiusBottom": 2.13,
+          "height": 0.16
+        },
+        "position": [
+          0,
+          1.24,
+          0
+        ],
+        "material": "cyan"
+      },
+      {
+        "id": "CultureServiceSpine",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            8.5,
+            0.24
+          ]
+        },
+        "position": [
+          0,
+          5.15,
+          0
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "CultureGlass0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          5.05,
+          2.04
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          0.7806742020247832,
+          5.05,
+          1.884714246323025
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          22.5,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          1.442497833620557,
+          5.05,
+          1.4424978336205572
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          45,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          1.884714246323025,
+          5.05,
+          0.7806742020247833
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          67.5,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          2.04,
+          5.05,
+          1.2491397351303002e-16
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          90,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          1.884714246323025,
+          5.05,
+          -0.7806742020247831
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          112.5,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          1.4424978336205572,
+          5.05,
+          -1.442497833620557
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          135,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          0.7806742020247834,
+          5.05,
+          -1.884714246323025
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          157.5,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          2.4982794702606004e-16,
+          5.05,
+          -2.04
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          180,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          -0.780674202024783,
+          5.05,
+          -1.8847142463230253
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          202.5,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          -1.442497833620557,
+          5.05,
+          -1.4424978336205574
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          225,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          -1.8847142463230244,
+          5.05,
+          -0.7806742020247843
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          247.5,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          -2.04,
+          5.05,
+          -3.7474192053909004e-16
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          270,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          -1.8847142463230246,
+          5.05,
+          0.7806742020247837
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          292.5,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          -1.4424978336205574,
+          5.05,
+          1.4424978336205567
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          315,
+          0
+        ]
+      },
+      {
+        "id": "CultureGlass15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.81,
+            7.3,
+            0.06
+          ]
+        },
+        "position": [
+          -0.7806742020247844,
+          5.05,
+          1.8847142463230244
+        ],
+        "material": "glass",
+        "rotation": [
+          0,
+          337.5,
+          0
+        ]
+      },
+      {
+        "id": "CultureTop",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 2.25,
+          "radiusBottom": 2.25,
+          "height": 0.65
+        },
+        "position": [
+          0,
+          9.05,
+          0
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "CultureTopGlow",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 2.1,
+          "radiusBottom": 2.1,
+          "height": 0.15
+        },
+        "position": [
+          0,
+          8.65,
+          0
+        ],
+        "material": "cyan"
+      },
+      {
+        "id": "CulturePillar0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            8.4,
+            0.28
+          ]
+        },
+        "position": [
+          1.4566399692442877,
+          5.1,
+          1.456639969244288
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "CulturePillar1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            8.4,
+            0.28
+          ]
+        },
+        "position": [
+          1.456639969244288,
+          5.1,
+          -1.4566399692442877
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "CulturePillar2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            8.4,
+            0.28
+          ]
+        },
+        "position": [
+          -1.4566399692442877,
+          5.1,
+          -1.4566399692442882
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "CulturePillar3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            8.4,
+            0.28
+          ]
+        },
+        "position": [
+          -1.4566399692442882,
+          5.1,
+          1.4566399692442875
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "Specimen0",
+        "shape": {
+          "type": "capsule",
+          "radius": 0.46,
+          "length": 3.2
+        },
+        "position": [
+          0,
+          5.1,
+          0.95
+        ],
+        "material": "bio"
+      },
+      {
+        "id": "SpecimenFeed0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            2.4,
+            0.08
+          ]
+        },
+        "position": [
+          0,
+          7.8,
+          0.95
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Specimen1",
+        "shape": {
+          "type": "capsule",
+          "radius": 0.46,
+          "length": 3.2
+        },
+        "position": [
+          0.95,
+          5.1,
+          5.817072295949927e-17
+        ],
+        "material": "bio"
+      },
+      {
+        "id": "SpecimenFeed1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            2.4,
+            0.08
+          ]
+        },
+        "position": [
+          0.95,
+          7.8,
+          5.817072295949927e-17
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Specimen2",
+        "shape": {
+          "type": "capsule",
+          "radius": 0.46,
+          "length": 3.2
+        },
+        "position": [
+          1.1634144591899854e-16,
+          5.1,
+          -0.95
+        ],
+        "material": "bio"
+      },
+      {
+        "id": "SpecimenFeed2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            2.4,
+            0.08
+          ]
+        },
+        "position": [
+          1.1634144591899854e-16,
+          7.8,
+          -0.95
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Specimen3",
+        "shape": {
+          "type": "capsule",
+          "radius": 0.46,
+          "length": 3.2
+        },
+        "position": [
+          -0.95,
+          5.1,
+          -1.745121688784978e-16
+        ],
+        "material": "bio"
+      },
+      {
+        "id": "SpecimenFeed3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            2.4,
+            0.08
+          ]
+        },
+        "position": [
+          -0.95,
+          7.8,
+          -1.745121688784978e-16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "CultureFeed",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 0.32,
+          "radiusBottom": 0.32,
+          "height": 0.95
+        },
+        "position": [
+          0,
+          9.83,
+          0
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "CoreConsole66",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.8,
+            0.9,
+            1.2
+          ]
+        },
+        "position": [
+          -3.7,
+          0.45,
+          -6.2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "CoreConsole66Top",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.95,
+            0.12,
+            1.35
+          ]
+        },
+        "position": [
+          -3.7,
+          0.96,
+          -6.2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "CoreConsole66Screen",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.65,
+            0.12
+          ]
+        },
+        "position": [
+          -3.7,
+          1.42,
+          -6.6000000000000005
+        ],
+        "material": "blue"
+      },
+      {
+        "id": "CoreConsole66Stand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.35,
+            0.12
+          ]
+        },
+        "position": [
+          -3.7,
+          1.1,
+          -6.6000000000000005
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "CoreConsole67",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.8,
+            0.9,
+            1.2
+          ]
+        },
+        "position": [
+          3.7,
+          0.45,
+          -6.2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "CoreConsole67Top",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.95,
+            0.12,
+            1.35
+          ]
+        },
+        "position": [
+          3.7,
+          0.96,
+          -6.2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "CoreConsole67Screen",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.65,
+            0.12
+          ]
+        },
+        "position": [
+          3.7,
+          1.42,
+          -6.6000000000000005
+        ],
+        "material": "blue"
+      },
+      {
+        "id": "CoreConsole67Stand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.35,
+            0.12
+          ]
+        },
+        "position": [
+          3.7,
+          1.1,
+          -6.6000000000000005
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "LobbyFloor",
+        "shape": {
+          "type": "box",
+          "size": [
+            14,
+            0.18,
+            14
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          15.3
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "WestFloor",
+        "shape": {
+          "type": "box",
+          "size": [
+            13,
+            0.18,
+            18
+          ]
+        },
+        "position": [
+          -13.5,
+          -0.09,
+          13.3
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "EastFloor",
+        "shape": {
+          "type": "box",
+          "size": [
+            10,
+            0.18,
+            10
+          ]
+        },
+        "position": [
+          12,
+          -0.09,
+          17.3
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "Front68",
+        "shape": {
+          "type": "box",
+          "size": [
+            18.3,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          -10.85,
+          2.4,
+          22.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Front69",
+        "shape": {
+          "type": "box",
+          "size": [
+            15.3,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          9.35,
+          2.4,
+          22.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "Front70",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4,
+            1.1999999999999997,
+            0.36
+          ]
+        },
+        "position": [
+          0,
+          4.2,
+          22.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyLeft71",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.36,
+            4.8,
+            8
+          ]
+        },
+        "position": [
+          -7,
+          2.4,
+          12.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyLeft72",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.36,
+            4.8,
+            2.6000000000000014
+          ]
+        },
+        "position": [
+          -7,
+          2.4,
+          21
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyLeft73",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.36,
+            1.1999999999999997,
+            3.3999999999999986
+          ]
+        },
+        "position": [
+          -7,
+          4.2,
+          18
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyRight74",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.36,
+            4.8,
+            5.5
+          ]
+        },
+        "position": [
+          7,
+          2.4,
+          11.05
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyRight75",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.36,
+            4.8,
+            5.100000000000001
+          ]
+        },
+        "position": [
+          7,
+          2.4,
+          19.75
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyRight76",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.36,
+            1.1999999999999997,
+            3.3999999999999986
+          ]
+        },
+        "position": [
+          7,
+          4.2,
+          15.5
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "WestOuter77",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.36,
+            4.8,
+            18
+          ]
+        },
+        "position": [
+          -20,
+          2.4,
+          13.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "WestBack78",
+        "shape": {
+          "type": "box",
+          "size": [
+            13,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          -13.5,
+          2.4,
+          4.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "WestInnerBack79",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.36,
+            4.8,
+            4.000000000000001
+          ]
+        },
+        "position": [
+          -7,
+          2.4,
+          6.300000000000001
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "EastOuter80",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.36,
+            4.8,
+            10
+          ]
+        },
+        "position": [
+          17,
+          2.4,
+          17.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "EastBack81",
+        "shape": {
+          "type": "box",
+          "size": [
+            10,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          12,
+          2.4,
+          12.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyShoulderL82",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          -5.3,
+          2.4,
+          8.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyShoulderR83",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          5.3,
+          2.4,
+          8.3
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "WestRooms84",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.25,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          -17.375,
+          2.4,
+          16
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "WestRooms85",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.25,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          -9.625,
+          2.4,
+          16
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "WestRooms86",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.5,
+            1.7999999999999998,
+            0.36
+          ]
+        },
+        "position": [
+          -13.5,
+          3.9,
+          16
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "EastRooms87",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.75,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          8.875,
+          2.4,
+          17
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "EastRooms88",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.75,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          15.125,
+          2.4,
+          17
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "EastRooms89",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.5,
+            1.7999999999999998,
+            0.36
+          ]
+        },
+        "position": [
+          12,
+          3.9,
+          17
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyRoof",
+        "shape": {
+          "type": "box",
+          "size": [
+            14.4,
+            0.22,
+            14.2
+          ]
+        },
+        "position": [
+          0,
+          4.96,
+          15.4
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "LobbyRoofSeam90",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            14.2
+          ]
+        },
+        "position": [
+          -6.2,
+          5.12,
+          15.4
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "LobbyRoofSeam91",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            14.2
+          ]
+        },
+        "position": [
+          -3.2,
+          5.12,
+          15.4
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "LobbyRoofSeam92",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            14.2
+          ]
+        },
+        "position": [
+          -0.20000000000000018,
+          5.12,
+          15.4
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "LobbyRoofSeam93",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            14.2
+          ]
+        },
+        "position": [
+          2.8,
+          5.12,
+          15.4
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "LobbyRoofSeam94",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            14.2
+          ]
+        },
+        "position": [
+          5.8,
+          5.12,
+          15.4
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRoof",
+        "shape": {
+          "type": "box",
+          "size": [
+            13.149999999999999,
+            0.22,
+            18.4
+          ]
+        },
+        "position": [
+          -13.625,
+          4.96,
+          13.3
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestRoofSeam95",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            18.4
+          ]
+        },
+        "position": [
+          -19.2,
+          5.12,
+          13.3
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRoofSeam96",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            18.4
+          ]
+        },
+        "position": [
+          -16.2,
+          5.12,
+          13.3
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRoofSeam97",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            18.4
+          ]
+        },
+        "position": [
+          -13.2,
+          5.12,
+          13.3
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRoofSeam98",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            18.4
+          ]
+        },
+        "position": [
+          -10.2,
+          5.12,
+          13.3
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRoofSeam99",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            18.4
+          ]
+        },
+        "position": [
+          -7.199999999999999,
+          5.12,
+          13.3
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRoof",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.149999999999999,
+            0.22,
+            10.399999999999999
+          ]
+        },
+        "position": [
+          12.125,
+          4.96,
+          17.3
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EastRoofSeam100",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            10.399999999999999
+          ]
+        },
+        "position": [
+          8.05,
+          5.12,
+          17.3
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRoofSeam101",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            10.399999999999999
+          ]
+        },
+        "position": [
+          11.05,
+          5.12,
+          17.3
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRoofSeam102",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            10.399999999999999
+          ]
+        },
+        "position": [
+          14.05,
+          5.12,
+          17.3
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRoofSeam103",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.1,
+            10.399999999999999
+          ]
+        },
+        "position": [
+          17.05,
+          5.12,
+          17.3
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ReceptionScreen104",
+        "shape": {
+          "type": "box",
+          "size": [
+            5,
+            4.8,
+            0.36
+          ]
+        },
+        "position": [
+          -1.5,
+          2.4,
+          19.4
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "ReceptionDesk",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.8,
+            0.9,
+            1.2
+          ]
+        },
+        "position": [
+          -4.5,
+          0.45,
+          21
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ReceptionDeskTop",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.95,
+            0.12,
+            1.35
+          ]
+        },
+        "position": [
+          -4.5,
+          0.96,
+          21
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ReceptionDeskScreen",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.65,
+            0.12
+          ]
+        },
+        "position": [
+          -4.5,
+          1.42,
+          20.6
+        ],
+        "material": "blue"
+      },
+      {
+        "id": "ReceptionDeskStand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.35,
+            0.12
+          ]
+        },
+        "position": [
+          -4.5,
+          1.1,
+          20.6
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "LobbyStorage",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            2.7,
+            0.8
+          ]
+        },
+        "position": [
+          5.8,
+          1.35,
+          21.3
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "LobbyStorageDoor105",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            2.4,
+            0.05
+          ]
+        },
+        "position": [
+          5.37,
+          1.35,
+          21.73
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyStorageHandle106",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            0.35,
+            0.08
+          ]
+        },
+        "position": [
+          5.57,
+          1.4,
+          21.78
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "LobbyStorageDoor107",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            2.4,
+            0.05
+          ]
+        },
+        "position": [
+          6.2299999999999995,
+          1.35,
+          21.73
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "LobbyStorageHandle108",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            0.35,
+            0.08
+          ]
+        },
+        "position": [
+          6.43,
+          1.4,
+          21.78
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestFrontDesk",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.8,
+            0.9,
+            1.2
+          ]
+        },
+        "position": [
+          -17.7,
+          0.45,
+          20.8
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestFrontDeskTop",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.95,
+            0.12,
+            1.35
+          ]
+        },
+        "position": [
+          -17.7,
+          0.96,
+          20.8
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestFrontDeskScreen",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.65,
+            0.12
+          ]
+        },
+        "position": [
+          -17.7,
+          1.42,
+          20.400000000000002
+        ],
+        "material": "blue"
+      },
+      {
+        "id": "WestFrontDeskStand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.35,
+            0.12
+          ]
+        },
+        "position": [
+          -17.7,
+          1.1,
+          20.400000000000002
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestFrontCabinet",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            2.7,
+            0.8
+          ]
+        },
+        "position": [
+          -8.2,
+          1.35,
+          21.5
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestFrontCabinetDoor109",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            2.4,
+            0.05
+          ]
+        },
+        "position": [
+          -8.629999999999999,
+          1.35,
+          21.93
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "WestFrontCabinetHandle110",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            0.35,
+            0.08
+          ]
+        },
+        "position": [
+          -8.43,
+          1.4,
+          21.98
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestFrontCabinetDoor111",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            2.4,
+            0.05
+          ]
+        },
+        "position": [
+          -7.77,
+          1.35,
+          21.93
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "WestFrontCabinetHandle112",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            0.35,
+            0.08
+          ]
+        },
+        "position": [
+          -7.569999999999999,
+          1.4,
+          21.98
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestRearDesk",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.8,
+            0.9,
+            1.2
+          ]
+        },
+        "position": [
+          -17.7,
+          0.45,
+          5.8
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRearDeskTop",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.95,
+            0.12,
+            1.35
+          ]
+        },
+        "position": [
+          -17.7,
+          0.96,
+          5.8
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestRearDeskScreen",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.65,
+            0.12
+          ]
+        },
+        "position": [
+          -17.7,
+          1.42,
+          5.3999999999999995
+        ],
+        "material": "blue"
+      },
+      {
+        "id": "WestRearDeskStand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.35,
+            0.12
+          ]
+        },
+        "position": [
+          -17.7,
+          1.1,
+          5.3999999999999995
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestRearCabinet",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            2.7,
+            0.8
+          ]
+        },
+        "position": [
+          -8.2,
+          1.35,
+          5.3
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestRearCabinetDoor113",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            2.4,
+            0.05
+          ]
+        },
+        "position": [
+          -8.629999999999999,
+          1.35,
+          5.7299999999999995
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "WestRearCabinetHandle114",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            0.35,
+            0.08
+          ]
+        },
+        "position": [
+          -8.43,
+          1.4,
+          5.779999999999999
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestRearCabinetDoor115",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            2.4,
+            0.05
+          ]
+        },
+        "position": [
+          -7.77,
+          1.35,
+          5.7299999999999995
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "WestRearCabinetHandle116",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            0.35,
+            0.08
+          ]
+        },
+        "position": [
+          -7.569999999999999,
+          1.4,
+          5.779999999999999
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastFrontDesk",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.8,
+            0.9,
+            1.2
+          ]
+        },
+        "position": [
+          15,
+          0.45,
+          20.9
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastFrontDeskTop",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.95,
+            0.12,
+            1.35
+          ]
+        },
+        "position": [
+          15,
+          0.96,
+          20.9
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastFrontDeskScreen",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.65,
+            0.12
+          ]
+        },
+        "position": [
+          15,
+          1.42,
+          20.5
+        ],
+        "material": "blue"
+      },
+      {
+        "id": "EastFrontDeskStand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.35,
+            0.12
+          ]
+        },
+        "position": [
+          15,
+          1.1,
+          20.5
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EastFrontCabinet",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            2.7,
+            0.8
+          ]
+        },
+        "position": [
+          8.3,
+          1.35,
+          21.5
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EastFrontCabinetDoor117",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            2.4,
+            0.05
+          ]
+        },
+        "position": [
+          7.870000000000001,
+          1.35,
+          21.93
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "EastFrontCabinetHandle118",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            0.35,
+            0.08
+          ]
+        },
+        "position": [
+          8.07,
+          1.4,
+          21.98
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastFrontCabinetDoor119",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            2.4,
+            0.05
+          ]
+        },
+        "position": [
+          8.73,
+          1.35,
+          21.93
+        ],
+        "material": "wall"
+      },
+      {
+        "id": "EastFrontCabinetHandle120",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            0.35,
+            0.08
+          ]
+        },
+        "position": [
+          8.93,
+          1.4,
+          21.98
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastRearDesk",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.8,
+            0.9,
+            1.2
+          ]
+        },
+        "position": [
+          15,
+          0.45,
+          13.5
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRearDeskTop",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.95,
+            0.12,
+            1.35
+          ]
+        },
+        "position": [
+          15,
+          0.96,
+          13.5
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastRearDeskScreen",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.9,
+            0.65,
+            0.12
+          ]
+        },
+        "position": [
+          15,
+          1.42,
+          13.1
+        ],
+        "material": "blue"
+      },
+      {
+        "id": "EastRearDeskStand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.35,
+            0.12
+          ]
+        },
+        "position": [
+          15,
+          1.1,
+          13.1
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "ProductionUnit121",
+        "shape": {
+          "type": "box",
+          "size": [
+            2,
+            1.8,
+            1.8
+          ]
+        },
+        "position": [
+          -18,
+          0.9,
+          7
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "ProductionUnit122",
+        "shape": {
+          "type": "box",
+          "size": [
+            2,
+            1.8,
+            1.8
+          ]
+        },
+        "position": [
+          -18,
+          0.9,
+          10
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "FrontCorner123",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6,
+            4.8,
+            0.22
+          ]
+        },
+        "position": [
+          -19.5,
+          2.4,
+          22.6
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "FrontCorner124",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6,
+            4.8,
+            0.22
+          ]
+        },
+        "position": [
+          16.5,
+          2.4,
+          22.6
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EntryCanopy",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            0.2,
+            1.5
+          ]
+        },
+        "position": [
+          0,
+          3.95,
+          23
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EntryLabel",
+        "shape": {
+          "type": "box",
+          "size": [
+            5,
+            0.65,
+            0.15
+          ]
+        },
+        "position": [
+          0,
+          4.65,
+          22.58
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EntryMark125",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.45,
+            0.12,
+            0.06
+          ]
+        },
+        "position": [
+          -1.6,
+          4.65,
+          22.69
+        ],
+        "material": "cyan"
+      },
+      {
+        "id": "EntryMark126",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.45,
+            0.12,
+            0.06
+          ]
+        },
+        "position": [
+          -0.8,
+          4.65,
+          22.69
+        ],
+        "material": "cyan"
+      },
+      {
+        "id": "EntryMark127",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.45,
+            0.12,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          4.65,
+          22.69
+        ],
+        "material": "cyan"
+      },
+      {
+        "id": "EntryMark128",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.45,
+            0.12,
+            0.06
+          ]
+        },
+        "position": [
+          0.8,
+          4.65,
+          22.69
+        ],
+        "material": "cyan"
+      },
+      {
+        "id": "EntryMark129",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.45,
+            0.12,
+            0.06
+          ]
+        },
+        "position": [
+          1.6,
+          4.65,
+          22.69
+        ],
+        "material": "cyan"
+      },
+      {
+        "id": "WingStripe130",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.25,
+            0.1
+          ]
+        },
+        "position": [
+          -13.5,
+          3.4,
+          22.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RoofHVAC131",
+        "shape": {
+          "type": "box",
+          "size": [
+            3,
+            1.2,
+            2.4
+          ]
+        },
+        "position": [
+          -13.5,
+          5.68,
+          19.4
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "Vent132",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          -1.1,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC131"
+      },
+      {
+        "id": "Vent133",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          -0.6600000000000001,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC131"
+      },
+      {
+        "id": "Vent134",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          -0.22000000000000008,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC131"
+      },
+      {
+        "id": "Vent135",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          0.21999999999999997,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC131"
+      },
+      {
+        "id": "Vent136",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          0.6599999999999999,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC131"
+      },
+      {
+        "id": "Vent137",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          1.1,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC131"
+      },
+      {
+        "id": "WingStripe138",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.25,
+            0.1
+          ]
+        },
+        "position": [
+          12,
+          3.4,
+          22.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RoofHVAC139",
+        "shape": {
+          "type": "box",
+          "size": [
+            3,
+            1.2,
+            2.4
+          ]
+        },
+        "position": [
+          12,
+          5.68,
+          19.4
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "Vent140",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          -1.1,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC139"
+      },
+      {
+        "id": "Vent141",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          -0.6600000000000001,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC139"
+      },
+      {
+        "id": "Vent142",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          -0.22000000000000008,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC139"
+      },
+      {
+        "id": "Vent143",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          0.21999999999999997,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC139"
+      },
+      {
+        "id": "Vent144",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          0.6599999999999999,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC139"
+      },
+      {
+        "id": "Vent145",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            0.75,
+            0.08
+          ]
+        },
+        "position": [
+          1.1,
+          0,
+          1.25
+        ],
+        "material": "dark",
+        "parent": "RoofHVAC139"
+      },
+      {
+        "id": "RoofFilter146",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            2,
+            2.2
+          ]
+        },
+        "position": [
+          -16,
+          6.07,
+          7
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "FilterCap147",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 1.3,
+          "radiusBottom": 1.3,
+          "height": 0.2
+        },
+        "position": [
+          0,
+          1.15,
+          0
+        ],
+        "material": "edge",
+        "parent": "RoofFilter146"
+      },
+      {
+        "id": "RoofFilter148",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            2,
+            2.2
+          ]
+        },
+        "position": [
+          -16,
+          6.07,
+          11
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "FilterCap149",
+        "shape": {
+          "type": "cylinder",
+          "radiusTop": 1.3,
+          "radiusBottom": 1.3,
+          "height": 0.2
+        },
+        "position": [
+          0,
+          1.15,
+          0
+        ],
+        "material": "edge",
+        "parent": "RoofFilter148"
+      },
+      {
+        "id": "RoofPipe",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.65,
+            0.65,
+            10
+          ]
+        },
+        "position": [
+          -12,
+          5.5,
+          11
+        ],
+        "material": "edge"
+      }
+    ],
+    "sockets": []
+  }
+}

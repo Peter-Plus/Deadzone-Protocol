@@ -1,0 +1,43 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Door_MilitarySlide",
+      "type": "gate",
+      "sourceHash": "d37b8cb8e9bbb6ce9f04d58b91050644aec7325b6a987cc58075d80e4268445c",
+      "modelHash": "456852a6955a30cf4e02941805a2523730765cea483475bdcd3e71e02b403312",
+      "animationHash": "7d84f72f20e9dec5de62e1feec79782c6c2fc45116c96fd6158dbccc7f80848e",
+      "contract": "contracts/FSA_ENV_Door_MilitarySlide.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Door_ProtectedSlide",
+      "type": "gate",
+      "sourceHash": "b3d01b3b47898f90b0e34cff591a81e649c0c0fe0f806fc84f394d4e0e59e166",
+      "modelHash": "5ad76b8e555c7811299bf5e2b2eddff567488691b31dc6fbcdf93291c712bb2b",
+      "animationHash": "653a3d8dc289f0c26e15d438f87fa103414b21641180c5e4de5227e81baa3df6",
+      "contract": "contracts/FSA_ENV_Door_ProtectedSlide.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Door_ResearchSlide",
+      "type": "gate",
+      "sourceHash": "a64ac74ed3575951299fbd519b84fbd11b83a76e9fcc913a9126b22cb52f6d26",
+      "modelHash": "1a520aa9052e72b24447fdeda142602696a616b7783974832940ae44a01d0714",
+      "animationHash": "355528f0e187991d5c5dc4fc8df9f42721726e419ad88d035c988406160d329a",
+      "contract": "contracts/FSA_ENV_Door_ResearchSlide.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Protected_Straight",
+      "type": "barrier",
+      "sourceHash": "b7cfee8d561ca3a59c3b3173aa5b165346562130920d96e2447289d60c97802e",
+      "modelHash": "8c090f2e003b6d738e8437252da40bacb0d018d6c9437e2263b2a5fa5282a568",
+      "contract": "contracts/FSA_ENV_Protected_Straight.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Protected_Corner",
+      "type": "barrier",
+      "sourceHash": "e7f35894714e12201c6617407a0a4588a4c966120e196f75b51e32581552a569",
+      "modelHash": "5f8e4015ed3426cda830afcb86547a388935155fb16968456f1b10273f49ee81",
+      "contract": "contracts/FSA_ENV_Protected_Corner.environment.json"
+    }
+  ]
+}

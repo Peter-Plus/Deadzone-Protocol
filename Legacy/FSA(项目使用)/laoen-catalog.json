@@ -1,0 +1,394 @@
+{
+  "version": 1,
+  "name": "劳恩",
+  "id": "fsa.character.laoen",
+  "rig": "humanoid.v1",
+  "model": "generated/models/characters/player/laoen.glb",
+  "definition": "definitions/models/characters/player/laoen.model.json",
+  "attachment": {
+    "characterSocket": "weapon_mount",
+    "parentBone": "Arm_L",
+    "weaponSocket": "grip_main",
+    "rightHandBinding": false,
+    "ik": false
+  },
+  "layers": {
+    "base": {
+      "bones": [
+        "Body",
+        "Head",
+        "Leg_L",
+        "Leg_R"
+      ],
+      "default": "idle"
+    },
+    "arms": {
+      "bones": [
+        "Arm_L",
+        "Arm_R"
+      ],
+      "default": "hold"
+    },
+    "full": {
+      "bones": [
+        "Root",
+        "Body",
+        "Head",
+        "Arm_L",
+        "Arm_R",
+        "Leg_L",
+        "Leg_R"
+      ],
+      "exclusive": true
+    }
+  },
+  "clips": [
+    {
+      "id": "fsa.animation.base.idle",
+      "key": "idle",
+      "label": "待机",
+      "layer": "base",
+      "duration": 2.4,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/base/base_idle.anim.json",
+      "model": "generated/animations/shared/base/base_idle.anim.glb"
+    },
+    {
+      "id": "fsa.animation.base.walk",
+      "key": "walk",
+      "label": "前进",
+      "layer": "base",
+      "duration": 0.96,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/base/base_walk.anim.json",
+      "model": "generated/animations/shared/base/base_walk.anim.glb"
+    },
+    {
+      "id": "fsa.animation.base.run",
+      "key": "run",
+      "label": "跑步",
+      "layer": "base",
+      "duration": 0.64,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/base/base_run.anim.json",
+      "model": "generated/animations/shared/base/base_run.anim.glb"
+    },
+    {
+      "id": "fsa.animation.base.walk_backward",
+      "key": "walk_backward",
+      "label": "后退",
+      "layer": "base",
+      "duration": 1.05,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/base/base_walk_backward.anim.json",
+      "model": "generated/animations/shared/base/base_walk_backward.anim.glb"
+    },
+    {
+      "id": "fsa.animation.base.strafe_left",
+      "key": "strafe_left",
+      "label": "左移",
+      "layer": "base",
+      "duration": 1.05,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/base/base_strafe_left.anim.json",
+      "model": "generated/animations/shared/base/base_strafe_left.anim.glb"
+    },
+    {
+      "id": "fsa.animation.base.strafe_right",
+      "key": "strafe_right",
+      "label": "右移",
+      "layer": "base",
+      "duration": 1.05,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/base/base_strafe_right.anim.json",
+      "model": "generated/animations/shared/base/base_strafe_right.anim.glb"
+    },
+    {
+      "id": "fsa.animation.base.jump_start",
+      "key": "jump_start",
+      "label": "起跳",
+      "layer": "base",
+      "duration": 0.25,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.18,
+          "name": "jump_takeoff_visual"
+        }
+      ],
+      "definition": "definitions/animations/shared/base/base_jump_start.anim.json",
+      "model": "generated/animations/shared/base/base_jump_start.anim.glb"
+    },
+    {
+      "id": "fsa.animation.base.jump_air",
+      "key": "jump_air",
+      "label": "空中",
+      "layer": "base",
+      "duration": 0.7,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/base/base_jump_air.anim.json",
+      "model": "generated/animations/shared/base/base_jump_air.anim.glb"
+    },
+    {
+      "id": "fsa.animation.base.land",
+      "key": "land",
+      "label": "落地",
+      "layer": "base",
+      "duration": 0.32,
+      "loop": false,
+      "events": [],
+      "definition": "definitions/animations/shared/base/base_land.anim.json",
+      "model": "generated/animations/shared/base/base_land.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.empty_idle",
+      "key": "empty_idle",
+      "label": "空手待机",
+      "layer": "arms",
+      "duration": 2.4,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/arms/arms_empty_idle.anim.json",
+      "model": "generated/animations/shared/arms/arms_empty_idle.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.empty_walk",
+      "key": "empty_walk",
+      "label": "空手走路摆臂",
+      "layer": "arms",
+      "duration": 0.96,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/arms/arms_empty_walk.anim.json",
+      "model": "generated/animations/shared/arms/arms_empty_walk.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.empty_run",
+      "key": "empty_run",
+      "label": "空手跑步摆臂",
+      "layer": "arms",
+      "duration": 0.64,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/arms/arms_empty_run.anim.json",
+      "model": "generated/animations/shared/arms/arms_empty_run.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.hold",
+      "key": "hold",
+      "label": "持枪",
+      "layer": "arms",
+      "duration": 2.4,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/arms/arms_hold.anim.json",
+      "model": "generated/animations/shared/arms/arms_hold.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.aim",
+      "key": "aim",
+      "label": "瞄准",
+      "layer": "arms",
+      "duration": 2.4,
+      "loop": true,
+      "events": [],
+      "definition": "definitions/animations/shared/arms/arms_aim.anim.json",
+      "model": "generated/animations/shared/arms/arms_aim.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.fire",
+      "key": "fire",
+      "label": "开火",
+      "layer": "arms",
+      "duration": 0.18,
+      "loop": false,
+      "events": [
+        {
+          "time": 0,
+          "name": "muzzle_flash"
+        }
+      ],
+      "definition": "definitions/animations/shared/arms/arms_fire.anim.json",
+      "model": "generated/animations/shared/arms/arms_fire.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.aim_fire",
+      "key": "aim_fire",
+      "label": "瞄准开火",
+      "layer": "arms",
+      "duration": 0.18,
+      "loop": false,
+      "events": [
+        {
+          "time": 0,
+          "name": "muzzle_flash"
+        }
+      ],
+      "definition": "definitions/animations/shared/arms/arms_aim_fire.anim.json",
+      "model": "generated/animations/shared/arms/arms_aim_fire.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.reload",
+      "key": "reload",
+      "label": "换弹",
+      "layer": "arms",
+      "duration": 1.65,
+      "loop": false,
+      "events": [
+        {
+          "time": 1.2,
+          "name": "reload_insert"
+        },
+        {
+          "time": 1.65,
+          "name": "reload_complete"
+        }
+      ],
+      "definition": "definitions/animations/shared/arms/arms_reload.anim.json",
+      "model": "generated/animations/shared/arms/arms_reload.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.equip",
+      "key": "equip",
+      "label": "举枪",
+      "layer": "arms",
+      "duration": 0.4,
+      "loop": false,
+      "events": [],
+      "definition": "definitions/animations/shared/arms/arms_equip.anim.json",
+      "model": "generated/animations/shared/arms/arms_equip.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.unequip",
+      "key": "unequip",
+      "label": "收枪",
+      "layer": "arms",
+      "duration": 0.35,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.35,
+          "name": "weapon_hide"
+        }
+      ],
+      "definition": "definitions/animations/shared/arms/arms_unequip.anim.json",
+      "model": "generated/animations/shared/arms/arms_unequip.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.melee",
+      "key": "melee",
+      "label": "近战",
+      "layer": "arms",
+      "duration": 0.65,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.3,
+          "name": "melee_contact"
+        }
+      ],
+      "definition": "definitions/animations/shared/arms/arms_melee.anim.json",
+      "model": "generated/animations/shared/arms/arms_melee.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.throw",
+      "key": "throw",
+      "label": "投掷",
+      "layer": "arms",
+      "duration": 0.85,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.45,
+          "name": "throw_release"
+        }
+      ],
+      "definition": "definitions/animations/shared/arms/arms_throw.anim.json",
+      "model": "generated/animations/shared/arms/arms_throw.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.interact",
+      "key": "interact",
+      "label": "交互",
+      "layer": "arms",
+      "duration": 0.8,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.45,
+          "name": "interaction_contact"
+        }
+      ],
+      "definition": "definitions/animations/shared/arms/arms_interact.anim.json",
+      "model": "generated/animations/shared/arms/arms_interact.anim.glb"
+    },
+    {
+      "id": "fsa.animation.arms.use_item",
+      "key": "use_item",
+      "label": "使用道具",
+      "layer": "arms",
+      "duration": 1.5,
+      "loop": false,
+      "events": [
+        {
+          "time": 1.05,
+          "name": "item_use_complete"
+        }
+      ],
+      "definition": "definitions/animations/shared/arms/arms_use_item.anim.json",
+      "model": "generated/animations/shared/arms/arms_use_item.anim.glb"
+    },
+    {
+      "id": "fsa.animation.full.hit",
+      "key": "hit",
+      "label": "受击",
+      "layer": "full",
+      "duration": 0.36,
+      "loop": false,
+      "events": [],
+      "definition": "definitions/animations/shared/full/full_hit.anim.json",
+      "model": "generated/animations/shared/full/full_hit.anim.glb"
+    },
+    {
+      "id": "fsa.animation.full.death",
+      "key": "death",
+      "label": "倒地死亡",
+      "layer": "full",
+      "duration": 1.3,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.85,
+          "name": "body_impact"
+        }
+      ],
+      "definition": "definitions/animations/shared/full/full_death.anim.json",
+      "model": "generated/animations/shared/full/full_death.anim.glb"
+    },
+    {
+      "id": "fsa.animation.full.victory",
+      "key": "victory",
+      "label": "胜利",
+      "layer": "full",
+      "duration": 2,
+      "loop": false,
+      "events": [],
+      "definition": "definitions/animations/shared/full/full_victory.anim.json",
+      "model": "generated/animations/shared/full/full_victory.anim.glb"
+    }
+  ],
+  "notes": [
+    "所有动画 In Place；位移、跳跃高度、碰撞与 Gameplay 事件由游戏控制。",
+    "事件仅为表现时序参考，播放动画本身不会改变弹药或造成伤害。",
+    "单握持点挂在左臂，右臂近似双手持枪；所有枪共用动作，不执行 IK。",
+    "手枪与长枪统一动作，不实现逐武器真实装填。",
+    "切换全身动画时暂停两层；结束后恢复骨架默认变换，再恢复两层。"
+  ]
+}

@@ -1,0 +1,1928 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Door_ProtectedSlide",
+  "label": "保护区大铁门 · 内侧滑开／外墙门禁",
+  "type": "gate",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3.4,
+      -3
+    ],
+    "max": [
+      10,
+      3
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Leaf",
+      "role": "moving"
+    },
+    {
+      "node": "FrameLeft",
+      "role": "barrier"
+    },
+    {
+      "node": "FrameRight",
+      "role": "barrier"
+    },
+    {
+      "node": "Header",
+      "role": "barrier"
+    },
+    {
+      "node": "Track",
+      "role": "barrier"
+    },
+    {
+      "node": "Bracket5",
+      "role": "barrier"
+    },
+    {
+      "node": "Bracket6",
+      "role": "barrier"
+    },
+    {
+      "node": "Bracket7",
+      "role": "barrier"
+    },
+    {
+      "node": "Bracket8",
+      "role": "barrier"
+    },
+    {
+      "node": "EndStop",
+      "role": "barrier"
+    },
+    {
+      "node": "SwitchFront",
+      "role": "solid"
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [
+    {
+      "id": "ThroughDoor",
+      "points": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          -2
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [],
+  "exclusions": [
+    {
+      "id": "Pocket",
+      "min": [
+        3.15,
+        -1.05
+      ],
+      "max": [
+        9.85,
+        -0.35
+      ]
+    },
+    {
+      "id": "SwitchLanding",
+      "min": [
+        2.65,
+        0.45
+      ],
+      "max": [
+        4.65,
+        2.45
+      ]
+    }
+  ],
+  "connectors": [
+    {
+      "id": "Left",
+      "position": [
+        -3,
+        0,
+        0
+      ],
+      "outward": [
+        -1,
+        0,
+        0
+      ],
+      "height": 4,
+      "thickness": 0.25
+    },
+    {
+      "id": "Right",
+      "position": [
+        3,
+        0,
+        0
+      ],
+      "outward": [
+        1,
+        0,
+        0
+      ],
+      "height": 4,
+      "thickness": 0.25
+    }
+  ],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Door_ProtectedSlide",
+    "type": "static",
+    "materials": {
+      "steel": {
+        "color": "#53646a",
+        "metalness": 0.72,
+        "roughness": 0.6
+      },
+      "panel": {
+        "color": "#66787c",
+        "metalness": 0.65,
+        "roughness": 0.67
+      },
+      "dark": {
+        "color": "#283b42",
+        "metalness": 0.7,
+        "roughness": 0.55
+      },
+      "edge": {
+        "color": "#8a9794",
+        "metalness": 0.8,
+        "roughness": 0.45
+      },
+      "floor": {
+        "color": "#747c7a",
+        "roughness": 0.95
+      },
+      "yellow": {
+        "color": "#d2b45c",
+        "metalness": 0.25,
+        "roughness": 0.7
+      },
+      "red": {
+        "color": "#bb4b37",
+        "emissive": "#401209",
+        "roughness": 0.6
+      },
+      "green": {
+        "color": "#6ccd9a",
+        "emissive": "#123b26",
+        "roughness": 0.5
+      },
+      "black": {
+        "color": "#1f292d",
+        "roughness": 0.85
+      },
+      "cloth": {
+        "color": "#667664",
+        "roughness": 1
+      }
+    },
+    "parts": [
+      {
+        "id": "Leaf",
+        "shape": {
+          "type": "box",
+          "size": [
+            6.2,
+            4,
+            0.24
+          ]
+        },
+        "position": [
+          0,
+          2,
+          -0.6
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "FrameLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.35,
+            4.3,
+            0.7
+          ]
+        },
+        "position": [
+          -2.975,
+          2.15,
+          -0.05
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrameRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.35,
+            4.3,
+            0.7
+          ]
+        },
+        "position": [
+          2.975,
+          2.15,
+          -0.05
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Header",
+        "shape": {
+          "type": "box",
+          "size": [
+            6.3,
+            0.45,
+            0.7
+          ]
+        },
+        "position": [
+          0,
+          4.075,
+          -0.05
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Track",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.9,
+            0.2,
+            0.42
+          ]
+        },
+        "position": [
+          3.25,
+          4.4,
+          -0.6
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "Bracket5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            0.35,
+            0.85
+          ]
+        },
+        "position": [
+          -2.95,
+          4.18,
+          -0.3
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Bracket6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            0.35,
+            0.85
+          ]
+        },
+        "position": [
+          3.5,
+          4.18,
+          -0.3
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Bracket7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            0.35,
+            0.85
+          ]
+        },
+        "position": [
+          6.5,
+          4.18,
+          -0.3
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Bracket8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            0.35,
+            0.85
+          ]
+        },
+        "position": [
+          9.35,
+          4.18,
+          -0.3
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EndStop",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.2,
+            4.4,
+            0.38
+          ]
+        },
+        "position": [
+          9.7,
+          2.2,
+          -0.6
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Rib10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          -2.85,
+          0,
+          -0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          -1.9,
+          0,
+          -0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          -0.95,
+          0,
+          -0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          0,
+          0,
+          -0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          0.95,
+          0,
+          -0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          1.9,
+          0,
+          -0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib16",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          2.85,
+          0,
+          -0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rail17",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            0.12,
+            0.04
+          ]
+        },
+        "position": [
+          0,
+          -1.72,
+          -0.145
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rail18",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            0.12,
+            0.04
+          ]
+        },
+        "position": [
+          0,
+          1.72,
+          -0.145
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Stripe19",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            0.16,
+            0.025
+          ]
+        },
+        "position": [
+          0,
+          -1.18,
+          -0.145
+        ],
+        "material": "yellow",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet20",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -2.7,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet21",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -2.7,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet22",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -2.25,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet23",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -2.25,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet24",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.8,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet25",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.8,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet26",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.35,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet27",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.35,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet28",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -0.9000000000000001,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet29",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -0.9000000000000001,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet30",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -0.4500000000000001,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet31",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -0.4500000000000001,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet32",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.1102230246251565e-16,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet33",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.1102230246251565e-16,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet34",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          0.4499999999999999,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet35",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          0.4499999999999999,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet36",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          0.8999999999999999,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet37",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          0.8999999999999999,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet38",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          1.3499999999999999,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet39",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          1.3499999999999999,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet40",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          1.7999999999999998,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet41",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          1.7999999999999998,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet42",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          2.25,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet43",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          2.25,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet44",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          2.7,
+          -1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet45",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          2.7,
+          1.73,
+          -0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Plaque46",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.05,
+            0.58,
+            0.045
+          ]
+        },
+        "position": [
+          0,
+          0.55,
+          -0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Mark47",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.13,
+            0.3,
+            0.015
+          ]
+        },
+        "position": [
+          -0.25,
+          0.55,
+          -0.175
+        ],
+        "material": "yellow",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Mark48",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.13,
+            0.3,
+            0.015
+          ]
+        },
+        "position": [
+          0,
+          0.55,
+          -0.175
+        ],
+        "material": "yellow",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Mark49",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.13,
+            0.3,
+            0.015
+          ]
+        },
+        "position": [
+          0.25,
+          0.55,
+          -0.175
+        ],
+        "material": "yellow",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib50",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          -2.85,
+          0,
+          0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib51",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          -1.9,
+          0,
+          0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib52",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          -0.95,
+          0,
+          0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib53",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          0,
+          0,
+          0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib54",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          0.95,
+          0,
+          0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib55",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          1.9,
+          0,
+          0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rib56",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.075,
+            3.72,
+            0.04
+          ]
+        },
+        "position": [
+          2.85,
+          0,
+          0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rail57",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            0.12,
+            0.04
+          ]
+        },
+        "position": [
+          0,
+          -1.72,
+          0.145
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rail58",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            0.12,
+            0.04
+          ]
+        },
+        "position": [
+          0,
+          1.72,
+          0.145
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Stripe59",
+        "shape": {
+          "type": "box",
+          "size": [
+            6,
+            0.16,
+            0.025
+          ]
+        },
+        "position": [
+          0,
+          -1.18,
+          0.145
+        ],
+        "material": "yellow",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet60",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -2.7,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet61",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -2.7,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet62",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -2.25,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet63",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -2.25,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet64",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.8,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet65",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.8,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet66",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.35,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet67",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.35,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet68",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -0.9000000000000001,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet69",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -0.9000000000000001,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet70",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -0.4500000000000001,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet71",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -0.4500000000000001,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet72",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.1102230246251565e-16,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet73",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          -1.1102230246251565e-16,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet74",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          0.4499999999999999,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet75",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          0.4499999999999999,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet76",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          0.8999999999999999,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet77",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          0.8999999999999999,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet78",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          1.3499999999999999,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet79",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          1.3499999999999999,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet80",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          1.7999999999999998,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet81",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          1.7999999999999998,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet82",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          2.25,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet83",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          2.25,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet84",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          2.7,
+          -1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Rivet85",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.055,
+            0.025
+          ]
+        },
+        "position": [
+          2.7,
+          1.73,
+          0.175
+        ],
+        "material": "edge",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Plaque86",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.05,
+            0.58,
+            0.045
+          ]
+        },
+        "position": [
+          0,
+          0.55,
+          0.145
+        ],
+        "material": "dark",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Mark87",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.13,
+            0.3,
+            0.015
+          ]
+        },
+        "position": [
+          -0.25,
+          0.55,
+          0.175
+        ],
+        "material": "yellow",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Mark88",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.13,
+            0.3,
+            0.015
+          ]
+        },
+        "position": [
+          0,
+          0.55,
+          0.175
+        ],
+        "material": "yellow",
+        "parent": "Leaf"
+      },
+      {
+        "id": "Mark89",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.13,
+            0.3,
+            0.015
+          ]
+        },
+        "position": [
+          0.25,
+          0.55,
+          0.175
+        ],
+        "material": "yellow",
+        "parent": "Leaf"
+      },
+      {
+        "id": "SwitchFront",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.46,
+            0.7,
+            0.21
+          ]
+        },
+        "position": [
+          3.65,
+          1.35,
+          0.235
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ButtonFront",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.29,
+            0.04
+          ]
+        },
+        "position": [
+          3.65,
+          1.38,
+          0.36
+        ],
+        "material": "green"
+      },
+      {
+        "id": "SwitchLabel",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.28,
+            0.06,
+            0.025
+          ]
+        },
+        "position": [
+          3.65,
+          1.62,
+          0.355
+        ],
+        "material": "yellow"
+      }
+    ],
+    "sockets": [
+      {
+        "id": "Interact_Front",
+        "parent": "SwitchFront",
+        "position": [
+          0,
+          0,
+          0.19
+        ]
+      }
+    ]
+  },
+  "gate": {
+    "leaf": "Leaf",
+    "switchNode": "Interact_Front",
+    "duration": 3,
+    "travel": [
+      6.4,
+      0,
+      0
+    ],
+    "passage": {
+      "width": 5.6,
+      "height": 3.85
+    },
+    "onlyOpen": true
+  },
+  "animation": {
+    "schema": "animation.v1",
+    "id": "FSA_ANIM_Door_ProtectedSlide_Open",
+    "rig": "nodes.v1",
+    "targetModel": "FSA_ENV_Door_ProtectedSlide",
+    "duration": 3,
+    "loop": false,
+    "mode": "timeline",
+    "tracks": {
+      "Leaf": [
+        {
+          "time": 0,
+          "position": [
+            0,
+            2,
+            -0.6
+          ]
+        },
+        {
+          "time": 3,
+          "position": [
+            6.4,
+            2,
+            -0.6
+          ]
+        }
+      ]
+    }
+  }
+}

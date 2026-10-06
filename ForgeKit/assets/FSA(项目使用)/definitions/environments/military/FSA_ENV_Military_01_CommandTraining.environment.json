@@ -1,0 +1,10597 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Military_01_CommandTraining",
+  "label": "军事基地 01 · 指挥大厅与室内训练场",
+  "type": "building",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -20,
+      -18
+    ],
+    "max": [
+      20,
+      20
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Floor",
+      "role": "floor"
+    },
+    {
+      "node": "FrontPanel0",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib1",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib4",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib7",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib10",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib13",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib16",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib19",
+      "role": "wall"
+    },
+    {
+      "node": "FrontPanel24",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib25",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib28",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib31",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib34",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib37",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib40",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRib43",
+      "role": "wall"
+    },
+    {
+      "node": "FrontPanel48",
+      "role": "wall"
+    },
+    {
+      "node": "BackPanel51",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib52",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib55",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib58",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib61",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib64",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib67",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib70",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib73",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib76",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib79",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib82",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib85",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib88",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib91",
+      "role": "wall"
+    },
+    {
+      "node": "BackRib94",
+      "role": "wall"
+    },
+    {
+      "node": "WestPanel99",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib100",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib103",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib106",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib109",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib112",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib115",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib118",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib121",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib124",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib127",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib130",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib133",
+      "role": "wall"
+    },
+    {
+      "node": "WestRib136",
+      "role": "wall"
+    },
+    {
+      "node": "EastPanel141",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib142",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib145",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib148",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib151",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib154",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib157",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib160",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib163",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib166",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib169",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib172",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib175",
+      "role": "wall"
+    },
+    {
+      "node": "EastRib178",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenPanel183",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenRib184",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenRib187",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenRib190",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenRib193",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenRib196",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionPanel201",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionRib202",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionRib205",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionRib208",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionRib211",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionRib214",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionPanel219",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionRib220",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionRib223",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionRib226",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionRib229",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionRib232",
+      "role": "wall"
+    },
+    {
+      "node": "TrainingPartitionPanel237",
+      "role": "wall"
+    },
+    {
+      "node": "ArmoryPartitionPanel240",
+      "role": "wall"
+    },
+    {
+      "node": "ArmoryPartitionRib241",
+      "role": "wall"
+    },
+    {
+      "node": "ArmoryPartitionRib244",
+      "role": "wall"
+    },
+    {
+      "node": "ArmoryPartitionPanel249",
+      "role": "wall"
+    },
+    {
+      "node": "ArmoryPartitionRib250",
+      "role": "wall"
+    },
+    {
+      "node": "ArmoryPartitionRib253",
+      "role": "wall"
+    },
+    {
+      "node": "ArmoryPartitionPanel258",
+      "role": "wall"
+    },
+    {
+      "node": "RearDividerPanel261",
+      "role": "wall"
+    },
+    {
+      "node": "RearDividerRib262",
+      "role": "wall"
+    },
+    {
+      "node": "RearDividerRib265",
+      "role": "wall"
+    },
+    {
+      "node": "RearDividerRib268",
+      "role": "wall"
+    },
+    {
+      "node": "RearDividerRib271",
+      "role": "wall"
+    },
+    {
+      "node": "RearDividerRib274",
+      "role": "wall"
+    },
+    {
+      "node": "RearDividerRib277",
+      "role": "wall"
+    },
+    {
+      "node": "RearDividerRib280",
+      "role": "wall"
+    },
+    {
+      "node": "RearDividerRib283",
+      "role": "wall"
+    },
+    {
+      "node": "RoofHall",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallSeam288",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallSeam289",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallSeam290",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallSeam291",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallSeam292",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallSeam293",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallSeam294",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallSeam295",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallSeam296",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallSeam297",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallCross298",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallCross299",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallCross300",
+      "role": "roof"
+    },
+    {
+      "node": "RoofHallCross301",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTraining",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingSeam302",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingSeam303",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingSeam304",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingSeam305",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingSeam306",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingSeam307",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingSeam308",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingCross309",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingCross310",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingCross311",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingCross312",
+      "role": "roof"
+    },
+    {
+      "node": "RoofTrainingCross313",
+      "role": "roof"
+    },
+    {
+      "node": "RoofArmory",
+      "role": "roof"
+    },
+    {
+      "node": "RoofArmorySeam314",
+      "role": "roof"
+    },
+    {
+      "node": "RoofArmorySeam315",
+      "role": "roof"
+    },
+    {
+      "node": "RoofArmorySeam316",
+      "role": "roof"
+    },
+    {
+      "node": "RoofArmorySeam317",
+      "role": "roof"
+    },
+    {
+      "node": "RoofArmoryCross318",
+      "role": "roof"
+    },
+    {
+      "node": "RoofArmoryCross319",
+      "role": "roof"
+    },
+    {
+      "node": "RoofArmoryCross320",
+      "role": "roof"
+    },
+    {
+      "node": "RoofArmoryCross321",
+      "role": "roof"
+    },
+    {
+      "node": "RoofArmoryCross322",
+      "role": "roof"
+    },
+    {
+      "node": "RoofStep",
+      "role": "roof"
+    },
+    {
+      "node": "Target323Base",
+      "role": "solid"
+    },
+    {
+      "node": "Target323Post",
+      "role": "solid"
+    },
+    {
+      "node": "Target323Plate",
+      "role": "solid"
+    },
+    {
+      "node": "Target329Base",
+      "role": "solid"
+    },
+    {
+      "node": "Target329Post",
+      "role": "solid"
+    },
+    {
+      "node": "Target329Plate",
+      "role": "solid"
+    },
+    {
+      "node": "Target335Base",
+      "role": "solid"
+    },
+    {
+      "node": "Target335Post",
+      "role": "solid"
+    },
+    {
+      "node": "Target335Plate",
+      "role": "solid"
+    },
+    {
+      "node": "Target341Base",
+      "role": "solid"
+    },
+    {
+      "node": "Target341Post",
+      "role": "solid"
+    },
+    {
+      "node": "Target341Plate",
+      "role": "solid"
+    },
+    {
+      "node": "TrainingCoverA",
+      "role": "solid"
+    },
+    {
+      "node": "TrainingCoverB",
+      "role": "solid"
+    },
+    {
+      "node": "BriefingTable",
+      "role": "solid"
+    },
+    {
+      "node": "BriefingTableTop",
+      "role": "solid"
+    },
+    {
+      "node": "MapDesk",
+      "role": "solid"
+    },
+    {
+      "node": "MapDeskTop",
+      "role": "solid"
+    },
+    {
+      "node": "HallCover",
+      "role": "solid"
+    },
+    {
+      "node": "Weapons347",
+      "role": "solid"
+    },
+    {
+      "node": "Weapons348",
+      "role": "solid"
+    },
+    {
+      "node": "Weapons349",
+      "role": "solid"
+    },
+    {
+      "node": "ArmoryBench",
+      "role": "solid"
+    },
+    {
+      "node": "ArmoryBenchTop",
+      "role": "solid"
+    },
+    {
+      "node": "Exterior_SideBelt_0",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Buttress_1",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Cap_2",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Buttress_3",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Cap_4",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Buttress_5",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Cap_6",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_SideVent_7",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_SideVent_13",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_ServicePanel_19",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_SideBelt_22",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Buttress_23",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Cap_24",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Buttress_25",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Cap_26",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Buttress_27",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Cap_28",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_SideVent_29",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_SideVent_35",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_ServicePanel_41",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_HeaderBand_44",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_CornerArmor_45",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_CornerArmor_46",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_HeaderBand_47",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_CornerArmor_48",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_CornerArmor_49",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Canopy_50",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_CanopyTrim_51",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_EntranceSign_52",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_LightHousing_58",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_LightHousing_60",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_FacadePanel_62",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_FacadePanel_66",
+      "role": "wall"
+    },
+    {
+      "node": "Exterior_Parapet_70",
+      "role": "roof"
+    },
+    {
+      "node": "Exterior_Parapet_71",
+      "role": "roof"
+    },
+    {
+      "node": "Exterior_Parapet_72",
+      "role": "roof"
+    },
+    {
+      "node": "Exterior_Parapet_73",
+      "role": "roof"
+    },
+    {
+      "node": "Exterior_UpperCommand_74",
+      "role": "roof"
+    },
+    {
+      "node": "Exterior_HVAC_97",
+      "role": "roof"
+    },
+    {
+      "node": "Exterior_HVAC_113",
+      "role": "roof"
+    },
+    {
+      "node": "Exterior_Duct_129",
+      "role": "roof"
+    },
+    {
+      "node": "Exterior_CommsBase_130",
+      "role": "roof"
+    },
+    {
+      "node": "Exterior_Exhaust_136",
+      "role": "roof"
+    },
+    {
+      "node": "Exterior_Exhaust_138",
+      "role": "roof"
+    }
+  ],
+  "walkables": [
+    "Floor"
+  ],
+  "entrances": [
+    {
+      "id": "Entrance",
+      "inner": [
+        0,
+        0,
+        14
+      ],
+      "outer": [
+        0,
+        0,
+        18
+      ],
+      "width": 4,
+      "height": 4,
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "ExploreAll",
+      "points": [
+        [
+          0,
+          0,
+          18
+        ],
+        [
+          0,
+          0,
+          14
+        ],
+        [
+          6,
+          0,
+          14
+        ],
+        [
+          6,
+          0,
+          7
+        ],
+        [
+          -6,
+          0,
+          7
+        ],
+        [
+          -6,
+          0,
+          -6
+        ],
+        [
+          -12,
+          0,
+          -6
+        ],
+        [
+          -12,
+          0,
+          -12
+        ],
+        [
+          0,
+          0,
+          -12
+        ],
+        [
+          -6,
+          0,
+          -12
+        ],
+        [
+          -6,
+          0,
+          7
+        ],
+        [
+          12,
+          0,
+          7
+        ],
+        [
+          12,
+          0,
+          -6
+        ],
+        [
+          12,
+          0,
+          -12
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [
+    {
+      "id": "HallWest",
+      "min": [
+        -14,
+        7
+      ],
+      "max": [
+        -12,
+        9
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "HallEast",
+      "min": [
+        12,
+        8
+      ],
+      "max": [
+        14,
+        10
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "TrainingWest",
+      "min": [
+        -16.75,
+        -8
+      ],
+      "max": [
+        -15.25,
+        -6
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "TrainingEast",
+      "min": [
+        1,
+        -9
+      ],
+      "max": [
+        3,
+        -7
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "ArmoryA",
+      "min": [
+        8,
+        -8
+      ],
+      "max": [
+        10,
+        -6
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "ArmoryB",
+      "min": [
+        14.25,
+        -14.75
+      ],
+      "max": [
+        15.75,
+        -13.25
+      ],
+      "surface": "Floor"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "M01Pocket",
+      "min": [
+        -4.3,
+        2.18
+      ],
+      "max": [
+        -0.6500000000000004,
+        2.9
+      ]
+    },
+    {
+      "id": "M02Pocket",
+      "min": [
+        13.7,
+        2.18
+      ],
+      "max": [
+        17.35,
+        2.9
+      ]
+    },
+    {
+      "id": "Path1",
+      "min": [
+        -0.9,
+        13.1
+      ],
+      "max": [
+        0.9,
+        18.9
+      ]
+    },
+    {
+      "id": "Path2",
+      "min": [
+        -0.9,
+        13.1
+      ],
+      "max": [
+        6.9,
+        14.9
+      ]
+    },
+    {
+      "id": "Path3",
+      "min": [
+        5.1,
+        6.1
+      ],
+      "max": [
+        6.9,
+        14.9
+      ]
+    },
+    {
+      "id": "Path4",
+      "min": [
+        -6.9,
+        6.1
+      ],
+      "max": [
+        6.9,
+        7.9
+      ]
+    },
+    {
+      "id": "Path5",
+      "min": [
+        -6.9,
+        -6.9
+      ],
+      "max": [
+        -5.1,
+        7.9
+      ]
+    },
+    {
+      "id": "Path6",
+      "min": [
+        -12.9,
+        -6.9
+      ],
+      "max": [
+        -5.1,
+        -5.1
+      ]
+    },
+    {
+      "id": "Path7",
+      "min": [
+        -12.9,
+        -12.9
+      ],
+      "max": [
+        -11.1,
+        -5.1
+      ]
+    },
+    {
+      "id": "Path8",
+      "min": [
+        -12.9,
+        -12.9
+      ],
+      "max": [
+        0.9,
+        -11.1
+      ]
+    },
+    {
+      "id": "Path9",
+      "min": [
+        -6.9,
+        -12.9
+      ],
+      "max": [
+        0.9,
+        -11.1
+      ]
+    },
+    {
+      "id": "Path10",
+      "min": [
+        -6.9,
+        -12.9
+      ],
+      "max": [
+        -5.1,
+        7.9
+      ]
+    },
+    {
+      "id": "Path11",
+      "min": [
+        -6.9,
+        6.1
+      ],
+      "max": [
+        12.9,
+        7.9
+      ]
+    },
+    {
+      "id": "Path12",
+      "min": [
+        11.1,
+        -6.9
+      ],
+      "max": [
+        12.9,
+        7.9
+      ]
+    },
+    {
+      "id": "Path13",
+      "min": [
+        11.1,
+        -12.9
+      ],
+      "max": [
+        12.9,
+        -5.1
+      ]
+    }
+  ],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Military_01_CommandTraining",
+    "type": "static",
+    "materials": {
+      "steel": {
+        "color": "#53646a",
+        "metalness": 0.72,
+        "roughness": 0.6
+      },
+      "panel": {
+        "color": "#66787c",
+        "metalness": 0.65,
+        "roughness": 0.67
+      },
+      "dark": {
+        "color": "#283b42",
+        "metalness": 0.7,
+        "roughness": 0.55
+      },
+      "edge": {
+        "color": "#8a9794",
+        "metalness": 0.8,
+        "roughness": 0.45
+      },
+      "floor": {
+        "color": "#747c7a",
+        "roughness": 0.95
+      },
+      "yellow": {
+        "color": "#d2b45c",
+        "metalness": 0.25,
+        "roughness": 0.7
+      },
+      "red": {
+        "color": "#bb4b37",
+        "emissive": "#401209",
+        "roughness": 0.6
+      },
+      "green": {
+        "color": "#6ccd9a",
+        "emissive": "#123b26",
+        "roughness": 0.5
+      },
+      "black": {
+        "color": "#1f292d",
+        "roughness": 0.85
+      },
+      "cloth": {
+        "color": "#667664",
+        "roughness": 1
+      },
+      "trim": {
+        "color": "#b5b7a5",
+        "metalness": 0.65,
+        "roughness": 0.6
+      },
+      "glass": {
+        "color": "#284c59",
+        "metalness": 0.8,
+        "roughness": 0.22
+      },
+      "vent": {
+        "color": "#192e34",
+        "metalness": 0.7,
+        "roughness": 0.65
+      },
+      "mark": {
+        "color": "#d7c894",
+        "roughness": 0.75
+      }
+    },
+    "parts": [
+      {
+        "id": "Floor",
+        "shape": {
+          "type": "box",
+          "size": [
+            36,
+            0.18,
+            32
+          ]
+        },
+        "position": [
+          0,
+          -0.09,
+          0
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "FrontPanel0",
+        "shape": {
+          "type": "box",
+          "size": [
+            16,
+            5.8,
+            0.4
+          ]
+        },
+        "position": [
+          -10,
+          2.9,
+          16
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "FrontRib1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -17.88,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -17.88,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -17.88,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -15.379999999999999,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -15.379999999999999,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -15.379999999999999,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -12.879999999999999,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -12.879999999999999,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -12.879999999999999,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -10.379999999999999,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -10.379999999999999,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -10.379999999999999,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -7.879999999999999,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -7.879999999999999,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -7.879999999999999,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib16",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -5.379999999999999,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt17",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -5.379999999999999,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt18",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -5.379999999999999,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib19",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -2.879999999999999,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt20",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -2.879999999999999,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt21",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -2.879999999999999,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRail22",
+        "shape": {
+          "type": "box",
+          "size": [
+            16,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          -10,
+          0.15,
+          16
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "FrontRail23",
+        "shape": {
+          "type": "box",
+          "size": [
+            16,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          -10,
+          5.6499999999999995,
+          16
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "FrontPanel24",
+        "shape": {
+          "type": "box",
+          "size": [
+            16,
+            5.8,
+            0.4
+          ]
+        },
+        "position": [
+          10,
+          2.9,
+          16
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "FrontRib25",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          2.12,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt26",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          2.12,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt27",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          2.12,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib28",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          4.62,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt29",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          4.62,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt30",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          4.62,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib31",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          7.12,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt32",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          7.12,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt33",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          7.12,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib34",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          9.620000000000001,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt35",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          9.620000000000001,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt36",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          9.620000000000001,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib37",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          12.120000000000001,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt38",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          12.120000000000001,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt39",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          12.120000000000001,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib40",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          14.620000000000001,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt41",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          14.620000000000001,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt42",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          14.620000000000001,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRib43",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          17.12,
+          2.9,
+          16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "FrontBolt44",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          17.12,
+          0.3,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontBolt45",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          17.12,
+          4.8,
+          16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "FrontRail46",
+        "shape": {
+          "type": "box",
+          "size": [
+            16,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          10,
+          0.15,
+          16
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "FrontRail47",
+        "shape": {
+          "type": "box",
+          "size": [
+            16,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          10,
+          5.6499999999999995,
+          16
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "FrontPanel48",
+        "shape": {
+          "type": "box",
+          "size": [
+            4,
+            1.7999999999999998,
+            0.4
+          ]
+        },
+        "position": [
+          0,
+          4.9,
+          16
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "FrontRail49",
+        "shape": {
+          "type": "box",
+          "size": [
+            4,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          4.15,
+          16
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "FrontRail50",
+        "shape": {
+          "type": "box",
+          "size": [
+            4,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          5.6499999999999995,
+          16
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "BackPanel51",
+        "shape": {
+          "type": "box",
+          "size": [
+            36,
+            5.8,
+            0.4
+          ]
+        },
+        "position": [
+          0,
+          2.9,
+          -16
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "BackRib52",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -17.88,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt53",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -17.88,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt54",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -17.88,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib55",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -15.379999999999999,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt56",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -15.379999999999999,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt57",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -15.379999999999999,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib58",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -12.879999999999999,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt59",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -12.879999999999999,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt60",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -12.879999999999999,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib61",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -10.379999999999999,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt62",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -10.379999999999999,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt63",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -10.379999999999999,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib64",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -7.879999999999999,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt65",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -7.879999999999999,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt66",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -7.879999999999999,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib67",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -5.379999999999999,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt68",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -5.379999999999999,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt69",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -5.379999999999999,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib70",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -2.879999999999999,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt71",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -2.879999999999999,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt72",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -2.879999999999999,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib73",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -0.379999999999999,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt74",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -0.379999999999999,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt75",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -0.379999999999999,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib76",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          2.120000000000001,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt77",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          2.120000000000001,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt78",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          2.120000000000001,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib79",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          4.620000000000001,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt80",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          4.620000000000001,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt81",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          4.620000000000001,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib82",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          7.120000000000001,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt83",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          7.120000000000001,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt84",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          7.120000000000001,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib85",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          9.620000000000001,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt86",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          9.620000000000001,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt87",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          9.620000000000001,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib88",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          12.120000000000001,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt89",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          12.120000000000001,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt90",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          12.120000000000001,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib91",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          14.620000000000001,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt92",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          14.620000000000001,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt93",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          14.620000000000001,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRib94",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          17.12,
+          2.9,
+          -16
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BackBolt95",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          17.12,
+          0.3,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackBolt96",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          17.12,
+          4.8,
+          -16
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "BackRail97",
+        "shape": {
+          "type": "box",
+          "size": [
+            36,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          0.15,
+          -16
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "BackRail98",
+        "shape": {
+          "type": "box",
+          "size": [
+            36,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          0,
+          5.6499999999999995,
+          -16
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestPanel99",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4,
+            5.8,
+            32
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          0
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "WestRib100",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          -15.88
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt101",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          -15.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt102",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          -15.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib103",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          -13.38
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt104",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          -13.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt105",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          -13.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib106",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          -10.88
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt107",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          -10.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt108",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          -10.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib109",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          -8.38
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt110",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          -8.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt111",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          -8.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib112",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          -5.880000000000001
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt113",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          -5.880000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt114",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          -5.880000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib115",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          -3.380000000000001
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt116",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          -3.380000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt117",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          -3.380000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib118",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          -0.8800000000000008
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt119",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          -0.8800000000000008
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt120",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          -0.8800000000000008
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib121",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          1.6199999999999992
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt122",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          1.6199999999999992
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt123",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          1.6199999999999992
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib124",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          4.119999999999999
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt125",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          4.119999999999999
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt126",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          4.119999999999999
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib127",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          6.619999999999999
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt128",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          6.619999999999999
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt129",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          6.619999999999999
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib130",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          9.12
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt131",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          9.12
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt132",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          9.12
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib133",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          11.62
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt134",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          11.62
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt135",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          11.62
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRib136",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          -18,
+          2.9,
+          14.12
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "WestBolt137",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          0.3,
+          14.12
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestBolt138",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          -18,
+          4.8,
+          14.12
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "WestRail139",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.44,
+            0.12,
+            32
+          ]
+        },
+        "position": [
+          -18,
+          0.15,
+          0
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "WestRail140",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.44,
+            0.12,
+            32
+          ]
+        },
+        "position": [
+          -18,
+          5.6499999999999995,
+          0
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EastPanel141",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4,
+            5.8,
+            32
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          0
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "EastRib142",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          -15.88
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt143",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          -15.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt144",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          -15.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib145",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          -13.38
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt146",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          -13.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt147",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          -13.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib148",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          -10.88
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt149",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          -10.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt150",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          -10.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib151",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          -8.38
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt152",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          -8.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt153",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          -8.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib154",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          -5.880000000000001
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt155",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          -5.880000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt156",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          -5.880000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib157",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          -3.380000000000001
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt158",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          -3.380000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt159",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          -3.380000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib160",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          -0.8800000000000008
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt161",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          -0.8800000000000008
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt162",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          -0.8800000000000008
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib163",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          1.6199999999999992
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt164",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          1.6199999999999992
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt165",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          1.6199999999999992
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib166",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          4.119999999999999
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt167",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          4.119999999999999
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt168",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          4.119999999999999
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib169",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          6.619999999999999
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt170",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          6.619999999999999
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt171",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          6.619999999999999
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib172",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          9.12
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt173",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          9.12
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt174",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          9.12
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib175",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          11.62
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt176",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          11.62
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt177",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          11.62
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRib178",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          18,
+          2.9,
+          14.12
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "EastBolt179",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          0.3,
+          14.12
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastBolt180",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          18,
+          4.8,
+          14.12
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "EastRail181",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.44,
+            0.12,
+            32
+          ]
+        },
+        "position": [
+          18,
+          0.15,
+          0
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "EastRail182",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.44,
+            0.12,
+            32
+          ]
+        },
+        "position": [
+          18,
+          5.6499999999999995,
+          0
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "ScreenPanel183",
+        "shape": {
+          "type": "box",
+          "size": [
+            11,
+            5.8,
+            0.4
+          ]
+        },
+        "position": [
+          -2.5,
+          2.9,
+          10
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "ScreenRib184",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -7.88,
+          2.9,
+          10
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ScreenBolt185",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -7.88,
+          0.3,
+          10
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ScreenBolt186",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -7.88,
+          4.8,
+          10
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ScreenRib187",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -5.38,
+          2.9,
+          10
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ScreenBolt188",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -5.38,
+          0.3,
+          10
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ScreenBolt189",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -5.38,
+          4.8,
+          10
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ScreenRib190",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -2.88,
+          2.9,
+          10
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ScreenBolt191",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -2.88,
+          0.3,
+          10
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ScreenBolt192",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -2.88,
+          4.8,
+          10
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ScreenRib193",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -0.3799999999999999,
+          2.9,
+          10
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ScreenBolt194",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -0.3799999999999999,
+          0.3,
+          10
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ScreenBolt195",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -0.3799999999999999,
+          4.8,
+          10
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ScreenRib196",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          2.12,
+          2.9,
+          10
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ScreenBolt197",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          2.12,
+          0.3,
+          10
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ScreenBolt198",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          2.12,
+          4.8,
+          10
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ScreenRail199",
+        "shape": {
+          "type": "box",
+          "size": [
+            11,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          -2.5,
+          0.15,
+          10
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "ScreenRail200",
+        "shape": {
+          "type": "box",
+          "size": [
+            11,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          -2.5,
+          5.6499999999999995,
+          10
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "TrainingPartitionPanel201",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.3,
+            5.8,
+            0.4
+          ]
+        },
+        "position": [
+          -12.85,
+          2.9,
+          2
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "TrainingPartitionRib202",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -17.88,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingPartitionBolt203",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -17.88,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionBolt204",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -17.88,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionRib205",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -15.379999999999999,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingPartitionBolt206",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -15.379999999999999,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionBolt207",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -15.379999999999999,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionRib208",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -12.879999999999999,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingPartitionBolt209",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -12.879999999999999,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionBolt210",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -12.879999999999999,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionRib211",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -10.379999999999999,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingPartitionBolt212",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -10.379999999999999,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionBolt213",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -10.379999999999999,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionRib214",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -7.879999999999999,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingPartitionBolt215",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -7.879999999999999,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionBolt216",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -7.879999999999999,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionRail217",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.3,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          -12.85,
+          0.15,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "TrainingPartitionRail218",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.3,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          -12.85,
+          5.6499999999999995,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "TrainingPartitionPanel219",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.3,
+            5.8,
+            0.4
+          ]
+        },
+        "position": [
+          0.8500000000000001,
+          2.9,
+          2
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "TrainingPartitionRib220",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -4.18,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingPartitionBolt221",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -4.18,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionBolt222",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -4.18,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionRib223",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          -1.6799999999999997,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingPartitionBolt224",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -1.6799999999999997,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionBolt225",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          -1.6799999999999997,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionRib226",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          0.8200000000000003,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingPartitionBolt227",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          0.8200000000000003,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionBolt228",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          0.8200000000000003,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionRib229",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          3.3200000000000003,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingPartitionBolt230",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          3.3200000000000003,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionBolt231",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          3.3200000000000003,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionRib232",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          5.82,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingPartitionBolt233",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          5.82,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionBolt234",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          5.82,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "TrainingPartitionRail235",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.3,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          0.8500000000000001,
+          0.15,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "TrainingPartitionRail236",
+        "shape": {
+          "type": "box",
+          "size": [
+            10.3,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          0.8500000000000001,
+          5.6499999999999995,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "TrainingPartitionPanel237",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4000000000000004,
+            2.1999999999999997,
+            0.4
+          ]
+        },
+        "position": [
+          -6,
+          4.7,
+          2
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "TrainingPartitionRail238",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4000000000000004,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          -6,
+          3.75,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "TrainingPartitionRail239",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4000000000000004,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          -6,
+          5.6499999999999995,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "ArmoryPartitionPanel240",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.300000000000001,
+            5.8,
+            0.4
+          ]
+        },
+        "position": [
+          8.15,
+          2.9,
+          2
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "ArmoryPartitionRib241",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          6.12,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ArmoryPartitionBolt242",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          6.12,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ArmoryPartitionBolt243",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          6.12,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ArmoryPartitionRib244",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          8.620000000000001,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ArmoryPartitionBolt245",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          8.620000000000001,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ArmoryPartitionBolt246",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          8.620000000000001,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ArmoryPartitionRail247",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.300000000000001,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          8.15,
+          0.15,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "ArmoryPartitionRail248",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.300000000000001,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          8.15,
+          5.6499999999999995,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "ArmoryPartitionPanel249",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.300000000000001,
+            5.8,
+            0.4
+          ]
+        },
+        "position": [
+          15.85,
+          2.9,
+          2
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "ArmoryPartitionRib250",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          13.819999999999999,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ArmoryPartitionBolt251",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          13.819999999999999,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ArmoryPartitionBolt252",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          13.819999999999999,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ArmoryPartitionRib253",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            5.8,
+            0.48
+          ]
+        },
+        "position": [
+          16.32,
+          2.9,
+          2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ArmoryPartitionBolt254",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          16.32,
+          0.3,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ArmoryPartitionBolt255",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.08,
+            0.5
+          ]
+        },
+        "position": [
+          16.32,
+          4.8,
+          2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "ArmoryPartitionRail256",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.300000000000001,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          15.85,
+          0.15,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "ArmoryPartitionRail257",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.300000000000001,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          15.85,
+          5.6499999999999995,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "ArmoryPartitionPanel258",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.3999999999999986,
+            2.1999999999999997,
+            0.4
+          ]
+        },
+        "position": [
+          12,
+          4.7,
+          2
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "ArmoryPartitionRail259",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.3999999999999986,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          12,
+          3.75,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "ArmoryPartitionRail260",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.3999999999999986,
+            0.12,
+            0.44
+          ]
+        },
+        "position": [
+          12,
+          5.6499999999999995,
+          2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RearDividerPanel261",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.4,
+            5.8,
+            18
+          ]
+        },
+        "position": [
+          6,
+          2.9,
+          -7
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "RearDividerRib262",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          6,
+          2.9,
+          -15.88
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RearDividerBolt263",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          0.3,
+          -15.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerBolt264",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          4.8,
+          -15.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerRib265",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          6,
+          2.9,
+          -13.38
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RearDividerBolt266",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          0.3,
+          -13.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerBolt267",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          4.8,
+          -13.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerRib268",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          6,
+          2.9,
+          -10.88
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RearDividerBolt269",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          0.3,
+          -10.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerBolt270",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          4.8,
+          -10.88
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerRib271",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          6,
+          2.9,
+          -8.38
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RearDividerBolt272",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          0.3,
+          -8.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerBolt273",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          4.8,
+          -8.38
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerRib274",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          6,
+          2.9,
+          -5.880000000000001
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RearDividerBolt275",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          0.3,
+          -5.880000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerBolt276",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          4.8,
+          -5.880000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerRib277",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          6,
+          2.9,
+          -3.380000000000001
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RearDividerBolt278",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          0.3,
+          -3.380000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerBolt279",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          4.8,
+          -3.380000000000001
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerRib280",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          6,
+          2.9,
+          -0.8800000000000008
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RearDividerBolt281",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          0.3,
+          -0.8800000000000008
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerBolt282",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          4.8,
+          -0.8800000000000008
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerRib283",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.48,
+            5.8,
+            0.12
+          ]
+        },
+        "position": [
+          6,
+          2.9,
+          1.6199999999999992
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RearDividerBolt284",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          0.3,
+          1.6199999999999992
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerBolt285",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.08,
+            0.08
+          ]
+        },
+        "position": [
+          6,
+          4.8,
+          1.6199999999999992
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RearDividerRail286",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.44,
+            0.12,
+            18
+          ]
+        },
+        "position": [
+          6,
+          0.15,
+          -7
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RearDividerRail287",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.44,
+            0.12,
+            18
+          ]
+        },
+        "position": [
+          6,
+          5.6499999999999995,
+          -7
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RoofHall",
+        "shape": {
+          "type": "box",
+          "size": [
+            36.5,
+            0.2,
+            14.05
+          ]
+        },
+        "position": [
+          0,
+          5.95,
+          9.225
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RoofHallSeam288",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            14.05
+          ]
+        },
+        "position": [
+          -18.2,
+          6.08,
+          9.225
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallSeam289",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            14.05
+          ]
+        },
+        "position": [
+          -14.2,
+          6.08,
+          9.225
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallSeam290",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            14.05
+          ]
+        },
+        "position": [
+          -10.2,
+          6.08,
+          9.225
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallSeam291",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            14.05
+          ]
+        },
+        "position": [
+          -6.199999999999999,
+          6.08,
+          9.225
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallSeam292",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            14.05
+          ]
+        },
+        "position": [
+          -2.1999999999999993,
+          6.08,
+          9.225
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallSeam293",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            14.05
+          ]
+        },
+        "position": [
+          1.8000000000000007,
+          6.08,
+          9.225
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallSeam294",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            14.05
+          ]
+        },
+        "position": [
+          5.800000000000001,
+          6.08,
+          9.225
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallSeam295",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            14.05
+          ]
+        },
+        "position": [
+          9.8,
+          6.08,
+          9.225
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallSeam296",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            14.05
+          ]
+        },
+        "position": [
+          13.8,
+          6.08,
+          9.225
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallSeam297",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            14.05
+          ]
+        },
+        "position": [
+          17.8,
+          6.08,
+          9.225
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallCross298",
+        "shape": {
+          "type": "box",
+          "size": [
+            36.5,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          0,
+          6.08,
+          2.25
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallCross299",
+        "shape": {
+          "type": "box",
+          "size": [
+            36.5,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          0,
+          6.08,
+          6.25
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallCross300",
+        "shape": {
+          "type": "box",
+          "size": [
+            36.5,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          0,
+          6.08,
+          10.25
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofHallCross301",
+        "shape": {
+          "type": "box",
+          "size": [
+            36.5,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          0,
+          6.08,
+          14.25
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTraining",
+        "shape": {
+          "type": "box",
+          "size": [
+            24.15,
+            0.2,
+            18.2
+          ]
+        },
+        "position": [
+          -6.175,
+          6.25,
+          -7.15
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RoofTrainingSeam302",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          -18.2,
+          6.38,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingSeam303",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          -14.2,
+          6.38,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingSeam304",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          -10.2,
+          6.38,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingSeam305",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          -6.199999999999999,
+          6.38,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingSeam306",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          -2.1999999999999993,
+          6.38,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingSeam307",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          1.8000000000000007,
+          6.38,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingSeam308",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          5.800000000000001,
+          6.38,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingCross309",
+        "shape": {
+          "type": "box",
+          "size": [
+            24.15,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          -6.175,
+          6.38,
+          -16.2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingCross310",
+        "shape": {
+          "type": "box",
+          "size": [
+            24.15,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          -6.175,
+          6.38,
+          -12.2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingCross311",
+        "shape": {
+          "type": "box",
+          "size": [
+            24.15,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          -6.175,
+          6.38,
+          -8.2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingCross312",
+        "shape": {
+          "type": "box",
+          "size": [
+            24.15,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          -6.175,
+          6.38,
+          -4.199999999999999
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofTrainingCross313",
+        "shape": {
+          "type": "box",
+          "size": [
+            24.15,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          -6.175,
+          6.38,
+          -0.1999999999999993
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofArmory",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.2,
+            0.2,
+            18.2
+          ]
+        },
+        "position": [
+          12.15,
+          5.95,
+          -7.15
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "RoofArmorySeam314",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          6.1,
+          6.08,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofArmorySeam315",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          10.1,
+          6.08,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofArmorySeam316",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          14.1,
+          6.08,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofArmorySeam317",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.07,
+            0.065,
+            18.2
+          ]
+        },
+        "position": [
+          18.1,
+          6.08,
+          -7.15
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofArmoryCross318",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.2,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          12.15,
+          6.08,
+          -16.2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofArmoryCross319",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.2,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          12.15,
+          6.08,
+          -12.2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofArmoryCross320",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.2,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          12.15,
+          6.08,
+          -8.2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofArmoryCross321",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.2,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          12.15,
+          6.08,
+          -4.199999999999999
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofArmoryCross322",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.2,
+            0.065,
+            0.07
+          ]
+        },
+        "position": [
+          12.15,
+          6.08,
+          -0.1999999999999993
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "RoofStep",
+        "shape": {
+          "type": "box",
+          "size": [
+            24.15,
+            0.5,
+            0.3
+          ]
+        },
+        "position": [
+          -6.175,
+          6,
+          2.05
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "Target323Base",
+        "shape": {
+          "type": "box",
+          "size": [
+            1,
+            0.2,
+            0.85
+          ]
+        },
+        "position": [
+          -14,
+          0.1,
+          -14.7
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Target323Post",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            1.5,
+            0.15
+          ]
+        },
+        "position": [
+          -14,
+          0.85,
+          -14.7
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Target323Plate",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.75,
+            1,
+            0.13
+          ]
+        },
+        "position": [
+          -14,
+          1.9,
+          -14.7
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "Target323Aim",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.35,
+            0.025
+          ]
+        },
+        "position": [
+          -14,
+          1.96,
+          -14.62
+        ],
+        "material": "red"
+      },
+      {
+        "id": "Stripe324",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -14,
+          0.001,
+          -10
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe325",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -14,
+          0.001,
+          -9.77
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe326",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -14,
+          0.001,
+          -9.54
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe327",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -14,
+          0.001,
+          -9.31
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe328",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -14,
+          0.001,
+          -9.08
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Target329Base",
+        "shape": {
+          "type": "box",
+          "size": [
+            1,
+            0.2,
+            0.85
+          ]
+        },
+        "position": [
+          -8,
+          0.1,
+          -14.7
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Target329Post",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            1.5,
+            0.15
+          ]
+        },
+        "position": [
+          -8,
+          0.85,
+          -14.7
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Target329Plate",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.75,
+            1,
+            0.13
+          ]
+        },
+        "position": [
+          -8,
+          1.9,
+          -14.7
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "Target329Aim",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.35,
+            0.025
+          ]
+        },
+        "position": [
+          -8,
+          1.96,
+          -14.62
+        ],
+        "material": "red"
+      },
+      {
+        "id": "Stripe330",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -8,
+          0.001,
+          -10
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe331",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -8,
+          0.001,
+          -9.77
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe332",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -8,
+          0.001,
+          -9.54
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe333",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -8,
+          0.001,
+          -9.31
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe334",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -8,
+          0.001,
+          -9.08
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Target335Base",
+        "shape": {
+          "type": "box",
+          "size": [
+            1,
+            0.2,
+            0.85
+          ]
+        },
+        "position": [
+          -2,
+          0.1,
+          -14.7
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Target335Post",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            1.5,
+            0.15
+          ]
+        },
+        "position": [
+          -2,
+          0.85,
+          -14.7
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Target335Plate",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.75,
+            1,
+            0.13
+          ]
+        },
+        "position": [
+          -2,
+          1.9,
+          -14.7
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "Target335Aim",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.35,
+            0.025
+          ]
+        },
+        "position": [
+          -2,
+          1.96,
+          -14.62
+        ],
+        "material": "red"
+      },
+      {
+        "id": "Stripe336",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -2,
+          0.001,
+          -10
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe337",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -2,
+          0.001,
+          -9.77
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe338",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -2,
+          0.001,
+          -9.54
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe339",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -2,
+          0.001,
+          -9.31
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe340",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          -2,
+          0.001,
+          -9.08
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Target341Base",
+        "shape": {
+          "type": "box",
+          "size": [
+            1,
+            0.2,
+            0.85
+          ]
+        },
+        "position": [
+          3,
+          0.1,
+          -14.7
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Target341Post",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.15,
+            1.5,
+            0.15
+          ]
+        },
+        "position": [
+          3,
+          0.85,
+          -14.7
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Target341Plate",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.75,
+            1,
+            0.13
+          ]
+        },
+        "position": [
+          3,
+          1.9,
+          -14.7
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "Target341Aim",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.35,
+            0.025
+          ]
+        },
+        "position": [
+          3,
+          1.96,
+          -14.62
+        ],
+        "material": "red"
+      },
+      {
+        "id": "Stripe342",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          3,
+          0.001,
+          -10
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe343",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          3,
+          0.001,
+          -9.77
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe344",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          3,
+          0.001,
+          -9.54
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe345",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          3,
+          0.001,
+          -9.31
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Stripe346",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.002,
+            0.09
+          ]
+        },
+        "position": [
+          3,
+          0.001,
+          -9.08
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "TrainingCoverA",
+        "shape": {
+          "type": "box",
+          "size": [
+            2,
+            1.25,
+            1.5
+          ]
+        },
+        "position": [
+          -14,
+          0.625,
+          -2
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "TrainingCoverABL",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.3,
+            1.56
+          ]
+        },
+        "position": [
+          -14.65,
+          0.65,
+          -2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingCoverABR",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.3,
+            1.56
+          ]
+        },
+        "position": [
+          -13.35,
+          0.65,
+          -2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingCoverB",
+        "shape": {
+          "type": "box",
+          "size": [
+            2,
+            1.25,
+            1.5
+          ]
+        },
+        "position": [
+          1,
+          0.625,
+          -3
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "TrainingCoverBBL",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.3,
+            1.56
+          ]
+        },
+        "position": [
+          0.35,
+          0.65,
+          -3
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TrainingCoverBBR",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.3,
+            1.56
+          ]
+        },
+        "position": [
+          1.65,
+          0.65,
+          -3
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BriefingTable",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.2,
+            0.9,
+            1.3
+          ]
+        },
+        "position": [
+          -13,
+          0.45,
+          12
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "BriefingTableTop",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.3,
+            0.12,
+            1.4
+          ]
+        },
+        "position": [
+          -13,
+          0.96,
+          12
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "MapDesk",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.2,
+            0.9,
+            1.3
+          ]
+        },
+        "position": [
+          13,
+          0.45,
+          12
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "MapDeskTop",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.3,
+            0.12,
+            1.4
+          ]
+        },
+        "position": [
+          13,
+          0.96,
+          12
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "HallCover",
+        "shape": {
+          "type": "box",
+          "size": [
+            2,
+            1.25,
+            1.5
+          ]
+        },
+        "position": [
+          -13,
+          0.625,
+          5
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "HallCoverBL",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.3,
+            1.56
+          ]
+        },
+        "position": [
+          -13.65,
+          0.65,
+          5
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "HallCoverBR",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.3,
+            1.56
+          ]
+        },
+        "position": [
+          -12.35,
+          0.65,
+          5
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Weapons347",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.3,
+            2.4,
+            0.85
+          ]
+        },
+        "position": [
+          16.1,
+          1.2,
+          -12
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Weapons347Door0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7116666666666666,
+            2.2,
+            0.05
+          ]
+        },
+        "position": [
+          15.333333333333336,
+          1.2,
+          -11.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Weapons347Handle0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          15.453333333333335,
+          1.3,
+          -11.5
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Weapons347Door1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7116666666666666,
+            2.2,
+            0.05
+          ]
+        },
+        "position": [
+          16.1,
+          1.2,
+          -11.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Weapons347Handle1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          16.220000000000002,
+          1.3,
+          -11.5
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Weapons347Door2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7116666666666666,
+            2.2,
+            0.05
+          ]
+        },
+        "position": [
+          16.866666666666667,
+          1.2,
+          -11.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Weapons347Handle2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          16.986666666666668,
+          1.3,
+          -11.5
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Weapons348",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.3,
+            2.4,
+            0.85
+          ]
+        },
+        "position": [
+          16.1,
+          1.2,
+          -7
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Weapons348Door0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7116666666666666,
+            2.2,
+            0.05
+          ]
+        },
+        "position": [
+          15.333333333333336,
+          1.2,
+          -6.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Weapons348Handle0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          15.453333333333335,
+          1.3,
+          -6.5
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Weapons348Door1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7116666666666666,
+            2.2,
+            0.05
+          ]
+        },
+        "position": [
+          16.1,
+          1.2,
+          -6.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Weapons348Handle1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          16.220000000000002,
+          1.3,
+          -6.5
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Weapons348Door2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7116666666666666,
+            2.2,
+            0.05
+          ]
+        },
+        "position": [
+          16.866666666666667,
+          1.2,
+          -6.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Weapons348Handle2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          16.986666666666668,
+          1.3,
+          -6.5
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Weapons349",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.3,
+            2.4,
+            0.85
+          ]
+        },
+        "position": [
+          16.1,
+          1.2,
+          -2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Weapons349Door0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7116666666666666,
+            2.2,
+            0.05
+          ]
+        },
+        "position": [
+          15.333333333333336,
+          1.2,
+          -1.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Weapons349Handle0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          15.453333333333335,
+          1.3,
+          -1.5
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Weapons349Door1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7116666666666666,
+            2.2,
+            0.05
+          ]
+        },
+        "position": [
+          16.1,
+          1.2,
+          -1.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Weapons349Handle1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          16.220000000000002,
+          1.3,
+          -1.5
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Weapons349Door2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7116666666666666,
+            2.2,
+            0.05
+          ]
+        },
+        "position": [
+          16.866666666666667,
+          1.2,
+          -1.54
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Weapons349Handle2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.04,
+            0.3,
+            0.1
+          ]
+        },
+        "position": [
+          16.986666666666668,
+          1.3,
+          -1.5
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "ArmoryBench",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.2,
+            0.9,
+            1.3
+          ]
+        },
+        "position": [
+          9.5,
+          0.45,
+          -14.2
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ArmoryBenchTop",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.3,
+            0.12,
+            1.4
+          ]
+        },
+        "position": [
+          9.5,
+          0.96,
+          -14.2
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "Exterior_SideBelt_0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            0.38,
+            32
+          ]
+        },
+        "position": [
+          -18.29,
+          3.8,
+          0
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_Buttress_1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.65,
+            5.7,
+            0.65
+          ]
+        },
+        "position": [
+          -18.35,
+          2.85,
+          -13
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Exterior_Cap_2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.3,
+            0.82
+          ]
+        },
+        "position": [
+          -18.35,
+          5.65,
+          -13
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Exterior_Buttress_3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.65,
+            5.7,
+            0.65
+          ]
+        },
+        "position": [
+          -18.35,
+          2.85,
+          0
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Exterior_Cap_4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.3,
+            0.82
+          ]
+        },
+        "position": [
+          -18.35,
+          5.65,
+          0
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Exterior_Buttress_5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.65,
+            5.7,
+            0.65
+          ]
+        },
+        "position": [
+          -18.35,
+          2.85,
+          13
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Exterior_Cap_6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.3,
+            0.82
+          ]
+        },
+        "position": [
+          -18.35,
+          5.65,
+          13
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Exterior_SideVent_7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.18,
+            1.35,
+            3.3
+          ]
+        },
+        "position": [
+          -18.37,
+          4.7,
+          -9
+        ],
+        "material": "vent"
+      },
+      {
+        "id": "Exterior_Louver_8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          -0.13,
+          -0.48,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_7"
+      },
+      {
+        "id": "Exterior_Louver_9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          -0.13,
+          -0.24,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_7"
+      },
+      {
+        "id": "Exterior_Louver_10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          -0.13,
+          0,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_7"
+      },
+      {
+        "id": "Exterior_Louver_11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          -0.13,
+          0.24,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_7"
+      },
+      {
+        "id": "Exterior_Louver_12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          -0.13,
+          0.48,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_7"
+      },
+      {
+        "id": "Exterior_SideVent_13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.18,
+            1.35,
+            3.3
+          ]
+        },
+        "position": [
+          -18.37,
+          4.7,
+          9
+        ],
+        "material": "vent"
+      },
+      {
+        "id": "Exterior_Louver_14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          -0.13,
+          -0.48,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_13"
+      },
+      {
+        "id": "Exterior_Louver_15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          -0.13,
+          -0.24,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_13"
+      },
+      {
+        "id": "Exterior_Louver_16",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          -0.13,
+          0,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_13"
+      },
+      {
+        "id": "Exterior_Louver_17",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          -0.13,
+          0.24,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_13"
+      },
+      {
+        "id": "Exterior_Louver_18",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          -0.13,
+          0.48,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_13"
+      },
+      {
+        "id": "Exterior_ServicePanel_19",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.35,
+            1.6,
+            2
+          ]
+        },
+        "position": [
+          -18.43,
+          1.4,
+          -3
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_PanelFace_20",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.35,
+            1.75
+          ]
+        },
+        "position": [
+          -0.22,
+          0,
+          0
+        ],
+        "material": "panel",
+        "parent": "Exterior_ServicePanel_19"
+      },
+      {
+        "id": "Exterior_Warning_21",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            0.18,
+            0.8
+          ]
+        },
+        "position": [
+          -0.27,
+          0.25,
+          0
+        ],
+        "material": "yellow",
+        "parent": "Exterior_ServicePanel_19"
+      },
+      {
+        "id": "Exterior_SideBelt_22",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.16,
+            0.38,
+            32
+          ]
+        },
+        "position": [
+          18.29,
+          3.8,
+          0
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_Buttress_23",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.65,
+            5.7,
+            0.65
+          ]
+        },
+        "position": [
+          18.35,
+          2.85,
+          -13
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Exterior_Cap_24",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.3,
+            0.82
+          ]
+        },
+        "position": [
+          18.35,
+          5.65,
+          -13
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Exterior_Buttress_25",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.65,
+            5.7,
+            0.65
+          ]
+        },
+        "position": [
+          18.35,
+          2.85,
+          0
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Exterior_Cap_26",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.3,
+            0.82
+          ]
+        },
+        "position": [
+          18.35,
+          5.65,
+          0
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Exterior_Buttress_27",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.65,
+            5.7,
+            0.65
+          ]
+        },
+        "position": [
+          18.35,
+          2.85,
+          13
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Exterior_Cap_28",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.82,
+            0.3,
+            0.82
+          ]
+        },
+        "position": [
+          18.35,
+          5.65,
+          13
+        ],
+        "material": "trim"
+      },
+      {
+        "id": "Exterior_SideVent_29",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.18,
+            1.35,
+            3.3
+          ]
+        },
+        "position": [
+          18.37,
+          4.7,
+          -9
+        ],
+        "material": "vent"
+      },
+      {
+        "id": "Exterior_Louver_30",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          0.13,
+          -0.48,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_29"
+      },
+      {
+        "id": "Exterior_Louver_31",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          0.13,
+          -0.24,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_29"
+      },
+      {
+        "id": "Exterior_Louver_32",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          0.13,
+          0,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_29"
+      },
+      {
+        "id": "Exterior_Louver_33",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          0.13,
+          0.24,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_29"
+      },
+      {
+        "id": "Exterior_Louver_34",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          0.13,
+          0.48,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_29"
+      },
+      {
+        "id": "Exterior_SideVent_35",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.18,
+            1.35,
+            3.3
+          ]
+        },
+        "position": [
+          18.37,
+          4.7,
+          9
+        ],
+        "material": "vent"
+      },
+      {
+        "id": "Exterior_Louver_36",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          0.13,
+          -0.48,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_35"
+      },
+      {
+        "id": "Exterior_Louver_37",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          0.13,
+          -0.24,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_35"
+      },
+      {
+        "id": "Exterior_Louver_38",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          0.13,
+          0,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_35"
+      },
+      {
+        "id": "Exterior_Louver_39",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          0.13,
+          0.24,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_35"
+      },
+      {
+        "id": "Exterior_Louver_40",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.08,
+            3.05
+          ]
+        },
+        "position": [
+          0.13,
+          0.48,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_SideVent_35"
+      },
+      {
+        "id": "Exterior_ServicePanel_41",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.35,
+            1.6,
+            2
+          ]
+        },
+        "position": [
+          18.43,
+          1.4,
+          -3
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_PanelFace_42",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.35,
+            1.75
+          ]
+        },
+        "position": [
+          0.22,
+          0,
+          0
+        ],
+        "material": "panel",
+        "parent": "Exterior_ServicePanel_41"
+      },
+      {
+        "id": "Exterior_Warning_43",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.09,
+            0.18,
+            0.8
+          ]
+        },
+        "position": [
+          0.27,
+          0.25,
+          0
+        ],
+        "material": "yellow",
+        "parent": "Exterior_ServicePanel_41"
+      },
+      {
+        "id": "Exterior_HeaderBand_44",
+        "shape": {
+          "type": "box",
+          "size": [
+            36,
+            0.3,
+            0.18
+          ]
+        },
+        "position": [
+          0,
+          5.4,
+          -16.3
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_CornerArmor_45",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.85,
+            5.6,
+            0.2
+          ]
+        },
+        "position": [
+          -17.6,
+          2.8,
+          -16.34
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_CornerArmor_46",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.85,
+            5.6,
+            0.2
+          ]
+        },
+        "position": [
+          17.6,
+          2.8,
+          -16.34
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_HeaderBand_47",
+        "shape": {
+          "type": "box",
+          "size": [
+            36,
+            0.3,
+            0.18
+          ]
+        },
+        "position": [
+          0,
+          5.4,
+          16.3
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_CornerArmor_48",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.85,
+            5.6,
+            0.2
+          ]
+        },
+        "position": [
+          -17.6,
+          2.8,
+          16.34
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_CornerArmor_49",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.85,
+            5.6,
+            0.2
+          ]
+        },
+        "position": [
+          17.6,
+          2.8,
+          16.34
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_Canopy_50",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.24,
+            1.65
+          ]
+        },
+        "position": [
+          0,
+          4.25,
+          16.8
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_CanopyTrim_51",
+        "shape": {
+          "type": "box",
+          "size": [
+            7,
+            0.18,
+            0.13
+          ]
+        },
+        "position": [
+          0,
+          4.25,
+          17.62
+        ],
+        "material": "yellow"
+      },
+      {
+        "id": "Exterior_EntranceSign_52",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.6,
+            0.9,
+            0.16
+          ]
+        },
+        "position": [
+          0,
+          5.15,
+          16.43
+        ],
+        "material": "vent"
+      },
+      {
+        "id": "Exterior_SignTop_53",
+        "shape": {
+          "type": "box",
+          "size": [
+            5.4,
+            0.06,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0.36,
+          0.11
+        ],
+        "material": "trim",
+        "parent": "Exterior_EntranceSign_52"
+      },
+      {
+        "id": "Exterior_IDBar_54",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.18,
+            0.46,
+            0.04
+          ]
+        },
+        "position": [
+          1.5,
+          0,
+          0.12
+        ],
+        "material": "mark",
+        "parent": "Exterior_EntranceSign_52"
+      },
+      {
+        "id": "Exterior_IDBar_55",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.18,
+            0.46,
+            0.04
+          ]
+        },
+        "position": [
+          1.88,
+          0,
+          0.12
+        ],
+        "material": "mark",
+        "parent": "Exterior_EntranceSign_52"
+      },
+      {
+        "id": "Exterior_Crest_56",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.46,
+            0.46,
+            0.06
+          ]
+        },
+        "position": [
+          -1.8,
+          0,
+          0.12
+        ],
+        "material": "yellow",
+        "parent": "Exterior_EntranceSign_52",
+        "rotation": [
+          0,
+          0,
+          45
+        ]
+      },
+      {
+        "id": "Exterior_CrestWing_57",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.1,
+            0.1,
+            0.07
+          ]
+        },
+        "position": [
+          -1.8,
+          0,
+          0.13
+        ],
+        "material": "yellow",
+        "parent": "Exterior_EntranceSign_52"
+      },
+      {
+        "id": "Exterior_LightHousing_58",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            0.3,
+            0.45
+          ]
+        },
+        "position": [
+          -3.9,
+          3.9,
+          16.5
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_LightFace_59",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6,
+            0.16,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          -0.02,
+          0.25
+        ],
+        "material": "mark",
+        "parent": "Exterior_LightHousing_58"
+      },
+      {
+        "id": "Exterior_LightHousing_60",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.8,
+            0.3,
+            0.45
+          ]
+        },
+        "position": [
+          3.9,
+          3.9,
+          16.5
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_LightFace_61",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6,
+            0.16,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          -0.02,
+          0.25
+        ],
+        "material": "mark",
+        "parent": "Exterior_LightHousing_60"
+      },
+      {
+        "id": "Exterior_FacadePanel_62",
+        "shape": {
+          "type": "box",
+          "size": [
+            5,
+            2.2,
+            0.13
+          ]
+        },
+        "position": [
+          -12,
+          2.7,
+          16.33
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Exterior_FacadeStripe_63",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.6,
+            0.2,
+            0.04
+          ]
+        },
+        "position": [
+          0,
+          -0.75,
+          0.1
+        ],
+        "material": "yellow",
+        "parent": "Exterior_FacadePanel_62"
+      },
+      {
+        "id": "Exterior_Brace_64",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            0.1,
+            0.08
+          ]
+        },
+        "position": [
+          -1.05,
+          0.15,
+          0.12
+        ],
+        "material": "trim",
+        "parent": "Exterior_FacadePanel_62",
+        "rotation": [
+          0,
+          0,
+          -32
+        ]
+      },
+      {
+        "id": "Exterior_Brace_65",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            0.1,
+            0.08
+          ]
+        },
+        "position": [
+          1.05,
+          0.15,
+          0.12
+        ],
+        "material": "trim",
+        "parent": "Exterior_FacadePanel_62",
+        "rotation": [
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "id": "Exterior_FacadePanel_66",
+        "shape": {
+          "type": "box",
+          "size": [
+            5,
+            2.2,
+            0.13
+          ]
+        },
+        "position": [
+          11,
+          2.7,
+          16.33
+        ],
+        "material": "steel"
+      },
+      {
+        "id": "Exterior_FacadeStripe_67",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.6,
+            0.2,
+            0.04
+          ]
+        },
+        "position": [
+          0,
+          -0.75,
+          0.1
+        ],
+        "material": "yellow",
+        "parent": "Exterior_FacadePanel_66"
+      },
+      {
+        "id": "Exterior_Brace_68",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            0.1,
+            0.08
+          ]
+        },
+        "position": [
+          -1.05,
+          0.15,
+          0.12
+        ],
+        "material": "trim",
+        "parent": "Exterior_FacadePanel_66",
+        "rotation": [
+          0,
+          0,
+          -32
+        ]
+      },
+      {
+        "id": "Exterior_Brace_69",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            0.1,
+            0.08
+          ]
+        },
+        "position": [
+          1.05,
+          0.15,
+          0.12
+        ],
+        "material": "trim",
+        "parent": "Exterior_FacadePanel_66",
+        "rotation": [
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "id": "Exterior_Parapet_70",
+        "shape": {
+          "type": "box",
+          "size": [
+            35.8,
+            0.65,
+            0.18
+          ]
+        },
+        "position": [
+          0,
+          6.45,
+          -15.9
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_Parapet_71",
+        "shape": {
+          "type": "box",
+          "size": [
+            35.8,
+            0.65,
+            0.18
+          ]
+        },
+        "position": [
+          0,
+          6.45,
+          15.9
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_Parapet_72",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.18,
+            0.65,
+            31.8
+          ]
+        },
+        "position": [
+          -17.9,
+          6.45,
+          0
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_Parapet_73",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.18,
+            0.65,
+            31.8
+          ]
+        },
+        "position": [
+          17.9,
+          6.45,
+          0
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_UpperCommand_74",
+        "shape": {
+          "type": "box",
+          "size": [
+            11,
+            3.3,
+            7
+          ]
+        },
+        "position": [
+          7,
+          7.72,
+          8
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "Exterior_UpperBase_75",
+        "shape": {
+          "type": "box",
+          "size": [
+            11.4,
+            0.24,
+            7.4
+          ]
+        },
+        "position": [
+          0,
+          -1.48,
+          0
+        ],
+        "material": "dark",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_UpperCap_76",
+        "shape": {
+          "type": "box",
+          "size": [
+            11.7,
+            0.3,
+            7.7
+          ]
+        },
+        "position": [
+          0,
+          1.77,
+          0
+        ],
+        "material": "dark",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowFrame_77",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.9,
+            1.25,
+            0.13
+          ]
+        },
+        "position": [
+          -3.6,
+          0.35,
+          -3.54
+        ],
+        "material": "dark",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_Window_78",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.65,
+            1.02,
+            0.06
+          ]
+        },
+        "position": [
+          -3.6,
+          0.35,
+          -3.62
+        ],
+        "material": "glass",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowMullion_79",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.12,
+            0.07
+          ]
+        },
+        "position": [
+          -3.6,
+          0.35,
+          -3.67
+        ],
+        "material": "trim",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowFrame_80",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.9,
+            1.25,
+            0.13
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          -3.54
+        ],
+        "material": "dark",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_Window_81",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.65,
+            1.02,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          -3.62
+        ],
+        "material": "glass",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowMullion_82",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.12,
+            0.07
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          -3.67
+        ],
+        "material": "trim",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowFrame_83",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.9,
+            1.25,
+            0.13
+          ]
+        },
+        "position": [
+          3.6,
+          0.35,
+          -3.54
+        ],
+        "material": "dark",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_Window_84",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.65,
+            1.02,
+            0.06
+          ]
+        },
+        "position": [
+          3.6,
+          0.35,
+          -3.62
+        ],
+        "material": "glass",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowMullion_85",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.12,
+            0.07
+          ]
+        },
+        "position": [
+          3.6,
+          0.35,
+          -3.67
+        ],
+        "material": "trim",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowFrame_86",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.9,
+            1.25,
+            0.13
+          ]
+        },
+        "position": [
+          -3.6,
+          0.35,
+          3.54
+        ],
+        "material": "dark",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_Window_87",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.65,
+            1.02,
+            0.06
+          ]
+        },
+        "position": [
+          -3.6,
+          0.35,
+          3.62
+        ],
+        "material": "glass",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowMullion_88",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.12,
+            0.07
+          ]
+        },
+        "position": [
+          -3.6,
+          0.35,
+          3.67
+        ],
+        "material": "trim",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowFrame_89",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.9,
+            1.25,
+            0.13
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          3.54
+        ],
+        "material": "dark",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_Window_90",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.65,
+            1.02,
+            0.06
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          3.62
+        ],
+        "material": "glass",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowMullion_91",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.12,
+            0.07
+          ]
+        },
+        "position": [
+          0,
+          0.35,
+          3.67
+        ],
+        "material": "trim",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowFrame_92",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.9,
+            1.25,
+            0.13
+          ]
+        },
+        "position": [
+          3.6,
+          0.35,
+          3.54
+        ],
+        "material": "dark",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_Window_93",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.65,
+            1.02,
+            0.06
+          ]
+        },
+        "position": [
+          3.6,
+          0.35,
+          3.62
+        ],
+        "material": "glass",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_WindowMullion_94",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            1.12,
+            0.07
+          ]
+        },
+        "position": [
+          3.6,
+          0.35,
+          3.67
+        ],
+        "material": "trim",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_UpperSideStripe_95",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.4,
+            6.3
+          ]
+        },
+        "position": [
+          -5.54,
+          -0.65,
+          0
+        ],
+        "material": "yellow",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_UpperSideStripe_96",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.08,
+            0.4,
+            6.3
+          ]
+        },
+        "position": [
+          5.54,
+          -0.65,
+          0
+        ],
+        "material": "yellow",
+        "parent": "Exterior_UpperCommand_74"
+      },
+      {
+        "id": "Exterior_HVAC_97",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.2,
+            1.25,
+            2.3
+          ]
+        },
+        "position": [
+          -11,
+          6.995,
+          -9
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "Exterior_HVACTop_98",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4,
+            0.12,
+            2.5
+          ]
+        },
+        "position": [
+          0,
+          0.7,
+          0
+        ],
+        "material": "trim",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACDark_99",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.7,
+            0.8,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0,
+          -1.18
+        ],
+        "material": "vent",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_100",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -1.15,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_101",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -0.69,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_102",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -0.22999999999999987,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_103",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          0.2300000000000002,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_104",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          0.6900000000000002,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_105",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          1.1500000000000004,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACDark_106",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.7,
+            0.8,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0,
+          1.18
+        ],
+        "material": "vent",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_107",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -1.15,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_108",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -0.69,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_109",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -0.22999999999999987,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_110",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          0.2300000000000002,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_111",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          0.6900000000000002,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVACSlat_112",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          1.1500000000000004,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_97"
+      },
+      {
+        "id": "Exterior_HVAC_113",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.2,
+            1.25,
+            2.3
+          ]
+        },
+        "position": [
+          -6,
+          6.995,
+          -9
+        ],
+        "material": "panel"
+      },
+      {
+        "id": "Exterior_HVACTop_114",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.4,
+            0.12,
+            2.5
+          ]
+        },
+        "position": [
+          0,
+          0.7,
+          0
+        ],
+        "material": "trim",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACDark_115",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.7,
+            0.8,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0,
+          -1.18
+        ],
+        "material": "vent",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_116",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -1.15,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_117",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -0.69,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_118",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -0.22999999999999987,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_119",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          0.2300000000000002,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_120",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          0.6900000000000002,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_121",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          1.1500000000000004,
+          0,
+          -1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACDark_122",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.7,
+            0.8,
+            0.05
+          ]
+        },
+        "position": [
+          0,
+          0,
+          1.18
+        ],
+        "material": "vent",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_123",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -1.15,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_124",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -0.69,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_125",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          -0.22999999999999987,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_126",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          0.2300000000000002,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_127",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          0.6900000000000002,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_HVACSlat_128",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.8,
+            0.06
+          ]
+        },
+        "position": [
+          1.1500000000000004,
+          0,
+          1.22
+        ],
+        "material": "edge",
+        "parent": "Exterior_HVAC_113"
+      },
+      {
+        "id": "Exterior_Duct_129",
+        "shape": {
+          "type": "box",
+          "size": [
+            2,
+            0.8,
+            7
+          ]
+        },
+        "position": [
+          -8.5,
+          6.85,
+          -4.5
+        ],
+        "material": "edge"
+      },
+      {
+        "id": "Exterior_CommsBase_130",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.8,
+            0.6,
+            1.8
+          ]
+        },
+        "position": [
+          8,
+          9.9,
+          8
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_Mast_131",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.17,
+            4,
+            0.17
+          ]
+        },
+        "position": [
+          0,
+          2,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_CommsBase_130"
+      },
+      {
+        "id": "Exterior_Antenna_132",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            0.09,
+            0.09
+          ]
+        },
+        "position": [
+          0,
+          1.3,
+          0
+        ],
+        "material": "trim",
+        "parent": "Exterior_CommsBase_130"
+      },
+      {
+        "id": "Exterior_Antenna_133",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            0.09,
+            0.09
+          ]
+        },
+        "position": [
+          0,
+          2.3,
+          0
+        ],
+        "material": "trim",
+        "parent": "Exterior_CommsBase_130"
+      },
+      {
+        "id": "Exterior_Antenna_134",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.6,
+            0.09,
+            0.09
+          ]
+        },
+        "position": [
+          0,
+          3.2,
+          0
+        ],
+        "material": "trim",
+        "parent": "Exterior_CommsBase_130"
+      },
+      {
+        "id": "Exterior_Beacon_135",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.23,
+            0.25,
+            0.23
+          ]
+        },
+        "position": [
+          0,
+          4.1,
+          0
+        ],
+        "material": "red",
+        "parent": "Exterior_CommsBase_130"
+      },
+      {
+        "id": "Exterior_Exhaust_136",
+        "shape": {
+          "type": "box",
+          "size": [
+            1,
+            1.8,
+            1
+          ]
+        },
+        "position": [
+          -14,
+          7.3,
+          -13
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_ExhaustHat_137",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.6,
+            0.15,
+            1.6
+          ]
+        },
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_Exhaust_136"
+      },
+      {
+        "id": "Exterior_Exhaust_138",
+        "shape": {
+          "type": "box",
+          "size": [
+            1,
+            1.8,
+            1
+          ]
+        },
+        "position": [
+          -2,
+          7.3,
+          -13
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "Exterior_ExhaustHat_139",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.6,
+            0.15,
+            1.6
+          ]
+        },
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "material": "edge",
+        "parent": "Exterior_Exhaust_138"
+      }
+    ],
+    "sockets": []
+  },
+  "roofMode": "full",
+  "doors": [
+    {
+      "id": "M01",
+      "asset": "FSA_ENV_Door_MilitarySlide",
+      "position": [
+        -6,
+        0,
+        2.48
+      ],
+      "yaw": 0,
+      "pocket": "M01Pocket"
+    },
+    {
+      "id": "M02",
+      "asset": "FSA_ENV_Door_MilitarySlide",
+      "position": [
+        12,
+        0,
+        2.48
+      ],
+      "yaw": 0,
+      "pocket": "M02Pocket"
+    }
+  ]
+}

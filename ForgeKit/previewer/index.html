@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ForgeKit 资产预览</title><link rel="stylesheet" href="previewer.css"></head>
+<body>
+<header><strong>ForgeKit</strong><label class="button">选择资产目录<input id="folder" type="file" webkitdirectory multiple></label><button id="reload">重新加载</button>
+<label>模型 <select id="model"><option value="">请选择正式或 legacy 的 generated/</option></select></label>
+<label>动画 <select id="animation"><option value="">None</option></select></label>
+<label>预览武器 <select id="weapon" disabled><option value="">None</option></select></label>
+<label><input id="axes" type="checkbox">坐标轴</label><label><input id="bounds" type="checkbox">包围盒</label><label><input id="skeleton" type="checkbox">骨架</label><label><input id="useCameraSocket" type="checkbox">使用相机点位</label><label><input id="hideGround" type="checkbox">隐藏地面</label></header>
+<main id="viewport" tabindex="0" aria-label="三维模型预览"></main>
+<footer><div id="status" role="status">选择资产库下的 generated/，仅识别 models/ 和 animations/。</div><div id="details">Model: — · Rig: — · Animation: None</div><small>点击锁定鼠标或按住左键拖动转向 · WASD 移动 · Q/E 升降 · Shift 加速 · F 聚焦 · R 重置 · Esc 释放。相机点位启用时固定视角；隐藏地面同时隐藏网格。文件更新后请重新选择目录。</small></footer>
+<script src="vendor/three-gltf.js"></script><script src="runtime.js"></script><script src="previewer.js"></script>
+</body></html>

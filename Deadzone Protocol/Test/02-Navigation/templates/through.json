@@ -1,0 +1,499 @@
+{
+  "schemaVersion": "world-assets.v1",
+  "templateId": "through",
+  "label": "双出口单间",
+  "visualAsset": "generated/models/through.glb",
+  "size": [
+    10,
+    10
+  ],
+  "floorElevation": 0.4,
+  "clearHeight": 3.8,
+  "doorWidth": 3.6,
+  "doorHeight": 3.6,
+  "foundation": {
+    "min": [
+      -5,
+      0,
+      -5
+    ],
+    "max": [
+      5,
+      0.4,
+      5
+    ]
+  },
+  "reservation": {
+    "min": [
+      -6,
+      -10
+    ],
+    "max": [
+      6,
+      10
+    ]
+  },
+  "colliders": [
+    {
+      "id": "floor",
+      "role": "floor",
+      "shape": "box",
+      "size": [
+        10,
+        0.4,
+        10
+      ],
+      "position": [
+        0,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_left",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        0.3,
+        3.8,
+        10
+      ],
+      "position": [
+        -4.85,
+        2.3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_right",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        0.3,
+        3.8,
+        10
+      ],
+      "position": [
+        4.85,
+        2.3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_back_L",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.2,
+        3.8,
+        0.3
+      ],
+      "position": [
+        -3.4000000000000004,
+        2.3,
+        -4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_back_R",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.2,
+        3.8,
+        0.3
+      ],
+      "position": [
+        3.4000000000000004,
+        2.3,
+        -4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lintel_back",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.6,
+        0.19999999999999973,
+        0.3
+      ],
+      "position": [
+        0,
+        4.1,
+        -4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ramp_back",
+      "role": "ramp",
+      "shape": "box",
+      "size": [
+        3.6,
+        0.12,
+        3.026549190084311
+      ],
+      "position": [
+        0,
+        0.14052632595904194,
+        -6.492070176794539
+      ],
+      "rotation": [
+        -0.13255153229667402,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_front_L",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.2,
+        3.8,
+        0.3
+      ],
+      "position": [
+        -3.4000000000000004,
+        2.3,
+        4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wall_front_R",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.2,
+        3.8,
+        0.3
+      ],
+      "position": [
+        3.4000000000000004,
+        2.3,
+        4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lintel_front",
+      "role": "wall",
+      "shape": "box",
+      "size": [
+        3.6,
+        0.19999999999999973,
+        0.3
+      ],
+      "position": [
+        0,
+        4.1,
+        4.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ramp_front",
+      "role": "ramp",
+      "shape": "box",
+      "size": [
+        3.6,
+        0.12,
+        3.026549190084311
+      ],
+      "position": [
+        0,
+        0.14052632595904194,
+        6.492070176794539
+      ],
+      "rotation": [
+        0.13255153229667402,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "roof",
+      "role": "roof",
+      "shape": "box",
+      "size": [
+        10.3,
+        0.3,
+        10.3
+      ],
+      "position": [
+        0,
+        4.3500000000000005,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "walkableSurfaces": [
+    {
+      "surfaceId": "interior-floor",
+      "kind": "floor",
+      "polygon": [
+        [
+          -5,
+          0.4,
+          -5
+        ],
+        [
+          5,
+          0.4,
+          -5
+        ],
+        [
+          5,
+          0.4,
+          5
+        ],
+        [
+          -5,
+          0.4,
+          5
+        ]
+      ],
+      "colliderId": "floor",
+      "subtractBlockers": "wall colliders; complete floor polygon includes doorway thresholds"
+    },
+    {
+      "surfaceId": "ramp_back",
+      "kind": "ramp",
+      "polygon": [
+        [
+          -1.8,
+          0.4,
+          -5
+        ],
+        [
+          1.8,
+          0.4,
+          -5
+        ],
+        [
+          1.8,
+          0,
+          -8
+        ],
+        [
+          -1.8,
+          0,
+          -8
+        ]
+      ],
+      "colliderId": "ramp_back"
+    },
+    {
+      "surfaceId": "ramp_front",
+      "kind": "ramp",
+      "polygon": [
+        [
+          -1.8,
+          0.4,
+          5
+        ],
+        [
+          1.8,
+          0.4,
+          5
+        ],
+        [
+          1.8,
+          0,
+          8
+        ],
+        [
+          -1.8,
+          0,
+          8
+        ]
+      ],
+      "colliderId": "ramp_front"
+    }
+  ],
+  "entrances": [
+    {
+      "entranceId": "through--1",
+      "width": 3.6,
+      "clearHeight": 3.6,
+      "top": [
+        0,
+        0.4,
+        -5
+      ],
+      "bottom": [
+        0,
+        0,
+        -8
+      ],
+      "rampLength": 3,
+      "slopeDegrees": 7.594643368591445,
+      "landing": {
+        "min": [
+          -1.8,
+          -10
+        ],
+        "max": [
+          1.8,
+          -8
+        ]
+      },
+      "surfaceId": "ramp_back"
+    },
+    {
+      "entranceId": "through-1",
+      "width": 3.6,
+      "clearHeight": 3.6,
+      "top": [
+        0,
+        0.4,
+        5
+      ],
+      "bottom": [
+        0,
+        0,
+        8
+      ],
+      "rampLength": 3,
+      "slopeDegrees": 7.594643368591445,
+      "landing": {
+        "min": [
+          -1.8,
+          8
+        ],
+        "max": [
+          1.8,
+          10
+        ]
+      },
+      "surfaceId": "ramp_front"
+    }
+  ],
+  "interiorRegions": [
+    {
+      "regionId": "through-storage",
+      "tags": [
+        "indoor",
+        "loot-candidate"
+      ],
+      "min": [
+        -4.2,
+        -1.8
+      ],
+      "max": [
+        -2.4,
+        1.8
+      ],
+      "heightSource": "interior-floor",
+      "floorY": 0.4
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "entry--1",
+      "reason": "entrance-ramp-turning",
+      "min": [
+        -2.1,
+        -10
+      ],
+      "max": [
+        2.1,
+        -3
+      ]
+    },
+    {
+      "id": "entry-1",
+      "reason": "entrance-ramp-turning",
+      "min": [
+        -2.1,
+        3
+      ],
+      "max": [
+        2.1,
+        10
+      ]
+    },
+    {
+      "id": "main-route",
+      "reason": "main-circulation",
+      "polyline": [
+        [
+          0,
+          0.4,
+          -5
+        ],
+        [
+          0,
+          0.4,
+          5
+        ]
+      ],
+      "radius": 1.65
+    }
+  ],
+  "connections": {
+    "polyline": [
+      [
+        0,
+        0.4,
+        -5
+      ],
+      [
+        0,
+        0.4,
+        5
+      ]
+    ],
+    "clearWidth": 3.3,
+    "from": "through--1",
+    "to": "through-1"
+  }
+}

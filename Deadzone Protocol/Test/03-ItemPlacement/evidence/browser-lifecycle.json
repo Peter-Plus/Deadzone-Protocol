@@ -1,0 +1,122 @@
+[
+  {
+    "meshes": 102,
+    "labels": 125,
+    "materials": 8,
+    "memory": {
+      "geometries": 254,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 124,
+    "materials": 8,
+    "memory": {
+      "geometries": 254,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 102,
+    "labels": 125,
+    "materials": 8,
+    "memory": {
+      "geometries": 254,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 124,
+    "materials": 8,
+    "memory": {
+      "geometries": 254,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 102,
+    "labels": 125,
+    "materials": 8,
+    "memory": {
+      "geometries": 254,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 124,
+    "materials": 8,
+    "memory": {
+      "geometries": 254,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 102,
+    "labels": 125,
+    "materials": 8,
+    "memory": {
+      "geometries": 254,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 124,
+    "materials": 8,
+    "memory": {
+      "geometries": 254,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 124,
+    "materials": 8,
+    "memory": {
+      "geometries": 254,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 100,
+    "labels": 121,
+    "materials": 8,
+    "memory": {
+      "geometries": 270,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 101,
+    "labels": 124,
+    "materials": 8,
+    "memory": {
+      "geometries": 254,
+      "textures": 0
+    },
+    "bodies": 31
+  },
+  {
+    "meshes": 100,
+    "labels": 121,
+    "materials": 8,
+    "memory": {
+      "geometries": 270,
+      "textures": 0
+    },
+    "bodies": 31
+  }
+]

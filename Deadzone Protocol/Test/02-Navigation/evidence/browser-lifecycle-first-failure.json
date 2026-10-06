@@ -1,0 +1,5 @@
+{
+  "message": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(Math.max(...memory.map(x=>x.renderer.geometries))-Math.min(...memory.map(x=>x.renderer.geometries))<10)\n\n    at file:///G:/Game/Fire/Deadzone%20Protocol/Test/02-Navigation/src/browser-check.mjs:15:421",
+  "exceptions": [],
+  "external": []
+}

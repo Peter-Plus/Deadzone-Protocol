@@ -1,0 +1,3008 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "effect.v1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "initialState": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+    },
+    "states": {
+      "type": "object",
+      "minProperties": 1,
+      "maxProperties": 32,
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "duration": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 600
+          },
+          "loop": {
+            "type": "boolean"
+          },
+          "next": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+          }
+        },
+        "required": [
+          "duration",
+          "loop"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "variants": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+      },
+      "maxProperties": 16,
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^#[0-9a-fA-F]{6}$"
+      }
+    },
+    "textures": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+      },
+      "maxProperties": 16,
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "source": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              }
+            },
+            "required": [
+              "source"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "string",
+                "pattern": "^data:image/png;base64,[A-Za-z0-9+/]+={0,2}$",
+                "maxLength": 12000000
+              }
+            },
+            "required": [
+              "data"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "binding": {
+      "type": "object",
+      "properties": {
+        "model": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+        },
+        "animation": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+        },
+        "attachment": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+        },
+        "animationStates": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+          },
+          "additionalProperties": {
+            "enum": [
+              "time",
+              "end",
+              "rest"
+            ]
+          }
+        }
+      },
+      "required": [
+        "model",
+        "attachment"
+      ],
+      "additionalProperties": false
+    },
+    "layers": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "profiles": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 32,
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "strength": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "radius": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "strength"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "kind": {
+                "const": "burst"
+              },
+              "texture": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 256
+              },
+              "capacity": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 128
+              },
+              "duration": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "lifeRange": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "speed": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 10000
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "size": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 10000
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "stretch": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 10000
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "gravity": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "lift": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "normalOffset": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "spread": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "normalWeight": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 10000
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "shrink": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "fadeStart": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "render": {
+                "type": "object",
+                "properties": {
+                  "color": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-fA-F]{6}$"
+                  },
+                  "opacity": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "depthTest": {
+                    "type": "boolean"
+                  },
+                  "depthWrite": {
+                    "type": "boolean"
+                  },
+                  "blend": {
+                    "enum": [
+                      "normal",
+                      "additive"
+                    ]
+                  }
+                },
+                "required": [
+                  "color",
+                  "opacity",
+                  "depthTest",
+                  "depthWrite",
+                  "blend"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "profiles",
+              "kind",
+              "texture",
+              "count",
+              "capacity",
+              "duration",
+              "lifeRange",
+              "speed",
+              "size",
+              "stretch",
+              "gravity",
+              "lift",
+              "normalOffset",
+              "spread",
+              "normalWeight",
+              "shrink",
+              "fadeStart",
+              "render"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "profiles": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 32,
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "strength": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "radius": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "strength"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "kind": {
+                "const": "orbit"
+              },
+              "variant": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "shape": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "type": {
+                        "const": "cone"
+                      },
+                      "radius": {
+                        "type": "number",
+                        "exclusiveMinimum": 0,
+                        "maximum": 10000
+                      },
+                      "height": {
+                        "type": "number",
+                        "exclusiveMinimum": 0,
+                        "maximum": 10000
+                      },
+                      "segments": {
+                        "type": "integer",
+                        "minimum": 3,
+                        "maximum": 32
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "radius",
+                      "height",
+                      "segments"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "type": {
+                        "const": "sphere"
+                      },
+                      "radius": {
+                        "type": "number",
+                        "exclusiveMinimum": 0,
+                        "maximum": 10000
+                      },
+                      "widthSegments": {
+                        "type": "integer",
+                        "minimum": 3,
+                        "maximum": 32
+                      },
+                      "heightSegments": {
+                        "type": "integer",
+                        "minimum": 2,
+                        "maximum": 32
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "radius",
+                      "widthSegments",
+                      "heightSegments"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 256
+              },
+              "position": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": -10000,
+                  "maximum": 10000
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "angularSpeed": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "bob": {
+                "type": "object",
+                "properties": {
+                  "amplitude": {
+                    "type": "number",
+                    "minimum": -10000,
+                    "maximum": 10000
+                  },
+                  "frequency": {
+                    "type": "number",
+                    "minimum": -10000,
+                    "maximum": 10000
+                  },
+                  "phaseStep": {
+                    "type": "number",
+                    "minimum": -10000,
+                    "maximum": 10000
+                  }
+                },
+                "required": [
+                  "amplitude",
+                  "frequency",
+                  "phaseStep"
+                ],
+                "additionalProperties": false
+              },
+              "pulse": {
+                "type": "object",
+                "properties": {
+                  "base": {
+                    "type": "number",
+                    "minimum": -10000,
+                    "maximum": 10000
+                  },
+                  "amplitude": {
+                    "type": "number",
+                    "minimum": -10000,
+                    "maximum": 10000
+                  },
+                  "frequency": {
+                    "type": "number",
+                    "minimum": -10000,
+                    "maximum": 10000
+                  },
+                  "phaseStep": {
+                    "type": "number",
+                    "minimum": -10000,
+                    "maximum": 10000
+                  }
+                },
+                "required": [
+                  "base",
+                  "amplitude",
+                  "frequency",
+                  "phaseStep"
+                ],
+                "additionalProperties": false
+              },
+              "render": {
+                "type": "object",
+                "properties": {
+                  "color": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-fA-F]{6}$"
+                  },
+                  "opacity": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "depthTest": {
+                    "type": "boolean"
+                  },
+                  "depthWrite": {
+                    "type": "boolean"
+                  },
+                  "blend": {
+                    "enum": [
+                      "normal",
+                      "additive"
+                    ]
+                  }
+                },
+                "required": [
+                  "color",
+                  "opacity",
+                  "depthTest",
+                  "depthWrite",
+                  "blend"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "profiles",
+              "kind",
+              "shape",
+              "count",
+              "position",
+              "angularSpeed",
+              "bob",
+              "pulse",
+              "render"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "kind": {
+                "const": "material"
+              },
+              "prefixes": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "minItems": 1,
+                "maxItems": 128
+              },
+              "profiles": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 32,
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "colorMultiplier": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    "emissive": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^#[0-9a-fA-F]{6}$"
+                        },
+                        {
+                          "const": "$variant"
+                        }
+                      ]
+                    },
+                    "intensity": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "colorMultiplier",
+                    "emissive",
+                    "intensity"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "prefixes",
+              "profiles"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "kind": {
+                "const": "cloud"
+              },
+              "texture": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 256
+              },
+              "seed": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 4294967295
+              },
+              "position": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": -10000,
+                  "maximum": 10000
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "radii": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 10000
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "shell": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "size": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 10000
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "aspect": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "drift": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": -10000,
+                  "maximum": 10000
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "speed": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "rotationSpeed": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "profiles": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 32,
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "strength": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "expansion": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "rise": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "riseSpread": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    }
+                  },
+                  "required": [
+                    "strength",
+                    "expansion"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "render": {
+                "type": "object",
+                "properties": {
+                  "color": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-fA-F]{6}$"
+                  },
+                  "opacity": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "depthTest": {
+                    "type": "boolean"
+                  },
+                  "depthWrite": {
+                    "type": "boolean"
+                  },
+                  "blend": {
+                    "enum": [
+                      "normal",
+                      "additive"
+                    ]
+                  }
+                },
+                "required": [
+                  "color",
+                  "opacity",
+                  "depthTest",
+                  "depthWrite",
+                  "blend"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "texture",
+              "count",
+              "seed",
+              "position",
+              "radii",
+              "shell",
+              "size",
+              "aspect",
+              "drift",
+              "speed",
+              "rotationSpeed",
+              "profiles",
+              "render"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "kind": {
+                "const": "surface"
+              },
+              "shape": {
+                "enum": [
+                  "ellipsoid",
+                  "disc",
+                  "rectangle",
+                  "barrier"
+                ]
+              },
+              "position": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": -10000,
+                  "maximum": 10000
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "size": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 10000
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "accent": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$"
+              },
+              "detailScale": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "speed": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "rimWidth": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 0.5
+              },
+              "profiles": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 32,
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "strength": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "expansion": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "strength",
+                    "expansion"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "render": {
+                "type": "object",
+                "properties": {
+                  "color": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-fA-F]{6}$"
+                  },
+                  "opacity": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "depthTest": {
+                    "type": "boolean"
+                  },
+                  "depthWrite": {
+                    "type": "boolean"
+                  },
+                  "blend": {
+                    "enum": [
+                      "normal",
+                      "additive"
+                    ]
+                  }
+                },
+                "required": [
+                  "color",
+                  "opacity",
+                  "depthTest",
+                  "depthWrite",
+                  "blend"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "shape",
+              "position",
+              "size",
+              "accent",
+              "detailScale",
+              "speed",
+              "rimWidth",
+              "profiles",
+              "render"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "kind": {
+                "const": "sector"
+              },
+              "angle": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 360
+              },
+              "radius": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "seed": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 4294967295
+              },
+              "capacity": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 256
+              },
+              "density": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "height": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 10000
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "color": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$"
+              },
+              "emissive": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$"
+              },
+              "smokeColor": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$"
+              },
+              "profiles": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 32,
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "strength": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "growth": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "smoke": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "ground": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "strength",
+                    "growth",
+                    "smoke",
+                    "ground"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "angle",
+              "radius",
+              "seed",
+              "capacity",
+              "density",
+              "height",
+              "color",
+              "emissive",
+              "smokeColor",
+              "profiles"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "kind": {
+                "const": "beam"
+              },
+              "texture": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 256
+              },
+              "length": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "width": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "speed": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "seed": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 4294967295
+              },
+              "size": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 10000
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "spread": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "profiles": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 32,
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "strength": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "strength"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "render": {
+                "type": "object",
+                "properties": {
+                  "color": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-fA-F]{6}$"
+                  },
+                  "opacity": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "depthTest": {
+                    "type": "boolean"
+                  },
+                  "depthWrite": {
+                    "type": "boolean"
+                  },
+                  "blend": {
+                    "enum": [
+                      "normal",
+                      "additive"
+                    ]
+                  }
+                },
+                "required": [
+                  "color",
+                  "opacity",
+                  "depthTest",
+                  "depthWrite",
+                  "blend"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "texture",
+              "count",
+              "length",
+              "width",
+              "speed",
+              "seed",
+              "size",
+              "spread",
+              "profiles",
+              "render"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "kind": {
+                "const": "suction"
+              },
+              "texture": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 256
+              },
+              "angle": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 360
+              },
+              "radius": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "height": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "speed": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "size": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 10000
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "seed": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 4294967295
+              },
+              "profiles": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 32,
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "strength": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "strength"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "render": {
+                "type": "object",
+                "properties": {
+                  "color": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-fA-F]{6}$"
+                  },
+                  "opacity": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "depthTest": {
+                    "type": "boolean"
+                  },
+                  "depthWrite": {
+                    "type": "boolean"
+                  },
+                  "blend": {
+                    "enum": [
+                      "normal",
+                      "additive"
+                    ]
+                  }
+                },
+                "required": [
+                  "color",
+                  "opacity",
+                  "depthTest",
+                  "depthWrite",
+                  "blend"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "texture",
+              "count",
+              "angle",
+              "radius",
+              "height",
+              "speed",
+              "size",
+              "seed",
+              "profiles",
+              "render"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "kind": {
+                "const": "arc"
+              },
+              "plane": {
+                "enum": [
+                  "horizontal",
+                  "vertical"
+                ]
+              },
+              "angle": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 180
+              },
+              "radius": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "width": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "speed": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "profiles": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 32,
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "strength": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "strength"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "render": {
+                "type": "object",
+                "properties": {
+                  "color": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-fA-F]{6}$"
+                  },
+                  "opacity": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "depthTest": {
+                    "type": "boolean"
+                  },
+                  "depthWrite": {
+                    "type": "boolean"
+                  },
+                  "blend": {
+                    "enum": [
+                      "normal",
+                      "additive"
+                    ]
+                  }
+                },
+                "required": [
+                  "color",
+                  "opacity",
+                  "depthTest",
+                  "depthWrite",
+                  "blend"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "plane",
+              "angle",
+              "radius",
+              "width",
+              "speed",
+              "profiles",
+              "render"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+              },
+              "kind": {
+                "const": "warning"
+              },
+              "shape": {
+                "enum": [
+                  "sector",
+                  "circle"
+                ]
+              },
+              "angle": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 360
+              },
+              "radius": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "ground": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "profiles": {
+                "type": "object",
+                "minProperties": 1,
+                "maxProperties": 32,
+                "propertyNames": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "strength": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": -10000,
+                          "maximum": 10000
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "keys": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "minimum": -10000,
+                                  "maximum": 10000
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                              },
+                              "minItems": 2,
+                              "maxItems": 128
+                            },
+                            "interpolation": {
+                              "enum": [
+                                "linear",
+                                "smooth"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "keys",
+                            "interpolation"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "wave": {
+                              "enum": [
+                                "sin",
+                                "sinSquared"
+                              ]
+                            },
+                            "domain": {
+                              "enum": [
+                                "seconds",
+                                "normalized"
+                              ]
+                            },
+                            "frequency": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "phase": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "amplitude": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            },
+                            "bias": {
+                              "type": "number",
+                              "minimum": -10000,
+                              "maximum": 10000
+                            }
+                          },
+                          "required": [
+                            "wave",
+                            "domain",
+                            "frequency",
+                            "phase",
+                            "amplitude",
+                            "bias"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "strength"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "render": {
+                "type": "object",
+                "properties": {
+                  "color": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-fA-F]{6}$"
+                  },
+                  "opacity": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "depthTest": {
+                    "type": "boolean"
+                  },
+                  "depthWrite": {
+                    "type": "boolean"
+                  },
+                  "blend": {
+                    "enum": [
+                      "normal",
+                      "additive"
+                    ]
+                  }
+                },
+                "required": [
+                  "color",
+                  "opacity",
+                  "depthTest",
+                  "depthWrite",
+                  "blend"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "shape",
+              "angle",
+              "radius",
+              "ground",
+              "profiles",
+              "render"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 32
+    }
+  },
+  "required": [
+    "schema",
+    "id",
+    "name",
+    "initialState",
+    "states",
+    "variants",
+    "textures",
+    "layers"
+  ],
+  "additionalProperties": false
+}

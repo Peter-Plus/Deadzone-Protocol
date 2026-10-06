@@ -1,0 +1,2234 @@
+[
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.gitignore",
+    "sha256": "BF5C04249BF86947F90B84355AD9052D1BC1E9E470085A0FC65CE08BA06A1369"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\AGENTS.md",
+    "sha256": "BB9316E051620DE5C4F419039AAC80F995B64B9825B9353FFED3B7967E6E8F88"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\index.html",
+    "sha256": "65759CDD3BA562B23B33A78C7C836BE2330339916EEE30A3F71632B8BA0D5E43"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\package-lock.json",
+    "sha256": "245584B16488A0845EFB3740778B3214EF1D6B5A415276CE1A0A97C4EC424FE5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\package.json",
+    "sha256": "6F46840D3193C71B5C3AD1C7F9C38B84CA5E5147D6053F6F1A5B8324626F9327"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Play.html",
+    "sha256": "7D29161072F47A053046DD21805553360F914562AA5B1ECE73D931B98D07108B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\README.md",
+    "sha256": "56A9CBB55B98489A5FA211D56E514742BA28EB6194EC28BBACC67CA6440D82BA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\tsconfig.json",
+    "sha256": "0285338D0C89CD27C39312E71901BDDFD09437F4421AA9CB455EABE6E9D71951"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_update-notifier-last-checked",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\03\\01\\f2a73b2ae8a30f8377b25e87b35cb3a305c1ac8ba3e151e4c410d1ff9e633ffa7b76a02a2bcadb58b98d73debe0965c9d09a118db868beac549218ba1513",
+    "sha256": "E7713F8DE03C7D06C4662BCECA617B7B159FAC77E012A47D41A7BE60F149BE35"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\10\\41\\6bcaee66b6eb5991baaba6d8f5a0f3d3c51a9192589ee68f7a361e7695ffe28fc4789b145d1acd5d7c3b746052dbe001258eb9f2ac1c7da56cbadd2ddee3",
+    "sha256": "BC962FBF68750E1E376E8DB0AC1A9684C860CB227A76F6DD890C1C3E0FD0FACE"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\12\\4e\\105614f6c38cf68cfa65066e4809f239bb04f0384fee0e60710e50d3827636340d19724f796037ba650379d47412fe2debf2fdcbefcc4c992b982295adcb",
+    "sha256": "DEDE69E91450BEC3B06FC309439AF8AE50D7189C825C310A2CB3296D3DB71E15"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\1c\\a5\\4b4bc76f208fb1a0a5bd926ab16d12ab9d61177c926bfc56618499a2a880747b4e7740d605a8e068b9330efe4e6c203e0cbc28940afbfc6fd338877db020",
+    "sha256": "E045F94C235C7ADC50E77BA2A579C7BEC41B496B6B47C3A7845F7C1E19959A88"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\21\\e6\\e22bbf6ca88cbe1381203abf82030f8a7bc840b295cacc177425d80498f1e20309af123d92e21d6b7efa3ea3f0677c461dfe300e83921e7888f39734a70e",
+    "sha256": "47C7F2BD1332353C8DB8C6C8AC21A98A76AF7604281114096CA08ACF0384FC2D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\22\\d5\\d080be68efb6220b31e46e989f04489ab9b553e837952158ac902a6d1ef5c1128b14fee805b80aa064c13355d5f9fcfb2c2647877310c6898d70dcdcf8fc",
+    "sha256": "402079FEB12E2D98C36EC9A15108AB105E65E2D5A0779B25E7AA51C2107773A3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\31\\33\\0f82d2dd803c344313e5558b0fc8ec17eae976ca2fa523669174f9e40709c3c81d0d87362092e3ad63a380c6385a135d03d2d0eba9f148428b0deea5fe82",
+    "sha256": "563E3408F83AAC90B36DC2F97FADF60EB1804F2E148DC50C5903A1921A0FD7A4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\33\\2c\\292ffd79efb0e9a7db0c58b0537306304db412e9f901058e041edfd09b6defb1af8b5373713c2dda6cb83310271fccb8b0cca775af86162ea91ca68dcf90",
+    "sha256": "EBD1DF48301CE53AF51213069F05869FC9277AB8697C5A8B17E72ABD41CB8004"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\34\\09\\eeb913256e74a671de4bdecd269458fc3106a8787e74390ade3c045feb0685d771314f164ce7c4088b1e2262feec6febcb137577c0ef72e72c016b174c44",
+    "sha256": "5B218436D242A202129CD1941BA93FDFD7C4ADBD30854FEC17915D267404298E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\38\\af\\84f1efd1c715365ba07dcad0716777114e9501c292a8fc4d894ba692964d4361d991878d6be0f606c24d094a237b76d82764383b2f0a4a0a470e1327b91e",
+    "sha256": "C828CF7728393193F9C7E5CE9D91B5DD48E397438EE5570AE4EC7A86333CA79D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\3e\\55\\87448538aff956c347987fa48491dd82ace6442bc2d768b336aa1d1feb7caeaf219f8c7adcbd3e1a492211e5d8319bddf41273bf08e70f0d2f98b94679f7",
+    "sha256": "0CBFD9E510E317796D54277974F27095494CDF2DB53721AE0B2810AA81D1B60D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\42\\53\\481c1ffeba2f26959193caec453eb68bf93cbb2f6e1e10c732dfd841062ab606ad998a3da3a9ec3be5f1602f2aec62754eb7f3fa5f4b50cbe7d5df2d98d8",
+    "sha256": "3C7AA9EC11FAB9B50A3F1F7AACB5E0621402D5247FA639EBEF8E35923FBD9C5F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\52\\d3\\3a998d5907ea7e7159f55c39837874c27d9e0b00e190cf228fdb54fd9fe1732bcc423715b81ebfe96cedee61e449f9a46939f674db45695db8779a06b68e",
+    "sha256": "25F56C85599CB9127479E55284C29E6BA4FB4BE72AA2A7F733818F8346074BAF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\53\\07\\0f2ac5ffbb36ee6fafccc3ec6d0ff453dba1208e49dc67253ddcdfe0c8f4dd0477baaeabea79fe645db5cc52998c840d35410b89ca6e658b13cf2d54886e",
+    "sha256": "1776A1B39387C7621FB92C73205555A8055CAA425B08A7759EAF78C27CA7E4DE"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\53\\35\\68ce70972ffdc568e26318da8e7a0b454639758bc242a2dc508f860f58c46fd4253a33ac8178d72d2bca7a512461c7306890a6f6c90acfaa9bd72c2d38ad",
+    "sha256": "04B9A374D0710D1771D08CB1FBED62E834621A689F116C87F7F514CDD0BB21C1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\5a\\14\\18e00383b6de0caf82da3c2a1763f2f8dedc86ac4bb76a6e4cb41b304db212c414711349b6d059775811678968b8d3a29962e0c2c132ddc41b44c8dacd3d",
+    "sha256": "F4FA8FE4DD99556E26CC1EB8098C0B8C0680A802A9EEDCBD1A5FA447F878E49D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\5a\\63\\f25d7aa979e5400ce5e717b38a6efd946d02bdbcbcecb182295941dd8ed747ef7688bb2da9b32c65c05c46ce506b1e237f35b2cb1008163d1487e223dfcb",
+    "sha256": "1621E9AA342B70CE1A1350DAE71300A15A8DE32112E5A60899FBE4AFC4628E4D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\5c\\10\\5a1315ef6eac00430f348782f3f2437640dbdd8a4c9956860f4dd96a4a2d8712762f52d2b34a620d35684024cf32f4229dec403ae38aaa0c698e3c1d3cf4",
+    "sha256": "53C5C6210A4DD124360C06919AE63CC6313CD96B69EA9E093C421A175A675357"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\5d\\b4\\2636841718021e84dca8c8090cc5a73e14e4ef0371e59109416ef23bb517a5594711c05ddbe77751d2f50f489894b118d7003758130ab68e95b6b6748d7c",
+    "sha256": "714D1953AAEA40DD80EEAB601E5ECAECBDB913A6ECDE0B9C32A33669463E15BC"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\67\\b2\\d78fb59d9cada60d4b514356cd96be57dff6133942e09bdf64307518d34409c90a6dce40e5e1dad3f9801448b849172c63b5cdf5685efa7a32e9a36a6b65",
+    "sha256": "F31230E464F77C17D253952EC665301B406AB19120FB15AD5FE8FA60DFF7B405"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\6e\\96\\556e9ae53a381085167d412b1d1830ca8dfe8b4be6565970a31251e3584b2e4ad75464fb84f87fc1d979437e3fadb3a1be4ef85c6ec332a2652ca198d858",
+    "sha256": "878A45A7C25A8CB0E5CB11CB417990E9306A0C7A4F1DFDF8B647F10E4B414044"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\75\\88\\05fafe7b347d55e8a9fa62a57afaa0b26aad8bb5426319a8f5285a5119a7b9a35c752aa2ec2fab459a4b14644d0794d1d267bf8319618f306fd7498fbd47",
+    "sha256": "6B754AFC7589688A5D6FDE31761929F88F3186E6DBB6C2CDAE9C7959DD3398F4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\79\\ae\\de3fc1fce70ea223ae8bd30c1ea68f6a8fc0685152b894d7aa8af0a73c192ef60753f1986722a0fa67754e8fd69e7c90a969ee639767b857e77d2a740826",
+    "sha256": "E0E31E4546E0F8942482A003C00B8E9F4E070C63089AA80A4959F269D6718722"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\86\\98\\f4324e7a0415dd64ab3cf167ccba5cd7200c4964af2ccc251e0eea9e918efb35123876c5e1467d0daba572dc8738f0daef328406c19f2ce88d5ed83eea64",
+    "sha256": "12BE47BDC90B69EF6E68CB1FBEBD18626D8BA217592F0842D361E8BF2487A2A2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\87\\c7\\e011dfc3a684bd081ae31105d1f9d203adaa290047eee30615358dad10fc24eb4b2d3d686f64c7f8168a3915a92e43b1c56686bc59c79a5857abbcad8ebe",
+    "sha256": "3C846CF2797369AB971B6C89C9EB3089EFB967261536C0F9BF31D6C250C9487A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\8c\\80\\6f5964a10af941a8134866dd0a02c856a6f4a3864c2412ee1951c012a00be19ab800508dadd5d5eb8d22f8c5754b0781739cfac8b17de7297165fc3b78bc",
+    "sha256": "34719404E92BB0EFD1F021AB175FEACA2BBA41BA5B3D4EEFCA7FA76351F46EC8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\8e\\5d\\6f6733c38a72ebf5e52ddc9feded5e8580d130f508ef04f772b33f4a7d00c3e357d0ac2d98e2f290762694a454f86d795bd511e12e9a7cc2d9ba3394e04b",
+    "sha256": "10E108C9CF7D5F2879053DFF18515FB405ABF2CCEF63EAAF017D9C571687A1D3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\96\\08\\88e216ee2dc23dba79e6d9c2ffb6f09a414e39769d3170b589879b81ffd3011af200e05f17224ee74a205e83e2b8c56198c2064a9fcd0b984448e42c684c",
+    "sha256": "338B7FD717168ED7FDAB61C124BF426CB90E2FFA30F61539E5C7CC6EA0A28062"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\96\\9a\\e0b9321d348fd7fbef3517c81fb41df8de6be7c9b36b264c6a5c9f3e2b08f7a84f8644bdd15d01e3694516e65920a21ac543dc6bb1f0689c8faed95028bf",
+    "sha256": "1B58A5524C0135322AE07C753D48FD01A0AA14EFA24C606656D7E08398F5D25C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\a3\\ea\\b2700319ae1f93b04d351aa594c5420a47500bd12f29abbcc3918390c3c1aa7d7f1bf15a022985281db8625f98feee1afc5ecb870d553afa09102502a0f7",
+    "sha256": "AD66D724565EE29A2467277FA84DAA5ED0211D6B8D446E9EF29F6BAE0CD14144"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\b1\\88\\16959967d9b970461173399baa282b02377e957e891c52816dba53dcb8c52726c480267ac99f34ac2c7ee2e6482e2d8ba52b64a9365c2221ee02141d8f62",
+    "sha256": "D77FCEE7774529D39544D6382AC3CC78B112D72D7F9A2812BCCF85DC25861A85"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\b4\\29\\751cf1b03a19f968241b82a59b387f8dc7fe5f9ebdc83c09f342e47bcc8842feb6aa8b6cb10ba2e1bd9aa3748d84979850818e510c0c03ac08c08b615d3c",
+    "sha256": "E036E2E958B8D314B5731CBAE256D3C4E42198CDA8A56BF3B25FCE983DED05B4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\b5\\b6\\4db89acbc06529df3b2106d772e16f8e47166e221f1ae629722044030b9ad8d5fdd4db424caf2d0b977581cd4e7c1192ac12e2455e16f9830bfc0ac3ef80",
+    "sha256": "38C2CD824402407B43153C782274AEC2EA83EA688E4AA0B743C5F2C305857D92"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\b7\\86\\17d08d728c5ce44d7da3994ffbb5f96ed28b7eb012dac5aff18b2b8ed81fecdc12a0ddd5220224e504dad0e8aff2e16cf256f7bd502ee668b8fb7efea3ce",
+    "sha256": "B15C646103A0E672EBCBE43E1555A92DBB7C3DC2E988B5893729ABBBF7D3D5E6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\b9\\e9\\0819eb72c08828a5f0fdee80cbe4f7de7b3905a4d87097395a11834e03437a82176c3af87f1d88d231e9394363b53d8bd148315ca85549978af8641c0ea3",
+    "sha256": "8559163A335C12388B02E61A25D588FF5B98DA45F9336C59664DC919AF086B26"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\bc\\99\\afbf017162e1a71766b146d3d8a1c6a0e8295b6f9612ee42cbf923bf4de545cc7a83216acd298b5cb0f3226e30f1f4ef9bbbea6c032f4d29f5a495ab2c50",
+    "sha256": "E92EA848C92BD29239EFD2689A018C0EF531391CE0041A1787A964314FD4EB8A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\c3\\53\\f9052ea01e0e2942052d54e96f4648691a700ebb53b54cafb201ed4414826a91220a6e861918276961e859e8790304b1dde25c2e7078f0ceca6d1ed398ce",
+    "sha256": "71C7AE0F2330F6A62F57719C1E917CF31F7254FD9CD29B478B9E0F5C96AC48F4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\c7\\dc\\8d39d448708ebc79b6f4f71faa72b968b66d48f309eb768b63e97b7664e77cc596822eac35cfa6a212f7d96ab5735d2d1c499b14a65b41629191ae051ccb",
+    "sha256": "D29DD5034D8645E2E5F4CED3498F40890A21F01C66D426FD4A97FA934C10BCAF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\ca\\41\\6d802a8d9d8d083ef0eba3b87ef5978b63eaa38145affaa12f52df3882b85e9ceeb41ea77885270713b55307d9ce43fdd033c9646cd13ee2f2a31295312a",
+    "sha256": "3CF5EFBAE2977DB0B26CBE8A7C0DD80BDE07AC45CD2503C39F83DC397DD20401"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\cf\\19\\cb673a366a8ae7d9c2cad0c09afbbc3e1705315258fec88595da1da03b22ec2cf3540eab9d53b3e0d46612485c637a33e33df65b271ae879d921736633dd",
+    "sha256": "B199372312FA3B4F94D49DD03678785B0FBBB91F6894BAE326ABEC1632461B90"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\d3\\3e\\58ba19d2c3c741f5f1efc73b80e0927ea52a5c45fc1fda4e5522e85beb76b349a02ff239c78d3b1d44b00065fd315f88f430e2ec9cbafe644d2adaf643fa",
+    "sha256": "C9484F2E6C499DBB0346F20557445B5709168FA292398CF1BD45B7C95953CA11"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\d6\\03\\b02cbd9e344a48b661b7d68ec973a47aa930b264d1ea7cee3df53435b7d2de950296661edf68d7c82041a14d8eb8658865c93b8a68ee6a7a77536b348d08",
+    "sha256": "3C64B9E800B63212920F4215EAD5032F66712823D15072798E70536EEEAD92D6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\df\\c7\\027d84393c4dcf47bde94295a6fa6a3258f1fa841940c8b7f62b5fa92b8900a14bbb124089bf687748f43157442b7cc57c5a8930f4abfcd07e272f59a419",
+    "sha256": "2F3993DE5A6698CFD8EC79F7A5CA426D5980216C9003DA32D60FA313493B1789"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\e5\\06\\8b33280da968a07826c3b21985ad169918056e42d4a082859fcfc8f6211526e2713e0a71363376227d3650a93579fb635a1b078f8535869001934d11769f",
+    "sha256": "D060321A0953C524CB98BC891E8EB91B800B8810DE94B28EDD4BE032F6E71E04"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\e5\\e6\\e9c6bde758cceb2ffae7508ef9e4992e79ed1b1cbfc6ab459317d96f729bfbdf0029e5ebbc31f0548162bd6e15af6638fbc97f1eb5fffcb48f0d7b2ebde6",
+    "sha256": "7286C3611B6F1F4C4D9EC90ADCBC478407FF0D28EAD96567F361D53E67613E19"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\e8\\a5\\03994ab512f02fa24a893fb0e19c9baeef9ba93c599e1101057ad986ae978c0722ec8cddf78bd2e6a70b471e328df1aac606aa2deba99650c36878638835",
+    "sha256": "8794DD704BF11D418811370B9224D31611011156CF934869F31BAD124D8CB5E3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\e8\\ba\\91f365341d845ea854afcf414478669c98095a7f8e506af1ef194da0ec5d9ac7629f000996d51deb205eefec27e9e025f100ba69797fc768b4d3012c3d45",
+    "sha256": "C07B14ADEC2D9B057059A198892CD10E177FA945500C8D2365E5A4E09B180E7C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\f5\\58\\d7473e7d64e3c4b11e6754291bce1386aff85687130da3a87dba22efd6a196e14752a9f2b67696aec9f14f5af085dce8a96b778e40b8f7472284985ca0b1",
+    "sha256": "A48A571FC0FAF282BCF3A2142BF52EE6F39EECD94518674D99A681ACE77EE5DD"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\ff\\c9\\8f52b3b30e9177d7e3c69c68044415942a82f82446394e5942e2e97da32a24ab0afbcea137a87bfb8300ba94c792e85d5d0d872baadb48e924690ca8d7b3",
+    "sha256": "757CCE78DFD8B6A3306D1D8D86321FCD2933E2FD9D2E459A120173A3724BD738"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\content-v2\\sha512\\ff\\d5\\3d57a15134df25d27995113732b52d1cf587e077e7b4fdf2e2357a03c4d71c80fa5c51fa8e8f4a418e316f5a91f273864e1a3d48c09ff43c095eb260e81c",
+    "sha256": "B04B8A79CFE7E0BD12C614FEA2BB600DA9AD8F858B5E295CE7989BE80FD98756"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\02\\f5\\edc1bbb9c74c3776beb4a96bd21991b46bb40507edd7be8d7c966577dcb5",
+    "sha256": "93BFF0662624E071BC2C9C424E6227757D7B24EC8FE9F6D9056F45BF46AED1C2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\0c\\1e\\a5d64f78dab70fc5126321fc020afa025727825de15a8ab182dbf59fea0f",
+    "sha256": "FBD73997C762153F4B36050E08F548592F0B012141E943B091B492E316BB29C2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\0d\\52\\6b8ad44ca9bb6c975c8622b00d4efaa28c4737e42debb1d3197be9a82fe7",
+    "sha256": "1D9B2228747DDD2C7A9A6F2CAF4ABB376E05F027F14E253AB9C2F922E6DEA579"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\16\\f8\\afc88d2ed6b122863f94ceee7dcf2c558d4c7ae8f63cee2c33d3dd30b1ed",
+    "sha256": "D327215D8C3E2C6F01D09F8F00FA971AD2083E910C652D90FDF2DF234D8EF5A3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\17\\b7\\51b63e6efb8d8edd98d61c11d9891fb136eb34301670768100a2b987ea02",
+    "sha256": "CF896073B0A8DFBA12BEF60869AAB0D6F3E4B6ED415E43143EBF7F4163631B2D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\18\\91\\78cebfc875a8a611331dc3afe4e7283486b33623cacd7f8307e21f0d7fb0",
+    "sha256": "4535752F655EC34428A70BDC40955F681BEC8DCA1CC15FD0F5A056908D7F9401"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\18\\93\\800def84bea3b566e0d6f0ef4e39bf15173131faff0848838aa6265c79e5",
+    "sha256": "15F5B1B936BDE841F3C9DE5D376FFA0746BD070FC45DAAA0566AB012554B608C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\1e\\ee\\3fa971d101833eb213109932d7fccfa0ed3bc8a769cb3d208ce67c46ca59",
+    "sha256": "497DCA82F88010D7297F20D9A52E12E5A0BDC942767BC8FFF7C57AA73C668445"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\22\\c5\\6556db83229020f545974c0a96daa105f2aa03edd95f7f8e2235cbeecf9e",
+    "sha256": "98D1E3E1259ED5DBCFCBFE375AE94E751DD048BE454E399FE08679D32CC6F9C3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\26\\0b\\24a5977420471d8bf54333d2c9356dd18376e0d123b7f3acaa7371e8a021",
+    "sha256": "2709E4BE15AAB5E0A527D7C678895DE070902D1C10D42FF53A577437800A22E9"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\2c\\e7\\6ebf7d8800a5b86530fd09b2f6e26da674d138a7f0e94f42b9be2ecc547a",
+    "sha256": "404D6FB0F9D63F4D87A7E83D3E5A90359341D7CD1B17BF9FE6920B206EFEFE40"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\33\\cb\\15c4c608546e055e6cd46e800ededdb9add906a476f117c988c465f2fe0e",
+    "sha256": "84FA1B29EFD787C8927A455767BCC72DEB210B74A3C461D1117D50D0162F7120"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\34\\5d\\80555de0d11e7ccc8b4c21fd66c91628d4b81b88cf7a2e7caf0397581e5b",
+    "sha256": "4957ADB9FFCCF945323185380CC55AA1CED3A837A1C8ED70B33D3C16DA3006BA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\39\\28\\d9a292946693ea5271ca304abbd45f4653dc214f71a5051a6d56259a4f88",
+    "sha256": "8B9CE123C40A85CACA7942A2B2AA30406A69CCD91CD0B9566E4F6829F4C2B2B7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\3b\\73\\e12f183e942feafa57eae274b610d5907885e0c79ee1223b29e752017cb4",
+    "sha256": "8C6F5E8430AB521474D522FAFBE83F8E5DE3B3F1D9C992474D9EE91F0D1C3912"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\3c\\a3\\a4bb9281e5e4a2be3a38bfc40bce8b301bbc4d3e29e737ef36cd6b57063e",
+    "sha256": "553C6B85A14FA98B0E995082D80404DC5CE370F70A9DDA4F562006DB69873A49"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\41\\83\\49ee6c7a6d198c50ce7ba21c273b9f77e4dd1d412e56ffcd49e76245a031",
+    "sha256": "E445DAC96D67C3EB96C6C6E02A45ED9D5A462AC4137BC191EB825BF8856D6481"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\42\\00\\5cc234400b9d39b47da9860d24483996b4f9232ef9b66a12b606a55a0134",
+    "sha256": "F53EED97DB975D3C5CE5CBE898A82ABF7364BC748F5F882DDC79AAF2AB744ED7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\46\\74\\75e64158f92ce447941c0491cd0c337ccf20e22eec98ff35e5c58278de5c",
+    "sha256": "64359AE2B6B0D314FEE16733F32E1936FB416D9034126367BED4C71783FCD46F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\47\\89\\7ebe2a2db550205f0b24f4e6fe0a93949a5359a9e7aed29a4b805700d0d0",
+    "sha256": "356D57E0F69FFCA5490F684006DE0FECB61F723F7BCB60C77E81AEBDBFF9B08C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\51\\0c\\27a5e53ba5cd4fd517d864b6c88d2dec4cad5e164a5067a3aea14ee09fab",
+    "sha256": "BAB75D3BC945EE45D7D4E36A1A9801AB68ECD29823E83C9CD7E80374394D80D7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\58\\f0\\4fe556f104b09be642895a82afa463fe560d9a0dc8f507efeef825a6905e",
+    "sha256": "16F782E78B743414ECAD94CB17568CA30B97E7B8101E06F2CE4F2882A8BE2CC7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\58\\f1\\7d7805a6a3ba918b6e895363de6f0ed5fa6a997336544fec222380e0c9c3",
+    "sha256": "8C725CEC6D6114CEC494CDC740F05711798470BEF6F864DA7A778C04C7EA8091"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\59\\9c\\7af53f76f261c7322b7d597a6c40a01c7835a0bebb5ca909de3af6a4ee4c",
+    "sha256": "1D811C19F52C663A6524EC36F7D0F5CE33416615279C7D3C3286F5F026BB479C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\5e\\0d\\e01ce7f2ad332a34b72c8840f7d6be25a566057fa85f3905633071f13a02",
+    "sha256": "3D2C5C300635B7E2D9481073FFB208520D8094A01FF91455D78DCAD60C2BE1A2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\69\\bf\\80809f1dc7cd900d7f5deebaed4aab7a2f788123f16fcfa841e03dcd420a",
+    "sha256": "D3A86434F0A3191F790C41754140C9E6903EEF7FF1B82E7DC35017472FF274FC"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\6a\\b2\\cff74a8452b6159ec5df4cd310e05e05bfaa99de31da7de4b5a7a7a849d9",
+    "sha256": "0FFF61E14A0063985BA02C243320EA1CCD568CAABDEF700C6EE329765D6EFB8E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\73\\21\\1d875da2f746d474580cb0f196b311adcc3ff2bf1ee627b53bb0a433be96",
+    "sha256": "5D966EDF5A845A3E9A8F234B174F104A9C2235E542B3FF09E4CAC4ABB1912C95"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\7d\\9d\\a787cb5fb8517d8f722961c5bfa0a1e43deee21881693fe21b525c063f64",
+    "sha256": "3BE38571B39511714048E4D61A446868A1346A2806B58DE11BBE8CB1B32896AA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\7e\\9f\\dfa3e415b0b79f7647f544e46b110b6a5570206d9ca2b7a646db02e61ee4",
+    "sha256": "DAC098D16D2ABFFD88FD488B6ED82FBDFC0F010FC0C96FB941ABC550F39CB949"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\80\\3a\\4a5732c282b178c7db04d066e1bf72f3e188eb895364b06eb795a5f7e87b",
+    "sha256": "EB857C997DB1FE5C4D80D2837BA6E4D748C5BE1AB083195A16E51241C40163FC"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\84\\42\\78099c1f1419e99651e632f8161d708e8545b101052a116cf8a4ed588ea7",
+    "sha256": "793C0AB4E41112A5F2CF9645E75EDFE5412D3B9BA3C8C6516F37070958B80ED0"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\85\\f6\\9a496bab0f4a4704c802880ebedbdd97a34757454b529c8de817248ecb84",
+    "sha256": "A941DE41F783B6944791E909D757FDA881E9CE49953E74C5EE125E0F9A4CB507"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\87\\7a\\6bff65d2ea046d0cbcb8b9c7a56dfc499fce22f35dcf898d6732fd0f99d4",
+    "sha256": "AD346BCC2679F2C60FE481297B3A1EFD170CBC260FF80AFC99C93CBB1CB908CE"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\9f\\80\\5095f1e4a4f144a1b7c5af323372bb7f512b212ebf4de91c8d3ade240d0e",
+    "sha256": "95D99519D10A803219B50B371E71EC5EDE93114700DBE31FBBD0016588775A79"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\a3\\7a\\cc45d47b4d1152a677d98126d48387ebc8959de01678a99b39663fe082f8",
+    "sha256": "837003DE03D2BA2C3BAA1E6EB7E38ABB183A7F862227F10F710017D328F1A94B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\a4\\ad\\bd84c75273f8810111af2fb2a9c664a5a89d959961609303a4ac6e45fccb",
+    "sha256": "E6FDBCB865E90A1E92944B31F5542FDE5A82FD03CA1990725C70060D843CDAD6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\c0\\80\\5385b99dd75b65e17400914deb1444976136050c32756ffae3566c22f433",
+    "sha256": "ECB041ABC5190C86E632BA1B64EA06BC451201D8D0E541BB0B313468EFB6886B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\c7\\12\\102bb07d3c5cf86819fc13e6524871176ba5f8fc8238351433c746c98db4",
+    "sha256": "6EC924F47B2B9C704A7F76DF15692B90B09AE106674D8B7D01113F307500C622"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\ca\\d3\\5f9064ec50291e79b2fd5604debad4fc0f24a707633a87a0b9918fecc8ba",
+    "sha256": "DAC52639986385664B23591688947896EA17BF697DB0363A94C564691ADAA5F5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\d9\\f6\\793d04658f2f07daad6be1d9ce7edbc6aa86ed61c6546ab76e46c5afc211",
+    "sha256": "04F82602CE0D256D1270620F0C302617045393E9D2B1081B289CB0319B1EF587"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\da\\41\\80584d24a7f4dc2ab2061c105d7a80171335f729d5c395cc4f4ab5e94a0a",
+    "sha256": "8F999BDB6F7803A0DB3907E2E22042173E58468363259A83E5E9FBD6A70A8620"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\dc\\a5\\b134aa08160183bd0b203e522dce5467fb9491ab59411c1c1b6d32b7d39a",
+    "sha256": "8FA98ECB1D0A98DB1B4C618766CA2BF4199CCEC5EFB67319DB9853E9962B96AF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\e0\\c7\\56a76682e17c5868451263cc6b086d7e28b7851b2c84adcdfd556ce90adf",
+    "sha256": "D905D5CBE76C957ACA72DDD5B4B0909BA54AEB0994A29882CED8C264991F7663"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\e6\\c0\\ff384093f49efb49f01942f4930980f806184b0f69492a275a1bd9859f6d",
+    "sha256": "1D9D7E23B2EE48CC67AA39F66D6D70814B6776A6D70B70EADEA2A4AFEF07BE79"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\e8\\72\\82f17f9564272d0a2798fe17f256e490c3c34c4411395735cea376edc1de",
+    "sha256": "AFD1E3C2E8EF3FB8BF1AFF81DA75C47E33A72E45BF0CE227F718497300A73F54"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\eb\\76\\4c0043136234f6ce43613104e8dcac925cc370a2dba9d771b57f3e49f7c9",
+    "sha256": "96D8CFD7F1322C3BEA83C32B1CCBB8E5DC8DD980F08A4368CBEA50B9C79BF645"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\ec\\ef\\ccf9aef86dfb3881688e87eab760ddc9eeecb229c496217e6d7c587a408a",
+    "sha256": "164AB56E37D6AFF9B1EEC2909AB64207D0DE4B5ABE6E6E6AE0D58D52B2AC206C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\ec\\f8\\dedd27024eb08dd582a1cbda3c4e67b4daa330433ce610779e2c6ed7ec85",
+    "sha256": "F6F16DF7C75E9B4CEE4D1E1DFFB2ECEA10DA38872C2148A86A76D193166AC753"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_cacache\\index-v5\\f7\\53\\0b0cdb1490c3d5fb51e1939201c88e1611296d3c19790599d35af7d70bd8",
+    "sha256": "AEC769E9C3CF7D9FE16EF9778CCA8621475D67DF47CB8E88021FB4D1D2BC4FA2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_logs\\2026-09-30T08_47_22_691Z-debug-0.log",
+    "sha256": "4FCA36A18AA9D79739AA8B8C0B9E314DF7D6F61C7B7A243132FA2A92F762B338"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_logs\\2026-09-30T08_50_41_649Z-debug-0.log",
+    "sha256": "0440594C589BEC1AC8F2C3CAEFB0B01348EF360705D89593949369CAF94FF80A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_logs\\2026-09-30T10_00_25_716Z-debug-0.log",
+    "sha256": "B802AB1195A7614EA3E81FD71B01B92C0371A7696E97A547BCAB3C0650AA1FA8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.npm-cache\\_logs\\2026-09-30T10_00_50_027Z-debug-0.log",
+    "sha256": "DA567AA0C04C3F3A609DAE34248C9B6DD13F1C9F26F545B13ED9762D1856D6E1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\main.js",
+    "sha256": "466237004095B27ADDBEF201264A704915EBF8ABBE2E277E5209EB95D30F1061"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\app\\application.js",
+    "sha256": "57070C30DEAED2376B0CFED78FEF27F9B2206A50E25D9B63C8EA2D7A1658A567"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\app\\range-application.js",
+    "sha256": "75352616F7ED888AE14E92CA774CCE08F224A3D2E0DC02F4B9DC39E90E6C5DF4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\character\\player.js",
+    "sha256": "8580E746C717ABF11D18EA97C23598648690B40810CBD93681D33096115C8D02"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\combat\\weapon.js",
+    "sha256": "1AA03E898A0877BD1D2FA483D7DC364155020E66EC90EAEC62C840293F4D5D70"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\config\\config.js",
+    "sha256": "51186AFB932EA0A62AF5F423EAAAEB1B8366E16C5DE6564611BFEBEA9B344005"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\config\\foundation.json",
+    "sha256": "4341722D25AC94A67C1866495185610F67AFF82E969AFFA119236E4AFB8FAD03"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\config\\range-config.js",
+    "sha256": "23C9E7DC3A2C4908FEB1C7BA3E0CC9287508CEF42ECF26C0E06A942658613404"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\config\\range.json",
+    "sha256": "58323E94F57D3BBEBA19FC2C620C93C58B8CC78518AC0D09A536931E79B49E32"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\core\\entity.js",
+    "sha256": "ECC13CB5BFDDC212D5A081B7A3FFD99DB36F11C465556290288629C80BB499EB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\core\\events.js",
+    "sha256": "80D29F95B304E4E0739A120F8AFE6BEDB65E2FD5DB209A21D8D152EA6559FB77"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\core\\random.js",
+    "sha256": "61F9D15B0BFE44B8A7688C80556CA48936F59B4B6149624D324F2C41AA885897"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\core\\time.js",
+    "sha256": "D1E70991606034552EDF003710B586E681ACB264E309DBCE39976455C9B5CDB0"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\core\\vector.js",
+    "sha256": "8F0FEDFD26B2D2290D31D2943DB04C2105E8A7467395D3AD292E58BEA69D95DD"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\input\\range-input.js",
+    "sha256": "9E4E37F9C70E070CFB06DFC31F26132B4F2539733B8FC7801E8AC0EED3D54BC5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\physics\\contracts.js",
+    "sha256": "8E609BB71C20B858C77F0E9F90BB1319DB8477B13F9F965F1A1E18524BF50881"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\physics\\rapier-world.js",
+    "sha256": "16E8A14395896AFB1C6268E0D5C56FAB98E84B53885BE0BD56981AFB2FAC7113"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\presentation\\range-view.js",
+    "sha256": "ECB36CBB8ABD57D43E1B3B34615C49F49D06A21AC2CCC8B7D1EB7C754602C2D5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\presentation\\scene-view.js",
+    "sha256": "21848BCF4C9DFD40DBA06A88556E1F48D26F888C1F8E0F171071C5639B3DC961"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\presentation\\assets\\range-assets.js",
+    "sha256": "51B9CE550BCF32C071722F1A21FAD9AE7E749CBE495AD5B4BD2BA4625A3A005F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\range\\level.js",
+    "sha256": "01D2D68462CD47DCED11EA6722DBE5E8209FEBECD70F28B3B0CF701E1CCD5266"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\range\\session.js",
+    "sha256": "F09011352839AB26C8D0387AA67F824FC14319B1DB48FA0278449D6CBE1C128D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\sandbox\\session.js",
+    "sha256": "6170FC185CFC93A89CE5D9734EB6BD938CFC6A8E194B155ADE575AE925589041"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\ui\\foundation-panel.js",
+    "sha256": "6CDE8A22984475347B2A57A93866D5544CEA842BBAE84E108361E16302EC9F7A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\.test-build\\ui\\range-panel.js",
+    "sha256": "B84B89C510269D47CEA7CF5B561F1A89AF712B32D5E6AE35344ABE2A312F517C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\模型资产使用说明.md",
+    "sha256": "A8D52DD98A9D87129F3F6D50665840CE7E343230822CBBCFF6D8D71F86E64854"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\资产配置表.md",
+    "sha256": "B4FD8F07D439CAF103999C4E345B4C9EC0A917133B3EAEF96D70241F20463D9D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_AmbushStrike.anim.glb",
+    "sha256": "0C087C84130A0EAF15D2E95B02D89B2BB806DE0479F04E9CBDC9D2C716EBD8CB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Attack.anim.glb",
+    "sha256": "5BFCD06263C44A2CBD7D161EA55EFF336D00B0CB5D84B9CD7DFB75D5EB885E7F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Death.anim.glb",
+    "sha256": "68CD3C89DDEBF0D62AC08D2670D4CF3581F02F93C2D48D9D6AF9AA023BDEB908"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Hit.anim.glb",
+    "sha256": "AC45F70807D36C8EB315D420CBC62610DBBBBC727B2973060A50379C5484C84A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Idle.anim.glb",
+    "sha256": "8AD66362C79B4EFB05E7785AA03312EF31578FB3874103233A6CA7FF55E10556"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Run.anim.glb",
+    "sha256": "47BDD4FE2D31C367AF0076F198B1D36D52CBACDFFF8D95B69AE0E256FBCE4439"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_ShadowDart.anim.glb",
+    "sha256": "52CD864FF7E84A38A090D9EE2B94E6E10872325F08E0659B071827E8684FE7C2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Vanish.anim.glb",
+    "sha256": "4850DEEB4C362F88A695190E628FB8CAAB2B5E108CDF15150C307D65B83BA81F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\shared\\FSA_ANIM_Character_Attack.anim.glb",
+    "sha256": "16D897ED725DAD9CA96BD74241B6BBD69B7D3E78EFC7033B702DD6043105BC46"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\shared\\FSA_ANIM_Character_Cast.anim.glb",
+    "sha256": "C8D7EB5FA700C6EEC19ACA3C240711B4599309034E81BFED84FE4D575424A16C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\shared\\FSA_ANIM_Character_Charge.anim.glb",
+    "sha256": "BA26F44E8F5E2E3CD6F410539026D846D8216750C0FD69DDC1E04FC296EFEDB6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\shared\\FSA_ANIM_Character_Death.anim.glb",
+    "sha256": "646DA4660E25628DD826342C56CF7A9A0F9FDA7314A3F6F5F8854333B072D871"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\shared\\FSA_ANIM_Character_Hit.anim.glb",
+    "sha256": "68E0D212D543C7FDBF91D77A772CA094B1FDE360F4E74F655E4D4B01D242045F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\shared\\FSA_ANIM_Character_Idle.anim.glb",
+    "sha256": "6FE773715B20052E4CBE824FC72757A8A0AFFDA80CB6960DFA87583FE5ED3BB2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\shared\\FSA_ANIM_Character_Interact.anim.glb",
+    "sha256": "0E480518FDF7A26902FBF33FE6CDD09CCA95B3BD11C9F84106018EC2C2F9859B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\shared\\FSA_ANIM_Character_Run.anim.glb",
+    "sha256": "F8D2EC350262B275DA74C76F454092C268E55FBEA77F25E66ED0DFFA0FADDDAF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\shared\\FSA_ANIM_Character_Shoot.anim.glb",
+    "sha256": "45CE05903D45E97FA1207254C6AB7600269AF857A67DC4E34879373F9A10BFDA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\characters\\shared\\FSA_ANIM_Character_Walk.anim.glb",
+    "sha256": "F15F777C9377625059249E03382ADF172ED9538863C506095CE89A623542368F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Bolt.anim.glb",
+    "sha256": "664CA6C8002C061C9C743D51A95D093B4C507E329EA408A4DC1AADA5C5781594"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Draw.anim.glb",
+    "sha256": "FFC9BBE6E3E413DEC6B29A332F00DD550AA2DE6B100CB299D50C47B9527F8B8C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Fire.anim.glb",
+    "sha256": "4C509CF4485F118917B67CC983CE2A06B9F4B32DF914CCE7D752FAC05F845596"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Holster.anim.glb",
+    "sha256": "C4295AF034ED7159276BAD56C5889859E06101CF1B152981442E83286A9D8526"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Idle.anim.glb",
+    "sha256": "8E5C9F0C619A67E3A6B0D16C1C45D7CCFAA4BFB521FD02DD91B1B48B74751893"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Reload.anim.glb",
+    "sha256": "4B6517D4C5B0F94C1C033AC59DED01F7F51C5F198CB9F8AAC5D3E1940B5A22D4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Run.anim.glb",
+    "sha256": "A400362985387A634D57A42EAC1413807F87D4E28FFFDD68F3A014E3838BE5A6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Walk.anim.glb",
+    "sha256": "86393F92A87E1543365409A9C8012F0C4C7753EBB61ED3353F7F52BFCABD7FEE"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Attack.anim.glb",
+    "sha256": "255669CD6779B4B2AA237E2176E0A4B5DE13ED3D7406D58292C1CC801148BDAE"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Draw.anim.glb",
+    "sha256": "BB9461A4D81E7F5317AA261D56D8D18C1CFD7F6A476E48E7DBEE72042F7CA496"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Holster.anim.glb",
+    "sha256": "5F134B6059A7DB161C364D772BFBF65B731F968EB1EC66FE6D1505BBA7D66E70"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Idle.anim.glb",
+    "sha256": "8341440F83FB497FC7E6E9A4E1A53AC1C444778259FE86E8C4BFF91F16DDFE56"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Run.anim.glb",
+    "sha256": "FDCCC624B6F412DF397C2496441110A8718E3AEBEAFAA8F822B80BA060291660"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Walk.anim.glb",
+    "sha256": "B9266F4E42CD1D737BDBA545A674872A069CF5C4376A5EB25214AD9E86AE7C8D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Draw.anim.glb",
+    "sha256": "10E08F409C97B07354694FF4EC7A699D18D10967C047F29EAE490DAAAEE47E62"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Holster.anim.glb",
+    "sha256": "69BD0E7217B63546A05D3818DB52E786EB3B95CFFF630A03B6A3725E169E4437"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Idle.anim.glb",
+    "sha256": "83BFC9A76A96AD77AFC1C45D6244BBB427C94299D7E5D67BC606B81593FC83B3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Run.anim.glb",
+    "sha256": "C2FBD597E936EFB66E80B4CA7117E5828D5C73FA32F3043CF918E0E1484D892F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Throw.anim.glb",
+    "sha256": "92589803EE45623BFA4AF39016FBF2E5381300D549C6DEDF23D0FA97FD49DC48"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Walk.anim.glb",
+    "sha256": "7B2B04FE35115D20F36ACB23A1953777EF0251C464834A05B9CEC60906EC4658"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\unarmed\\FSA_ANIM_FPS_Unarmed_Idle.anim.glb",
+    "sha256": "C0510F4AB19E99CF53107481BE2536B7A9C331F6BB1AD151AC9D6F10DBA3F64E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\unarmed\\FSA_ANIM_FPS_Unarmed_Run.anim.glb",
+    "sha256": "0CBEF44D3560CB88F18E73FB6CB6B611D991AF3FB36BCB06B7962B84BE60CA7C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\animations\\fps\\unarmed\\FSA_ANIM_FPS_Unarmed_Walk.anim.glb",
+    "sha256": "89CD4BE16C11CCF2B86D50E7C8FEF54376F4D8A9ACFFB5AE8CF3D4E327EE85FD"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C001_Phantom.glb",
+    "sha256": "CE9688513DA91DD30FC346A5FD2D4546A7126D7F17B87ADB8BF6850E0D99D596"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\common\\FSA_ENEMY_A001_ZombieA.glb",
+    "sha256": "1A3A50F89E6EFD8C9774CADCDA7B03942FBC4010A1225C58BD77A23DE856318C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\common\\FSA_ENEMY_A002_ZombieB.glb",
+    "sha256": "38A60C62820999CE14F234F710408F696B216048CED781A0F18AF48F4FE586F2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\common\\FSA_ENEMY_A003_ShadowZombie.glb",
+    "sha256": "D3796B15B7A75F190227B359CF0004E5827941EFA35CAB3EDB56DCF23E805909"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\common\\FSA_ENEMY_A004_FlameZombie.glb",
+    "sha256": "BB3AA71455EEED8976C02C06DE8862738C63FE66E4BEF62042E6D310D8160AD2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\elite\\FSA_ENEMY_B001_Pursuer.glb",
+    "sha256": "46FD3B8B9FBCC0010A3FC32332171FE8284D96AA600A342BC77D17B3570EDBD4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\elite\\FSA_ENEMY_B002_BurstAxeman.glb",
+    "sha256": "5E2BAEE1D60B2BF0B588665020EAE7AE0BFB21920D6EAB10B773DD893A68A635"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\enemies\\elite\\FSA_ENEMY_B003_PoisonArcher.glb",
+    "sha256": "23435DCBD8F076F5E9A90817CCE4BD93AB110AEBB56AE71F218B1DAFAC1B2E4C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\characters\\npcs\\FSA_NPC_001_Rod.glb",
+    "sha256": "F28E91A24489AF771C965CCBD05072F027E86843B0A570E025A4D1B6817DC5F2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\fps_arms\\FSA_FPS_Arms_001_Base.glb",
+    "sha256": "678F56D9CFD23A475C6503E625176866668E9FCF2AFDE3AE98EBB5DD6A435247"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\weapons\\AR\\AR_001_Vanguard\\FSA_WPN_AR_001_Vanguard.glb",
+    "sha256": "E2C36C8446D605102B927F13624FCFAD64F8137AC43781ED8A950F42B4D8D834"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\weapons\\DMR\\DMR_001_Sentinel\\FSA_WPN_DMR_001_Sentinel.glb",
+    "sha256": "8B8CA0FCE35913B220D2756EB57CDB94FDF21BA79EA2379A279C9A38E80EA9B7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\weapons\\LMG\\LMG_001_Bastion\\FSA_WPN_LMG_001_Bastion.glb",
+    "sha256": "52B27E63475443AB139FE1CD446724D81981B5740A743F3CD804779B9F8AD332"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\weapons\\Melee\\Melee_001_Fang\\FSA_WPN_Melee_001_Fang.glb",
+    "sha256": "0D53DD0EF71CE6172813889A28B9B96A91E5D874099D9016F2E44510C6F63CFB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\weapons\\Pistol\\Pistol_001_Sidekick\\FSA_WPN_Pistol_001_Sidekick.glb",
+    "sha256": "04E21FCE2C1A593088F884FE99E66F052285181C945BB2FB6C6C9EAD4C229881"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\weapons\\Shotgun\\Shotgun_001_Breacher\\FSA_WPN_Shotgun_001_Breacher.glb",
+    "sha256": "57A3B3D6B06DB4A9F7614D9AF9EF08C2194ED37FE172AB9893A511DCFCC5C5D8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\weapons\\SMG\\SMG_001_Swift\\FSA_WPN_SMG_001_Swift.glb",
+    "sha256": "B593B5E70F7E36053DC87E8A71683986DEA34BD509BED128FE91A11F79DA29FF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\weapons\\SR\\SR_001_Longwatch\\FSA_WPN_SR_001_Longwatch.glb",
+    "sha256": "AC30BA3D85E1A350F13CD1CDE5D50F51A460463FAFD942EC322601AE0AEA7897"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Assets\\models\\weapons\\Throwable\\Throwable_001_Thunder\\FSA_WPN_Throwable_001_Thunder.glb",
+    "sha256": "1FF370DC6350B4769A08A4101822B11E5D26382822B199BED8F553B713CADEA1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\README.md",
+    "sha256": "3C6AD9303FB8341D48D78ED2F5B61C782EFB45BA36F20AD48EC886F504AC5B6C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\Asset\\Asset.md",
+    "sha256": "C086798FB80C4D21D4827F22573264E4995B0814727155E5C93E858B8717A36D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\Character\\Character.md",
+    "sha256": "74C3DE4906B041BC1BFCCED486AA4AC7C6AB00D922D72E63E56F2D287BB6F7B2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\Character\\EnemyContent.md",
+    "sha256": "3CD75915EAFBCFB5256575CF40AB423151008EE497EDD969A158EE9EAD36F1E7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\Combat\\Combat.md",
+    "sha256": "9F729BADEE29201A1834331875E2D4AB8DB468767A823C90884F18F16A236EDB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\Combat\\Elements.md",
+    "sha256": "46C2D20B2FE399890A2BF41DBE62F86427C8DFA1D7579FB7343F990337B8595C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\Core\\Core.md",
+    "sha256": "DD0718241B3049ADD700586ED28CA67D18BA6309803882089334836A5C49A67C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\Item\\Item.md",
+    "sha256": "00D4682A0A5B271E7FDFCADB83B5DC8779C66670FB73CD0C8E11C44983754072"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\Item\\ItemContent.md",
+    "sha256": "534F00A7D0671363A9864B5DBDBFC490900106C82A54E82E89117A4125CB11E8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\UI\\UI.md",
+    "sha256": "F6867909EF7C3321C6199F9D7F799A6E7FBF2A4AAAA8E7515245268DB28609EA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Design\\World\\World.md",
+    "sha256": "B0CC6772A41166CE3592E6080E83478D828B8E0ED99B28F28BA61182D472B6C3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\dist\\app.css",
+    "sha256": "A48CC0FB0B5B1A37A8008139574BF5D239F381E3B7147E931176C64FF8206743"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\dist\\app.css.map",
+    "sha256": "08B2D951F404D17B6A33E0AC2C3E4C4F28E920161D66B2DE0E561C1CD9A2635F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\dist\\app.js",
+    "sha256": "4DC445385DE563E7B14963AA37A22B8C224F0B93DC15D9B0887C290BF73FAC21"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\dist\\app.js.map",
+    "sha256": "9FE2003827C468A2FD7D62BF2E0540FC3B6BC5B74EB5F382749D19020AF77E2C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\dist\\index.html",
+    "sha256": "65759CDD3BA562B23B33A78C7C836BE2330339916EEE30A3F71632B8BA0D5E43"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\dist\\Play.html",
+    "sha256": "7D29161072F47A053046DD21805553360F914562AA5B1ECE73D931B98D07108B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Implementation\\FirstPersonRange.md",
+    "sha256": "A280BB487C8F5704264DE0CC3531B772CEA0AFD0CFDA382947B214D20BA2D895"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Implementation\\Foundation.md",
+    "sha256": "DD0316B1B35A257A861E995F1C9BD8D4C1EF6B2DF1EBF31EC57F2A67F847A89E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Implementation\\README.md",
+    "sha256": "2867EE0C191143549782A42C951FB90B0672458EC532A223FFA18D1668E0DF58"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\README.md",
+    "sha256": "CFFD73C3F600835D945E8717E2D20F1468C1992D6E05898A4E1F5316312A39D8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Guide\\FirstPersonRange.md",
+    "sha256": "A015271420BC42BA56B997D08E33B6FA01D51B7F575DC68B7EA1CCA60A2253B1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Guide\\GettingStarted.md",
+    "sha256": "18D5EA19206392DE4CAAD4288DDF45BBB1A67908B7F5DCC73C4E808C9589D687"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\README.md",
+    "sha256": "20939BA00872DC055EF77A406D8D0325166756654BE44629FA69C65295EFF90D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\ArtAssetNeeds.md",
+    "sha256": "F20D7AF6A960D2F45A9085C12C08FABBC379E6BB80E8EA527D90C6F65016FF5F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\02-建议项\\05-瘴疫兽角色与动作.md",
+    "sha256": "EC2047CBDB410AA6666B4FB69148F036A6B78A0A63597EEE6EB4B69E0C2193F8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\02-建议项\\06-炎巫角色与动作.md",
+    "sha256": "FE984A2B7606321BB78AEB95F87590E387F400DCA4EF3E0C1B73FB7FCD1134D9"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\02-建议项\\07-混沌角色与动作.md",
+    "sha256": "65100767FD9E30346B562E60B783BEC444E09BC4BCE07009EA1D58AB3088DECC"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\02-建议项\\08-毒伤灼烧HUD图标.md",
+    "sha256": "EFBCA4557EABEDD6823938753DC762E27B5506AD90878294163F41BD4461B5B1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\02-建议项\\09-物品与附魔首版资产.md",
+    "sha256": "E1E0F481099335EE0ADF186BCF470BA638E98B9F070F5E3986805C31B5DB46C4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\03-替换项\\04-命中溅血表现.md",
+    "sha256": "2062D9D30E3DB05126564260D36F723B515A6BD8D8851DC58D9324F2AC2F01A6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\03-替换项\\05-影系技能表现.md",
+    "sha256": "24F182FC5FDABDA952EED1C45610A4117A2A9B19E24AD9596175E0FEF3498163"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\03-替换项\\06-毒系技能表现.md",
+    "sha256": "D8BD67CCE3DEF6C99B4BA17BAF90754012EC50346CBCEEBD4775FF1906BD23D9"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\03-替换项\\07-火系技能表现.md",
+    "sha256": "C7796F4A182907E69C00031DE6C23F72B5A89EEC3DAAFD784F0420BEA150AEE8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\03-替换项\\08-混沌技能表现.md",
+    "sha256": "EAFCC124F4FE01E7A0D9CB65DCBB22E0BB9F49DDEBCC102BB8A4392770EC7B4A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\03-替换项\\09-结界与交互物.md",
+    "sha256": "B2E886BA3AC8D7958187345F256E2684D35584C79F962EF67E682D16A310C489"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\03-替换项\\10-奖励宝箱.md",
+    "sha256": "46206B2EB473080C0361C90CD391A9D0F687C509169C5B56BA0E1253D5B901F8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\03-替换项\\11-翻滚动作.md",
+    "sha256": "DA59A03607601E0B854F908D254C63E8DABE61126FD2DE89C85F6D475CC4D922"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\03-替换项\\12-末世城镇荒漠环境.md",
+    "sha256": "17D4AFFA7EEB1948EF3547099D28B6550C0703E6D1492B68A4094C026611C21D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\04-可优化项\\01-元素视觉标记.md",
+    "sha256": "5FFD12D8E1C729CACED1F758AC7EFCA32969F46CC4EC81490078DA59F680AFEF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\04-可优化项\\02-混沌吞噬外观变化.md",
+    "sha256": "59D5FD11D3479FEA764CD68A3252953CA98ED338957CDC943696E6FA238B0693"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\01-疫鬼模型.md",
+    "sha256": "68415B912FB0BA22BA8BA7F77988E5C69B1C2E4C9AF7310A588E1988E50B1D2B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\02-持斧疫鬼模型.md",
+    "sha256": "BCFCFD1FED277608F86989638C403BD0D8C46FCE96CD04014F180E2B3D954D89"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\03-角色共用动画.md",
+    "sha256": "F2FFFB2750F968E6D1EC945CEE4E1E180F2F8A896890FA4990E130F50AE1719D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\04-商人罗德模型.md",
+    "sha256": "1198714EBE87422A868ED80ABD3C496E75B2DD59B6913DBD5BB374979DA25778"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\05-影疫鬼模型.md",
+    "sha256": "EB5AA1461F2AF91A951E50BEF6ED2AD66F3C34CA495A0AA452900E723F5DEAB6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\06-追猎者模型.md",
+    "sha256": "E7F038E5EF6C46F29B91CD8E87D208A0F20C7FA0A47CCAADC8AD3F94094488F4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\07-爆裂斧手模型.md",
+    "sha256": "B783796848AB2EC2E3FFA18C717543A110C0DDA111D74F646FB7F54E65F5E22A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\08-循环蓄力动作.md",
+    "sha256": "EF9CF97CB6BE699254DBBF69A35038BEBB57686200A8DB2FFB22524C05D66609"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\09-炎疫鬼角色与施法.md",
+    "sha256": "C685152234665166BDCA595BC6159DFA8A233A5F32D375D9D2914346C4F82871"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\10-毒箭手角色与射击.md",
+    "sha256": "F9A1D503C504EE48CF95F32FD21E06C7954DD0E77A492B81C0303FEEC45E9E71"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Art\\05-完成项\\11-魅影角色与动作.md",
+    "sha256": "6B63FF447CF0A1C2E876E56CB5224C31710FE33432C7685A0DA1CD6FE3BA04E9"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Completed\\FirstPersonRange.md",
+    "sha256": "4D4DFC1444D38E2259385791CF6828C8C012086310EEF3045E2C7142E29DA4A2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Completed\\Foundation.md",
+    "sha256": "DE1B1014192512F0D82F3017876C06257C53051FFDA60F2924FFDD9074351BC3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Handoffs\\ModuleTasks.md",
+    "sha256": "83BD33B1E711A467B78F94446051A4F60B8DA9E2F0B23644815057F049EC715A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\Handoffs\\SessionHandoff.md",
+    "sha256": "2ADFED08FC714CACF93CD2C5E919323BBC0F396FC82CEBCB2CB24C3DF13B3482"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\外包\\（已完成）01-敌人生态与Boss内容设计包.md",
+    "sha256": "0ED8AC4269DD1C2D1EA9D73D63BF855D3465A576E350BEDBCA0FE4A08BCF7C18"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\外包\\（已完成）02-物品武器与局内成长内容包.md",
+    "sha256": "73DCF0A8826DFF085A4283BD9CF191FD77B0D66AFDFE175670F3CAB0DC538F53"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\外包\\03-世界区域探索点与随机事件内容包.md",
+    "sha256": "3A6048EE91D9C194A6A2E6C9B9BA26F8C7EDB843CE36363B06BAFB4E4A830DC8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\外包\\README.md",
+    "sha256": "4E69FF341B07E9FD10388E1E9B3426B5DDE2D4600157F5B1A303227F88DDFC93"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\外包\\制作人回复\\制作人关于敌人生态的回复.md",
+    "sha256": "C91C1DE6C7DDBADF4AC5CCE3A232CBB99EA43140E0DFFA09FC57AF3A61180E6D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\外包\\制作人回复\\制作人关于世界探索和事件设计的回复.md",
+    "sha256": "0E067E4158BA040988A2CE9448F34BBB46E0DC54B8E9339F61AA36E9C2A5E88C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\外包\\制作人回复\\制作人关于物品和局内成长设计的回复.md",
+    "sha256": "8A9DC67CD68A7016762D1C1B76E857E72D3F38BFF81C280CA5081E083EB522D8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\工作项\\01-ForgeKit单层建筑与缓坡地形资产验证.md",
+    "sha256": "7B6ED7EE2B863A978A14AF3BC9E6D195CB4CF95B986FD4D0A296F8FD5712F6E3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\工作项\\02-随机建筑与敌人寻路验证.md",
+    "sha256": "580C70338CEB766C9947ED39AB494A2AF024C6D7832B67A081BF89F61DF7DD26"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Plan\\工作项\\03-室内外随机物品投放验证.md",
+    "sha256": "40DBDF524C274A50A1251E8FD06BFF938D2D12FFEFBF71B46A501C1ABF0D99B7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Reviews\\FirstPersonRangePreview.png",
+    "sha256": "9FB569F60507ADBCE6C3FA80171B5AEEA01818916CFE5D156FA7A3E6DEE91C24"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Reviews\\FirstPersonRangeVerification.md",
+    "sha256": "79CDA742E037F7A55AB708CDF4AEA3AB344B420EB6EC9B4F8398A7714F7E8569"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Reviews\\FoundationPreview.png",
+    "sha256": "8D77F42AF5B1C54E39877381EBDF375237FE28E1117F9FC4C5D32901F2CB50EC"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Reviews\\FoundationVerification.md",
+    "sha256": "2E0AC15D4F4231C9B1A43E6AA46EC4B8D1F5ACE34FA6B13185E6D3806E2FD45C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\Production\\Reviews\\OpenIssues.md",
+    "sha256": "96807E7D8108BFB26610CF7CDB6346DED37AB8528F7B896828650996A0CC2281"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\assets.d.ts",
+    "sha256": "663EB9ABC09B6C8EEA776994D23DB2BBFE97CF87FFBB7823D4AC8E01D93A9B69"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\main.ts",
+    "sha256": "7E123461E6758207D94D8735512284E7263A589F67C58AB850880E1C4C3DDBE5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\range.css",
+    "sha256": "2E8BA25D8DB42ACA246F832062D02B5F3E807760F787129B6381B76288A35E20"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\styles.css",
+    "sha256": "D05D2C629078DB056647F1737A7B29211D41B68E117E38F69E3721C7855A7D30"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\app\\application.ts",
+    "sha256": "2DAB86715A4AED94DD9C08DCE71104754D5D83121FAED075449758F82790DC4B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\app\\range-application.ts",
+    "sha256": "888565FC6F296E98ECD6F49C8095AF8293EB50831AD9C3EB0E41829BC7EAA381"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\character\\player.ts",
+    "sha256": "A6A7EB098DD980C6F9709A73F97367A43483A44D6670C7470ED46239387DB6E1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\combat\\weapon.ts",
+    "sha256": "BE9798AFB84A9C74429BE32DACDA390B4634AFF3F36A746E7B977970A34B6810"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\config\\config.ts",
+    "sha256": "5C02FA01B14457B40F8E8BFA02B35B409306B2EE013DE676C410CA7AC77353E0"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\config\\foundation.json",
+    "sha256": "E41EE3F25E5DC4A109781C13E62BE693CABF835152E06706EF9A59DA650273C3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\config\\range-config.ts",
+    "sha256": "0131AE0E99B8074630B4B12021AE858E697F530FEA574FFA13790E7705C1AB20"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\config\\range.json",
+    "sha256": "019C56638E88BE71DA1BDA39C36D7D2B63A326A814AAB22FE58E1C480CDC63EB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\core\\entity.ts",
+    "sha256": "05A080F9E92539EE3C5709421BEA775FE66902F8F81F70C6244DDD7624459506"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\core\\events.ts",
+    "sha256": "BD6A962AE7A053149DB8C55A1146E836816780E92DDCFC36ECAF6DC63F0A1BA5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\core\\random.ts",
+    "sha256": "B51979F38E807430A696321BF31E9FA23938C06B2B184FCF20697C516792642E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\core\\time.ts",
+    "sha256": "E09F205FADE557EC654292682688A77795D4BF16C5C88D9C8BFF15D9DCCE3D8D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\core\\vector.ts",
+    "sha256": "2FD604DD63F56A18ADCBC501222A840EA24DCAF447280C07F19AC67B663A8AD3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\input\\range-input.ts",
+    "sha256": "29F607540F357C7D3858BEB01A1594FA151EDDF8B966DA6B9462883DEA5750C6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\physics\\contracts.ts",
+    "sha256": "C59184CC48F527EB19B38140828B650B8EAE4E634CB4E5B9364971EE5661DEFA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\physics\\rapier-world.ts",
+    "sha256": "CEF69C11104FAA12F4D39C906E3D7BA2E30A9A36255618572A7B83A3D8B09BBA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\presentation\\range-view.ts",
+    "sha256": "CFA5406DEBBC658F224D9A248CF59481320FF5D6F794DA431328D12B1817B0CB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\presentation\\scene-view.ts",
+    "sha256": "BE5B9ACDD1C16624BBBB9C805E587FBD662A134879E09E0C5D800D4326067611"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\presentation\\assets\\range-assets.ts",
+    "sha256": "1F1E5F744126D024C68E65CF4A19A9B6D02D1F53DAA6C1B4BF9FAD226B44BC24"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\range\\level.ts",
+    "sha256": "C1677CFEC33816F6BD0841B767ED80B04CAE88C9373083AD29131C2DAF2AB5A9"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\range\\session.ts",
+    "sha256": "829CD4B067DD72B85A074B7E17F979139B7529F4FD339B34A7E0E281A0B4E9CD"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\sandbox\\session.ts",
+    "sha256": "1365240CAEF42FBB4A8FAA1B3B2026296F62FB7EDFE24D5C92035778D2C63DFA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\ui\\foundation-panel.ts",
+    "sha256": "908E4E9374F1F04C59E00E8922BA218EFACBCE60CCD41B9220D972B12CD77691"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\src\\ui\\range-panel.ts",
+    "sha256": "E5598B97A4D8C8D3059BB7FD7E77EB7D4A7FFE90DDC25AAAA270E287D038E90B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\tests\\assets.test.mjs",
+    "sha256": "C368D2B3D1E4AE5EDF8BDA358EA9C36DA6D6C7555AF8868BD4359FBD645D9CEC"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\tests\\boundaries.test.mjs",
+    "sha256": "604E921824C611BBC63296653A22EF5110E2A11B614B22205E765E22D35C2DC5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\tests\\core.test.mjs",
+    "sha256": "B6FDAF5143B39602A54FD9031A3997772FFB74BDF0A6F986C26B82028B54AB1A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\tests\\input.test.mjs",
+    "sha256": "71BB9CD830D3FFA8FE7A8743049F64CACD57382808AA819ADCFB0630D09C5325"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\tests\\range.test.mjs",
+    "sha256": "C10A1761D14A6F2D0FD90F12C21226037048676B89297A79203E3A029CAF6E42"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\tests\\session.test.mjs",
+    "sha256": "52719594E674552905AD31FA2809066A8EB17E0A5D09FDD7DEEB24519DE9267D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\tests\\standalone.test.mjs",
+    "sha256": "0F5B356E6C49E86E1C8715A45DCFC7B2DAF9CCD99377CE78518943F5868184F5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\tests\\weapon.test.mjs",
+    "sha256": "F7D4E427680660D8DE6FD7393BAB47C1F78E90ED66966C806741105FFFC1EC7F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\Deadzone Protocol\\tools\\build.mjs",
+    "sha256": "4C7FD64CA5835B0F995247997215C7A6AA5328314BEF92108047F05347F56359"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\.gitignore",
+    "sha256": "FEED2B071392AB2B747E9AD6487C1C5A10CB2270BE0FB14EFFD69F4027C125AA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\ACCEPTANCE.md",
+    "sha256": "4868B8A40D67C2B7CCA201778CEFA4C2EEA4AF8E8D431F162030CCE4F562CDB2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\build.bat",
+    "sha256": "7F3AFAA2281C85C02CB8F47F1DBBB422F284CA8A229884A94C9EB8FB16362AF7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\package-lock.json",
+    "sha256": "32240095AB0D4413BD3C437D28DD188EE368FAC5B3C916805A9F47BE0EF20D55"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\package.json",
+    "sha256": "8AFC4581DF77DEFD7E0C9A47048187432E95C8110C82A1ADA139DBCB71FE2108"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\README.md",
+    "sha256": "2583A3E17BDAFFF489373DD3DF4D8E0B2D6B5230495EB171A8BF194C468E82F2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\validate.bat",
+    "sha256": "F0676ECC30503E22813DFFD928E050947CD62501078534668F563F264FF65FDB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\README.md",
+    "sha256": "5CAFC9F39DE031161480152C4894F0DECADE627CE11AECC50390B37184F37883"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_AmbushStrike.anim.json",
+    "sha256": "C35F575CF0C423BEBFDC08F32E7EE2371531DEFDF187819ED6EEF7D72814EFA9"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Attack.anim.json",
+    "sha256": "2B7726DE74FB6FEAE3E74561A1E5DF06EF46BDE97656F948C1FBC14106CB43D5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Death.anim.json",
+    "sha256": "6EB187296E9AB897CFC6BCA99F1A59E7C1DA5A325417E81443E62CAE6547612E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Hit.anim.json",
+    "sha256": "F0B743D31651F728E2CE856C8CE421B7C6ACA2E5750C47B5ECC634E948D74CF7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Idle.anim.json",
+    "sha256": "7FCA5FD97AE14E4E1237F5F7D1AD4460E6428BF10BCE7FF9284700B19E54794E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Run.anim.json",
+    "sha256": "EF0FE5EFA6304ADB2EDE053E21C83A0CEBF5372827F9CC27AA22EB2C3B3E57FA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_ShadowDart.anim.json",
+    "sha256": "3173C0044DA2A605A527249A88E9F6390C3B9494D64B61EDBFC96ED22F0DA445"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Vanish.anim.json",
+    "sha256": "DAA2C9CFF80D27769C8B18E5CA8A442A0000CCECF38A7631A21E1BB8D6DAAEBA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\shared\\FSA_ANIM_Character_Attack.anim.json",
+    "sha256": "6B23B62589B00579117B6276477699F7EF8F686DB2EB287C7986466B3F803982"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\shared\\FSA_ANIM_Character_Cast.anim.json",
+    "sha256": "7CD7DB0308F3EB3BAA42DE01E145074ED8B498075DCFD53D264B75AB96E1510B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\shared\\FSA_ANIM_Character_Charge.anim.json",
+    "sha256": "D43F7BA664E587A393461AC135356AEDCD746A1B702AD5B18524361A021816E3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\shared\\FSA_ANIM_Character_Death.anim.json",
+    "sha256": "1D72A3935219048879217BC4DFBE54F2D1530A08E7D7907281E117874FFCCBCB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\shared\\FSA_ANIM_Character_Hit.anim.json",
+    "sha256": "CA0033B8DA6D70CEACDEEF42EBF3097A1E32719D119550DFCAC8B4172F0DEE2C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\shared\\FSA_ANIM_Character_Idle.anim.json",
+    "sha256": "0B125B3E8C13FF3B9771C3A879093BC1819109F8B5E2D2300483DC8291DDF317"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\shared\\FSA_ANIM_Character_Interact.anim.json",
+    "sha256": "9A4B849D28EFD492926E215F6C3914EF51B73FD562BE70502FEB0F37D807EA6F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\shared\\FSA_ANIM_Character_Run.anim.json",
+    "sha256": "04E4B784010681DC8132408EEB6A05EB94BB4D2D84395AB13B0888B98350A021"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\shared\\FSA_ANIM_Character_Shoot.anim.json",
+    "sha256": "1D4979D34EE6D736DB769D3E3002013C5AE990F484BDD40E427C9945596987D1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\characters\\shared\\FSA_ANIM_Character_Walk.anim.json",
+    "sha256": "CAA2BAC74C94A72710EB3B7E2AA7B71A884E90E59178A28401CD50340172E6AC"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Bolt.anim.json",
+    "sha256": "02318E5C3E060E1E6F23C64DB9025B81A9BF231B4D1C510EEA9B23854F175C62"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Draw.anim.json",
+    "sha256": "0738E609D28907228FEF2BE78F73BC5E1BE691011550F0F8B7B61746E673D2BA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Fire.anim.json",
+    "sha256": "A2786F52C4F9D58C50161DBAA04F9602AC076A7FAA3DC60AA6A63B17E6DE02DA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Holster.anim.json",
+    "sha256": "D14C6A091FD1F1C87944B55D55C5D0DE0472D2AF9C8176A50692B635140D1502"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Idle.anim.json",
+    "sha256": "C864E021790938C56CA3FCC263C2FF4901C18258D4616838C7B73826F7C8CB43"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Reload.anim.json",
+    "sha256": "A091FA4AEFCC466557035F7CB8726575FE4F88CD18A1FD58E26C00AA681609B3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Run.anim.json",
+    "sha256": "1919C28791D136C6D3D2AE936FAED0270FD6409774F12F5DBEA024E7A0982B90"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Walk.anim.json",
+    "sha256": "005B98710C04764F4A7CD4168B170E9F5C92DDACE7B2B84BEE077991E7ED4CB3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Attack.anim.json",
+    "sha256": "F3C4731EB29D778E93F9A874097418E783C88DC3C5A78DB96EB4C15231A9C603"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Draw.anim.json",
+    "sha256": "FD0B7020DA7BC561B8E08E969FA1CDFAE597DE446ACC992C48C27310C2ABA903"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Holster.anim.json",
+    "sha256": "C0103D493D482A25E9BB0EB41F51574D164F2979FD160BD94E9E8BD4362BE808"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Idle.anim.json",
+    "sha256": "D012AD9A47DC3CD37ECCD229F3D0211CA4073AA5F60710378998ED0E2FF1BE09"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Run.anim.json",
+    "sha256": "FCE5044E41B2F52624EFA0A7054A70524C223AFA4C84214B81419C95AB139581"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Walk.anim.json",
+    "sha256": "15139243302ACD3D1F45817B3F4608480B588FF6BAED9C850B71970D105E6FF2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Draw.anim.json",
+    "sha256": "1856803426D4C583D514D1553C5B94C6AE447663E5B59E0A57182B8E8B6895AD"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Holster.anim.json",
+    "sha256": "976A136848852F06701D556B473B51E6DF22B43A4B006803C225ABC49BD29834"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Idle.anim.json",
+    "sha256": "53FE0D2ACE7C27EC8DC1C19E9F990A5E56ED4A338DCC5E1406EADCC5F7B6A5AD"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Run.anim.json",
+    "sha256": "6E67994C37D82428C3B66D185E4D278B51450C46054E7DF939D5F2B2A9AD3924"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Throw.anim.json",
+    "sha256": "EEE11C4D47C2405817DF04E382B9FD009B03B4F926D8240C9C46DF624DF3FF30"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Walk.anim.json",
+    "sha256": "4D805AFC41C936F98C349B50659C8A13DCEA1318DFA6D7D9CA9697037AF5F6DA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\unarmed\\FSA_ANIM_FPS_Unarmed_Idle.anim.json",
+    "sha256": "8BF7B54C9E3FFA2B07470F478073A6DEC3C5FBA4EE6CE49D19FEA75696638B21"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\unarmed\\FSA_ANIM_FPS_Unarmed_Run.anim.json",
+    "sha256": "18FA39305785E91306BA078216FDE66BF92B1480A9D1E24EA500F9889733DEE6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\animations\\fps\\unarmed\\FSA_ANIM_FPS_Unarmed_Walk.anim.json",
+    "sha256": "D0C0C30318030F048A6CD7CB2029797628C2F281AF34517A403E35BB9C2D8216"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C001_Phantom.model.json",
+    "sha256": "C05A5987DB839DF35D2BBEB3C6C8B36147757C5E67961F058DC24D952848DC2B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C002_PlagueBeast.model.json",
+    "sha256": "F120EFC2822B943B7FDC7B5F49D5BF48FB72BC9414282BBE3EBE3ED5FA49F89D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C003_FlameWitch.model.json",
+    "sha256": "171E05C9A071C06F3073CBCDDFC168CF1B0F69F1C7FBA0C1098512AAD9CF9625"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\common\\FSA_ENEMY_A001_ZombieA.model.json",
+    "sha256": "C15C62E34A7C9FAD9154B5DA529DE12A51CF45CFD94C30294E8870961143D504"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\common\\FSA_ENEMY_A002_ZombieB.model.json",
+    "sha256": "F94C09EFDE7482E743F67BBA9BB0C7E3223559959AA55297E373D66A569E3B9E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\common\\FSA_ENEMY_A003_ShadowZombie.model.json",
+    "sha256": "8C212F37AFA13C3F73FF9B81BDF0888C442250C01CD4CDB09E7A4AE3479AD16C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\common\\FSA_ENEMY_A004_FlameZombie.model.json",
+    "sha256": "84A649AA19527036E88B835730164C3F6E305B502CB077081A175B3A6D6B7CAC"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\elite\\FSA_ENEMY_B001_Pursuer.model.json",
+    "sha256": "D152C7BF5CE1E3CAE4C714B7A400FAA4249B0B80FA7A7F8BAB6E234692D4C534"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\elite\\FSA_ENEMY_B002_BurstAxeman.model.json",
+    "sha256": "23913AA10BDDC7869C3F4C3E2EF39B15B21EC2B3914DA5DFA7106581D2BE8204"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\enemies\\elite\\FSA_ENEMY_B003_PoisonArcher.model.json",
+    "sha256": "BF7236E461BECD53EFE4B3F20CCA453D882FC46629844ECD90D83EDE2351018D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\characters\\npcs\\FSA_NPC_001_Rod.model.json",
+    "sha256": "7108560556D1B33AFEE946CA0E82F1657AA8FC162B4220A1DF29C4B250F242F3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\fps_arms\\FSA_FPS_Arms_001_Base.model.json",
+    "sha256": "D15FDA0FB9BAD4485B3B3D6691623AB4F91A5547BCC72995C48EA4C01DC9B9E8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\weapons\\AR\\AR_001_Vanguard\\FSA_WPN_AR_001_Vanguard.model.json",
+    "sha256": "7BD15108C1D746C7CEC758079A959B39A5165D1996529E17F8F3CA2E3ED7C574"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\weapons\\DMR\\DMR_001_Sentinel\\FSA_WPN_DMR_001_Sentinel.model.json",
+    "sha256": "8838EF949D3C690439B5DF9BF74BC3DF94C37DAAB487CD00FC13640B20E50838"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\weapons\\LMG\\LMG_001_Bastion\\FSA_WPN_LMG_001_Bastion.model.json",
+    "sha256": "33590D9741068766BD13476A99E481DC65067EDE955BB212207217A33CBE09E2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\weapons\\Melee\\Melee_001_Fang\\FSA_WPN_Melee_001_Fang.model.json",
+    "sha256": "5BD52B4470618F37F91CB509E0B31219639FB2034A5460AA0BBB5C5AC5889CDA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\weapons\\Pistol\\Pistol_001_Sidekick\\FSA_WPN_Pistol_001_Sidekick.model.json",
+    "sha256": "22F4FBF29990BEE1E84300513EC0ED8AE9530C31545E5317ED4AECDA0B62DF37"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\weapons\\Shotgun\\Shotgun_001_Breacher\\FSA_WPN_Shotgun_001_Breacher.model.json",
+    "sha256": "01B718309080AA810C2C8DE8216DE52E7B80D2D8A9751B728DBB01D358B9BC3C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\weapons\\SMG\\SMG_001_Swift\\FSA_WPN_SMG_001_Swift.model.json",
+    "sha256": "53AAB6D955C7EF504A10E75FD1996CF227BB4C62A86C6C75B63632D605F47F4A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\weapons\\SR\\SR_001_Longwatch\\FSA_WPN_SR_001_Longwatch.model.json",
+    "sha256": "B1F48F57622E51F37552A808046DD0AE0BDFF877EDA2CDED4C865B1F679A10B1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\definitions\\models\\weapons\\Throwable\\Throwable_001_Thunder\\FSA_WPN_Throwable_001_Thunder.model.json",
+    "sha256": "8DE4ABD5F9C5C3E6D18E60E72FDCDF85F7F48D6343EDFDAE83DD23AF0098D864"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\ASSET_PLAN.md",
+    "sha256": "2F28EF5A2359AB9C813C1E44F8BAF38616E3AF7BDE865741D113FE7ABE97DC7C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\BURST_AXEMAN_V1.md",
+    "sha256": "F22F67B206236E72F3B747F191542784B7009D21FF82AFE0E26C7D4B8181FF79"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\CHARACTER_CHARGE_V1.md",
+    "sha256": "F2011ED0DDE0077EB79333DAEC951D35AA49FD836A5E26CDA17510E6D9A19362"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\CHARACTERS_V1.md",
+    "sha256": "0E08555840E19EE0DC1E5F15C8A184D58F79F57B8C279B34E35CDCDF2F0B44D5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\FLAME_ZOMBIE_V1.md",
+    "sha256": "9CC22A4B818BB36FE993577C80EDEA1976C7864CAE8934EF456BA8A0C8D68D6D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\FPS_ANIMATION_EVENTS.json",
+    "sha256": "4B0887DE08A5D91BCA31D960664B86F95C5BE7F74C8C31280AC2AA7593C1C97E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\FPS_ANIMATIONS_V1.md",
+    "sha256": "74A0D8863786EE2C63CAB9058733E1FD07C297B5A74E047E223E68F1C77230C2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\FPS_ARMS_V1.md",
+    "sha256": "3990D163247C28B6099DE7197EC6406D07AD4CBDCA8B4A03BE3A5928B50CFAFF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\POISON_ARCHER_V1.md",
+    "sha256": "3522A20FEED132F7FDB544A634FCC9C33D3F007F37F7D7A881132365D152F029"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\PURSUER_V1.md",
+    "sha256": "C1C9EBF04172039841D64C1A7E8FC94A85A9A9E41C7C6F1058601F8D8EF2B564"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\SHADOW_ZOMBIE_V1.md",
+    "sha256": "363D9174B9C027DA9A543487B178C15E3EF8EC3F70D9F06CB69CF88E51AF4304"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\docs\\WEAPONS_V1.md",
+    "sha256": "9B742E45938FB968D9D00F12CA9E5ADFBC5CCCA70796D8FB5508717203D9CA60"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\模型资产使用说明.md",
+    "sha256": "6CD5421FBAEC3C966392756681B3C4D9D38A81C351F6DFFDFBA43789E1624009"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_AmbushStrike.anim.glb",
+    "sha256": "0C087C84130A0EAF15D2E95B02D89B2BB806DE0479F04E9CBDC9D2C716EBD8CB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Attack.anim.glb",
+    "sha256": "5BFCD06263C44A2CBD7D161EA55EFF336D00B0CB5D84B9CD7DFB75D5EB885E7F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Death.anim.glb",
+    "sha256": "68CD3C89DDEBF0D62AC08D2670D4CF3581F02F93C2D48D9D6AF9AA023BDEB908"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Hit.anim.glb",
+    "sha256": "AC45F70807D36C8EB315D420CBC62610DBBBBC727B2973060A50379C5484C84A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Idle.anim.glb",
+    "sha256": "8AD66362C79B4EFB05E7785AA03312EF31578FB3874103233A6CA7FF55E10556"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Run.anim.glb",
+    "sha256": "47BDD4FE2D31C367AF0076F198B1D36D52CBACDFFF8D95B69AE0E256FBCE4439"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_ShadowDart.anim.glb",
+    "sha256": "52CD864FF7E84A38A090D9EE2B94E6E10872325F08E0659B071827E8684FE7C2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\overrides\\bosses\\phantom\\FSA_ANIM_C001_Phantom_Vanish.anim.glb",
+    "sha256": "4850DEEB4C362F88A695190E628FB8CAAB2B5E108CDF15150C307D65B83BA81F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\shared\\FSA_ANIM_Character_Attack.anim.glb",
+    "sha256": "16D897ED725DAD9CA96BD74241B6BBD69B7D3E78EFC7033B702DD6043105BC46"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\shared\\FSA_ANIM_Character_Cast.anim.glb",
+    "sha256": "C8D7EB5FA700C6EEC19ACA3C240711B4599309034E81BFED84FE4D575424A16C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\shared\\FSA_ANIM_Character_Charge.anim.glb",
+    "sha256": "BA26F44E8F5E2E3CD6F410539026D846D8216750C0FD69DDC1E04FC296EFEDB6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\shared\\FSA_ANIM_Character_Death.anim.glb",
+    "sha256": "646DA4660E25628DD826342C56CF7A9A0F9FDA7314A3F6F5F8854333B072D871"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\shared\\FSA_ANIM_Character_Hit.anim.glb",
+    "sha256": "68E0D212D543C7FDBF91D77A772CA094B1FDE360F4E74F655E4D4B01D242045F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\shared\\FSA_ANIM_Character_Idle.anim.glb",
+    "sha256": "6FE773715B20052E4CBE824FC72757A8A0AFFDA80CB6960DFA87583FE5ED3BB2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\shared\\FSA_ANIM_Character_Interact.anim.glb",
+    "sha256": "0E480518FDF7A26902FBF33FE6CDD09CCA95B3BD11C9F84106018EC2C2F9859B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\shared\\FSA_ANIM_Character_Run.anim.glb",
+    "sha256": "F8D2EC350262B275DA74C76F454092C268E55FBEA77F25E66ED0DFFA0FADDDAF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\shared\\FSA_ANIM_Character_Shoot.anim.glb",
+    "sha256": "45CE05903D45E97FA1207254C6AB7600269AF857A67DC4E34879373F9A10BFDA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\characters\\shared\\FSA_ANIM_Character_Walk.anim.glb",
+    "sha256": "F15F777C9377625059249E03382ADF172ED9538863C506095CE89A623542368F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Bolt.anim.glb",
+    "sha256": "664CA6C8002C061C9C743D51A95D093B4C507E329EA408A4DC1AADA5C5781594"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Draw.anim.glb",
+    "sha256": "FFC9BBE6E3E413DEC6B29A332F00DD550AA2DE6B100CB299D50C47B9527F8B8C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Fire.anim.glb",
+    "sha256": "4C509CF4485F118917B67CC983CE2A06B9F4B32DF914CCE7D752FAC05F845596"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Holster.anim.glb",
+    "sha256": "C4295AF034ED7159276BAD56C5889859E06101CF1B152981442E83286A9D8526"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Idle.anim.glb",
+    "sha256": "8E5C9F0C619A67E3A6B0D16C1C45D7CCFAA4BFB521FD02DD91B1B48B74751893"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Reload.anim.glb",
+    "sha256": "4B6517D4C5B0F94C1C033AC59DED01F7F51C5F198CB9F8AAC5D3E1940B5A22D4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Run.anim.glb",
+    "sha256": "A400362985387A634D57A42EAC1413807F87D4E28FFFDD68F3A014E3838BE5A6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\firearm\\shared\\FSA_ANIM_FPS_Firearm_Walk.anim.glb",
+    "sha256": "86393F92A87E1543365409A9C8012F0C4C7753EBB61ED3353F7F52BFCABD7FEE"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Attack.anim.glb",
+    "sha256": "255669CD6779B4B2AA237E2176E0A4B5DE13ED3D7406D58292C1CC801148BDAE"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Draw.anim.glb",
+    "sha256": "BB9461A4D81E7F5317AA261D56D8D18C1CFD7F6A476E48E7DBEE72042F7CA496"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Holster.anim.glb",
+    "sha256": "5F134B6059A7DB161C364D772BFBF65B731F968EB1EC66FE6D1505BBA7D66E70"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Idle.anim.glb",
+    "sha256": "8341440F83FB497FC7E6E9A4E1A53AC1C444778259FE86E8C4BFF91F16DDFE56"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Run.anim.glb",
+    "sha256": "FDCCC624B6F412DF397C2496441110A8718E3AEBEAFAA8F822B80BA060291660"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\melee\\shared\\FSA_ANIM_FPS_Melee_Walk.anim.glb",
+    "sha256": "B9266F4E42CD1D737BDBA545A674872A069CF5C4376A5EB25214AD9E86AE7C8D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Draw.anim.glb",
+    "sha256": "10E08F409C97B07354694FF4EC7A699D18D10967C047F29EAE490DAAAEE47E62"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Holster.anim.glb",
+    "sha256": "69BD0E7217B63546A05D3818DB52E786EB3B95CFFF630A03B6A3725E169E4437"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Idle.anim.glb",
+    "sha256": "83BFC9A76A96AD77AFC1C45D6244BBB427C94299D7E5D67BC606B81593FC83B3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Run.anim.glb",
+    "sha256": "C2FBD597E936EFB66E80B4CA7117E5828D5C73FA32F3043CF918E0E1484D892F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Throw.anim.glb",
+    "sha256": "92589803EE45623BFA4AF39016FBF2E5381300D549C6DEDF23D0FA97FD49DC48"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\throwable\\shared\\FSA_ANIM_FPS_Throwable_Walk.anim.glb",
+    "sha256": "7B2B04FE35115D20F36ACB23A1953777EF0251C464834A05B9CEC60906EC4658"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\unarmed\\FSA_ANIM_FPS_Unarmed_Idle.anim.glb",
+    "sha256": "C0510F4AB19E99CF53107481BE2536B7A9C331F6BB1AD151AC9D6F10DBA3F64E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\unarmed\\FSA_ANIM_FPS_Unarmed_Run.anim.glb",
+    "sha256": "0CBEF44D3560CB88F18E73FB6CB6B611D991AF3FB36BCB06B7962B84BE60CA7C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\animations\\fps\\unarmed\\FSA_ANIM_FPS_Unarmed_Walk.anim.glb",
+    "sha256": "89CD4BE16C11CCF2B86D50E7C8FEF54376F4D8A9ACFFB5AE8CF3D4E327EE85FD"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C001_Phantom.glb",
+    "sha256": "CE9688513DA91DD30FC346A5FD2D4546A7126D7F17B87ADB8BF6850E0D99D596"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C002_PlagueBeast.glb",
+    "sha256": "BAC8B80E67DEACAB1E606D3D52C59A9BF6C2026B90F0D6ED88D8CD8B7DBDF1C8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\bosses\\FSA_ENEMY_C003_FlameWitch.glb",
+    "sha256": "E952456C04358C9971BCE75855492AFC69BBB96F2C2CBD3FDA0D5F5576611B0A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\common\\FSA_ENEMY_A001_ZombieA.glb",
+    "sha256": "1A3A50F89E6EFD8C9774CADCDA7B03942FBC4010A1225C58BD77A23DE856318C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\common\\FSA_ENEMY_A002_ZombieB.glb",
+    "sha256": "38A60C62820999CE14F234F710408F696B216048CED781A0F18AF48F4FE586F2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\common\\FSA_ENEMY_A003_ShadowZombie.glb",
+    "sha256": "D3796B15B7A75F190227B359CF0004E5827941EFA35CAB3EDB56DCF23E805909"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\common\\FSA_ENEMY_A004_FlameZombie.glb",
+    "sha256": "BB3AA71455EEED8976C02C06DE8862738C63FE66E4BEF62042E6D310D8160AD2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\elite\\FSA_ENEMY_B001_Pursuer.glb",
+    "sha256": "46FD3B8B9FBCC0010A3FC32332171FE8284D96AA600A342BC77D17B3570EDBD4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\elite\\FSA_ENEMY_B002_BurstAxeman.glb",
+    "sha256": "5E2BAEE1D60B2BF0B588665020EAE7AE0BFB21920D6EAB10B773DD893A68A635"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\enemies\\elite\\FSA_ENEMY_B003_PoisonArcher.glb",
+    "sha256": "23435DCBD8F076F5E9A90817CCE4BD93AB110AEBB56AE71F218B1DAFAC1B2E4C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\characters\\npcs\\FSA_NPC_001_Rod.glb",
+    "sha256": "F28E91A24489AF771C965CCBD05072F027E86843B0A570E025A4D1B6817DC5F2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\fps_arms\\FSA_FPS_Arms_001_Base.glb",
+    "sha256": "678F56D9CFD23A475C6503E625176866668E9FCF2AFDE3AE98EBB5DD6A435247"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\weapons\\AR\\AR_001_Vanguard\\FSA_WPN_AR_001_Vanguard.glb",
+    "sha256": "E2C36C8446D605102B927F13624FCFAD64F8137AC43781ED8A950F42B4D8D834"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\weapons\\DMR\\DMR_001_Sentinel\\FSA_WPN_DMR_001_Sentinel.glb",
+    "sha256": "8B8CA0FCE35913B220D2756EB57CDB94FDF21BA79EA2379A279C9A38E80EA9B7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\weapons\\LMG\\LMG_001_Bastion\\FSA_WPN_LMG_001_Bastion.glb",
+    "sha256": "52B27E63475443AB139FE1CD446724D81981B5740A743F3CD804779B9F8AD332"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\weapons\\Melee\\Melee_001_Fang\\FSA_WPN_Melee_001_Fang.glb",
+    "sha256": "0D53DD0EF71CE6172813889A28B9B96A91E5D874099D9016F2E44510C6F63CFB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\weapons\\Pistol\\Pistol_001_Sidekick\\FSA_WPN_Pistol_001_Sidekick.glb",
+    "sha256": "04E21FCE2C1A593088F884FE99E66F052285181C945BB2FB6C6C9EAD4C229881"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\weapons\\Shotgun\\Shotgun_001_Breacher\\FSA_WPN_Shotgun_001_Breacher.glb",
+    "sha256": "57A3B3D6B06DB4A9F7614D9AF9EF08C2194ED37FE172AB9893A511DCFCC5C5D8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\weapons\\SMG\\SMG_001_Swift\\FSA_WPN_SMG_001_Swift.glb",
+    "sha256": "B593B5E70F7E36053DC87E8A71683986DEA34BD509BED128FE91A11F79DA29FF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\weapons\\SR\\SR_001_Longwatch\\FSA_WPN_SR_001_Longwatch.glb",
+    "sha256": "AC30BA3D85E1A350F13CD1CDE5D50F51A460463FAFD942EC322601AE0AEA7897"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\FSA(项目使用)\\generated\\models\\weapons\\Throwable\\Throwable_001_Thunder\\FSA_WPN_Throwable_001_Thunder.glb",
+    "sha256": "1FF370DC6350B4769A08A4101822B11E5D26382822B199BED8F553B713CADEA1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\README.md",
+    "sha256": "CE984489F65332D4ED58DFA64E8E3B0BFA61F16A9F217F553F4E578E8D842934"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\animations\\humanoid_attack.anim.json",
+    "sha256": "1D2509F9A450C5836F95B53ACF101D71DEF8A34F7BAAD199D9EAECD2F0A193E1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\animations\\humanoid_idle.anim.json",
+    "sha256": "CC0011F5CF7E5BEEB11D81AAAA8EE190BDEB26A4259D3D26DF0ADF60491504A7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\animations\\humanoid_run.anim.json",
+    "sha256": "894FF8EDDC818FC06D86769C22277DF360D09C7AB3D0433E29AAB86C13F8C812"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\animations\\humanoid_walk.anim.json",
+    "sha256": "459286754B3E36C3AC2E88F5BA21309C5004521D3064C69B4AAC4DC44F18A977"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\materials\\steel.material.json",
+    "sha256": "97920B2A656694CCD434F70DCD1F0D436A134AED33D9163B25E093C556938865"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\models\\humanoid_test.model.json",
+    "sha256": "20E253CF2B7D60E8721E4576223B98D422D7139FAD33C4F3FDE79448A3C675BD"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\models\\primitives.model.json",
+    "sha256": "3AA5A0E174EB26A6F0F91820DB29088F820AC66549BE5C0F7471502A505608EF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\models\\simple_humanoid.model.json",
+    "sha256": "AEF422D872CF4198C6311082BA73A7DFC6B3A56F08BD00D6AB93FEB013B1F81F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\models\\simple_static.model.json",
+    "sha256": "724A3E30ED848658A5F0F6466DFF67620D9193FEAB4D643E445D6B095B5E97DA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\models\\test_weapon.model.json",
+    "sha256": "7E487E810EAC32FED74341247132A4D65FFA2F4F1C6ADD2A195852D6F8FF19A8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\definitions\\poses\\ready.pose.json",
+    "sha256": "B107D04CA8B917BD7902C67C2B154F8BA0BAA44015701F46865BB453A9F3B149"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_A004_FlameZombie_Cast.anim.glb",
+    "sha256": "FABEE60CBBD477C6067D4C25AB3E45322735839C995494CEAC7E470AC3436BF9"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_B003_PoisonArcher_Shoot.anim.glb",
+    "sha256": "40A267E06D878D0BF8A1ECE98E08226FD1EFD3E3A8A1C756352C03B914671B7D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_Character_Attack.anim.glb",
+    "sha256": "16D897ED725DAD9CA96BD74241B6BBD69B7D3E78EFC7033B702DD6043105BC46"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_Character_Charge.anim.glb",
+    "sha256": "BA26F44E8F5E2E3CD6F410539026D846D8216750C0FD69DDC1E04FC296EFEDB6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_Character_Death.anim.glb",
+    "sha256": "646DA4660E25628DD826342C56CF7A9A0F9FDA7314A3F6F5F8854333B072D871"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_Character_Hit.anim.glb",
+    "sha256": "68E0D212D543C7FDBF91D77A772CA094B1FDE360F4E74F655E4D4B01D242045F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_Character_Idle.anim.glb",
+    "sha256": "6FE773715B20052E4CBE824FC72757A8A0AFFDA80CB6960DFA87583FE5ED3BB2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_Character_Interact.anim.glb",
+    "sha256": "0E480518FDF7A26902FBF33FE6CDD09CCA95B3BD11C9F84106018EC2C2F9859B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_Character_Run.anim.glb",
+    "sha256": "F8D2EC350262B275DA74C76F454092C268E55FBEA77F25E66ED0DFFA0FADDDAF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_Character_Walk.anim.glb",
+    "sha256": "F15F777C9377625059249E03382ADF172ED9538863C506095CE89A623542368F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Firearm_Bolt.anim.glb",
+    "sha256": "664CA6C8002C061C9C743D51A95D093B4C507E329EA408A4DC1AADA5C5781594"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Firearm_Draw.anim.glb",
+    "sha256": "FFC9BBE6E3E413DEC6B29A332F00DD550AA2DE6B100CB299D50C47B9527F8B8C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Firearm_Fire.anim.glb",
+    "sha256": "4C509CF4485F118917B67CC983CE2A06B9F4B32DF914CCE7D752FAC05F845596"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Firearm_Holster.anim.glb",
+    "sha256": "C4295AF034ED7159276BAD56C5889859E06101CF1B152981442E83286A9D8526"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Firearm_Idle.anim.glb",
+    "sha256": "8E5C9F0C619A67E3A6B0D16C1C45D7CCFAA4BFB521FD02DD91B1B48B74751893"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Firearm_Reload.anim.glb",
+    "sha256": "4B6517D4C5B0F94C1C033AC59DED01F7F51C5F198CB9F8AAC5D3E1940B5A22D4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Firearm_Run.anim.glb",
+    "sha256": "A400362985387A634D57A42EAC1413807F87D4E28FFFDD68F3A014E3838BE5A6"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Firearm_Walk.anim.glb",
+    "sha256": "86393F92A87E1543365409A9C8012F0C4C7753EBB61ED3353F7F52BFCABD7FEE"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Melee_Attack.anim.glb",
+    "sha256": "255669CD6779B4B2AA237E2176E0A4B5DE13ED3D7406D58292C1CC801148BDAE"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Melee_Draw.anim.glb",
+    "sha256": "BB9461A4D81E7F5317AA261D56D8D18C1CFD7F6A476E48E7DBEE72042F7CA496"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Melee_Holster.anim.glb",
+    "sha256": "5F134B6059A7DB161C364D772BFBF65B731F968EB1EC66FE6D1505BBA7D66E70"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Melee_Idle.anim.glb",
+    "sha256": "8341440F83FB497FC7E6E9A4E1A53AC1C444778259FE86E8C4BFF91F16DDFE56"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Melee_Run.anim.glb",
+    "sha256": "FDCCC624B6F412DF397C2496441110A8718E3AEBEAFAA8F822B80BA060291660"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Melee_Walk.anim.glb",
+    "sha256": "B9266F4E42CD1D737BDBA545A674872A069CF5C4376A5EB25214AD9E86AE7C8D"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Throwable_Draw.anim.glb",
+    "sha256": "10E08F409C97B07354694FF4EC7A699D18D10967C047F29EAE490DAAAEE47E62"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Throwable_Holster.anim.glb",
+    "sha256": "69BD0E7217B63546A05D3818DB52E786EB3B95CFFF630A03B6A3725E169E4437"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Throwable_Idle.anim.glb",
+    "sha256": "83BFC9A76A96AD77AFC1C45D6244BBB427C94299D7E5D67BC606B81593FC83B3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Throwable_Run.anim.glb",
+    "sha256": "C2FBD597E936EFB66E80B4CA7117E5828D5C73FA32F3043CF918E0E1484D892F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Throwable_Throw.anim.glb",
+    "sha256": "92589803EE45623BFA4AF39016FBF2E5381300D549C6DEDF23D0FA97FD49DC48"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Throwable_Walk.anim.glb",
+    "sha256": "7B2B04FE35115D20F36ACB23A1953777EF0251C464834A05B9CEC60906EC4658"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Unarmed_Idle.anim.glb",
+    "sha256": "C0510F4AB19E99CF53107481BE2536B7A9C331F6BB1AD151AC9D6F10DBA3F64E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Unarmed_Run.anim.glb",
+    "sha256": "0CBEF44D3560CB88F18E73FB6CB6B611D991AF3FB36BCB06B7962B84BE60CA7C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\FSA_ANIM_FPS_Unarmed_Walk.anim.glb",
+    "sha256": "89CD4BE16C11CCF2B86D50E7C8FEF54376F4D8A9ACFFB5AE8CF3D4E327EE85FD"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\humanoid_attack.anim.glb",
+    "sha256": "52774EACD235BD905E56F6AFC48AD3CB908536F20A43060395925BC0CF41B4B4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\humanoid_idle.anim.glb",
+    "sha256": "A21E5343228C67414A64E9BC8DA07012ADFEB84776B3BBE0114E8AB5C3DD1C21"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\humanoid_run.anim.glb",
+    "sha256": "1618A593362F90F2891506ADC81EE9E3643FA673B828DD05D6B7DAB1E91FDD77"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\animations\\humanoid_walk.anim.glb",
+    "sha256": "A2024C2532DC151CAE93B6899F9D440A112E8E0C46406B22E1BA8C0C153C2D90"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_ENEMY_A001_ZombieA.glb",
+    "sha256": "1A3A50F89E6EFD8C9774CADCDA7B03942FBC4010A1225C58BD77A23DE856318C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_ENEMY_A002_ZombieB.glb",
+    "sha256": "38A60C62820999CE14F234F710408F696B216048CED781A0F18AF48F4FE586F2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_ENEMY_A003_ShadowZombie.glb",
+    "sha256": "D3796B15B7A75F190227B359CF0004E5827941EFA35CAB3EDB56DCF23E805909"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_ENEMY_A004_FlameZombie.glb",
+    "sha256": "BB3AA71455EEED8976C02C06DE8862738C63FE66E4BEF62042E6D310D8160AD2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_ENEMY_B001_Pursuer.glb",
+    "sha256": "46FD3B8B9FBCC0010A3FC32332171FE8284D96AA600A342BC77D17B3570EDBD4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_ENEMY_B002_BurstAxeman.glb",
+    "sha256": "5E2BAEE1D60B2BF0B588665020EAE7AE0BFB21920D6EAB10B773DD893A68A635"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_ENEMY_B003_PoisonArcher.glb",
+    "sha256": "23435DCBD8F076F5E9A90817CCE4BD93AB110AEBB56AE71F218B1DAFAC1B2E4C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_FPS_Arms_001_Base.glb",
+    "sha256": "678F56D9CFD23A475C6503E625176866668E9FCF2AFDE3AE98EBB5DD6A435247"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_NPC_001_Rod.glb",
+    "sha256": "F28E91A24489AF771C965CCBD05072F027E86843B0A570E025A4D1B6817DC5F2"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_WPN_AR_001_Vanguard.glb",
+    "sha256": "E2C36C8446D605102B927F13624FCFAD64F8137AC43781ED8A950F42B4D8D834"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_WPN_DMR_001_Sentinel.glb",
+    "sha256": "8B8CA0FCE35913B220D2756EB57CDB94FDF21BA79EA2379A279C9A38E80EA9B7"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_WPN_LMG_001_Bastion.glb",
+    "sha256": "52B27E63475443AB139FE1CD446724D81981B5740A743F3CD804779B9F8AD332"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_WPN_Melee_001_Fang.glb",
+    "sha256": "0D53DD0EF71CE6172813889A28B9B96A91E5D874099D9016F2E44510C6F63CFB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_WPN_Pistol_001_Sidekick.glb",
+    "sha256": "04E21FCE2C1A593088F884FE99E66F052285181C945BB2FB6C6C9EAD4C229881"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_WPN_Shotgun_001_Breacher.glb",
+    "sha256": "57A3B3D6B06DB4A9F7614D9AF9EF08C2194ED37FE172AB9893A511DCFCC5C5D8"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_WPN_SMG_001_Swift.glb",
+    "sha256": "B593B5E70F7E36053DC87E8A71683986DEA34BD509BED128FE91A11F79DA29FF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_WPN_SR_001_Longwatch.glb",
+    "sha256": "AC30BA3D85E1A350F13CD1CDE5D50F51A460463FAFD942EC322601AE0AEA7897"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\FSA_WPN_Throwable_001_Thunder.glb",
+    "sha256": "1FF370DC6350B4769A08A4101822B11E5D26382822B199BED8F553B713CADEA1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\humanoid_test.glb",
+    "sha256": "599ED8FD58EA264B11DFD72032C5EA04AD2E16AA068AEDA57EEF01799751FEAF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\primitives.glb",
+    "sha256": "3EF807294BB4438E1FB5A5B8C9972979332CD838DCD0999C62FEBFCFE24B87F4"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\simple_humanoid.glb",
+    "sha256": "951B91F9D311989642ED60F0374DEB6CD58DF9ADB9DC0BFCE0074BB0F1F26F76"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\simple_static.glb",
+    "sha256": "5D399143D9CF015C8A3F66FADA942497368089630AF773CFB70986421D9BC9C9"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\assets\\legacy\\generated\\models\\test_weapon.glb",
+    "sha256": "2F8558E5011CC676505FBD4E13FE7EE141598EE5F21028FCAEEDA2D37968B8CE"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\examples\\README.md",
+    "sha256": "FF605D42C64A4E28A82CFC7BA8D4221377643EDBF138601069C3AE2C752CAD92"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\previewer\\index.html",
+    "sha256": "541C8F510D50C7E33E5D46BA2115060C79053721C73E4B4E94D5D413D99B1476"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\previewer\\previewer.css",
+    "sha256": "75B190AB0607C605D852AD133C4205DC1E36F0E03C62E42ECF7B6787D53AF95B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\previewer\\previewer.js",
+    "sha256": "8543B87175E977786C1E2FD30E4C184DBAC26BF3119CB81A50F1AD3B053311F1"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\previewer\\runtime.js",
+    "sha256": "4F9A0431DAA9C36D3E4BA57CECC9333342A7B90AE86148751478CD6C765019BF"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\previewer\\vendor\\three-gltf.js",
+    "sha256": "B958955EF45CFE27272769EDCA865C900F85E3C27E07405A268271B536586B3E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\previewer\\vendor\\THREE-LICENSE.txt",
+    "sha256": "BFE119EA4FD413F5F7CA3FCD63ADB0C4A073ED39DAA2FE7D3E6B769E21272601"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\rules\\ANIMATION_RULES.md",
+    "sha256": "B9589650A7198B229FA5797F0A334CC86F3F09524D8D50E79837D79C0E13F9B3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\rules\\ASSET_RULES_FOR_AI.md",
+    "sha256": "E07EB6B01093962777EA8DEF1874C8CE21233D8672DD0FEBDB25CA9E30A762D3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\rules\\COORDINATE_SYSTEM.md",
+    "sha256": "38E94784C1E986249C609386440BCA4321839569DA4524A03F9A90542B031817"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\rules\\HUMANOID_RIG.md",
+    "sha256": "2463128C3BDB774EFCBA04F5F1FC24F11023B46AEE1124B4147797E089E4D35C"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\rules\\MODEL_RULES.md",
+    "sha256": "705EB9FA7DB81C2A203133E5148EFA054DCA189106C5711129B4E6247672CC49"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\rules\\RUNTIME_ASSET_USAGE.md",
+    "sha256": "FB35694D492D3077254B39C5B89886E722E3978A4635E1536C46716514368166"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\schemas\\animation.schema.json",
+    "sha256": "7E8DEA1E20B1190D13029A3A1529B871A7CCB28577F4BB056ABC17E0C317626B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\schemas\\material.schema.json",
+    "sha256": "5E28CC868C59BC28064A66B31D788553AE1D7DF53264B42A70196511CDF6D7EA"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\schemas\\model.schema.json",
+    "sha256": "808F67F874DD06539E2FECBEAF731CF029DDB14DF33CB666ECCEBBEC45E510DB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\schemas\\pose.schema.json",
+    "sha256": "A64901D4ABAD69B66A03848BA91FB9E42C99B238B3003F5FFE96BF5649B6A47F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tests\\browser-smoke.js",
+    "sha256": "9C0E69BE69DD3952937C9DDB859C3879E2A4E7082174DB624A9B1E5D87CB1D3E"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tests\\characters.test.js",
+    "sha256": "321EB616274ABA00EECF1ED401BEFF224B29C0524BB928679AD09A896A42C4A3"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tests\\fps-animations.test.js",
+    "sha256": "DB7AA55EF4375CCE90F9E7509BB4F2F1E6E6A136EA51B1EDD1712D11293C36B5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tests\\fps-arms.test.js",
+    "sha256": "557ED74E59B5D81AAA1544DF5759B1161095C4D407F8763767E1E792712BA70A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tests\\pipeline.test.js",
+    "sha256": "1F31E9170D6D726433BD8D284476FFF456AA457143F1ECC7D8AC14F84E018074"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tests\\preview-weapon-smoke.js",
+    "sha256": "E3BCF9250B23727E79401DC2745F47DD08F4A832EB6A3850941CD0BF8EC56DEB"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tools\\compiler\\build.js",
+    "sha256": "80AE36BB9218438B8A87B2E20ACCC7BBB0C13DB783F7C930F0303453C606F903"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tools\\compiler\\compile.js",
+    "sha256": "C70ADC56C96C4BCEEB9A1F07DE0B87A3071CA56EC88F3337B5F4D84B232B48C9"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tools\\core\\fps-rig.js",
+    "sha256": "BFE69F7AF16A734806451A72AEFD49563B7034F04BC17FF1615F2B4FD58F65A5"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tools\\core\\library.js",
+    "sha256": "87B41F796E29776861A0B736B846EB7605D004D75919F7910B541833BD221C19"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tools\\core\\rig.js",
+    "sha256": "CE4BDDA71353D17564660825AC4E007E17A67B639B7738CDB8C3E93D225E3463"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tools\\scripts\\examples.js",
+    "sha256": "2338E3B13CF2C9002AD1B32C05EAF70D952B5B2F1C100609343F4D983D98FB7B"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tools\\scripts\\schemas.js",
+    "sha256": "6F7BB48178FE50085D57ECED5C64CC8BF870BAEF8BF8F223449DB0FDF9B0520A"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tools\\scripts\\vendor.cjs",
+    "sha256": "C0F15F74C8AA9C672AC2039E1E14B02662D775361C666C0F5338DA045A031A9F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tools\\validator\\validate.js",
+    "sha256": "BEC780EAF86E8B99D67888FB463FC0641170154B2AEEE43F3D94FC43442AB06F"
+  },
+  {
+    "path": "G:\\Game\\Fire\\ForgeKit\\tools\\validator\\validation.js",
+    "sha256": "C8F44A89E919ADE17B5EA0E65CD6BFEEB3E402584068A8D22404E98E241FF444"
+  }
+]

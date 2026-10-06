@@ -1,0 +1,46 @@
+{
+  "schema": "animation.v1",
+  "id": "fsa.animation.arms.unequip",
+  "rig": "humanoid.v1",
+  "duration": 0.35,
+  "loop": false,
+  "mode": "timeline",
+  "tracks": {
+    "Arm_L": [
+      {
+        "time": 0,
+        "rotation": [
+          -85.12552,
+          -56.590575,
+          -119.24209
+        ]
+      },
+      {
+        "time": 0.35,
+        "rotation": [
+          0,
+          0,
+          -90
+        ]
+      }
+    ],
+    "Arm_R": [
+      {
+        "time": 0,
+        "rotation": [
+          -91.654898,
+          50.224938,
+          131.035345
+        ]
+      },
+      {
+        "time": 0.35,
+        "rotation": [
+          0,
+          0,
+          90
+        ]
+      }
+    ]
+  }
+}

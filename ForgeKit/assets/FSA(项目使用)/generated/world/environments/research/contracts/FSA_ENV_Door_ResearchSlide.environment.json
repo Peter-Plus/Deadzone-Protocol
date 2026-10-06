@@ -1,0 +1,285 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Door_ResearchSlide",
+  "label": "研究所室内密封门 · 双侧开关／一次开启",
+  "type": "gate",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3,
+      -3
+    ],
+    "max": [
+      6,
+      3
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Leaf",
+      "role": "moving",
+      "position": [
+        0,
+        1.6,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.1,
+        3.2,
+        0.16
+      ]
+    },
+    {
+      "node": "Frame0",
+      "role": "barrier",
+      "position": [
+        -1.63,
+        1.8,
+        -0.22
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.24,
+        3.6,
+        0.2
+      ]
+    },
+    {
+      "node": "Frame1",
+      "role": "barrier",
+      "position": [
+        1.63,
+        1.8,
+        -0.22
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.24,
+        3.6,
+        0.2
+      ]
+    },
+    {
+      "node": "Header",
+      "role": "barrier",
+      "position": [
+        0,
+        3.48,
+        -0.22
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        3.5,
+        0.25,
+        0.2
+      ]
+    },
+    {
+      "node": "Track",
+      "role": "barrier",
+      "position": [
+        1.75,
+        3.7,
+        -0.05
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        7.1,
+        0.16,
+        0.22
+      ]
+    },
+    {
+      "node": "SwitchFront",
+      "role": "solid",
+      "position": [
+        -2.18,
+        1.35,
+        0.24
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.38,
+        0.55,
+        0.2
+      ]
+    },
+    {
+      "node": "SwitchBack",
+      "role": "solid",
+      "position": [
+        -2.18,
+        1.35,
+        -0.82
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.38,
+        0.55,
+        0.2
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [
+    {
+      "id": "ThroughDoor",
+      "points": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          -2
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [],
+  "exclusions": [
+    {
+      "id": "Pocket",
+      "min": [
+        1.7,
+        -0.5
+      ],
+      "max": [
+        5.4,
+        0.5
+      ]
+    }
+  ],
+  "connectors": [
+    {
+      "id": "Left",
+      "position": [
+        -1.75,
+        0,
+        -0.22
+      ],
+      "outward": [
+        -1,
+        0,
+        0
+      ],
+      "height": 3.6,
+      "thickness": 0.2
+    },
+    {
+      "id": "Right",
+      "position": [
+        5.5,
+        0,
+        -0.22
+      ],
+      "outward": [
+        1,
+        0,
+        0
+      ],
+      "height": 3.6,
+      "thickness": 0.2
+    }
+  ],
+  "gate": {
+    "leaf": "Leaf",
+    "switchNode": "Interact_Front",
+    "duration": 2,
+    "travel": [
+      3.5,
+      0,
+      0
+    ],
+    "passage": {
+      "width": 3,
+      "height": 3.2
+    },
+    "onlyOpen": true
+  },
+  "modelAsset": "models/FSA_ENV_Door_ResearchSlide.glb",
+  "animationAsset": "animations/FSA_ENV_Door_ResearchSlide_Open.anim.glb",
+  "bounds": {
+    "min": [
+      -2.3699999976158144,
+      -2.3841857821338408e-8,
+      -0.9575000000745058
+    ],
+    "max": [
+      5.299999952316284,
+      3.779999998211861,
+      0.3775000000745058
+    ]
+  },
+  "checks": [
+    {
+      "route": "ThroughDoor",
+      "profile": "player",
+      "ok": true
+    },
+    {
+      "route": "ThroughDoor",
+      "profile": "A1",
+      "ok": true
+    }
+  ],
+  "sourceHash": "a64ac74ed3575951299fbd519b84fbd11b83a76e9fcc913a9126b22cb52f6d26",
+  "modelHash": "1a520aa9052e72b24447fdeda142602696a616b7783974832940ae44a01d0714",
+  "animationHash": "355528f0e187991d5c5dc4fc8df9f42721726e419ad88d035c988406160d329a"
+}

@@ -1,0 +1,13 @@
+[
+  "animations/humanoid_bow.anim.glb",
+  "animations/humanoid_breathing.anim.glb",
+  "animations/humanoid_idle.anim.glb",
+  "animations/humanoid_run.anim.glb",
+  "animations/humanoid_walk.anim.glb",
+  "animations/humanoid_wave.anim.glb",
+  "models/primitive_gallery.glb",
+  "models/simple_box.glb",
+  "models/simple_humanoid.glb",
+  "models/tall_humanoid.glb",
+  "models/test_weapon.glb"
+]

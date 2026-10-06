@@ -1,0 +1,286 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Quarantine_Straight",
+  "label": "隔离区通透铁栏 / 6m 直段",
+  "type": "barrier",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -3.2,
+      -0.3
+    ],
+    "max": [
+      3.2,
+      0.3
+    ]
+  },
+  "colliders": [
+    {
+      "node": "X_ContinuousBlocker",
+      "role": "barrier",
+      "position": [
+        0,
+        1.4,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        6,
+        2.8,
+        0.25
+      ]
+    },
+    {
+      "node": "X_Foot",
+      "role": "barrier",
+      "position": [
+        0,
+        0.11,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        6,
+        0.22,
+        0.38
+      ]
+    },
+    {
+      "node": "X_Rail0_5",
+      "role": "barrier",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        6,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "X_Rail2_45",
+      "role": "barrier",
+      "position": [
+        0,
+        2.45,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        6,
+        0.12,
+        0.34
+      ]
+    },
+    {
+      "node": "X_Post0",
+      "role": "barrier",
+      "position": [
+        -3,
+        1.4,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.22,
+        2.8,
+        0.42
+      ]
+    },
+    {
+      "node": "X_Cap0",
+      "role": "barrier",
+      "position": [
+        -3,
+        2.755,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Collar0",
+      "role": "barrier",
+      "position": [
+        -3,
+        0.24,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Post6",
+      "role": "barrier",
+      "position": [
+        3,
+        1.4,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.22,
+        2.8,
+        0.42
+      ]
+    },
+    {
+      "node": "X_Cap6",
+      "role": "barrier",
+      "position": [
+        3,
+        2.755,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.09,
+        0.46
+      ]
+    },
+    {
+      "node": "X_Collar6",
+      "role": "barrier",
+      "position": [
+        3,
+        0.24,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.3,
+        0.16,
+        0.46
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [
+    {
+      "id": "West",
+      "position": [
+        -3,
+        0,
+        0
+      ],
+      "outward": [
+        -1,
+        0,
+        0
+      ],
+      "height": 2.8,
+      "thickness": 0.25
+    },
+    {
+      "id": "East",
+      "position": [
+        3,
+        0,
+        0
+      ],
+      "outward": [
+        1,
+        0,
+        0
+      ],
+      "height": 2.8,
+      "thickness": 0.25
+    }
+  ],
+  "modelAsset": "models/FSA_ENV_Quarantine_Straight.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -3.1500000059604645,
+      5.960464483090178e-10,
+      -0.23000000417232513
+    ],
+    "max": [
+      3.1500000059604645,
+      2.8000000017881392,
+      0.23000000417232513
+    ]
+  },
+  "checks": [],
+  "sourceHash": "fac2727d622ecfc6aef73d1ce56841d175d14419269fbebc8956d6a8bdcf2e10",
+  "modelHash": "49583bdb263531f8dbd1ddecca151012c704dc43b1d8a90cf44dfd9aa5fbde06"
+}

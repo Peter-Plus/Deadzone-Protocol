@@ -1,0 +1,271 @@
+{
+  "version": 4,
+  "rig": "humanoid.v2",
+  "modelId": "FSA_ENEMY_D001_Chaos",
+  "note": "External integration contract; events are not embedded in animation GLBs.",
+  "clips": {
+    "Idle": {
+      "assetId": "FSA_ANIM_D001_Chaos_Idle",
+      "duration": 3.6,
+      "loop": true,
+      "events": []
+    },
+    "Attack1": {
+      "assetId": "FSA_ANIM_D001_Chaos_Attack1",
+      "duration": 2.05,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.78,
+          "type": "melee_window_open"
+        },
+        {
+          "time": 0.92,
+          "type": "melee_contact_reference"
+        },
+        {
+          "time": 1.04,
+          "type": "melee_window_close"
+        }
+      ]
+    },
+    "Attack2": {
+      "assetId": "FSA_ANIM_D001_Chaos_Attack2",
+      "duration": 1.85,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.76,
+          "type": "projectile_release",
+          "socket": "Cast_L",
+          "direction": "socket-local +Z transformed to world"
+        }
+      ],
+      "note": "Reach and palm turn together during 0–0.55 s; release at 0.76 s unchanged."
+    },
+    "Hit": {
+      "assetId": "FSA_ANIM_D001_Chaos_Hit",
+      "duration": 0.54,
+      "loop": false,
+      "events": []
+    },
+    "Death": {
+      "assetId": "FSA_ANIM_D001_Chaos_Death",
+      "duration": 4.8,
+      "loop": false,
+      "events": [
+        {
+          "time": 1.3,
+          "type": "kneel_contact_visual"
+        },
+        {
+          "time": 3.85,
+          "type": "body_settle_visual"
+        }
+      ]
+    },
+    "Charge": {
+      "assetId": "FSA_ANIM_D001_Chaos_Charge",
+      "duration": 1.2,
+      "loop": true,
+      "events": []
+    },
+    "RiftSlash": {
+      "assetId": "FSA_ANIM_D001_Chaos_RiftSlash",
+      "duration": 2.65,
+      "loop": false,
+      "events": [
+        {
+          "time": 0,
+          "type": "telegraph_begin"
+        },
+        {
+          "time": 0.8,
+          "type": "telegraph_end"
+        },
+        {
+          "time": 0.94,
+          "type": "melee_window_open"
+        },
+        {
+          "time": 1.08,
+          "type": "melee_contact_reference"
+        },
+        {
+          "time": 1.23,
+          "type": "melee_window_close"
+        }
+      ]
+    },
+    "HellHand": {
+      "assetId": "FSA_ANIM_D001_Chaos_HellHand",
+      "duration": 10.4,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.4,
+          "type": "absorption_begin"
+        },
+        {
+          "time": 10.4,
+          "type": "normal_absorption_end"
+        }
+      ],
+      "transitions": {
+        "normalEnd": "HellEye, also on early target-distance completion",
+        "shieldBreak": "Cancel absorption and pending combo; never auto-start HellEye",
+        "chargeSeconds": 0.8,
+        "absorptionDurationSeconds": 10
+      },
+      "note": "0.4 s setup, 10 s absorption; lean back 40 degrees with 5 Hz torso tremor while palm stays forward."
+    },
+    "HellEye": {
+      "assetId": "FSA_ANIM_D001_Chaos_HellEye",
+      "duration": 1.5,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.6,
+          "type": "palm_contact_visual"
+        },
+        {
+          "time": 1.5,
+          "type": "explosion_commit"
+        }
+      ],
+      "note": "Boss-centered explosion; do not use downward Cast_L as explosion center. No appended recovery."
+    },
+    "DemonPursuitVanish": {
+      "assetId": "FSA_ANIM_D001_Chaos_DemonPursuitVanish",
+      "duration": 0.5,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.5,
+          "type": "teleport_commit",
+          "condition": "valid destination required before entering strike"
+        }
+      ]
+    },
+    "DemonPursuitHorizontal": {
+      "assetId": "FSA_ANIM_D001_Chaos_DemonPursuitHorizontal",
+      "duration": 1.1,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.8,
+          "type": "slash_projectile_release",
+          "orientation": "horizontal",
+          "damageType": "melee",
+          "destructible": false
+        }
+      ]
+    },
+    "DemonPursuitVertical": {
+      "assetId": "FSA_ANIM_D001_Chaos_DemonPursuitVertical",
+      "duration": 1.1,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.8,
+          "type": "slash_projectile_release",
+          "orientation": "vertical",
+          "damageType": "melee",
+          "destructible": false
+        }
+      ]
+    },
+    "DemonPursuitFinal": {
+      "assetId": "FSA_ANIM_D001_Chaos_DemonPursuitFinal",
+      "duration": 2,
+      "loop": false,
+      "events": [
+        {
+          "time": 1.2,
+          "type": "slash_projectile_release",
+          "orientation": "vertical",
+          "damageType": "melee",
+          "destructible": false
+        }
+      ]
+    },
+    "ShadowDartEnhanced": {
+      "assetId": "FSA_ANIM_D001_Chaos_ShadowDartEnhanced",
+      "duration": 1.15,
+      "loop": false,
+      "events": [
+        {
+          "time": 0.4,
+          "type": "projectile_release",
+          "socket": "Cast_L",
+          "direction": "locked character forward",
+          "countRule": "twice C1 ShadowDart count"
+        }
+      ],
+      "note": "Requires swallowed C1. Extra release at Phantom Wings invisibility end does not consume cooldown; gameplay owns trigger and projectile creation."
+    }
+  },
+  "sequences": {
+    "DemonPursuit": {
+      "duration": 10.5,
+      "teleportCount": 6,
+      "stages": [
+        {
+          "stage": 1,
+          "preClip": "DemonPursuitVanish",
+          "strikeClip": "DemonPursuitHorizontal",
+          "preStart": 0,
+          "teleport": 0.5,
+          "release": 1.3,
+          "end": 1.6
+        },
+        {
+          "stage": 2,
+          "preClip": "DemonPursuitVanish",
+          "strikeClip": "DemonPursuitVertical",
+          "preStart": 1.6,
+          "teleport": 2.1,
+          "release": 2.9,
+          "end": 3.2
+        },
+        {
+          "stage": 3,
+          "preClip": "DemonPursuitVanish",
+          "strikeClip": "DemonPursuitHorizontal",
+          "preStart": 3.2,
+          "teleport": 3.7,
+          "release": 4.5,
+          "end": 4.8
+        },
+        {
+          "stage": 4,
+          "preClip": "DemonPursuitVanish",
+          "strikeClip": "DemonPursuitVertical",
+          "preStart": 4.8,
+          "teleport": 5.3,
+          "release": 6.1,
+          "end": 6.4
+        },
+        {
+          "stage": 5,
+          "preClip": "DemonPursuitVanish",
+          "strikeClip": "DemonPursuitHorizontal",
+          "preStart": 6.4,
+          "teleport": 6.9,
+          "release": 7.7,
+          "end": 8
+        },
+        {
+          "stage": 6,
+          "preClip": "DemonPursuitVanish",
+          "strikeClip": "DemonPursuitFinal",
+          "preStart": 8,
+          "teleport": 8.5,
+          "release": 9.7,
+          "end": 10.5
+        }
+      ],
+      "cancellation": "Cancel remaining teleport and release events on valid interruption or death; do not spawn a strike when teleport failed."
+    }
+  }
+}

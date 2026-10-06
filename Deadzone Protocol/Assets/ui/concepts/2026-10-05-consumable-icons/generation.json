@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ui_item_bandage",
+    "name": "绷带",
+    "file": "ui_item_bandage.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-ed912a62-746e-472f-b942-ebfacc66eee1.png"
+  },
+  {
+    "id": "ui_item_first_aid_injector",
+    "name": "急救针",
+    "file": "ui_item_first_aid_injector.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-54f838f7-f0ae-4d2e-ac1c-c67955a39f1d.png"
+  },
+  {
+    "id": "ui_item_adrenaline",
+    "name": "肾上腺素",
+    "file": "ui_item_adrenaline.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-cd3a7c18-26b6-4d6e-aba7-24dfff038e7c.png"
+  },
+  {
+    "id": "ui_item_energy_drink",
+    "name": "能量饮料",
+    "file": "ui_item_energy_drink.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-5fb08be0-6899-4291-836a-c1f7283bbb9a.png"
+  },
+  {
+    "id": "ui_item_blood_bottle",
+    "name": "急救血瓶",
+    "file": "ui_item_blood_bottle.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-9669f14e-248d-497e-9eb7-4c490528996d.png"
+  },
+  {
+    "id": "ui_item_virus_serum",
+    "name": "病毒血清",
+    "file": "ui_item_virus_serum.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-4cdc8d82-e615-44f2-a090-1f0e2c9b8676.png"
+  },
+  {
+    "id": "ui_item_coolant",
+    "name": "冷却剂",
+    "file": "ui_item_coolant.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-6ed86f68-db53-46f9-9875-48bfbae676cb.png"
+  }
+]

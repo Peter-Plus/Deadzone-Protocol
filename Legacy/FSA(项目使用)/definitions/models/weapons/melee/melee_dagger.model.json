@@ -1,0 +1,346 @@
+{
+  "schema": "model.v1",
+  "id": "fsa.weapon.melee_dagger",
+  "type": "static",
+  "materials": {
+    "steel": {
+      "color": "#81929d",
+      "metalness": 0.82,
+      "roughness": 0.33
+    },
+    "edge": {
+      "color": "#c3d0d5",
+      "metalness": 0.85,
+      "roughness": 0.24
+    },
+    "dark": {
+      "color": "#242f36",
+      "metalness": 0.6,
+      "roughness": 0.52
+    },
+    "grip": {
+      "color": "#343d3b",
+      "roughness": 0.95
+    },
+    "olive": {
+      "color": "#5e6b45",
+      "roughness": 0.8,
+      "metalness": 0.2
+    },
+    "groove": {
+      "color": "#34412d",
+      "roughness": 0.88
+    },
+    "mark": {
+      "color": "#bdb780",
+      "roughness": 0.78
+    }
+  },
+  "parts": [
+    {
+      "id": "grip",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.016,
+        "radiusBottom": 0.017,
+        "height": 0.116
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "grip",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_band_0",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.018,
+        "radiusBottom": 0.018,
+        "height": 0.004
+      },
+      "position": [
+        0,
+        0,
+        -0.048
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_band_1",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.018,
+        "radiusBottom": 0.018,
+        "height": 0.004
+      },
+      "position": [
+        0,
+        0,
+        -0.032
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_band_2",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.018,
+        "radiusBottom": 0.018,
+        "height": 0.004
+      },
+      "position": [
+        0,
+        0,
+        -0.016
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_band_3",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.018,
+        "radiusBottom": 0.018,
+        "height": 0.004
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_band_4",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.018,
+        "radiusBottom": 0.018,
+        "height": 0.004
+      },
+      "position": [
+        0,
+        0,
+        0.016
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_band_5",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.018,
+        "radiusBottom": 0.018,
+        "height": 0.004
+      },
+      "position": [
+        0,
+        0,
+        0.032
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "grip_band_6",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.018,
+        "radiusBottom": 0.018,
+        "height": 0.004
+      },
+      "position": [
+        0,
+        0,
+        0.048
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pommel",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.02,
+        "radiusBottom": 0.019,
+        "height": 0.018
+      },
+      "position": [
+        0,
+        0,
+        -0.065
+      ],
+      "material": "dark",
+      "rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "guard",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.086,
+          0.016,
+          0.017
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.061
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "blade",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.041,
+          0.008,
+          0.143
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.1415
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "blade_ridge",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.01,
+          0.011,
+          0.133
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.141
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "blade_tip",
+      "shape": {
+        "type": "cone",
+        "radius": 0.024,
+        "height": 0.082
+      },
+      "position": [
+        0,
+        0,
+        0.253
+      ],
+      "material": "steel",
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.16
+      ]
+    },
+    {
+      "id": "blade_edge_-1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.004,
+          0.138
+        ]
+      },
+      "position": [
+        -0.021,
+        0,
+        0.141
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "blade_edge_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.003,
+          0.004,
+          0.138
+        ]
+      },
+      "position": [
+        0.021,
+        0,
+        0.141
+      ],
+      "material": "edge"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "grip_main",
+      "parent": "grip",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ]
+    }
+  ]
+}

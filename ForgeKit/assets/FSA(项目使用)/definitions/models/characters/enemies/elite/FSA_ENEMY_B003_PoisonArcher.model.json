@@ -1,0 +1,1082 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ENEMY_B003_PoisonArcher",
+  "type": "humanoid",
+  "rig": "humanoid.v1",
+  "materials": {
+    "skin": {
+      "color": "#8C9A7D",
+      "roughness": 0.94
+    },
+    "cloth": {
+      "color": "#3E5344",
+      "roughness": 0.95
+    },
+    "dark": {
+      "color": "#26352F",
+      "roughness": 0.97
+    },
+    "pants": {
+      "color": "#36473D",
+      "roughness": 0.95
+    },
+    "boot": {
+      "color": "#2B332D",
+      "roughness": 0.91
+    },
+    "eye": {
+      "color": "#B4E779",
+      "emissive": "#315A22",
+      "roughness": 0.42
+    },
+    "accent": {
+      "color": "#79A861",
+      "roughness": 0.77
+    },
+    "wood": {
+      "color": "#594C3A",
+      "roughness": 0.88
+    },
+    "steel": {
+      "color": "#89998A",
+      "roughness": 0.55,
+      "metalness": 0.35
+    },
+    "hair": {
+      "color": "#283D32",
+      "roughness": 0.94
+    },
+    "toxin": {
+      "color": "#9FE56C",
+      "emissive": "#426C2A",
+      "roughness": 0.44
+    },
+    "string": {
+      "color": "#C8D5B0",
+      "roughness": 0.73
+    }
+  },
+  "parts": [
+    {
+      "id": "Hips",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.31,
+          0.17,
+          0.25
+        ]
+      },
+      "position": [
+        0,
+        0.065,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "Torso",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.32,
+          0.48,
+          0.27
+        ]
+      },
+      "position": [
+        0,
+        0.36,
+        0.035
+      ],
+      "material": "cloth",
+      "rotation": [
+        12,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Shoulders",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.45,
+          0.13,
+          0.28
+        ]
+      },
+      "position": [
+        0,
+        0.555,
+        0.06
+      ],
+      "material": "dark",
+      "rotation": [
+        12,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "RoundedBack",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.33,
+          0.24,
+          0.15
+        ]
+      },
+      "position": [
+        0,
+        0.52,
+        -0.105
+      ],
+      "material": "cloth",
+      "rotation": [
+        15,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "Belt",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.326,
+          0.062,
+          0.268
+        ]
+      },
+      "position": [
+        0,
+        0.12,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "Buckle",
+      "parent": "Belt",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.058,
+          0.043,
+          0.025
+        ]
+      },
+      "position": [
+        0,
+        0,
+        0.144
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "Neck",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.14,
+          0.12,
+          0.14
+        ]
+      },
+      "position": [
+        0,
+        -0.025,
+        0.07
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Face",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.24,
+          0.25,
+          0.225
+        ]
+      },
+      "position": [
+        0,
+        0.145,
+        0.105
+      ],
+      "material": "skin",
+      "rotation": [
+        9,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "EyeR",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.026,
+          0.013
+        ]
+      },
+      "position": [
+        -0.064,
+        0.026,
+        0.118
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "EyeL",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.045,
+          0.026,
+          0.013
+        ]
+      },
+      "position": [
+        0.064,
+        0.026,
+        0.118
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "Brow",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.204,
+          0.027,
+          0.021
+        ]
+      },
+      "position": [
+        0,
+        0.057,
+        0.119
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "Nose",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.041,
+          0.055,
+          0.031
+        ]
+      },
+      "position": [
+        0,
+        -0.007,
+        0.124
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "Mouth",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.072,
+          0.015,
+          0.012
+        ]
+      },
+      "position": [
+        0,
+        -0.07,
+        0.116
+      ],
+      "material": "eye"
+    },
+    {
+      "id": "SleeveL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.36,
+          0.155,
+          0.165
+        ]
+      },
+      "position": [
+        0.17,
+        0.035,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "ForearmL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.19,
+          0.121,
+          0.13
+        ]
+      },
+      "position": [
+        0.405,
+        0.035,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "CuffL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.14,
+          0.148
+        ]
+      },
+      "position": [
+        0.47,
+        0.035,
+        0
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "HandL",
+      "parent": "Arm_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.105,
+          0.13,
+          0.14
+        ]
+      },
+      "position": [
+        0.535,
+        0.035,
+        0.004
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "TrousersL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.185,
+          0.66,
+          0.205
+        ]
+      },
+      "position": [
+        0,
+        -0.33,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "BootL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.197,
+          0.205,
+          0.29
+        ]
+      },
+      "position": [
+        0,
+        -0.725,
+        0.035
+      ],
+      "material": "boot"
+    },
+    {
+      "id": "SoleL",
+      "parent": "Leg_L",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.201,
+          0.035,
+          0.298
+        ]
+      },
+      "position": [
+        0,
+        -0.81,
+        0.035
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "SleeveR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.36,
+          0.155,
+          0.165
+        ]
+      },
+      "position": [
+        -0.17,
+        0.035,
+        0
+      ],
+      "material": "cloth"
+    },
+    {
+      "id": "ForearmR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.19,
+          0.121,
+          0.13
+        ]
+      },
+      "position": [
+        -0.405,
+        0.035,
+        0
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "CuffR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.14,
+          0.148
+        ]
+      },
+      "position": [
+        -0.47,
+        0.035,
+        0
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "HandR",
+      "parent": "Arm_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.105,
+          0.13,
+          0.14
+        ]
+      },
+      "position": [
+        -0.535,
+        0.035,
+        0.004
+      ],
+      "material": "skin"
+    },
+    {
+      "id": "TrousersR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.185,
+          0.66,
+          0.205
+        ]
+      },
+      "position": [
+        0,
+        -0.33,
+        0
+      ],
+      "material": "pants"
+    },
+    {
+      "id": "BootR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.197,
+          0.205,
+          0.29
+        ]
+      },
+      "position": [
+        0,
+        -0.725,
+        0.035
+      ],
+      "material": "boot"
+    },
+    {
+      "id": "SoleR",
+      "parent": "Leg_R",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.201,
+          0.035,
+          0.298
+        ]
+      },
+      "position": [
+        0,
+        -0.81,
+        0.035
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "HoodTop",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.26,
+          0.08,
+          0.245
+        ]
+      },
+      "position": [
+        0,
+        0.25,
+        0.015
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "HoodSideL",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.06,
+          0.19,
+          0.235
+        ]
+      },
+      "position": [
+        0.12,
+        0.15,
+        0.02
+      ],
+      "material": "dark",
+      "rotation": [
+        10,
+        0,
+        -6
+      ]
+    },
+    {
+      "id": "HoodSideR",
+      "parent": "Head",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.06,
+          0.19,
+          0.235
+        ]
+      },
+      "position": [
+        -0.12,
+        0.15,
+        0.02
+      ],
+      "material": "dark",
+      "rotation": [
+        10,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "Mask",
+      "parent": "Face",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.17,
+          0.07,
+          0.028
+        ]
+      },
+      "position": [
+        0,
+        -0.055,
+        0.12
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "ToxinChest",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.08,
+          0.14,
+          0.022
+        ]
+      },
+      "position": [
+        0,
+        0.36,
+        0.18
+      ],
+      "material": "toxin",
+      "rotation": [
+        0,
+        0,
+        -12
+      ]
+    },
+    {
+      "id": "ToxinStripeL",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.08,
+          0.018,
+          0.021
+        ]
+      },
+      "position": [
+        0.09,
+        0.43,
+        0.179
+      ],
+      "material": "accent",
+      "rotation": [
+        0,
+        0,
+        -20
+      ]
+    },
+    {
+      "id": "ToxinStripeR",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.08,
+          0.018,
+          0.021
+        ]
+      },
+      "position": [
+        -0.09,
+        0.43,
+        0.179
+      ],
+      "material": "accent",
+      "rotation": [
+        0,
+        0,
+        20
+      ]
+    },
+    {
+      "id": "Quiver",
+      "parent": "Body",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.16,
+          0.38,
+          0.15
+        ]
+      },
+      "position": [
+        0.19,
+        0.4,
+        -0.19
+      ],
+      "material": "wood",
+      "rotation": [
+        10,
+        0,
+        -12
+      ]
+    },
+    {
+      "id": "QuiverRim",
+      "parent": "Quiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.175,
+          0.055,
+          0.16
+        ]
+      },
+      "position": [
+        0,
+        0.18,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "SpareArrow1",
+      "parent": "Quiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.014,
+          0.34,
+          0.014
+        ]
+      },
+      "position": [
+        -0.04,
+        0.25,
+        0
+      ],
+      "material": "string"
+    },
+    {
+      "id": "SpareFletch1",
+      "parent": "Quiver",
+      "shape": {
+        "type": "cone",
+        "radius": 0.025,
+        "height": 0.075
+      },
+      "position": [
+        -0.04,
+        0.43,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "toxin"
+    },
+    {
+      "id": "SpareArrow2",
+      "parent": "Quiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.014,
+          0.34,
+          0.014
+        ]
+      },
+      "position": [
+        0,
+        0.25,
+        0
+      ],
+      "material": "string"
+    },
+    {
+      "id": "SpareFletch2",
+      "parent": "Quiver",
+      "shape": {
+        "type": "cone",
+        "radius": 0.025,
+        "height": 0.075
+      },
+      "position": [
+        0,
+        0.43,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "toxin"
+    },
+    {
+      "id": "SpareArrow3",
+      "parent": "Quiver",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.014,
+          0.34,
+          0.014
+        ]
+      },
+      "position": [
+        0.04,
+        0.25,
+        0
+      ],
+      "material": "string"
+    },
+    {
+      "id": "SpareFletch3",
+      "parent": "Quiver",
+      "shape": {
+        "type": "cone",
+        "radius": 0.025,
+        "height": 0.075
+      },
+      "position": [
+        0.04,
+        0.43,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "toxin"
+    },
+    {
+      "id": "BowGrip",
+      "parent": "HandR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "position": [
+        -0.035,
+        0,
+        0
+      ],
+      "material": "wood"
+    },
+    {
+      "id": "BowUpper",
+      "parent": "HandR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.052,
+          0.055,
+          0.37
+        ]
+      },
+      "position": [
+        0.01,
+        0,
+        0.2
+      ],
+      "material": "wood",
+      "rotation": [
+        0,
+        14,
+        0
+      ]
+    },
+    {
+      "id": "BowLower",
+      "parent": "HandR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.052,
+          0.055,
+          0.37
+        ]
+      },
+      "position": [
+        0.01,
+        0,
+        -0.2
+      ],
+      "material": "wood",
+      "rotation": [
+        0,
+        -14,
+        0
+      ]
+    },
+    {
+      "id": "BowTipUpper",
+      "parent": "HandR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.055,
+          0.08
+        ]
+      },
+      "position": [
+        0.055,
+        0,
+        0.37
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "BowTipLower",
+      "parent": "HandR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.065,
+          0.055,
+          0.08
+        ]
+      },
+      "position": [
+        0.055,
+        0,
+        -0.37
+      ],
+      "material": "accent"
+    },
+    {
+      "id": "BowString",
+      "parent": "HandR",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.012,
+          0.012,
+          0.72
+        ]
+      },
+      "position": [
+        0.055,
+        0,
+        0
+      ],
+      "material": "string"
+    },
+    {
+      "id": "Arrow_Nocked",
+      "parent": "HandR",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.009,
+        "radiusBottom": 0.009,
+        "height": 0.72
+      },
+      "position": [
+        -0.305,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "material": "wood"
+    },
+    {
+      "id": "ArrowTip",
+      "parent": "Arrow_Nocked",
+      "shape": {
+        "type": "cone",
+        "radius": 0.027,
+        "height": 0.075
+      },
+      "position": [
+        0,
+        0.38,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "material": "steel"
+    },
+    {
+      "id": "ArrowFletchL",
+      "parent": "Arrow_Nocked",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.065,
+          0.013
+        ]
+      },
+      "position": [
+        0.025,
+        -0.28,
+        0
+      ],
+      "material": "toxin"
+    },
+    {
+      "id": "ArrowFletchR",
+      "parent": "Arrow_Nocked",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.055,
+          0.065,
+          0.013
+        ]
+      },
+      "position": [
+        -0.025,
+        -0.28,
+        0
+      ],
+      "material": "toxin"
+    }
+  ],
+  "parameters": {
+    "height": 1.8
+  },
+  "sockets": [
+    {
+      "id": "Arrow_Muzzle",
+      "parent": "Arrow_Nocked",
+      "position": [
+        0,
+        0.43,
+        0
+      ]
+    }
+  ]
+}

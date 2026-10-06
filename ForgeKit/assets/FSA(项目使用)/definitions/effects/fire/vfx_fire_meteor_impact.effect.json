@@ -1,0 +1,292 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_fire_meteor_impact",
+  "name": "天外陨石 · 落地爆炸",
+  "initialState": "burst",
+  "states": {
+    "burst": {
+      "duration": 1.5,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "supplement_mist.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "impact_ring",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 110,
+      "seed": 2810,
+      "position": [
+        0,
+        0.22,
+        0
+      ],
+      "radii": [
+        0.76,
+        0.1,
+        0.76
+      ],
+      "size": [
+        0.12,
+        0.25
+      ],
+      "shell": 0.95,
+      "aspect": 1,
+      "drift": [
+        0.015,
+        0.025,
+        0.015
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "burst": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.06,
+                1
+              ],
+              [
+                0.3,
+                0.85
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.06
+              ],
+              [
+                0.22,
+                0.75
+              ],
+              [
+                0.6,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ff3a08",
+        "opacity": 0.8,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "impact_core",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 70,
+      "seed": 2770,
+      "position": [
+        0,
+        0.22,
+        0
+      ],
+      "radii": [
+        0.4,
+        0.25,
+        0.4
+      ],
+      "size": [
+        0.18,
+        0.36
+      ],
+      "shell": 0.3,
+      "aspect": 1,
+      "drift": [
+        0.015,
+        0.025,
+        0.015
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "burst": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.035,
+                1
+              ],
+              [
+                0.3,
+                0.6
+              ],
+              [
+                0.65,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.06
+              ],
+              [
+                0.22,
+                0.75
+              ],
+              [
+                0.6,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ffbd43",
+        "opacity": 0.75,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "rising_ash",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 90,
+      "seed": 2790,
+      "position": [
+        0,
+        0.22,
+        0
+      ],
+      "radii": [
+        0.55,
+        0.24,
+        0.55
+      ],
+      "size": [
+        0.22,
+        0.38
+      ],
+      "shell": 0.3,
+      "aspect": 1,
+      "drift": [
+        0.015,
+        0.025,
+        0.015
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.4,
+      "profiles": {
+        "burst": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.2,
+                0.15
+              ],
+              [
+                0.5,
+                0.7
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.06
+              ],
+              [
+                0.22,
+                0.75
+              ],
+              [
+                0.6,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0.55
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "riseSpread": 0.6
+        }
+      },
+      "render": {
+        "color": "#37302d",
+        "opacity": 0.65,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

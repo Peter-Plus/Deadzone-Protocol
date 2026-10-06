@@ -1,0 +1,245 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_chaos_soul_seed",
+  "name": "追魂魔种 · 黑雾赤核",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "dissipate": {
+      "duration": 0.65,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "black_mantle",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 22,
+      "seed": 1710,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "radii": [
+        0.24,
+        0.28,
+        0.24
+      ],
+      "shell": 0.55,
+      "size": [
+        0.34,
+        0.48
+      ],
+      "aspect": 1,
+      "drift": [
+        0.025,
+        0.035,
+        0.025
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.2
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#090408",
+        "opacity": 0.8,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "blood_wisps",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 10,
+      "seed": 1631,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "radii": [
+        0.24,
+        0.24,
+        0.24
+      ],
+      "shell": 0.55,
+      "size": [
+        0.18,
+        0.3
+      ],
+      "aspect": 1,
+      "drift": [
+        0.025,
+        0.035,
+        0.025
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.2
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#810b20",
+        "opacity": 0.28,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "red_nucleus",
+      "kind": "cloud",
+      "texture": "glow",
+      "count": 3,
+      "seed": 1631,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "radii": [
+        0.025,
+        0.025,
+        0.025
+      ],
+      "shell": 0.55,
+      "size": [
+        0.27,
+        0.31
+      ],
+      "aspect": 1,
+      "drift": [
+        0.025,
+        0.035,
+        0.025
+      ],
+      "speed": 4,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "active": {
+          "strength": 1,
+          "expansion": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.2
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#d51332",
+        "opacity": 0.52,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

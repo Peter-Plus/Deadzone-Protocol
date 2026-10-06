@@ -1,0 +1,66 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_hit_blood_low",
+  "name": "低强度命中溅血",
+  "initialState": "impact",
+  "states": {
+    "impact": {
+      "duration": 0.46,
+      "loop": false
+    }
+  },
+  "variants": {},
+  "textures": {
+    "drop": {
+      "source": "vfx_hit_blood_drop.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "droplets",
+      "kind": "burst",
+      "profiles": {
+        "impact": {
+          "strength": 1
+        }
+      },
+      "texture": "drop",
+      "count": 10,
+      "capacity": 64,
+      "duration": 0.46,
+      "lifeRange": [
+        0.72,
+        1
+      ],
+      "speed": [
+        0.55,
+        1.65
+      ],
+      "size": [
+        0.018,
+        0.046
+      ],
+      "stretch": [
+        1.6,
+        2.8
+      ],
+      "gravity": 3.8,
+      "lift": 0.16,
+      "normalOffset": 0.015,
+      "spread": 0.85,
+      "normalWeight": [
+        0.55,
+        1
+      ],
+      "shrink": 0.35,
+      "fadeStart": 0.4,
+      "render": {
+        "color": "#8f202b",
+        "opacity": 0.88,
+        "depthTest": true,
+        "depthWrite": false,
+        "blend": "normal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "animation.v1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+    },
+    "rig": {
+      "enum": [
+        "humanoid.v1",
+        "humanoid.v2",
+        "fps-arms.v1",
+        "nodes.v1"
+      ]
+    },
+    "duration": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 600
+    },
+    "loop": {
+      "type": "boolean"
+    },
+    "mode": {
+      "enum": [
+        "timeline",
+        "generator"
+      ]
+    },
+    "stance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "leftOffset": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": -0.15,
+            "maximum": 0.15
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "blend": {
+          "enum": [
+            "constant",
+            "in",
+            "out",
+            "assist"
+          ]
+        }
+      },
+      "required": [
+        "leftOffset",
+        "blend"
+      ]
+    },
+    "tracks": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 10000,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "time": {
+              "type": "number",
+              "minimum": 0
+            },
+            "rotation": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "position": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "pose": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+            },
+            "scale": {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "time"
+          ],
+          "anyOf": [
+            {
+              "required": [
+                "rotation"
+              ]
+            },
+            {
+              "required": [
+                "position"
+              ]
+            },
+            {
+              "required": [
+                "pose"
+              ]
+            },
+            {
+              "required": [
+                "scale"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "generator": {
+      "enum": [
+        "humanoid.idle",
+        "humanoid.walk",
+        "humanoid.run"
+      ]
+    },
+    "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "armSwing": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 180
+        },
+        "legSwing": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 90
+        },
+        "bodyBob": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 0.2
+        },
+        "bodyLean": {
+          "type": "number",
+          "minimum": -45,
+          "maximum": 45
+        },
+        "samples": {
+          "type": "integer",
+          "minimum": 8,
+          "maximum": 240
+        }
+      },
+      "required": []
+    },
+    "targetModel": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,95}$"
+    }
+  },
+  "required": [
+    "schema",
+    "id",
+    "rig",
+    "duration",
+    "loop",
+    "mode"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "mode": {
+            "const": "timeline"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "tracks"
+        ],
+        "properties": {
+          "generator": false,
+          "parameters": false
+        }
+      },
+      "else": {
+        "required": [
+          "generator"
+        ],
+        "properties": {
+          "tracks": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "rig": {
+            "const": "fps-arms.v1"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "mode": {
+            "const": "timeline"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "stance": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "rig": {
+            "const": "nodes.v1"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "targetModel"
+        ],
+        "properties": {
+          "mode": {
+            "const": "timeline"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "targetModel": false
+        }
+      }
+    }
+  ]
+}

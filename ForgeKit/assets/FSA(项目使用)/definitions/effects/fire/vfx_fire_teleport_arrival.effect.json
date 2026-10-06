@@ -1,0 +1,403 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_fire_teleport_arrival",
+  "name": "业火转移 · 落点全身余焰",
+  "initialState": "arrival",
+  "states": {
+    "arrival": {
+      "duration": 0.9,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "body_fire",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 76,
+      "seed": 711,
+      "position": [
+        0,
+        1.04,
+        0
+      ],
+      "radii": [
+        0.58,
+        1.04,
+        0.46
+      ],
+      "size": [
+        0.24,
+        0.44
+      ],
+      "shell": 0.9,
+      "aspect": 1.35,
+      "drift": [
+        0.05,
+        0.12,
+        0.05
+      ],
+      "speed": 5,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "arrival": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.2,
+                0.9
+              ],
+              [
+                0.6,
+                0.45
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.85
+              ],
+              [
+                1,
+                1.08
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#f9530b",
+        "opacity": 0.6,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "head_fire",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 18,
+      "seed": 712,
+      "position": [
+        0,
+        1.98,
+        0
+      ],
+      "radii": [
+        0.26,
+        0.25,
+        0.26
+      ],
+      "size": [
+        0.18,
+        0.3
+      ],
+      "shell": 0.9,
+      "aspect": 1.35,
+      "drift": [
+        0.05,
+        0.12,
+        0.05
+      ],
+      "speed": 5,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "arrival": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.2,
+                0.9
+              ],
+              [
+                0.6,
+                0.45
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.85
+              ],
+              [
+                1,
+                1.08
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ff771b",
+        "opacity": 0.6,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "hem_fire",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 20,
+      "seed": 713,
+      "position": [
+        0,
+        0.22,
+        0
+      ],
+      "radii": [
+        0.45,
+        0.2,
+        0.38
+      ],
+      "size": [
+        0.19,
+        0.32
+      ],
+      "shell": 0.9,
+      "aspect": 1.35,
+      "drift": [
+        0.05,
+        0.12,
+        0.05
+      ],
+      "speed": 5,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "arrival": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.2,
+                0.9
+              ],
+              [
+                0.6,
+                0.45
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.85
+              ],
+              [
+                1,
+                1.08
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ff7118",
+        "opacity": 0.6,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "body_gold",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 42,
+      "seed": 714,
+      "position": [
+        0,
+        1,
+        0
+      ],
+      "radii": [
+        0.46,
+        0.85,
+        0.36
+      ],
+      "size": [
+        0.12,
+        0.26
+      ],
+      "shell": 0.65,
+      "aspect": 1.35,
+      "drift": [
+        0.05,
+        0.12,
+        0.05
+      ],
+      "speed": 5,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "arrival": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.2,
+                0.9
+              ],
+              [
+                0.6,
+                0.45
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.85
+              ],
+              [
+                1,
+                1.08
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ffc04b",
+        "opacity": 0.6,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "rising_embers",
+      "kind": "cloud",
+      "texture": "glow",
+      "count": 30,
+      "seed": 715,
+      "position": [
+        0,
+        1.15,
+        0
+      ],
+      "radii": [
+        0.63,
+        1.05,
+        0.5
+      ],
+      "size": [
+        0.025,
+        0.065
+      ],
+      "shell": 0.65,
+      "aspect": 2.5,
+      "drift": [
+        0.05,
+        0.12,
+        0.05
+      ],
+      "speed": 5,
+      "rotationSpeed": 0.5,
+      "profiles": {
+        "arrival": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.2,
+                0.9
+              ],
+              [
+                0.6,
+                0.45
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.85
+              ],
+              [
+                1,
+                1.08
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ffe395",
+        "opacity": 0.6,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

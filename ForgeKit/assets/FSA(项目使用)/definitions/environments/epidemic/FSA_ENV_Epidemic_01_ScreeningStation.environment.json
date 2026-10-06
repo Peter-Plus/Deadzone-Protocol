@@ -1,0 +1,5017 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Epidemic_01_ScreeningStation",
+  "label": "防疫站 · 接待筛查与临时诊疗",
+  "type": "building",
+  "roofMode": "full",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.74,
+      "height": 1.92,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -7.3,
+      -7.8
+    ],
+    "max": [
+      7.3,
+      7.8
+    ]
+  },
+  "colliders": [
+    {
+      "node": "Floor",
+      "role": "floor"
+    },
+    {
+      "node": "FrontLeft",
+      "role": "wall"
+    },
+    {
+      "node": "FrontLeftBase",
+      "role": "wall"
+    },
+    {
+      "node": "FrontLeftBand",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRight",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRightBase",
+      "role": "wall"
+    },
+    {
+      "node": "FrontRightBand",
+      "role": "wall"
+    },
+    {
+      "node": "FrontLintel",
+      "role": "wall"
+    },
+    {
+      "node": "BackLeft",
+      "role": "wall"
+    },
+    {
+      "node": "BackLeftBase",
+      "role": "wall"
+    },
+    {
+      "node": "BackLeftBand",
+      "role": "wall"
+    },
+    {
+      "node": "BackRight",
+      "role": "wall"
+    },
+    {
+      "node": "BackRightBase",
+      "role": "wall"
+    },
+    {
+      "node": "BackRightBand",
+      "role": "wall"
+    },
+    {
+      "node": "BackLintel",
+      "role": "wall"
+    },
+    {
+      "node": "WestLeft",
+      "role": "wall"
+    },
+    {
+      "node": "WestLeftBase",
+      "role": "wall"
+    },
+    {
+      "node": "WestLeftBand",
+      "role": "wall"
+    },
+    {
+      "node": "WestRight",
+      "role": "wall"
+    },
+    {
+      "node": "WestRightBase",
+      "role": "wall"
+    },
+    {
+      "node": "WestRightBand",
+      "role": "wall"
+    },
+    {
+      "node": "WestSill",
+      "role": "wall"
+    },
+    {
+      "node": "WestSillBase",
+      "role": "wall"
+    },
+    {
+      "node": "WestSillBand",
+      "role": "wall"
+    },
+    {
+      "node": "WestLintel",
+      "role": "wall"
+    },
+    {
+      "node": "WestGlass",
+      "role": "wall"
+    },
+    {
+      "node": "WestFrame145",
+      "role": "wall"
+    },
+    {
+      "node": "WestFrame235",
+      "role": "wall"
+    },
+    {
+      "node": "WestMullion0",
+      "role": "wall"
+    },
+    {
+      "node": "WestMullion1",
+      "role": "wall"
+    },
+    {
+      "node": "WestMullion2",
+      "role": "wall"
+    },
+    {
+      "node": "EastLeft",
+      "role": "wall"
+    },
+    {
+      "node": "EastLeftBase",
+      "role": "wall"
+    },
+    {
+      "node": "EastLeftBand",
+      "role": "wall"
+    },
+    {
+      "node": "EastRight",
+      "role": "wall"
+    },
+    {
+      "node": "EastRightBase",
+      "role": "wall"
+    },
+    {
+      "node": "EastRightBand",
+      "role": "wall"
+    },
+    {
+      "node": "EastSill",
+      "role": "wall"
+    },
+    {
+      "node": "EastSillBase",
+      "role": "wall"
+    },
+    {
+      "node": "EastSillBand",
+      "role": "wall"
+    },
+    {
+      "node": "EastLintel",
+      "role": "wall"
+    },
+    {
+      "node": "EastGlass",
+      "role": "wall"
+    },
+    {
+      "node": "EastFrame150",
+      "role": "wall"
+    },
+    {
+      "node": "EastFrame235",
+      "role": "wall"
+    },
+    {
+      "node": "EastMullion3",
+      "role": "wall"
+    },
+    {
+      "node": "EastMullion4",
+      "role": "wall"
+    },
+    {
+      "node": "EastMullion5",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenPartitionLeft",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenPartitionLeftBase",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenPartitionLeftBand",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenPartitionRight",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenPartitionRightBase",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenPartitionRightBand",
+      "role": "wall"
+    },
+    {
+      "node": "ScreenPartitionLintel",
+      "role": "wall"
+    },
+    {
+      "node": "StorePartitionLeft",
+      "role": "wall"
+    },
+    {
+      "node": "StorePartitionLeftBase",
+      "role": "wall"
+    },
+    {
+      "node": "StorePartitionLeftBand",
+      "role": "wall"
+    },
+    {
+      "node": "StorePartitionRight",
+      "role": "wall"
+    },
+    {
+      "node": "StorePartitionRightBase",
+      "role": "wall"
+    },
+    {
+      "node": "StorePartitionRightBand",
+      "role": "wall"
+    },
+    {
+      "node": "StorePartitionLintel",
+      "role": "wall"
+    },
+    {
+      "node": "ClinicalDividerLeft",
+      "role": "wall"
+    },
+    {
+      "node": "ClinicalDividerLeftBase",
+      "role": "wall"
+    },
+    {
+      "node": "ClinicalDividerLeftBand",
+      "role": "wall"
+    },
+    {
+      "node": "ClinicalDividerRight",
+      "role": "wall"
+    },
+    {
+      "node": "ClinicalDividerRightBase",
+      "role": "wall"
+    },
+    {
+      "node": "ClinicalDividerRightBand",
+      "role": "wall"
+    },
+    {
+      "node": "ClinicalDividerLintel",
+      "role": "wall"
+    },
+    {
+      "node": "RoofMain",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill24",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill25",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill26",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill27",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill28",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill29",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill30",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill31",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill32",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill33",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill34",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill35",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill36",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill37",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill38",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill39",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill40",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill41",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill42",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill43",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill44",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill45",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill46",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill47",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill48",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill49",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill50",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill51",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill52",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill53",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill54",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill55",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill56",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill57",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill58",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill59",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill60",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill61",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill62",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill63",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill64",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill65",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill66",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill67",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill68",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill69",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill70",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill71",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill72",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill73",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill74",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill75",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill76",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill77",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill78",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill79",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill80",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill81",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill82",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill83",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill84",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill85",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill86",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill87",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill88",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill89",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill90",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill91",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill92",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill93",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill94",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill95",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill96",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill97",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill98",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill99",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill100",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill101",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill102",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill103",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill104",
+      "role": "roof"
+    },
+    {
+      "node": "RoofInfill105",
+      "role": "roof"
+    },
+    {
+      "node": "RoofSideInfill106",
+      "role": "roof"
+    },
+    {
+      "node": "RoofSideInfill107",
+      "role": "roof"
+    },
+    {
+      "node": "RoofEntryCanopy",
+      "role": "roof"
+    },
+    {
+      "node": "RoofServiceCurb",
+      "role": "roof"
+    },
+    {
+      "node": "RoofServiceBox",
+      "role": "roof"
+    },
+    {
+      "node": "RoofVent0",
+      "role": "roof"
+    },
+    {
+      "node": "RoofVent1",
+      "role": "roof"
+    },
+    {
+      "node": "RoofVent2",
+      "role": "roof"
+    },
+    {
+      "node": "RoofVent3",
+      "role": "roof"
+    },
+    {
+      "node": "RoofVent4",
+      "role": "roof"
+    },
+    {
+      "node": "RoofExhaustBase",
+      "role": "roof"
+    },
+    {
+      "node": "RoofExhaust",
+      "role": "roof"
+    },
+    {
+      "node": "RoofExhaustCap",
+      "role": "roof"
+    },
+    {
+      "node": "ClinicSign",
+      "role": "wall"
+    },
+    {
+      "node": "CornerTrim114",
+      "role": "wall"
+    },
+    {
+      "node": "CornerTrim115",
+      "role": "wall"
+    },
+    {
+      "node": "CornerTrim116",
+      "role": "wall"
+    },
+    {
+      "node": "CornerTrim117",
+      "role": "wall"
+    },
+    {
+      "node": "ReceptionCounter",
+      "role": "solid"
+    },
+    {
+      "node": "ReceptionWorktop",
+      "role": "solid"
+    },
+    {
+      "node": "CounterFrontStrip",
+      "role": "solid"
+    },
+    {
+      "node": "ReceptionTerminal",
+      "role": "solid"
+    },
+    {
+      "node": "WaitingBench",
+      "role": "solid"
+    },
+    {
+      "node": "WaitingCushion",
+      "role": "solid"
+    },
+    {
+      "node": "WaitingBack",
+      "role": "solid"
+    },
+    {
+      "node": "ExamBedBase",
+      "role": "solid"
+    },
+    {
+      "node": "ExamMattress",
+      "role": "solid"
+    },
+    {
+      "node": "ExamPillow",
+      "role": "solid"
+    },
+    {
+      "node": "PrivacyScreen",
+      "role": "solid"
+    },
+    {
+      "node": "ScreenLeg118",
+      "role": "solid"
+    },
+    {
+      "node": "ScreenFoot119",
+      "role": "solid"
+    },
+    {
+      "node": "ScreenLeg120",
+      "role": "solid"
+    },
+    {
+      "node": "ScreenFoot121",
+      "role": "solid"
+    },
+    {
+      "node": "HandwashCabinet",
+      "role": "solid"
+    },
+    {
+      "node": "SinkRim",
+      "role": "solid"
+    },
+    {
+      "node": "SinkTap",
+      "role": "solid"
+    },
+    {
+      "node": "MedicalCabinet",
+      "role": "solid"
+    },
+    {
+      "node": "CabinetInset122",
+      "role": "solid"
+    },
+    {
+      "node": "CabinetHandle123",
+      "role": "solid"
+    },
+    {
+      "node": "CabinetInset124",
+      "role": "solid"
+    },
+    {
+      "node": "CabinetHandle125",
+      "role": "solid"
+    },
+    {
+      "node": "SupplyTrolley",
+      "role": "solid"
+    },
+    {
+      "node": "SupplyTray",
+      "role": "solid"
+    },
+    {
+      "node": "SealedPack126",
+      "role": "solid"
+    },
+    {
+      "node": "SealedPack127",
+      "role": "solid"
+    }
+  ],
+  "walkables": [
+    "Floor"
+  ],
+  "entrances": [
+    {
+      "id": "Entry",
+      "outer": [
+        -2.5,
+        0,
+        6.65
+      ],
+      "inner": [
+        -2.5,
+        0,
+        3.5
+      ],
+      "width": 2.6,
+      "height": 2.65,
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    },
+    {
+      "id": "RearExit",
+      "outer": [
+        3.3,
+        0,
+        -6.65
+      ],
+      "inner": [
+        3.3,
+        0,
+        -3.5
+      ],
+      "width": 2.2,
+      "height": 2.5,
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "ReceptionScreeningExit",
+      "points": [
+        [
+          -2.5,
+          0,
+          6.65
+        ],
+        [
+          -2.5,
+          0,
+          2.2
+        ],
+        [
+          -2.5,
+          0,
+          -2.5
+        ],
+        [
+          3.3,
+          0,
+          -2.5
+        ],
+        [
+          3.3,
+          0,
+          -6.65
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    },
+    {
+      "id": "ReceptionMedicalLoop",
+      "points": [
+        [
+          -2.5,
+          0,
+          2.2
+        ],
+        [
+          3.3,
+          0,
+          2.2
+        ],
+        [
+          3.3,
+          0,
+          -2.5
+        ]
+      ],
+      "profiles": [
+        "player",
+        "A1"
+      ]
+    }
+  ],
+  "lootZones": [
+    {
+      "id": "ReceptionSupplies",
+      "min": [
+        -0.8,
+        3.8
+      ],
+      "max": [
+        0.2,
+        4.4
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "ScreeningSupplies",
+      "min": [
+        -1.2,
+        -4.3
+      ],
+      "max": [
+        -0.4,
+        -3.7
+      ],
+      "surface": "Floor"
+    },
+    {
+      "id": "MedicalSupplies",
+      "min": [
+        1.3,
+        -0.5
+      ],
+      "max": [
+        2.1,
+        0.2
+      ],
+      "surface": "Floor"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "ReceptionScreeningExit_1",
+      "min": [
+        -3.35,
+        1.35
+      ],
+      "max": [
+        -1.65,
+        7.5
+      ]
+    },
+    {
+      "id": "ReceptionScreeningExit_2",
+      "min": [
+        -3.35,
+        -3.35
+      ],
+      "max": [
+        -1.65,
+        3.0500000000000003
+      ]
+    },
+    {
+      "id": "ReceptionScreeningExit_3",
+      "min": [
+        -3.35,
+        -3.35
+      ],
+      "max": [
+        4.1499999999999995,
+        -1.65
+      ]
+    },
+    {
+      "id": "ReceptionScreeningExit_4",
+      "min": [
+        2.4499999999999997,
+        -7.5
+      ],
+      "max": [
+        4.1499999999999995,
+        -1.65
+      ]
+    },
+    {
+      "id": "ReceptionMedicalLoop_1",
+      "min": [
+        -3.35,
+        1.35
+      ],
+      "max": [
+        4.1499999999999995,
+        3.0500000000000003
+      ]
+    },
+    {
+      "id": "ReceptionMedicalLoop_2",
+      "min": [
+        2.4499999999999997,
+        -3.35
+      ],
+      "max": [
+        4.1499999999999995,
+        3.0500000000000003
+      ]
+    }
+  ],
+  "connectors": [],
+  "model": {
+    "schema": "model.v1",
+    "id": "FSA_ENV_Epidemic_01_ScreeningStation",
+    "type": "static",
+    "materials": {
+      "plaster": {
+        "color": "#c1c2ad",
+        "roughness": 1
+      },
+      "repair": {
+        "color": "#afad95",
+        "roughness": 1
+      },
+      "concrete": {
+        "color": "#928d79",
+        "roughness": 1
+      },
+      "floor": {
+        "color": "#a2a492",
+        "roughness": 1
+      },
+      "teal": {
+        "color": "#548078",
+        "roughness": 0.92
+      },
+      "dark": {
+        "color": "#354e4e",
+        "roughness": 0.8,
+        "metalness": 0.35
+      },
+      "roof": {
+        "color": "#6c807b",
+        "roughness": 0.88,
+        "metalness": 0.3
+      },
+      "metal": {
+        "color": "#889a91",
+        "roughness": 0.65,
+        "metalness": 0.45
+      },
+      "white": {
+        "color": "#d4d6c1",
+        "roughness": 0.88
+      },
+      "fabric": {
+        "color": "#89a99c",
+        "roughness": 1
+      },
+      "glass": {
+        "color": "#799f9a",
+        "opacity": 0.48,
+        "transparent": true,
+        "roughness": 0.28
+      },
+      "wood": {
+        "color": "#786b50",
+        "roughness": 1
+      }
+    },
+    "parts": [
+      {
+        "id": "Floor",
+        "shape": {
+          "type": "box",
+          "size": [
+            12,
+            0.16,
+            10
+          ]
+        },
+        "position": [
+          0,
+          -0.08,
+          0
+        ],
+        "material": "floor"
+      },
+      {
+        "id": "FrontLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            3.25,
+            0.24
+          ]
+        },
+        "position": [
+          -4.9,
+          1.625,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "FrontLeftBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            0.32,
+            0.27
+          ]
+        },
+        "position": [
+          -4.9,
+          0.16,
+          5
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "FrontLeftBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2,
+            0.32,
+            0.272
+          ]
+        },
+        "position": [
+          -4.9,
+          1.15,
+          5
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "FrontRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            7.2,
+            3.25,
+            0.24
+          ]
+        },
+        "position": [
+          2.4,
+          1.625,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "FrontRightBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            7.2,
+            0.32,
+            0.27
+          ]
+        },
+        "position": [
+          2.4,
+          0.16,
+          5
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "FrontRightBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            7.2,
+            0.32,
+            0.272
+          ]
+        },
+        "position": [
+          2.4,
+          1.15,
+          5
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "FrontLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.5999999999999996,
+            0.6000000000000001,
+            0.24
+          ]
+        },
+        "position": [
+          -2.5,
+          2.95,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "BackLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            8.2,
+            3.25,
+            0.24
+          ]
+        },
+        "position": [
+          -1.9000000000000001,
+          1.625,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "BackLeftBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            8.2,
+            0.32,
+            0.27
+          ]
+        },
+        "position": [
+          -1.9000000000000001,
+          0.16,
+          -5
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "BackLeftBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            8.2,
+            0.32,
+            0.272
+          ]
+        },
+        "position": [
+          -1.9000000000000001,
+          1.15,
+          -5
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "BackRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5999999999999996,
+            3.25,
+            0.24
+          ]
+        },
+        "position": [
+          5.2,
+          1.625,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "BackRightBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5999999999999996,
+            0.32,
+            0.27
+          ]
+        },
+        "position": [
+          5.2,
+          0.16,
+          -5
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "BackRightBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5999999999999996,
+            0.32,
+            0.272
+          ]
+        },
+        "position": [
+          5.2,
+          1.15,
+          -5
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "BackLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2000000000000006,
+            0.75,
+            0.24
+          ]
+        },
+        "position": [
+          3.3,
+          2.875,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "WestLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            3.25,
+            1.8000000000000003
+          ]
+        },
+        "position": [
+          -6,
+          1.625,
+          -4.1
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "WestLeftBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.32,
+            1.8000000000000003
+          ]
+        },
+        "position": [
+          -6,
+          0.16,
+          -4.1
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "WestLeftBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.272,
+            0.32,
+            1.8000000000000003
+          ]
+        },
+        "position": [
+          -6,
+          1.15,
+          -4.1
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "WestRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            3.25,
+            6.4
+          ]
+        },
+        "position": [
+          -6,
+          1.625,
+          1.8
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "WestRightBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.32,
+            6.4
+          ]
+        },
+        "position": [
+          -6,
+          0.16,
+          1.8
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "WestRightBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.272,
+            0.32,
+            6.4
+          ]
+        },
+        "position": [
+          -6,
+          1.15,
+          1.8
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "WestSill",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            1.45,
+            1.7999999999999998
+          ]
+        },
+        "position": [
+          -6,
+          0.725,
+          -2.3
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "WestSillBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.32,
+            1.7999999999999998
+          ]
+        },
+        "position": [
+          -6,
+          0.16,
+          -2.3
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "WestSillBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.272,
+            0.32,
+            1.7999999999999998
+          ]
+        },
+        "position": [
+          -6,
+          1.15,
+          -2.3
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "WestLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.8999999999999999,
+            1.7999999999999998
+          ]
+        },
+        "position": [
+          -6,
+          2.8,
+          -2.3
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "WestGlass",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.05,
+            0.9000000000000001,
+            1.8
+          ]
+        },
+        "position": [
+          -6,
+          1.9,
+          -2.3
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "WestFrame145",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.1,
+            1.9000000000000001
+          ]
+        },
+        "position": [
+          -6,
+          1.45,
+          -2.3
+        ],
+        "material": "white"
+      },
+      {
+        "id": "WestFrame235",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.1,
+            1.9000000000000001
+          ]
+        },
+        "position": [
+          -6,
+          2.35,
+          -2.3
+        ],
+        "material": "white"
+      },
+      {
+        "id": "WestMullion0",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.9000000000000001,
+            0.075
+          ]
+        },
+        "position": [
+          -6,
+          1.9,
+          -3.1999999999999997
+        ],
+        "material": "white"
+      },
+      {
+        "id": "WestMullion1",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.9000000000000001,
+            0.075
+          ]
+        },
+        "position": [
+          -6,
+          1.9,
+          -2.3
+        ],
+        "material": "white"
+      },
+      {
+        "id": "WestMullion2",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.9000000000000001,
+            0.075
+          ]
+        },
+        "position": [
+          -6,
+          1.9,
+          -1.4
+        ],
+        "material": "white"
+      },
+      {
+        "id": "EastLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            3.25,
+            3
+          ]
+        },
+        "position": [
+          6,
+          1.625,
+          -3.5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "EastLeftBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.32,
+            3
+          ]
+        },
+        "position": [
+          6,
+          0.16,
+          -3.5
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "EastLeftBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.272,
+            0.32,
+            3
+          ]
+        },
+        "position": [
+          6,
+          1.15,
+          -3.5
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "EastRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            3.25,
+            5
+          ]
+        },
+        "position": [
+          6,
+          1.625,
+          2.5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "EastRightBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.32,
+            5
+          ]
+        },
+        "position": [
+          6,
+          0.16,
+          2.5
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "EastRightBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.272,
+            0.32,
+            5
+          ]
+        },
+        "position": [
+          6,
+          1.15,
+          2.5
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "EastSill",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            1.5,
+            2
+          ]
+        },
+        "position": [
+          6,
+          0.75,
+          -1
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "EastSillBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.32,
+            2
+          ]
+        },
+        "position": [
+          6,
+          0.16,
+          -1
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "EastSillBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.272,
+            0.32,
+            2
+          ]
+        },
+        "position": [
+          6,
+          1.15,
+          -1
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "EastLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.8999999999999999,
+            2
+          ]
+        },
+        "position": [
+          6,
+          2.8,
+          -1
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "EastGlass",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.05,
+            0.8500000000000001,
+            2
+          ]
+        },
+        "position": [
+          6,
+          1.925,
+          -1
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "EastFrame150",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.1,
+            2.1
+          ]
+        },
+        "position": [
+          6,
+          1.5,
+          -1
+        ],
+        "material": "white"
+      },
+      {
+        "id": "EastFrame235",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.1,
+            2.1
+          ]
+        },
+        "position": [
+          6,
+          2.35,
+          -1
+        ],
+        "material": "white"
+      },
+      {
+        "id": "EastMullion3",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8500000000000001,
+            0.075
+          ]
+        },
+        "position": [
+          6,
+          1.925,
+          -2
+        ],
+        "material": "white"
+      },
+      {
+        "id": "EastMullion4",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8500000000000001,
+            0.075
+          ]
+        },
+        "position": [
+          6,
+          1.925,
+          -1
+        ],
+        "material": "white"
+      },
+      {
+        "id": "EastMullion5",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8500000000000001,
+            0.075
+          ]
+        },
+        "position": [
+          6,
+          1.925,
+          0
+        ],
+        "material": "white"
+      },
+      {
+        "id": "ScreenPartitionLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.3,
+            2.65,
+            0.24
+          ]
+        },
+        "position": [
+          -4.85,
+          1.325,
+          1
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "ScreenPartitionLeftBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.3,
+            0.32,
+            0.27
+          ]
+        },
+        "position": [
+          -4.85,
+          0.16,
+          1
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "ScreenPartitionLeftBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.3,
+            0.32,
+            0.272
+          ]
+        },
+        "position": [
+          -4.85,
+          1.15,
+          1
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "ScreenPartitionRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.1,
+            2.65,
+            0.24
+          ]
+        },
+        "position": [
+          -0.25,
+          1.325,
+          1
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "ScreenPartitionRightBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.1,
+            0.32,
+            0.27
+          ]
+        },
+        "position": [
+          -0.25,
+          0.16,
+          1
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "ScreenPartitionRightBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.1,
+            0.32,
+            0.272
+          ]
+        },
+        "position": [
+          -0.25,
+          1.15,
+          1
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "ScreenPartitionLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.4000000000000004,
+            0.19999999999999973,
+            0.24
+          ]
+        },
+        "position": [
+          -2.5,
+          2.55,
+          1
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "StorePartitionLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.3999999999999997,
+            2.65,
+            0.24
+          ]
+        },
+        "position": [
+          1.5,
+          1.325,
+          1
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "StorePartitionLeftBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.3999999999999997,
+            0.32,
+            0.27
+          ]
+        },
+        "position": [
+          1.5,
+          0.16,
+          1
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "StorePartitionLeftBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.3999999999999997,
+            0.32,
+            0.272
+          ]
+        },
+        "position": [
+          1.5,
+          1.15,
+          1
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "StorePartitionRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5999999999999996,
+            2.65,
+            0.24
+          ]
+        },
+        "position": [
+          5.2,
+          1.325,
+          1
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "StorePartitionRightBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5999999999999996,
+            0.32,
+            0.27
+          ]
+        },
+        "position": [
+          5.2,
+          0.16,
+          1
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "StorePartitionRightBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5999999999999996,
+            0.32,
+            0.272
+          ]
+        },
+        "position": [
+          5.2,
+          1.15,
+          1
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "StorePartitionLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.2000000000000006,
+            0.19999999999999973,
+            0.24
+          ]
+        },
+        "position": [
+          3.3,
+          2.55,
+          1
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "ClinicalDividerLeft",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            2.65,
+            1.4
+          ]
+        },
+        "position": [
+          0.8,
+          1.325,
+          -4.3
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "ClinicalDividerLeftBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.32,
+            1.4
+          ]
+        },
+        "position": [
+          0.8,
+          0.16,
+          -4.3
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "ClinicalDividerLeftBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.272,
+            0.32,
+            1.4
+          ]
+        },
+        "position": [
+          0.8,
+          1.15,
+          -4.3
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "ClinicalDividerRight",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            2.65,
+            2.4
+          ]
+        },
+        "position": [
+          0.8,
+          1.325,
+          -0.19999999999999996
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "ClinicalDividerRightBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.27,
+            0.32,
+            2.4
+          ]
+        },
+        "position": [
+          0.8,
+          0.16,
+          -0.19999999999999996
+        ],
+        "material": "concrete"
+      },
+      {
+        "id": "ClinicalDividerRightBand",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.272,
+            0.32,
+            2.4
+          ]
+        },
+        "position": [
+          0.8,
+          1.15,
+          -0.19999999999999996
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "ClinicalDividerLintel",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.19999999999999973,
+            2.2
+          ]
+        },
+        "position": [
+          0.8,
+          2.55,
+          -2.5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofMain",
+        "shape": {
+          "type": "box",
+          "size": [
+            12.6,
+            0.15,
+            10.6
+          ]
+        },
+        "position": [
+          0,
+          3.86,
+          0
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          4
+        ]
+      },
+      {
+        "id": "RoofSeam6",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          -6.1,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam7",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          -5.3999999999999995,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam8",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          -4.699999999999999,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam9",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          -3.999999999999999,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam10",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          -3.299999999999999,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam11",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          -2.5999999999999988,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam12",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          -1.8999999999999988,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam13",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          -1.1999999999999988,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam14",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          -0.4999999999999989,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam15",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          0.20000000000000107,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam16",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          0.900000000000001,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam17",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          1.600000000000001,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam18",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          2.3000000000000007,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam19",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          3.000000000000001,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam20",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          3.700000000000001,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam21",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          4.400000000000001,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam22",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          5.100000000000001,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofSeam23",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            10.58
+          ]
+        },
+        "position": [
+          5.800000000000002,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofMain"
+      },
+      {
+        "id": "RoofInfill24",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.12292815013046399,
+            0.24
+          ]
+        },
+        "position": [
+          -5.85,
+          3.311464075065232,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill25",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.1439061937135171,
+            0.24
+          ]
+        },
+        "position": [
+          -5.55,
+          3.3219530968567588,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill26",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.1648842372965702,
+            0.24
+          ]
+        },
+        "position": [
+          -5.25,
+          3.3324421186482853,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill27",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.1858622808796233,
+            0.24
+          ]
+        },
+        "position": [
+          -4.95,
+          3.342931140439812,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill28",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.20684032446267642,
+            0.24
+          ]
+        },
+        "position": [
+          -4.65,
+          3.3534201622313384,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill29",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.22781836804572952,
+            0.24
+          ]
+        },
+        "position": [
+          -4.3500000000000005,
+          3.363909184022865,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill30",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.24879641162878263,
+            0.24
+          ]
+        },
+        "position": [
+          -4.050000000000001,
+          3.3743982058143915,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill31",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.26977445521183574,
+            0.24
+          ]
+        },
+        "position": [
+          -3.7500000000000013,
+          3.384887227605918,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill32",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.29075249879488885,
+            0.24
+          ]
+        },
+        "position": [
+          -3.4500000000000015,
+          3.3953762493974446,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill33",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.31173054237794195,
+            0.24
+          ]
+        },
+        "position": [
+          -3.1500000000000017,
+          3.405865271188971,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill34",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.33270858596099506,
+            0.24
+          ]
+        },
+        "position": [
+          -2.850000000000002,
+          3.4163542929804978,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill35",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.35368662954404817,
+            0.24
+          ]
+        },
+        "position": [
+          -2.550000000000002,
+          3.4268433147720243,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill36",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.3746646731271013,
+            0.24
+          ]
+        },
+        "position": [
+          -2.250000000000002,
+          3.437332336563551,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill37",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.3956427167101544,
+            0.24
+          ]
+        },
+        "position": [
+          -1.9500000000000024,
+          3.4478213583550774,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill38",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.4166207602932075,
+            0.24
+          ]
+        },
+        "position": [
+          -1.6500000000000024,
+          3.458310380146604,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill39",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.4375988038762606,
+            0.24
+          ]
+        },
+        "position": [
+          -1.3500000000000023,
+          3.4687994019381305,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill40",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.4585768474593137,
+            0.24
+          ]
+        },
+        "position": [
+          -1.0500000000000023,
+          3.479288423729657,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill41",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.47955489104236726,
+            0.24
+          ]
+        },
+        "position": [
+          -0.7500000000000021,
+          3.4897774455211836,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill42",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5005329346254204,
+            0.24
+          ]
+        },
+        "position": [
+          -0.45000000000000207,
+          3.50026646731271,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill43",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5215109782084735,
+            0.24
+          ]
+        },
+        "position": [
+          -0.1500000000000021,
+          3.5107554891042367,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill44",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5424890217915266,
+            0.24
+          ]
+        },
+        "position": [
+          0.14999999999999789,
+          3.5212445108957633,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill45",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5634670653745797,
+            0.24
+          ]
+        },
+        "position": [
+          0.44999999999999785,
+          3.53173353268729,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill46",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5844451089576328,
+            0.24
+          ]
+        },
+        "position": [
+          0.7499999999999979,
+          3.5422225544788164,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill47",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.6054231525406859,
+            0.24
+          ]
+        },
+        "position": [
+          1.0499999999999978,
+          3.552711576270343,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill48",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.626401196123739,
+            0.24
+          ]
+        },
+        "position": [
+          1.3499999999999979,
+          3.5632005980618695,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill49",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.6473792397067921,
+            0.24
+          ]
+        },
+        "position": [
+          1.649999999999998,
+          3.573689619853396,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill50",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.6683572832898452,
+            0.24
+          ]
+        },
+        "position": [
+          1.949999999999998,
+          3.5841786416449226,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill51",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.6893353268728979,
+            0.24
+          ]
+        },
+        "position": [
+          2.249999999999998,
+          3.594667663436449,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill52",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.710313370455951,
+            0.24
+          ]
+        },
+        "position": [
+          2.5499999999999976,
+          3.6051566852279757,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill53",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.7312914140390041,
+            0.24
+          ]
+        },
+        "position": [
+          2.8499999999999974,
+          3.6156457070195023,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill54",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.7522694576220568,
+            0.24
+          ]
+        },
+        "position": [
+          3.1499999999999972,
+          3.6261347288110284,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill55",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.7732475012051099,
+            0.24
+          ]
+        },
+        "position": [
+          3.449999999999997,
+          3.636623750602555,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill56",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.794225544788163,
+            0.24
+          ]
+        },
+        "position": [
+          3.749999999999997,
+          3.6471127723940815,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill57",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8152035883712161,
+            0.24
+          ]
+        },
+        "position": [
+          4.049999999999997,
+          3.657601794185608,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill58",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8361816319542701,
+            0.24
+          ]
+        },
+        "position": [
+          4.349999999999997,
+          3.668090815977135,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill59",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8571596755373232,
+            0.24
+          ]
+        },
+        "position": [
+          4.649999999999997,
+          3.6785798377686616,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill60",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8781377191203763,
+            0.24
+          ]
+        },
+        "position": [
+          4.949999999999997,
+          3.689068859560188,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill61",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8991157627034294,
+            0.24
+          ]
+        },
+        "position": [
+          5.2499999999999964,
+          3.6995578813517147,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill62",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.9200938062864825,
+            0.24
+          ]
+        },
+        "position": [
+          5.549999999999996,
+          3.7100469031432413,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill63",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.9410718498695356,
+            0.24
+          ]
+        },
+        "position": [
+          5.849999999999996,
+          3.720535924934768,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill64",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.440892098500626e-15,
+            0.9515608716610622,
+            0.24
+          ]
+        },
+        "position": [
+          5.999999999999998,
+          3.725780435830531,
+          -5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill65",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.12292815013046399,
+            0.24
+          ]
+        },
+        "position": [
+          -5.85,
+          3.311464075065232,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill66",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.1439061937135171,
+            0.24
+          ]
+        },
+        "position": [
+          -5.55,
+          3.3219530968567588,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill67",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.1648842372965702,
+            0.24
+          ]
+        },
+        "position": [
+          -5.25,
+          3.3324421186482853,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill68",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.1858622808796233,
+            0.24
+          ]
+        },
+        "position": [
+          -4.95,
+          3.342931140439812,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill69",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.20684032446267642,
+            0.24
+          ]
+        },
+        "position": [
+          -4.65,
+          3.3534201622313384,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill70",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.22781836804572952,
+            0.24
+          ]
+        },
+        "position": [
+          -4.3500000000000005,
+          3.363909184022865,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill71",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.24879641162878263,
+            0.24
+          ]
+        },
+        "position": [
+          -4.050000000000001,
+          3.3743982058143915,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill72",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.26977445521183574,
+            0.24
+          ]
+        },
+        "position": [
+          -3.7500000000000013,
+          3.384887227605918,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill73",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.29075249879488885,
+            0.24
+          ]
+        },
+        "position": [
+          -3.4500000000000015,
+          3.3953762493974446,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill74",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.31173054237794195,
+            0.24
+          ]
+        },
+        "position": [
+          -3.1500000000000017,
+          3.405865271188971,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill75",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.33270858596099506,
+            0.24
+          ]
+        },
+        "position": [
+          -2.850000000000002,
+          3.4163542929804978,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill76",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.35368662954404817,
+            0.24
+          ]
+        },
+        "position": [
+          -2.550000000000002,
+          3.4268433147720243,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill77",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.3746646731271013,
+            0.24
+          ]
+        },
+        "position": [
+          -2.250000000000002,
+          3.437332336563551,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill78",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.3956427167101544,
+            0.24
+          ]
+        },
+        "position": [
+          -1.9500000000000024,
+          3.4478213583550774,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill79",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.4166207602932075,
+            0.24
+          ]
+        },
+        "position": [
+          -1.6500000000000024,
+          3.458310380146604,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill80",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.4375988038762606,
+            0.24
+          ]
+        },
+        "position": [
+          -1.3500000000000023,
+          3.4687994019381305,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill81",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.4585768474593137,
+            0.24
+          ]
+        },
+        "position": [
+          -1.0500000000000023,
+          3.479288423729657,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill82",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.47955489104236726,
+            0.24
+          ]
+        },
+        "position": [
+          -0.7500000000000021,
+          3.4897774455211836,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill83",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5005329346254204,
+            0.24
+          ]
+        },
+        "position": [
+          -0.45000000000000207,
+          3.50026646731271,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill84",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5215109782084735,
+            0.24
+          ]
+        },
+        "position": [
+          -0.1500000000000021,
+          3.5107554891042367,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill85",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5424890217915266,
+            0.24
+          ]
+        },
+        "position": [
+          0.14999999999999789,
+          3.5212445108957633,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill86",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5634670653745797,
+            0.24
+          ]
+        },
+        "position": [
+          0.44999999999999785,
+          3.53173353268729,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill87",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.5844451089576328,
+            0.24
+          ]
+        },
+        "position": [
+          0.7499999999999979,
+          3.5422225544788164,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill88",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.6054231525406859,
+            0.24
+          ]
+        },
+        "position": [
+          1.0499999999999978,
+          3.552711576270343,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill89",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.626401196123739,
+            0.24
+          ]
+        },
+        "position": [
+          1.3499999999999979,
+          3.5632005980618695,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill90",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.6473792397067921,
+            0.24
+          ]
+        },
+        "position": [
+          1.649999999999998,
+          3.573689619853396,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill91",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.6683572832898452,
+            0.24
+          ]
+        },
+        "position": [
+          1.949999999999998,
+          3.5841786416449226,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill92",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.6893353268728979,
+            0.24
+          ]
+        },
+        "position": [
+          2.249999999999998,
+          3.594667663436449,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill93",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.710313370455951,
+            0.24
+          ]
+        },
+        "position": [
+          2.5499999999999976,
+          3.6051566852279757,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill94",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.7312914140390041,
+            0.24
+          ]
+        },
+        "position": [
+          2.8499999999999974,
+          3.6156457070195023,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill95",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.7522694576220568,
+            0.24
+          ]
+        },
+        "position": [
+          3.1499999999999972,
+          3.6261347288110284,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill96",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.7732475012051099,
+            0.24
+          ]
+        },
+        "position": [
+          3.449999999999997,
+          3.636623750602555,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill97",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.794225544788163,
+            0.24
+          ]
+        },
+        "position": [
+          3.749999999999997,
+          3.6471127723940815,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill98",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8152035883712161,
+            0.24
+          ]
+        },
+        "position": [
+          4.049999999999997,
+          3.657601794185608,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill99",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8361816319542701,
+            0.24
+          ]
+        },
+        "position": [
+          4.349999999999997,
+          3.668090815977135,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill100",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8571596755373232,
+            0.24
+          ]
+        },
+        "position": [
+          4.649999999999997,
+          3.6785798377686616,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill101",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8781377191203763,
+            0.24
+          ]
+        },
+        "position": [
+          4.949999999999997,
+          3.689068859560188,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill102",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.8991157627034294,
+            0.24
+          ]
+        },
+        "position": [
+          5.2499999999999964,
+          3.6995578813517147,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill103",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.9200938062864825,
+            0.24
+          ]
+        },
+        "position": [
+          5.549999999999996,
+          3.7100469031432413,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill104",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.3,
+            0.9410718498695356,
+            0.24
+          ]
+        },
+        "position": [
+          5.849999999999996,
+          3.720535924934768,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofInfill105",
+        "shape": {
+          "type": "box",
+          "size": [
+            4.440892098500626e-15,
+            0.9515608716610622,
+            0.24
+          ]
+        },
+        "position": [
+          5.999999999999998,
+          3.725780435830531,
+          5
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofSideInfill106",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.11243912833893743,
+            10
+          ]
+        },
+        "position": [
+          -6,
+          3.306219564169469,
+          0
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofSideInfill107",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.24,
+            0.9515608716610622,
+            10
+          ]
+        },
+        "position": [
+          6,
+          3.725780435830531,
+          0
+        ],
+        "material": "plaster"
+      },
+      {
+        "id": "RoofEntryCanopy",
+        "shape": {
+          "type": "box",
+          "size": [
+            3.9000000000000004,
+            0.15,
+            1.7000000000000002
+          ]
+        },
+        "position": [
+          -2.5,
+          2.98,
+          5.449999999999999
+        ],
+        "material": "roof",
+        "rotation": [
+          0,
+          0,
+          -2
+        ]
+      },
+      {
+        "id": "RoofSeam108",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            1.6800000000000002
+          ]
+        },
+        "position": [
+          -1.7500000000000002,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofEntryCanopy"
+      },
+      {
+        "id": "RoofSeam109",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            1.6800000000000002
+          ]
+        },
+        "position": [
+          -1.0500000000000003,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofEntryCanopy"
+      },
+      {
+        "id": "RoofSeam110",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            1.6800000000000002
+          ]
+        },
+        "position": [
+          -0.3500000000000003,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofEntryCanopy"
+      },
+      {
+        "id": "RoofSeam111",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            1.6800000000000002
+          ]
+        },
+        "position": [
+          0.34999999999999964,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofEntryCanopy"
+      },
+      {
+        "id": "RoofSeam112",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            1.6800000000000002
+          ]
+        },
+        "position": [
+          1.0499999999999996,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofEntryCanopy"
+      },
+      {
+        "id": "RoofSeam113",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.025,
+            0.035,
+            1.6800000000000002
+          ]
+        },
+        "position": [
+          1.7499999999999996,
+          0.092,
+          0
+        ],
+        "material": "metal",
+        "parent": "RoofEntryCanopy"
+      },
+      {
+        "id": "RoofServiceCurb",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.76,
+            0.3,
+            1.16
+          ]
+        },
+        "position": [
+          3.6,
+          4.2,
+          -2.8
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RoofServiceBox",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.65,
+            0.48,
+            1.05
+          ]
+        },
+        "position": [
+          3.6,
+          4.53,
+          -2.8
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "RoofVent0",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.35,
+            0.028,
+            0.04
+          ]
+        },
+        "position": [
+          3.6,
+          4.39,
+          -2.26
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RoofVent1",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.35,
+            0.028,
+            0.04
+          ]
+        },
+        "position": [
+          3.6,
+          4.455,
+          -2.26
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RoofVent2",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.35,
+            0.028,
+            0.04
+          ]
+        },
+        "position": [
+          3.6,
+          4.52,
+          -2.26
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RoofVent3",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.35,
+            0.028,
+            0.04
+          ]
+        },
+        "position": [
+          3.6,
+          4.585,
+          -2.26
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RoofVent4",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.35,
+            0.028,
+            0.04
+          ]
+        },
+        "position": [
+          3.6,
+          4.6499999999999995,
+          -2.26
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RoofExhaustBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.62,
+            0.12,
+            0.62
+          ]
+        },
+        "position": [
+          -3.6,
+          3.69,
+          -3.5
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "RoofExhaust",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.5,
+            0.42,
+            0.5
+          ]
+        },
+        "position": [
+          -3.6,
+          3.91,
+          -3.5
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "RoofExhaustCap",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7,
+            0.12,
+            0.7
+          ]
+        },
+        "position": [
+          -3.6,
+          4.18,
+          -3.5
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "ClinicSign",
+        "shape": {
+          "type": "box",
+          "size": [
+            2,
+            0.55,
+            0.1
+          ]
+        },
+        "position": [
+          -2.5,
+          3.35,
+          5.19
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "ClinicSignH",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.52,
+            0.12,
+            0.026
+          ]
+        },
+        "position": [
+          -2.5,
+          3.35,
+          5.257
+        ],
+        "material": "white"
+      },
+      {
+        "id": "ClinicSignV",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.12,
+            0.38,
+            0.026
+          ]
+        },
+        "position": [
+          -2.5,
+          3.35,
+          5.258
+        ],
+        "material": "white"
+      },
+      {
+        "id": "CornerTrim114",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.17,
+            3.25,
+            0.28
+          ]
+        },
+        "position": [
+          -5.9,
+          1.625,
+          -5
+        ],
+        "material": "white"
+      },
+      {
+        "id": "CornerTrim115",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.17,
+            3.25,
+            0.28
+          ]
+        },
+        "position": [
+          5.9,
+          1.625,
+          -5
+        ],
+        "material": "white"
+      },
+      {
+        "id": "CornerTrim116",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.17,
+            3.25,
+            0.28
+          ]
+        },
+        "position": [
+          -5.9,
+          1.625,
+          5
+        ],
+        "material": "white"
+      },
+      {
+        "id": "CornerTrim117",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.17,
+            3.25,
+            0.28
+          ]
+        },
+        "position": [
+          5.9,
+          1.625,
+          5
+        ],
+        "material": "white"
+      },
+      {
+        "id": "RepairPatch",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.85,
+            0.55,
+            0.026
+          ]
+        },
+        "position": [
+          4.8,
+          0.65,
+          5.14
+        ],
+        "material": "repair"
+      },
+      {
+        "id": "ReceptionCounter",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.8,
+            0.94,
+            0.8
+          ]
+        },
+        "position": [
+          3,
+          0.47,
+          3.6
+        ],
+        "material": "white"
+      },
+      {
+        "id": "ReceptionWorktop",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.94,
+            0.09,
+            0.91
+          ]
+        },
+        "position": [
+          3,
+          0.985,
+          3.6
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "CounterFrontStrip",
+        "shape": {
+          "type": "box",
+          "size": [
+            2.5,
+            0.2,
+            0.035
+          ]
+        },
+        "position": [
+          3,
+          0.53,
+          4.025
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "ReceptionTerminal",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.42,
+            0.34,
+            0.14
+          ]
+        },
+        "position": [
+          3.65,
+          1.2,
+          3.5
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "TerminalScreen",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.32,
+            0.21,
+            0.02
+          ]
+        },
+        "position": [
+          3.65,
+          1.22,
+          3.58
+        ],
+        "material": "glass"
+      },
+      {
+        "id": "WaitingBench",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.6,
+            0.4,
+            2
+          ]
+        },
+        "position": [
+          -5.15,
+          0.2,
+          3.35
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "WaitingCushion",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.62,
+            0.1,
+            2.02
+          ]
+        },
+        "position": [
+          -5.15,
+          0.45,
+          3.35
+        ],
+        "material": "fabric"
+      },
+      {
+        "id": "WaitingBack",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.1,
+            0.52,
+            2.02
+          ]
+        },
+        "position": [
+          -5.43,
+          0.67,
+          3.35
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "ExamBedBase",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.08,
+            0.48,
+            2.02
+          ]
+        },
+        "position": [
+          -4.7,
+          0.24,
+          -2.5
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "ExamMattress",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.2,
+            0.16,
+            2.2
+          ]
+        },
+        "position": [
+          -4.7,
+          0.56,
+          -2.5
+        ],
+        "material": "fabric"
+      },
+      {
+        "id": "ExamPillow",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.83,
+            0.12,
+            0.43
+          ]
+        },
+        "position": [
+          -4.7,
+          0.7,
+          -3.23
+        ],
+        "material": "white"
+      },
+      {
+        "id": "PrivacyScreen",
+        "shape": {
+          "type": "box",
+          "size": [
+            2,
+            1.65,
+            0.1
+          ]
+        },
+        "position": [
+          -4.5,
+          1.05,
+          -0.5
+        ],
+        "material": "fabric"
+      },
+      {
+        "id": "ScreenLeg118",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            1.98,
+            0.08
+          ]
+        },
+        "position": [
+          -5.47,
+          0.99,
+          -0.5
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "ScreenFoot119",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.13,
+            0.07,
+            0.48
+          ]
+        },
+        "position": [
+          -5.47,
+          0.035,
+          -0.5
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "ScreenLeg120",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            1.98,
+            0.08
+          ]
+        },
+        "position": [
+          -3.53,
+          0.99,
+          -0.5
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "ScreenFoot121",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.13,
+            0.07,
+            0.48
+          ]
+        },
+        "position": [
+          -3.53,
+          0.035,
+          -0.5
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "HandwashCabinet",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.45,
+            0.83,
+            0.64
+          ]
+        },
+        "position": [
+          -4.8,
+          0.415,
+          -4.42
+        ],
+        "material": "white"
+      },
+      {
+        "id": "SinkRim",
+        "shape": {
+          "type": "box",
+          "size": [
+            1.5,
+            0.1,
+            0.68
+          ]
+        },
+        "position": [
+          -4.8,
+          0.88,
+          -4.42
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "SinkBowl",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.78,
+            0.025,
+            0.38
+          ]
+        },
+        "position": [
+          -4.8,
+          0.943,
+          -4.42
+        ],
+        "material": "dark"
+      },
+      {
+        "id": "SinkTap",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.055,
+            0.21,
+            0.055
+          ]
+        },
+        "position": [
+          -4.8,
+          1.04,
+          -4.65
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "MedicalCabinet",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.76,
+            2.12,
+            2.05
+          ]
+        },
+        "position": [
+          5.28,
+          1.06,
+          -0.9
+        ],
+        "material": "white"
+      },
+      {
+        "id": "CabinetInset122",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            1.35,
+            0.83
+          ]
+        },
+        "position": [
+          4.883,
+          1.3,
+          -1.43
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "CabinetHandle123",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            0.28,
+            0.035
+          ]
+        },
+        "position": [
+          4.85,
+          1.18,
+          -1.43
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "CabinetInset124",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.035,
+            1.35,
+            0.83
+          ]
+        },
+        "position": [
+          4.883,
+          1.3,
+          -0.39
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "CabinetHandle125",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.06,
+            0.28,
+            0.035
+          ]
+        },
+        "position": [
+          4.85,
+          1.18,
+          -0.39
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "SupplyTrolley",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.65,
+            0.8,
+            0.72
+          ]
+        },
+        "position": [
+          1.6,
+          0.4,
+          -4.28
+        ],
+        "material": "metal"
+      },
+      {
+        "id": "SupplyTray",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.7,
+            0.08,
+            0.78
+          ]
+        },
+        "position": [
+          1.6,
+          0.84,
+          -4.28
+        ],
+        "material": "white"
+      },
+      {
+        "id": "SealedPack126",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.2,
+            0.17,
+            0.3
+          ]
+        },
+        "position": [
+          1.43,
+          0.965,
+          -4.28
+        ],
+        "material": "fabric"
+      },
+      {
+        "id": "SealedPack127",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.2,
+            0.17,
+            0.3
+          ]
+        },
+        "position": [
+          1.72,
+          0.965,
+          -4.28
+        ],
+        "material": "fabric"
+      },
+      {
+        "id": "IntakeGuide128",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.006,
+            0.3
+          ]
+        },
+        "position": [
+          -0.95,
+          0.004,
+          2.1
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "IntakeGuide129",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.006,
+            0.3
+          ]
+        },
+        "position": [
+          -0.95,
+          0.004,
+          2.8
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "IntakeGuide130",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.006,
+            0.3
+          ]
+        },
+        "position": [
+          -0.95,
+          0.004,
+          3.5
+        ],
+        "material": "teal"
+      },
+      {
+        "id": "IntakeGuide131",
+        "shape": {
+          "type": "box",
+          "size": [
+            0.045,
+            0.006,
+            0.3
+          ]
+        },
+        "position": [
+          -0.95,
+          0.004,
+          4.2
+        ],
+        "material": "teal"
+      }
+    ],
+    "sockets": []
+  }
+}

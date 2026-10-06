@@ -1,0 +1,630 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_PRJ_005_Meteor",
+  "type": "static",
+  "materials": {
+    "rock": {
+      "color": "#403A38",
+      "roughness": 1
+    },
+    "dark": {
+      "color": "#29282A",
+      "roughness": 1
+    },
+    "ash": {
+      "color": "#6F5B4C",
+      "roughness": 0.97
+    },
+    "magma": {
+      "color": "#FF8D2A",
+      "emissive": "#9F3005",
+      "roughness": 0.85
+    }
+  },
+  "parts": [
+    {
+      "id": "Core",
+      "shape": {
+        "type": "sphere",
+        "radius": 0.33
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "magma",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RockMassTop",
+      "shape": {
+        "type": "cone",
+        "radius": 0.44,
+        "height": 0.53,
+        "radialSegments": 7
+      },
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "material": "rock",
+      "rotation": [
+        8,
+        17,
+        -9
+      ],
+      "scale": [
+        1,
+        1,
+        1.1
+      ]
+    },
+    {
+      "id": "RockMassBottom",
+      "shape": {
+        "type": "cone",
+        "radius": 0.44,
+        "height": 0.4,
+        "radialSegments": 7
+      },
+      "position": [
+        0,
+        -0.36,
+        0
+      ],
+      "material": "dark",
+      "rotation": [
+        188,
+        17,
+        -9
+      ],
+      "scale": [
+        1,
+        1,
+        1.1
+      ]
+    },
+    {
+      "id": "Rock_0",
+      "shape": {
+        "type": "cone",
+        "radius": 0.26,
+        "height": 0.38,
+        "radialSegments": 5
+      },
+      "position": [
+        0.22488886144049025,
+        -0.255,
+        0
+      ],
+      "material": "ash",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.9,
+        1.12
+      ]
+    },
+    {
+      "id": "RockBack_0",
+      "shape": {
+        "type": "cone",
+        "radius": 0.26,
+        "height": 0.3,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        -0.34,
+        0
+      ],
+      "material": "rock",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "Rock_0"
+    },
+    {
+      "id": "Rock_1",
+      "shape": {
+        "type": "cone",
+        "radius": 0.278,
+        "height": 0.38,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.20363113678769615,
+        -0.19833333333333333,
+        0.18654288788222267
+      ],
+      "material": "rock",
+      "rotation": [
+        31,
+        47,
+        19
+      ],
+      "scale": [
+        1,
+        0.9,
+        1.12
+      ]
+    },
+    {
+      "id": "RockBack_1",
+      "shape": {
+        "type": "cone",
+        "radius": 0.278,
+        "height": 0.3,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        -0.34,
+        0
+      ],
+      "material": "dark",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "Rock_1"
+    },
+    {
+      "id": "Rock_2",
+      "shape": {
+        "type": "cone",
+        "radius": 0.296,
+        "height": 0.38,
+        "radialSegments": 5
+      },
+      "position": [
+        0.027021416967869142,
+        -0.14166666666666666,
+        -0.30789673363094344
+      ],
+      "material": "rock",
+      "rotation": [
+        62,
+        94,
+        38
+      ],
+      "scale": [
+        1,
+        0.9,
+        1.12
+      ]
+    },
+    {
+      "id": "RockBack_2",
+      "shape": {
+        "type": "cone",
+        "radius": 0.296,
+        "height": 0.3,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        -0.34,
+        0
+      ],
+      "material": "rock",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "Rock_2"
+    },
+    {
+      "id": "Rock_3",
+      "shape": {
+        "type": "cone",
+        "radius": 0.26,
+        "height": 0.38,
+        "radialSegments": 5
+      },
+      "position": [
+        0.20030043399337147,
+        -0.085,
+        0.26125607388550237
+      ],
+      "material": "ash",
+      "rotation": [
+        93,
+        141,
+        57
+      ],
+      "scale": [
+        1,
+        0.9,
+        1.12
+      ]
+    },
+    {
+      "id": "RockBack_3",
+      "shape": {
+        "type": "cone",
+        "radius": 0.26,
+        "height": 0.3,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        -0.34,
+        0
+      ],
+      "material": "dark",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "Rock_3"
+    },
+    {
+      "id": "Rock_4",
+      "shape": {
+        "type": "cone",
+        "radius": 0.278,
+        "height": 0.38,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.3336381049788255,
+        -0.028333333333333346,
+        -0.0590155668307983
+      ],
+      "material": "rock",
+      "rotation": [
+        124,
+        188,
+        76
+      ],
+      "scale": [
+        1,
+        0.9,
+        1.12
+      ]
+    },
+    {
+      "id": "RockBack_4",
+      "shape": {
+        "type": "cone",
+        "radius": 0.278,
+        "height": 0.3,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        -0.34,
+        0
+      ],
+      "material": "rock",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "Rock_4"
+    },
+    {
+      "id": "Rock_5",
+      "shape": {
+        "type": "cone",
+        "radius": 0.296,
+        "height": 0.38,
+        "radialSegments": 5
+      },
+      "position": [
+        0.2858787559800938,
+        0.028333333333333346,
+        -0.1818531250803687
+      ],
+      "material": "rock",
+      "rotation": [
+        155,
+        235,
+        95
+      ],
+      "scale": [
+        1,
+        0.9,
+        1.12
+      ]
+    },
+    {
+      "id": "RockBack_5",
+      "shape": {
+        "type": "cone",
+        "radius": 0.296,
+        "height": 0.3,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        -0.34,
+        0
+      ],
+      "material": "dark",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "Rock_5"
+    },
+    {
+      "id": "Rock_6",
+      "shape": {
+        "type": "cone",
+        "radius": 0.26,
+        "height": 0.38,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.0854622294986553,
+        0.08499999999999998,
+        0.317916981819341
+      ],
+      "material": "ash",
+      "rotation": [
+        186,
+        282,
+        114
+      ],
+      "scale": [
+        1,
+        0.9,
+        1.12
+      ]
+    },
+    {
+      "id": "RockBack_6",
+      "shape": {
+        "type": "cone",
+        "radius": 0.26,
+        "height": 0.3,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        -0.34,
+        0
+      ],
+      "material": "rock",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "Rock_6"
+    },
+    {
+      "id": "Rock_7",
+      "shape": {
+        "type": "cone",
+        "radius": 0.278,
+        "height": 0.38,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.14245766567608184,
+        0.14166666666666666,
+        -0.2742924881320618
+      ],
+      "material": "rock",
+      "rotation": [
+        217,
+        329,
+        133
+      ],
+      "scale": [
+        1,
+        0.9,
+        1.12
+      ]
+    },
+    {
+      "id": "RockBack_7",
+      "shape": {
+        "type": "cone",
+        "radius": 0.278,
+        "height": 0.3,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        -0.34,
+        0
+      ],
+      "material": "dark",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "Rock_7"
+    },
+    {
+      "id": "Rock_8",
+      "shape": {
+        "type": "cone",
+        "radius": 0.296,
+        "height": 0.38,
+        "radialSegments": 5
+      },
+      "position": [
+        0.25940236657395616,
+        0.1983333333333333,
+        0.09473278790746001
+      ],
+      "material": "rock",
+      "rotation": [
+        248,
+        376,
+        152
+      ],
+      "scale": [
+        1,
+        0.9,
+        1.12
+      ]
+    },
+    {
+      "id": "RockBack_8",
+      "shape": {
+        "type": "cone",
+        "radius": 0.296,
+        "height": 0.3,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        -0.34,
+        0
+      ],
+      "material": "rock",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "Rock_8"
+    },
+    {
+      "id": "Rock_9",
+      "shape": {
+        "type": "cone",
+        "radius": 0.26,
+        "height": 0.38,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.207874842284399,
+        0.255,
+        0.08580821607070184
+      ],
+      "material": "ash",
+      "rotation": [
+        279,
+        423,
+        171
+      ],
+      "scale": [
+        1,
+        0.9,
+        1.12
+      ]
+    },
+    {
+      "id": "RockBack_9",
+      "shape": {
+        "type": "cone",
+        "radius": 0.26,
+        "height": 0.3,
+        "radialSegments": 5
+      },
+      "position": [
+        0,
+        -0.34,
+        0
+      ],
+      "material": "dark",
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "Rock_9"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "VFX_Anchor",
+      "parent": "Core",
+      "position": [
+        0,
+        0,
+        -0.37
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

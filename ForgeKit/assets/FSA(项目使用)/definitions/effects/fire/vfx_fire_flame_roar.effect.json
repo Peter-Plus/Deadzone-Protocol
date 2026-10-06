@@ -1,0 +1,158 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_fire_flame_roar",
+  "name": "炎魔咆哮 · 持续火焰冲击",
+  "initialState": "active",
+  "states": {
+    "active": {
+      "duration": 2,
+      "loop": true
+    },
+    "dissipate": {
+      "duration": 0.4,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "outer",
+      "kind": "beam",
+      "texture": "mist",
+      "count": 128,
+      "seed": 700,
+      "length": 8,
+      "width": 0.85,
+      "speed": 11,
+      "size": [
+        0.35,
+        0.8
+      ],
+      "spread": 0.95,
+      "profiles": {
+        "active": {
+          "strength": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ed3908",
+        "opacity": 0.65,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "heart",
+      "kind": "beam",
+      "texture": "mist",
+      "count": 96,
+      "seed": 701,
+      "length": 8,
+      "width": 0.85,
+      "speed": 11,
+      "size": [
+        0.35,
+        0.8
+      ],
+      "spread": 0.42,
+      "profiles": {
+        "active": {
+          "strength": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ffae22",
+        "opacity": 0.42,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "core",
+      "kind": "beam",
+      "texture": "glow",
+      "count": 64,
+      "seed": 702,
+      "length": 8,
+      "width": 0.85,
+      "speed": 11,
+      "size": [
+        0.35,
+        0.8
+      ],
+      "spread": 0.12,
+      "profiles": {
+        "active": {
+          "strength": 1
+        },
+        "dissipate": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          }
+        }
+      },
+      "render": {
+        "color": "#ffe8a0",
+        "opacity": 0.28,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}

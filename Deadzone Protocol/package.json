@@ -1,0 +1,25 @@
+{
+  "name": "deadzone-protocol",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node tools/build.mjs --serve",
+    "build": "node tools/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "tsc --outDir .test-build && node --test tests/*.test.mjs",
+    "check": "npm run typecheck && npm run build && npm test"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.21.0",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.180.0",
+    "esbuild": "0.28.2",
+    "typescript": "5.9.3"
+  }
+}

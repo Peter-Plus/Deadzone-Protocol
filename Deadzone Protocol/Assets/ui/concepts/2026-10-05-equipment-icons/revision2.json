@@ -1,0 +1,17 @@
+[
+  {
+    "file": "ui_equipment_ballistic_vest.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-bffd4da3-297a-4092-b6b7-906c365e81c7.png",
+    "reference": "Assets/ui/concepts/2026-10-05-style-comparison/D-inventory.png"
+  },
+  {
+    "file": "ui_equipment_special_forces_armor.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-f75f1598-86a2-4615-9721-51553778fe6d.png",
+    "reference": "Assets/ui/concepts/2026-10-05-style-comparison/D-inventory.png"
+  },
+  {
+    "file": "ui_equipment_military_boots.png",
+    "source": "C:\\Users\\32430\\.codex\\generated_images\\01a10c38-7ac5-7e53-9b5d-b72e91be5991\\exec-72ef7e84-50df-44c5-95fc-01d930c75c34.png",
+    "reference": "Assets/ui/concepts/2026-10-05-style-comparison/D-inventory.png"
+  }
+]

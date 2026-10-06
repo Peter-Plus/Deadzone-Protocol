@@ -1,0 +1,271 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_Consumable_002_FirstAidInjector",
+  "type": "static",
+  "materials": {
+    "white": {
+      "color": "#D9DACD",
+      "roughness": 0.92
+    },
+    "dark": {
+      "color": "#293638",
+      "roughness": 0.78
+    },
+    "metal": {
+      "color": "#929D9E",
+      "metalness": 0.7,
+      "roughness": 0.4
+    },
+    "red": {
+      "color": "#A8463D",
+      "roughness": 0.65
+    },
+    "orange": {
+      "color": "#D2A13D",
+      "roughness": 0.68
+    },
+    "blue": {
+      "color": "#397B98",
+      "roughness": 0.65
+    },
+    "green": {
+      "color": "#568A70",
+      "roughness": 0.65
+    },
+    "purple": {
+      "color": "#70688B",
+      "roughness": 0.65
+    },
+    "label": {
+      "color": "#DFD5B8",
+      "roughness": 0.95
+    },
+    "hole": {
+      "color": "#101B20",
+      "roughness": 1
+    }
+  },
+  "parts": [
+    {
+      "id": "PlungerFoot",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.023,
+        "radiusBottom": 0.023,
+        "height": 0.01
+      },
+      "position": [
+        0,
+        0.004999999888241291,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "PlungerStem",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.006,
+        "radiusBottom": 0.006,
+        "height": 0.026
+      },
+      "position": [
+        0,
+        0.02099999988824129,
+        0
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "Barrel",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.014,
+        "radiusBottom": 0.014,
+        "height": 0.074
+      },
+      "position": [
+        0,
+        0.06899999988824129,
+        0
+      ],
+      "material": "white"
+    },
+    {
+      "id": "FingerFlange",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.025,
+        "radiusBottom": 0.025,
+        "height": 0.007
+      },
+      "position": [
+        0,
+        0.0349999998882413,
+        0
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "DoseBand",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0145,
+        "radiusBottom": 0.0145,
+        "height": 0.016
+      },
+      "position": [
+        0,
+        0.07999999988824129,
+        0
+      ],
+      "material": "red"
+    },
+    {
+      "id": "Taper",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.006,
+        "radiusBottom": 0.014,
+        "height": 0.016
+      },
+      "position": [
+        0,
+        0.11399999988824129,
+        0
+      ],
+      "material": "white"
+    },
+    {
+      "id": "NeedleHub",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.005,
+        "radiusBottom": 0.005,
+        "height": 0.009
+      },
+      "position": [
+        0,
+        0.1259999998882413,
+        0
+      ],
+      "material": "red"
+    },
+    {
+      "id": "Needle",
+      "shape": {
+        "type": "cylinder",
+        "radiusTop": 0.0012,
+        "radiusBottom": 0.0012,
+        "height": 0.018
+      },
+      "position": [
+        0,
+        0.1389999998882413,
+        0
+      ],
+      "material": "metal"
+    },
+    {
+      "id": "DoseMark_0",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.01,
+          0.0015,
+          0.002
+        ]
+      },
+      "position": [
+        0.006,
+        0.04499999988824129,
+        0.013
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "DoseMark_1",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.006,
+          0.0015,
+          0.002
+        ]
+      },
+      "position": [
+        0.006,
+        0.04999999988824129,
+        0.013
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "DoseMark_2",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.01,
+          0.0015,
+          0.002
+        ]
+      },
+      "position": [
+        0.006,
+        0.054999999888241294,
+        0.013
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "DoseMark_3",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.006,
+          0.0015,
+          0.002
+        ]
+      },
+      "position": [
+        0.006,
+        0.05999999988824129,
+        0.013
+      ],
+      "material": "dark"
+    },
+    {
+      "id": "DoseMark_4",
+      "shape": {
+        "type": "box",
+        "size": [
+          0.01,
+          0.0015,
+          0.002
+        ]
+      },
+      "position": [
+        0.006,
+        0.06499999988824129,
+        0.013
+      ],
+      "material": "dark"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "Grip_R",
+      "parent": "PlungerFoot",
+      "position": [
+        0,
+        0.061,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        180
+      ]
+    }
+  ]
+}

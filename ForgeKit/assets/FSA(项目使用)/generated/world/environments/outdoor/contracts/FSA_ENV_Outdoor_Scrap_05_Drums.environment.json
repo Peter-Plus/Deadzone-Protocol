@@ -1,0 +1,155 @@
+{
+  "schema": "environment.v1",
+  "id": "FSA_ENV_Outdoor_Scrap_05_Drums",
+  "label": "废料堆／压扁桶罐",
+  "type": "solid",
+  "profiles": {
+    "player": {
+      "radius": 0.3,
+      "height": 1.8,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    },
+    "A1": {
+      "radius": 0.78,
+      "height": 1.95,
+      "margin": 0.06,
+      "maxSlopeDegrees": 15
+    }
+  },
+  "placement": {
+    "min": [
+      -1.81,
+      -1.53
+    ],
+    "max": [
+      1.81,
+      1.55
+    ]
+  },
+  "colliders": [
+    {
+      "node": "BasePlate",
+      "role": "solid",
+      "position": [
+        0,
+        0.045,
+        0
+      ],
+      "quaternion": [
+        0,
+        -0.06975647374412529,
+        0,
+        0.9975640502598243
+      ],
+      "size": [
+        2.65,
+        0.09,
+        2
+      ]
+    },
+    {
+      "node": "DrumCore0",
+      "role": "solid",
+      "position": [
+        -0.6,
+        0.65,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.5940000000000001,
+        1.1,
+        0.5940000000000001
+      ]
+    },
+    {
+      "node": "DrumCore1",
+      "role": "solid",
+      "position": [
+        0.4,
+        0.48,
+        0.35
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.675,
+        0.76,
+        0.675
+      ]
+    },
+    {
+      "node": "DrumCore2",
+      "role": "solid",
+      "position": [
+        0.7,
+        0.385,
+        -0.65
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        0.54,
+        0.57,
+        0.54
+      ]
+    },
+    {
+      "node": "CrushedCan",
+      "role": "solid",
+      "position": [
+        -0.3,
+        0.28,
+        0.75
+      ],
+      "quaternion": [
+        0,
+        -0.17364817766693033,
+        0,
+        0.9848077530122079
+      ],
+      "size": [
+        0.8,
+        0.3,
+        0.65
+      ]
+    }
+  ],
+  "walkables": [],
+  "entrances": [],
+  "routes": [],
+  "lootZones": [],
+  "exclusions": [],
+  "connectors": [],
+  "modelAsset": "models/FSA_ENV_Outdoor_Scrap_05_Drums.glb",
+  "animationAsset": null,
+  "bounds": {
+    "min": [
+      -1.4512783392623074,
+      -1.7881393449270533e-9,
+      -1.1746724341499477
+    ],
+    "max": [
+      1.4512783392623074,
+      1.2799999993294477,
+      1.1922081499222776
+    ]
+  },
+  "checks": [],
+  "sourceHash": "87b397511709cd7941f2ffcf3d1d5a2246e75fced84b795e430ef384bebdaba5",
+  "modelHash": "4411326a2b609b22483adfeac537ac793762f22897e85bcd695f972051707bf7"
+}

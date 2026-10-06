@@ -1,0 +1,15 @@
+{
+  "schema": "animation.v1",
+  "id": "FSA_ANIM_Character_Walk",
+  "rig": "humanoid.v1",
+  "mode": "generator",
+  "generator": "humanoid.walk",
+  "duration": 1.15,
+  "loop": true,
+  "parameters": {
+    "armSwing": 19,
+    "legSwing": 24,
+    "bodyBob": 0.016,
+    "bodyLean": 4
+  }
+}

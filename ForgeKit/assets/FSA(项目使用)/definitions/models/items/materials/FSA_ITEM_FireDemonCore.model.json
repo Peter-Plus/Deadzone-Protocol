@@ -1,0 +1,233 @@
+{
+  "schema": "model.v1",
+  "id": "FSA_ITEM_FireDemonCore",
+  "type": "static",
+  "materials": {
+    "orange": {
+      "color": "#B63C36",
+      "roughness": 0.75
+    },
+    "black": {
+      "color": "#273236",
+      "roughness": 0.87
+    },
+    "metal": {
+      "color": "#839093",
+      "roughness": 0.4,
+      "metalness": 0.65
+    },
+    "olive": {
+      "color": "#626F52",
+      "roughness": 1
+    },
+    "tan": {
+      "color": "#9B8966",
+      "roughness": 1
+    },
+    "cloth": {
+      "color": "#394C46",
+      "roughness": 1
+    },
+    "strap": {
+      "color": "#263E34",
+      "roughness": 0.92
+    },
+    "light": {
+      "color": "#CABD96",
+      "roughness": 0.9
+    },
+    "hole": {
+      "color": "#0D171D",
+      "roughness": 1
+    },
+    "stone": {
+      "color": "#3A3548",
+      "roughness": 0.95
+    },
+    "purple": {
+      "color": "#82749E",
+      "roughness": 0.45,
+      "metalness": 0.15
+    },
+    "purpleTip": {
+      "color": "#B0A0C8",
+      "roughness": 0.38
+    },
+    "ember": {
+      "color": "#D76436",
+      "roughness": 0.5
+    },
+    "hot": {
+      "color": "#F0B25C",
+      "roughness": 0.38
+    },
+    "char": {
+      "color": "#493C3C",
+      "roughness": 0.92
+    },
+    "green": {
+      "color": "#579875",
+      "roughness": 0.5
+    },
+    "toxic": {
+      "color": "#ABD27E",
+      "roughness": 0.4
+    },
+    "bark": {
+      "color": "#344F42",
+      "roughness": 0.9
+    }
+  },
+  "parts": [
+    {
+      "id": "FireHeart_Crown",
+      "shape": {
+        "type": "cone",
+        "radius": 0.066,
+        "height": 0.1833,
+        "radialSegments": 5
+      },
+      "position": [
+        0.0037325938646222733,
+        0.17396208517185632,
+        -0.0012127932646538789
+      ],
+      "rotation": [
+        2.0901456873019142e-16,
+        18,
+        -8.000000000000002
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "ember"
+    },
+    {
+      "id": "FireHeart_Root",
+      "shape": {
+        "type": "cone",
+        "radius": 0.066,
+        "height": 0.0752,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.013375128014896482,
+        0.0459699372870084,
+        0.0043458425316764
+      ],
+      "rotation": [
+        180,
+        -18.000000000000004,
+        7.999999999999998
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "ember"
+    },
+    {
+      "id": "FireSide_Crown",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.1014,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.05455204325341784,
+        0.11426607593338431,
+        0.008362386289112423
+      ],
+      "rotation": [
+        0,
+        24.000000000000004,
+        32
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "ember"
+    },
+    {
+      "id": "FireSide_Root",
+      "shape": {
+        "type": "cone",
+        "radius": 0.031,
+        "height": 0.041600000000000005,
+        "radialSegments": 5
+      },
+      "position": [
+        -0.019938511675252752,
+        0.053630637058199856,
+        -0.007048550869319517
+      ],
+      "rotation": [
+        180,
+        -24.000000000000004,
+        -32
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "ember"
+    },
+    {
+      "id": "FireFront_Crown",
+      "shape": {
+        "type": "cone",
+        "radius": 0.024,
+        "height": 0.07800000000000001,
+        "radialSegments": 5
+      },
+      "position": [
+        0.04324043614673213,
+        0.09615249512104143,
+        0.021231049175699002
+      ],
+      "rotation": [
+        -18.000000000000004,
+        5.000000000000002,
+        -26.000000000000007
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "hot"
+    },
+    {
+      "id": "FireFront_Root",
+      "shape": {
+        "type": "cone",
+        "radius": 0.024,
+        "height": 0.032,
+        "radialSegments": 5
+      },
+      "position": [
+        0.019221770474209872,
+        0.049787634969095156,
+        0.038505407120411915
+      ],
+      "rotation": [
+        162,
+        -5.000000000000004,
+        26.000000000000007
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "material": "hot"
+    }
+  ]
+}

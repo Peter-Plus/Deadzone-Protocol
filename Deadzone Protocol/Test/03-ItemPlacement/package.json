@@ -1,0 +1,11 @@
+{
+  "name": "deadzone-item-placement-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "check": "node src/verify.mjs",
+    "browser": "node src/browser-placement.mjs && node src/browser-views.mjs",
+    "finalize": "node src/finalize.mjs"
+  }
+}

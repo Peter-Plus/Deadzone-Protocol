@@ -1,0 +1,33 @@
+{
+  "schema": "environment-library.v1",
+  "assets": [
+    {
+      "id": "FSA_ENV_Desert_basin",
+      "type": "terrain",
+      "sourceHash": "fc6752065583f16905b967323eb052280ef77d65869b51a87d489eda802ece38",
+      "modelHash": "c0239e08db87acbe9230deae41a9403adf76b14c9f5f38227af766b3044fdb36",
+      "contract": "contracts/FSA_ENV_Desert_basin.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Desert_flat",
+      "type": "terrain",
+      "sourceHash": "9dfc729a92161384de9872d111f9b3421898d41427aac522c8175861594165c5",
+      "modelHash": "46982efd43f8cd39df7eddfeea8627f9ec3722825dfa91dc1c813d4ccc3beb54",
+      "contract": "contracts/FSA_ENV_Desert_flat.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Desert_hill",
+      "type": "terrain",
+      "sourceHash": "4c9e289b4e08623d120414c8065c46dd564f4dbd55e5276543be63d7e8f3d31e",
+      "modelHash": "e6d136626dbccf863f375a4f3313a89547da0f101d84223b1dca0ceb372a864f",
+      "contract": "contracts/FSA_ENV_Desert_hill.environment.json"
+    },
+    {
+      "id": "FSA_ENV_Desert_slope",
+      "type": "terrain",
+      "sourceHash": "e1ed047cc7012111ceb6c76094102b0b9305082b1160a613ec8e88304d1121dd",
+      "modelHash": "e3b19e9d09013c460da4b07dd015d02e084f7521eaba33e5ebda4a9b3885570d",
+      "contract": "contracts/FSA_ENV_Desert_slope.environment.json"
+    }
+  ]
+}

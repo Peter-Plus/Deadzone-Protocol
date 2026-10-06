@@ -1,0 +1,32 @@
+{
+  "schema": "model.v1",
+  "id": "humanoid.example",
+  "type": "humanoid",
+  "rig": "humanoid.v1",
+  "units": "meter",
+  "body": {
+    "height": 1.8,
+    "shoulderWidth": 0.48,
+    "hipWidth": 0.32,
+    "armLengthScale": 1,
+    "legLengthScale": 1,
+    "headScale": 1
+  },
+  "material": "body.sage",
+  "sockets": [
+    {
+      "id": "grip_right",
+      "parent": "Hand_R",
+      "position": [
+        -0.06,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ]
+    }
+  ]
+}

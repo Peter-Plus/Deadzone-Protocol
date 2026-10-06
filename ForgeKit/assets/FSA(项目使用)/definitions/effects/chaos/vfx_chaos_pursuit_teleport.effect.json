@@ -1,0 +1,384 @@
+{
+  "schema": "effect.v1",
+  "id": "vfx_chaos_pursuit_teleport",
+  "name": "恶魔追击 · 瞬移血影",
+  "initialState": "vanish",
+  "states": {
+    "vanish": {
+      "duration": 0.5,
+      "loop": false,
+      "next": "finished"
+    },
+    "arrival": {
+      "duration": 0.65,
+      "loop": false,
+      "next": "finished"
+    },
+    "finished": {
+      "duration": 1,
+      "loop": true
+    }
+  },
+  "variants": {},
+  "textures": {
+    "mist": {
+      "source": "energy_mist.png"
+    },
+    "glow": {
+      "source": "energy_glow.png"
+    }
+  },
+  "layers": [
+    {
+      "id": "vanishing_shroud",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 100,
+      "seed": 12042,
+      "position": [
+        0,
+        1.8,
+        0
+      ],
+      "radii": [
+        1.3,
+        1.9,
+        0.9
+      ],
+      "size": [
+        0.5,
+        0.85
+      ],
+      "shell": 0.65,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "vanish": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.45,
+                1
+              ],
+              [
+                0.8,
+                0.9
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.5,
+                1.1
+              ],
+              [
+                1,
+                0.25
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        },
+        "arrival": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.3,
+                0.8
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.5
+              ],
+              [
+                0.25,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#100c18",
+        "opacity": 0.8,
+        "blend": "normal",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "blood_tear",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 60,
+      "seed": 12043,
+      "position": [
+        0,
+        1.8,
+        0
+      ],
+      "radii": [
+        1.25,
+        1.8,
+        0.8
+      ],
+      "size": [
+        0.24,
+        0.45
+      ],
+      "shell": 0.9,
+      "aspect": 2.4,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "vanish": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.45,
+                1
+              ],
+              [
+                0.8,
+                0.9
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.5,
+                1.1
+              ],
+              [
+                1,
+                0.25
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        },
+        "arrival": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.3,
+                0.8
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.5
+              ],
+              [
+                0.25,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#860e28",
+        "opacity": 0.65,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "id": "violet_afterimage",
+      "kind": "cloud",
+      "texture": "mist",
+      "count": 40,
+      "seed": 12044,
+      "position": [
+        0,
+        1.8,
+        0
+      ],
+      "radii": [
+        1.15,
+        1.7,
+        0.7
+      ],
+      "size": [
+        0.25,
+        0.5
+      ],
+      "shell": 0.8,
+      "aspect": 1.3,
+      "drift": [
+        0.07,
+        0.12,
+        0.07
+      ],
+      "speed": 3,
+      "rotationSpeed": 0.35,
+      "profiles": {
+        "vanish": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                0
+              ],
+              [
+                0.45,
+                1
+              ],
+              [
+                0.8,
+                0.9
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.5,
+                1.1
+              ],
+              [
+                1,
+                0.25
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        },
+        "arrival": {
+          "strength": {
+            "keys": [
+              [
+                0,
+                1
+              ],
+              [
+                0.3,
+                0.8
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "expansion": {
+            "keys": [
+              [
+                0,
+                0.5
+              ],
+              [
+                0.25,
+                1
+              ],
+              [
+                1,
+                1.15
+              ]
+            ],
+            "interpolation": "smooth"
+          },
+          "rise": 0
+        }
+      },
+      "render": {
+        "color": "#442061",
+        "opacity": 0.65,
+        "blend": "additive",
+        "depthTest": true,
+        "depthWrite": false
+      }
+    }
+  ]
+}
